@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- Main screen: choose a category, then a topic. Rendered by js/home.js from js/catalog.js (built from tools/catalog.py). -->
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DGT Study Desk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="bar"><div class="bar-in">
+  <a class="brand" href="#"><span class="tag">DGT</span><span>Study Desk</span></a>
+  <span class="sync" id="sync"><i></i><span></span></span>
+  <div class="seg" role="group" aria-label="Language / Idioma">
+    <button type="button" id="lang-en" data-lang-btn="en" aria-pressed="true">English</button>
+    <button type="button" id="lang-es" data-lang-btn="es" aria-pressed="false">Español</button>
+  </div>
+  <div class="seg" role="group" aria-label="Theme / Tema">
+    <button type="button" id="theme-light" data-theme-btn="light" aria-pressed="true">Light</button>
+    <button type="button" id="theme-dark" data-theme-btn="dark" aria-pressed="false">Dark</button>
+  </div>
+</div></header>
+<main class="home" id="home"><noscript><p>This page needs JavaScript. / Esta página necesita JavaScript.</p></noscript></main>
+<script src="js/catalog.js"></script>
+<script src="js/shared.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>

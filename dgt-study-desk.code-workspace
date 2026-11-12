@@ -1,0 +1,79 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.port": 5173,
+    "liveServer.settings.ignoreFiles": [
+      "tools/**",
+      "pdf/**",
+      "progress/**",
+      ".vscode/**"
+    ],
+    "files.exclude": {
+      "**/__pycache__": true
+    },
+    "editor.tabSize": 2,
+    "[python]": {
+      "editor.tabSize": 4
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "ritwickdey.liveserver",
+      "ms-python.python"
+    ]
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Serve",
+        "type": "npm",
+        "script": "start",
+        "isBackground": true,
+        "problemMatcher": {
+          "pattern": {
+            "regexp": "^$"
+          },
+          "background": {
+            "activeOnStart": true,
+            "beginsPattern": "serve",
+            "endsPattern": "Accepting connections|Serving"
+          }
+        }
+      },
+      {
+        "label": "Rebuild page from content",
+        "type": "npm",
+        "script": "build",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "Rebuild PDFs",
+        "type": "npm",
+        "script": "build:pdf",
+        "problemMatcher": []
+      }
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Open in Chrome",
+        "type": "chrome",
+        "request": "launch",
+        "url": "http://localhost:5173",
+        "webRoot": "${workspaceFolder}",
+        "preLaunchTask": "Serve"
+      }
+    ]
+  }
+}

@@ -1,0 +1,339 @@
+// Shared by the main screen (home.js) and the topic pages (app.js): preferences, saving progress,
+// export/import, and the header controls (language, theme, save indicator). Exposed as window.DGT.
+//
+// Where progress lives:
+//   - always in this browser's localStorage: one key per topic ("dgt-progress-b-01") and one for preferences
+//   - plus one remote copy, when available:
+//       file  - progress/progress.json, when the pages are served by `npm start` (server.js)
+//       cloud - the Claude account, when the page runs as a Claude artifact
+// When a page opens, each topic keeps whichever copy (browser or remote) changed last.
+(function () {
+  'use strict';
+  var ROOT = new URL('../', document.currentScript.src).href;   // project root, from js/shared.js
+  var API = ROOT + 'api/progress';
+  var K_PREFS = 'dgt-prefs', K_LAST = 'dgt-last-topic', K_TOPIC = 'dgt-progress-';
+  var K_V1 = 'dgt-topic1-v1', V1_TOPIC = 'b-01';                  // before topics existed, Topic 1 was the only one
+  var TOPIC_ID = /^[a-z]-\d{2}$/;
+
+  var TXT = {
+    en: { light: 'Light', dark: 'Dark', saveCloud: 'Progress saved to your account', saveFile: 'Progress saved in the project folder', saveLocal: 'Progress saved in this browser only' },
+    es: { light: 'Claro', dark: 'Oscuro', saveCloud: 'Progreso guardado en tu cuenta', saveFile: 'Progreso guardado en la carpeta del proyecto', saveLocal: 'Progreso guardado solo en este navegador' }
+  };
+
+  // ------------------------------------------------------------------ shapes
+  function num(x) { return typeof x === 'number' && isFinite(x); }
+  function clone(o) { return JSON.parse(JSON.stringify(o)); }
+  function freshTopic() { return { v: 1, updated: 0, stats: {}, sessions: [], cur: null, task: null, ai: null }; }
+  function saneTopic(o) {
+    if (!o || typeof o !== 'object' || o.v !== 1) return null;
+    var b = freshTopic();
+    Object.keys(b).forEach(function (k) { if (o[k] !== undefined && o[k] !== null) b[k] = o[k]; });
+    if (!num(b.updated)) b.updated = 0;
+    var stats = {};
+    if (b.stats && typeof b.stats === 'object') Object.keys(b.stats).forEach(function (id) {
+      var x = b.stats[id];
+      if (x && typeof x === 'object' && typeof x.tag === 'string' && num(x.r) && num(x.w)) stats[id] = x;
+    });
+    b.stats = stats;
+    b.sessions = Array.isArray(b.sessions) ? b.sessions.filter(function (s) { return s && num(s.t); }) : [];
+    return b;
+  }
+  function sanePrefs(o) {
+    var p = { lang: null, theme: null, updated: 0 };
+    if (!o || typeof o !== 'object') return p;
+    if (o.lang === 'en' || o.lang === 'es') p.lang = o.lang;
+    if (o.theme === 'light' || o.theme === 'dark') p.theme = o.theme;
+    if (num(o.updated)) p.updated = o.updated;
+    return p;
+  }
+  // Reads any progress document: the current format ({topics: {...}}), the old one-topic format ({state}),
+  // or a bare old state. Returns {topicId: state} or null.
+  function topicsOf(doc) {
+    if (!doc || typeof doc !== 'object') return null;
+    var out = {};
+    if (doc.topics && typeof doc.topics === 'object') {
+      Object.keys(doc.topics).forEach(function (id) { var st = TOPIC_ID.test(id) && saneTopic(doc.topics[id]); if (st) out[id] = st; });
+      return out;
+    }
+    var old = saneTopic('state' in doc ? doc.state : doc);
+    if (!old) return null;
+    out[V1_TOPIC] = old;
+    return out;
+  }
+
+  // ------------------------------------------------------------------ browser storage
+  var mem = {};   // in-memory copy, so saving still works when localStorage is blocked
+  function lsGet(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } }
+  function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* storage may be unavailable */ } }
+  function localIds() {
+    var ids = {};
+    try { for (var i = 0; i < localStorage.length; i++) { var k = localStorage.key(i); if (k && k.indexOf(K_TOPIC) === 0) ids[k.slice(K_TOPIC.length)] = 1; } } catch (e) { /* unavailable */ }
+    Object.keys(mem).forEach(function (id) { ids[id] = 1; });
+    return Object.keys(ids).filter(function (id) { return TOPIC_ID.test(id); });
+  }
+  function loadTopic(id) { return mem[id] ? clone(mem[id]) : saneTopic(lsGet(K_TOPIC + id)); }
+  function storeTopic(id, st) { mem[id] = clone(st); lsSet(K_TOPIC + id, st); }
+
+  // One-time move of the old single-topic key. The old key is left in place as a fallback copy.
+  (function migrate() {
+    var old = lsGet(K_V1);
+    if (!old || lsGet(K_TOPIC + V1_TOPIC)) return;
+    var st = saneTopic(old); if (st) lsSet(K_TOPIC + V1_TOPIC, st);
+    if (!lsGet(K_PREFS)) lsSet(K_PREFS, sanePrefs({ lang: old.lang, theme: old.theme, updated: num(old.updated) ? old.updated : 0 }));
+  })();
+
+  var P = sanePrefs(lsGet(K_PREFS));
+
+  // ------------------------------------------------------------------ change notifications
+  var listeners = [];
+  function on(fn) { listeners.push(fn); }
+  function emit(ev) { listeners.forEach(function (fn) { try { fn(ev); } catch (e) { console.error(e); } }); }
+
+  // ------------------------------------------------------------------ remote copy
+  // A remote has kind, sync(ids) -> Promise, put(key, data) -> Promise. key is a topic id or '@prefs'.
+  // put() rejects with {fatal: true} when retrying cannot help.
+  var remote = null, mode = 'local', probing = true;
+  var pending = {}, writing = false, timer = null, retryMs = 5000;
+
+  function setMode(m) {
+    if (m === mode) return;
+    mode = m; paintSync(); emit({ type: 'mode' });
+  }
+  function payload(key) { return key === '@prefs' ? P : loadTopic(key); }
+  function queue(key) {
+    if (!remote) return;
+    pending[key] = true;
+    clearTimeout(timer); retryMs = 5000; timer = setTimeout(flush, 700);
+  }
+  function flush() {
+    clearTimeout(timer); timer = null;
+    if (!remote || writing) return;
+    var keys = Object.keys(pending); if (!keys.length) return;
+    pending = {}; writing = true;
+    var r = remote, failed = [], fatal = false;
+    Promise.all(keys.map(function (k) {
+      var data = payload(k);
+      if (!data) return null;
+      return r.put(k, clone(data)).catch(function (e) { failed.push(k); if (e && e.fatal) fatal = true; });
+    })).then(function () {
+      writing = false;
+      if (fatal) { remote = null; setMode('local'); return; }
+      if (failed.length) {
+        // Temporary problem (server stopped, network down): try again later, backing off up to a minute.
+        failed.forEach(function (k) { pending[k] = true; });
+        setMode('local');
+        timer = setTimeout(flush, retryMs); retryMs = Math.min(retryMs * 2, 60000);
+        return;
+      }
+      retryMs = 5000; setMode(r.kind);
+      if (Object.keys(pending).length) flush();
+    });
+  }
+  // Bring browser and remote in line: per topic the newer copy wins; newer local copies are pushed.
+  function reconcile(r, remoteTopics, remotePrefs, ids) {
+    var changed = [], prefsChanged = false;
+    if (remotePrefs && remotePrefs.updated > P.updated) { P = remotePrefs; lsSet(K_PREFS, P); prefsChanged = true; }
+    remote = r;
+    if (r.kind === 'file' && P.updated > (remotePrefs ? remotePrefs.updated : 0)) queue('@prefs');
+    ids.forEach(function (id) {
+      var loc = loadTopic(id), rem = remoteTopics[id];
+      if (rem && (!loc || rem.updated > loc.updated)) { storeTopic(id, rem); changed.push(id); }
+      else if (loc && loc.updated > (rem ? rem.updated : 0)) queue(id);
+    });
+    flush();
+    setMode(r.kind);
+    if (prefsChanged) applyPrefs();
+    if (changed.length || prefsChanged) emit({ type: 'remote', topics: changed, prefs: prefsChanged });
+  }
+  function withTimeout(p) {
+    return Promise.race([p, new Promise(function (_, rej) { setTimeout(function () { rej(new Error('timeout')); }, 10000); })]);
+  }
+
+  function fileRemote() {
+    function put(key, data, keepalive) {
+      var url = API + (key === '@prefs' ? '/prefs' : '/topics/' + key);
+      var body = key === '@prefs' ? { prefs: data } : { state: data };
+      return fetch(url, { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body), keepalive: !!keepalive })
+        .then(function (res) { if (!res.ok) throw { fatal: res.status < 500 }; }, function () { throw { fatal: false }; });
+    }
+    return { kind: 'file', put: put };
+  }
+  function connectFile() {
+    // Only server.js answers this. Live Server answers 404 and file:// has no server: both stay on browser storage.
+    return withTimeout(fetch(API, { cache: 'no-store' }).then(function (res) {
+      if (!res.ok) throw new Error('no progress API');
+      return res.json();
+    })).then(function (doc) {
+      var topics = topicsOf(doc);
+      if (!topics) throw new Error('not a progress document');
+      var ids = localIds(); Object.keys(topics).forEach(function (id) { if (ids.indexOf(id) < 0) ids.push(id); });
+      reconcile(fileRemote(), topics, doc.prefs ? sanePrefs(doc.prefs) : null, ids);
+    });
+  }
+  function connectCloud(ids) {
+    return Promise.all([window.claude.use('db'), window.claude.use('user')]).then(function (r) {
+      var db = r[0], user = r[1];
+      if (!db || !user) throw new Error('no db');
+      return user.id().then(function (uid) {
+        if (!uid) throw new Error('no user');
+        // Topic 1 keeps the document name it had before topics existed.
+        function ref(id) { return db.doc('data/users/' + uid + '/' + (id === V1_TOPIC ? 'topic1' : id)); }
+        return withTimeout(Promise.all(ids.map(function (id) {
+          return ref(id).get().then(function (snap) { return snap.exists ? saneTopic(clone((snap.data() || {}).state || null)) : null; });
+        }))).then(function (states) {
+          var topics = {}; ids.forEach(function (id, i) { if (states[i]) topics[id] = states[i]; });
+          reconcile({
+            kind: 'cloud',
+            put: function (key, data) {
+              if (key === '@prefs') return Promise.resolve();   // preferences stay per device in the artifact
+              return ref(key).set({ state: data }).catch(function (e) {
+                throw { fatal: !(e && (e.code === 'unavailable' || e.code === 'resource_exhausted')) };
+              });
+            }
+          }, topics, null, ids);
+        });
+      });
+    });
+  }
+
+  // Closing the tab inside the 700 ms save delay would lose the last change from the file, so send it now.
+  window.addEventListener('pagehide', function () {
+    if (!remote || remote.kind !== 'file') return;
+    var keys = Object.keys(pending); if (!keys.length) return;
+    clearTimeout(timer); timer = null; pending = {};
+    keys.forEach(function (k) { var d = payload(k); if (d) remote.put(k, clone(d), true).catch(function () {}); });
+  });
+  // Another tab of this site changed something: pick it up so this tab never saves an older copy over it.
+  window.addEventListener('storage', function (e) {
+    if (!e.key) return;
+    if (e.key.indexOf(K_TOPIC) === 0) {
+      var id = e.key.slice(K_TOPIC.length); delete mem[id];
+      emit({ type: 'remote', topics: [id], prefs: false });
+    } else if (e.key === K_PREFS) {
+      P = sanePrefs(lsGet(K_PREFS)); applyPrefs(); emit({ type: 'remote', topics: [], prefs: true });
+    }
+  });
+
+  // ------------------------------------------------------------------ public: topics
+  function saveTopic(id, st) {
+    st.updated = Date.now();
+    storeTopic(id, st);
+    queue(id);
+  }
+  function topicSummary(id) {
+    var st = loadTopic(id); if (!st) return null;
+    var aiIds = {};
+    if (st.ai && Array.isArray(st.ai.questions)) st.ai.questions.forEach(function (q) { if (q && q.id) aiIds[q.id] = 1; });
+    var s = { r: 0, w: 0, seen: 0, open: 0, unfinished: !!st.cur, tests: st.sessions.length, updated: st.updated };
+    Object.keys(st.stats).forEach(function (qid) {
+      var x = st.stats[qid], ai = qid.indexOf('ai') === 0;
+      s.r += x.r; s.w += x.w;
+      if (!ai) s.seen++;
+      if (x.w > 0 && x.streak < 2 && (!ai || aiIds[qid])) s.open++;
+    });
+    return s;
+  }
+
+  // ------------------------------------------------------------------ public: export / import
+  function exportDoc() {
+    var topics = {};
+    localIds().forEach(function (id) {
+      var st = loadTopic(id);
+      if (st && (Object.keys(st.stats).length || st.sessions.length || st.cur)) topics[id] = st;
+    });
+    return { app: 'dgt-study-desk', kind: 'progress', v: 2, saved: new Date().toISOString(), prefs: P, topics: topics };
+  }
+  // Per question, keep whichever record was answered most recently, so moving back and forth between
+  // computers never loses anything. Tests in the history are combined. The unfinished test, study task and
+  // Claude's questions come from whichever side changed last.
+  function merge(base, inc) {
+    var out = clone(base);
+    Object.keys(inc.stats).forEach(function (id) {
+      var a = out.stats[id], b = inc.stats[id];
+      if (!a || (b.last || 0) > (a.last || 0)) out.stats[id] = b;
+    });
+    var seen = {};
+    out.sessions = base.sessions.concat(inc.sessions).filter(function (s) {
+      var k = [s.t, s.mode, s.total, s.good].join('|');
+      if (seen[k]) return false; seen[k] = true; return true;
+    }).sort(function (a, b) { return b.t - a.t; }).slice(0, 30);
+    if (inc.updated > base.updated) { out.cur = inc.cur; out.task = inc.task; out.ai = inc.ai; }
+    return out;
+  }
+  // Merges a parsed export (or an old one-topic export) into this browser. Language and theme stay as they are.
+  // Returns {topics, questions, tests, date} or null when the document is not progress.
+  function importDoc(doc) {
+    var inc = topicsOf(doc);
+    if (!inc || !Object.keys(inc).length) return null;
+    var sum = { topics: 0, questions: 0, tests: 0, date: 0 };
+    Object.keys(inc).forEach(function (id) {
+      var st = inc[id];
+      saveTopic(id, merge(loadTopic(id) || freshTopic(), st));
+      sum.topics++; sum.questions += Object.keys(st.stats).length; sum.tests += st.sessions.length;
+      sum.date = Math.max(sum.date, st.updated);
+    });
+    emit({ type: 'import', topics: Object.keys(inc) });
+    return sum;
+  }
+
+  // ------------------------------------------------------------------ public: preferences + header
+  function lang() { return P.lang || ((navigator.language || 'en').toLowerCase().indexOf('es') === 0 ? 'es' : 'en'); }
+  function t(k) { return TXT[lang()][k] || k; }
+  function theme() {
+    if (P.theme) return P.theme;
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+  function setPrefs(patch) {
+    Object.keys(patch).forEach(function (k) { P[k] = patch[k]; });
+    P.updated = Date.now(); lsSet(K_PREFS, P); queue('@prefs');
+    applyPrefs();
+  }
+  function paintSync() {
+    var el = document.getElementById('sync'); if (!el) return;
+    el.className = 'sync' + (mode === 'local' ? '' : ' on');
+    el.lastChild.textContent = t({ cloud: 'saveCloud', file: 'saveFile' }[mode] || 'saveLocal');
+  }
+  function applyPrefs() {
+    var root = document.documentElement, lg = lang(), th = theme();
+    root.setAttribute('data-lang', lg); root.setAttribute('lang', lg);
+    if (P.theme) root.setAttribute('data-theme', P.theme); else root.removeAttribute('data-theme');
+    ['en', 'es'].forEach(function (x) { var b = document.getElementById('lang-' + x); if (b) b.setAttribute('aria-pressed', String(x === lg)); });
+    ['light', 'dark'].forEach(function (x) { var b = document.getElementById('theme-' + x); if (b) { b.setAttribute('aria-pressed', String(x === th)); b.textContent = t(x); } });
+    paintSync();
+    emit({ type: 'prefs' });
+  }
+  // A page may set DGT.beforeLang = function (newLang) { return afterFn; } to keep its scroll position.
+  document.addEventListener('click', function (ev) {
+    var el = ev.target.closest('[data-lang-btn],[data-theme-btn]'); if (!el) return;
+    if (el.hasAttribute('data-theme-btn')) return setPrefs({ theme: el.getAttribute('data-theme-btn') });
+    var lg = el.getAttribute('data-lang-btn'); if (lg === lang()) return;
+    var after = typeof api.beforeLang === 'function' ? api.beforeLang(lg) : null;
+    setPrefs({ lang: lg });
+    if (typeof after === 'function') after();
+  });
+
+  // ------------------------------------------------------------------ start
+  // ids: the topics this page needs from a Claude account (the project file always brings all of them).
+  function start(ids) {
+    applyPrefs();
+    var p;
+    if (window.claude && typeof window.claude.use === 'function') p = connectCloud(ids || []);
+    else if (/^https?:$/.test(location.protocol)) p = connectFile();
+    else p = Promise.resolve();
+    return p.catch(function () { /* stay on browser storage */ }).then(function () {
+      probing = false; emit({ type: 'ready' });
+    });
+  }
+
+  var api = {
+    start: start, on: on,
+    lang: lang, theme: theme, setPrefs: setPrefs,
+    mode: function () { return mode; }, probing: function () { return probing; },
+    loadTopic: loadTopic, saveTopic: saveTopic, freshTopic: freshTopic, topicSummary: topicSummary, flush: flush,
+    exportDoc: exportDoc, importDoc: importDoc,
+    last: function () { try { return localStorage.getItem(K_LAST); } catch (e) { return null; } },
+    setLast: function (id) { try { localStorage.setItem(K_LAST, id); } catch (e) { /* unavailable */ } },
+    beforeLang: null
+  };
+  window.DGT = api;
+})();

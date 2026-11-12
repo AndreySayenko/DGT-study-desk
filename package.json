@@ -1,0 +1,11 @@
+{
+  "name": "dgt-study-desk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Study notes and tests for the Spanish DGT category B theory exam",
+  "scripts": {
+    "start": "node server.js",
+    "build": "python3 tools/build_site.py",
+    "build:pdf": "python3 tools/build_pdf.py v1"
+  }
+}
