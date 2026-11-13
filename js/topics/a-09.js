@@ -2,9 +2,15 @@
 window.DGT_DATA = {
  "topic": "a-09",
  "category": "a",
+ "langs": [
+  "en",
+  "es",
+  "uk"
+ ],
  "title": {
   "en": "Topic 9 · Documentation",
-  "es": "Tema 9 · Documentación"
+  "es": "Tema 9 · Documentación",
+  "uk": "Тема 9 · Документи"
  },
  "bank": [
   {
@@ -12,25 +18,30 @@ window.DGT_DATA = {
    "tag": "docs",
    "q": {
     "en": "An agent stops you on your motorcycle and asks for your licence. In which forms may you show it?",
-    "es": "Un agente te para en moto y te pide el permiso. ¿En qué formatos puedes mostrarlo?"
+    "es": "Un agente te para en moto y te pide el permiso. ¿En qué formatos puedes mostrarlo?",
+    "uk": "Поліцейський зупиняє вас на мотоциклі й просить посвідчення водія. У якому вигляді його можна показати?"
    },
    "o": [
     {
      "en": "The original, a certified photocopy or the miDGT app",
-     "es": "El original, una fotocopia compulsada o la app miDGT"
+     "es": "El original, una fotocopia compulsada o la app miDGT",
+     "uk": "Оригінал, засвідчена копія чи застосунок miDGT"
     },
     {
      "en": "Only the original card",
-     "es": "Solo la tarjeta original"
+     "es": "Solo la tarjeta original",
+     "uk": "Лише оригінал картки"
     },
     {
      "en": "Any photo of it on the phone",
-     "es": "Cualquier foto del permiso en el móvil"
+     "es": "Cualquier foto del permiso en el móvil",
+     "uk": "Будь-яке фото на телефоні"
     }
    ],
    "why": {
     "en": "The documents may be shown in their physical original, as a certified photocopy or in digital form in miDGT.",
-    "es": "Los documentos pueden mostrarse en original, fotocopia compulsada o en formato digital en miDGT."
+    "es": "Los documentos pueden mostrarse en original, fotocopia compulsada o en formato digital en miDGT.",
+    "uk": "Документи можна показати в паперовому оригіналі, засвідченою копією чи в цифровому вигляді в miDGT."
    }
   },
   {
@@ -38,25 +49,30 @@ window.DGT_DATA = {
    "tag": "docs",
    "q": {
     "en": "You are going on a motorcycle trip to Portugal with your licence only in the miDGT app. Is that enough?",
-    "es": "Haces un viaje en moto a Portugal y llevas el permiso solo en la app miDGT. ¿Es suficiente?"
+    "es": "Haces un viaje en moto a Portugal y llevas el permiso solo en la app miDGT. ¿Es suficiente?",
+    "uk": "Ви їдете мотоциклом до Португалії, а посвідчення маєте лише в застосунку miDGT. Цього досить?"
    },
    "o": [
     {
      "en": "No: the app is valid only in Spain; abroad, carry the physical documents",
-     "es": "No: la app solo vale en España; en el extranjero hay que llevar los documentos físicos"
+     "es": "No: la app solo vale en España; en el extranjero hay que llevar los documentos físicos",
+     "uk": "Ні: застосунок дійсний лише в Іспанії; за кордон беріть паперові документи"
     },
     {
      "en": "Yes, in any EU country",
-     "es": "Sí, en cualquier país de la UE"
+     "es": "Sí, en cualquier país de la UE",
+     "uk": "Так, у будь-якій країні ЄС"
     },
     {
      "en": "Yes, if you also carry the certificate on paper",
-     "es": "Sí, si además llevas el permiso de circulación en papel"
+     "es": "Sí, si además llevas el permiso de circulación en papel",
+     "uk": "Так, якщо маєте ще й паперову довідку"
     }
    ],
    "why": {
     "en": "miDGT has the same value as paper for traffic purposes, but only in Spain.",
-    "es": "miDGT tiene la misma validez que el papel a efectos de tráfico, pero solo en España."
+    "es": "miDGT tiene la misma validez que el papel a efectos de tráfico, pero solo en España.",
+    "uk": "miDGT має ту саму силу, що й папір, для потреб руху, але лише в Іспанії."
    }
   },
   {
@@ -64,25 +80,30 @@ window.DGT_DATA = {
    "tag": "docs",
    "q": {
     "en": "How many driving licences issued by EU states may one person hold?",
-    "es": "¿De cuántos permisos expedidos por Estados de la UE puede ser titular una persona?"
+    "es": "¿De cuántos permisos expedidos por Estados de la UE puede ser titular una persona?",
+    "uk": "Скільки посвідчень водія, виданих державами ЄС, може мати одна людина?"
    },
    "o": [
     {
      "en": "One, with all its classes",
-     "es": "Uno, con todas sus clases"
+     "es": "Uno, con todas sus clases",
+     "uk": "Одне, з усіма категоріями"
     },
     {
      "en": "One per class",
-     "es": "Uno por cada clase"
+     "es": "Uno por cada clase",
+     "uk": "По одному на категорію"
     },
     {
      "en": "Two, if they live in two countries",
-     "es": "Dos, si vive en dos países"
+     "es": "Dos, si vive en dos países",
+     "uk": "Два, якщо живе у двох країнах"
     }
    ],
    "why": {
     "en": "Nobody may hold more than one; all the classes go on a single document.",
-    "es": "Nadie puede ser titular de más de uno; todas las clases constan en un único documento."
+    "es": "Nadie puede ser titular de más de uno; todas las clases constan en un único documento.",
+    "uk": "Ніхто не може мати більше одного; усі категорії вносять в один документ."
    }
   },
   {
@@ -90,25 +111,30 @@ window.DGT_DATA = {
    "tag": "docs",
    "q": {
     "en": "You must wear glasses to reach the minimum eyesight. What kind of licence do you get?",
-    "es": "Necesitas gafas para alcanzar la agudeza visual mínima. ¿Qué tipo de permiso obtienes?"
+    "es": "Necesitas gafas para alcanzar la agudeza visual mínima. ¿Qué tipo de permiso obtienes?",
+    "uk": "Ви мусите носити окуляри, щоб мати мінімальний зір. Яке посвідчення отримуєте?"
    },
    "o": [
     {
      "en": "An ordinary licence",
-     "es": "Un permiso ordinario"
+     "es": "Un permiso ordinario",
+     "uk": "Звичайне"
     },
     {
      "en": "An extraordinary licence",
-     "es": "Un permiso extraordinario"
+     "es": "Un permiso extraordinario",
+     "uk": "Особливе"
     },
     {
      "en": "A temporary licence",
-     "es": "Un permiso temporal"
+     "es": "Un permiso temporal",
+     "uk": "Тимчасове"
     }
    ],
    "why": {
     "en": "Having to wear glasses or hearing aids does not make a licence extraordinary.",
-    "es": "La obligación de usar lentes o audífonos no le hace perder su carácter ordinario."
+    "es": "La obligación de usar lentes o audífonos no le hace perder su carácter ordinario.",
+    "uk": "Обов’язок носити окуляри чи слухові апарати не робить посвідчення особливим."
    }
   },
   {
@@ -116,25 +142,30 @@ window.DGT_DATA = {
    "tag": "docs",
    "q": {
     "en": "Which tests must you pass to be declared fit (apto) for a motorcycle licence?",
-    "es": "¿Qué pruebas hay que superar para ser declarado apto para un permiso de moto?"
+    "es": "¿Qué pruebas hay que superar para ser declarado apto para un permiso de moto?",
+    "uk": "Які іспити треба скласти, щоб вас визнали придатним (apto) для посвідчення на мотоцикл?"
    },
    "o": [
     {
      "en": "Knowledge, skills, aptitudes and behaviour",
-     "es": "Conocimientos, habilidades, aptitudes y comportamientos"
+     "es": "Conocimientos, habilidades, aptitudes y comportamientos",
+     "uk": "Знання, навички, здібності й поведінка"
     },
     {
      "en": "Only a theory test",
-     "es": "Solo una prueba teórica"
+     "es": "Solo una prueba teórica",
+     "uk": "Лише теорія"
     },
     {
      "en": "Only a medical check",
-     "es": "Solo un reconocimiento médico"
+     "es": "Solo un reconocimiento médico",
+     "uk": "Лише медогляд"
     }
    ],
    "why": {
     "en": "The Provincial Traffic Office declares you fit in the tests of knowledge, skills, aptitudes and behaviour.",
-    "es": "La Jefatura Provincial de Tráfico declara apto en las pruebas de conocimientos, habilidades, aptitudes y comportamientos."
+    "es": "La Jefatura Provincial de Tráfico declara apto en las pruebas de conocimientos, habilidades, aptitudes y comportamientos.",
+    "uk": "Провінційне управління дорожнього руху визнає вас придатним за іспитами на знання, навички, здібності й поведінку."
    }
   },
   {
@@ -142,25 +173,30 @@ window.DGT_DATA = {
    "tag": "docs",
    "q": {
     "en": "After an injury you no longer have the required physical fitness, but your licence is still in force. May you ride?",
-    "es": "Tras una lesión ya no reúnes las aptitudes físicas requeridas, pero el permiso sigue en vigor. ¿Puedes conducir?"
+    "es": "Tras una lesión ya no reúnes las aptitudes físicas requeridas, pero el permiso sigue en vigor. ¿Puedes conducir?",
+    "uk": "Після травми ви втратили потрібну фізичну придатність, але посвідчення ще чинне. Чи можна їздити?"
    },
    "o": [
     {
      "en": "No, until you recover the fitness",
-     "es": "No, hasta recuperarlas"
+     "es": "No, hasta recuperarlas",
+     "uk": "Ні, доки не відновите придатність"
     },
     {
      "en": "Yes, until the licence expires",
-     "es": "Sí, hasta que caduque el permiso"
+     "es": "Sí, hasta que caduque el permiso",
+     "uk": "Так, доки не закінчиться строк посвідчення"
     },
     {
      "en": "Yes, but only in town",
-     "es": "Sí, pero solo en ciudad"
+     "es": "Sí, pero solo en ciudad",
+     "uk": "Так, але лише в місті"
     }
    ],
    "why": {
     "en": "If fitness is lost through illness, injury or anything else, you may not drive until you recover it.",
-    "es": "Si se pierden las aptitudes, no se podrá conducir hasta recuperarlas."
+    "es": "Si se pierden las aptitudes, no se podrá conducir hasta recuperarlas.",
+    "uk": "Якщо придатність втрачено через хворобу, травму чи інше, їздити не можна, доки її не відновлено."
    }
   },
   {
@@ -168,25 +204,30 @@ window.DGT_DATA = {
    "tag": "docs",
    "q": {
     "en": "Your physical condition changes and the motorcycle has to be adapted. What must you do?",
-    "es": "Cambian tus condiciones físicas y hay que adaptar la motocicleta. ¿Qué debes hacer?"
+    "es": "Cambian tus condiciones físicas y hay que adaptar la motocicleta. ¿Qué debes hacer?",
+    "uk": "Ваш фізичний стан змінився, і мотоцикл треба пристосувати. Що ви мусите зробити?"
    },
    "o": [
     {
      "en": "Tell the Traffic Office, even though the licence is in force",
-     "es": "Comunicarlo a la Jefatura de Tráfico, aunque el permiso esté en vigor"
+     "es": "Comunicarlo a la Jefatura de Tráfico, aunque el permiso esté en vigor",
+     "uk": "Повідомити Управління дорожнього руху, хоч посвідчення й чинне"
     },
     {
      "en": "Nothing until the next renewal",
-     "es": "Nada hasta la próxima renovación"
+     "es": "Nada hasta la próxima renovación",
+     "uk": "Нічого до наступного продовження"
     },
     {
      "en": "Only tell the insurer",
-     "es": "Solo comunicarlo a la aseguradora"
+     "es": "Solo comunicarlo a la aseguradora",
+     "uk": "Повідомити лише страховика"
     }
    ],
    "why": {
     "en": "When the vehicle must be adapted, the Traffic Office must be told even if the licence is in force.",
-    "es": "Si hay que adaptar el vehículo, se debe comunicar a la Jefatura aunque el permiso esté en vigor."
+    "es": "Si hay que adaptar el vehículo, se debe comunicar a la Jefatura aunque el permiso esté en vigor.",
+    "uk": "Коли транспортний засіб треба пристосувати, Управлінню треба повідомити, навіть якщо посвідчення чинне."
    }
   },
   {
@@ -194,25 +235,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "What is the minimum age for the A1 licence?",
-    "es": "¿Cuál es la edad mínima para el permiso A1?"
+    "es": "¿Cuál es la edad mínima para el permiso A1?",
+    "uk": "Який мінімальний вік для посвідчення A1?"
    },
    "o": [
     {
      "en": "16",
-     "es": "16 años"
+     "es": "16 años",
+     "uk": "16"
     },
     {
      "en": "15",
-     "es": "15 años"
+     "es": "15 años",
+     "uk": "15"
     },
     {
      "en": "18",
-     "es": "18 años"
+     "es": "18 años",
+     "uk": "18"
     }
    ],
    "why": {
     "en": "A1 from 16; AM from 15; A2 from 18.",
-    "es": "A1 desde los 16; AM desde los 15; A2 desde los 18."
+    "es": "A1 desde los 16; AM desde los 15; A2 desde los 18.",
+    "uk": "A1 з 16; AM з 15; A2 з 18."
    }
   },
   {
@@ -220,25 +266,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "Which motorcycle may you ride with an A1?",
-    "es": "¿Qué motocicleta puedes conducir con el A1?"
+    "es": "¿Qué motocicleta puedes conducir con el A1?",
+    "uk": "Яким мотоциклом можна їздити з A1?"
    },
    "o": [
     {
      "en": "Up to 125 cc, 11 kW and 0.1 kW/kg",
-     "es": "Hasta 125 c.c., 11 kW y 0,1 kW/kg"
+     "es": "Hasta 125 c.c., 11 kW y 0,1 kW/kg",
+     "uk": "До 125 см³, 11 кВт і 0,1 кВт/кг"
     },
     {
      "en": "Up to 125 cc and 15 kW",
-     "es": "Hasta 125 c.c. y 15 kW"
+     "es": "Hasta 125 c.c. y 15 kW",
+     "uk": "До 125 см³ і 15 кВт"
     },
     {
      "en": "Up to 35 kW and 0.2 kW/kg",
-     "es": "Hasta 35 kW y 0,2 kW/kg"
+     "es": "Hasta 35 kW y 0,2 kW/kg",
+     "uk": "До 35 кВт і 0,2 кВт/кг"
     }
    ],
    "why": {
     "en": "The A1 motorcycle must meet all three limits: 125 cc, 11 kW and 0.1 kW/kg.",
-    "es": "La moto del A1 debe cumplir los tres límites: 125 c.c., 11 kW y 0,1 kW/kg."
+    "es": "La moto del A1 debe cumplir los tres límites: 125 c.c., 11 kW y 0,1 kW/kg.",
+    "uk": "Мотоцикл A1 мусить відповідати всім трьом межам: 125 см³, 11 кВт і 0,1 кВт/кг."
    }
   },
   {
@@ -246,25 +297,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "Besides A1 motorcycles, what else does the A1 licence let you drive?",
-    "es": "Además de las motos del A1, ¿qué más permite conducir el A1?"
+    "es": "Además de las motos del A1, ¿qué más permite conducir el A1?",
+    "uk": "Чим ще, крім мотоциклів A1, дозволяє керувати посвідчення A1?"
    },
    "o": [
     {
      "en": "Motor tricycles up to 15 kW, mopeds and light quadricycles",
-     "es": "Triciclos de motor de hasta 15 kW, ciclomotores y cuadriciclos ligeros"
+     "es": "Triciclos de motor de hasta 15 kW, ciclomotores y cuadriciclos ligeros",
+     "uk": "Трициклами до 15 кВт, мопедами й легкими квадрициклами"
     },
     {
      "en": "Cars with automatic gearbox",
-     "es": "Turismos con cambio automático"
+     "es": "Turismos con cambio automático",
+     "uk": "Легковиками з автоматичною коробкою"
     },
     {
      "en": "Any motor tricycle",
-     "es": "Cualquier triciclo de motor"
+     "es": "Cualquier triciclo de motor",
+     "uk": "Будь-якими трициклами"
     }
    ],
    "why": {
     "en": "A1 also covers tricycles up to 15 kW, reduced-mobility vehicles and, because it includes AM, mopeds and light quadricycles.",
-    "es": "El A1 también cubre triciclos de hasta 15 kW, vehículos de movilidad reducida y, como incluye el AM, ciclomotores y cuadriciclos ligeros."
+    "es": "El A1 también cubre triciclos de hasta 15 kW, vehículos de movilidad reducida y, como incluye el AM, ciclomotores y cuadriciclos ligeros.",
+    "uk": "A1 також охоплює трицикли до 15 кВт, ТЗ для осіб з обмеженою рухливістю і, оскільки включає AM, мопеди й легкі квадрицикли."
    }
   },
   {
@@ -272,25 +328,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "What is the minimum age for the A2 licence?",
-    "es": "¿Cuál es la edad mínima para el permiso A2?"
+    "es": "¿Cuál es la edad mínima para el permiso A2?",
+    "uk": "Який мінімальний вік для посвідчення A2?"
    },
    "o": [
     {
      "en": "18",
-     "es": "18 años"
+     "es": "18 años",
+     "uk": "18"
     },
     {
      "en": "16",
-     "es": "16 años"
+     "es": "16 años",
+     "uk": "16"
     },
     {
      "en": "20",
-     "es": "20 años"
+     "es": "20 años",
+     "uk": "20"
     }
    ],
    "why": {
     "en": "A2 from 18.",
-    "es": "A2 desde los 18 años."
+    "es": "A2 desde los 18 años.",
+    "uk": "A2 з 18."
    }
   },
   {
@@ -298,25 +359,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "What are the power limits of an A2 motorcycle?",
-    "es": "¿Cuáles son los límites de potencia de una moto del A2?"
+    "es": "¿Cuáles son los límites de potencia de una moto del A2?",
+    "uk": "Які межі потужності мотоцикла A2?"
    },
    "o": [
     {
      "en": "35 kW and 0.2 kW/kg",
-     "es": "35 kW y 0,2 kW/kg"
+     "es": "35 kW y 0,2 kW/kg",
+     "uk": "35 кВт і 0,2 кВт/кг"
     },
     {
      "en": "11 kW and 0.1 kW/kg",
-     "es": "11 kW y 0,1 kW/kg"
+     "es": "11 kW y 0,1 kW/kg",
+     "uk": "11 кВт і 0,1 кВт/кг"
     },
     {
      "en": "70 kW and 0.4 kW/kg",
-     "es": "70 kW y 0,4 kW/kg"
+     "es": "70 kW y 0,4 kW/kg",
+     "uk": "70 кВт і 0,4 кВт/кг"
     }
    ],
    "why": {
     "en": "A2: at most 35 kW, a power-to-weight ratio of at most 0.2 kW/kg, and not derived from a vehicle with more than twice its power.",
-    "es": "A2: como máximo 35 kW, relación potencia/peso de 0,2 kW/kg como máximo, y no derivada de un vehículo con más del doble de su potencia."
+    "es": "A2: como máximo 35 kW, relación potencia/peso de 0,2 kW/kg como máximo, y no derivada de un vehículo con más del doble de su potencia.",
+    "uk": "A2: щонайбільше 35 кВт, питома потужність щонайбільше 0,2 кВт/кг, і не похідний від ТЗ з більш ніж удвічі більшою потужністю."
    }
   },
   {
@@ -324,25 +390,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "A motorcycle has been limited to 35 kW. What may its original power be, at most, for it to fit the A2?",
-    "es": "Una moto ha sido limitada a 35 kW. ¿Cuál puede ser, como máximo, su potencia original para que valga con el A2?"
+    "es": "Una moto ha sido limitada a 35 kW. ¿Cuál puede ser, como máximo, su potencia original para que valga con el A2?",
+    "uk": "Мотоцикл обмежили до 35 кВт. Якою може бути щонайбільше його початкова потужність, щоб він підходив для A2?"
    },
    "o": [
     {
      "en": "70 kW",
-     "es": "70 kW"
+     "es": "70 kW",
+     "uk": "70 кВт"
     },
     {
      "en": "35 kW",
-     "es": "35 kW"
+     "es": "35 kW",
+     "uk": "35 кВт"
     },
     {
      "en": "Any power, once limited",
-     "es": "Cualquiera, una vez limitada"
+     "es": "Cualquiera, una vez limitada",
+     "uk": "Будь-якою, якщо обмежено"
     }
    ],
    "why": {
     "en": "It may not be derived from a vehicle with more than twice its power: 2 × 35 = 70 kW.",
-    "es": "No puede derivar de un vehículo con más del doble de su potencia: 2 × 35 = 70 kW."
+    "es": "No puede derivar de un vehículo con más del doble de su potencia: 2 × 35 = 70 kW.",
+    "uk": "Він не може бути похідним від ТЗ з більш ніж удвічі більшою потужністю: 2 × 35 = 70 кВт."
    }
   },
   {
@@ -350,25 +421,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "A motorcycle has 35 kW and weighs 150 kg. May you ride it with the A2?",
-    "es": "Una moto tiene 35 kW y pesa 150 kg. ¿Puedes conducirla con el A2?"
+    "es": "Una moto tiene 35 kW y pesa 150 kg. ¿Puedes conducirla con el A2?",
+    "uk": "Мотоцикл має 35 кВт і важить 150 кг. Чи можна їздити ним з A2?"
    },
    "o": [
     {
      "en": "No: 35 ÷ 150 is about 0.23 kW/kg, over the 0.2 limit",
-     "es": "No: 35 ÷ 150 son unos 0,23 kW/kg, más del límite de 0,2"
+     "es": "No: 35 ÷ 150 son unos 0,23 kW/kg, más del límite de 0,2",
+     "uk": "Ні: 35 ÷ 150 ≈ 0,23 кВт/кг, понад межу 0,2"
     },
     {
      "en": "Yes: it does not exceed 35 kW",
-     "es": "Sí: no supera los 35 kW"
+     "es": "Sí: no supera los 35 kW",
+     "uk": "Так: він не перевищує 35 кВт"
     },
     {
      "en": "Yes, if it was built with that power",
-     "es": "Sí, si se fabricó con esa potencia"
+     "es": "Sí, si se fabricó con esa potencia",
+     "uk": "Так, якщо його збудували з такою потужністю"
     }
    ],
    "why": {
     "en": "Both limits apply: 35 kW and 0.2 kW/kg. A light 35 kW motorcycle can exceed the ratio.",
-    "es": "Se aplican los dos límites: 35 kW y 0,2 kW/kg. Una moto ligera de 35 kW puede superar la relación."
+    "es": "Se aplican los dos límites: 35 kW y 0,2 kW/kg. Una moto ligera de 35 kW puede superar la relación.",
+    "uk": "Діють обидві межі: 35 кВт і 0,2 кВт/кг. Легкий мотоцикл на 35 кВт може перевищити питому потужність."
    }
   },
   {
@@ -376,25 +452,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "A motorcycle has been limited to 30 kW from an original 70 kW. Does it fit the A2?",
-    "es": "Una moto ha sido limitada a 30 kW desde 70 kW originales. ¿Vale con el A2?"
+    "es": "Una moto ha sido limitada a 30 kW desde 70 kW originales. ¿Vale con el A2?",
+    "uk": "Мотоцикл обмежили до 30 кВт з початкових 70 кВт. Чи підходить він для A2?"
    },
    "o": [
     {
      "en": "No: 70 kW is more than twice 30 kW",
-     "es": "No: 70 kW es más del doble de 30 kW"
+     "es": "No: 70 kW es más del doble de 30 kW",
+     "uk": "Ні: 70 кВт — це більше, ніж удвічі 30 кВт"
     },
     {
      "en": "Yes: 30 kW is below 35",
-     "es": "Sí: 30 kW es menos de 35"
+     "es": "Sí: 30 kW es menos de 35",
+     "uk": "Так: 30 кВт менше за 35"
     },
     {
      "en": "Yes: 70 kW is the general maximum",
-     "es": "Sí: 70 kW es el máximo general"
+     "es": "Sí: 70 kW es el máximo general",
+     "uk": "Так: 70 кВт — загальний максимум"
     }
    ],
    "why": {
     "en": "The original may not exceed twice the limited power: 2 × 30 = 60 kW, and 70 is more.",
-    "es": "La potencia original no puede superar el doble de la limitada: 2 × 30 = 60 kW, y 70 es más."
+    "es": "La potencia original no puede superar el doble de la limitada: 2 × 30 = 60 kW, y 70 es más.",
+    "uk": "Початкова потужність не може перевищувати подвійну обмежену: 2 × 30 = 60 кВт, а 70 більше."
    }
   },
   {
@@ -402,25 +483,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "How do you get the A licence?",
-    "es": "¿Cómo se obtiene el permiso A?"
+    "es": "¿Cómo se obtiene el permiso A?",
+    "uk": "Як отримати посвідчення A?"
    },
    "o": [
     {
      "en": "Holding an A2 with at least 2 years of experience and completing a training course",
-     "es": "Siendo titular del A2 con al menos 2 años de experiencia y superando una formación"
+     "es": "Siendo titular del A2 con al menos 2 años de experiencia y superando una formación",
+     "uk": "Маючи A2 зі стажем щонайменше 2 роки і пройшовши навчальний курс"
     },
     {
      "en": "With theory and practical exams at 20, without the A2",
-     "es": "Con las pruebas teórica y práctica a los 20 años, sin el A2"
+     "es": "Con las pruebas teórica y práctica a los 20 años, sin el A2",
+     "uk": "Склавши теорію й практику в 20 років без A2"
     },
     {
      "en": "Automatically after 5 years with the A1",
-     "es": "Automáticamente tras 5 años con el A1"
+     "es": "Automáticamente tras 5 años con el A1",
+     "uk": "Автоматично після 5 років з A1"
     }
    ],
    "why": {
     "en": "The A is only issued to holders of an A2 in force with at least two years’ experience, who complete a training course.",
-    "es": "El A solo se expide a titulares de un A2 en vigor con al menos dos años de experiencia que superen una formación."
+    "es": "El A solo se expide a titulares de un A2 en vigor con al menos dos años de experiencia que superen una formación.",
+    "uk": "A видають лише власникам чинного A2 зі стажем щонайменше два роки, які пройшли навчальний курс."
    }
   },
   {
@@ -428,25 +514,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "What is the minimum age for the A licence, and for driving motor tricycles over 15 kW with it?",
-    "es": "¿Cuál es la edad mínima del permiso A y para conducir con él triciclos de más de 15 kW?"
+    "es": "¿Cuál es la edad mínima del permiso A y para conducir con él triciclos de más de 15 kW?",
+    "uk": "Який мінімальний вік для посвідчення A і для керування з ним трициклами понад 15 кВт?"
    },
    "o": [
     {
      "en": "20, and 21 for those tricycles",
-     "es": "20 años, y 21 para esos triciclos"
+     "es": "20 años, y 21 para esos triciclos",
+     "uk": "20 і 21 для цих трициклів"
     },
     {
      "en": "18, and 20 for those tricycles",
-     "es": "18 años, y 20 para esos triciclos"
+     "es": "18 años, y 20 para esos triciclos",
+     "uk": "18 і 20 для цих трициклів"
     },
     {
      "en": "21 for both",
-     "es": "21 años para los dos"
+     "es": "21 años para los dos",
+     "uk": "21 для обох"
     }
    ],
    "why": {
     "en": "A from 20; until 21 it does not cover motor tricycles over 15 kW.",
-    "es": "A desde los 20; hasta los 21 no autoriza triciclos de motor de más de 15 kW."
+    "es": "A desde los 20; hasta los 21 no autoriza triciclos de motor de más de 15 kW.",
+    "uk": "A з 20; до 21 року воно не охоплює трициклів понад 15 кВт."
    }
   },
   {
@@ -454,25 +545,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "You have held a B licence for four years. Which motorcycles may you ride with it?",
-    "es": "Tienes el permiso B desde hace cuatro años. ¿Qué motos puedes conducir con él?"
+    "es": "Tienes el permiso B desde hace cuatro años. ¿Qué motos puedes conducir con él?",
+    "uk": "Ви маєте посвідчення B чотири роки. Якими мотоциклами можна з ним їздити?"
    },
    "o": [
     {
      "en": "The A1 motorcycles, in Spain only",
-     "es": "Las motos del A1, solo en España"
+     "es": "Las motos del A1, solo en España",
+     "uk": "Мотоциклами A1, лише в Іспанії"
     },
     {
      "en": "The A1 motorcycles, anywhere in the EU",
-     "es": "Las motos del A1, en cualquier país de la UE"
+     "es": "Las motos del A1, en cualquier país de la UE",
+     "uk": "Мотоциклами A1 у будь-якій країні ЄС"
     },
     {
      "en": "The A2 motorcycles, in Spain only",
-     "es": "Las motos del A2, solo en España"
+     "es": "Las motos del A2, solo en España",
+     "uk": "Мотоциклами A2, лише в Іспанії"
     }
    ],
    "why": {
     "en": "With a B of more than three years you may ride A1 motorcycles within Spain.",
-    "es": "Con un B de más de tres años se pueden conducir las motocicletas del A1 dentro del territorio nacional."
+    "es": "Con un B de más de tres años se pueden conducir las motocicletas del A1 dentro del territorio nacional.",
+    "uk": "З B понад три роки можна їздити мотоциклами A1 в межах Іспанії."
    }
   },
   {
@@ -480,25 +576,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "You have held the B for two years. May you ride a 125 cc motorcycle with it?",
-    "es": "Tienes el B desde hace dos años. ¿Puedes conducir una moto de 125 c.c. con él?"
+    "es": "Tienes el B desde hace dos años. ¿Puedes conducir una moto de 125 c.c. con él?",
+    "uk": "Ви маєте B два роки. Чи можна з ним їздити мотоциклом 125 см³?"
    },
    "o": [
     {
      "en": "No: the B must be more than three years old",
-     "es": "No: el B debe tener más de tres años"
+     "es": "No: el B debe tener más de tres años",
+     "uk": "Ні: B має бути понад три роки"
     },
     {
      "en": "Yes, in Spain",
-     "es": "Sí, en España"
+     "es": "Sí, en España",
+     "uk": "Так, в Іспанії"
     },
     {
      "en": "Yes, if it is automatic",
-     "es": "Sí, si es automática"
+     "es": "Sí, si es automática",
+     "uk": "Так, якщо він з автоматом"
     }
    ],
    "why": {
     "en": "The B only covers A1 motorcycles after more than three years.",
-    "es": "El B solo cubre las motos del A1 con una antigüedad superior a tres años."
+    "es": "El B solo cubre las motos del A1 con una antigüedad superior a tres años.",
+    "uk": "B охоплює мотоцикли A1 лише після понад трьох років."
    }
   },
   {
@@ -506,25 +607,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "Does an A2 licence let you ride mopeds?",
-    "es": "¿Permite el A2 conducir ciclomotores?"
+    "es": "¿Permite el A2 conducir ciclomotores?",
+    "uk": "Чи дозволяє посвідчення A2 їздити мопедами?"
    },
    "o": [
     {
      "en": "Yes: A2 includes A1, and A1 includes AM",
-     "es": "Sí: el A2 incluye el A1, y el A1 incluye el AM"
+     "es": "Sí: el A2 incluye el A1, y el A1 incluye el AM",
+     "uk": "Так: A2 включає A1, а A1 включає AM"
     },
     {
      "en": "No: you need a separate AM",
-     "es": "No: hace falta el AM aparte"
+     "es": "No: hace falta el AM aparte",
+     "uk": "Ні: потрібне окреме AM"
     },
     {
      "en": "Only three-wheel mopeds",
-     "es": "Solo ciclomotores de tres ruedas"
+     "es": "Solo ciclomotores de tres ruedas",
+     "uk": "Лише триколісними мопедами"
     }
    ],
    "why": {
     "en": "Obtaining the A2 implies the A1, and the A1 implies the AM.",
-    "es": "La obtención del A2 implica la del A1, y la del A1 la del AM."
+    "es": "La obtención del A2 implica la del A1, y la del A1 la del AM.",
+    "uk": "Отримання A2 означає й A1, а A1 означає й AM."
    }
   },
   {
@@ -532,25 +638,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "Is the A1 compulsory before taking the A2?",
-    "es": "¿Es obligatorio tener el A1 antes de sacar el A2?"
+    "es": "¿Es obligatorio tener el A1 antes de sacar el A2?",
+    "uk": "Чи обов’язкове A1, щоб складати на A2?"
    },
    "o": [
     {
      "en": "No: the A2 can be taken directly at 18",
-     "es": "No: el A2 se puede obtener directamente a los 18 años"
+     "es": "No: el A2 se puede obtener directamente a los 18 años",
+     "uk": "Ні: A2 можна складати одразу у 18 років"
     },
     {
      "en": "Yes, with two years of experience",
-     "es": "Sí, con dos años de experiencia"
+     "es": "Sí, con dos años de experiencia",
+     "uk": "Так, зі стажем два роки"
     },
     {
      "en": "Yes, with one year of experience",
-     "es": "Sí, con un año de experiencia"
+     "es": "Sí, con un año de experiencia",
+     "uk": "Так, зі стажем рік"
     }
    ],
    "why": {
     "en": "Only the A requires holding a previous class (the A2). The A2 can be taken with its own exams.",
-    "es": "Solo el A exige tener antes otra clase (el A2). El A2 se obtiene con sus propias pruebas."
+    "es": "Solo el A exige tener antes otra clase (el A2). El A2 se obtiene con sus propias pruebas.",
+    "uk": "Лише для A потрібна попередня категорія (A2). A2 складають за власними іспитами."
    }
   },
   {
@@ -558,25 +669,30 @@ window.DGT_DATA = {
    "tag": "validity",
    "q": {
     "en": "How often must a 40-year-old renew an A2 licence?",
-    "es": "¿Cada cuánto debe renovar el A2 una persona de 40 años?"
+    "es": "¿Cada cuánto debe renovar el A2 una persona de 40 años?",
+    "uk": "Як часто 40-річна людина мусить продовжувати посвідчення A2?"
    },
    "o": [
     {
      "en": "Every 10 years",
-     "es": "Cada 10 años"
+     "es": "Cada 10 años",
+     "uk": "Кожні 10 років"
     },
     {
      "en": "Every 5 years",
-     "es": "Cada 5 años"
+     "es": "Cada 5 años",
+     "uk": "Кожні 5 років"
     },
     {
      "en": "Every 15 years",
-     "es": "Cada 15 años"
+     "es": "Cada 15 años",
+     "uk": "Кожні 15 років"
     }
    ],
    "why": {
     "en": "AM, A1, A2 and A: 10 years until 65, then 5.",
-    "es": "AM, A1, A2 y A: 10 años hasta los 65, después 5."
+    "es": "AM, A1, A2 y A: 10 años hasta los 65, después 5.",
+    "uk": "AM, A1, A2 і A: 10 років до 65, потім 5."
    }
   },
   {
@@ -584,25 +700,30 @@ window.DGT_DATA = {
    "tag": "validity",
    "q": {
     "en": "And from the age of 65?",
-    "es": "¿Y a partir de los 65 años?"
+    "es": "¿Y a partir de los 65 años?",
+    "uk": "А з 65 років?"
    },
    "o": [
     {
      "en": "Every 5 years",
-     "es": "Cada 5 años"
+     "es": "Cada 5 años",
+     "uk": "Кожні 5 років"
     },
     {
      "en": "Every 2 years",
-     "es": "Cada 2 años"
+     "es": "Cada 2 años",
+     "uk": "Кожні 2 роки"
     },
     {
      "en": "Every year",
-     "es": "Cada año"
+     "es": "Cada año",
+     "uk": "Щороку"
     }
    ],
    "why": {
     "en": "From 65 the period is 5 years, and it may be shorter for health reasons.",
-    "es": "Desde los 65 el periodo es de 5 años, y puede reducirse por motivos de salud."
+    "es": "Desde los 65 el periodo es de 5 años, y puede reducirse por motivos de salud.",
+    "uk": "З 65 строк 5 років, і за станом здоров’я він може бути коротшим."
    }
   },
   {
@@ -610,25 +731,30 @@ window.DGT_DATA = {
    "tag": "validity",
    "q": {
     "en": "Your licence expired last week and you ride to renew it. What happens if you are stopped?",
-    "es": "Tu permiso caducó la semana pasada y vas en moto a renovarlo. ¿Qué ocurre si te paran?"
+    "es": "Tu permiso caducó la semana pasada y vas en moto a renovarlo. ¿Qué ocurre si te paran?",
+    "uk": "Строк вашого посвідчення закінчився минулого тижня, і ви їдете його продовжувати. Що буде, якщо вас зупинять?"
    },
    "o": [
     {
      "en": "It does not let you ride and the agents withdraw it on the spot",
-     "es": "No autoriza a conducir y los agentes lo intervienen en el acto"
+     "es": "No autoriza a conducir y los agentes lo intervienen en el acto",
+     "uk": "Воно не дає права їздити, і поліцейські вилучають його на місці"
     },
     {
      "en": "Nothing: there is a month of grace",
-     "es": "Nada: hay un mes de cortesía"
+     "es": "Nada: hay un mes de cortesía",
+     "uk": "Нічого: є місяць пільгового строку"
     },
     {
      "en": "Only a warning",
-     "es": "Solo un aviso"
+     "es": "Solo un aviso",
+     "uk": "Лише попередження"
     }
    ],
    "why": {
     "en": "An expired licence does not authorise driving, and using it leads to its immediate withdrawal.",
-    "es": "Un permiso caducado no autoriza a conducir y su utilización da lugar a su intervención inmediata."
+    "es": "Un permiso caducado no autoriza a conducir y su utilización da lugar a su intervención inmediata.",
+    "uk": "Прострочене посвідчення не дає права керувати, а користування ним призводить до негайного вилучення."
    }
   },
   {
@@ -636,25 +762,30 @@ window.DGT_DATA = {
    "tag": "validity",
    "q": {
     "en": "You move house. Within how long must you tell the Traffic Office so it issues a duplicate of your licence?",
-    "es": "Cambias de domicilio. ¿En qué plazo debes comunicarlo a la Jefatura para que expida un duplicado del permiso?"
+    "es": "Cambias de domicilio. ¿En qué plazo debes comunicarlo a la Jefatura para que expida un duplicado del permiso?",
+    "uk": "Ви переїхали. За який строк треба повідомити Управління дорожнього руху, щоб воно видало дублікат посвідчення?"
    },
    "o": [
     {
      "en": "15 days",
-     "es": "15 días"
+     "es": "15 días",
+     "uk": "15 днів"
     },
     {
      "en": "10 days",
-     "es": "10 días"
+     "es": "10 días",
+     "uk": "10 днів"
     },
     {
      "en": "30 days",
-     "es": "30 días"
+     "es": "30 días",
+     "uk": "30 днів"
     }
    ],
    "why": {
     "en": "Any change of the data on the licence must be reported within 15 days.",
-    "es": "Cualquier variación de los datos del permiso debe comunicarse en un plazo máximo de 15 días."
+    "es": "Cualquier variación de los datos del permiso debe comunicarse en un plazo máximo de 15 días.",
+    "uk": "Про будь-яку зміну даних у посвідченні треба повідомити протягом 15 днів."
    }
   },
   {
@@ -662,25 +793,30 @@ window.DGT_DATA = {
    "tag": "validity",
    "q": {
     "en": "You get a duplicate because you lost your licence, and later you find the original. What do you do?",
-    "es": "Obtienes un duplicado por pérdida del permiso y después encuentras el original. ¿Qué haces?"
+    "es": "Obtienes un duplicado por pérdida del permiso y después encuentras el original. ¿Qué haces?",
+    "uk": "Ви отримали дублікат через втрату посвідчення, а потім знайшли оригінал. Що робите?"
    },
    "o": [
     {
      "en": "Hand the original back to the Traffic Office",
-     "es": "Devolver el original a la Jefatura de Tráfico"
+     "es": "Devolver el original a la Jefatura de Tráfico",
+     "uk": "Повертаю оригінал до Управління дорожнього руху"
     },
     {
      "en": "Keep both, in case",
-     "es": "Guardar los dos, por si acaso"
+     "es": "Guardar los dos, por si acaso",
+     "uk": "Залишаю обидва, про всяк випадок"
     },
     {
      "en": "Destroy the duplicate",
-     "es": "Destruir el duplicado"
+     "es": "Destruir el duplicado",
+     "uk": "Знищую дублікат"
     }
    ],
    "why": {
     "en": "After a duplicate for theft or loss, the original must be returned when found.",
-    "es": "Tras un duplicado por sustracción o extravío, el original debe devolverse cuando se encuentre."
+    "es": "Tras un duplicado por sustracción o extravío, el original debe devolverse cuando se encuentre.",
+    "uk": "Після дубліката через крадіжку чи втрату оригінал, знайшовши, треба повернути."
    }
   },
   {
@@ -688,25 +824,30 @@ window.DGT_DATA = {
    "tag": "validity",
    "q": {
     "en": "A licence is suspended as a precaution. What does riding during that suspension count as?",
-    "es": "Un permiso es objeto de suspensión cautelar. ¿Qué supone conducir durante esa suspensión?"
+    "es": "Un permiso es objeto de suspensión cautelar. ¿Qué supone conducir durante esa suspensión?",
+    "uk": "Посвідчення призупинили як запобіжний захід. Чим вважається їзда під час цього призупинення?"
    },
    "o": [
     {
      "en": "Riding with a licence suspended by sanction",
-     "es": "Conducir con la autorización suspendida por sanción"
+     "es": "Conducir con la autorización suspendida por sanción",
+     "uk": "Їздою з посвідченням, призупиненим як санкція"
     },
     {
      "en": "A minor offence",
-     "es": "Una infracción leve"
+     "es": "Una infracción leve",
+     "uk": "Незначним порушенням"
     },
     {
      "en": "Nothing, if the suspension is not yet final",
-     "es": "Nada, si la suspensión no es firme"
+     "es": "Nada, si la suspensión no es firme",
+     "uk": "Нічим, якщо призупинення ще не остаточне"
     }
    ],
    "why": {
     "en": "Driving during a precautionary suspension counts as driving with the licence suspended by sanction.",
-    "es": "Conducir durante la suspensión cautelar se considera conducir con la autorización suspendida por sanción."
+    "es": "Conducir durante la suspensión cautelar se considera conducir con la autorización suspendida por sanción.",
+    "uk": "Керування під час запобіжного призупинення прирівнюють до керування з посвідченням, призупиненим як санкція."
    }
   },
   {
@@ -714,25 +855,30 @@ window.DGT_DATA = {
    "tag": "novice",
    "q": {
     "en": "For how long must a new rider display the V-13 “L” plate?",
-    "es": "¿Durante cuánto tiempo debe llevar la señal V-13 «L» un conductor novel?"
+    "es": "¿Durante cuánto tiempo debe llevar la señal V-13 «L» un conductor novel?",
+    "uk": "Як довго новий мотоцикліст мусить мати табличку V-13 «L»?"
    },
    "o": [
     {
      "en": "The first year of the licence",
-     "es": "El primer año del permiso"
+     "es": "El primer año del permiso",
+     "uk": "Перший рік посвідчення"
     },
     {
      "en": "The first two years",
-     "es": "Los dos primeros años"
+     "es": "Los dos primeros años",
+     "uk": "Перші два роки"
     },
     {
      "en": "Until the first renewal",
-     "es": "Hasta la primera renovación"
+     "es": "Hasta la primera renovación",
+     "uk": "До першого продовження"
     }
    ],
    "why": {
     "en": "Whoever gets a licence for the first time carries the V-13 during its first year.",
-    "es": "Quien obtiene un permiso por primera vez lleva la V-13 durante su primer año."
+    "es": "Quien obtiene un permiso por primera vez lleva la V-13 durante su primer año.",
+    "uk": "Хто вперше отримує посвідчення, возить V-13 протягом першого року."
    }
   },
   {
@@ -740,25 +886,30 @@ window.DGT_DATA = {
    "tag": "novice",
    "q": {
     "en": "Where does the “L” go on a motorcycle?",
-    "es": "¿Dónde se coloca la «L» en una motocicleta?"
+    "es": "¿Dónde se coloca la «L» en una motocicleta?",
+    "uk": "Де розміщують «L» на мотоциклі?"
    },
    "o": [
     {
      "en": "Somewhere visible at the rear",
-     "es": "En un sitio visible de la parte posterior"
+     "es": "En un sitio visible de la parte posterior",
+     "uk": "На видному місці ззаду"
     },
     {
      "en": "At the rear left, as on a car",
-     "es": "Detrás a la izquierda, como en un turismo"
+     "es": "Detrás a la izquierda, como en un turismo",
+     "uk": "Ззаду ліворуч, як на легковику"
     },
     {
      "en": "On the front mudguard",
-     "es": "En el guardabarros delantero"
+     "es": "En el guardabarros delantero",
+     "uk": "На передньому крилі"
     }
    ],
    "why": {
     "en": "On cars it goes at the rear left; on motorcycles and three-wheelers it is enough somewhere visible at the rear.",
-    "es": "En los turismos va detrás a la izquierda; en motocicletas y vehículos de tres ruedas basta un sitio visible de la parte posterior."
+    "es": "En los turismos va detrás a la izquierda; en motocicletas y vehículos de tres ruedas basta un sitio visible de la parte posterior.",
+    "uk": "На легковиках — ззаду ліворуч; на мотоциклах і трициклах досить видного місця ззаду."
    }
   },
   {
@@ -766,25 +917,30 @@ window.DGT_DATA = {
    "tag": "novice",
    "q": {
     "en": "What does the V-13 plate look like?",
-    "es": "¿Cómo es la señal V-13?"
+    "es": "¿Cómo es la señal V-13?",
+    "uk": "Як виглядає табличка V-13?"
    },
    "o": [
     {
      "en": "Retroreflective, green with a white “L”",
-     "es": "Reflectante, verde con la «L» en blanco"
+     "es": "Reflectante, verde con la «L» en blanco",
+     "uk": "Світлоповертальна, зелена з білою «L»"
     },
     {
      "en": "White with a green “L”",
-     "es": "Blanca con la «L» en verde"
+     "es": "Blanca con la «L» en verde",
+     "uk": "Біла з зеленою «L»"
     },
     {
      "en": "Blue with a white “L”",
-     "es": "Azul con la «L» en blanco"
+     "es": "Azul con la «L» en blanco",
+     "uk": "Синя з білою «L»"
     }
    ],
    "why": {
     "en": "Green background, white letter L, retroreflective; smaller on motorcycles.",
-    "es": "Fondo verde, letra L blanca, reflectante; más pequeña en las motos."
+    "es": "Fondo verde, letra L blanca, reflectante; más pequeña en las motos.",
+    "uk": "Зелене тло, біла літера L, світлоповертальна; на мотоциклах менша."
    }
   },
   {
@@ -792,25 +948,30 @@ window.DGT_DATA = {
    "tag": "novice",
    "q": {
     "en": "A new rider’s licence is suspended for one month during the first year. What happens to the “L” period?",
-    "es": "Al novel le suspenden el permiso un mes durante el primer año. ¿Qué pasa con el periodo de la «L»?"
+    "es": "Al novel le suspenden el permiso un mes durante el primer año. ¿Qué pasa con el periodo de la «L»?",
+    "uk": "Посвідчення нового мотоцикліста призупинили на місяць у перший рік. Що відбувається з періодом «L»?"
    },
    "o": [
     {
      "en": "It is extended by that month",
-     "es": "Se amplía en ese mes"
+     "es": "Se amplía en ese mes",
+     "uk": "Його продовжують на цей місяць"
     },
     {
      "en": "It starts again from zero",
-     "es": "Vuelve a empezar desde cero"
+     "es": "Vuelve a empezar desde cero",
+     "uk": "Він починається з нуля"
     },
     {
      "en": "It does not change",
-     "es": "No cambia"
+     "es": "No cambia",
+     "uk": "Нічого не змінюється"
     }
    ],
    "why": {
     "en": "The year is extended by the same time the licence was withdrawn or suspended.",
-    "es": "El año se amplía el mismo tiempo que el permiso estuvo intervenido o suspendido."
+    "es": "El año se amplía el mismo tiempo que el permiso estuvo intervenido o suspendido.",
+    "uk": "Рік продовжують на той самий строк, на який посвідчення було вилучено чи призупинено."
    }
   },
   {
@@ -818,25 +979,30 @@ window.DGT_DATA = {
    "tag": "novice",
    "q": {
     "en": "You have had a B for five years and you have just passed the A2. Must you carry the “L” on the motorcycle?",
-    "es": "Tienes el B desde hace cinco años y acabas de aprobar el A2. ¿Debes llevar la «L» en la moto?"
+    "es": "Tienes el B desde hace cinco años y acabas de aprobar el A2. ¿Debes llevar la «L» en la moto?",
+    "uk": "Ви п’ять років маєте B і щойно склали на A2. Чи мусите возити «L» на мотоциклі?"
    },
    "o": [
     {
      "en": "No: you have held another licence for at least a year",
-     "es": "No: ya has sido titular de otro permiso durante al menos un año"
+     "es": "No: ya has sido titular de otro permiso durante al menos un año",
+     "uk": "Ні: ви щонайменше рік мали інше посвідчення"
     },
     {
      "en": "Yes, for the first year of the A2",
-     "es": "Sí, durante el primer año del A2"
+     "es": "Sí, durante el primer año del A2",
+     "uk": "Так, перший рік A2"
     },
     {
      "en": "Yes, for six months",
-     "es": "Sí, durante seis meses"
+     "es": "Sí, durante seis meses",
+     "uk": "Так, шість місяців"
     }
    ],
    "why": {
     "en": "Those who have held another licence of any class for at least one year do not count as first-time holders.",
-    "es": "No se considera primer permiso si se ha sido titular de otro, de cualquier clase, durante al menos un año."
+    "es": "No se considera primer permiso si se ha sido titular de otro, de cualquier clase, durante al menos un año.",
+    "uk": "Хто щонайменше рік мав інше посвідчення будь-якої категорії, не вважається тим, хто отримує його вперше."
    }
   },
   {
@@ -844,25 +1010,30 @@ window.DGT_DATA = {
    "tag": "vehdocs",
    "q": {
     "en": "Which of the motorcycle’s documents must you carry when riding?",
-    "es": "¿Qué documentos de la moto debes llevar al circular?"
+    "es": "¿Qué documentos de la moto debes llevar al circular?",
+    "uk": "Які документи мотоцикла треба возити з собою?"
    },
    "o": [
     {
      "en": "The registration certificate and the ITV card, with the last inspection report",
-     "es": "El permiso de circulación y la tarjeta ITV, con el último informe de inspección"
+     "es": "El permiso de circulación y la tarjeta ITV, con el último informe de inspección",
+     "uk": "Свідоцтво про реєстрацію і картку техогляду з останнім висновком"
     },
     {
      "en": "Only the insurance receipt",
-     "es": "Solo el recibo del seguro"
+     "es": "Solo el recibo del seguro",
+     "uk": "Лише квитанцію про страховку"
     },
     {
      "en": "The purchase invoice",
-     "es": "La factura de compra"
+     "es": "La factura de compra",
+     "uk": "Рахунок про купівлю"
     }
    ],
    "why": {
     "en": "Originals or certified copies of the registration certificate and the ITV card (and the last report, if it has been to the ITV).",
-    "es": "Originales o fotocopias cotejadas del permiso de circulación y de la tarjeta ITV (y el último informe, si ya la ha pasado)."
+    "es": "Originales o fotocopias cotejadas del permiso de circulación y de la tarjeta ITV (y el último informe, si ya la ha pasado).",
+    "uk": "Оригінали чи засвідчені копії свідоцтва про реєстрацію і картки техогляду (і останній висновок, якщо техогляд уже проходили)."
    }
   },
   {
@@ -870,25 +1041,30 @@ window.DGT_DATA = {
    "tag": "vehdocs",
    "q": {
     "en": "You sell your motorcycle. Within how long must you, the seller, notify the Traffic Office?",
-    "es": "Vendes tu moto. ¿En qué plazo debes notificarlo tú, como vendedor, a la Jefatura de Tráfico?"
+    "es": "Vendes tu moto. ¿En qué plazo debes notificarlo tú, como vendedor, a la Jefatura de Tráfico?",
+    "uk": "Ви продаєте мотоцикл. За який строк ви, продавець, мусите повідомити Управління дорожнього руху?"
    },
    "o": [
     {
      "en": "10 days",
-     "es": "10 días"
+     "es": "10 días",
+     "uk": "10 днів"
     },
     {
      "en": "15 days",
-     "es": "15 días"
+     "es": "15 días",
+     "uk": "15 днів"
     },
     {
      "en": "30 days",
-     "es": "30 días"
+     "es": "30 días",
+     "uk": "30 днів"
     }
    ],
    "why": {
     "en": "The seller notifies within 10 days; the buyer applies for the new certificate within 30.",
-    "es": "El vendedor lo notifica en 10 días; el comprador solicita el nuevo permiso de circulación en 30."
+    "es": "El vendedor lo notifica en 10 días; el comprador solicita el nuevo permiso de circulación en 30.",
+    "uk": "Продавець повідомляє протягом 10 днів; покупець оформлює нове свідоцтво протягом 30."
    }
   },
   {
@@ -896,25 +1072,30 @@ window.DGT_DATA = {
    "tag": "vehdocs",
    "q": {
     "en": "You buy a second-hand motorcycle. What happens if you do not apply for the certificate in your name within 30 days?",
-    "es": "Compras una moto de segunda mano. ¿Qué ocurre si no solicitas el permiso de circulación a tu nombre en 30 días?"
+    "es": "Compras una moto de segunda mano. ¿Qué ocurre si no solicitas el permiso de circulación a tu nombre en 30 días?",
+    "uk": "Ви купили вживаний мотоцикл. Що буде, якщо не оформите свідоцтво на себе протягом 30 днів?"
    },
    "o": [
     {
      "en": "It may not be ridden and is immobilised",
-     "es": "No puede circular y se ordena su inmovilización"
+     "es": "No puede circular y se ordena su inmovilización",
+     "uk": "Ним не можна їздити, і його знерухомлюють"
     },
     {
      "en": "Nothing: the seller is still responsible",
-     "es": "Nada: sigue respondiendo el vendedor"
+     "es": "Nada: sigue respondiendo el vendedor",
+     "uk": "Нічого: відповідає продавець"
     },
     {
      "en": "You lose 2 points",
-     "es": "Pierdes 2 puntos"
+     "es": "Pierdes 2 puntos",
+     "uk": "Втратите 2 бали"
     }
    ],
    "why": {
     "en": "The buyer has 30 days to renew the registration certificate; otherwise the vehicle may not be driven and is immobilised.",
-    "es": "El comprador tiene 30 días para renovar el permiso de circulación; si no, el vehículo no puede circular y se inmoviliza."
+    "es": "El comprador tiene 30 días para renovar el permiso de circulación; si no, el vehículo no puede circular y se inmoviliza.",
+    "uk": "Покупець має 30 днів, щоб переоформити свідоцтво про реєстрацію; інакше ТЗ не можна керувати й його знерухомлюють."
    }
   },
   {
@@ -922,25 +1103,30 @@ window.DGT_DATA = {
    "tag": "vehdocs",
    "q": {
     "en": "You move house but keep your motorcycle. Within how long must you report the new address for the registration certificate?",
-    "es": "Cambias de domicilio y conservas la moto. ¿En qué plazo debes comunicar el nuevo domicilio para el permiso de circulación?"
+    "es": "Cambias de domicilio y conservas la moto. ¿En qué plazo debes comunicar el nuevo domicilio para el permiso de circulación?",
+    "uk": "Ви переїхали, але мотоцикл залишився ваш. За який строк треба повідомити нову адресу для свідоцтва про реєстрацію?"
    },
    "o": [
     {
      "en": "15 days",
-     "es": "15 días"
+     "es": "15 días",
+     "uk": "15 днів"
     },
     {
      "en": "10 days",
-     "es": "10 días"
+     "es": "10 días",
+     "uk": "10 днів"
     },
     {
      "en": "3 months",
-     "es": "3 meses"
+     "es": "3 meses",
+     "uk": "3 місяці"
     }
    ],
    "why": {
     "en": "A change of the owner’s name, surname or address without a change of owner is reported within 15 days.",
-    "es": "La variación del nombre, apellidos o domicilio del titular, sin cambio de titularidad, se comunica en 15 días."
+    "es": "La variación del nombre, apellidos o domicilio del titular, sin cambio de titularidad, se comunica en 15 días.",
+    "uk": "Про зміну імені, прізвища чи адреси власника без зміни власника повідомляють протягом 15 днів."
    }
   },
   {
@@ -948,25 +1134,30 @@ window.DGT_DATA = {
    "tag": "vehdocs",
    "q": {
     "en": "How many number plates does a motorcycle carry, and where?",
-    "es": "¿Cuántas placas de matrícula lleva una motocicleta y dónde?"
+    "es": "¿Cuántas placas de matrícula lleva una motocicleta y dónde?",
+    "uk": "Скільки номерних знаків має мотоцикл і де?"
    },
    "o": [
     {
      "en": "One, at the rear",
-     "es": "Una, en la parte posterior"
+     "es": "Una, en la parte posterior",
+     "uk": "Один, ззаду"
     },
     {
      "en": "Two, front and rear",
-     "es": "Dos, delante y detrás"
+     "es": "Dos, delante y detrás",
+     "uk": "Два, спереду й ззаду"
     },
     {
      "en": "One, at the front",
-     "es": "Una, en la parte delantera"
+     "es": "Una, en la parte delantera",
+     "uk": "Один, спереду"
     }
    ],
    "why": {
     "en": "Motorcycles and mopeds carry a single plate, at the rear.",
-    "es": "Las motocicletas y ciclomotores llevan una sola placa, en la parte posterior."
+    "es": "Las motocicletas y ciclomotores llevan una sola placa, en la parte posterior.",
+    "uk": "Мотоцикли й мопеди мають один номерний знак, ззаду."
    }
   },
   {
@@ -974,25 +1165,30 @@ window.DGT_DATA = {
    "tag": "vehdocs",
    "q": {
     "en": "Your top case partly hides the number plate. Who is responsible?",
-    "es": "Tu baúl tapa en parte la placa de matrícula. ¿Quién es responsable?"
+    "es": "Tu baúl tapa en parte la placa de matrícula. ¿Quién es responsable?",
+    "uk": "Ваш кофр частково закриває номерний знак. Хто відповідає?"
    },
    "o": [
     {
      "en": "The rider",
-     "es": "El conductor"
+     "es": "El conductor",
+     "uk": "Водій"
     },
     {
      "en": "The owner only",
-     "es": "Solo el titular"
+     "es": "Solo el titular",
+     "uk": "Лише власник"
     },
     {
      "en": "The manufacturer of the case",
-     "es": "El fabricante del baúl"
+     "es": "El fabricante del baúl",
+     "uk": "Виробник кофра"
     }
    ],
    "why": {
     "en": "The driver must check that nothing prevents or hinders reading the plates.",
-    "es": "El conductor es responsable de verificar que nada impida o dificulte la lectura de las placas."
+    "es": "El conductor es responsable de verificar que nada impida o dificulte la lectura de las placas.",
+    "uk": "Водій мусить перевіряти, щоб ніщо не заважало прочитати номерні знаки."
    }
   },
   {
@@ -1000,25 +1196,30 @@ window.DGT_DATA = {
    "tag": "vehdocs",
    "q": {
     "en": "Which of these data appears on the registration certificate?",
-    "es": "¿Cuál de estos datos figura en el permiso de circulación?"
+    "es": "¿Cuál de estos datos figura en el permiso de circulación?",
+    "uk": "Які з цих даних є у свідоцтві про реєстрацію?"
    },
    "o": [
     {
      "en": "The owner’s name and address",
-     "es": "El nombre y domicilio del titular"
+     "es": "El nombre y domicilio del titular",
+     "uk": "Ім’я та адреса власника"
     },
     {
      "en": "The rider’s licence number",
-     "es": "El número de permiso del conductor"
+     "es": "El número de permiso del conductor",
+     "uk": "Номер посвідчення водія"
     },
     {
      "en": "The insurance company",
-     "es": "La compañía de seguros"
+     "es": "La compañía de seguros",
+     "uk": "Страхова компанія"
     }
    ],
    "why": {
     "en": "It shows the plate, registration date, owner’s name and address, make, model, MMA, seats and use.",
-    "es": "Figuran la matrícula, fecha de matriculación, nombre y domicilio del titular, marca, modelo, MMA, plazas y servicio."
+    "es": "Figuran la matrícula, fecha de matriculación, nombre y domicilio del titular, marca, modelo, MMA, plazas y servicio.",
+    "uk": "Там є номер, дата реєстрації, ім’я та адреса власника, марка, модель, MMA, місця й призначення."
    }
   },
   {
@@ -1026,25 +1227,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "When does a two-wheel moped go to the ITV for the first time?",
-    "es": "¿Cuándo pasa la ITV por primera vez un ciclomotor de dos ruedas?"
+    "es": "¿Cuándo pasa la ITV por primera vez un ciclomotor de dos ruedas?",
+    "uk": "Коли двоколісний мопед уперше проходить техогляд?"
    },
    "o": [
     {
      "en": "When it turns 3",
-     "es": "Al cumplir 3 años"
+     "es": "Al cumplir 3 años",
+     "uk": "Коли йому виповниться 3 роки"
     },
     {
      "en": "When it turns 4",
-     "es": "Al cumplir 4 años"
+     "es": "Al cumplir 4 años",
+     "uk": "Коли йому виповниться 4 роки"
     },
     {
      "en": "Never",
-     "es": "Nunca"
+     "es": "Nunca",
+     "uk": "Ніколи"
     }
    ],
    "why": {
     "en": "Two-wheel mopeds are exempt up to 3 years and then go every 2 years.",
-    "es": "Los ciclomotores de dos ruedas están exentos hasta los 3 años y después pasan cada 2 años."
+    "es": "Los ciclomotores de dos ruedas están exentos hasta los 3 años y después pasan cada 2 años.",
+    "uk": "Двоколісні мопеди звільнені до 3 років, а потім проходять його кожні 2 роки."
    }
   },
   {
@@ -1052,25 +1258,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "How often does a motorcycle go to the ITV?",
-    "es": "¿Con qué frecuencia pasa la ITV una motocicleta?"
+    "es": "¿Con qué frecuencia pasa la ITV una motocicleta?",
+    "uk": "Як часто мотоцикл проходить техогляд?"
    },
    "o": [
     {
      "en": "Exempt up to 4 years, then every 2 years",
-     "es": "Exenta hasta 4 años, después cada 2 años"
+     "es": "Exenta hasta 4 años, después cada 2 años",
+     "uk": "Звільнений до 4 років, потім кожні 2 роки"
     },
     {
      "en": "Exempt up to 4 years, every 2 years until 10, then every year",
-     "es": "Exenta hasta 4 años, cada 2 hasta los 10 y después cada año"
+     "es": "Exenta hasta 4 años, cada 2 hasta los 10 y después cada año",
+     "uk": "Звільнений до 4 років, кожні 2 роки до 10, потім щороку"
     },
     {
      "en": "Every year from the first year",
-     "es": "Cada año desde el primero"
+     "es": "Cada año desde el primero",
+     "uk": "Щороку з першого року"
     }
    ],
    "why": {
     "en": "Motorcycles: exempt to 4 years, then biennial for good. Annual inspections after 10 years apply to cars, not motorcycles.",
-    "es": "Motocicletas: exentas hasta 4 años y después bienal siempre. La ITV anual a partir de 10 años es de los turismos, no de las motos."
+    "es": "Motocicletas: exentas hasta 4 años y después bienal siempre. La ITV anual a partir de 10 años es de los turismos, no de las motos.",
+    "uk": "Мотоцикли: звільнені до 4 років, потім раз на два роки назавжди. Щорічний огляд після 10 років — для легковиків, не для мотоциклів."
    }
   },
   {
@@ -1078,25 +1289,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "A three-wheel moped is 3½ years old. Must it already have passed the ITV?",
-    "es": "Un ciclomotor de tres ruedas tiene 3 años y medio. ¿Debe haber pasado ya la ITV?"
+    "es": "Un ciclomotor de tres ruedas tiene 3 años y medio. ¿Debe haber pasado ya la ITV?",
+    "uk": "Триколісному мопеду 3,5 роки. Чи мав він уже пройти техогляд?"
    },
    "o": [
     {
      "en": "No: three-wheel mopeds are exempt up to 4 years",
-     "es": "No: los ciclomotores de tres ruedas están exentos hasta 4 años"
+     "es": "No: los ciclomotores de tres ruedas están exentos hasta 4 años",
+     "uk": "Ні: триколісні мопеди звільнені до 4 років"
     },
     {
      "en": "Yes: mopeds go at 3 years",
-     "es": "Sí: los ciclomotores la pasan a los 3 años"
+     "es": "Sí: los ciclomotores la pasan a los 3 años",
+     "uk": "Так: мопеди проходять у 3 роки"
     },
     {
      "en": "Yes: every year",
-     "es": "Sí: cada año"
+     "es": "Sí: cada año",
+     "uk": "Так: щороку"
     }
    ],
    "why": {
     "en": "Only two-wheel mopeds go at 3 years; three-wheel mopeds follow the motorcycles: 4 years.",
-    "es": "Solo los de dos ruedas van a los 3 años; los ciclomotores de tres ruedas siguen a las motos: 4 años."
+    "es": "Solo los de dos ruedas van a los 3 años; los ciclomotores de tres ruedas siguen a las motos: 4 años.",
+    "uk": "Лише двоколісні мопеди проходять у 3 роки; триколісні — як мотоцикли: 4 роки."
    }
   },
   {
@@ -1104,25 +1320,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "From what date is a motorcycle’s age counted for the ITV?",
-    "es": "¿Desde qué fecha se cuenta la antigüedad de una moto para la ITV?"
+    "es": "¿Desde qué fecha se cuenta la antigüedad de una moto para la ITV?",
+    "uk": "Від якої дати рахують вік мотоцикла для техогляду?"
    },
    "o": [
     {
      "en": "The registration date on the registration certificate",
-     "es": "La fecha de matriculación del permiso de circulación"
+     "es": "La fecha de matriculación del permiso de circulación",
+     "uk": "Від дати реєстрації у свідоцтві про реєстрацію"
     },
     {
      "en": "The date of manufacture",
-     "es": "La fecha de fabricación"
+     "es": "La fecha de fabricación",
+     "uk": "Від дати виготовлення"
     },
     {
      "en": "The date the current owner bought it",
-     "es": "La fecha en que la compró el titular actual"
+     "es": "La fecha en que la compró el titular actual",
+     "uk": "Від дати, коли його купив нинішній власник"
     }
    ],
    "why": {
     "en": "The age counts from the first registration; for later inspections check the ITV card or the V-19.",
-    "es": "La antigüedad se cuenta desde la primera matriculación; para las siguientes, se consulta la tarjeta ITV o el V-19."
+    "es": "La antigüedad se cuenta desde la primera matriculación; para las siguientes, se consulta la tarjeta ITV o el V-19.",
+    "uk": "Вік рахують від першої реєстрації; для наступних оглядів дивіться картку техогляду чи V-19."
    }
   },
   {
@@ -1130,25 +1351,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "Your motorcycle has no windscreen. Where does the V-19 ITV sticker go?",
-    "es": "Tu moto no tiene parabrisas. ¿Dónde se coloca el distintivo V-19 de la ITV?"
+    "es": "Tu moto no tiene parabrisas. ¿Dónde se coloca el distintivo V-19 de la ITV?",
+    "uk": "Ваш мотоцикл без вітрового щитка. Куди клеять наліпку техогляду V-19?"
    },
    "o": [
     {
      "en": "Somewhere clearly visible",
-     "es": "En un sitio bien visible"
+     "es": "En un sitio bien visible",
+     "uk": "На добре видне місце"
     },
     {
      "en": "On the helmet",
-     "es": "En el casco"
+     "es": "En el casco",
+     "uk": "На шолом"
     },
     {
      "en": "It is not needed on motorcycles",
-     "es": "No es necesario en las motos"
+     "es": "No es necesario en las motos",
+     "uk": "На мотоциклах вона не потрібна"
     }
    ],
    "why": {
     "en": "With a windscreen, top right corner on the inside; otherwise somewhere clearly visible.",
-    "es": "Con parabrisas, en el ángulo superior derecho por dentro; si no, en un sitio bien visible."
+    "es": "Con parabrisas, en el ángulo superior derecho por dentro; si no, en un sitio bien visible.",
+    "uk": "Зі склом — у верхньому правому куті зсередини; інакше — на добре видному місці."
    }
   },
   {
@@ -1156,25 +1382,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "You fit a sidecar to your motorcycle, a major modification. What must you do before riding it again?",
-    "es": "Instalas un sidecar en la moto, una reforma de importancia. ¿Qué debes hacer antes de volver a circular?"
+    "es": "Instalas un sidecar en la moto, una reforma de importancia. ¿Qué debes hacer antes de volver a circular?",
+    "uk": "Ви встановили на мотоцикл коляску, тобто суттєво його змінили. Що треба зробити, перш ніж знову ним їздити?"
    },
    "o": [
     {
      "en": "Pass an extraordinary ITV inspection",
-     "es": "Pasar una inspección técnica extraordinaria"
+     "es": "Pasar una inspección técnica extraordinaria",
+     "uk": "Пройти позачерговий техогляд"
     },
     {
      "en": "Wait for the next periodic ITV",
-     "es": "Esperar a la próxima ITV periódica"
+     "es": "Esperar a la próxima ITV periódica",
+     "uk": "Чекати наступного періодичного техогляду"
     },
     {
      "en": "Only tell the insurer",
-     "es": "Solo comunicarlo a la aseguradora"
+     "es": "Solo comunicarlo a la aseguradora",
+     "uk": "Лише повідомити страховика"
     }
    ],
    "why": {
     "en": "After a major modification the vehicle needs an extraordinary inspection before it circulates again.",
-    "es": "Tras una reforma de importancia hay que pasar una inspección técnica extraordinaria antes de volver a circular."
+    "es": "Tras una reforma de importancia hay que pasar una inspección técnica extraordinaria antes de volver a circular.",
+    "uk": "Після суттєвої зміни ТЗ мусить пройти позачерговий огляд, перш ніж знову виїхати."
    }
   },
   {
@@ -1182,25 +1413,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "The ITV result is unfavourable. May you ride the motorcycle?",
-    "es": "El resultado de la ITV es desfavorable. ¿Puedes circular con la moto?"
+    "es": "El resultado de la ITV es desfavorable. ¿Puedes circular con la moto?",
+    "uk": "Результат техогляду несприятливий. Чи можна їхати мотоциклом?"
    },
    "o": [
     {
      "en": "Only to the workshop and back to the ITV station",
-     "es": "Solo para ir al taller y volver a la estación ITV"
+     "es": "Solo para ir al taller y volver a la estación ITV",
+     "uk": "Лише до майстерні й назад на станцію техогляду"
     },
     {
      "en": "Normally, for 2 months",
-     "es": "Con normalidad, durante 2 meses"
+     "es": "Con normalidad, durante 2 meses",
+     "uk": "Як завжди, протягом 2 місяців"
     },
     {
      "en": "No: only on a tow truck",
-     "es": "No: solo en grúa"
+     "es": "No: solo en grúa",
+     "uk": "Ні: лише на евакуаторі"
     }
    ],
    "why": {
     "en": "Unfavourable: defects of some importance; only the trip to the workshop and back to the ITV is allowed.",
-    "es": "Desfavorable: defectos de cierta importancia; solo se permite el traslado al taller y la vuelta a la ITV."
+    "es": "Desfavorable: defectos de cierta importancia; solo se permite el traslado al taller y la vuelta a la ITV.",
+    "uk": "Несприятливий: дефекти певної ваги; дозволено лише поїздку до майстерні й назад на техогляд."
    }
   },
   {
@@ -1208,25 +1444,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "And if the result is negative?",
-    "es": "¿Y si el resultado es negativo?"
+    "es": "¿Y si el resultado es negativo?",
+    "uk": "А якщо результат негативний?"
    },
    "o": [
     {
      "en": "It may not be ridden: it leaves the station by other means, such as a tow truck",
-     "es": "No puede circular: sale de la estación por medios ajenos, como una grúa"
+     "es": "No puede circular: sale de la estación por medios ajenos, como una grúa",
+     "uk": "Їхати ним не можна: він покидає станцію іншим способом, наприклад на евакуаторі"
     },
     {
      "en": "You may ride it straight to the workshop",
-     "es": "Puedes ir directamente al taller con ella"
+     "es": "Puedes ir directamente al taller con ella",
+     "uk": "Можна їхати просто до майстерні"
     },
     {
      "en": "You may ride it home",
-     "es": "Puedes volver a casa con ella"
+     "es": "Puedes volver a casa con ella",
+     "uk": "Можна їхати додому"
     }
    ],
    "why": {
     "en": "Negative: defects that are a danger on the road; the vehicle is moved by means other than itself.",
-    "es": "Negativa: defectos que son un peligro en la vía; el traslado se hace por medios ajenos al propio vehículo."
+    "es": "Negativa: defectos que son un peligro en la vía; el traslado se hace por medios ajenos al propio vehículo.",
+    "uk": "Негативний: дефекти, що становлять небезпеку на дорозі; транспортний засіб переміщують не своїм ходом."
    }
   },
   {
@@ -1234,25 +1475,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "Agents stop you with the ITV out of date. What happens?",
-    "es": "Los agentes te paran con la ITV caducada. ¿Qué ocurre?"
+    "es": "Los agentes te paran con la ITV caducada. ¿Qué ocurre?",
+    "uk": "Поліцейські зупиняють вас із простроченим техоглядом. Що відбувається?"
    },
    "o": [
     {
      "en": "They report it, keep the registration certificate and give you a slip with 10 days to pass the ITV",
-     "es": "Denuncian, intervienen el permiso de circulación y te dan un volante con 10 días para pasarla"
+     "es": "Denuncian, intervienen el permiso de circulación y te dan un volante con 10 días para pasarla",
+     "uk": "Складають протокол, вилучають свідоцтво про реєстрацію й видають документ на 10 днів, щоб пройти техогляд"
     },
     {
      "en": "They seal off the motorcycle on the spot",
-     "es": "Precintan la moto en el acto"
+     "es": "Precintan la moto en el acto",
+     "uk": "Одразу опломбовують мотоцикл"
     },
     {
      "en": "They give you 2 months to pass it, without a report",
-     "es": "Te dan 2 meses para pasarla, sin denuncia"
+     "es": "Te dan 2 meses para pasarla, sin denuncia",
+     "uk": "Дають 2 місяці, щоб пройти його, без протоколу"
     }
    ],
    "why": {
     "en": "If the ITV is not passed in those 10 days, the vehicle is sealed off.",
-    "es": "Si no se pasa en esos 10 días, se acuerda el precinto del vehículo."
+    "es": "Si no se pasa en esos 10 días, se acuerda el precinto del vehículo.",
+    "uk": "Якщо за ці 10 днів техогляд не пройдено, ТЗ опломбовують."
    }
   },
   {
@@ -1260,25 +1506,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "How early may you pass your motorcycle’s ITV without losing time on the next date?",
-    "es": "¿Con cuánta antelación puedes pasar la ITV de tu moto sin perder tiempo en la siguiente fecha?"
+    "es": "¿Con cuánta antelación puedes pasar la ITV de tu moto sin perder tiempo en la siguiente fecha?",
+    "uk": "Наскільки раніше можна пройти техогляд мотоцикла, не втрачаючи часу до наступної дати?"
    },
    "o": [
     {
      "en": "Up to 30 days",
-     "es": "Hasta 30 días"
+     "es": "Hasta 30 días",
+     "uk": "До 30 днів"
     },
     {
      "en": "Up to 10 days",
-     "es": "Hasta 10 días"
+     "es": "Hasta 10 días",
+     "uk": "До 10 днів"
     },
     {
      "en": "Up to 3 months",
-     "es": "Hasta 3 meses"
+     "es": "Hasta 3 meses",
+     "uk": "До 3 місяців"
     }
    ],
    "why": {
     "en": "Up to 30 calendar days early, the new period still starts when the old one ends.",
-    "es": "Hasta 30 días naturales antes, la nueva vigencia empieza cuando termina la anterior."
+    "es": "Hasta 30 días naturales antes, la nueva vigencia empieza cuando termina la anterior.",
+    "uk": "Якщо до 30 календарних днів раніше, новий строк однаково починається, коли закінчується старий."
    }
   },
   {
@@ -1286,25 +1537,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "Who must take out the compulsory insurance of a motorcycle?",
-    "es": "¿Quién debe contratar el seguro obligatorio de una moto?"
+    "es": "¿Quién debe contratar el seguro obligatorio de una moto?",
+    "uk": "Хто мусить укласти обов’язкове страхування мотоцикла?"
    },
    "o": [
     {
      "en": "The owner, even if the motorcycle is not being ridden",
-     "es": "El propietario, aunque la moto no esté circulando"
+     "es": "El propietario, aunque la moto no esté circulando",
+     "uk": "Власник, навіть якщо мотоциклом не їздять"
     },
     {
      "en": "Whoever rides it each day",
-     "es": "Quien la conduzca cada día"
+     "es": "Quien la conduzca cada día",
+     "uk": "Той, хто щодня ним їздить"
     },
     {
      "en": "Nobody, while it is parked",
-     "es": "Nadie, mientras esté aparcada"
+     "es": "Nadie, mientras esté aparcada",
+     "uk": "Ніхто, поки він стоїть"
     }
    ],
    "why": {
     "en": "The owner must insure it even when it is not on the road; whoever signs is the policyholder.",
-    "es": "Debe concertarlo el propietario aunque no circule; quien lo contrata es el tomador."
+    "es": "Debe concertarlo el propietario aunque no circule; quien lo contrata es el tomador.",
+    "uk": "Власник мусить застрахувати його, навіть коли він не на дорозі; той, хто підписує, — страхувальник."
    }
   },
   {
@@ -1312,25 +1568,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "Must a moped be insured?",
-    "es": "¿Debe estar asegurado un ciclomotor?"
+    "es": "¿Debe estar asegurado un ciclomotor?",
+    "uk": "Чи треба страхувати мопед?"
    },
    "o": [
     {
      "en": "Yes",
-     "es": "Sí"
+     "es": "Sí",
+     "uk": "Так"
     },
     {
      "en": "Only if it goes faster than 45 km/h",
-     "es": "Solo si supera los 45 km/h"
+     "es": "Solo si supera los 45 km/h",
+     "uk": "Лише якщо він їде швидше 45 км/год"
     },
     {
      "en": "Only if it carries a passenger",
-     "es": "Solo si lleva pasajero"
+     "es": "Solo si lleva pasajero",
+     "uk": "Лише якщо возить пасажира"
     }
    ],
    "why": {
     "en": "All motor vehicles and mopeds must have compulsory insurance.",
-    "es": "Todos los vehículos de motor y los ciclomotores deben tener seguro obligatorio."
+    "es": "Todos los vehículos de motor y los ciclomotores deben tener seguro obligatorio.",
+    "uk": "Усі механічні ТЗ і мопеди мусять мати обов’язкове страхування."
    }
   },
   {
@@ -1338,25 +1599,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "You cause a crash and your passenger, who is your partner, is injured. Does your compulsory insurance pay for the passenger’s injuries?",
-    "es": "Causas un accidente y tu pasajera, que es tu pareja, resulta herida. ¿Paga tu seguro obligatorio sus lesiones?"
+    "es": "Causas un accidente y tu pasajera, que es tu pareja, resulta herida. ¿Paga tu seguro obligatorio sus lesiones?",
+    "uk": "Ви спричинили аварію, і ваш пасажир, що є вашою партнеркою, травмований. Чи покриває ваше обов’язкове страхування травми пасажира?"
    },
    "o": [
     {
      "en": "Yes: relatives are excluded only for damage to their property",
-     "es": "Sí: los parientes solo quedan excluidos en los daños a sus bienes"
+     "es": "Sí: los parientes solo quedan excluidos en los daños a sus bienes",
+     "uk": "Так: родичів виключено лише щодо шкоди їхньому майну"
     },
     {
      "en": "No: relatives are never covered",
-     "es": "No: los parientes nunca están cubiertos"
+     "es": "No: los parientes nunca están cubiertos",
+     "uk": "Ні: родичі ніколи не покриті"
     },
     {
      "en": "Only if she is the policyholder",
-     "es": "Solo si ella es la tomadora"
+     "es": "Solo si ella es la tomadora",
+     "uk": "Лише якщо вона страхувальниця"
     }
    ],
    "why": {
     "en": "The compulsory insurance covers personal injury to the policyholder, owner and relatives; it excludes only their property.",
-    "es": "El seguro obligatorio cubre los daños personales del tomador, propietario y parientes; solo excluye sus bienes."
+    "es": "El seguro obligatorio cubre los daños personales del tomador, propietario y parientes; solo excluye sus bienes.",
+    "uk": "Обов’язкове страхування покриває травми страхувальника, власника й родичів; виключено лише їхнє майно."
    }
   },
   {
@@ -1364,25 +1630,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "You fall on your own because of a mistake and you are injured. Does your compulsory insurance pay for your injuries?",
-    "es": "Te caes solo por un error tuyo y resultas herido. ¿Paga tu seguro obligatorio tus lesiones?"
+    "es": "Te caes solo por un error tuyo y resultas herido. ¿Paga tu seguro obligatorio tus lesiones?",
+    "uk": "Ви впали самі через власну помилку й травмувалися. Чи покриває ваше обов’язкове страхування ваші травми?"
    },
    "o": [
     {
      "en": "No: the guilty driver’s own injuries are never covered",
-     "es": "No: las lesiones del propio conductor culpable nunca están cubiertas"
+     "es": "No: las lesiones del propio conductor culpable nunca están cubiertas",
+     "uk": "Ні: травми самого винного водія ніколи не покриті"
     },
     {
      "en": "Yes, always",
-     "es": "Sí, siempre"
+     "es": "Sí, siempre",
+     "uk": "Так, завжди"
     },
     {
      "en": "Yes, if you wore all the gear",
-     "es": "Sí, si llevabas todo el equipo"
+     "es": "Sí, si llevabas todo el equipo",
+     "uk": "Так, якщо ви були в повному екіпіруванні"
     }
    ],
    "why": {
     "en": "The driver’s own injuries are excluded; cover for them has to be added voluntarily.",
-    "es": "Los daños personales del conductor quedan excluidos; para ellos hay que contratar coberturas voluntarias."
+    "es": "Los daños personales del conductor quedan excluidos; para ellos hay que contratar coberturas voluntarias.",
+    "uk": "Травми водія виключено; покриття для них треба додавати добровільно."
    }
   },
   {
@@ -1390,25 +1661,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "Does the compulsory insurance pay for the damage to your own motorcycle after a crash you caused?",
-    "es": "¿Paga el seguro obligatorio los daños de tu propia moto en un accidente que causaste?"
+    "es": "¿Paga el seguro obligatorio los daños de tu propia moto en un accidente que causaste?",
+    "uk": "Чи покриває обов’язкове страхування пошкодження вашого мотоцикла після аварії, яку спричинили ви?"
    },
    "o": [
     {
      "en": "No",
-     "es": "No"
+     "es": "No",
+     "uk": "Ні"
     },
     {
      "en": "Yes, up to a limit",
-     "es": "Sí, hasta un límite"
+     "es": "Sí, hasta un límite",
+     "uk": "Так, до певної межі"
     },
     {
      "en": "Only if it was parked",
-     "es": "Solo si estaba aparcada"
+     "es": "Solo si estaba aparcada",
+     "uk": "Лише якщо він стояв"
     }
    ],
    "why": {
     "en": "Damage to the insured vehicle and the goods it carries is not covered.",
-    "es": "Los daños al vehículo asegurado y a las cosas transportadas no están cubiertos."
+    "es": "Los daños al vehículo asegurado y a las cosas transportadas no están cubiertos.",
+    "uk": "Пошкодження застрахованого ТЗ і речей, які він перевозить, не покрито."
    }
   },
   {
@@ -1416,25 +1692,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "A rider who was over the alcohol limit injures a pedestrian. Who pays the victim?",
-    "es": "Un motorista que superaba la tasa de alcohol atropella a un peatón. ¿Quién indemniza a la víctima?"
+    "es": "Un motorista que superaba la tasa de alcohol atropella a un peatón. ¿Quién indemniza a la víctima?",
+    "uk": "Мотоцикліст із перевищенням норми алкоголю травмував пішохода. Хто платить потерпілому?"
    },
    "o": [
     {
      "en": "The insurer, which can then claim the money back from the rider",
-     "es": "La aseguradora, que después puede repetir contra el conductor"
+     "es": "La aseguradora, que después puede repetir contra el conductor",
+     "uk": "Страховик, який потім може стягнути гроші з мотоцикліста"
     },
     {
      "en": "Nobody: alcohol voids the insurance",
-     "es": "Nadie: el alcohol anula el seguro"
+     "es": "Nadie: el alcohol anula el seguro",
+     "uk": "Ніхто: алкоголь анулює страховку"
     },
     {
      "en": "The Consorcio, always",
-     "es": "Siempre el Consorcio"
+     "es": "Siempre el Consorcio",
+     "uk": "Завжди Consorcio"
     }
    ],
    "why": {
     "en": "Victims are paid; the insurer may then recover the money from the rider.",
-    "es": "Las víctimas cobran; la aseguradora puede después repetir contra el conductor."
+    "es": "Las víctimas cobran; la aseguradora puede después repetir contra el conductor.",
+    "uk": "Потерпілим платять; потім страховик може стягнути гроші з водія."
    }
   },
   {
@@ -1442,25 +1723,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "A stolen motorcycle injures someone. Who pays the victim?",
-    "es": "Una moto robada atropella a alguien. ¿Quién indemniza a la víctima?"
+    "es": "Una moto robada atropella a alguien. ¿Quién indemniza a la víctima?",
+    "uk": "Викрадений мотоцикл травмував людину. Хто платить потерпілому?"
    },
    "o": [
     {
      "en": "The Consorcio de Compensación de Seguros",
-     "es": "El Consorcio de Compensación de Seguros"
+     "es": "El Consorcio de Compensación de Seguros",
+     "uk": "Consorcio de Compensación de Seguros"
     },
     {
      "en": "The owner’s insurer",
-     "es": "La aseguradora del propietario"
+     "es": "La aseguradora del propietario",
+     "uk": "Страховик власника"
     },
     {
      "en": "Nobody",
-     "es": "Nadie"
+     "es": "Nadie",
+     "uk": "Ніхто"
     }
    ],
    "why": {
     "en": "Damage caused by a stolen vehicle is paid by the Consorcio.",
-    "es": "Los daños causados por un vehículo robado los indemniza el Consorcio."
+    "es": "Los daños causados por un vehículo robado los indemniza el Consorcio.",
+    "uk": "Шкоду, завдану викраденим ТЗ, відшкодовує Consorcio."
    }
   },
   {
@@ -1468,25 +1754,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "How do agents check that your motorcycle is insured?",
-    "es": "¿Cómo comprueban los agentes que tu moto está asegurada?"
+    "es": "¿Cómo comprueban los agentes que tu moto está asegurada?",
+    "uk": "Як поліцейські перевіряють, що ваш мотоцикл застрахований?"
    },
    "o": [
     {
      "en": "In the FIVA database; if not possible, you show the receipt",
-     "es": "En el fichero FIVA; si no es posible, presentas el recibo"
+     "es": "En el fichero FIVA; si no es posible, presentas el recibo",
+     "uk": "У базі FIVA; якщо це неможливо, ви показуєте квитанцію"
     },
     {
      "en": "Only with the paper policy",
-     "es": "Solo con la póliza en papel"
+     "es": "Solo con la póliza en papel",
+     "uk": "Лише за паперовим полісом"
     },
     {
      "en": "With a sticker on the plate",
-     "es": "Con una pegatina en la placa"
+     "es": "Con una pegatina en la placa",
+     "uk": "За наліпкою на номерному знаку"
     }
    ],
    "why": {
     "en": "They consult the Fichero Informativo de Vehículos Asegurados; otherwise the driver shows proof.",
-    "es": "Consultan el Fichero Informativo de Vehículos Asegurados; si no, el conductor presenta el justificante."
+    "es": "Consultan el Fichero Informativo de Vehículos Asegurados; si no, el conductor presenta el justificante.",
+    "uk": "Вони перевіряють Fichero Informativo de Vehículos Asegurados; інакше водій показує підтвердження."
    }
   },
   {
@@ -1494,25 +1785,30 @@ window.DGT_DATA = {
    "tag": "points",
    "q": {
     "en": "How many points does a rider with an A2 of three years have, with no sanctions?",
-    "es": "¿Cuántos puntos tiene un conductor con un A2 de tres años y sin sanciones?"
+    "es": "¿Cuántos puntos tiene un conductor con un A2 de tres años y sin sanciones?",
+    "uk": "Скільки балів має мотоцикліст з A2 три роки без санкцій?"
    },
    "o": [
     {
      "en": "12",
-     "es": "12"
+     "es": "12",
+     "uk": "12"
     },
     {
      "en": "8",
-     "es": "8"
+     "es": "8",
+     "uk": "8"
     },
     {
      "en": "15",
-     "es": "15"
+     "es": "15",
+     "uk": "15"
     }
    ],
    "why": {
     "en": "After two years the balance is 12; the bonuses come after three more clean years.",
-    "es": "Tras dos años el saldo es de 12; las bonificaciones llegan tras tres años más sin sanción."
+    "es": "Tras dos años el saldo es de 12; las bonificaciones llegan tras tres años más sin sanción.",
+    "uk": "Після двох років баланс — 12; бонуси — після ще трьох років без порушень."
    }
   },
   {
@@ -1520,25 +1816,30 @@ window.DGT_DATA = {
    "tag": "points",
    "q": {
     "en": "You get your first licence, an A1, at 16. How many points do you start with?",
-    "es": "Obtienes tu primer permiso, el A1, a los 16 años. ¿Con cuántos puntos empiezas?"
+    "es": "Obtienes tu primer permiso, el A1, a los 16 años. ¿Con cuántos puntos empiezas?",
+    "uk": "Ви отримали перше посвідчення, A1, у 16 років. Зі скількох балів починаєте?"
    },
    "o": [
     {
      "en": "8",
-     "es": "8"
+     "es": "8",
+     "uk": "8"
     },
     {
      "en": "12",
-     "es": "12"
+     "es": "12",
+     "uk": "12"
     },
     {
      "en": "6",
-     "es": "6"
+     "es": "6",
+     "uk": "6"
     }
    ],
    "why": {
     "en": "A licence of two years or less starts with 8, unless you already held another for more than two years.",
-    "es": "Un permiso de dos años o menos empieza con 8, salvo que ya fueras titular de otro con más de dos años."
+    "es": "Un permiso de dos años o menos empieza con 8, salvo que ya fueras titular de otro con más de dos años.",
+    "uk": "Посвідчення віком до двох років починається з 8, якщо ви вже не мали іншого понад два роки."
    }
   },
   {
@@ -1546,25 +1847,30 @@ window.DGT_DATA = {
    "tag": "points",
    "q": {
     "en": "You have had the B for five years and now get the A2. How many points do you have?",
-    "es": "Tienes el B desde hace cinco años y ahora sacas el A2. ¿Cuántos puntos tienes?"
+    "es": "Tienes el B desde hace cinco años y ahora sacas el A2. ¿Cuántos puntos tienes?",
+    "uk": "Ви п’ять років маєте B і тепер отримали A2. Скільки у вас балів?"
    },
    "o": [
     {
      "en": "Your balance stays the same: the credit is one for all your licences",
-     "es": "Tu saldo no cambia: el crédito es único para todos tus permisos"
+     "es": "Tu saldo no cambia: el crédito es único para todos tus permisos",
+     "uk": "Ваш баланс не змінюється: він один для всіх ваших посвідчень"
     },
     {
      "en": "8, because the A2 is new",
-     "es": "8, porque el A2 es nuevo"
+     "es": "8, porque el A2 es nuevo",
+     "uk": "8, бо A2 нове"
     },
     {
      "en": "12 for the A2 and 12 for the B",
-     "es": "12 para el A2 y 12 para el B"
+     "es": "12 para el A2 y 12 para el B",
+     "uk": "12 за A2 і 12 за B"
     }
    ],
    "why": {
     "en": "There is one single points credit for all of a driver’s licences, and the 8-point rule does not apply after more than two years with another licence.",
-    "es": "El crédito de puntos es único para todas las autorizaciones, y la regla de los 8 puntos no se aplica con otro permiso de más de dos años."
+    "es": "El crédito de puntos es único para todas las autorizaciones, y la regla de los 8 puntos no se aplica con otro permiso de más de dos años.",
+    "uk": "Для всіх посвідчень водія один баланс балів, і правило 8 балів не діє після понад двох років з іншим посвідченням."
    }
   },
   {
@@ -1572,25 +1878,30 @@ window.DGT_DATA = {
    "tag": "points",
    "q": {
     "en": "What is the highest points balance you can reach?",
-    "es": "¿Cuál es el saldo máximo de puntos que se puede alcanzar?"
+    "es": "¿Cuál es el saldo máximo de puntos que se puede alcanzar?",
+    "uk": "Який найбільший баланс балів можна мати?"
    },
    "o": [
     {
      "en": "15",
-     "es": "15"
+     "es": "15",
+     "uk": "15"
     },
     {
      "en": "12",
-     "es": "12"
+     "es": "12",
+     "uk": "12"
     },
     {
      "en": "20",
-     "es": "20"
+     "es": "20",
+     "uk": "20"
     }
    ],
    "why": {
     "en": "With all your points and no firm sanctions: +2 after 3 years and +1 after 3 more, up to 15.",
-    "es": "Con todos los puntos y sin sanciones firmes: +2 a los 3 años y +1 a los 3 siguientes, hasta 15."
+    "es": "Con todos los puntos y sin sanciones firmes: +2 a los 3 años y +1 a los 3 siguientes, hasta 15.",
+    "uk": "З усіма балами й без остаточних санкцій: +2 через 3 роки і +1 ще через 3, до 15."
    }
   },
   {
@@ -1598,25 +1909,30 @@ window.DGT_DATA = {
    "tag": "points",
    "q": {
     "en": "In one day you commit several serious offences worth 12 points in total, none of them very serious. How many do you lose?",
-    "es": "En un mismo día cometes varias infracciones graves que suman 12 puntos, ninguna muy grave. ¿Cuántos pierdes?"
+    "es": "En un mismo día cometes varias infracciones graves que suman 12 puntos, ninguna muy grave. ¿Cuántos pierdes?",
+    "uk": "За один день ви вчинили кілька серйозних порушень разом на 12 балів, жодне не дуже серйозне. Скільки втрачаєте?"
    },
    "o": [
     {
      "en": "8",
-     "es": "8"
+     "es": "8",
+     "uk": "8"
     },
     {
      "en": "12",
-     "es": "12"
+     "es": "12",
+     "uk": "12"
     },
     {
      "en": "6",
-     "es": "6"
+     "es": "6",
+     "uk": "6"
     }
    ],
    "why": {
     "en": "At most 8 points a day, unless one of the offences is very serious.",
-    "es": "Como máximo 8 puntos en un solo día, salvo que haya alguna infracción muy grave."
+    "es": "Como máximo 8 puntos en un solo día, salvo que haya alguna infracción muy grave.",
+    "uk": "Щонайбільше 8 балів за день, якщо жодне порушення не дуже серйозне."
    }
   },
   {
@@ -1624,25 +1940,30 @@ window.DGT_DATA = {
    "tag": "points",
    "q": {
     "en": "You lost some points and then go two years without any firm sanction that takes points. What happens?",
-    "es": "Perdiste algunos puntos y luego pasas dos años sin ninguna sanción firme con pérdida de puntos. ¿Qué ocurre?"
+    "es": "Perdiste algunos puntos y luego pasas dos años sin ninguna sanción firme con pérdida de puntos. ¿Qué ocurre?",
+    "uk": "Ви втратили частину балів і потім два роки не мали остаточних санкцій зі зняттям балів. Що відбувається?"
    },
    "o": [
     {
      "en": "You get back your full initial 12",
-     "es": "Recuperas la totalidad del crédito inicial de 12"
+     "es": "Recuperas la totalidad del crédito inicial de 12",
+     "uk": "Повертаєте всі початкові 12"
     },
     {
      "en": "You get back 4 points",
-     "es": "Recuperas 4 puntos"
+     "es": "Recuperas 4 puntos",
+     "uk": "Повертаєте 4 бали"
     },
     {
      "en": "Nothing: you need a course",
-     "es": "Nada: hace falta un curso"
+     "es": "Nada: hace falta un curso",
+     "uk": "Нічого: потрібен курс"
     }
    ],
    "why": {
     "en": "Automatic recovery after two years without firm sanctions for partial losses.",
-    "es": "Recuperación automática tras dos años sin sanciones firmes en caso de pérdida parcial."
+    "es": "Recuperación automática tras dos años sin sanciones firmes en caso de pérdida parcial.",
+    "uk": "Автоматичне відновлення після двох років без остаточних санкцій при частковій втраті."
    }
   },
   {
@@ -1650,25 +1971,30 @@ window.DGT_DATA = {
    "tag": "points",
    "q": {
     "en": "When are points actually taken from your balance?",
-    "es": "¿Cuándo se restan realmente los puntos de tu saldo?"
+    "es": "¿Cuándo se restan realmente los puntos de tu saldo?",
+    "uk": "Коли бали справді знімають з вашого балансу?"
    },
    "o": [
     {
      "en": "When the administrative sanction for a serious or very serious offence becomes final",
-     "es": "Cuando la sanción por una infracción grave o muy grave es firme en vía administrativa"
+     "es": "Cuando la sanción por una infracción grave o muy grave es firme en vía administrativa",
+     "uk": "Коли адміністративна санкція за серйозне чи дуже серйозне порушення стає остаточною"
     },
     {
      "en": "When the agent reports you",
-     "es": "Cuando el agente te denuncia"
+     "es": "Cuando el agente te denuncia",
+     "uk": "Коли поліцейський складає протокол"
     },
     {
      "en": "When you pay the fine",
-     "es": "Cuando pagas la multa"
+     "es": "Cuando pagas la multa",
+     "uk": "Коли ви сплачуєте штраф"
     }
    ],
    "why": {
     "en": "Points are reduced for each firm administrative sanction for offences that carry them.",
-    "es": "Los puntos se reducen por cada sanción firme en vía administrativa por infracciones que lleven aparejada su pérdida."
+    "es": "Los puntos se reducen por cada sanción firme en vía administrativa por infracciones que lleven aparejada su pérdida.",
+    "uk": "Бали знімають за кожну остаточну адміністративну санкцію за порушення, що їх передбачають."
    }
   },
   {
@@ -1676,25 +2002,30 @@ window.DGT_DATA = {
    "tag": "points",
    "q": {
     "en": "You regain your licence after losing all your points. How many points does it have?",
-    "es": "Recuperas el permiso tras perder todos los puntos. ¿Cuántos puntos tiene?"
+    "es": "Recuperas el permiso tras perder todos los puntos. ¿Cuántos puntos tiene?",
+    "uk": "Ви повернули посвідчення після втрати всіх балів. Скільки в ньому балів?"
    },
    "o": [
     {
      "en": "8",
-     "es": "8"
+     "es": "8",
+     "uk": "8"
     },
     {
      "en": "12",
-     "es": "12"
+     "es": "12",
+     "uk": "12"
     },
     {
      "en": "4",
-     "es": "4"
+     "es": "4",
+     "uk": "4"
     }
    ],
    "why": {
     "en": "The licence comes back with the same class and seniority, but with 8 points.",
-    "es": "El permiso vuelve con la misma clase y antigüedad, pero con 8 puntos."
+    "es": "El permiso vuelve con la misma clase y antigüedad, pero con 8 puntos.",
+    "uk": "Посвідчення повертають тієї самої категорії й стажу, але з 8 балами."
    }
   },
   {
@@ -1702,25 +2033,30 @@ window.DGT_DATA = {
    "tag": "offences",
    "q": {
     "en": "You ride with your phone held between the helmet and your head to talk. How many points?",
-    "es": "Circulas con el móvil sujeto entre el casco y la cabeza para hablar. ¿Cuántos puntos?"
+    "es": "Circulas con el móvil sujeto entre el casco y la cabeza para hablar. ¿Cuántos puntos?",
+    "uk": "Ви їдете з телефоном, затиснутим між шоломом і головою, щоб розмовляти. Скільки балів?"
    },
    "o": [
     {
      "en": "3",
-     "es": "3"
+     "es": "3",
+     "uk": "3"
     },
     {
      "en": "6",
-     "es": "6"
+     "es": "6",
+     "uk": "6"
     },
     {
      "en": "None: your hands are free",
-     "es": "Ninguno: llevas las manos libres"
+     "es": "Ninguno: llevas las manos libres",
+     "uk": "Жодного: руки вільні"
     }
    ],
    "why": {
     "en": "Keeping a phone between helmet and head while riding is a 3-point offence.",
-    "es": "Mantener ajustado entre el casco y la cabeza un móvil mientras se conduce supone 3 puntos."
+    "es": "Mantener ajustado entre el casco y la cabeza un móvil mientras se conduce supone 3 puntos.",
+    "uk": "Телефон між шоломом і головою під час руху — порушення на 3 бали."
    }
   },
   {
@@ -1728,25 +2064,30 @@ window.DGT_DATA = {
    "tag": "offences",
    "q": {
     "en": "Which device may you use while riding a motorcycle?",
-    "es": "¿Qué dispositivo puedes usar mientras conduces una moto?"
+    "es": "¿Qué dispositivo puedes usar mientras conduces una moto?",
+    "uk": "Яким пристроєм можна користуватися на мотоциклі під час руху?"
    },
    "o": [
     {
      "en": "A certified wireless device built into the helmet, for intercom or navigation",
-     "es": "Un dispositivo inalámbrico certificado integrado en el casco, para intercomunicación o navegación"
+     "es": "Un dispositivo inalámbrico certificado integrado en el casco, para intercomunicación o navegación",
+     "uk": "Сертифікованим бездротовим пристроєм, вбудованим у шолом, для переговорів чи навігації"
     },
     {
      "en": "Earphones under the helmet to listen to music",
-     "es": "Auriculares bajo el casco para escuchar música"
+     "es": "Auriculares bajo el casco para escuchar música",
+     "uk": "Навушниками під шоломом, щоб слухати музику"
     },
     {
      "en": "The phone in your hand at a red light",
-     "es": "El móvil en la mano en un semáforo en rojo"
+     "es": "El móvil en la mano en un semáforo en rojo",
+     "uk": "Телефоном у руці на червоне світло"
     }
    ],
    "why": {
     "en": "The Reglamento allows certified or approved wireless devices integrated in the helmet, only for intercom or navigation and without affecting safety.",
-    "es": "El Reglamento permite los dispositivos inalámbricos certificados u homologados integrados en el casco, solo para intercomunicación o navegación y sin afectar a la seguridad."
+    "es": "El Reglamento permite los dispositivos inalámbricos certificados u homologados integrados en el casco, solo para intercomunicación o navegación y sin afectar a la seguridad.",
+    "uk": "Регламент дозволяє сертифіковані чи затверджені бездротові пристрої, вбудовані в шолом, лише для переговорів чи навігації і без шкоди для безпеки."
    }
   },
   {
@@ -1754,25 +2095,30 @@ window.DGT_DATA = {
    "tag": "offences",
    "q": {
     "en": "You ride without a helmet. How many points do you lose?",
-    "es": "Circulas sin casco. ¿Cuántos puntos pierdes?"
+    "es": "Circulas sin casco. ¿Cuántos puntos pierdes?",
+    "uk": "Ви їдете без шолома. Скільки балів втрачаєте?"
    },
    "o": [
     {
      "en": "4",
-     "es": "4"
+     "es": "4",
+     "uk": "4"
     },
     {
      "en": "3",
-     "es": "3"
+     "es": "3",
+     "uk": "3"
     },
     {
      "en": "6",
-     "es": "6"
+     "es": "6",
+     "uk": "6"
     }
    ],
    "why": {
     "en": "Not using, or using badly, the helmet and other compulsory protection: 4 points.",
-    "es": "No usar, o usar mal, el casco y demás elementos de protección obligatorios: 4 puntos."
+    "es": "No usar, o usar mal, el casco y demás elementos de protección obligatorios: 4 puntos.",
+    "uk": "Не використовувати чи неправильно використовувати шолом та інший обов’язковий захист: 4 бали."
    }
   },
   {
@@ -1780,25 +2126,30 @@ window.DGT_DATA = {
    "tag": "offences",
    "q": {
     "en": "Since 1 October 2026, what must a rider and passenger wear on an interurban road, besides the helmet?",
-    "es": "Desde el 1 de octubre de 2026, ¿qué deben llevar conductor y pasajero en una vía interurbana, además del casco?"
+    "es": "Desde el 1 de octubre de 2026, ¿qué deben llevar conductor y pasajero en una vía interurbana, además del casco?",
+    "uk": "Що з 1 жовтня 2026 року мусять мати водій і пасажир на заміській дорозі, крім шолома?"
    },
    "o": [
     {
      "en": "Protective gloves and closed shoes",
-     "es": "Guantes de protección y calzado cerrado"
+     "es": "Guantes de protección y calzado cerrado",
+     "uk": "Захисні рукавички й закрите взуття"
     },
     {
      "en": "A reflective vest",
-     "es": "Un chaleco reflectante"
+     "es": "Un chaleco reflectante",
+     "uk": "Світловідбивний жилет"
     },
     {
      "en": "A back protector",
-     "es": "Un protector de espalda"
+     "es": "Un protector de espalda",
+     "uk": "Захист спини"
     }
    ],
    "why": {
     "en": "Art. 118 of the Reglamento now requires gloves on interurban roads and closed shoes on every road. The reflective vest is equipment the motorcycle must carry, for when you get off on the road.",
-    "es": "El art. 118 exige ahora guantes en vías interurbanas y calzado cerrado en todas las vías. El chaleco reflectante es un accesorio que la moto debe llevar, para cuando te bajes en la vía."
+    "es": "El art. 118 exige ahora guantes en vías interurbanas y calzado cerrado en todas las vías. El chaleco reflectante es un accesorio que la moto debe llevar, para cuando te bajes en la vía.",
+    "uk": "Ст. 118 Регламенту тепер вимагає рукавичок на заміських дорогах і закритого взуття на будь-якій. Світловідбивний жилет — обладнання, яке мотоцикл мусить возити, на випадок, коли ви зійдете на дорогу."
    }
   },
   {
@@ -1806,25 +2157,30 @@ window.DGT_DATA = {
    "tag": "offences",
    "q": {
     "en": "You ride an 80 kW motorcycle with only an A2. What does it cost?",
-    "es": "Conduces una moto de 80 kW con solo el A2. ¿Qué supone?"
+    "es": "Conduces una moto de 80 kW con solo el A2. ¿Qué supone?",
+    "uk": "Ви їдете мотоциклом на 80 кВт лише з A2. Скільки це коштує?"
    },
    "o": [
     {
      "en": "4 points: riding with a licence that does not cover that vehicle",
-     "es": "4 puntos: conducir con un permiso que no habilita para ese vehículo"
+     "es": "4 puntos: conducir con un permiso que no habilita para ese vehículo",
+     "uk": "4 бали: керування з посвідченням, що не охоплює цей ТЗ"
     },
     {
      "en": "Nothing, if you ride carefully",
-     "es": "Nada, si conduces con cuidado"
+     "es": "Nada, si conduces con cuidado",
+     "uk": "Нічого, якщо їдете обережно"
     },
     {
      "en": "2 points",
-     "es": "2 puntos"
+     "es": "2 puntos",
+     "uk": "2 бали"
     }
    ],
    "why": {
     "en": "Driving a vehicle with a licence that does not entitle you to it costs 4 points.",
-    "es": "Conducir un vehículo con un permiso que no habilite para ello supone 4 puntos."
+    "es": "Conducir un vehículo con un permiso que no habilite para ello supone 4 puntos.",
+    "uk": "Керування ТЗ з посвідченням, яке не дає на це права, коштує 4 бали."
    }
   },
   {
@@ -1832,25 +2188,30 @@ window.DGT_DATA = {
    "tag": "offences",
    "q": {
     "en": "Your licence is less than two years old and the breath test gives 0.22 mg/l. What happens?",
-    "es": "Tu permiso tiene menos de dos años y la prueba da 0,22 mg/l en aire. ¿Qué ocurre?"
+    "es": "Tu permiso tiene menos de dos años y la prueba da 0,22 mg/l en aire. ¿Qué ocurre?",
+    "uk": "Вашому посвідченню менше двох років, а тест на алкоголь показує 0,22 мг/л. Що відбувається?"
    },
    "o": [
     {
      "en": "4 points: the limit for you is 0.15 mg/l",
-     "es": "4 puntos: tu límite es 0,15 mg/l"
+     "es": "4 puntos: tu límite es 0,15 mg/l",
+     "uk": "4 бали: ваша межа 0,15 мг/л"
     },
     {
      "en": "Nothing: the limit is 0.25 mg/l",
-     "es": "Nada: el límite es 0,25 mg/l"
+     "es": "Nada: el límite es 0,25 mg/l",
+     "uk": "Нічого: межа 0,25 мг/л"
     },
     {
      "en": "6 points",
-     "es": "6 puntos"
+     "es": "6 puntos",
+     "uk": "6 балів"
     }
    ],
    "why": {
     "en": "New and professional drivers: over 0.15 and up to 0.30 mg/l, 4 points; over 0.30, 6 points.",
-    "es": "Noveles y profesionales: más de 0,15 hasta 0,30 mg/l, 4 puntos; más de 0,30, 6 puntos."
+    "es": "Noveles y profesionales: más de 0,15 hasta 0,30 mg/l, 4 puntos; más de 0,30, 6 puntos.",
+    "uk": "Початківці й професійні водії: понад 0,15 і до 0,30 мг/л — 4 бали; понад 0,30 — 6 балів."
    }
   },
   {
@@ -1858,25 +2219,30 @@ window.DGT_DATA = {
    "tag": "offences",
    "q": {
     "en": "You use your phone holding it in your hand while riding. How many points?",
-    "es": "Usas el móvil sujetándolo con la mano mientras conduces. ¿Cuántos puntos?"
+    "es": "Usas el móvil sujetándolo con la mano mientras conduces. ¿Cuántos puntos?",
+    "uk": "Ви користуєтеся телефоном, тримаючи його в руці під час руху. Скільки балів?"
    },
    "o": [
     {
      "en": "6",
-     "es": "6"
+     "es": "6",
+     "uk": "6"
     },
     {
      "en": "3",
-     "es": "3"
+     "es": "3",
+     "uk": "3"
     },
     {
      "en": "4",
-     "es": "4"
+     "es": "4",
+     "uk": "4"
     }
    ],
    "why": {
     "en": "Using a mobile phone held in the hand is a very serious offence: 6 points.",
-    "es": "Utilizar el móvil sujetándolo con la mano es infracción muy grave: 6 puntos."
+    "es": "Utilizar el móvil sujetándolo con la mano es infracción muy grave: 6 puntos.",
+    "uk": "Користування телефоном у руці — дуже серйозне порушення: 6 балів."
    }
   },
   {
@@ -1884,25 +2250,30 @@ window.DGT_DATA = {
    "tag": "offences",
    "q": {
     "en": "You overtake a group of cyclists leaving less than 1.5 m. How many points?",
-    "es": "Adelantas a un grupo de ciclistas dejando menos de 1,5 m. ¿Cuántos puntos?"
+    "es": "Adelantas a un grupo de ciclistas dejando menos de 1,5 m. ¿Cuántos puntos?",
+    "uk": "Ви обігнали групу велосипедистів, залишивши менше 1,5 м. Скільки балів?"
    },
    "o": [
     {
      "en": "6",
-     "es": "6"
+     "es": "6",
+     "uk": "6"
     },
     {
      "en": "4",
-     "es": "4"
+     "es": "4",
+     "uk": "4"
     },
     {
      "en": "3",
-     "es": "3"
+     "es": "3",
+     "uk": "3"
     }
    ],
    "why": {
     "en": "Overtaking cyclists dangerously or without the 1.5 m minimum: 6 points.",
-    "es": "Adelantar a ciclistas poniéndolos en peligro o sin dejar 1,5 m: 6 puntos."
+    "es": "Adelantar a ciclistas poniéndolos en peligro o sin dejar 1,5 m: 6 puntos.",
+    "uk": "Небезпечний обгін велосипедистів чи без мінімальних 1,5 м: 6 балів."
    }
   },
   {
@@ -1910,25 +2281,30 @@ window.DGT_DATA = {
    "tag": "offences",
    "q": {
     "en": "On a motorway (limit 120) you are caught at 175 km/h. What is the sanction?",
-    "es": "En autopista (límite 120) te captan a 175 km/h. ¿Cuál es la sanción?"
+    "es": "En autopista (límite 120) te captan a 175 km/h. ¿Cuál es la sanción?",
+    "uk": "На автомагістралі (обмеження 120) вас зафіксували на 175 км/год. Яка санкція?"
    },
    "o": [
     {
      "en": "400 € and 4 points",
-     "es": "400 € y 4 puntos"
+     "es": "400 € y 4 puntos",
+     "uk": "400 € і 4 бали"
     },
     {
      "en": "300 € and 2 points",
-     "es": "300 € y 2 puntos"
+     "es": "300 € y 2 puntos",
+     "uk": "300 € і 2 бали"
     },
     {
      "en": "600 € and 6 points",
-     "es": "600 € y 6 puntos"
+     "es": "600 € y 6 puntos",
+     "uk": "600 € і 6 балів"
     }
    ],
    "why": {
     "en": "With a 120 limit: 171–180 km/h is 400 € and 4 points.",
-    "es": "Con límite 120: de 171 a 180 km/h, 400 € y 4 puntos."
+    "es": "Con límite 120: de 171 a 180 km/h, 400 € y 4 puntos.",
+    "uk": "З обмеженням 120: 171–180 км/год — 400 € і 4 бали."
    }
   },
   {
@@ -1936,25 +2312,30 @@ window.DGT_DATA = {
    "tag": "offences",
    "q": {
     "en": "In town, with a 50 km/h limit, you are caught at 65 km/h. What is the sanction?",
-    "es": "En ciudad, con límite de 50 km/h, te captan a 65 km/h. ¿Cuál es la sanción?"
+    "es": "En ciudad, con límite de 50 km/h, te captan a 65 km/h. ¿Cuál es la sanción?",
+    "uk": "У місті з обмеженням 50 км/год вас зафіксували на 65 км/год. Яка санкція?"
    },
    "o": [
     {
      "en": "100 € and no points",
-     "es": "100 € y sin puntos"
+     "es": "100 € y sin puntos",
+     "uk": "100 € без балів"
     },
     {
      "en": "300 € and 2 points",
-     "es": "300 € y 2 puntos"
+     "es": "300 € y 2 puntos",
+     "uk": "300 € і 2 бали"
     },
     {
      "en": "400 € and 4 points",
-     "es": "400 € y 4 puntos"
+     "es": "400 € y 4 puntos",
+     "uk": "400 € і 4 бали"
     }
    ],
    "why": {
     "en": "With a 50 limit: 51–70 km/h is 100 € without points; 71–80 is 300 € and 2 points.",
-    "es": "Con límite 50: de 51 a 70 km/h, 100 € sin puntos; de 71 a 80, 300 € y 2 puntos."
+    "es": "Con límite 50: de 51 a 70 km/h, 100 € sin puntos; de 71 a 80, 300 € y 2 puntos.",
+    "uk": "З обмеженням 50: 51–70 км/год — 100 € без балів; 71–80 — 300 € і 2 бали."
    }
   },
   {
@@ -1962,25 +2343,30 @@ window.DGT_DATA = {
    "tag": "offences",
    "q": {
     "en": "Which of these costs 3 points?",
-    "es": "¿Cuál de estas infracciones supone 3 puntos?"
+    "es": "¿Cuál de estas infracciones supone 3 puntos?",
+    "uk": "Що з цього коштує 3 бали?"
    },
    "o": [
     {
      "en": "Riding with a radar detector",
-     "es": "Circular con un detector de radar"
+     "es": "Circular con un detector de radar",
+     "uk": "Їзда з детектором радарів"
     },
     {
      "en": "Riding with a radar jammer",
-     "es": "Circular con un inhibidor de radar"
+     "es": "Circular con un inhibidor de radar",
+     "uk": "Їзда з глушником радарів"
     },
     {
      "en": "Running a red light",
-     "es": "Saltarse un semáforo en rojo"
+     "es": "Saltarse un semáforo en rojo",
+     "uk": "Проїзд на червоне"
     }
    ],
    "why": {
     "en": "Radar detector: 3 points; jammer: 6; red light: 4.",
-    "es": "Detector de radar: 3 puntos; inhibidor: 6; semáforo en rojo: 4."
+    "es": "Detector de radar: 3 puntos; inhibidor: 6; semáforo en rojo: 4.",
+    "uk": "Детектор радарів: 3 бали; глушник: 6; червоне: 4."
    }
   },
   {
@@ -1988,25 +2374,30 @@ window.DGT_DATA = {
    "tag": "courses",
    "q": {
     "en": "How many points can a partial-recovery course give back at most?",
-    "es": "¿Cuántos puntos puede devolver como máximo un curso de recuperación parcial?"
+    "es": "¿Cuántos puntos puede devolver como máximo un curso de recuperación parcial?",
+    "uk": "Скільки балів щонайбільше може повернути курс часткового відновлення?"
    },
    "o": [
     {
      "en": "4, never more than you lost",
-     "es": "4, nunca más de los perdidos"
+     "es": "4, nunca más de los perdidos",
+     "uk": "4, ніколи не більше, ніж втрачено"
     },
     {
      "en": "6",
-     "es": "6"
+     "es": "6",
+     "uk": "6"
     },
     {
      "en": "All the lost points",
-     "es": "Todos los perdidos"
+     "es": "Todos los perdidos",
+     "uk": "Усі втрачені бали"
     }
    ],
    "why": {
     "en": "The 10-hour course gives back up to 4 points.",
-    "es": "El curso de 10 horas permite recuperar hasta 4 puntos."
+    "es": "El curso de 10 horas permite recuperar hasta 4 puntos.",
+    "uk": "10-годинний курс повертає до 4 балів."
    }
   },
   {
@@ -2014,25 +2405,30 @@ window.DGT_DATA = {
    "tag": "courses",
    "q": {
     "en": "How often may a private rider take the partial-recovery course?",
-    "es": "¿Cada cuánto puede hacer un conductor particular el curso de recuperación parcial?"
+    "es": "¿Cada cuánto puede hacer un conductor particular el curso de recuperación parcial?",
+    "uk": "Як часто приватний мотоцикліст може проходити курс часткового відновлення?"
    },
    "o": [
     {
      "en": "Once every 2 years",
-     "es": "Una vez cada 2 años"
+     "es": "Una vez cada 2 años",
+     "uk": "Раз на 2 роки"
     },
     {
      "en": "Once a year",
-     "es": "Una vez al año"
+     "es": "Una vez al año",
+     "uk": "Раз на рік"
     },
     {
      "en": "As often as needed",
-     "es": "Tantas veces como quiera"
+     "es": "Tantas veces como quiera",
+     "uk": "Скільки треба"
     }
    ],
    "why": {
     "en": "Once every 2 years; professional drivers, once a year.",
-    "es": "Una vez cada 2 años; los profesionales, una vez al año."
+    "es": "Una vez cada 2 años; los profesionales, una vez al año.",
+    "uk": "Раз на 2 роки; професійні водії — раз на рік."
    }
   },
   {
@@ -2040,25 +2436,30 @@ window.DGT_DATA = {
    "tag": "courses",
    "q": {
     "en": "How long is the course to regain a lost licence?",
-    "es": "¿Cuánto dura el curso para recuperar el permiso perdido?"
+    "es": "¿Cuánto dura el curso para recuperar el permiso perdido?",
+    "uk": "Скільки триває курс для повернення втраченого посвідчення?"
    },
    "o": [
     {
      "en": "20 hours, followed by a test at the Traffic Office",
-     "es": "20 horas, seguido de una prueba en la Jefatura"
+     "es": "20 horas, seguido de una prueba en la Jefatura",
+     "uk": "20 годин, потім тест в Управлінні дорожнього руху"
     },
     {
      "en": "10 hours, without a test",
-     "es": "10 horas, sin prueba"
+     "es": "10 horas, sin prueba",
+     "uk": "10 годин, без тесту"
     },
     {
      "en": "30 hours and a practical exam",
-     "es": "30 horas y un examen práctico"
+     "es": "30 horas y un examen práctico",
+     "uk": "30 годин і практичний іспит"
     }
    ],
    "why": {
     "en": "The 20-hour course and a multiple-choice test at the Traffic Office.",
-    "es": "El curso de 20 horas y una prueba tipo test en la Jefatura."
+    "es": "El curso de 20 horas y una prueba tipo test en la Jefatura.",
+    "uk": "20-годинний курс і тест із варіантами відповідей в Управлінні дорожнього руху."
    }
   },
   {
@@ -2066,25 +2467,30 @@ window.DGT_DATA = {
    "tag": "courses",
    "q": {
     "en": "You lose your licence for the first time. How long must you wait before taking the course?",
-    "es": "Pierdes el permiso por primera vez. ¿Cuánto debes esperar para hacer el curso?"
+    "es": "Pierdes el permiso por primera vez. ¿Cuánto debes esperar para hacer el curso?",
+    "uk": "Ви вперше втратили посвідчення. Скільки треба чекати, перш ніж пройти курс?"
    },
    "o": [
     {
      "en": "6 months",
-     "es": "6 meses"
+     "es": "6 meses",
+     "uk": "6 місяців"
     },
     {
      "en": "3 months",
-     "es": "3 meses"
+     "es": "3 meses",
+     "uk": "3 місяці"
     },
     {
      "en": "1 year",
-     "es": "1 año"
+     "es": "1 año",
+     "uk": "1 рік"
     }
    ],
    "why": {
     "en": "6 months (3 for professionals), doubled if all points are lost again within the next three years.",
-    "es": "6 meses (3 los profesionales), el doble si se vuelven a perder todos los puntos en los tres años siguientes."
+    "es": "6 meses (3 los profesionales), el doble si se vuelven a perder todos los puntos en los tres años siguientes.",
+    "uk": "6 місяців (професіоналам 3), удвічі довше, якщо всі бали знову втрачено протягом наступних трьох років."
    }
   },
   {
@@ -2092,25 +2498,30 @@ window.DGT_DATA = {
    "tag": "courses",
    "q": {
     "en": "When you regain an A2 lost through points, what class and seniority does it have?",
-    "es": "Cuando recuperas un A2 perdido por puntos, ¿con qué clase y antigüedad vuelve?"
+    "es": "Cuando recuperas un A2 perdido por puntos, ¿con qué clase y antigüedad vuelve?",
+    "uk": "Коли ви повертаєте A2, втрачене через бали, якої воно категорії й стажу?"
    },
    "o": [
     {
      "en": "The same class and seniority, with 8 points",
-     "es": "La misma clase y antigüedad, con 8 puntos"
+     "es": "La misma clase y antigüedad, con 8 puntos",
+     "uk": "Тієї самої категорії й стажу, з 8 балами"
     },
     {
      "en": "An A1, with 12 points",
-     "es": "Un A1, con 12 puntos"
+     "es": "Un A1, con 12 puntos",
+     "uk": "A1, з 12 балами"
     },
     {
      "en": "The same class, but as a new licence",
-     "es": "La misma clase, pero como permiso nuevo"
+     "es": "La misma clase, pero como permiso nuevo",
+     "uk": "Тієї самої категорії, але як нове посвідчення"
     }
    ],
    "why": {
     "en": "The licence obtained is of the same class and seniority, with a balance of 8 points.",
-    "es": "El permiso que se obtenga será de la misma clase y antigüedad, con un saldo de 8 puntos."
+    "es": "El permiso que se obtenga será de la misma clase y antigüedad, con un saldo de 8 puntos.",
+    "uk": "Отримане посвідчення тієї самої категорії й стажу, з балансом 8 балів."
    }
   },
   {
@@ -2118,25 +2529,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "Your passenger rides without a helmet. Who is liable?",
-    "es": "Tu pasajero va sin casco. ¿Quién es responsable?"
+    "es": "Tu pasajero va sin casco. ¿Quién es responsable?",
+    "uk": "Ваш пасажир їде без шолома. Хто відповідає?"
    },
    "o": [
     {
      "en": "You, the rider",
-     "es": "Tú, el conductor"
+     "es": "Tú, el conductor",
+     "uk": "Ви, водій"
     },
     {
      "en": "The passenger",
-     "es": "El pasajero"
+     "es": "El pasajero",
+     "uk": "Пасажир"
     },
     {
      "en": "The owner of the motorcycle",
-     "es": "El titular de la moto"
+     "es": "El titular de la moto",
+     "uk": "Власник мотоцикла"
     }
    ],
    "why": {
     "en": "The rider of a motorcycle or moped answers for the passenger not wearing a helmet.",
-    "es": "El conductor de una moto o ciclomotor responde de que el pasajero no use casco."
+    "es": "El conductor de una moto o ciclomotor responde de que el pasajero no use casco.",
+    "uk": "Водій мотоцикла чи мопеда відповідає за те, що пасажир без шолома."
    }
   },
   {
@@ -2144,25 +2560,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "You carry a passenger who is under the minimum age to ride pillion. Who is liable?",
-    "es": "Llevas un pasajero que no tiene la edad mínima para ir de pasajero. ¿Quién es responsable?"
+    "es": "Llevas un pasajero que no tiene la edad mínima para ir de pasajero. ¿Quién es responsable?",
+    "uk": "Ви везете пасажира, молодшого за мінімальний вік для поїздки позаду. Хто відповідає?"
    },
    "o": [
     {
      "en": "The rider",
-     "es": "El conductor"
+     "es": "El conductor",
+     "uk": "Водій"
     },
     {
      "en": "The passenger’s parents",
-     "es": "Los padres del pasajero"
+     "es": "Los padres del pasajero",
+     "uk": "Батьки пасажира"
     },
     {
      "en": "Nobody, if the passenger wears a helmet",
-     "es": "Nadie, si el pasajero lleva casco"
+     "es": "Nadie, si el pasajero lleva casco",
+     "uk": "Ніхто, якщо пасажир у шоломі"
     }
    ],
    "why": {
     "en": "The rider answers for carrying passengers who do not have the minimum age.",
-    "es": "El conductor responde por transportar pasajeros que no tengan la edad mínima exigida."
+    "es": "El conductor responde por transportar pasajeros que no tengan la edad mínima exigida.",
+    "uk": "Водій відповідає за перевезення пасажирів, які не досягли мінімального віку."
    }
   },
   {
@@ -2170,25 +2591,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "A 17-year-old riding an A1 motorcycle is fined. Who answers for the fine with them?",
-    "es": "Multan a un chico de 17 años que conduce una moto del A1. ¿Quién responde de la multa con él?"
+    "es": "Multan a un chico de 17 años que conduce una moto del A1. ¿Quién responde de la multa con él?",
+    "uk": "17-річного водія мотоцикла A1 оштрафували. Хто відповідає за штраф разом із ним?"
    },
    "o": [
     {
      "en": "The parents or guardians, jointly",
-     "es": "Los padres o tutores, de forma solidaria"
+     "es": "Los padres o tutores, de forma solidaria",
+     "uk": "Батьки чи опікуни, солідарно"
     },
     {
      "en": "Nobody: minors do not pay fines",
-     "es": "Nadie: los menores no pagan multas"
+     "es": "Nadie: los menores no pagan multas",
+     "uk": "Ніхто: неповнолітні штрафів не платять"
     },
     {
      "en": "The driving school",
-     "es": "La autoescuela"
+     "es": "La autoescuela",
+     "uk": "Автошкола"
     }
    ],
    "why": {
     "en": "For offences by under-18s, parents or guardians are jointly liable for the fine.",
-    "es": "Por los hechos cometidos por menores de 18 años, padres o tutores son responsables solidarios de la multa."
+    "es": "Por los hechos cometidos por menores de 18 años, padres o tutores son responsables solidarios de la multa.",
+    "uk": "За порушення осіб до 18 років батьки чи опікуни солідарно відповідають за штраф."
    }
   },
   {
@@ -2196,25 +2622,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "Your friend borrows your motorcycle and is stopped with the ITV out of date. Who answers for the ITV?",
-    "es": "Un amigo te pide la moto y le paran con la ITV caducada. ¿Quién responde de la ITV?"
+    "es": "Un amigo te pide la moto y le paran con la ITV caducada. ¿Quién responde de la ITV?",
+    "uk": "Друг узяв ваш мотоцикл, і його зупинили з простроченим техоглядом. Хто відповідає за техогляд?"
    },
    "o": [
     {
      "en": "You, the owner",
-     "es": "Tú, el titular"
+     "es": "Tú, el titular",
+     "uk": "Ви, власник"
     },
     {
      "en": "Your friend, who was riding",
-     "es": "Tu amigo, que conducía"
+     "es": "Tu amigo, que conducía",
+     "uk": "Ваш друг, який їхав"
     },
     {
      "en": "The ITV station",
-     "es": "La estación ITV"
+     "es": "La estación ITV",
+     "uk": "Станція техогляду"
     }
    ],
    "why": {
     "en": "The owner answers for the vehicle’s documents, periodic inspections and condition affecting safety.",
-    "es": "El titular responde de la documentación, las inspecciones periódicas y el estado de conservación que afecte a la seguridad."
+    "es": "El titular responde de la documentación, las inspecciones periódicas y el estado de conservación que afecte a la seguridad.",
+    "uk": "Власник відповідає за документи ТЗ, періодичні огляди й стан, що впливає на безпеку."
    }
   },
   {
@@ -2222,25 +2653,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "A camera catches your motorcycle speeding, but nobody was stopped. What must you, the owner, do?",
-    "es": "Un radar capta tu moto con exceso de velocidad, pero no se detuvo a nadie. ¿Qué debes hacer tú, como titular?"
+    "es": "Un radar capta tu moto con exceso de velocidad, pero no se detuvo a nadie. ¿Qué debes hacer tú, como titular?",
+    "uk": "Камера зафіксувала ваш мотоцикл з перевищенням швидкості, але нікого не зупинили. Що мусите зробити ви, власник?"
    },
    "o": [
     {
      "en": "Identify who was riding",
-     "es": "Identificar a quien conducía"
+     "es": "Identificar a quien conducía",
+     "uk": "Вказати, хто їхав"
     },
     {
      "en": "Pay, whoever was riding",
-     "es": "Pagar, condujera quien condujera"
+     "es": "Pagar, condujera quien condujera",
+     "uk": "Заплатити, хоч би хто їхав"
     },
     {
      "en": "Nothing: without a stop there is no fine",
-     "es": "Nada: sin detención no hay multa"
+     "es": "Nada: sin detención no hay multa",
+     "uk": "Нічого: без зупинки немає штрафу"
     }
    ],
    "why": {
     "en": "The owner must identify the driver at the time of the offence; not doing so is itself an offence.",
-    "es": "El titular tiene la obligación de identificar al conductor; no hacerlo es otra infracción."
+    "es": "El titular tiene la obligación de identificar al conductor; no hacerlo es otra infracción.",
+    "uk": "Власник мусить вказати водія на момент порушення; не зробити цього — окреме порушення."
    }
   },
   {
@@ -2248,25 +2684,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "Your motorcycle has a named habitual driver and a camera catches it speeding. Who is liable?",
-    "es": "Tu moto tiene un conductor habitual designado y un radar la capta con exceso de velocidad. ¿Quién responde?"
+    "es": "Tu moto tiene un conductor habitual designado y un radar la capta con exceso de velocidad. ¿Quién responde?",
+    "uk": "У вашого мотоцикла є постійний водій, і камера зафіксувала перевищення швидкості. Хто відповідає?"
    },
    "o": [
     {
      "en": "The habitual driver, unless they prove someone else rode it or it was stolen",
-     "es": "El conductor habitual, salvo que acredite que conducía otro o que fue sustraída"
+     "es": "El conductor habitual, salvo que acredite que conducía otro o que fue sustraída",
+     "uk": "Постійний водій, якщо не доведе, що їхав хтось інший чи мотоцикл викрали"
     },
     {
      "en": "Always the owner",
-     "es": "Siempre el titular"
+     "es": "Siempre el titular",
+     "uk": "Завжди власник"
     },
     {
      "en": "Nobody",
-     "es": "Nadie"
+     "es": "Nadie",
+     "uk": "Ніхто"
     }
    ],
    "why": {
     "en": "If the vehicle was not stopped and has a habitual driver, the liability falls on that driver.",
-    "es": "Si no se detuvo el vehículo y tiene conductor habitual, la responsabilidad recae en él."
+    "es": "Si no se detuvo el vehículo y tiene conductor habitual, la responsabilidad recae en él.",
+    "uk": "Якщо ТЗ не зупинили і є постійний водій, відповідальність лягає на цього водія."
    }
   },
   {
@@ -2274,25 +2715,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "A mother without a driving licence registers a motorcycle in her name for her son. What must she do since 1 October 2026?",
-    "es": "Una madre sin permiso de conducción matricula una moto a su nombre para su hijo. ¿Qué debe hacer desde el 1 de octubre de 2026?"
+    "es": "Una madre sin permiso de conducción matricula una moto a su nombre para su hijo. ¿Qué debe hacer desde el 1 de octubre de 2026?",
+    "uk": "Мати без посвідчення водія реєструє мотоцикл на себе для сина. Що вона мусить зробити з 1 жовтня 2026 року?"
    },
    "o": [
     {
      "en": "Name a habitual driver",
-     "es": "Designar un conductor habitual"
+     "es": "Designar un conductor habitual",
+     "uk": "Вказати постійного водія"
     },
     {
      "en": "Nothing special",
-     "es": "Nada especial"
+     "es": "Nada especial",
+     "uk": "Нічого особливого"
     },
     {
      "en": "Get a moped licence first",
-     "es": "Sacarse antes el permiso de ciclomotor"
+     "es": "Sacarse antes el permiso de ciclomotor",
+     "uk": "Спершу отримати посвідчення на мопед"
     }
    ],
    "why": {
     "en": "When a person without a licence registers a vehicle, designating a habitual driver is now compulsory.",
-    "es": "Cuando una persona sin permiso matricula un vehículo, designar un conductor habitual es ahora obligatorio."
+    "es": "Cuando una persona sin permiso matricula un vehículo, designar un conductor habitual es ahora obligatorio.",
+    "uk": "Коли людина без посвідчення реєструє транспортний засіб, вказати постійного водія тепер обов’язково."
    }
   }
  ],
@@ -2301,297 +2747,363 @@ window.DGT_DATA = {
    "sec": 1,
    "en": "Carrying and getting the licence",
    "es": "Llevar y obtener el permiso",
+   "uk": "Носіння й отримання посвідчення",
    "recap": [
     [
      "Licence and the motorcycle’s papers, valid and in force; show them when agents ask.",
-     "Permiso y documentación de la moto, válidos y vigentes; mostrarlos cuando lo pidan los agentes."
+     "Permiso y documentación de la moto, válidos y vigentes; mostrarlos cuando lo pidan los agentes.",
+     "Посвідчення й документи мотоцикла чинні й дійсні; показуйте їх на вимогу регулювальників."
     ],
     [
      "Original, certified photocopy or miDGT; the app is valid only in Spain.",
-     "Original, fotocopia compulsada o miDGT; la app solo vale en España."
+     "Original, fotocopia compulsada o miDGT; la app solo vale en España.",
+     "Оригінал, засвідчена копія чи miDGT; застосунок дійсний лише в Іспанії."
     ],
     [
      "Only one EU licence per person, with all its classes.",
-     "Un solo permiso de la UE por persona, con todas sus clases."
+     "Un solo permiso de la UE por persona, con todas sus clases.",
+     "Лише одне посвідчення ЄС на людину, з усіма категоріями."
     ],
     [
      "Fitness plus being declared fit in knowledge, skills, aptitudes and behaviour; glasses do not make it extraordinary.",
-     "Aptitudes psicofísicas y ser declarado apto en conocimientos, habilidades, aptitudes y comportamientos; las gafas no lo hacen extraordinario."
+     "Aptitudes psicofísicas y ser declarado apto en conocimientos, habilidades, aptitudes y comportamientos; las gafas no lo hacen extraordinario.",
+     "Придатність плюс визнання придатним щодо знань, навичок, здібностей і поведінки; окуляри не роблять посвідчення особливим."
     ]
    ],
    "trap": [
     "Thinking miDGT is enough when riding in France.",
-    "Pensar que la app miDGT basta si circulas por Francia."
+    "Pensar que la app miDGT basta si circulas por Francia.",
+    "Думати, що miDGT досить для поїздки до Франції."
    ]
   },
   "classes": {
    "sec": 1,
    "en": "A1, A2 and A",
    "es": "A1, A2 y A",
+   "uk": "A1, A2 і A",
    "recap": [
     [
      "A1 at 16: ≤ 125 cc, ≤ 11 kW, ≤ 0.1 kW/kg; trikes ≤ 15 kW; includes AM.",
-     "A1 a los 16: ≤ 125 c.c., ≤ 11 kW, ≤ 0,1 kW/kg; triciclos ≤ 15 kW; incluye el AM."
+     "A1 a los 16: ≤ 125 c.c., ≤ 11 kW, ≤ 0,1 kW/kg; triciclos ≤ 15 kW; incluye el AM.",
+     "A1 з 16 років: ≤ 125 см³, ≤ 11 кВт, ≤ 0,1 кВт/кг; трицикли ≤ 15 кВт; включає AM."
     ],
     [
      "A2 at 18: ≤ 35 kW, ≤ 0.2 kW/kg, not derived from more than twice its power; includes A1.",
-     "A2 a los 18: ≤ 35 kW, ≤ 0,2 kW/kg, no derivada de más del doble; incluye el A1."
+     "A2 a los 18: ≤ 35 kW, ≤ 0,2 kW/kg, no derivada de más del doble; incluye el A1.",
+     "A2 з 18 років: ≤ 35 кВт, ≤ 0,2 кВт/кг, не похідний від мотоцикла з більш ніж удвічі більшою потужністю; включає A1."
     ],
     [
      "A at 20: two years with A2 plus a training course; trikes over 15 kW only from 21.",
-     "A a los 20: dos años con el A2 más una formación; triciclos de más de 15 kW solo desde los 21."
+     "A a los 20: dos años con el A2 más una formación; triciclos de más de 15 kW solo desde los 21.",
+     "A з 20 років: два роки з A2 плюс навчальний курс; трицикли понад 15 кВт лише з 21 року."
     ],
     [
      "B held for more than 3 years: A1 motorcycles in Spain only.",
-     "B con más de 3 años: motos del A1 solo en España."
+     "B con más de 3 años: motos del A1 solo en España.",
+     "B понад 3 роки: мотоцикли A1 лише в Іспанії."
     ]
    ],
    "trap": [
     "Thinking a 35 kW motorcycle always fits the A2.",
-    "Pensar que una moto de 35 kW siempre vale con el A2."
+    "Pensar que una moto de 35 kW siempre vale con el A2.",
+    "Думати, що мотоцикл на 35 кВт завжди підходить для A2."
    ]
   },
   "validity": {
    "sec": 1,
    "en": "Validity, duplicates and suspension",
    "es": "Vigencia, duplicados y suspensión",
+   "uk": "Строк дії, дублікати й призупинення",
    "recap": [
     [
      "Every 10 years; every 5 from 65; shorter if an illness may get worse.",
-     "Cada 10 años; cada 5 desde los 65; menos si una enfermedad puede agravarse."
+     "Cada 10 años; cada 5 desde los 65; menos si una enfermedad puede agravarse.",
+     "Кожні 10 років; з 65 — кожні 5; менше, якщо хвороба може погіршитися."
     ],
     [
      "An expired licence does not let you ride and is withdrawn on the spot.",
-     "Un permiso caducado no autoriza a conducir y se interviene en el acto."
+     "Un permiso caducado no autoriza a conducir y se interviene en el acto.",
+     "Прострочене посвідчення не дає права їздити, і його вилучають на місці."
     ],
     [
      "Change of details: tell the Traffic Office within 15 days for a duplicate.",
-     "Cambio de datos: comunicarlo a la Jefatura en 15 días para un duplicado."
+     "Cambio de datos: comunicarlo a la Jefatura en 15 días para un duplicado.",
+     "Зміна даних: повідомте Управління дорожнього руху протягом 15 днів, щоб отримати дублікат."
     ],
     [
      "Precautionary suspension: serious danger or public interest; riding then = riding with a suspended licence.",
-     "Suspensión cautelar: grave peligro o interés público; conducir entonces = conducir con el permiso suspendido."
+     "Suspensión cautelar: grave peligro o interés público; conducir entonces = conducir con el permiso suspendido.",
+     "Запобіжне призупинення: серйозна небезпека чи суспільний інтерес; їхати тоді = їхати з призупиненим посвідченням."
     ]
    ],
    "trap": [
     "Thinking you can ride for a few weeks after the licence expires.",
-    "Pensar que se puede conducir unas semanas tras caducar el permiso."
+    "Pensar que se puede conducir unas semanas tras caducar el permiso.",
+    "Думати, що можна їздити кілька тижнів після закінчення строку посвідчення."
    ]
   },
   "novice": {
    "sec": 1,
    "en": "New riders",
    "es": "Conductores noveles",
+   "uk": "Водії-початківці",
    "recap": [
     [
      "V-13 “L” during the first year of the first licence.",
-     "V-13 «L» durante el primer año del primer permiso."
+     "V-13 «L» durante el primer año del primer permiso.",
+     "V-13 «L» протягом першого року першого посвідчення."
     ],
     [
      "On a motorcycle: somewhere visible at the rear (smaller plate, 10 × 13 cm).",
-     "En moto: en un sitio visible de la parte posterior (placa más pequeña, 10 × 13 cm)."
+     "En moto: en un sitio visible de la parte posterior (placa más pequeña, 10 × 13 cm).",
+     "На мотоциклі: на видному місці ззаду (менша табличка, 10 × 13 см)."
     ],
     [
      "Withdrawn or suspended in that year: the year is extended by the same time.",
-     "Intervenido o suspendido en ese año: el año se amplía ese mismo tiempo."
+     "Intervenido o suspendido en ese año: el año se amplía ese mismo tiempo.",
+     "Вилучено чи призупинено в цей рік: рік продовжують на той самий строк."
     ],
     [
      "Not a first licence if you held another for at least a year.",
-     "No es primer permiso si ya tuviste otro durante al menos un año."
+     "No es primer permiso si ya tuviste otro durante al menos un año.",
+     "Не перше посвідчення, якщо ви мали інше щонайменше рік."
     ]
    ],
    "trap": [
     "Putting the “L” on a new A2 when you have had the B for years.",
-    "Poner la «L» con un A2 nuevo cuando tienes el B desde hace años."
+    "Poner la «L» con un A2 nuevo cuando tienes el B desde hace años.",
+    "Чіпляти «L» на нове A2, коли ви вже роками маєте B."
    ]
   },
   "vehdocs": {
    "sec": 2,
    "en": "Registration certificate and plate",
    "es": "Permiso de circulación y placa",
+   "uk": "Свідоцтво про реєстрацію і номерний знак",
    "recap": [
     [
      "Carry the registration certificate and the ITV card with the last report.",
-     "Llevar el permiso de circulación y la tarjeta ITV con el último informe."
+     "Llevar el permiso de circulación y la tarjeta ITV con el último informe.",
+     "Возіть свідоцтво про реєстрацію і картку техогляду з останнім висновком."
     ],
     [
      "Change of the owner’s name or address: 15 days.",
-     "Cambio de nombre o domicilio del titular: 15 días."
+     "Cambio de nombre o domicilio del titular: 15 días.",
+     "Зміна імені чи адреси власника: 15 днів."
     ],
     [
      "Sale: seller notifies within 10 days; buyer renews within 30, or the vehicle is immobilised.",
-     "Venta: el vendedor notifica en 10 días; el comprador renueva en 30 o se inmoviliza."
+     "Venta: el vendedor notifica en 10 días; el comprador renueva en 30 o se inmoviliza.",
+     "Продаж: продавець повідомляє протягом 10 днів; покупець переоформлює протягом 30, інакше ТЗ знерухомлюють."
     ],
     [
      "Motorcycles and mopeds: one plate, at the rear; the rider keeps it readable.",
-     "Motos y ciclomotores: una placa, detrás; el conductor la mantiene legible."
+     "Motos y ciclomotores: una placa, detrás; el conductor la mantiene legible.",
+     "Мотоцикли й мопеди: один номерний знак ззаду; водій стежить, щоб його було видно."
     ]
    ],
    "trap": [
     "Thinking the buyer has 10 days and the seller 30.",
-    "Pensar que el comprador tiene 10 días y el vendedor 30."
+    "Pensar que el comprador tiene 10 días y el vendedor 30.",
+    "Думати, що покупець має 10 днів, а продавець 30."
    ]
   },
   "itv": {
    "sec": 2,
    "en": "The ITV",
    "es": "La ITV",
+   "uk": "Техогляд (ITV)",
    "recap": [
     [
      "Two-wheel moped: exempt to 3 years, then every 2.",
-     "Ciclomotor de dos ruedas: exento hasta 3 años, después cada 2."
+     "Ciclomotor de dos ruedas: exento hasta 3 años, después cada 2.",
+     "Двоколісний мопед: звільнений до 3 років, далі кожні 2."
     ],
     [
      "Motorcycle, three-wheel moped, quad: exempt to 4 years, then every 2.",
-     "Moto, ciclomotor de tres ruedas, quad: exento hasta 4 años, después cada 2."
+     "Moto, ciclomotor de tres ruedas, quad: exento hasta 4 años, después cada 2.",
+     "Мотоцикл, триколісний мопед, квадроцикл: звільнені до 4 років, далі кожні 2."
     ],
     [
      "Unfavourable: only to the workshop and back. Negative: tow truck. Repairs: up to 2 months.",
-     "Desfavorable: solo al taller y vuelta. Negativa: grúa. Reparación: hasta 2 meses."
+     "Desfavorable: solo al taller y vuelta. Negativa: grúa. Reparación: hasta 2 meses.",
+     "Несприятливий: лише до майстерні й назад. Негативний: евакуатор. Ремонт: до 2 місяців."
     ],
     [
      "Overdue: certificate withdrawn, slip for 10 days, then sealing off.",
-     "Caducada: se interviene el permiso de circulación, volante de 10 días y después precinto."
+     "Caducada: se interviene el permiso de circulación, volante de 10 días y después precinto.",
+     "Прострочено: свідоцтво вилучають, видають документ на 10 днів, потім опломбування."
     ]
    ],
    "trap": [
     "Riding home normally after an unfavourable ITV.",
-    "Volver a casa con normalidad tras una ITV desfavorable."
+    "Volver a casa con normalidad tras una ITV desfavorable.",
+    "Їхати додому, як завжди, після несприятливого техогляду."
    ]
   },
   "insurance": {
    "sec": 2,
    "en": "Compulsory insurance",
    "es": "Seguro obligatorio",
+   "uk": "Обов’язкове страхування",
    "recap": [
     [
      "The owner insures the motorcycle or moped, even if it is not ridden.",
-     "El propietario asegura la moto o el ciclomotor, aunque no circule."
+     "El propietario asegura la moto o el ciclomotor, aunque no circule.",
+     "Власник страхує мотоцикл чи мопед, навіть якщо ним не їздять."
     ],
     [
      "Covered: other people’s injuries (passenger included) and other people’s property.",
-     "Cubre: lesiones de otras personas (incluido el pasajero) y bienes de terceros."
+     "Cubre: lesiones de otras personas (incluido el pasajero) y bienes de terceros.",
+     "Покрито: травми інших людей (зокрема пасажира) і майно інших людей."
     ],
     [
      "Not covered: the guilty rider’s injuries, the motorcycle, relatives’ property.",
-     "No cubre: lesiones del conductor culpable, la moto, bienes de los parientes."
+     "No cubre: lesiones del conductor culpable, la moto, bienes de los parientes.",
+     "Не покрито: травми винного водія, сам мотоцикл, майно родичів."
     ],
     [
      "Drunk rider: insurer pays and claims back. Stolen motorcycle: the Consorcio pays.",
-     "Conductor ebrio: paga la aseguradora y repite. Moto robada: paga el Consorcio."
+     "Conductor ebrio: paga la aseguradora y repite. Moto robada: paga el Consorcio.",
+     "П’яний водій: страховик платить і стягує назад. Викрадений мотоцикл: платить Consorcio."
     ]
    ],
    "trap": [
     "Thinking a relative riding pillion is not covered.",
-    "Pensar que un familiar que va de pasajero no está cubierto."
+    "Pensar que un familiar que va de pasajero no está cubierto.",
+    "Думати, що родич на задньому сидінні не застрахований."
    ]
   },
   "points": {
    "sec": 3,
    "en": "The points balance",
    "es": "El saldo de puntos",
+   "uk": "Баланс балів",
    "recap": [
     [
      "12 points; 8 with a licence of 2 years or less (unless another of more than 2 years) or after regaining it.",
-     "12 puntos; 8 con un permiso de 2 años o menos (salvo otro de más de 2) o tras recuperarlo."
+     "12 puntos; 8 con un permiso de 2 años o menos (salvo otro de más de 2) o tras recuperarlo.",
+     "12 балів; 8 з посвідченням 2 роки чи менше (якщо немає іншого понад 2 роки) або після його повернення."
     ],
     [
      "Bonus: +2 after 3 clean years, +1 after 3 more: up to 15.",
-     "Bonificación: +2 tras 3 años sin sanción, +1 tras otros 3: hasta 15."
+     "Bonificación: +2 tras 3 años sin sanción, +1 tras otros 3: hasta 15.",
+     "Бонус: +2 після 3 років без порушень, +1 ще через 3: до 15."
     ],
     [
      "At most 8 points a day, unless a very serious offence.",
-     "Como máximo 8 puntos al día, salvo infracción muy grave."
+     "Como máximo 8 puntos al día, salvo infracción muy grave.",
+     "Щонайбільше 8 балів за день, якщо немає дуже серйозного порушення."
     ],
     [
      "2 years without firm sanctions: back to the full 12.",
-     "2 años sin sanciones firmes: se recuperan los 12."
+     "2 años sin sanciones firmes: se recuperan los 12.",
+     "2 роки без остаточних санкцій: повернення до повних 12."
     ]
    ],
    "trap": [
     "Thinking you have one balance for the motorcycle and another for the car.",
-    "Pensar que hay un saldo para la moto y otro para el coche."
+    "Pensar que hay un saldo para la moto y otro para el coche.",
+    "Думати, що маєте один баланс для мотоцикла й інший для легковика."
    ]
   },
   "offences": {
    "sec": 3,
    "en": "Offences and speeding",
    "es": "Infracciones y velocidad",
+   "uk": "Порушення й перевищення швидкості",
    "recap": [
     [
      "3 points: U-turn, headphones or phone inside the helmet, radar detector.",
-     "3 puntos: cambio de sentido, auriculares o móvil dentro del casco, detector de radar."
+     "3 puntos: cambio de sentido, auriculares o móvil dentro del casco, detector de radar.",
+     "3 бали: розворот, навушники чи телефон у шоломі, детектор радарів."
     ],
     [
      "4 points: wrong licence, red light/STOP, helmet, distance, alcohol up to twice the limit.",
-     "4 puntos: permiso que no habilita, rojo/STOP, casco, distancia, alcohol hasta el doble."
+     "4 puntos: permiso que no habilita, rojo/STOP, casco, distancia, alcohol hasta el doble.",
+     "4 бали: невідповідне посвідчення, червоне/STOP, шолом, дистанція, алкоголь до подвійної норми."
     ],
     [
      "6 points: alcohol over twice, drugs, refusing tests, reckless, phone in hand, cyclists without 1.5 m.",
-     "6 puntos: alcohol más del doble, drogas, negarse a las pruebas, temeraria, móvil en la mano, ciclistas sin 1,5 m."
+     "6 puntos: alcohol más del doble, drogas, negarse a las pruebas, temeraria, móvil en la mano, ciclistas sin 1,5 m.",
+     "6 балів: алкоголь понад подвійну норму, наркотики, відмова від перевірки, зухвала їзда, телефон у руці, велосипедисти без 1,5 м."
     ],
     [
      "Speeding: 100 € without points up to +20/+30; then 2, 4, 6 points.",
-     "Velocidad: 100 € sin puntos hasta +20/+30; después 2, 4 y 6 puntos."
+     "Velocidad: 100 € sin puntos hasta +20/+30; después 2, 4 y 6 puntos.",
+     "Перевищення швидкості: 100 € без балів до +20/+30; далі 2, 4, 6 балів."
     ]
    ],
    "trap": [
     "Thinking a phone held inside the helmet is allowed because your hands are free.",
-    "Pensar que el móvil sujeto dentro del casco está permitido porque llevas las manos libres."
+    "Pensar que el móvil sujeto dentro del casco está permitido porque llevas las manos libres.",
+    "Думати, що телефон у шоломі дозволений, бо руки вільні."
    ]
   },
   "courses": {
    "sec": 3,
    "en": "Road-safety courses",
    "es": "Cursos de reeducación",
+   "uk": "Курси безпеки руху",
    "recap": [
     [
      "Partial course: 10 hours, up to 4 points, never more than lost.",
-     "Curso parcial: 10 horas, hasta 4 puntos, nunca más de los perdidos."
+     "Curso parcial: 10 horas, hasta 4 puntos, nunca más de los perdidos.",
+     "Курс часткового відновлення: 10 годин, до 4 балів, ніколи не більше, ніж втрачено."
     ],
     [
      "Once every 2 years (professionals once a year).",
-     "Una vez cada 2 años (profesionales, una vez al año)."
+     "Una vez cada 2 años (profesionales, una vez al año).",
+     "Раз на 2 роки (професіонали — раз на рік)."
     ],
     [
      "Licence course: 20 hours plus a test; back with 8 points, same class and seniority.",
-     "Curso de recuperación del permiso: 20 horas y un test; vuelve con 8 puntos, misma clase y antigüedad."
+     "Curso de recuperación del permiso: 20 horas y un test; vuelve con 8 puntos, misma clase y antigüedad.",
+     "Курс для повернення посвідчення: 20 годин плюс тест; повертають із 8 балами, тієї самої категорії й стажу."
     ],
     [
      "Wait 6 months after the first loss (3 for professionals), doubled if lost again within 3 years.",
-     "Esperar 6 meses tras la primera pérdida (3 los profesionales), el doble si se pierde otra vez en 3 años."
+     "Esperar 6 meses tras la primera pérdida (3 los profesionales), el doble si se pierde otra vez en 3 años.",
+     "Чекати 6 місяців після першої втрати (професіоналам 3), удвічі довше, якщо знову втратили протягом 3 років."
     ]
    ],
    "trap": [
     "Thinking the partial course can take you above your initial points.",
-    "Pensar que el curso parcial puede subirte por encima de tus puntos iniciales."
+    "Pensar que el curso parcial puede subirte por encima de tus puntos iniciales.",
+    "Думати, що курс часткового відновлення може підняти вас вище початкових балів."
    ]
   },
   "liability": {
    "sec": 4,
    "en": "Who is liable",
    "es": "Quién responde",
+   "uk": "Хто відповідає",
    "recap": [
     [
      "The author answers, as a rule.",
-     "Responde el autor, como norma."
+     "Responde el autor, como norma.",
+     "Як правило, відповідає той, хто порушив."
     ],
     [
      "Passenger without a helmet or under the minimum age: the rider.",
-     "Pasajero sin casco o sin la edad mínima: el conductor."
+     "Pasajero sin casco o sin la edad mínima: el conductor.",
+     "Пасажир без шолома чи молодший за мінімальний вік: водій."
     ],
     [
      "Rider under 18: parents or guardians jointly liable for the fine.",
-     "Conductor menor de 18: padres o tutores responsables solidarios de la multa."
+     "Conductor menor de 18: padres o tutores responsables solidarios de la multa.",
+     "Водій молодший 18: батьки чи опікуни солідарно відповідають за штраф."
     ],
     [
      "Documents, ITV and condition: the owner. Owner without a licence: must name a habitual driver.",
-     "Documentación, ITV y estado: el titular. Titular sin permiso: debe designar un conductor habitual."
+     "Documentación, ITV y estado: el titular. Titular sin permiso: debe designar un conductor habitual.",
+     "Документи, техогляд і стан ТЗ: власник. Власник без посвідчення мусить вказати постійного водія."
     ]
    ],
    "trap": [
     "Thinking the passenger pays for their own missing helmet.",
-    "Pensar que el pasajero responde de su propio casco."
+    "Pensar que el pasajero responde de su propio casco.",
+    "Думати, що пасажир сам платить за відсутність шолома."
    ]
   }
  }

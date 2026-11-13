@@ -2,6 +2,10 @@
 window.DGT_DATA = {
  "topic": "b-11",
  "category": "b",
+ "langs": [
+  "en",
+  "es"
+ ],
  "title": {
   "en": "Topic 11 · First aid",
   "es": "Tema 11 · Primeros auxilios"

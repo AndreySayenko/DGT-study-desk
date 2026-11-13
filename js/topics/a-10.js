@@ -2,9 +2,15 @@
 window.DGT_DATA = {
  "topic": "a-10",
  "category": "a",
+ "langs": [
+  "en",
+  "es",
+  "uk"
+ ],
  "title": {
   "en": "Topic 10 · Accidents and their factors",
-  "es": "Tema 10 · Los accidentes y sus factores"
+  "es": "Tema 10 · Los accidentes y sus factores",
+  "uk": "Тема 10 · ДТП та їхні чинники"
  },
  "bank": [
   {
@@ -12,25 +18,30 @@ window.DGT_DATA = {
    "tag": "impact",
    "q": {
     "en": "According to your course, what is the leading cause of road accidents in Spain?",
-    "es": "Según tu curso, ¿cuál es la causa principal de los accidentes en España?"
+    "es": "Según tu curso, ¿cuál es la causa principal de los accidentes en España?",
+    "uk": "За вашим курсом, яка головна причина ДТП в Іспанії?"
    },
    "o": [
     {
      "en": "Excessive speed",
-     "es": "El exceso de velocidad"
+     "es": "El exceso de velocidad",
+     "uk": "Надмірна швидкість"
     },
     {
      "en": "Bad weather",
-     "es": "La mala climatología"
+     "es": "La mala climatología",
+     "uk": "Погана погода"
     },
     {
      "en": "Mechanical failure",
-     "es": "Los fallos mecánicos"
+     "es": "Los fallos mecánicos",
+     "uk": "Технічна несправність"
     }
    ],
    "why": {
     "en": "Road accidents are a priority public-health problem, and excessive speed is the main cause.",
-    "es": "Los accidentes son un problema prioritario de salud pública, y el exceso de velocidad es la causa principal."
+    "es": "Los accidentes son un problema prioritario de salud pública, y el exceso de velocidad es la causa principal.",
+    "uk": "ДТП — пріоритетна проблема громадського здоров’я, а надмірна швидкість — головна причина."
    }
   },
   {
@@ -38,25 +49,30 @@ window.DGT_DATA = {
    "tag": "impact",
    "q": {
     "en": "Where are there more accidents with victims, and where more deaths?",
-    "es": "¿Dónde hay más accidentes con víctimas y dónde más víctimas mortales?"
+    "es": "¿Dónde hay más accidentes con víctimas y dónde más víctimas mortales?",
+    "uk": "Де більше аварій із потерпілими, а де більше загиблих?"
    },
    "o": [
     {
      "en": "More accidents in towns; more deaths on interurban roads",
-     "es": "Más accidentes en vías urbanas; más muertos en carretera"
+     "es": "Más accidentes en vías urbanas; más muertos en carretera",
+     "uk": "Більше аварій у містах; більше загиблих на заміських дорогах"
     },
     {
      "en": "More of both in towns",
-     "es": "Más de las dos cosas en ciudad"
+     "es": "Más de las dos cosas en ciudad",
+     "uk": "І того, і того більше в містах"
     },
     {
      "en": "More accidents on interurban roads; more deaths in towns",
-     "es": "Más accidentes en carretera; más muertos en ciudad"
+     "es": "Más accidentes en carretera; más muertos en ciudad",
+     "uk": "Більше аварій на заміських дорогах; більше загиблих у містах"
     }
    ],
    "why": {
     "en": "Out of town speeds are higher, so accidents there are more often fatal.",
-    "es": "En carretera se circula más deprisa, así que los accidentes son más a menudo mortales."
+    "es": "En carretera se circula más deprisa, así que los accidentes son más a menudo mortales.",
+    "uk": "За містом швидкості вищі, тож аварії там частіше смертельні."
    }
   },
   {
@@ -64,25 +80,30 @@ window.DGT_DATA = {
    "tag": "impact",
    "q": {
     "en": "Which roads are considered the safest?",
-    "es": "¿Qué vías se consideran más seguras?"
+    "es": "¿Qué vías se consideran más seguras?",
+    "uk": "Які дороги вважають найбезпечнішими?"
    },
    "o": [
     {
      "en": "Autopistas and autovías",
-     "es": "Autopistas y autovías"
+     "es": "Autopistas y autovías",
+     "uk": "Autopistas і autovías"
     },
     {
      "en": "Conventional roads",
-     "es": "Carreteras convencionales"
+     "es": "Carreteras convencionales",
+     "uk": "Звичайні дороги"
     },
     {
      "en": "Urban streets",
-     "es": "Calles urbanas"
+     "es": "Calles urbanas",
+     "uk": "Міські вулиці"
     }
    ],
    "why": {
     "en": "Separate directions, no intersections and a gentler layout.",
-    "es": "Sentidos separados, sin intersecciones y trazado menos sinuoso."
+    "es": "Sentidos separados, sin intersecciones y trazado menos sinuoso.",
+    "uk": "Розділені напрямки, без перехресть і плавніша траса."
    }
   },
   {
@@ -90,25 +111,30 @@ window.DGT_DATA = {
    "tag": "impact",
    "q": {
     "en": "When is the risk of an accident highest on a working day?",
-    "es": "¿Cuándo es mayor el riesgo de accidente en un día laborable?"
+    "es": "¿Cuándo es mayor el riesgo de accidente en un día laborable?",
+    "uk": "Коли в робочий день ризик аварії найвищий?"
    },
    "o": [
     {
      "en": "Going to and from work, above all the evening return",
-     "es": "Al ir y volver del trabajo, sobre todo al salir por la tarde"
+     "es": "Al ir y volver del trabajo, sobre todo al salir por la tarde",
+     "uk": "Дорогою на роботу й з роботи, передусім увечері"
     },
     {
      "en": "Mid-morning",
-     "es": "A media mañana"
+     "es": "A media mañana",
+     "uk": "Посеред ранку"
     },
     {
      "en": "At lunchtime",
-     "es": "A mediodía"
+     "es": "A mediodía",
+     "uk": "В обідню пору"
     }
    ],
    "why": {
     "en": "Commuting hours are the most dangerous, especially at the end of the working day.",
-    "es": "Las horas de entrada y salida del trabajo son las más peligrosas, sobre todo al terminar la jornada."
+    "es": "Las horas de entrada y salida del trabajo son las más peligrosas, sobre todo al terminar la jornada.",
+    "uk": "Години поїздок на роботу найнебезпечніші, особливо наприкінці робочого дня."
    }
   },
   {
@@ -116,25 +142,30 @@ window.DGT_DATA = {
    "tag": "impact",
    "q": {
     "en": "And during holidays and weekends?",
-    "es": "¿Y durante las vacaciones y los fines de semana?"
+    "es": "¿Y durante las vacaciones y los fines de semana?",
+    "uk": "А під час свят і вихідних?"
    },
    "o": [
     {
      "en": "Above all in the early hours",
-     "es": "Sobre todo de madrugada"
+     "es": "Sobre todo de madrugada",
+     "uk": "Передусім ранніми годинами"
     },
     {
      "en": "Above all at midday",
-     "es": "Sobre todo a mediodía"
+     "es": "Sobre todo a mediodía",
+     "uk": "Передусім опівдні"
     },
     {
      "en": "The risk is the same all day",
-     "es": "El riesgo es igual todo el día"
+     "es": "El riesgo es igual todo el día",
+     "uk": "Ризик однаковий увесь день"
     }
    ],
    "why": {
     "en": "Holidays, bank holidays and weekends are risky, especially in the early hours.",
-    "es": "Vacaciones, festivos y fines de semana son peligrosos, especialmente de madrugada."
+    "es": "Vacaciones, festivos y fines de semana son peligrosos, especialmente de madrugada.",
+    "uk": "Відпустки, свята й вихідні ризиковані, особливо ранніми годинами."
    }
   },
   {
@@ -142,25 +173,30 @@ window.DGT_DATA = {
    "tag": "human",
    "q": {
     "en": "What share of accidents is due to the human factor?",
-    "es": "¿Qué parte de los accidentes se debe al factor humano?"
+    "es": "¿Qué parte de los accidentes se debe al factor humano?",
+    "uk": "Яку частку аварій спричиняє людський чинник?"
    },
    "o": [
     {
      "en": "70–90 %",
-     "es": "Entre el 70 y el 90 %"
+     "es": "Entre el 70 y el 90 %",
+     "uk": "70–90 %"
     },
     {
      "en": "About 30 %",
-     "es": "Alrededor del 30 %"
+     "es": "Alrededor del 30 %",
+     "uk": "Близько 30 %"
     },
     {
      "en": "Less than 10 %",
-     "es": "Menos del 10 %"
+     "es": "Menos del 10 %",
+     "uk": "Менше 10 %"
     }
    ],
    "why": {
     "en": "The human factor is the main cause: most accidents come from the rider’s unsuitable behaviour.",
-    "es": "El factor humano es el principal responsable: la mayoría se deben a comportamientos inadecuados del conductor."
+    "es": "El factor humano es el principal responsable: la mayoría se deben a comportamientos inadecuados del conductor.",
+    "uk": "Людський чинник — головна причина: більшість аварій через неналежну поведінку водія."
    }
   },
   {
@@ -168,25 +204,30 @@ window.DGT_DATA = {
    "tag": "human",
    "q": {
     "en": "Why are motorcycle accidents so often fatal?",
-    "es": "¿Por qué los accidentes de moto son tan a menudo mortales?"
+    "es": "¿Por qué los accidentes de moto son tan a menudo mortales?",
+    "uk": "Чому аварії мотоциклів так часто смертельні?"
    },
    "o": [
     {
      "en": "The rider has no bodywork around them, and many don’t wear the helmet or don’t fasten it",
-     "es": "El motorista no tiene carrocería, y muchos no usan el casco o no lo abrochan"
+     "es": "El motorista no tiene carrocería, y muchos no usan el casco o no lo abrochan",
+     "uk": "Мотоцикліста не захищає кузов, а багато хто не носить шолома чи не застібає його"
     },
     {
      "en": "Because motorcycles are faster than cars",
-     "es": "Porque las motos son más rápidas que los coches"
+     "es": "Porque las motos son más rápidas que los coches",
+     "uk": "Бо мотоцикли швидші за легковики"
     },
     {
      "en": "Because they happen at night",
-     "es": "Porque ocurren de noche"
+     "es": "Porque ocurren de noche",
+     "uk": "Бо вони стаються вночі"
     }
    ],
    "why": {
     "en": "They often end in death or multiple injuries; not wearing the helmet, or wearing it unfastened, is a main reason.",
-    "es": "Suelen acabar en muerte o traumatismos múltiples; no usar el casco, o llevarlo sin abrochar, es uno de los principales motivos."
+    "es": "Suelen acabar en muerte o traumatismos múltiples; no usar el casco, o llevarlo sin abrochar, es uno de los principales motivos.",
+    "uk": "Вони часто закінчуються смертю чи множинними травмами; головна причина — відсутність шолома чи незастебнутий шолом."
    }
   },
   {
@@ -194,25 +235,30 @@ window.DGT_DATA = {
    "tag": "human",
    "q": {
     "en": "On what does a rider’s ability to adapt to traffic depend?",
-    "es": "¿De qué depende la capacidad del motorista para adaptarse a la circulación?"
+    "es": "¿De qué depende la capacidad del motorista para adaptarse a la circulación?",
+    "uk": "Від чого залежить уміння мотоцикліста пристосовуватися до руху?"
    },
    "o": [
     {
      "en": "Training and experience",
-     "es": "De la formación y la experiencia"
+     "es": "De la formación y la experiencia",
+     "uk": "Від навчання й досвіду"
     },
     {
      "en": "Only the motorcycle’s power",
-     "es": "Solo de la potencia de la moto"
+     "es": "Solo de la potencia de la moto",
+     "uk": "Лише від потужності мотоцикла"
     },
     {
      "en": "Only age",
-     "es": "Solo de la edad"
+     "es": "Solo de la edad",
+     "uk": "Лише від віку"
     }
    ],
    "why": {
     "en": "The level of ability depends on training while learning and on experience.",
-    "es": "El nivel de capacidad depende de la formación en el aprendizaje y de la experiencia."
+    "es": "El nivel de capacidad depende de la formación en el aprendizaje y de la experiencia.",
+    "uk": "Рівень уміння залежить від навчання й досвіду."
    }
   },
   {
@@ -220,25 +266,30 @@ window.DGT_DATA = {
    "tag": "human",
    "q": {
     "en": "Is it allowed to weave between vehicles in slow traffic?",
-    "es": "¿Está permitido zigzaguear entre los vehículos en circulación lenta?"
+    "es": "¿Está permitido zigzaguear entre los vehículos en circulación lenta?",
+    "uk": "Чи можна петляти між транспортом у повільному русі?"
    },
    "o": [
     {
      "en": "No: weaving and sudden manoeuvres without warning are forbidden",
-     "es": "No: zigzaguear y las maniobras súbitas sin aviso están prohibidos"
+     "es": "No: zigzaguear y las maniobras súbitas sin aviso están prohibidos",
+     "uk": "Ні: петляння й раптові маневри без попередження заборонено"
     },
     {
      "en": "Yes, on a motorcycle",
-     "es": "Sí, en moto"
+     "es": "Sí, en moto",
+     "uk": "Так, на мотоциклі"
     },
     {
      "en": "Yes, below 30 km/h",
-     "es": "Sí, por debajo de 30 km/h"
+     "es": "Sí, por debajo de 30 km/h",
+     "uk": "Так, до 30 км/год"
     }
    ],
    "why": {
     "en": "Every sideways move must be checked and signalled in advance.",
-    "es": "Todo desplazamiento lateral debe comprobarse y señalizarse con antelación."
+    "es": "Todo desplazamiento lateral debe comprobarse y señalizarse con antelación.",
+    "uk": "Кожне бічне зміщення треба перевірити й завчасно про нього сигналізувати."
    }
   },
   {
@@ -246,25 +297,30 @@ window.DGT_DATA = {
    "tag": "human",
    "q": {
     "en": "Which age group do motorcycle accidents hit hardest, according to your course?",
-    "es": "¿A qué grupo de edad afectan más los accidentes de moto, según tu curso?"
+    "es": "¿A qué grupo de edad afectan más los accidentes de moto, según tu curso?",
+    "uk": "Яку вікову групу, за вашим курсом, найбільше вражають аварії мотоциклів?"
    },
    "o": [
     {
      "en": "Young people: they are a leading cause of death among them",
-     "es": "A los jóvenes: son una de sus principales causas de muerte"
+     "es": "A los jóvenes: son una de sus principales causas de muerte",
+     "uk": "Молодь: це одна з головних причин смерті серед неї"
     },
     {
      "en": "People over 65",
-     "es": "A los mayores de 65"
+     "es": "A los mayores de 65",
+     "uk": "Людей понад 65"
     },
     {
      "en": "Children under 12",
-     "es": "A los menores de 12"
+     "es": "A los menores de 12",
+     "uk": "Дітей до 12 років"
     }
    ],
    "why": {
     "en": "Your course links motorcycle accidents, many of them at weekends, with youth mortality.",
-    "es": "Tu curso relaciona los accidentes de moto, muchos de fin de semana, con la mortalidad juvenil."
+    "es": "Tu curso relaciona los accidentes de moto, muchos de fin de semana, con la mortalidad juvenil.",
+    "uk": "Ваш курс пов’язує аварії мотоциклів, багато з яких стаються на вихідних, зі смертністю молоді."
    }
   },
   {
@@ -272,25 +328,30 @@ window.DGT_DATA = {
    "tag": "falls",
    "q": {
     "en": "A fall cannot be avoided. What should you do first?",
-    "es": "La caída es inevitable. ¿Qué debes hacer primero?"
+    "es": "La caída es inevitable. ¿Qué debes hacer primero?",
+    "uk": "Падіння не уникнути. Що зробити насамперед?"
    },
    "o": [
     {
      "en": "Let go of the controls so the motorcycle does not drag you",
-     "es": "Soltar los mandos para que la moto no te arrastre"
+     "es": "Soltar los mandos para que la moto no te arrastre",
+     "uk": "Відпустити органи керування, щоб мотоцикл вас не тягнув"
     },
     {
      "en": "Hold the handlebar tight",
-     "es": "Agarrar fuerte el manillar"
+     "es": "Agarrar fuerte el manillar",
+     "uk": "Міцно тримати кермо"
     },
     {
      "en": "Brake hard with the front brake",
-     "es": "Frenar fuerte con el freno delantero"
+     "es": "Frenar fuerte con el freno delantero",
+     "uk": "Різко загальмувати переднім гальмом"
     }
    ],
    "why": {
     "en": "Letting go at once avoids being dragged along by the motorcycle.",
-    "es": "Soltar los mandos inmediatamente evita ser arrastrado por la moto."
+    "es": "Soltar los mandos inmediatamente evita ser arrastrado por la moto.",
+    "uk": "Якщо одразу відпустити, мотоцикл вас не тягтиме."
    }
   },
   {
@@ -298,25 +359,30 @@ window.DGT_DATA = {
    "tag": "falls",
    "q": {
     "en": "Once on the ground after a fall, how should you move?",
-    "es": "Una vez en el suelo tras una caída, ¿cómo debes moverte?"
+    "es": "Una vez en el suelo tras una caída, ¿cómo debes moverte?",
+    "uk": "Як рухатися, коли після падіння ви на землі?"
    },
    "o": [
     {
      "en": "Stay calm and slide, without rolling, until you stop",
-     "es": "Mantener la calma y deslizarse, sin rodar, hasta detenerse"
+     "es": "Mantener la calma y deslizarse, sin rodar, hasta detenerse",
+     "uk": "Зберігати спокій і ковзати, не котячись, доки не зупинитеся"
     },
     {
      "en": "Roll to stop sooner",
-     "es": "Rodar para detenerse antes"
+     "es": "Rodar para detenerse antes",
+     "uk": "Котитися, щоб швидше зупинитися"
     },
     {
      "en": "Get up at once",
-     "es": "Levantarse enseguida"
+     "es": "Levantarse enseguida",
+     "uk": "Одразу підвестися"
     }
    ],
    "why": {
     "en": "Slide, don’t roll, and don’t try to get up before your body has stopped.",
-    "es": "Deslizarse, no rodar, y no intentar levantarse antes de que el cuerpo se haya detenido."
+    "es": "Deslizarse, no rodar, y no intentar levantarse antes de que el cuerpo se haya detenido.",
+    "uk": "Ковзайте, не котіться, і не намагайтеся встати, доки тіло не зупинилося."
    }
   },
   {
@@ -324,25 +390,30 @@ window.DGT_DATA = {
    "tag": "falls",
    "q": {
     "en": "After a minor accident, what should you check before riding on?",
-    "es": "Tras un accidente leve, ¿qué debes comprobar antes de seguir?"
+    "es": "Tras un accidente leve, ¿qué debes comprobar antes de seguir?",
+    "uk": "Що перевірити після незначної аварії, перш ніж їхати далі?"
    },
    "o": [
     {
      "en": "Handlebar, wheels, lights, fluid levels, and that there is no oil on brakes or tyres",
-     "es": "Manillar, ruedas, luces, niveles y que no haya aceite en frenos ni neumáticos"
+     "es": "Manillar, ruedas, luces, niveles y que no haya aceite en frenos ni neumáticos",
+     "uk": "Кермо, колеса, світло, рівень рідин і чи немає мастила на гальмах чи шинах"
     },
     {
      "en": "Only the paintwork",
-     "es": "Solo la pintura"
+     "es": "Solo la pintura",
+     "uk": "Лише фарбу"
     },
     {
      "en": "Nothing, if the motorcycle starts",
-     "es": "Nada, si la moto arranca"
+     "es": "Nada, si la moto arranca",
+     "uk": "Нічого, якщо мотоцикл заводиться"
     }
    ],
    "why": {
     "en": "A careless check can lead to a later mechanical failure.",
-    "es": "Una comprobación incorrecta puede provocar después un fallo mecánico."
+    "es": "Una comprobación incorrecta puede provocar después un fallo mecánico.",
+    "uk": "Недбала перевірка може призвести до подальшої поломки."
    }
   },
   {
@@ -350,25 +421,30 @@ window.DGT_DATA = {
    "tag": "falls",
    "q": {
     "en": "Which guardrail posts are most dangerous for a fallen rider?",
-    "es": "¿Qué postes de guardarraíl son más peligrosos para un motorista caído?"
+    "es": "¿Qué postes de guardarraíl son más peligrosos para un motorista caído?",
+    "uk": "Які стовпчики огородження найнебезпечніші для мотоцикліста, що впав?"
    },
    "o": [
     {
      "en": "Posts with a cutting “H” profile",
-     "es": "Los de perfil cortante en «H»"
+     "es": "Los de perfil cortante en «H»",
+     "uk": "Стовпчики з ріжучим профілем «H»"
     },
     {
      "en": "Posts with a rounded “C” profile",
-     "es": "Los de perfil redondeado en «C»"
+     "es": "Los de perfil redondeado en «C»",
+     "uk": "Стовпчики із заокругленим профілем «C»"
     },
     {
      "en": "Posts covered by a lower rail",
-     "es": "Los tapados por una banda inferior"
+     "es": "Los tapados por una banda inferior",
+     "uk": "Стовпчики, закриті нижньою планкою"
     }
    ],
    "why": {
     "en": "A cutting profile causes very serious injuries; a rounded one, or a motorcyclist protection rail, much less.",
-    "es": "Un perfil cortante causa lesiones muy graves; uno redondeado, o un sistema de protección para motoristas, mucho menos."
+    "es": "Un perfil cortante causa lesiones muy graves; uno redondeado, o un sistema de protección para motoristas, mucho menos.",
+    "uk": "Ріжучий профіль спричиняє дуже тяжкі травми; заокруглений чи планка захисту мотоциклістів — набагато менші."
    }
   },
   {
@@ -376,25 +452,30 @@ window.DGT_DATA = {
    "tag": "falls",
    "q": {
     "en": "What clothing is recommended to limit injuries in a fall?",
-    "es": "¿Qué ropa se recomienda para reducir las lesiones en una caída?"
+    "es": "¿Qué ropa se recomienda para reducir las lesiones en una caída?",
+    "uk": "Який одяг рекомендовано, щоб обмежити травми під час падіння?"
    },
    "o": [
     {
      "en": "A full-face helmet and leather or special fabrics with protectors",
-     "es": "Casco integral y ropa de cuero o tejidos especiales con protectores"
+     "es": "Casco integral y ropa de cuero o tejidos especiales con protectores",
+     "uk": "Шолом-інтеграл і шкіра чи спеціальні тканини із захистом"
     },
     {
      "en": "Light cotton clothing so you can move",
-     "es": "Ropa ligera de algodón para moverse"
+     "es": "Ropa ligera de algodón para moverse",
+     "uk": "Легкий бавовняний одяг, щоб вільно рухатися"
     },
     {
      "en": "Any clothing, if you wear the helmet",
-     "es": "Cualquier ropa, si llevas casco"
+     "es": "Cualquier ropa, si llevas casco",
+     "uk": "Будь-який одяг, якщо є шолом"
     }
    ],
    "why": {
     "en": "The helmet and suitable clothing make a great difference.",
-    "es": "El casco y la ropa adecuada son de gran importancia para reducir los daños."
+    "es": "El casco y la ropa adecuada son de gran importancia para reducir los daños.",
+    "uk": "Шолом і відповідний одяг мають велике значення."
    }
   },
   {
@@ -402,25 +483,30 @@ window.DGT_DATA = {
    "tag": "speed",
    "q": {
     "en": "What happens to your ability to anticipate and react as speed rises?",
-    "es": "¿Qué ocurre con tu capacidad de anticipación y reacción al aumentar la velocidad?"
+    "es": "¿Qué ocurre con tu capacidad de anticipación y reacción al aumentar la velocidad?",
+    "uk": "Що відбувається з вашою здатністю передбачати й реагувати зі зростанням швидкості?"
    },
    "o": [
     {
      "en": "It decreases, and injuries are more serious",
-     "es": "Disminuye, y las lesiones son más graves"
+     "es": "Disminuye, y las lesiones son más graves",
+     "uk": "Вона зменшується, а травми важчі"
     },
     {
      "en": "It improves, because you concentrate more",
-     "es": "Mejora, porque te concentras más"
+     "es": "Mejora, porque te concentras más",
+     "uk": "Вона покращується, бо ви більше зосереджені"
     },
     {
      "en": "It does not change",
-     "es": "No cambia"
+     "es": "No cambia",
+     "uk": "Вона не змінюється"
     }
    ],
    "why": {
     "en": "At higher speed you have less time to see and analyse what happens around you.",
-    "es": "A más velocidad hay menos capacidad para ver y analizar lo que ocurre alrededor."
+    "es": "A más velocidad hay menos capacidad para ver y analizar lo que ocurre alrededor.",
+    "uk": "На вищій швидкості у вас менше часу, щоб бачити й аналізувати, що відбувається довкола."
    }
   },
   {
@@ -428,25 +514,30 @@ window.DGT_DATA = {
    "tag": "speed",
    "q": {
     "en": "What is the usual reaction time of a rider in normal conditions?",
-    "es": "¿Cuál es el tiempo de reacción habitual de un conductor en condiciones normales?"
+    "es": "¿Cuál es el tiempo de reacción habitual de un conductor en condiciones normales?",
+    "uk": "Який звичайний час реакції мотоцикліста за нормальних умов?"
    },
    "o": [
     {
      "en": "About 0.75 seconds",
-     "es": "Unos 0,75 segundos"
+     "es": "Unos 0,75 segundos",
+     "uk": "Близько 0,75 секунди"
     },
     {
      "en": "About 2 seconds",
-     "es": "Unos 2 segundos"
+     "es": "Unos 2 segundos",
+     "uk": "Близько 2 секунд"
     },
     {
      "en": "About 0.1 seconds",
-     "es": "Unos 0,1 segundos"
+     "es": "Unos 0,1 segundos",
+     "uk": "Близько 0,1 секунди"
     }
    ],
    "why": {
     "en": "Normally between half a second and one second, typically 0.75 s.",
-    "es": "Normalmente entre medio y un segundo, habitualmente 0,75 s."
+    "es": "Normalmente entre medio y un segundo, habitualmente 0,75 s.",
+    "uk": "Зазвичай від півсекунди до секунди, типово 0,75 с."
    }
   },
   {
@@ -454,25 +545,30 @@ window.DGT_DATA = {
    "tag": "speed",
    "q": {
     "en": "What is the stopping distance (parada técnica)?",
-    "es": "¿Qué es la distancia de detención (parada técnica)?"
+    "es": "¿Qué es la distancia de detención (parada técnica)?",
+    "uk": "Що таке зупинний шлях (parada técnica)?"
    },
    "o": [
     {
      "en": "The reaction distance plus the braking distance",
-     "es": "La distancia de reacción más la de frenado"
+     "es": "La distancia de reacción más la de frenado",
+     "uk": "Шлях реакції плюс гальмівний шлях"
     },
     {
      "en": "Only the braking distance",
-     "es": "Solo la distancia de frenado"
+     "es": "Solo la distancia de frenado",
+     "uk": "Лише гальмівний шлях"
     },
     {
      "en": "The distance to the vehicle in front",
-     "es": "La distancia al vehículo de delante"
+     "es": "La distancia al vehículo de delante",
+     "uk": "Відстань до транспорту попереду"
     }
    ],
    "why": {
     "en": "From seeing the obstacle until stopping: reaction plus braking.",
-    "es": "Desde que se ve el obstáculo hasta detenerse: reacción más frenado."
+    "es": "Desde que se ve el obstáculo hasta detenerse: reacción más frenado.",
+    "uk": "Від моменту, коли ви побачили перешкоду, до зупинки: реакція плюс гальмування."
    }
   },
   {
@@ -480,25 +576,30 @@ window.DGT_DATA = {
    "tag": "speed",
    "q": {
     "en": "How does rain change the braking distance?",
-    "es": "¿Cómo cambia la lluvia la distancia de frenado?"
+    "es": "¿Cómo cambia la lluvia la distancia de frenado?",
+    "uk": "Як дощ змінює гальмівний шлях?"
    },
    "o": [
     {
      "en": "It can double it",
-     "es": "Puede duplicarla"
+     "es": "Puede duplicarla",
+     "uk": "Може подвоїти його"
     },
     {
      "en": "It multiplies it by ten",
-     "es": "La multiplica por diez"
+     "es": "La multiplica por diez",
+     "uk": "Збільшує вдесятеро"
     },
     {
      "en": "It does not change it",
-     "es": "No la cambia"
+     "es": "No la cambia",
+     "uk": "Не змінює"
     }
    ],
    "why": {
     "en": "Rain ×2; snow or ice ×10.",
-    "es": "Lluvia ×2; nieve o hielo ×10."
+    "es": "Lluvia ×2; nieve o hielo ×10.",
+    "uk": "Дощ ×2; сніг чи лід ×10."
    }
   },
   {
@@ -506,25 +607,30 @@ window.DGT_DATA = {
    "tag": "speed",
    "q": {
     "en": "What does the reaction distance depend on?",
-    "es": "¿De qué depende la distancia de reacción?"
+    "es": "¿De qué depende la distancia de reacción?",
+    "uk": "Від чого залежить шлях реакції?"
    },
    "o": [
     {
      "en": "The rider’s reaction time and the speed",
-     "es": "Del tiempo de reacción del conductor y de la velocidad"
+     "es": "Del tiempo de reacción del conductor y de la velocidad",
+     "uk": "Від часу реакції водія та швидкості"
     },
     {
      "en": "The condition of the brakes",
-     "es": "Del estado de los frenos"
+     "es": "Del estado de los frenos",
+     "uk": "Від стану гальм"
     },
     {
      "en": "The type of tyres",
-     "es": "Del tipo de neumáticos"
+     "es": "Del tipo de neumáticos",
+     "uk": "Від типу шин"
     }
    ],
    "why": {
     "en": "It is what you cover before braking: faster or slower to react, more metres.",
-    "es": "Es lo que se recorre antes de frenar: a más velocidad o más lentitud en reaccionar, más metros."
+    "es": "Es lo que se recorre antes de frenar: a más velocidad o más lentitud en reaccionar, más metros.",
+    "uk": "Це те, що ви проїжджаєте до гальмування: швидше чи повільніше реагуєте — більше метрів."
    }
   },
   {
@@ -532,25 +638,30 @@ window.DGT_DATA = {
    "tag": "speed",
    "q": {
     "en": "You carry a passenger. What happens to your braking distance?",
-    "es": "Llevas un pasajero. ¿Qué pasa con tu distancia de frenado?"
+    "es": "Llevas un pasajero. ¿Qué pasa con tu distancia de frenado?",
+    "uk": "Ви везете пасажира. Що відбувається з гальмівним шляхом?"
    },
    "o": [
     {
      "en": "It gets longer",
-     "es": "Aumenta"
+     "es": "Aumenta",
+     "uk": "Він подовжується"
     },
     {
      "en": "It gets shorter, because there is more grip",
-     "es": "Disminuye, porque hay más agarre"
+     "es": "Disminuye, porque hay más agarre",
+     "uk": "Він скорочується, бо більше зчеплення"
     },
     {
      "en": "It stays the same",
-     "es": "No cambia"
+     "es": "No cambia",
+     "uk": "Не змінюється"
     }
    ],
    "why": {
     "en": "The braking distance depends on the mass, the load and how it is placed.",
-    "es": "La distancia de frenado depende de la masa, la carga y su colocación."
+    "es": "La distancia de frenado depende de la masa, la carga y su colocación.",
+    "uk": "Гальмівний шлях залежить від маси, вантажу й того, як його розміщено."
    }
   },
   {
@@ -558,25 +669,30 @@ window.DGT_DATA = {
    "tag": "speed",
    "q": {
     "en": "Which of these makes the reaction time longer?",
-    "es": "¿Cuál de estos factores aumenta el tiempo de reacción?"
+    "es": "¿Cuál de estos factores aumenta el tiempo de reacción?",
+    "uk": "Що з цього подовжує час реакції?"
    },
    "o": [
     {
      "en": "Fatigue, alcohol or some medicines",
-     "es": "La fatiga, el alcohol o algunos medicamentos"
+     "es": "La fatiga, el alcohol o algunos medicamentos",
+     "uk": "Утома, алкоголь чи деякі ліки"
     },
     {
      "en": "New tyres",
-     "es": "Unos neumáticos nuevos"
+     "es": "Unos neumáticos nuevos",
+     "uk": "Нові шини"
     },
     {
      "en": "A dry road",
-     "es": "Una calzada seca"
+     "es": "Una calzada seca",
+     "uk": "Суха дорога"
     }
    ],
    "why": {
     "en": "Age, fatigue and sleepiness, alcohol, drugs, medicines, mood, illness, stress and heat lengthen it.",
-    "es": "La edad, la fatiga y la somnolencia, el alcohol, las drogas, los medicamentos, el estado de ánimo, las enfermedades, el estrés y el calor la alargan."
+    "es": "La edad, la fatiga y la somnolencia, el alcohol, las drogas, los medicamentos, el estado de ánimo, las enfermedades, el estrés y el calor la alargan.",
+    "uk": "Вік, утома й сонливість, алкоголь, наркотики, ліки, настрій, хвороба, стрес і спека його подовжують."
    }
   },
   {
@@ -584,25 +700,30 @@ window.DGT_DATA = {
    "tag": "fatigue",
    "q": {
     "en": "What is the main cause of fatigue?",
-    "es": "¿Cuál es la principal causa de la fatiga?"
+    "es": "¿Cuál es la principal causa de la fatiga?",
+    "uk": "Яка головна причина втоми?"
    },
    "o": [
     {
      "en": "Riding for long periods without proper breaks",
-     "es": "Conducir largos periodos sin descansar o descansando mal"
+     "es": "Conducir largos periodos sin descansar o descansando mal",
+     "uk": "Довга їзда без належних перерв"
     },
     {
      "en": "Riding in town",
-     "es": "Circular por ciudad"
+     "es": "Circular por ciudad",
+     "uk": "Їзда в місті"
     },
     {
      "en": "Riding with a passenger",
-     "es": "Llevar pasajero"
+     "es": "Llevar pasajero",
+     "uk": "Їзда з пасажиром"
     }
    ],
    "why": {
     "en": "Long periods without stopping, or inadequate breaks, are the main cause.",
-    "es": "Los largos periodos sin parar, o los descansos inadecuados, son la principal causa."
+    "es": "Los largos periodos sin parar, o los descansos inadecuados, son la principal causa.",
+    "uk": "Довга їзда без зупинок чи неналежні перерви — головна причина."
    }
   },
   {
@@ -610,25 +731,30 @@ window.DGT_DATA = {
    "tag": "fatigue",
    "q": {
     "en": "How often should you rest on a long trip?",
-    "es": "¿Cada cuánto debes descansar en un viaje largo?"
+    "es": "¿Cada cuánto debes descansar en un viaje largo?",
+    "uk": "Як часто відпочивати в довгій поїздці?"
    },
    "o": [
     {
      "en": "At least every 2 hours or 200 km, for 20–30 minutes",
-     "es": "Como máximo cada 2 horas o 200 km, de 20 a 30 minutos"
+     "es": "Como máximo cada 2 horas o 200 km, de 20 a 30 minutos",
+     "uk": "Щонайменше кожні 2 години чи 200 км, по 20–30 хвилин"
     },
     {
      "en": "Every 4 hours or 400 km, for 10 minutes",
-     "es": "Cada 4 horas o 400 km, 10 minutos"
+     "es": "Cada 4 horas o 400 km, 10 minutos",
+     "uk": "Кожні 4 години чи 400 км, по 10 хвилин"
     },
     {
      "en": "Only when you feel tired",
-     "es": "Solo cuando notes cansancio"
+     "es": "Solo cuando notes cansancio",
+     "uk": "Лише коли відчуєте втому"
     }
    ],
    "why": {
     "en": "Stop every 2 hours or 200 km for 20–30 minutes, and sooner if tired or sleepy.",
-    "es": "Parar cada 2 horas o 200 km de 20 a 30 minutos, y antes si hay cansancio o sueño."
+    "es": "Parar cada 2 horas o 200 km de 20 a 30 minutos, y antes si hay cansancio o sueño.",
+    "uk": "Зупиняйтеся кожні 2 години чи 200 км на 20–30 хвилин і раніше, якщо втомилися чи хочете спати."
    }
   },
   {
@@ -636,25 +762,30 @@ window.DGT_DATA = {
    "tag": "fatigue",
    "q": {
     "en": "Which is an effect of fatigue?",
-    "es": "¿Cuál es un efecto de la fatiga?"
+    "es": "¿Cuál es un efecto de la fatiga?",
+    "uk": "Що з цього — наслідок утоми?"
    },
    "o": [
     {
      "en": "Slow, imprecise movements and a longer reaction time",
-     "es": "Movimientos lentos e imprecisos y más tiempo de reacción"
+     "es": "Movimientos lentos e imprecisos y más tiempo de reacción",
+     "uk": "Повільні, неточні рухи й довший час реакції"
     },
     {
      "en": "Sharper attention",
-     "es": "Más atención"
+     "es": "Más atención",
+     "uk": "Гостріша увага"
     },
     {
      "en": "Shorter reaction time",
-     "es": "Menor tiempo de reacción"
+     "es": "Menor tiempo de reacción",
+     "uk": "Коротший час реакції"
     }
    ],
    "why": {
     "en": "Muscle stiffness, imprecision, behaviour changes, less attention and slower reactions.",
-    "es": "Agarrotamiento, imprecisión, cambios de comportamiento, menos atención y reacciones más lentas."
+    "es": "Agarrotamiento, imprecisión, cambios de comportamiento, menos atención y reacciones más lentas.",
+    "uk": "М’язова скутість, неточність, зміни поведінки, менше уваги й повільніша реакція."
    }
   },
   {
@@ -662,25 +793,30 @@ window.DGT_DATA = {
    "tag": "fatigue",
    "q": {
     "en": "What is a microsleep?",
-    "es": "¿Qué es un microsueño?"
+    "es": "¿Qué es un microsueño?",
+    "uk": "Що таке мікросон?"
    },
    "o": [
     {
      "en": "A few seconds asleep without realising it",
-     "es": "Unos segundos dormido sin darse cuenta"
+     "es": "Unos segundos dormido sin darse cuenta",
+     "uk": "Кілька секунд сну, яких ви не помічаєте"
     },
     {
      "en": "A short rest at a service area",
-     "es": "Un descanso corto en un área de servicio"
+     "es": "Un descanso corto en un área de servicio",
+     "uk": "Короткий відпочинок у зоні обслуговування"
     },
     {
      "en": "A mild headache",
-     "es": "Un dolor de cabeza leve"
+     "es": "Un dolor de cabeza leve",
+     "uk": "Легкий головний біль"
     }
    ],
    "why": {
     "en": "Microsleeps are short periods in which the rider falls slightly asleep without noticing.",
-    "es": "Son periodos de unos segundos en que el conductor queda ligeramente dormido sin darse cuenta."
+    "es": "Son periodos de unos segundos en que el conductor queda ligeramente dormido sin darse cuenta.",
+    "uk": "Мікросон — короткі періоди, коли водій ненадовго засинає, сам того не помічаючи."
    }
   },
   {
@@ -688,25 +824,30 @@ window.DGT_DATA = {
    "tag": "fatigue",
    "q": {
     "en": "You feel sleepy on an interurban road. What is the right thing to do?",
-    "es": "Tienes sueño en una carretera. ¿Qué es lo correcto?"
+    "es": "Tienes sueño en una carretera. ¿Qué es lo correcto?",
+    "uk": "Вам хочеться спати на заміській дорозі. Що правильно зробити?"
    },
    "o": [
     {
      "en": "Stop somewhere suitable and sleep a little",
-     "es": "Parar en un lugar adecuado y dormir un poco"
+     "es": "Parar en un lugar adecuado y dormir un poco",
+     "uk": "Зупинитися в придатному місці й трохи поспати"
     },
     {
      "en": "Ride faster to arrive sooner",
-     "es": "Ir más deprisa para llegar antes"
+     "es": "Ir más deprisa para llegar antes",
+     "uk": "Їхати швидше, щоб скоріше доїхати"
     },
     {
      "en": "Open the visor and carry on",
-     "es": "Abrir la visera y seguir"
+     "es": "Abrir la visera y seguir",
+     "uk": "Відкрити візор і їхати далі"
     }
    ],
    "why": {
     "en": "If you are tired or sleepy, stop to rest in a suitable place and sleep a little.",
-    "es": "Si estás cansado o tienes sueño, para a descansar en un lugar adecuado y duerme un poco."
+    "es": "Si estás cansado o tienes sueño, para a descansar en un lugar adecuado y duerme un poco.",
+    "uk": "Якщо ви втомилися чи хочете спати, зупиніться відпочити в придатному місці й трохи поспіть."
    }
   },
   {
@@ -714,25 +855,30 @@ window.DGT_DATA = {
    "tag": "fatigue",
    "q": {
     "en": "Which road conditions bring on fatigue sooner?",
-    "es": "¿Qué condiciones de la vía adelantan la aparición de la fatiga?"
+    "es": "¿Qué condiciones de la vía adelantan la aparición de la fatiga?",
+    "uk": "Які умови дороги швидше викликають утому?"
    },
    "o": [
     {
      "en": "Heavy traffic, a poor surface, unfamiliar roads and bad weather",
-     "es": "Mucho tráfico, firme en mal estado, vías poco conocidas y mal tiempo"
+     "es": "Mucho tráfico, firme en mal estado, vías poco conocidas y mal tiempo",
+     "uk": "Щільний рух, погане покриття, незнайомі дороги й погана погода"
     },
     {
      "en": "A motorway with little traffic in good weather",
-     "es": "Una autovía con poco tráfico y buen tiempo"
+     "es": "Una autovía con poco tráfico y buen tiempo",
+     "uk": "Автомагістраль з невеликим рухом за доброї погоди"
     },
     {
      "en": "A road you know well",
-     "es": "Una vía que conoces bien"
+     "es": "Una vía que conoces bien",
+     "uk": "Добре знайома дорога"
     }
    ],
    "why": {
     "en": "They demand more concentration or make riding uncomfortable.",
-    "es": "Exigen más concentración o hacen la conducción más incómoda."
+    "es": "Exigen más concentración o hacen la conducción más incómoda.",
+    "uk": "Вони вимагають більше зосередженості чи роблять їзду незручною."
    }
   },
   {
@@ -740,25 +886,30 @@ window.DGT_DATA = {
    "tag": "fatigue",
    "q": {
     "en": "Is talking on a hands-free phone a distraction?",
-    "es": "¿Hablar por el móvil con manos libres es una distracción?"
+    "es": "¿Hablar por el móvil con manos libres es una distracción?",
+    "uk": "Чи відволікає розмова телефоном через гарнітуру?"
    },
    "o": [
     {
      "en": "Yes, even hands-free",
-     "es": "Sí, incluso con manos libres"
+     "es": "Sí, incluso con manos libres",
+     "uk": "Так, навіть без рук"
     },
     {
      "en": "No, if your hands are on the handlebar",
-     "es": "No, si las manos están en el manillar"
+     "es": "No, si las manos están en el manillar",
+     "uk": "Ні, якщо руки на кермі"
     },
     {
      "en": "Only in town",
-     "es": "Solo en ciudad"
+     "es": "Solo en ciudad",
+     "uk": "Лише в місті"
     }
    ],
    "why": {
     "en": "Your course lists the phone, even hands-free, and the sat-nav among the causes of distraction.",
-    "es": "Tu curso incluye el móvil, incluso con manos libres, y el GPS entre las causas de distracción."
+    "es": "Tu curso incluye el móvil, incluso con manos libres, y el GPS entre las causas de distracción.",
+    "uk": "Ваш курс зараховує телефон, навіть без рук, і навігатор до причин відволікання."
    }
   },
   {
@@ -766,25 +917,30 @@ window.DGT_DATA = {
    "tag": "fatigue",
    "q": {
     "en": "A rider with a chronic illness takes medicines. What should they avoid?",
-    "es": "Un conductor con una enfermedad crónica toma medicamentos. ¿Qué debe evitar?"
+    "es": "Un conductor con una enfermedad crónica toma medicamentos. ¿Qué debe evitar?",
+    "uk": "Мотоцикліст із хронічною хворобою приймає ліки. Чого йому слід уникати?"
    },
    "o": [
     {
      "en": "Drinking alcohol while taking the medicines",
-     "es": "Tomar alcohol mientras toma los medicamentos"
+     "es": "Tomar alcohol mientras toma los medicamentos",
+     "uk": "Вживати алкоголь під час прийому ліків"
     },
     {
      "en": "Asking the doctor about riding",
-     "es": "Consultar al médico sobre la conducción"
+     "es": "Consultar al médico sobre la conducción",
+     "uk": "Питати лікаря про їзду"
     },
     {
      "en": "Reading the leaflet",
-     "es": "Leer el prospecto"
+     "es": "Leer el prospecto",
+     "uk": "Читати інструкцію"
     }
    ],
    "why": {
     "en": "Know the illness and side effects, recognise a crisis, avoid triggers, no alcohol with medicines, ask the doctor.",
-    "es": "Conocer la enfermedad y los efectos secundarios, reconocer una crisis, evitar desencadenantes, no tomar alcohol con medicamentos, consultar al médico."
+    "es": "Conocer la enfermedad y los efectos secundarios, reconocer una crisis, evitar desencadenantes, no tomar alcohol con medicamentos, consultar al médico.",
+    "uk": "Знайте хворобу й побічні дії, розпізнавайте напад, уникайте тригерів, жодного алкоголю з ліками, питайте лікаря."
    }
   },
   {
@@ -792,25 +948,30 @@ window.DGT_DATA = {
    "tag": "alcohol",
    "q": {
     "en": "What kind of substance is alcohol?",
-    "es": "¿Qué tipo de sustancia es el alcohol?"
+    "es": "¿Qué tipo de sustancia es el alcohol?",
+    "uk": "Що за речовина алкоголь?"
    },
    "o": [
     {
      "en": "A depressant of the central nervous system, with an initial euphoric phase",
-     "es": "Un depresor del sistema nervioso central, con una fase euforizante al principio"
+     "es": "Un depresor del sistema nervioso central, con una fase euforizante al principio",
+     "uk": "Депресант центральної нервової системи з початковою фазою ейфорії"
     },
     {
      "en": "A stimulant",
-     "es": "Un estimulante"
+     "es": "Un estimulante",
+     "uk": "Стимулятор"
     },
     {
      "en": "A harmless substance in small amounts",
-     "es": "Una sustancia inocua en pequeñas cantidades"
+     "es": "Una sustancia inocua en pequeñas cantidades",
+     "uk": "Нешкідлива речовина в малих кількостях"
     }
    ],
    "why": {
     "en": "It depresses the nervous system although at first it seems to excite.",
-    "es": "Deprime el sistema nervioso aunque al principio parezca excitar."
+    "es": "Deprime el sistema nervioso aunque al principio parezca excitar.",
+    "uk": "Він пригнічує нервову систему, хоча спочатку здається, що збуджує."
    }
   },
   {
@@ -818,25 +979,30 @@ window.DGT_DATA = {
    "tag": "alcohol",
    "q": {
     "en": "Which perception change can alcohol cause?",
-    "es": "¿Qué alteración de la percepción puede causar el alcohol?"
+    "es": "¿Qué alteración de la percepción puede causar el alcohol?",
+    "uk": "Яку зміну сприйняття може спричинити алкоголь?"
    },
    "o": [
     {
      "en": "Tunnel vision and misjudging distances",
-     "es": "Visión túnel y cálculo erróneo de las distancias"
+     "es": "Visión túnel y cálculo erróneo de las distancias",
+     "uk": "Тунельний зір і помилки в оцінці відстаней"
     },
     {
      "en": "Better night vision",
-     "es": "Mejor visión nocturna"
+     "es": "Mejor visión nocturna",
+     "uk": "Кращий нічний зір"
     },
     {
      "en": "Less sensitivity to dazzle",
-     "es": "Menos sensibilidad al deslumbramiento"
+     "es": "Menos sensibilidad al deslumbramiento",
+     "uk": "Меншу чутливість до засліплення"
     }
    ],
    "why": {
     "en": "You perceive worse, misjudge distances, are more sensitive to dazzle and may suffer tunnel vision.",
-    "es": "Se percibe peor, se calculan mal las distancias, hay más sensibilidad al deslumbramiento y puede aparecer la visión túnel."
+    "es": "Se percibe peor, se calculan mal las distancias, hay más sensibilidad al deslumbramiento y puede aparecer la visión túnel.",
+    "uk": "Ви гірше сприймаєте, помиляєтеся з відстанями, чутливіші до засліплення й можете мати тунельний зір."
    }
   },
   {
@@ -844,25 +1010,30 @@ window.DGT_DATA = {
    "tag": "alcohol",
    "q": {
     "en": "Your A2 licence is one year old. What is your alcohol limit in exhaled air?",
-    "es": "Tu permiso A2 tiene un año. ¿Cuál es tu tasa máxima de alcohol en aire espirado?"
+    "es": "Tu permiso A2 tiene un año. ¿Cuál es tu tasa máxima de alcohol en aire espirado?",
+    "uk": "Вашому посвідченню A2 рік. Яка ваша межа алкоголю у видихуваному повітрі?"
    },
    "o": [
     {
      "en": "0.15 mg/l",
-     "es": "0,15 mg/l"
+     "es": "0,15 mg/l",
+     "uk": "0,15 мг/л"
     },
     {
      "en": "0.25 mg/l",
-     "es": "0,25 mg/l"
+     "es": "0,25 mg/l",
+     "uk": "0,25 мг/л"
     },
     {
      "en": "0.30 mg/l",
-     "es": "0,30 mg/l"
+     "es": "0,30 mg/l",
+     "uk": "0,30 мг/л"
     }
    ],
    "why": {
     "en": "During the first two years of the licence the limit is 0.15 mg/l in air (0.3 g/l in blood).",
-    "es": "Durante los dos primeros años del permiso la tasa es de 0,15 mg/l en aire (0,3 g/l en sangre)."
+    "es": "Durante los dos primeros años del permiso la tasa es de 0,15 mg/l en aire (0,3 g/l en sangre).",
+    "uk": "Перші два роки посвідчення межа 0,15 мг/л у повітрі (0,3 г/л у крові)."
    }
   },
   {
@@ -870,25 +1041,30 @@ window.DGT_DATA = {
    "tag": "alcohol",
    "q": {
     "en": "And after more than two years with the licence?",
-    "es": "¿Y con más de dos años de permiso?"
+    "es": "¿Y con más de dos años de permiso?",
+    "uk": "А після понад двох років із посвідченням?"
    },
    "o": [
     {
      "en": "0.25 mg/l in air, 0.5 g/l in blood",
-     "es": "0,25 mg/l en aire, 0,5 g/l en sangre"
+     "es": "0,25 mg/l en aire, 0,5 g/l en sangre",
+     "uk": "0,25 мг/л у повітрі, 0,5 г/л у крові"
     },
     {
      "en": "0.5 mg/l in air, 0.25 g/l in blood",
-     "es": "0,5 mg/l en aire, 0,25 g/l en sangre"
+     "es": "0,5 mg/l en aire, 0,25 g/l en sangre",
+     "uk": "0,5 мг/л у повітрі, 0,25 г/л у крові"
     },
     {
      "en": "0.15 mg/l in air, 0.3 g/l in blood",
-     "es": "0,15 mg/l en aire, 0,3 g/l en sangre"
+     "es": "0,15 mg/l en aire, 0,3 g/l en sangre",
+     "uk": "0,15 мг/л у повітрі, 0,3 г/л у крові"
     }
    ],
    "why": {
     "en": "The general limit: 0.25 mg/l in exhaled air or 0.5 g/l in blood.",
-    "es": "La tasa general: 0,25 mg/l en aire espirado o 0,5 g/l en sangre."
+    "es": "La tasa general: 0,25 mg/l en aire espirado o 0,5 g/l en sangre.",
+    "uk": "Загальна межа: 0,25 мг/л у видихуваному повітрі чи 0,5 г/л у крові."
    }
   },
   {
@@ -896,25 +1072,30 @@ window.DGT_DATA = {
    "tag": "alcohol",
    "q": {
     "en": "You are 17 and ride an A1 motorcycle. What is your alcohol limit?",
-    "es": "Tienes 17 años y conduces una moto del A1. ¿Cuál es tu tasa máxima de alcohol?"
+    "es": "Tienes 17 años y conduces una moto del A1. ¿Cuál es tu tasa máxima de alcohol?",
+    "uk": "Вам 17, і ви їздите мотоциклом A1. Яка ваша межа алкоголю?"
    },
    "o": [
     {
      "en": "0.0: none at all",
-     "es": "0,0: nada de alcohol"
+     "es": "0,0: nada de alcohol",
+     "uk": "0,0: жодного"
     },
     {
      "en": "0.15 mg/l, as a new rider",
-     "es": "0,15 mg/l, como novel"
+     "es": "0,15 mg/l, como novel",
+     "uk": "0,15 мг/л, як для початківця"
     },
     {
      "en": "0.25 mg/l",
-     "es": "0,25 mg/l"
+     "es": "0,25 mg/l",
+     "uk": "0,25 мг/л"
     }
    ],
    "why": {
     "en": "The Traffic Law sets 0 for any driver under 18, below the new-licence limit.",
-    "es": "La Ley de Tráfico fija 0 para cualquier conductor menor de edad, por debajo de la tasa de los noveles."
+    "es": "La Ley de Tráfico fija 0 para cualquier conductor menor de edad, por debajo de la tasa de los noveles.",
+    "uk": "Закон про дорожній рух встановлює 0 для будь-якого водія до 18 років, нижче за межу для початківців."
    }
   },
   {
@@ -922,25 +1103,30 @@ window.DGT_DATA = {
    "tag": "alcohol",
    "q": {
     "en": "How long after drinking is the blood alcohol level at its highest?",
-    "es": "¿Cuánto tiempo después de beber se alcanza la tasa máxima de alcohol?"
+    "es": "¿Cuánto tiempo después de beber se alcanza la tasa máxima de alcohol?",
+    "uk": "Через скільки часу після вживання рівень алкоголю в крові найвищий?"
    },
    "o": [
     {
      "en": "30 to 90 minutes",
-     "es": "Entre 30 y 90 minutos"
+     "es": "Entre 30 y 90 minutos",
+     "uk": "Через 30–90 хвилин"
     },
     {
      "en": "5 minutes",
-     "es": "5 minutos"
+     "es": "5 minutos",
+     "uk": "Через 5 хвилин"
     },
     {
      "en": "6 hours",
-     "es": "6 horas"
+     "es": "6 horas",
+     "uk": "Через 6 годин"
     }
    ],
    "why": {
     "en": "It peaks 30–90 minutes after drinking and then falls very slowly over several hours.",
-    "es": "Alcanza el pico entre 30 y 90 minutos y después baja muy lentamente durante varias horas."
+    "es": "Alcanza el pico entre 30 y 90 minutos y después baja muy lentamente durante varias horas.",
+    "uk": "Він досягає піку через 30–90 хвилин після вживання, а потім дуже повільно знижується кілька годин."
    }
   },
   {
@@ -948,25 +1134,30 @@ window.DGT_DATA = {
    "tag": "alcohol",
    "q": {
     "en": "Can coffee, chewing gum or drinking lots of water lower the breathalyser result?",
-    "es": "¿El café, los chicles o beber mucha agua pueden bajar el resultado del etilómetro?"
+    "es": "¿El café, los chicles o beber mucha agua pueden bajar el resultado del etilómetro?",
+    "uk": "Чи можуть кава, жуйка чи багато води знизити показник алкотестера?"
    },
    "o": [
     {
      "en": "No: there are no tricks",
-     "es": "No: no hay trucos"
+     "es": "No: no hay trucos",
+     "uk": "Ні: хитрощів немає"
     },
     {
      "en": "Yes, coffee",
-     "es": "Sí, el café"
+     "es": "Sí, el café",
+     "uk": "Так, кава"
     },
     {
      "en": "Yes, water",
-     "es": "Sí, el agua"
+     "es": "Sí, el agua",
+     "uk": "Так, вода"
     }
    ],
    "why": {
     "en": "Exercise, gum, sweets, coffee, oil, smoking, sprays, a nap or water — none of them works.",
-    "es": "Ejercicio, chicles, caramelos, café, aceite, fumar, sprays, dormir un poco o agua: nada funciona."
+    "es": "Ejercicio, chicles, caramelos, café, aceite, fumar, sprays, dormir un poco o agua: nada funciona.",
+    "uk": "Вправи, жуйка, цукерки, кава, олія, куріння, спреї, сон чи вода — ніщо не діє."
    }
   },
   {
@@ -974,25 +1165,30 @@ window.DGT_DATA = {
    "tag": "alcohol",
    "q": {
     "en": "What is the only truly safe blood alcohol level for riding?",
-    "es": "¿Cuál es la única tasa de alcohol realmente segura para conducir?"
+    "es": "¿Cuál es la única tasa de alcohol realmente segura para conducir?",
+    "uk": "Який єдиний справді безпечний рівень алкоголю в крові для їзди?"
    },
    "o": [
     {
      "en": "0.0 g/l",
-     "es": "0,0 g/l"
+     "es": "0,0 g/l",
+     "uk": "0,0 г/л"
     },
     {
      "en": "Anything below the legal limit",
-     "es": "Cualquiera por debajo de la permitida"
+     "es": "Cualquiera por debajo de la permitida",
+     "uk": "Будь-який нижче законної межі"
     },
     {
      "en": "0.2 g/l",
-     "es": "0,2 g/l"
+     "es": "0,2 g/l",
+     "uk": "0,2 г/л"
     }
    ],
    "why": {
     "en": "Even below the limit, alcohol can cause an accident.",
-    "es": "Aun por debajo de la tasa máxima, el alcohol puede causar un accidente."
+    "es": "Aun por debajo de la tasa máxima, el alcohol puede causar un accidente.",
+    "uk": "Навіть нижче межі алкоголь може спричинити аварію."
    }
   },
   {
@@ -1000,25 +1196,30 @@ window.DGT_DATA = {
    "tag": "alcohol",
    "q": {
     "en": "May you ride after taking a medicine prescribed by your doctor that contains a drug?",
-    "es": "¿Puedes conducir tras tomar un medicamento recetado por tu médico que contiene una droga?"
+    "es": "¿Puedes conducir tras tomar un medicamento recetado por tu médico que contiene una droga?",
+    "uk": "Чи можна їхати, прийнявши призначені лікарем ліки, що містять наркотичну речовину?"
    },
    "o": [
     {
      "en": "Yes, if it is for treatment on prescription and does not affect your riding",
-     "es": "Sí, si es con prescripción y finalidad terapéutica y no afecta a la conducción"
+     "es": "Sí, si es con prescripción y finalidad terapéutica y no afecta a la conducción",
+     "uk": "Так, якщо це лікування за рецептом і воно не впливає на керування"
     },
     {
      "en": "Never",
-     "es": "Nunca"
+     "es": "Nunca",
+     "uk": "Ніколи"
     },
     {
      "en": "Yes, always",
-     "es": "Sí, siempre"
+     "es": "Sí, siempre",
+     "uk": "Так, завжди"
     }
    ],
    "why": {
     "en": "Prescribed substances used for treatment are excluded, provided they don’t affect driving.",
-    "es": "Quedan excluidas las sustancias usadas bajo prescripción médica y con finalidad terapéutica, siempre que no afecten a la conducción."
+    "es": "Quedan excluidas las sustancias usadas bajo prescripción médica y con finalidad terapéutica, siempre que no afecten a la conducción.",
+    "uk": "Речовини за рецептом для лікування виключено, якщо вони не впливають на керування."
    }
   },
   {
@@ -1026,25 +1227,30 @@ window.DGT_DATA = {
    "tag": "law",
    "q": {
     "en": "Can you be breath-tested at a preventive check without having committed any offence?",
-    "es": "¿Pueden someterte a la prueba de alcohol en un control preventivo sin haber cometido ninguna infracción?"
+    "es": "¿Pueden someterte a la prueba de alcohol en un control preventivo sin haber cometido ninguna infracción?",
+    "uk": "Чи можуть вас перевірити на алкоголь на профілактичному контролі, якщо ви нічого не порушили?"
    },
    "o": [
     {
      "en": "Yes",
-     "es": "Sí"
+     "es": "Sí",
+     "uk": "Так"
     },
     {
      "en": "No: only after an accident",
-     "es": "No: solo tras un accidente"
+     "es": "No: solo tras un accidente",
+     "uk": "Ні: лише після аварії"
     },
     {
      "en": "Only if you show symptoms",
-     "es": "Solo si presentas síntomas"
+     "es": "Solo si presentas síntomas",
+     "uk": "Лише якщо є ознаки"
     }
    ],
    "why": {
     "en": "Any driver can be tested when simply required at a preventive check.",
-    "es": "Cualquier conductor puede ser sometido a la prueba si es requerido en un control preventivo."
+    "es": "Cualquier conductor puede ser sometido a la prueba si es requerido en un control preventivo.",
+    "uk": "Будь-якого водія можуть перевірити просто на вимогу на профілактичному контролі."
    }
   },
   {
@@ -1052,25 +1258,30 @@ window.DGT_DATA = {
    "tag": "law",
    "q": {
     "en": "Your first breath test is positive. How long must pass before the second?",
-    "es": "Tu primera prueba de alcohol da positivo. ¿Cuánto tiempo debe pasar hasta la segunda?"
+    "es": "Tu primera prueba de alcohol da positivo. ¿Cuánto tiempo debe pasar hasta la segunda?",
+    "uk": "Перший тест на алкоголь позитивний. Скільки часу має минути до другого?"
    },
    "o": [
     {
      "en": "At least 10 minutes",
-     "es": "Al menos 10 minutos"
+     "es": "Al menos 10 minutos",
+     "uk": "Щонайменше 10 хвилин"
     },
     {
      "en": "At least 30 minutes",
-     "es": "Al menos 30 minutos"
+     "es": "Al menos 30 minutos",
+     "uk": "Щонайменше 30 хвилин"
     },
     {
      "en": "No time: it is immediate",
-     "es": "Ninguno: es inmediata"
+     "es": "Ninguno: es inmediata",
+     "uk": "Нічого: одразу"
     }
    ],
    "why": {
     "en": "You, your companions or witnesses may check that at least 10 minutes pass between the tests.",
-    "es": "El examinado, sus acompañantes o testigos pueden controlar que pasen al menos 10 minutos."
+    "es": "El examinado, sus acompañantes o testigos pueden controlar que pasen al menos 10 minutos.",
+    "uk": "Ви, ваші супутники чи свідки можете перевірити, щоб між тестами минуло щонайменше 10 хвилин."
    }
   },
   {
@@ -1078,25 +1289,30 @@ window.DGT_DATA = {
    "tag": "law",
    "q": {
     "en": "How is the presence of drugs tested at the roadside?",
-    "es": "¿Cómo se comprueba la presencia de drogas en un control?"
+    "es": "¿Cómo se comprueba la presencia de drogas en un control?",
+    "uk": "Як на дорозі перевіряють наявність наркотиків?"
    },
    "o": [
     {
      "en": "With a saliva test and later analysis",
-     "es": "Con una prueba salival y su posterior análisis"
+     "es": "Con una prueba salival y su posterior análisis",
+     "uk": "Тестом слини й подальшим аналізом"
     },
     {
      "en": "With a breathalyser",
-     "es": "Con un etilómetro"
+     "es": "Con un etilómetro",
+     "uk": "Алкотестером"
     },
     {
      "en": "With a blood test on the spot",
-     "es": "Con un análisis de sangre en el acto"
+     "es": "Con un análisis de sangre en el acto",
+     "uk": "Аналізом крові на місці"
     }
    ],
    "why": {
     "en": "Alcohol: exhaled air. Drugs: an approved saliva device and a later lab analysis.",
-    "es": "Alcohol: aire espirado. Drogas: un dispositivo salival autorizado y posterior análisis."
+    "es": "Alcohol: aire espirado. Drogas: un dispositivo salival autorizado y posterior análisis.",
+    "uk": "Алкоголь: видихуване повітря. Наркотики: затверджений пристрій для слини й подальший лабораторний аналіз."
    }
   },
   {
@@ -1104,25 +1320,30 @@ window.DGT_DATA = {
    "tag": "law",
    "q": {
     "en": "You ask for a blood test to contrast the result. Who pays for it?",
-    "es": "Pides un análisis de sangre para contrastar el resultado. ¿Quién lo paga?"
+    "es": "Pides un análisis de sangre para contrastar el resultado. ¿Quién lo paga?",
+    "uk": "Ви просите аналіз крові, щоб перевірити результат. Хто за нього платить?"
    },
    "o": [
     {
      "en": "You pay in advance; it is refunded if the result is negative",
-     "es": "Lo pagas tú por adelantado; se devuelve si el resultado es negativo"
+     "es": "Lo pagas tú por adelantado; se devuelve si el resultado es negativo",
+     "uk": "Ви платите наперед; гроші повертають, якщо результат негативний"
     },
     {
      "en": "Always the administration",
-     "es": "Siempre la Administración"
+     "es": "Siempre la Administración",
+     "uk": "Завжди адміністрація"
     },
     {
      "en": "Always you, whatever the result",
-     "es": "Siempre tú, sea cual sea el resultado"
+     "es": "Siempre tú, sea cual sea el resultado",
+     "uk": "Завжди ви, хоч би який результат"
     }
    ],
    "why": {
     "en": "It is charged to you if positive and refunded if negative.",
-    "es": "Corre a tu cargo si es positivo y se te devuelve si es negativo."
+    "es": "Corre a tu cargo si es positivo y se te devuelve si es negativo.",
+    "uk": "Його оплачуєте ви, якщо позитивний, а якщо негативний — гроші повертають."
    }
   },
   {
@@ -1130,25 +1351,30 @@ window.DGT_DATA = {
    "tag": "law",
    "q": {
     "en": "Your alcohol test is positive and nobody with you can ride the motorcycle. What happens to it?",
-    "es": "Tu prueba da positivo y nadie de los que te acompañan puede conducir la moto. ¿Qué pasa con ella?"
+    "es": "Tu prueba da positivo y nadie de los que te acompañan puede conducir la moto. ¿Qué pasa con ella?",
+    "uk": "Ваш тест на алкоголь позитивний, і ніхто з ваших супутників не може їхати мотоциклом. Що з ним буде?"
    },
    "o": [
     {
      "en": "It is immobilised, and you pay the costs",
-     "es": "Se inmoviliza, y los gastos corren de tu cuenta"
+     "es": "Se inmoviliza, y los gastos corren de tu cuenta",
+     "uk": "Його знерухомлять, а витрати сплатите ви"
     },
     {
      "en": "You may push it home",
-     "es": "Puedes empujarla hasta casa"
+     "es": "Puedes empujarla hasta casa",
+     "uk": "Можна докотити його додому"
     },
     {
      "en": "You may ride it slowly",
-     "es": "Puedes conducirla despacio"
+     "es": "Puedes conducirla despacio",
+     "uk": "Можна повільно поїхати ним"
     }
    ],
    "why": {
     "en": "Positive result or refusal: immobilisation, unless another properly licensed person can ride it.",
-    "es": "Resultado positivo o negativa: inmovilización, salvo que pueda conducirla otra persona habilitada."
+    "es": "Resultado positivo o negativa: inmovilización, salvo que pueda conducirla otra persona habilitada.",
+    "uk": "Позитивний результат чи відмова: знерухомлення, якщо ним не може їхати інша людина з відповідним посвідченням."
    }
   },
   {
@@ -1156,25 +1382,30 @@ window.DGT_DATA = {
    "tag": "law",
    "q": {
     "en": "What does it cost to ride with 0.40 mg/l of alcohol in exhaled air, licence held for five years?",
-    "es": "¿Qué supone circular con 0,40 mg/l en aire espirado, con un permiso de cinco años?"
+    "es": "¿Qué supone circular con 0,40 mg/l en aire espirado, con un permiso de cinco años?",
+    "uk": "Скільки коштує їзда з 0,40 мг/л алкоголю у видихуваному повітрі, якщо посвідченню п’ять років?"
    },
    "o": [
     {
      "en": "500 € and 4 points",
-     "es": "500 € y 4 puntos"
+     "es": "500 € y 4 puntos",
+     "uk": "500 € і 4 бали"
     },
     {
      "en": "1,000 € and 6 points",
-     "es": "1.000 € y 6 puntos"
+     "es": "1.000 € y 6 puntos",
+     "uk": "1 000 € і 6 балів"
     },
     {
      "en": "A warning",
-     "es": "Un aviso"
+     "es": "Un aviso",
+     "uk": "Попередження"
     }
    ],
    "why": {
     "en": "Over the limit but not over twice it (0.25–0.50 mg/l): 500 € and 4 points.",
-    "es": "Por encima de la tasa sin superar el doble (0,25–0,50 mg/l): 500 € y 4 puntos."
+    "es": "Por encima de la tasa sin superar el doble (0,25–0,50 mg/l): 500 € y 4 puntos.",
+    "uk": "Понад межу, але не понад подвійну (0,25–0,50 мг/л): 500 € і 4 бали."
    }
   },
   {
@@ -1182,25 +1413,30 @@ window.DGT_DATA = {
    "tag": "law",
    "q": {
     "en": "From what alcohol level in exhaled air does riding become a crime?",
-    "es": "¿A partir de qué tasa de alcohol en aire espirado conducir es delito?"
+    "es": "¿A partir de qué tasa de alcohol en aire espirado conducir es delito?",
+    "uk": "З якого рівня алкоголю у видихуваному повітрі їзда стає злочином?"
    },
    "o": [
     {
      "en": "Over 0.60 mg/l",
-     "es": "Más de 0,60 mg/l"
+     "es": "Más de 0,60 mg/l",
+     "uk": "Понад 0,60 мг/л"
     },
     {
      "en": "Over 0.25 mg/l",
-     "es": "Más de 0,25 mg/l"
+     "es": "Más de 0,25 mg/l",
+     "uk": "Понад 0,25 мг/л"
     },
     {
      "en": "Over 0.50 mg/l",
-     "es": "Más de 0,50 mg/l"
+     "es": "Más de 0,50 mg/l",
+     "uk": "Понад 0,50 мг/л"
     }
    ],
    "why": {
     "en": "Over 0.60 mg/l in air (1.2 g/l in blood) is a crime, as is refusing the tests.",
-    "es": "Más de 0,60 mg/l en aire (1,2 g/l en sangre) es delito, igual que negarse a las pruebas."
+    "es": "Más de 0,60 mg/l en aire (1,2 g/l en sangre) es delito, igual que negarse a las pruebas.",
+    "uk": "Понад 0,60 мг/л у повітрі (1,2 г/л у крові) — злочин, як і відмова від перевірки."
    }
   },
   {
@@ -1208,25 +1444,30 @@ window.DGT_DATA = {
    "tag": "tyres",
    "q": {
     "en": "When should you check the tyre pressure?",
-    "es": "¿Cuándo debes comprobar la presión de los neumáticos?"
+    "es": "¿Cuándo debes comprobar la presión de los neumáticos?",
+    "uk": "Коли перевіряти тиск у шинах?"
    },
    "o": [
     {
      "en": "Regularly, with the tyres cold",
-     "es": "Periódicamente, con los neumáticos fríos"
+     "es": "Periódicamente, con los neumáticos fríos",
+     "uk": "Регулярно, на холодних шинах"
     },
     {
      "en": "Only at the ITV",
-     "es": "Solo en la ITV"
+     "es": "Solo en la ITV",
+     "uk": "Лише на техогляді"
     },
     {
      "en": "Right after a long ride",
-     "es": "Justo después de un viaje largo"
+     "es": "Justo después de un viaje largo",
+     "uk": "Одразу після довгої поїздки"
     }
    ],
    "why": {
     "en": "Check it cold with a gauge in good condition, at the pressure the manufacturer gives.",
-    "es": "Se comprueba en frío con un manómetro en buen estado, a la presión del fabricante."
+    "es": "Se comprueba en frío con un manómetro en buen estado, a la presión del fabricante.",
+    "uk": "Перевіряйте холодними справним манометром, за тиском, який вказує виробник."
    }
   },
   {
@@ -1234,25 +1475,30 @@ window.DGT_DATA = {
    "tag": "tyres",
    "q": {
     "en": "You check the pressure after riding and it is above the cold figure. What do you do?",
-    "es": "Compruebas la presión tras circular y está por encima de la de frío. ¿Qué haces?"
+    "es": "Compruebas la presión tras circular y está por encima de la de frío. ¿Qué haces?",
+    "uk": "Ви перевіряєте тиск після поїздки, і він вищий за холодне значення. Що робите?"
    },
    "o": [
     {
      "en": "Leave it: the rise is normal and the manufacturer counts on it",
-     "es": "Dejarla: el aumento es normal y el fabricante lo prevé"
+     "es": "Dejarla: el aumento es normal y el fabricante lo prevé",
+     "uk": "Залишаю: зростання нормальне, і виробник його враховує"
     },
     {
      "en": "Let air out to the cold figure",
-     "es": "Quitar aire hasta la presión de frío"
+     "es": "Quitar aire hasta la presión de frío",
+     "uk": "Спускаю повітря до холодного значення"
     },
     {
      "en": "Add more air",
-     "es": "Añadir más aire"
+     "es": "Añadir más aire",
+     "uk": "Підкачую ще"
     }
    ],
    "why": {
     "en": "If you check hot tyres, don’t remove the increase.",
-    "es": "Si los compruebas calientes, no debes quitar el aumento producido."
+    "es": "Si los compruebas calientes, no debes quitar el aumento producido.",
+    "uk": "Якщо перевіряєте гарячі шини, не спускайте надлишок."
    }
   },
   {
@@ -1260,25 +1506,30 @@ window.DGT_DATA = {
    "tag": "tyres",
    "q": {
     "en": "Which part of the tyre gives grip and clears the water?",
-    "es": "¿Qué parte del neumático da el agarre y evacua el agua?"
+    "es": "¿Qué parte del neumático da el agarre y evacua el agua?",
+    "uk": "Яка частина шини дає зчеплення й відводить воду?"
    },
    "o": [
     {
      "en": "The tread",
-     "es": "La banda de rodamiento"
+     "es": "La banda de rodamiento",
+     "uk": "Протектор"
     },
     {
      "en": "The sidewall",
-     "es": "El flanco"
+     "es": "El flanco",
+     "uk": "Боковина"
     },
     {
      "en": "The valve",
-     "es": "La válvula"
+     "es": "La válvula",
+     "uk": "Вентиль"
     }
    ],
    "why": {
     "en": "The tread has channels and grooves for grip and to clear water.",
-    "es": "La banda de rodamiento tiene canales y ranuras para el agarre y para evacuar el agua."
+    "es": "La banda de rodamiento tiene canales y ranuras para el agarre y para evacuar el agua.",
+    "uk": "Протектор має канавки й ламелі для зчеплення й відведення води."
    }
   },
   {
@@ -1286,25 +1537,30 @@ window.DGT_DATA = {
    "tag": "tyres",
    "q": {
     "en": "How must a new tyre be fitted?",
-    "es": "¿Cómo debe montarse un neumático nuevo?"
+    "es": "¿Cómo debe montarse un neumático nuevo?",
+    "uk": "Як треба ставити нову шину?"
    },
    "o": [
     {
      "en": "In the direction of rotation shown by the arrow on the sidewall",
-     "es": "En el sentido de giro que marca la flecha del flanco"
+     "es": "En el sentido de giro que marca la flecha del flanco",
+     "uk": "У напрямку обертання, показаному стрілкою на боковині"
     },
     {
      "en": "Either way round",
-     "es": "En cualquier sentido"
+     "es": "En cualquier sentido",
+     "uk": "Будь-яким боком"
     },
     {
      "en": "Opposite to the arrow on the front wheel",
-     "es": "Al contrario que la flecha en la rueda delantera"
+     "es": "Al contrario que la flecha en la rueda delantera",
+     "uk": "Проти стрілки на передньому колесі"
     }
    ],
    "why": {
     "en": "Fit it in the right direction of rotation, and in the manufacturer’s sizes.",
-    "es": "Hay que montarlo en el sentido de giro correcto y con las medidas del fabricante."
+    "es": "Hay que montarlo en el sentido de giro correcto y con las medidas del fabricante.",
+    "uk": "Ставте в правильному напрямку обертання й у розмірах виробника."
    }
   },
   {
@@ -1312,25 +1568,30 @@ window.DGT_DATA = {
    "tag": "tyres",
    "q": {
     "en": "A tyre has a cut on its sidewall. What can happen?",
-    "es": "Un neumático tiene un corte en el flanco. ¿Qué puede ocurrir?"
+    "es": "Un neumático tiene un corte en el flanco. ¿Qué puede ocurrir?",
+    "uk": "На боковині шини поріз. Що може статися?"
    },
    "o": [
     {
      "en": "Dangerous steering movements, especially at speed",
-     "es": "Movimientos peligrosos en la dirección, sobre todo a alta velocidad"
+     "es": "Movimientos peligrosos en la dirección, sobre todo a alta velocidad",
+     "uk": "Небезпечні рухи керма, особливо на швидкості"
     },
     {
      "en": "Nothing, if the pressure is right",
-     "es": "Nada, si la presión es correcta"
+     "es": "Nada, si la presión es correcta",
+     "uk": "Нічого, якщо тиск правильний"
     },
     {
      "en": "Only more noise",
-     "es": "Solo más ruido"
+     "es": "Solo más ruido",
+     "uk": "Лише більше шуму"
     }
    ],
    "why": {
     "en": "A tyre must have no cuts or deformations.",
-    "es": "El neumático no debe presentar cortes ni deformaciones."
+    "es": "El neumático no debe presentar cortes ni deformaciones.",
+    "uk": "На шині не повинно бути порізів чи деформацій."
    }
   },
   {
@@ -1338,25 +1599,30 @@ window.DGT_DATA = {
    "tag": "brakes",
    "q": {
     "en": "How many braking devices must a motorcycle have?",
-    "es": "¿Cuántos dispositivos de frenado debe tener una motocicleta?"
+    "es": "¿Cuántos dispositivos de frenado debe tener una motocicleta?",
+    "uk": "Скільки гальмівних пристроїв мусить мати мотоцикл?"
    },
    "o": [
     {
      "en": "Two: one acting at least on the rear wheel and the other on the front",
-     "es": "Dos: uno que actúe al menos sobre la rueda trasera y otro sobre la delantera"
+     "es": "Dos: uno que actúe al menos sobre la rueda trasera y otro sobre la delantera",
+     "uk": "Два: один діє щонайменше на заднє колесо, інший — на переднє"
     },
     {
      "en": "One, on the rear wheel",
-     "es": "Uno, en la rueda trasera"
+     "es": "Uno, en la rueda trasera",
+     "uk": "Один, на заднє колесо"
     },
     {
      "en": "Three, if it has a sidecar",
-     "es": "Tres, si lleva sidecar"
+     "es": "Tres, si lleva sidecar",
+     "uk": "Три, якщо є коляска"
     }
    ],
    "why": {
     "en": "With a sidecar, its wheel need not be braked.",
-    "es": "Con sidecar, no se exige frenar la rueda de este."
+    "es": "Con sidecar, no se exige frenar la rueda de este.",
+    "uk": "Із коляскою її колесо гальмувати не обов’язково."
    }
   },
   {
@@ -1364,25 +1630,30 @@ window.DGT_DATA = {
    "tag": "brakes",
    "q": {
     "en": "Why is a disc usually used on the front wheel?",
-    "es": "¿Por qué se suele usar freno de disco en la rueda delantera?"
+    "es": "¿Por qué se suele usar freno de disco en la rueda delantera?",
+    "uk": "Чому на передньому колесі зазвичай диск?"
    },
    "o": [
     {
      "en": "It stops in fewer metres, locks less and cools better",
-     "es": "Frena en menos metros, se bloquea menos y se refrigera mejor"
+     "es": "Frena en menos metros, se bloquea menos y se refrigera mejor",
+     "uk": "Він зупиняє за менше метрів, рідше блокується й краще охолоджується"
     },
     {
      "en": "It is cheaper",
-     "es": "Es más barato"
+     "es": "Es más barato",
+     "uk": "Він дешевший"
     },
     {
      "en": "It never wears",
-     "es": "No se desgasta nunca"
+     "es": "No se desgasta nunca",
+     "uk": "Він ніколи не зношується"
     }
    ],
    "why": {
     "en": "Better cooling also delays fading.",
-    "es": "Al refrigerarse mejor, también retrasa el fading."
+    "es": "Al refrigerarse mejor, también retrasa el fading.",
+    "uk": "Краще охолодження також відкладає перегрів."
    }
   },
   {
@@ -1390,25 +1661,30 @@ window.DGT_DATA = {
    "tag": "brakes",
    "q": {
     "en": "What is fading?",
-    "es": "¿Qué es el fading?"
+    "es": "¿Qué es el fading?",
+    "uk": "Що таке перегрів гальм (fading)?"
    },
    "o": [
     {
      "en": "Loss of braking power because the brakes overheat",
-     "es": "La pérdida de eficacia del freno por calentamiento excesivo"
+     "es": "La pérdida de eficacia del freno por calentamiento excesivo",
+     "uk": "Втрата гальмівної сили через перегрів гальм"
     },
     {
      "en": "A worn tyre",
-     "es": "Un neumático desgastado"
+     "es": "Un neumático desgastado",
+     "uk": "Зношена шина"
     },
     {
      "en": "A locked wheel",
-     "es": "Una rueda bloqueada"
+     "es": "Una rueda bloqueada",
+     "uk": "Заблоковане колесо"
     }
    ],
    "why": {
     "en": "Disc brakes cool better and delay it.",
-    "es": "Los frenos de disco se refrigeran mejor y lo retrasan."
+    "es": "Los frenos de disco se refrigeran mejor y lo retrasan.",
+    "uk": "Дискові гальма краще охолоджуються й відкладають його."
    }
   },
   {
@@ -1416,25 +1692,30 @@ window.DGT_DATA = {
    "tag": "brakes",
    "q": {
     "en": "What does ABS do?",
-    "es": "¿Qué hace el ABS?"
+    "es": "¿Qué hace el ABS?",
+    "uk": "Що робить ABS?"
    },
    "o": [
     {
      "en": "Prevents the wheels locking under hard braking, so you keep control",
-     "es": "Evita el bloqueo de las ruedas en una frenada brusca y permite controlar la trayectoria"
+     "es": "Evita el bloqueo de las ruedas en una frenada brusca y permite controlar la trayectoria",
+     "uk": "Не дає колесам заблокуватися під час різкого гальмування, тож ви зберігаєте контроль"
     },
     {
      "en": "Accelerates when the rear wheel slips",
-     "es": "Acelera cuando la rueda trasera patina"
+     "es": "Acelera cuando la rueda trasera patina",
+     "uk": "Прискорює, коли заднє колесо пробуксовує"
     },
     {
      "en": "Brakes automatically before an obstacle",
-     "es": "Frena solo ante un obstáculo"
+     "es": "Frena solo ante un obstáculo",
+     "uk": "Автоматично гальмує перед перешкодою"
     }
    ],
    "why": {
     "en": "It adjusts the braking force to the available grip.",
-    "es": "Regula la potencia de frenado según la adherencia."
+    "es": "Regula la potencia de frenado según la adherencia.",
+    "uk": "Вона пристосовує гальмівне зусилля до наявного зчеплення."
    }
   },
   {
@@ -1442,25 +1723,30 @@ window.DGT_DATA = {
    "tag": "brakes",
    "q": {
     "en": "Your motorcycle has spent several days outside in damp weather. What should you check?",
-    "es": "Tu moto ha pasado varios días a la intemperie con humedad. ¿Qué debes revisar?"
+    "es": "Tu moto ha pasado varios días a la intemperie con humedad. ¿Qué debes revisar?",
+    "uk": "Ваш мотоцикл кілька днів стояв надворі у вологу погоду. Що перевірити?"
    },
    "o": [
     {
      "en": "The brakes: pads or shoes and discs or drums",
-     "es": "Los frenos: pastillas o zapatas y discos o tambores"
+     "es": "Los frenos: pastillas o zapatas y discos o tambores",
+     "uk": "Гальма: колодки й диски чи барабани"
     },
     {
      "en": "Only the tyre pressure",
-     "es": "Solo la presión de los neumáticos"
+     "es": "Solo la presión de los neumáticos",
+     "uk": "Лише тиск у шинах"
     },
     {
      "en": "Nothing: damp does not affect it",
-     "es": "Nada: la humedad no le afecta"
+     "es": "Nada: la humedad no le afecta",
+     "uk": "Нічого: волога не впливає"
     }
    ],
    "why": {
     "en": "Check the fixed and moving parts of the brakes and that they work properly.",
-    "es": "Hay que comprobar los elementos fijos y móviles de los frenos y su funcionamiento."
+    "es": "Hay que comprobar los elementos fijos y móviles de los frenos y su funcionamiento.",
+    "uk": "Перевірте нерухомі й рухомі частини гальм і чи вони справно працюють."
    }
   },
   {
@@ -1468,25 +1754,30 @@ window.DGT_DATA = {
    "tag": "brakes",
    "q": {
     "en": "Which system lets you change gear without the clutch lever?",
-    "es": "¿Qué sistema permite cambiar de marcha sin usar la maneta de embrague?"
+    "es": "¿Qué sistema permite cambiar de marcha sin usar la maneta de embrague?",
+    "uk": "Яка система дозволяє перемикати передачі без важеля зчеплення?"
    },
    "o": [
     {
      "en": "The quickshifter",
-     "es": "El quickshifter"
+     "es": "El quickshifter",
+     "uk": "Квікшифтер"
     },
     {
      "en": "The hill holder",
-     "es": "El hill holder"
+     "es": "El hill holder",
+     "uk": "Помічник рушання на підйомі"
     },
     {
      "en": "The IMU",
-     "es": "La IMU"
+     "es": "La IMU",
+     "uk": "IMU"
     }
    ],
    "why": {
     "en": "It cuts the power for an instant so the gears engage smoothly.",
-    "es": "Corta un instante la potencia para que las marchas engranen con suavidad."
+    "es": "Corta un instante la potencia para que las marchas engranen con suavidad.",
+    "uk": "Він на мить перериває потужність, щоб передачі вмикалися плавно."
    }
   },
   {
@@ -1494,25 +1785,30 @@ window.DGT_DATA = {
    "tag": "brakes",
    "q": {
     "en": "What does the anti-wheelie system do?",
-    "es": "¿Qué hace el sistema anti-wheelie?"
+    "es": "¿Qué hace el sistema anti-wheelie?",
+    "uk": "Що робить система anti-wheelie?"
    },
    "o": [
     {
      "en": "Stops the front wheel lifting under hard acceleration",
-     "es": "Evita que la rueda delantera se levante al acelerar fuerte"
+     "es": "Evita que la rueda delantera se levante al acelerar fuerte",
+     "uk": "Не дає передньому колесу піднятися під час різкого прискорення"
     },
     {
      "en": "Stops the rear wheel locking",
-     "es": "Evita que la rueda trasera se bloquee"
+     "es": "Evita que la rueda trasera se bloquee",
+     "uk": "Не дає задньому колесу заблокуватися"
     },
     {
      "en": "Keeps the distance to the vehicle ahead",
-     "es": "Mantiene la distancia con el vehículo de delante"
+     "es": "Mantiene la distancia con el vehículo de delante",
+     "uk": "Тримає дистанцію до транспорту попереду"
     }
    ],
    "why": {
     "en": "It reduces engine power or brakes gently to keep the front wheel down.",
-    "es": "Reduce la potencia o frena suavemente para mantener la rueda delantera en el suelo."
+    "es": "Reduce la potencia o frena suavemente para mantener la rueda delantera en el suelo.",
+    "uk": "Вона зменшує потужність двигуна чи м’яко гальмує, щоб переднє колесо залишалося на землі."
    }
   },
   {
@@ -1520,25 +1816,30 @@ window.DGT_DATA = {
    "tag": "brakes",
    "q": {
     "en": "What does the emergency brake signal do?",
-    "es": "¿Qué hace la señal de frenada de emergencia?"
+    "es": "¿Qué hace la señal de frenada de emergencia?",
+    "uk": "Що робить сигнал екстреного гальмування?"
    },
    "o": [
     {
      "en": "Makes the indicators flash under hard braking, to warn whoever is behind",
-     "es": "Hace parpadear los intermitentes en una frenada enérgica para avisar al de detrás"
+     "es": "Hace parpadear los intermitentes en una frenada enérgica para avisar al de detrás",
+     "uk": "Під час різкого гальмування блимають покажчики повороту, щоб попередити тих, хто позаду"
     },
     {
      "en": "Sounds the horn",
-     "es": "Hace sonar el claxon"
+     "es": "Hace sonar el claxon",
+     "uk": "Подає звуковий сигнал"
     },
     {
      "en": "Brakes both wheels",
-     "es": "Frena las dos ruedas"
+     "es": "Frena las dos ruedas",
+     "uk": "Гальмує обидва колеса"
     }
    ],
    "why": {
     "en": "It warns the vehicle behind so it can stop in time.",
-    "es": "Avisa al vehículo de detrás para que pueda detenerse a tiempo."
+    "es": "Avisa al vehículo de detrás para que pueda detenerse a tiempo.",
+    "uk": "Він попереджає транспорт позаду, щоб той встиг зупинитися."
    }
   },
   {
@@ -1546,25 +1847,30 @@ window.DGT_DATA = {
    "tag": "brakes",
    "q": {
     "en": "Which of these aids can the rider switch off?",
-    "es": "¿Cuál de estas ayudas puede desconectar el conductor?"
+    "es": "¿Cuál de estas ayudas puede desconectar el conductor?",
+    "uk": "Яку з цих систем мотоцикліст може вимкнути?"
    },
    "o": [
     {
      "en": "Traction control",
-     "es": "El control de tracción"
+     "es": "El control de tracción",
+     "uk": "Трекшн-контроль"
     },
     {
      "en": "The brakes",
-     "es": "Los frenos"
+     "es": "Los frenos",
+     "uk": "Гальма"
     },
     {
      "en": "The suspension",
-     "es": "La suspensión"
+     "es": "La suspensión",
+     "uk": "Підвіску"
     }
    ],
    "why": {
     "en": "Traction control doses the power to the grip and can be disconnected.",
-    "es": "El control de tracción dosifica la potencia según la adherencia y se puede desconectar."
+    "es": "El control de tracción dosifica la potencia según la adherencia y se puede desconectar.",
+    "uk": "Трекшн-контроль дозує потужність відповідно до зчеплення, і його можна вимкнути."
    }
   },
   {
@@ -1572,25 +1878,30 @@ window.DGT_DATA = {
    "tag": "brakes",
    "q": {
     "en": "What does the suspension do?",
-    "es": "¿Qué hace la suspensión?"
+    "es": "¿Qué hace la suspensión?",
+    "uk": "Що робить підвіска?"
    },
    "o": [
     {
      "en": "Keeps the wheels on the ground for grip and control, and absorbs bumps",
-     "es": "Mantiene las ruedas apoyadas para conservar la adherencia y el control, y absorbe las irregularidades"
+     "es": "Mantiene las ruedas apoyadas para conservar la adherencia y el control, y absorbe las irregularidades",
+     "uk": "Тримає колеса на землі для зчеплення й контролю та поглинає нерівності"
     },
     {
      "en": "Points the front wheel",
-     "es": "Orienta la rueda delantera"
+     "es": "Orienta la rueda delantera",
+     "uk": "Спрямовує переднє колесо"
     },
     {
      "en": "Stops the wheels locking",
-     "es": "Evita el bloqueo de las ruedas"
+     "es": "Evita el bloqueo de las ruedas",
+     "uk": "Не дає колесам заблокуватися"
     }
    ],
    "why": {
     "en": "It reduces the chance of skidding or locking and makes the ride more comfortable.",
-    "es": "Reduce la posibilidad de derrapar o bloquear las ruedas y aumenta la comodidad."
+    "es": "Reduce la posibilidad de derrapar o bloquear las ruedas y aumenta la comodidad.",
+    "uk": "Вона зменшує ризик заносу чи блокування й робить їзду комфортнішою."
    }
   },
   {
@@ -1598,25 +1909,30 @@ window.DGT_DATA = {
    "tag": "helmet",
    "q": {
     "en": "What is the main cause of death in motorcycle and moped accidents?",
-    "es": "¿Cuál es la principal causa de mortalidad en los accidentes de moto y ciclomotor?"
+    "es": "¿Cuál es la principal causa de mortalidad en los accidentes de moto y ciclomotor?",
+    "uk": "Яка головна причина загибелі в аваріях мотоциклів і мопедів?"
    },
    "o": [
     {
      "en": "Not wearing the helmet",
-     "es": "No usar el casco"
+     "es": "No usar el casco",
+     "uk": "Відсутність шолома"
     },
     {
      "en": "Riding in the rain",
-     "es": "Circular con lluvia"
+     "es": "Circular con lluvia",
+     "uk": "Їзда в дощ"
     },
     {
      "en": "Worn tyres",
-     "es": "Los neumáticos gastados"
+     "es": "Los neumáticos gastados",
+     "uk": "Зношені шини"
     }
    ],
    "why": {
     "en": "The helmet absorbs much of the energy of an impact and protects against abrasion.",
-    "es": "El casco absorbe gran parte de la energía del impacto y protege de la abrasión."
+    "es": "El casco absorbe gran parte de la energía del impacto y protege de la abrasión.",
+    "uk": "Шолом поглинає більшу частину енергії удару й захищає від стирання."
    }
   },
   {
@@ -1624,25 +1940,30 @@ window.DGT_DATA = {
    "tag": "helmet",
    "q": {
     "en": "Which helmet type is recommended?",
-    "es": "¿Qué tipo de casco es recomendable?"
+    "es": "¿Qué tipo de casco es recomendable?",
+    "uk": "Який тип шолома рекомендовано?"
    },
    "o": [
     {
      "en": "Full-face (integral)",
-     "es": "El integral"
+     "es": "El integral",
+     "uk": "Інтеграл (закритий)"
     },
     {
      "en": "Open-face (jet)",
-     "es": "El jet"
+     "es": "El jet",
+     "uk": "Відкритий («джет»)"
     },
     {
      "en": "Any, if it is light",
-     "es": "Cualquiera, si es ligero"
+     "es": "Cualquiera, si es ligero",
+     "uk": "Будь-який, якщо легкий"
     }
    ],
    "why": {
     "en": "It covers the whole head and face; the jet leaves the chin bare.",
-    "es": "Cubre toda la cabeza y la cara; el jet deja la barbilla al descubierto."
+    "es": "Cubre toda la cabeza y la cara; el jet deja la barbilla al descubierto.",
+    "uk": "Він закриває всю голову й обличчя; «джет» залишає підборіддя відкритим."
    }
   },
   {
@@ -1650,25 +1971,30 @@ window.DGT_DATA = {
    "tag": "helmet",
    "q": {
     "en": "Your helmet hit the ground hard when the parked motorcycle fell over, but you see no damage. What do you do?",
-    "es": "Tu casco se golpeó fuerte contra el suelo al caerse la moto aparcada, pero no ves daños. ¿Qué haces?"
+    "es": "Tu casco se golpeó fuerte contra el suelo al caerse la moto aparcada, pero no ves daños. ¿Qué haces?",
+    "uk": "Ваш шолом сильно вдарився об землю, коли мотоцикл на стоянці впав, але пошкоджень не видно. Що робите?"
    },
    "o": [
     {
      "en": "Replace it",
-     "es": "Sustituirlo"
+     "es": "Sustituirlo",
+     "uk": "Замінюю його"
     },
     {
      "en": "Keep using it if the visor still closes",
-     "es": "Seguir usándolo si la pantalla cierra"
+     "es": "Seguir usándolo si la pantalla cierra",
+     "uk": "Користуюся далі, якщо візор закривається"
     },
     {
      "en": "Use it only in town",
-     "es": "Usarlo solo en ciudad"
+     "es": "Usarlo solo en ciudad",
+     "uk": "Користуюся лише в місті"
     }
    ],
    "why": {
     "en": "A helmet must be replaced after an accident or a hard knock.",
-    "es": "El casco se debe sustituir después de un accidente o de un golpe fuerte."
+    "es": "El casco se debe sustituir después de un accidente o de un golpe fuerte.",
+    "uk": "Шолом треба замінювати після аварії чи сильного удару."
    }
   },
   {
@@ -1676,25 +2002,30 @@ window.DGT_DATA = {
    "tag": "helmet",
    "q": {
     "en": "What must the helmet label show?",
-    "es": "¿Qué debe acreditar la etiqueta del casco?"
+    "es": "¿Qué debe acreditar la etiqueta del casco?",
+    "uk": "Що має бути на етикетці шолома?"
    },
    "o": [
     {
      "en": "Approval to UNECE Regulation 22",
-     "es": "La homologación conforme al Reglamento UNECE R22"
+     "es": "La homologación conforme al Reglamento UNECE R22",
+     "uk": "Затвердження за Правилами ООН (UNECE) № 22"
     },
     {
      "en": "The colour code",
-     "es": "El código de color"
+     "es": "El código de color",
+     "uk": "Колірний код"
     },
     {
      "en": "The owner’s name",
-     "es": "El nombre del propietario"
+     "es": "El nombre del propietario",
+     "uk": "Ім’я власника"
     }
    ],
    "why": {
     "en": "Approval guarantees it has passed the safety tests.",
-    "es": "La homologación garantiza que ha superado las pruebas de seguridad."
+    "es": "La homologación garantiza que ha superado las pruebas de seguridad.",
+    "uk": "Затвердження гарантує, що він пройшов випробування на безпеку."
    }
   },
   {
@@ -1702,25 +2033,30 @@ window.DGT_DATA = {
    "tag": "helmet",
    "q": {
     "en": "How should a modular helmet be used while riding?",
-    "es": "¿Cómo debe usarse un casco modular al circular?"
+    "es": "¿Cómo debe usarse un casco modular al circular?",
+    "uk": "Як користуватися модульним шоломом під час їзди?"
    },
    "o": [
     {
      "en": "With the chin bar closed",
-     "es": "Con la mentonera cerrada"
+     "es": "Con la mentonera cerrada",
+     "uk": "Із закритою підборідною частиною"
     },
     {
      "en": "With the chin bar raised, for ventilation",
-     "es": "Con la mentonera levantada, para ventilar"
+     "es": "Con la mentonera levantada, para ventilar",
+     "uk": "З піднятою підборідною частиною, для вентиляції"
     },
     {
      "en": "Either way",
-     "es": "De cualquier forma"
+     "es": "De cualquier forma",
+     "uk": "Як завгодно"
     }
    ],
    "why": {
     "en": "The chin bar can be lifted, but it only protects like a full-face helmet when closed.",
-    "es": "La mentonera se puede levantar, pero solo protege como un integral si está cerrada."
+    "es": "La mentonera se puede levantar, pero solo protege como un integral si está cerrada.",
+    "uk": "Підборідну частину можна піднімати, але захищає вона як інтеграл лише закритою."
    }
   },
   {
@@ -1728,25 +2064,30 @@ window.DGT_DATA = {
    "tag": "helmet",
    "q": {
     "en": "Who must wear a helmet on a motorcycle?",
-    "es": "¿Quién debe llevar casco en una moto?"
+    "es": "¿Quién debe llevar casco en una moto?",
+    "uk": "Хто мусить бути в шоломі на мотоциклі?"
    },
    "o": [
     {
      "en": "Rider and passenger, on every road",
-     "es": "Conductor y pasajero, en todo tipo de vías"
+     "es": "Conductor y pasajero, en todo tipo de vías",
+     "uk": "Водій і пасажир, на будь-якій дорозі"
     },
     {
      "en": "Only the rider",
-     "es": "Solo el conductor"
+     "es": "Solo el conductor",
+     "uk": "Лише водій"
     },
     {
      "en": "Only out of town",
-     "es": "Solo fuera de poblado"
+     "es": "Solo fuera de poblado",
+     "uk": "Лише за містом"
     }
    ],
    "why": {
     "en": "It is compulsory for rider and passenger, properly fastened.",
-    "es": "Es obligatorio para conductor y pasajero, adecuadamente abrochado."
+    "es": "Es obligatorio para conductor y pasajero, adecuadamente abrochado.",
+    "uk": "Він обов’язковий для водія й пасажира, правильно застебнутий."
    }
   },
   {
@@ -1754,25 +2095,30 @@ window.DGT_DATA = {
    "tag": "helmet",
    "q": {
     "en": "Which helmet colours are safer?",
-    "es": "¿Qué colores de casco son más seguros?"
+    "es": "¿Qué colores de casco son más seguros?",
+    "uk": "Які кольори шолома безпечніші?"
    },
    "o": [
     {
      "en": "Light, bright and reflective ones",
-     "es": "Los claros, brillantes y reflectantes"
+     "es": "Los claros, brillantes y reflectantes",
+     "uk": "Світлі, яскраві й світловідбивні"
     },
     {
      "en": "Dark ones",
-     "es": "Los oscuros"
+     "es": "Los oscuros",
+     "uk": "Темні"
     },
     {
      "en": "Colour makes no difference",
-     "es": "El color no influye"
+     "es": "El color no influye",
+     "uk": "Колір не має значення"
     }
    ],
    "why": {
     "en": "They make you more visible.",
-    "es": "Te hacen más visible."
+    "es": "Te hacen más visible.",
+    "uk": "Вони роблять вас помітнішими."
    }
   },
   {
@@ -1780,25 +2126,30 @@ window.DGT_DATA = {
    "tag": "gear",
    "q": {
     "en": "Where are protective gloves compulsory?",
-    "es": "¿Dónde son obligatorios los guantes de protección?"
+    "es": "¿Dónde son obligatorios los guantes de protección?",
+    "uk": "Де захисні рукавички обов’язкові?"
    },
    "o": [
     {
      "en": "On interurban roads",
-     "es": "En vías interurbanas"
+     "es": "En vías interurbanas",
+     "uk": "На заміських дорогах"
     },
     {
      "en": "On every road",
-     "es": "En todo tipo de vías"
+     "es": "En todo tipo de vías",
+     "uk": "На будь-якій дорозі"
     },
     {
      "en": "Only on motorways",
-     "es": "Solo en autopistas"
+     "es": "Solo en autopistas",
+     "uk": "Лише на автомагістралях"
     }
    ],
    "why": {
     "en": "Since 1 October 2026, gloves are compulsory for rider and passenger on interurban roads.",
-    "es": "Desde el 1 de octubre de 2026, los guantes son obligatorios para conductor y pasajero en vías interurbanas."
+    "es": "Desde el 1 de octubre de 2026, los guantes son obligatorios para conductor y pasajero en vías interurbanas.",
+    "uk": "З 1 жовтня 2026 року рукавички обов’язкові для водія й пасажира на заміських дорогах."
    }
   },
   {
@@ -1806,25 +2157,30 @@ window.DGT_DATA = {
    "tag": "gear",
    "q": {
     "en": "Where must you wear closed shoes covering the whole foot?",
-    "es": "¿Dónde debes llevar calzado cerrado que cubra todo el pie?"
+    "es": "¿Dónde debes llevar calzado cerrado que cubra todo el pie?",
+    "uk": "Де треба носити закрите взуття, що закриває всю стопу?"
    },
    "o": [
     {
      "en": "On every road",
-     "es": "En todo tipo de vías"
+     "es": "En todo tipo de vías",
+     "uk": "На будь-якій дорозі"
     },
     {
      "en": "Only on interurban roads",
-     "es": "Solo en vías interurbanas"
+     "es": "Solo en vías interurbanas",
+     "uk": "Лише на заміських дорогах"
     },
     {
      "en": "It is only recommended",
-     "es": "Solo es recomendable"
+     "es": "Solo es recomendable",
+     "uk": "Його лише рекомендують"
     }
    ],
    "why": {
     "en": "Closed shoes are compulsory on every road; gloves only on interurban roads.",
-    "es": "El calzado cerrado es obligatorio en todas las vías; los guantes, solo en las interurbanas."
+    "es": "El calzado cerrado es obligatorio en todas las vías; los guantes, solo en las interurbanas.",
+    "uk": "Закрите взуття обов’язкове на будь-якій дорозі; рукавички — лише на заміських."
    }
   },
   {
@@ -1832,25 +2188,30 @@ window.DGT_DATA = {
    "tag": "gear",
    "q": {
     "en": "When must you wear the reflective vest that your motorcycle carries?",
-    "es": "¿Cuándo debes ponerte el chaleco reflectante que lleva tu moto?"
+    "es": "¿Cuándo debes ponerte el chaleco reflectante que lleva tu moto?",
+    "uk": "Коли треба вдягати світловідбивний жилет, який возить ваш мотоцикл?"
    },
    "o": [
     {
      "en": "When you get off and stand on the carriageway or shoulder of an interurban road",
-     "es": "Al bajarte y ocupar la calzada o el arcén de una vía interurbana"
+     "es": "Al bajarte y ocupar la calzada o el arcén de una vía interurbana",
+     "uk": "Коли ви сходите й стоїте на проїзній частині чи узбіччі заміської дороги"
     },
     {
      "en": "Always while riding",
-     "es": "Siempre al circular"
+     "es": "Siempre al circular",
+     "uk": "Завжди під час їзди"
     },
     {
      "en": "Only at night",
-     "es": "Solo de noche"
+     "es": "Solo de noche",
+     "uk": "Лише вночі"
     }
    ],
    "why": {
     "en": "Since October 2026 motorcycles must carry the vest; it is worn when you get off on an interurban road.",
-    "es": "Desde octubre de 2026 las motos deben llevar el chaleco; se usa al bajarse en una vía interurbana."
+    "es": "Desde octubre de 2026 las motos deben llevar el chaleco; se usa al bajarse en una vía interurbana.",
+    "uk": "З жовтня 2026 року мотоцикли мусять возити жилет; його вдягають, коли сходите на заміській дорозі."
    }
   },
   {
@@ -1858,25 +2219,30 @@ window.DGT_DATA = {
    "tag": "gear",
    "q": {
     "en": "A courier works on a moped. When must they wear a reflective vest?",
-    "es": "Un repartidor trabaja en ciclomotor. ¿Cuándo debe llevar chaleco reflectante?"
+    "es": "Un repartidor trabaja en ciclomotor. ¿Cuándo debe llevar chaleco reflectante?",
+    "uk": "Кур’єр працює на мопеді. Коли він мусить носити світловідбивний жилет?"
    },
    "o": [
     {
      "en": "On every road, while riding",
-     "es": "En todo tipo de vías, al circular"
+     "es": "En todo tipo de vías, al circular",
+     "uk": "На будь-якій дорозі під час їзди"
     },
     {
      "en": "Only on interurban roads",
-     "es": "Solo en vías interurbanas"
+     "es": "Solo en vías interurbanas",
+     "uk": "Лише на заміських дорогах"
     },
     {
      "en": "Never",
-     "es": "Nunca"
+     "es": "Nunca",
+     "uk": "Ніколи"
     }
    ],
    "why": {
     "en": "Those who work riding motorcycles, mopeds, bicycles or VMP must wear it on every road.",
-    "es": "Quienes trabajan circulando en moto, ciclomotor, bicicleta o VMP deben llevarlo en todas las vías."
+    "es": "Quienes trabajan circulando en moto, ciclomotor, bicicleta o VMP deben llevarlo en todas las vías.",
+    "uk": "Ті, хто працює на мотоциклах, мопедах, велосипедах чи VMP, мусять носити його на будь-якій дорозі."
    }
   },
   {
@@ -1884,25 +2250,30 @@ window.DGT_DATA = {
    "tag": "gear",
    "q": {
     "en": "What does an airbag jacket or vest do?",
-    "es": "¿Qué hace una chaqueta o chaleco airbag?"
+    "es": "¿Qué hace una chaqueta o chaleco airbag?",
+    "uk": "Що робить куртка чи жилет з подушкою безпеки?"
    },
    "o": [
     {
      "en": "Inflates when you are thrown off, protecting chest, neck and spine",
-     "es": "Se activa al salir despedido y protege tórax, cervicales y columna"
+     "es": "Se activa al salir despedido y protege tórax, cervicales y columna",
+     "uk": "Надувається, коли вас викидає, захищаючи груди, шию й хребет"
     },
     {
      "en": "Keeps you warm",
-     "es": "Te protege del frío"
+     "es": "Te protege del frío",
+     "uk": "Зігріває"
     },
     {
      "en": "Makes you visible at night",
-     "es": "Te hace visible de noche"
+     "es": "Te hace visible de noche",
+     "uk": "Робить вас помітним уночі"
     }
    ],
    "why": {
     "en": "It is one of the recommended extra garments.",
-    "es": "Es una de las prendas complementarias recomendadas."
+    "es": "Es una de las prendas complementarias recomendadas.",
+    "uk": "Це один із рекомендованих додаткових елементів одягу."
    }
   },
   {
@@ -1910,25 +2281,30 @@ window.DGT_DATA = {
    "tag": "gear",
    "q": {
     "en": "What should a rider’s suit or jacket be like?",
-    "es": "¿Cómo debe ser el traje o la chaqueta del motorista?"
+    "es": "¿Cómo debe ser el traje o la chaqueta del motorista?",
+    "uk": "Яким має бути костюм чи куртка мотоцикліста?"
    },
    "o": [
     {
      "en": "Abrasion-resistant, with protectors, in bright colours",
-     "es": "Resistente a la abrasión, con protecciones y de colores llamativos"
+     "es": "Resistente a la abrasión, con protecciones y de colores llamativos",
+     "uk": "Стійким до стирання, із захистом, яскравих кольорів"
     },
     {
      "en": "Light and dark, to stay cool",
-     "es": "Ligera y oscura, para no pasar calor"
+     "es": "Ligera y oscura, para no pasar calor",
+     "uk": "Легким і темним, щоб не було жарко"
     },
     {
      "en": "Any, if you wear gloves",
-     "es": "Cualquiera, si llevas guantes"
+     "es": "Cualquiera, si llevas guantes",
+     "uk": "Будь-яким, якщо є рукавички"
     }
    ],
    "why": {
     "en": "Preferably leather or another abrasion-resistant material, with protectors at the back, knees and elbows.",
-    "es": "Preferiblemente de piel u otro material resistente a la abrasión, con protecciones en espalda, rodillas y codos."
+    "es": "Preferiblemente de piel u otro material resistente a la abrasión, con protecciones en espalda, rodillas y codos.",
+    "uk": "Бажано шкіра чи інший стійкий до стирання матеріал, із захистом спини, колін і ліктів."
    }
   },
   {
@@ -1936,25 +2312,30 @@ window.DGT_DATA = {
    "tag": "weather",
    "q": {
     "en": "You have to cross a painted marking in a bend. How do you do it?",
-    "es": "Tienes que pasar sobre una marca vial pintada en una curva. ¿Cómo lo haces?"
+    "es": "Tienes que pasar sobre una marca vial pintada en una curva. ¿Cómo lo haces?",
+    "uk": "У повороті вам треба перетнути намальовану розмітку. Як це зробити?"
    },
    "o": [
     {
      "en": "Slow down before and cross it with the motorcycle as upright as possible",
-     "es": "Reducir antes y pasar con la moto lo más enderezada posible"
+     "es": "Reducir antes y pasar con la moto lo más enderezada posible",
+     "uk": "Сповільнитися заздалегідь і перетнути її, тримаючи мотоцикл якомога рівніше"
     },
     {
      "en": "Lean more to get past quickly",
-     "es": "Inclinarte más para pasar rápido"
+     "es": "Inclinarte más para pasar rápido",
+     "uk": "Нахилитися сильніше, щоб швидше проскочити"
     },
     {
      "en": "Brake hard on the marking",
-     "es": "Frenar fuerte sobre la marca"
+     "es": "Frenar fuerte sobre la marca",
+     "uk": "Різко загальмувати на розмітці"
     }
    ],
    "why": {
     "en": "With low grip, slow down beforehand and keep the motorcycle at right angles to the surface.",
-    "es": "Con baja adherencia, reducir antes y pasar con la moto en ángulo recto con el pavimento."
+    "es": "Con baja adherencia, reducir antes y pasar con la moto en ángulo recto con el pavimento.",
+    "uk": "Коли зчеплення погане, сповільніться заздалегідь і тримайте мотоцикл перпендикулярно до поверхні."
    }
   },
   {
@@ -1962,25 +2343,30 @@ window.DGT_DATA = {
    "tag": "weather",
    "q": {
     "en": "When is rain most dangerous?",
-    "es": "¿Cuándo es más peligrosa la lluvia?"
+    "es": "¿Cuándo es más peligrosa la lluvia?",
+    "uk": "Коли дощ найнебезпечніший?"
    },
    "o": [
     {
      "en": "With the first drops, which make a slippery film with the dirt",
-     "es": "Con las primeras gotas, que forman con la suciedad un barrillo deslizante"
+     "es": "Con las primeras gotas, que forman con la suciedad un barrillo deslizante",
+     "uk": "З першими краплями, що з брудом утворюють слизьку плівку"
     },
     {
      "en": "After an hour of heavy rain",
-     "es": "Tras una hora de lluvia intensa"
+     "es": "Tras una hora de lluvia intensa",
+     "uk": "Після години сильного дощу"
     },
     {
      "en": "When it stops",
-     "es": "Cuando para"
+     "es": "Cuando para",
+     "uk": "Коли він закінчується"
     }
    ],
    "why": {
     "en": "The first drops mix with the dirt on the road and make it very slippery.",
-    "es": "Las primeras gotas forman con la suciedad un barrillo altamente deslizante."
+    "es": "Las primeras gotas forman con la suciedad un barrillo altamente deslizante.",
+    "uk": "Перші краплі змішуються з брудом на дорозі й роблять її дуже слизькою."
    }
   },
   {
@@ -1988,25 +2374,30 @@ window.DGT_DATA = {
    "tag": "weather",
    "q": {
     "en": "How does your course advise braking in the rain on a motorcycle?",
-    "es": "¿Cómo aconseja tu curso frenar en moto con lluvia?"
+    "es": "¿Cómo aconseja tu curso frenar en moto con lluvia?",
+    "uk": "Як ваш курс радить гальмувати на мотоциклі в дощ?"
    },
    "o": [
     {
      "en": "Early and gently, shared between both wheels with less pressure on the front",
-     "es": "Con antelación y suavidad, repartiendo entre las dos ruedas con menos presión en la delantera"
+     "es": "Con antelación y suavidad, repartiendo entre las dos ruedas con menos presión en la delantera",
+     "uk": "Рано й м’яко, розподіляючи на обидва колеса, з меншим зусиллям на переднє"
     },
     {
      "en": "Only with the front brake",
-     "es": "Solo con el freno delantero"
+     "es": "Solo con el freno delantero",
+     "uk": "Лише переднім гальмом"
     },
     {
      "en": "Hard and late, to dry the brakes",
-     "es": "Fuerte y tarde, para secar los frenos"
+     "es": "Fuerte y tarde, para secar los frenos",
+     "uk": "Різко й пізно, щоб просушити гальма"
     }
    ],
    "why": {
     "en": "A locked rear wheel is easier to control than a locked front one; if a wheel locks, release and brake again.",
-    "es": "El bloqueo de la trasera se controla mejor que el de la delantera; si se bloquea una rueda, soltar y volver a frenar."
+    "es": "El bloqueo de la trasera se controla mejor que el de la delantera; si se bloquea una rueda, soltar y volver a frenar.",
+    "uk": "Заблоковане заднє колесо легше контролювати, ніж переднє; якщо колесо заблокувалося, відпустіть і гальмуйте знову."
    }
   },
   {
@@ -2014,25 +2405,30 @@ window.DGT_DATA = {
    "tag": "weather",
    "q": {
     "en": "Why is main beam a bad idea in the rain?",
-    "es": "¿Por qué no conviene la luz de carretera con lluvia?"
+    "es": "¿Por qué no conviene la luz de carretera con lluvia?",
+    "uk": "Чому дальнє світло в дощ — погана ідея?"
    },
    "o": [
     {
      "en": "Its reflection on the water dazzles you",
-     "es": "Su reflejo en el agua te deslumbra"
+     "es": "Su reflejo en el agua te deslumbra",
+     "uk": "Його відблиск від води засліплює вас"
     },
     {
      "en": "It uses more battery",
-     "es": "Gasta más batería"
+     "es": "Gasta más batería",
+     "uk": "Воно більше розряджає акумулятор"
     },
     {
      "en": "It is forbidden in the rain",
-     "es": "Está prohibida con lluvia"
+     "es": "Está prohibida con lluvia",
+     "uk": "У дощ воно заборонене"
     }
    ],
    "why": {
     "en": "Water on the road reflects the light and hides the markings.",
-    "es": "El agua en la calzada refleja la luz y dificulta ver las marcas viales."
+    "es": "El agua en la calzada refleja la luz y dificulta ver las marcas viales.",
+    "uk": "Вода на дорозі відбиває світло й ховає розмітку."
    }
   },
   {
@@ -2040,25 +2436,30 @@ window.DGT_DATA = {
    "tag": "weather",
    "q": {
     "en": "What is aquaplaning?",
-    "es": "¿Qué es el aquaplaning?"
+    "es": "¿Qué es el aquaplaning?",
+    "uk": "Що таке аквапланування?"
    },
    "o": [
     {
      "en": "The tyre slides on a layer of water it cannot clear, and the motorcycle ignores steering and brakes",
-     "es": "El neumático se desliza sobre una capa de agua que no puede desalojar y la moto no obedece a la dirección ni al freno"
+     "es": "El neumático se desliza sobre una capa de agua que no puede desalojar y la moto no obedece a la dirección ni al freno",
+     "uk": "Шина ковзає по шару води, який не може відвести, і мотоцикл не слухається керма й гальм"
     },
     {
      "en": "Riding through a deep puddle",
-     "es": "Pasar por un charco profundo"
+     "es": "Pasar por un charco profundo",
+     "uk": "Проїзд глибокої калюжі"
     },
     {
      "en": "The visor misting up",
-     "es": "El empañamiento de la visera"
+     "es": "El empañamiento de la visera",
+     "uk": "Запотівання візора"
     }
    ],
    "why": {
     "en": "It happens at too high a speed and is worse with worn tyres and on two-wheelers.",
-    "es": "Se produce a velocidad excesiva y es peor con neumáticos gastados y en vehículos de dos ruedas."
+    "es": "Se produce a velocidad excesiva y es peor con neumáticos gastados y en vehículos de dos ruedas.",
+    "uk": "Воно стається на надто високій швидкості й гірше на зношених шинах і двоколісних ТЗ."
    }
   },
   {
@@ -2066,25 +2467,30 @@ window.DGT_DATA = {
    "tag": "weather",
    "q": {
     "en": "You are caught in a very heavy storm. What is best?",
-    "es": "Te sorprende una tormenta muy intensa. ¿Qué es lo mejor?"
+    "es": "Te sorprende una tormenta muy intensa. ¿Qué es lo mejor?",
+    "uk": "Вас застала дуже сильна злива. Що найкраще?"
    },
    "o": [
     {
      "en": "Stop and take shelter away from the motorcycle",
-     "es": "Detener la marcha y resguardarse apartado de la moto"
+     "es": "Detener la marcha y resguardarse apartado de la moto",
+     "uk": "Зупинитися й сховатися подалі від мотоцикла"
     },
     {
      "en": "Ride faster to get out of it",
-     "es": "Acelerar para salir de ella"
+     "es": "Acelerar para salir de ella",
+     "uk": "Їхати швидше, щоб вибратися"
     },
     {
      "en": "Shelter right next to the motorcycle",
-     "es": "Resguardarse junto a la moto"
+     "es": "Resguardarse junto a la moto",
+     "uk": "Сховатися просто біля мотоцикла"
     }
    ],
    "why": {
     "en": "In a torrential storm, stop and shelter away from the motorcycle.",
-    "es": "Con lluvia torrencial, detener la marcha y resguardarse apartado de la moto."
+    "es": "Con lluvia torrencial, detener la marcha y resguardarse apartado de la moto.",
+    "uk": "У зливу зупиніться й сховайтеся подалі від мотоцикла."
    }
   },
   {
@@ -2092,25 +2498,30 @@ window.DGT_DATA = {
    "tag": "weather",
    "q": {
     "en": "On an autovía, snow makes driving difficult. What is the rule?",
-    "es": "En una autovía la nieve dificulta la circulación. ¿Qué norma se aplica?"
+    "es": "En una autovía la nieve dificulta la circulación. ¿Qué norma se aplica?",
+    "uk": "На autovía сніг ускладнює рух. Яке правило?"
    },
    "o": [
     {
      "en": "No overtaking, and ride in the right-hand lane",
-     "es": "Prohibido adelantar y circular por el carril de la derecha"
+     "es": "Prohibido adelantar y circular por el carril de la derecha",
+     "uk": "Без обгону, і їхати правою смугою"
     },
     {
      "en": "Ride in the left-hand lane, which is cleaner",
-     "es": "Circular por el carril izquierdo, que está más limpio"
+     "es": "Circular por el carril izquierdo, que está más limpio",
+     "uk": "Їхати лівою смугою, вона чистіша"
     },
     {
      "en": "Nothing special",
-     "es": "Nada especial"
+     "es": "Nada especial",
+     "uk": "Нічого особливого"
     }
    ],
    "why": {
     "en": "The left lanes stay free for emergency vehicles and snowploughs.",
-    "es": "Los carriles de la izquierda quedan libres para emergencias y quitanieves."
+    "es": "Los carriles de la izquierda quedan libres para emergencias y quitanieves.",
+    "uk": "Ліві смуги залишають вільними для екстрених служб і снігоприбиральних машин."
    }
   },
   {
@@ -2118,25 +2529,30 @@ window.DGT_DATA = {
    "tag": "weather",
    "q": {
     "en": "Which is the most dangerous situation on the road?",
-    "es": "¿Cuál es la situación más peligrosa en la vía?"
+    "es": "¿Cuál es la situación más peligrosa en la vía?",
+    "uk": "Яка ситуація на дорозі найнебезпечніша?"
    },
    "o": [
     {
      "en": "Ice: grip is almost nil and the stopping distance ×10",
-     "es": "El hielo: adherencia casi nula y distancia de detención ×10"
+     "es": "El hielo: adherencia casi nula y distancia de detención ×10",
+     "uk": "Лід: зчеплення майже нульове, а зупинний шлях ×10"
     },
     {
      "en": "Light rain",
-     "es": "La lluvia ligera"
+     "es": "La lluvia ligera",
+     "uk": "Невеликий дощ"
     },
     {
      "en": "Strong sun",
-     "es": "El sol fuerte"
+     "es": "El sol fuerte",
+     "uk": "Яскраве сонце"
     }
    ],
    "why": {
     "en": "The best advice is not to ride on icy roads.",
-    "es": "Lo recomendable es no circular con hielo en la calzada."
+    "es": "Lo recomendable es no circular con hielo en la calzada.",
+    "uk": "Найкраща порада — не їздити обмерзлими дорогами."
    }
   },
   {
@@ -2144,25 +2560,30 @@ window.DGT_DATA = {
    "tag": "weather",
    "q": {
     "en": "On hard snow or ice, what must you avoid?",
-    "es": "Sobre nieve endurecida o hielo, ¿qué debes evitar?"
+    "es": "Sobre nieve endurecida o hielo, ¿qué debes evitar?",
+    "uk": "На ущільненому снігу чи льоду чого треба уникати?"
    },
    "o": [
     {
      "en": "Braking or accelerating",
-     "es": "Frenar o acelerar"
+     "es": "Frenar o acelerar",
+     "uk": "Гальмування чи прискорення"
     },
     {
      "en": "Keeping a steady speed",
-     "es": "Mantener una velocidad constante"
+     "es": "Mantener una velocidad constante",
+     "uk": "Сталої швидкості"
     },
     {
      "en": "Using a high gear",
-     "es": "Usar una marcha larga"
+     "es": "Usar una marcha larga",
+     "uk": "Високої передачі"
     }
    ],
    "why": {
     "en": "Don’t brake or accelerate on hard snow or ice.",
-    "es": "Sobre placas de nieve endurecida o hielo, no frenes ni aceleres."
+    "es": "Sobre placas de nieve endurecida o hielo, no frenes ni aceleres.",
+    "uk": "Не гальмуйте й не прискорюйтеся на ущільненому снігу чи льоду."
    }
   },
   {
@@ -2170,25 +2591,30 @@ window.DGT_DATA = {
    "tag": "weather",
    "q": {
     "en": "Riding in snow, which gear should you use?",
-    "es": "Circulando con nieve, ¿qué marcha debes usar?"
+    "es": "Circulando con nieve, ¿qué marcha debes usar?",
+    "uk": "На якій передачі їхати снігом?"
    },
    "o": [
     {
      "en": "The highest gear possible, with smooth, steady throttle",
-     "es": "La marcha más alta posible, con aceleración suave y constante"
+     "es": "La marcha más alta posible, con aceleración suave y constante",
+     "uk": "На найвищій можливій, плавно й рівно додаючи газ"
     },
     {
      "en": "First gear all the time",
-     "es": "Primera todo el tiempo"
+     "es": "Primera todo el tiempo",
+     "uk": "Увесь час на першій"
     },
     {
      "en": "Neutral downhill",
-     "es": "Punto muerto en las bajadas"
+     "es": "Punto muerto en las bajadas",
+     "uk": "На нейтралі з гори"
     }
    ],
    "why": {
     "en": "Uphill long gears; downhill short gears for engine braking.",
-    "es": "Subiendo, marchas largas; bajando, marchas cortas para usar el freno motor."
+    "es": "Subiendo, marchas largas; bajando, marchas cortas para usar el freno motor.",
+    "uk": "На підйомах довгі передачі; на спусках короткі, щоб гальмувати двигуном."
    }
   },
   {
@@ -2196,25 +2622,30 @@ window.DGT_DATA = {
    "tag": "weather",
    "q": {
     "en": "In fog, which lights should you use?",
-    "es": "Con niebla, ¿qué alumbrado debes usar?"
+    "es": "Con niebla, ¿qué alumbrado debes usar?",
+    "uk": "Яке світло вмикати в тумані?"
    },
    "o": [
     {
      "en": "The compulsory lights and the fog light if fitted, not main beam",
-     "es": "El alumbrado obligatorio y la antiniebla si la hay, sin luz de carretera"
+     "es": "El alumbrado obligatorio y la antiniebla si la hay, sin luz de carretera",
+     "uk": "Обов’язкове світло й протитуманну фару, якщо є, але не дальнє"
     },
     {
      "en": "Main beam, to see further",
-     "es": "La luz de carretera, para ver más"
+     "es": "La luz de carretera, para ver más",
+     "uk": "Дальнє, щоб бачити далі"
     },
     {
      "en": "Only the position light",
-     "es": "Solo la luz de posición"
+     "es": "Solo la luz de posición",
+     "uk": "Лише габаритний вогонь"
     }
    ],
    "why": {
     "en": "Main beam reflects back off the fog and dazzles you (mirror effect).",
-    "es": "La luz de carretera se refleja en la niebla y deslumbra (efecto espejo)."
+    "es": "La luz de carretera se refleja en la niebla y deslumbra (efecto espejo).",
+    "uk": "Дальнє відбивається від туману й засліплює вас (ефект дзеркала)."
    }
   },
   {
@@ -2222,25 +2653,30 @@ window.DGT_DATA = {
    "tag": "weather",
    "q": {
     "en": "Strong gusts of crosswind. What do you do?",
-    "es": "Fuertes rachas de viento lateral. ¿Qué haces?"
+    "es": "Fuertes rachas de viento lateral. ¿Qué haces?",
+    "uk": "Сильні пориви бокового вітру. Що робите?"
    },
    "o": [
     {
      "en": "Slow down, hold the handlebar firmly and watch for the screen effect",
-     "es": "Reducir la velocidad, sujetar el manillar con firmeza y cuidado con el efecto pantalla"
+     "es": "Reducir la velocidad, sujetar el manillar con firmeza y cuidado con el efecto pantalla",
+     "uk": "Сповільнююся, міцно тримаю кермо й зважаю на ефект екрана"
     },
     {
      "en": "Speed up to get through quickly",
-     "es": "Acelerar para pasar rápido"
+     "es": "Acelerar para pasar rápido",
+     "uk": "Прискорююся, щоб швидше проїхати"
     },
     {
      "en": "Ride close to lorries for shelter",
-     "es": "Ir pegado a los camiones para resguardarte"
+     "es": "Ir pegado a los camiones para resguardarte",
+     "uk": "Тримаюся біля вантажівок, щоб укритися"
     }
    ],
    "why": {
     "en": "Motorcycles, especially with a passenger, are among the most affected.",
-    "es": "Las motos, sobre todo con pasajero, están entre los vehículos más afectados."
+    "es": "Las motos, sobre todo con pasajero, están entre los vehículos más afectados.",
+    "uk": "Мотоцикли, особливо з пасажиром, — серед тих, на кого вітер діє найбільше."
    }
   },
   {
@@ -2248,25 +2684,30 @@ window.DGT_DATA = {
    "tag": "weather",
    "q": {
     "en": "What does a windsock beside the road tell you?",
-    "es": "¿Qué te indica una manga de viento junto a la vía?"
+    "es": "¿Qué te indica una manga de viento junto a la vía?",
+    "uk": "Що показує вітровказ біля дороги?"
    },
    "o": [
     {
      "en": "The side the wind blows from and its strength",
-     "es": "El lado del que sopla el viento y su intensidad"
+     "es": "El lado del que sopla el viento y su intensidad",
+     "uk": "З якого боку дме вітер і його силу"
     },
     {
      "en": "That an airport is near",
-     "es": "Que hay un aeropuerto cerca"
+     "es": "Que hay un aeropuerto cerca",
+     "uk": "Що поруч аеропорт"
     },
     {
      "en": "Only that there is wind",
-     "es": "Solo que hay viento"
+     "es": "Solo que hay viento",
+     "uk": "Лише що є вітер"
     }
    ],
    "why": {
     "en": "The P-29 sign does not show the side; the windsock does.",
-    "es": "La señal P-29 no indica el lado; la manga sí."
+    "es": "La señal P-29 no indica el lado; la manga sí.",
+    "uk": "Знак P-29 не показує боку; вітровказ — так."
    }
   },
   {
@@ -2274,25 +2715,30 @@ window.DGT_DATA = {
    "tag": "weather",
    "q": {
     "en": "Riding at night or through a tunnel, may you use a dark visor or sunglasses?",
-    "es": "De noche o en un túnel, ¿puedes usar visera oscura o gafas de sol?"
+    "es": "De noche o en un túnel, ¿puedes usar visera oscura o gafas de sol?",
+    "uk": "Їдучи вночі чи через тунель, чи можна користуватися темним візором чи сонцезахисними окулярами?"
    },
    "o": [
     {
      "en": "No, never",
-     "es": "No, nunca"
+     "es": "No, nunca",
+     "uk": "Ні, ніколи"
     },
     {
      "en": "Yes, if there is dazzle",
-     "es": "Sí, si hay deslumbramiento"
+     "es": "Sí, si hay deslumbramiento",
+     "uk": "Так, якщо засліплює"
     },
     {
      "en": "Yes, in tunnels",
-     "es": "Sí, en los túneles"
+     "es": "Sí, en los túneles",
+     "uk": "Так, у тунелях"
     }
    ],
    "why": {
     "en": "They reduce visibility; use them only by day against the sun.",
-    "es": "Restan visibilidad; solo de día y contra el sol."
+    "es": "Restan visibilidad; solo de día y contra el sol.",
+    "uk": "Вони погіршують видимість; користуйтеся ними лише вдень проти сонця."
    }
   },
   {
@@ -2300,25 +2746,30 @@ window.DGT_DATA = {
    "tag": "weather",
    "q": {
     "en": "Which road surfaces call for special care on a motorcycle?",
-    "es": "¿Qué superficies exigen especial cuidado en moto?"
+    "es": "¿Qué superficies exigen especial cuidado en moto?",
+    "uk": "Які покриття потребують на мотоциклі особливої обережності?"
    },
    "o": [
     {
      "en": "Loose gravel or sand, rails, painted markings and oil patches",
-     "es": "Gravilla suelta o arena, raíles, marcas viales pintadas y manchas de aceite"
+     "es": "Gravilla suelta o arena, raíles, marcas viales pintadas y manchas de aceite",
+     "uk": "Розсипаний гравій чи пісок, рейки, намальована розмітка й плями мастила"
     },
     {
      "en": "New asphalt in dry weather",
-     "es": "Asfalto nuevo y seco"
+     "es": "Asfalto nuevo y seco",
+     "uk": "Новий асфальт у суху погоду"
     },
     {
      "en": "Concrete in a car park",
-     "es": "Hormigón en un aparcamiento"
+     "es": "Hormigón en un aparcamiento",
+     "uk": "Бетон на стоянці"
     }
    ],
    "why": {
     "en": "Adapt to the road: all of these reduce grip.",
-    "es": "Hay que adaptarse a la vía: todas ellas reducen la adherencia."
+    "es": "Hay que adaptarse a la vía: todas ellas reducen la adherencia.",
+    "uk": "Пристосовуйтеся до дороги: усе це зменшує зчеплення."
    }
   }
  ],
@@ -2327,324 +2778,396 @@ window.DGT_DATA = {
    "sec": 1,
    "en": "Social impact",
    "es": "Impacto social",
+   "uk": "Суспільні наслідки",
    "recap": [
     [
      "Road accidents: a serious public-health problem; speed is the leading cause.",
-     "Accidentes de tráfico: problema grave de salud pública; la velocidad es la causa principal."
+     "Accidentes de tráfico: problema grave de salud pública; la velocidad es la causa principal.",
+     "ДТП — серйозна проблема громадського здоров’я; головна причина — швидкість."
     ],
     [
      "More accidents in towns, more deaths on interurban roads.",
-     "Más accidentes en vías urbanas, más muertos en carretera."
+     "Más accidentes en vías urbanas, más muertos en carretera.",
+     "Більше аварій у містах, більше загиблих на заміських дорогах."
     ],
     [
      "Motorways and autovías are the safest roads.",
-     "Autopistas y autovías son las vías más seguras."
+     "Autopistas y autovías son las vías más seguras.",
+     "Найбезпечніші дороги — автомагістралі й autovías."
     ],
     [
      "Riskiest times: evening return from work; weekends and holidays in the early hours.",
-     "Momentos de más riesgo: salida del trabajo por la tarde; fines de semana y festivos de madrugada."
+     "Momentos de más riesgo: salida del trabajo por la tarde; fines de semana y festivos de madrugada.",
+     "Найризикованіший час: вечірнє повернення з роботи; вихідні й свята ранніми годинами."
     ]
    ],
    "trap": [
     "Thinking most deaths happen in towns because there are more accidents there.",
-    "Pensar que hay más muertos en ciudad porque hay más accidentes."
+    "Pensar que hay más muertos en ciudad porque hay más accidentes.",
+    "Думати, що найбільше загиблих у містах, бо там більше аварій."
    ]
   },
   "human": {
    "sec": 2,
    "en": "The human factor",
    "es": "Factor humano",
+   "uk": "Людський чинник",
    "recap": [
     [
      "The human factor causes 70–90 % of accidents.",
-     "El factor humano causa el 70–90 % de los accidentes."
+     "El factor humano causa el 70–90 % de los accidentes.",
+     "Людський чинник спричиняє 70–90 % аварій."
     ],
     [
      "Motorcycle accidents are easily fatal; not wearing the helmet is a main reason.",
-     "Los accidentes de moto son fácilmente letales; no usar el casco es un motivo principal."
+     "Los accidentes de moto son fácilmente letales; no usar el casco es un motivo principal.",
+     "Аварії мотоциклів легко стають смертельними; головна причина — відсутність шолома."
     ],
     [
      "Ability depends on training and experience.",
-     "La capacidad depende de la formación y la experiencia."
+     "La capacidad depende de la formación y la experiencia.",
+     "Уміння залежить від навчання й досвіду."
     ],
     [
      "No weaving between vehicles or sudden manoeuvres without warning.",
-     "Prohibido zigzaguear entre vehículos y las maniobras súbitas sin aviso."
+     "Prohibido zigzaguear entre vehículos y las maniobras súbitas sin aviso.",
+     "Жодного петляння між транспортом чи раптових маневрів без попередження."
     ]
    ],
    "trap": [
     "Thinking the vehicle causes most accidents.",
-    "Pensar que el vehículo causa la mayoría de los accidentes."
+    "Pensar que el vehículo causa la mayoría de los accidentes.",
+    "Думати, що більшість аварій спричиняє транспортний засіб."
    ]
   },
   "falls": {
    "sec": 2,
    "en": "Falls and guardrails",
    "es": "Caídas y guardarraíles",
+   "uk": "Падіння й огородження",
    "recap": [
     [
      "After any accident, check handlebar, wheels, lights, fluids and oil on brakes or tyres.",
-     "Tras cualquier accidente, revisar manillar, ruedas, luces, niveles y aceite en frenos o neumáticos."
+     "Tras cualquier accidente, revisar manillar, ruedas, luces, niveles y aceite en frenos o neumáticos.",
+     "Після будь-якої аварії перевірте кермо, колеса, світло, рідини й мастило на гальмах чи шинах."
     ],
     [
      "Let go of the controls so the bike does not drag you.",
-     "Soltar los mandos para no ser arrastrado por la moto."
+     "Soltar los mandos para no ser arrastrado por la moto.",
+     "Відпустіть органи керування, щоб мотоцикл вас не тягнув."
     ],
     [
      "Slide, don’t roll; don’t get up until you stop.",
-     "Deslizarse, no rodar; no levantarse hasta detenerse."
+     "Deslizarse, no rodar; no levantarse hasta detenerse.",
+     "Ковзайте, а не котіться; не вставайте, доки не зупинитеся."
     ],
     [
      "“H” posts cut; “C” posts and lower rails protect.",
-     "Los postes en «H» cortan; los de «C» y las bandas inferiores protegen."
+     "Los postes en «H» cortan; los de «C» y las bandas inferiores protegen.",
+     "Стовпчики «H» ріжуть; стовпчики «C» і нижні планки захищають."
     ]
    ],
    "trap": [
     "Trying to stand up while still sliding.",
-    "Intentar levantarse mientras aún se desliza."
+    "Intentar levantarse mientras aún se desliza.",
+    "Намагатися підвестися, ще ковзаючи."
    ]
   },
   "speed": {
    "sec": 2,
    "en": "Speed and stopping distance",
    "es": "Velocidad y distancia de detención",
+   "uk": "Швидкість і зупинний шлях",
    "recap": [
     [
      "More speed: less time to see and analyse, worse reactions, worse injuries.",
-     "Más velocidad: menos capacidad de ver y analizar, peores reacciones, lesiones más graves."
+     "Más velocidad: menos capacidad de ver y analizar, peores reacciones, lesiones más graves.",
+     "Більша швидкість: менше часу бачити й аналізувати, гірша реакція, важчі травми."
     ],
     [
      "Reaction time about 0.75 s; longer with age, fatigue, alcohol, drugs, medicines, heat.",
-     "Tiempo de reacción unos 0,75 s; mayor con edad, fatiga, alcohol, drogas, medicamentos, calor."
+     "Tiempo de reacción unos 0,75 s; mayor con edad, fatiga, alcohol, drogas, medicamentos, calor.",
+     "Час реакції близько 0,75 с; довший через вік, утому, алкоголь, наркотики, ліки, спеку."
     ],
     [
      "Stopping distance = reaction distance + braking distance.",
-     "Distancia de detención = distancia de reacción + distancia de frenado."
+     "Distancia de detención = distancia de reacción + distancia de frenado.",
+     "Зупинний шлях = шлях реакції + гальмівний шлях."
     ],
     [
      "Braking distance: rain ×2, snow or ice ×10; longer with a passenger.",
-     "Distancia de frenado: lluvia ×2, nieve o hielo ×10; mayor con pasajero."
+     "Distancia de frenado: lluvia ×2, nieve o hielo ×10; mayor con pasajero.",
+     "Гальмівний шлях: дощ ×2, сніг чи лід ×10; довший із пасажиром."
     ]
    ],
    "trap": [
     "Thinking the reaction distance depends on the brakes.",
-    "Pensar que la distancia de reacción depende de los frenos."
+    "Pensar que la distancia de reacción depende de los frenos.",
+    "Думати, що шлях реакції залежить від гальм."
    ]
   },
   "fatigue": {
    "sec": 2,
    "en": "Fatigue, sleep and distractions",
    "es": "Fatiga, sueño y distracciones",
+   "uk": "Утома, сон і відволікання",
    "recap": [
     [
      "Main cause of fatigue: riding long periods without proper breaks.",
-     "Principal causa de fatiga: conducir largos periodos sin descansar bien."
+     "Principal causa de fatiga: conducir largos periodos sin descansar bien.",
+     "Головна причина втоми: довга їзда без належних перерв."
     ],
     [
      "Fatigue: stiffness, imprecise movements, irritability, slower reactions.",
-     "Fatiga: agarrotamiento, imprecisión, irritabilidad, más tiempo de reacción."
+     "Fatiga: agarrotamiento, imprecisión, irritabilidad, más tiempo de reacción.",
+     "Утома: скутість, неточні рухи, дратівливість, повільніша реакція."
     ],
     [
      "Sleep: microsleeps, distractions, worse decisions; rest every 2 h or 200 km for 20–30 min.",
-     "Sueño: microsueños, distracciones, peores decisiones; descansar cada 2 h o 200 km, 20–30 min."
+     "Sueño: microsueños, distracciones, peores decisiones; descansar cada 2 h o 200 km, 20–30 min.",
+     "Сон: мікросон, відволікання, гірші рішення; відпочивайте кожні 2 год чи 200 км по 20–30 хв."
     ],
     [
      "Distractions: stress, anxiety, medicines, sat-nav, phone even hands-free.",
-     "Distracciones: estrés, ansiedad, fármacos, GPS, móvil incluso con manos libres."
+     "Distracciones: estrés, ansiedad, fármacos, GPS, móvil incluso con manos libres.",
+     "Відволікання: стрес, тривога, ліки, навігатор, телефон навіть без рук."
     ]
    ],
    "trap": [
     "Thinking coffee is a substitute for a rest.",
-    "Pensar que el café sustituye al descanso."
+    "Pensar que el café sustituye al descanso.",
+    "Думати, що кава замінює відпочинок."
    ]
   },
   "alcohol": {
    "sec": 2,
    "en": "Alcohol and drugs",
    "es": "Alcohol y drogas",
+   "uk": "Алкоголь і наркотики",
    "recap": [
     [
      "Depressant with an initial euphoric phase; false sense of safety, tunnel vision.",
-     "Depresor con una fase euforizante inicial; falsa seguridad, visión túnel."
+     "Depresor con una fase euforizante inicial; falsa seguridad, visión túnel.",
+     "Пригнічує, з початковою фазою ейфорії; хибне відчуття безпеки, тунельний зір."
     ],
     [
      "Limits: 0.25 mg/l air (0.5 g/l blood); first 2 years and professionals 0.15 (0.3); under 18: 0.",
-     "Tasas: 0,25 mg/l aire (0,5 g/l sangre); 2 primeros años y profesionales 0,15 (0,3); menores: 0."
+     "Tasas: 0,25 mg/l aire (0,5 g/l sangre); 2 primeros años y profesionales 0,15 (0,3); menores: 0.",
+     "Межі: 0,25 мг/л у повітрі (0,5 г/л у крові); перші 2 роки й професіонали 0,15 (0,3); до 18 років: 0."
     ],
     [
      "Peak 30–90 minutes after drinking; nothing fools the breathalyser.",
-     "Pico entre 30 y 90 minutos; nada engaña al etilómetro."
+     "Pico entre 30 y 90 minutos; nada engaña al etilómetro.",
+     "Пік через 30–90 хвилин після вживання; ніщо не обманює алкотестер."
     ],
     [
      "Drugs forbidden, except prescribed medicines that don’t affect riding.",
-     "Drogas prohibidas, salvo medicamentos con receta que no afecten a la conducción."
+     "Drogas prohibidas, salvo medicamentos con receta que no afecten a la conducción.",
+     "Наркотики заборонено, крім ліків за рецептом, що не впливають на керування."
     ]
    ],
    "trap": [
     "Thinking a 17-year-old A1 rider may reach 0.15 mg/l.",
-    "Pensar que un motorista de 17 años con el A1 puede llegar a 0,15 mg/l."
+    "Pensar que un motorista de 17 años con el A1 puede llegar a 0,15 mg/l.",
+    "Думати, що 17-річний водій A1 може мати 0,15 мг/л."
    ]
   },
   "law": {
    "sec": 2,
    "en": "Tests and immobilisation",
    "es": "Pruebas e inmovilización",
+   "uk": "Перевірки й знерухомлення",
    "recap": [
     [
      "Any driver can be tested, including at a preventive check.",
-     "Cualquier conductor puede ser sometido a las pruebas, también en un control preventivo."
+     "Cualquier conductor puede ser sometido a las pruebas, también en un control preventivo.",
+     "Перевірити можуть будь-якого водія, зокрема на профілактичному контролі."
     ],
     [
      "Alcohol: breathalyser; drugs: saliva test and lab analysis.",
-     "Alcohol: etilómetro; drogas: prueba salival y análisis."
+     "Alcohol: etilómetro; drogas: prueba salival y análisis.",
+     "Алкоголь: алкотестер; наркотики: тест слини й лабораторний аналіз."
     ],
     [
      "Second test at least 10 minutes later; contrast analysis paid in advance, refunded if negative.",
-     "Segunda prueba al menos 10 minutos después; contraste pagado antes y devuelto si es negativo."
+     "Segunda prueba al menos 10 minutos después; contraste pagado antes y devuelto si es negativo.",
+     "Другий тест щонайменше через 10 хвилин; контрольний аналіз оплачують наперед, повертають, якщо негативний."
     ],
     [
      "Positive or refusal: vehicle immobilised, unless another licensed person can ride it.",
-     "Positivo o negativa: inmovilización, salvo que pueda conducir otra persona habilitada."
+     "Positivo o negativa: inmovilización, salvo que pueda conducir otra persona habilitada.",
+     "Позитивний результат чи відмова: ТЗ знерухомлюють, якщо ним не може їхати інша людина з посвідченням."
     ]
    ],
    "trap": [
     "Thinking the contrast blood test is always free.",
-    "Pensar que el análisis de sangre de contraste es siempre gratuito."
+    "Pensar que el análisis de sangre de contraste es siempre gratuito.",
+    "Думати, що контрольний аналіз крові завжди безкоштовний."
    ]
   },
   "tyres": {
    "sec": 3,
    "en": "Tyres",
    "es": "Neumáticos",
+   "uk": "Шини",
    "recap": [
     [
      "The only contact with the ground; the tread gives grip and clears water.",
-     "El único contacto con el suelo; la banda de rodamiento da agarre y evacua agua."
+     "El único contacto con el suelo; la banda de rodamiento da agarre y evacua agua.",
+     "Єдиний контакт із дорогою; протектор дає зчеплення й відводить воду."
     ],
     [
      "Pressure as the manufacturer says, checked cold; don’t let air out when hot.",
-     "Presión del fabricante, comprobada en frío; no quitar aire en caliente."
+     "Presión del fabricante, comprobada en frío; no quitar aire en caliente.",
+     "Тиск за вказівками виробника, перевіряти холодними; гарячі не спускати."
     ],
     [
      "Same sizes as the manufacturer’s; fit in the direction of the arrow.",
-     "Mismas medidas que el fabricante; montar en el sentido de la flecha."
+     "Mismas medidas que el fabricante; montar en el sentido de la flecha.",
+     "Ті самі розміри, що в виробника; ставити за стрілкою напрямку обертання."
     ],
     [
      "No cuts or deformations; worn tyres lose grip.",
-     "Sin cortes ni deformaciones; los gastados pierden adherencia."
+     "Sin cortes ni deformaciones; los gastados pierden adherencia.",
+     "Жодних порізів чи деформацій; зношені шини втрачають зчеплення."
     ]
    ],
    "trap": [
     "Letting air out of a hot tyre to reach the cold pressure.",
-    "Quitar aire a un neumático caliente para dejar la presión en frío."
+    "Quitar aire a un neumático caliente para dejar la presión en frío.",
+    "Спускати повітря з гарячої шини до холодного тиску."
    ]
   },
   "brakes": {
    "sec": 3,
    "en": "Brakes and electronic aids",
    "es": "Frenos y ayudas electrónicas",
+   "uk": "Гальма й електронні системи",
    "recap": [
     [
      "Two braking devices: one on the rear wheel, one on the front; none needed on the sidecar wheel.",
-     "Dos dispositivos: uno en la rueda trasera y otro en la delantera; no en la del sidecar."
+     "Dos dispositivos: uno en la rueda trasera y otro en la delantera; no en la del sidecar.",
+     "Два гальмівні пристрої: один на задньому колесі, один на передньому; колесо коляски гальмувати не обов’язково."
     ],
     [
      "Front disc: fewer metres, less locking, better cooling (less fading).",
-     "Disco delantero: menos metros, menos bloqueo, mejor refrigeración (menos fading)."
+     "Disco delantero: menos metros, menos bloqueo, mejor refrigeración (menos fading).",
+     "Передній диск: менше метрів, рідше блокується, краще охолоджується (менше перегріву)."
     ],
     [
      "ABS stops the wheels locking under hard braking.",
-     "El ABS evita el bloqueo de las ruedas en una frenada brusca."
+     "El ABS evita el bloqueo de las ruedas en una frenada brusca.",
+     "ABS не дає колесам заблокуватися під час різкого гальмування."
     ],
     [
      "Traction control can be switched off; anti-wheelie stops the front lifting.",
-     "El control de tracción se puede desconectar; el anti-wheelie evita levantar la delantera."
+     "El control de tracción se puede desconectar; el anti-wheelie evita levantar la delantera.",
+     "Трекшн-контроль можна вимкнути; anti-wheelie не дає передньому колесу піднятися."
     ]
    ],
    "trap": [
     "Thinking ABS shortens the braking distance in every case.",
-    "Pensar que el ABS acorta siempre la distancia de frenado."
+    "Pensar que el ABS acorta siempre la distancia de frenado.",
+    "Думати, що ABS завжди скорочує гальмівний шлях."
    ]
   },
   "helmet": {
    "sec": 3,
    "en": "Helmet",
    "es": "El casco",
+   "uk": "Шолом",
    "recap": [
     [
      "Not wearing it: main cause of death in motorcycle and moped accidents.",
-     "No usarlo: principal causa de mortalidad en accidentes de moto y ciclomotor."
+     "No usarlo: principal causa de mortalidad en accidentes de moto y ciclomotor.",
+     "Без шолома: головна причина загибелі в аваріях мотоциклів і мопедів."
     ],
     [
      "Compulsory for rider and passenger, approved UNECE R22, fastened.",
-     "Obligatorio para conductor y pasajero, homologado UNECE R22, abrochado."
+     "Obligatorio para conductor y pasajero, homologado UNECE R22, abrochado.",
+     "Обов’язковий для водія й пасажира, затверджений UNECE R22, застебнутий."
     ],
     [
      "Full-face recommended; modular only with the chin bar closed; jet leaves the chin bare.",
-     "Integral recomendable; modular solo con la mentonera cerrada; el jet deja la barbilla al aire."
+     "Integral recomendable; modular solo con la mentonera cerrada; el jet deja la barbilla al aire.",
+     "Рекомендовано інтеграл; модуляр лише із закритою підборідною частиною; «джет» залишає підборіддя відкритим."
     ],
     [
      "Replace after an accident or a hard knock.",
-     "Sustituir tras un accidente o un golpe fuerte."
+     "Sustituir tras un accidente o un golpe fuerte.",
+     "Замінюйте після аварії чи сильного удару."
     ]
    ],
    "trap": [
     "Keeping a helmet that fell hard because it looks fine.",
-    "Seguir usando un casco que recibió un golpe fuerte porque parece intacto."
+    "Seguir usando un casco que recibió un golpe fuerte porque parece intacto.",
+    "Залишати шолом, що сильно впав, бо він виглядає цілим."
    ]
   },
   "gear": {
    "sec": 3,
    "en": "Rider’s gear",
    "es": "Equipamiento motorista",
+   "uk": "Екіпірування мотоцикліста",
    "recap": [
     [
      "Abrasion-resistant suit with protectors, bright colours.",
-     "Traje resistente a la abrasión con protecciones, colores llamativos."
+     "Traje resistente a la abrasión con protecciones, colores llamativos.",
+     "Стійкий до стирання костюм із захистом, яскравих кольорів."
     ],
     [
      "Gloves compulsory on interurban roads; closed shoes on every road.",
-     "Guantes obligatorios en vías interurbanas; calzado cerrado en todas."
+     "Guantes obligatorios en vías interurbanas; calzado cerrado en todas.",
+     "Рукавички обов’язкові на заміських дорогах; закрите взуття — на будь-якій."
     ],
     [
      "Vest: carried on the motorcycle, worn when you get off on an interurban road.",
-     "Chaleco: lo lleva la moto, se usa al bajarse en una interurbana."
+     "Chaleco: lo lleva la moto, se usa al bajarse en una interurbana.",
+     "Жилет: возити на мотоциклі, вдягати, коли сходите на заміську дорогу."
     ],
     [
      "Professional riders wear the vest on every road.",
-     "Los profesionales llevan el chaleco en todas las vías."
+     "Los profesionales llevan el chaleco en todas las vías.",
+     "Професійні мотоциклісти носять жилет на будь-якій дорозі."
     ]
    ],
    "trap": [
     "Thinking gloves are compulsory in town too.",
-    "Pensar que los guantes son obligatorios también en ciudad."
+    "Pensar que los guantes son obligatorios también en ciudad.",
+    "Думати, що рукавички обов’язкові й у місті."
    ]
   },
   "weather": {
    "sec": 4,
    "en": "Road and weather",
    "es": "Vía y climatología",
+   "uk": "Дорога й погода",
    "recap": [
     [
      "Low grip: slow down before, cross upright.",
-     "Baja adherencia: reducir antes y pasar enderezado."
+     "Baja adherencia: reducir antes y pasar enderezado.",
+     "Погане зчеплення: сповільніться заздалегідь, перетинайте рівно."
     ],
     [
      "Rain: first drops worst; brake early, less front pressure; avoid markings and puddles.",
-     "Lluvia: primeras gotas lo peor; frenar antes, menos presión delante; evitar marcas y charcos."
+     "Lluvia: primeras gotas lo peor; frenar antes, menos presión delante; evitar marcas y charcos.",
+     "Дощ: перші краплі найгірші; гальмуйте рано, менше на переднє; уникайте розмітки й калюж."
     ],
     [
      "Snow on motorways: no overtaking, right-hand lane; ice ×10, don’t ride.",
-     "Nieve en autopista: no adelantar, carril derecho; hielo ×10, no circular."
+     "Nieve en autopista: no adelantar, carril derecho; hielo ×10, no circular.",
+     "Сніг на автомагістралях: без обгону, права смуга; лід ×10, не їдьте."
     ],
     [
      "Fog: no main beam, fog light if fitted; wind: firm grip, screen effect; sun: no dark visor at night.",
-     "Niebla: sin largas, antiniebla si la hay; viento: manillar firme, efecto pantalla; sol: nada de visera oscura de noche."
+     "Niebla: sin largas, antiniebla si la hay; viento: manillar firme, efecto pantalla; sol: nada de visera oscura de noche.",
+     "Туман: без дальнього, протитуманна фара, якщо є; вітер: міцно тримайте кермо, ефект екрана; сонце: без темного візора вночі."
     ]
    ],
    "trap": [
     "Using main beam in fog or heavy rain to see further.",
-    "Usar las largas con niebla o lluvia intensa para ver más."
+    "Usar las largas con niebla o lluvia intensa para ver más.",
+    "Вмикати дальнє в тумані чи сильний дощ, щоб бачити далі."
    ]
   }
  }

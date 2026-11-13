@@ -2,9 +2,15 @@
 window.DGT_DATA = {
  "topic": "a-07",
  "category": "a",
+ "langs": [
+  "en",
+  "es",
+  "uk"
+ ],
  "title": {
   "en": "Topic 7 · Lights",
-  "es": "Tema 7 · Las luces"
+  "es": "Tema 7 · Las luces",
+  "uk": "Тема 7 · Світлові прилади"
  },
  "bank": [
   {
@@ -12,25 +18,30 @@ window.DGT_DATA = {
    "tag": "purpose",
    "q": {
     "en": "What are vehicle lights for?",
-    "es": "¿Para qué sirven las luces del vehículo?"
+    "es": "¿Para qué sirven las luces del vehículo?",
+    "uk": "Навіщо транспортному засобу світлові прилади?"
    },
    "o": [
     {
      "en": "To show the vehicle is there, light the road and warn others",
-     "es": "Para indicar su presencia, alumbrar la vía y avisar a los demás"
+     "es": "Para indicar su presencia, alumbrar la vía y avisar a los demás",
+     "uk": "Щоб показати, що він є, освітити дорогу й попередити інших"
     },
     {
      "en": "Only to see at night",
-     "es": "Solo para ver de noche"
+     "es": "Solo para ver de noche",
+     "uk": "Лише щоб бачити вночі"
     },
     {
      "en": "Only to signal manoeuvres",
-     "es": "Solo para señalizar maniobras"
+     "es": "Solo para señalizar maniobras",
+     "uk": "Лише щоб сигналізувати про маневри"
     }
    ],
    "why": {
     "en": "Be seen, see, and warn.",
-    "es": "Ser visto, ver y avisar."
+    "es": "Ser visto, ver y avisar.",
+    "uk": "Щоб вас бачили, щоб бачити й щоб попереджати."
    }
   },
   {
@@ -38,25 +49,30 @@ window.DGT_DATA = {
    "tag": "purpose",
    "q": {
     "en": "A road is poorly lit if you cannot read another vehicle’s number plate at…",
-    "es": "Una vía está insuficientemente iluminada si no puedes leer la matrícula de otro vehículo a…"
+    "es": "Una vía está insuficientemente iluminada si no puedes leer la matrícula de otro vehículo a…",
+    "uk": "Дорога погано освітлена, якщо номерний знак іншого транспортного засобу не можна прочитати з…"
    },
    "o": [
     {
      "en": "10 m",
-     "es": "10 m"
+     "es": "10 m",
+     "uk": "10 м"
     },
     {
      "en": "50 m",
-     "es": "50 m"
+     "es": "50 m",
+     "uk": "50 м"
     },
     {
      "en": "25 m",
-     "es": "25 m"
+     "es": "25 m",
+     "uk": "25 м"
     }
    ],
    "why": {
     "en": "Or cannot make out a dark-painted vehicle at 50 m.",
-    "es": "O no distingues un vehículo pintado de oscuro a 50 m."
+    "es": "O no distingues un vehículo pintado de oscuro a 50 m.",
+    "uk": "Або не можна розгледіти ТЗ темного кольору з 50 м."
    }
   },
   {
@@ -64,25 +80,30 @@ window.DGT_DATA = {
    "tag": "purpose",
    "q": {
     "en": "At midday you ride into a tunnel. Must you have lights on?",
-    "es": "A mediodía entras en un túnel. ¿Debes llevar luces?"
+    "es": "A mediodía entras en un túnel. ¿Debes llevar luces?",
+    "uk": "Опівдні ви в’їжджаєте в тунель. Чи має бути ввімкнене світло?"
    },
    "o": [
     {
      "en": "Yes, at any time of day",
-     "es": "Sí, a cualquier hora del día"
+     "es": "Sí, a cualquier hora del día",
+     "uk": "Так, у будь-який час доби"
     },
     {
      "en": "Only if it is poorly lit",
-     "es": "Solo si está mal iluminado"
+     "es": "Solo si está mal iluminado",
+     "uk": "Лише якщо він погано освітлений"
     },
     {
      "en": "No, by day it isn’t needed",
-     "es": "No, de día no hace falta"
+     "es": "No, de día no hace falta",
+     "uk": "Ні, удень не треба"
     }
    ],
    "why": {
     "en": "On a motorcycle you have the dipped beam on anyway.",
-    "es": "En moto ya llevas la de cruce de todos modos."
+    "es": "En moto ya llevas la de cruce de todos modos.",
+    "uk": "На мотоциклі ближнє світло й так увімкнене."
    }
   },
   {
@@ -90,25 +111,30 @@ window.DGT_DATA = {
    "tag": "purpose",
    "q": {
     "en": "Your headlight fails on the way and you must ride with a weaker light. You…",
-    "es": "El faro se avería en ruta y debes circular con una luz más débil. Tú…"
+    "es": "El faro se avería en ruta y debes circular con una luz más débil. Tú…",
+    "uk": "Фара відмовила в дорозі, і вам доводиться їхати зі слабшим світлом. Ви…"
    },
    "o": [
     {
      "en": "slow down so you can stop within the lit area",
-     "es": "reduces la velocidad para poder detenerte dentro de la zona iluminada"
+     "es": "reduces la velocidad para poder detenerte dentro de la zona iluminada",
+     "uk": "сповільнюєтеся, щоб могти зупинитися в межах освітленої зони"
     },
     {
      "en": "keep your speed using the hazard lights",
-     "es": "mantienes la velocidad con la luz de emergencia"
+     "es": "mantienes la velocidad con la luz de emergencia",
+     "uk": "тримаєте швидкість з аварійною сигналізацією"
     },
     {
      "en": "ride behind another vehicle",
-     "es": "circulas detrás de otro vehículo"
+     "es": "circulas detrás de otro vehículo",
+     "uk": "їдете за іншим транспортним засобом"
     }
    ],
    "why": {
     "en": "An irreparable breakdown on the way.",
-    "es": "Avería irreparable en ruta."
+    "es": "Avería irreparable en ruta.",
+    "uk": "Поломка, яку не можна усунути в дорозі."
    }
   },
   {
@@ -116,25 +142,30 @@ window.DGT_DATA = {
    "tag": "purpose",
    "q": {
     "en": "A road is also poorly lit if you cannot make out a dark-painted vehicle at…",
-    "es": "Una vía también está insuficientemente iluminada si no distingues un vehículo oscuro a…"
+    "es": "Una vía también está insuficientemente iluminada si no distingues un vehículo oscuro a…",
+    "uk": "Дорога погано освітлена й тоді, коли не можна розгледіти транспортний засіб темного кольору з…"
    },
    "o": [
     {
      "en": "50 m",
-     "es": "50 m"
+     "es": "50 m",
+     "uk": "50 м"
     },
     {
      "en": "10 m",
-     "es": "10 m"
+     "es": "10 m",
+     "uk": "10 м"
     },
     {
      "en": "100 m",
-     "es": "100 m"
+     "es": "100 m",
+     "uk": "100 м"
     }
    ],
    "why": {
     "en": "Plate at 10 m, dark vehicle at 50 m.",
-    "es": "Matrícula a 10 m, vehículo oscuro a 50 m."
+    "es": "Matrícula a 10 m, vehículo oscuro a 50 m.",
+    "uk": "Номер — з 10 м, темний ТЗ — з 50 м."
    }
   },
   {
@@ -142,25 +173,30 @@ window.DGT_DATA = {
    "tag": "position",
    "q": {
     "en": "Position lights show the vehicle’s…",
-    "es": "Las luces de posición indican…"
+    "es": "Las luces de posición indican…",
+    "uk": "Габаритні вогні показують транспортного засобу…"
    },
    "o": [
     {
      "en": "presence and width",
-     "es": "la presencia y la anchura del vehículo"
+     "es": "la presencia y la anchura del vehículo",
+     "uk": "присутність і ширину"
     },
     {
      "en": "speed",
-     "es": "la velocidad"
+     "es": "la velocidad",
+     "uk": "швидкість"
     },
     {
      "en": "braking",
-     "es": "el frenado"
+     "es": "el frenado",
+     "uk": "гальмування"
     }
    ],
    "why": {
     "en": "White at the front, red at the rear.",
-    "es": "Blanca delante, roja detrás."
+    "es": "Blanca delante, roja detrás.",
+    "uk": "Білі спереду, червоні ззаду."
    }
   },
   {
@@ -168,25 +204,30 @@ window.DGT_DATA = {
    "tag": "position",
    "q": {
     "en": "May you ride at night with only the position lights on?",
-    "es": "¿Puedes circular de noche solo con las luces de posición?"
+    "es": "¿Puedes circular de noche solo con las luces de posición?",
+    "uk": "Чи можна їхати вночі лише з габаритними вогнями?"
    },
    "o": [
     {
      "en": "No, it is forbidden",
-     "es": "No, está prohibido"
+     "es": "No, está prohibido",
+     "uk": "Ні, це заборонено"
     },
     {
      "en": "Yes, in a well-lit town",
-     "es": "Sí, en poblado bien iluminado"
+     "es": "Sí, en poblado bien iluminado",
+     "uk": "Так, у добре освітленому місті"
     },
     {
      "en": "Yes, below 40 km/h",
-     "es": "Sí, por debajo de 40 km/h"
+     "es": "Sí, por debajo de 40 km/h",
+     "uk": "Так, до 40 км/год"
     }
    ],
    "why": {
     "en": "They don’t light the road.",
-    "es": "No alumbran la vía."
+    "es": "No alumbran la vía.",
+    "uk": "Вони не освітлюють дорогу."
    }
   },
   {
@@ -194,25 +235,30 @@ window.DGT_DATA = {
    "tag": "position",
    "q": {
     "en": "How many front position lights may a two-wheeled motorcycle have?",
-    "es": "¿Cuántas luces de posición delanteras puede tener una motocicleta de dos ruedas?"
+    "es": "¿Cuántas luces de posición delanteras puede tener una motocicleta de dos ruedas?",
+    "uk": "Скільки передніх габаритних вогнів може мати двоколісний мотоцикл?"
    },
    "o": [
     {
      "en": "1 or 2",
-     "es": "1 o 2"
+     "es": "1 o 2",
+     "uk": "1 або 2"
     },
     {
      "en": "Exactly 2",
-     "es": "Exactamente 2"
+     "es": "Exactamente 2",
+     "uk": "Рівно 2"
     },
     {
      "en": "None",
-     "es": "Ninguna"
+     "es": "Ninguna",
+     "uk": "Жодного"
     }
    ],
    "why": {
     "en": "Same at the rear.",
-    "es": "Igual detrás."
+    "es": "Igual detrás.",
+    "uk": "Так само ззаду."
    }
   },
   {
@@ -220,25 +266,30 @@ window.DGT_DATA = {
    "tag": "position",
    "q": {
     "en": "A three-wheeler 1,400 mm wide must have front position lights…",
-    "es": "Un vehículo de tres ruedas de 1.400 mm de ancho debe llevar luces de posición delanteras…"
+    "es": "Un vehículo de tres ruedas de 1.400 mm de ancho debe llevar luces de posición delanteras…",
+    "uk": "Триколісний ТЗ шириною 1 400 мм мусить мати передні габаритні вогні…"
    },
    "o": [
     {
      "en": "two, one at each end",
-     "es": "dos, una en cada extremo"
+     "es": "dos, una en cada extremo",
+     "uk": "два, по одному з кожного краю"
     },
     {
      "en": "one in the centre",
-     "es": "una en el centro"
+     "es": "una en el centro",
+     "uk": "один посередині"
     },
     {
      "en": "one or two anywhere",
-     "es": "una o dos en cualquier lugar"
+     "es": "una o dos en cualquier lugar",
+     "uk": "один чи два будь-де"
     }
    ],
    "why": {
     "en": "Wider than 1,300 mm.",
-    "es": "Más de 1.300 mm."
+    "es": "Más de 1.300 mm.",
+    "uk": "Ширший за 1 300 мм."
    }
   },
   {
@@ -246,25 +297,30 @@ window.DGT_DATA = {
    "tag": "position",
    "q": {
     "en": "At night you stop on the shoulder of an interurban road. You must have on…",
-    "es": "De noche te detienes en el arcén de una vía interurbana. Debes llevar encendidas…"
+    "es": "De noche te detienes en el arcén de una vía interurbana. Debes llevar encendidas…",
+    "uk": "Уночі ви зупинилися на узбіччі заміської дороги. Мають бути ввімкнені…"
    },
    "o": [
     {
      "en": "the position lights",
-     "es": "las luces de posición"
+     "es": "las luces de posición",
+     "uk": "габаритні вогні"
     },
     {
      "en": "the main beam",
-     "es": "la luz de carretera"
+     "es": "la luz de carretera",
+     "uk": "дальнє світло"
     },
     {
      "en": "no lights",
-     "es": "ninguna luz"
+     "es": "ninguna luz",
+     "uk": "жодне світло"
     }
    ],
    "why": {
     "en": "Stopped on carriageway or shoulder of any road.",
-    "es": "Detenido en calzada o arcén de cualquier vía."
+    "es": "Detenido en calzada o arcén de cualquier vía.",
+    "uk": "Зупинка на проїзній частині чи узбіччі будь-якої дороги."
    }
   },
   {
@@ -272,25 +328,30 @@ window.DGT_DATA = {
    "tag": "position",
    "q": {
     "en": "When you switch on the dipped beam, the position lights…",
-    "es": "Al encender la luz de cruce, las luces de posición…"
+    "es": "Al encender la luz de cruce, las luces de posición…",
+    "uk": "Коли ви вмикаєте ближнє світло, габаритні вогні…"
    },
    "o": [
     {
      "en": "come on automatically",
-     "es": "se encienden automáticamente"
+     "es": "se encienden automáticamente",
+     "uk": "вмикаються автоматично"
     },
     {
      "en": "must be switched off",
-     "es": "deben apagarse"
+     "es": "deben apagarse",
+     "uk": "треба вимкнути"
     },
     {
      "en": "are optional",
-     "es": "son opcionales"
+     "es": "son opcionales",
+     "uk": "необов’язкові"
     }
    ],
    "why": {
     "en": "Also with main beam or fog lights.",
-    "es": "También con la de carretera o la antiniebla."
+    "es": "También con la de carretera o la antiniebla.",
+    "uk": "Так само з дальнім чи протитуманними."
    }
   },
   {
@@ -298,25 +359,30 @@ window.DGT_DATA = {
    "tag": "position",
    "q": {
     "en": "Parked at night on a well-lit urban street, must your motorcycle have its position lights on?",
-    "es": "Estacionada de noche en una calle urbana bien iluminada, ¿debe tu moto llevar la luz de posición?"
+    "es": "Estacionada de noche en una calle urbana bien iluminada, ¿debe tu moto llevar la luz de posición?",
+    "uk": "Мотоцикл стоїть уночі на добре освітленій міській вулиці. Чи мають бути ввімкнені габаритні вогні?"
    },
    "o": [
     {
      "en": "No, if others can see it from far enough away",
-     "es": "No, si los demás pueden distinguirla a suficiente distancia"
+     "es": "No, si los demás pueden distinguirla a suficiente distancia",
+     "uk": "Ні, якщо інші бачать його здалеку"
     },
     {
      "en": "Yes, always",
-     "es": "Sí, siempre"
+     "es": "Sí, siempre",
+     "uk": "Так, завжди"
     },
     {
      "en": "Yes, and the hazard lights",
-     "es": "Sí, y la luz de emergencia"
+     "es": "Sí, y la luz de emergencia",
+     "uk": "Так, і аварійна сигналізація"
     }
    ],
    "why": {
     "en": "Only if the lighting doesn’t let others see it.",
-    "es": "Solo si la iluminación no permite distinguirla."
+    "es": "Solo si la iluminación no permite distinguirla.",
+    "uk": "Лише якщо освітлення не дає іншим його побачити."
    }
   },
   {
@@ -324,25 +390,30 @@ window.DGT_DATA = {
    "tag": "reflect",
    "q": {
     "en": "At the rear, a motorcycle must have…",
-    "es": "En la parte trasera, una motocicleta debe llevar…"
+    "es": "En la parte trasera, una motocicleta debe llevar…",
+    "uk": "Ззаду мотоцикл мусить мати…"
    },
    "o": [
     {
      "en": "a red, non-triangular reflector",
-     "es": "un catadióptrico rojo no triangular"
+     "es": "un catadióptrico rojo no triangular",
+     "uk": "червоний нетрикутний світлоповертач"
     },
     {
      "en": "a red triangular reflector",
-     "es": "un catadióptrico rojo triangular"
+     "es": "un catadióptrico rojo triangular",
+     "uk": "червоний трикутний світлоповертач"
     },
     {
      "en": "an amber reflector",
-     "es": "un catadióptrico amarillo auto"
+     "es": "un catadióptrico amarillo auto",
+     "uk": "жовтий світлоповертач"
     }
    ],
    "why": {
     "en": "Two symmetrical ones with a sidecar.",
-    "es": "Dos simétricos con sidecar."
+    "es": "Dos simétricos con sidecar.",
+    "uk": "Два симетричні з коляскою."
    }
   },
   {
@@ -350,25 +421,30 @@ window.DGT_DATA = {
    "tag": "reflect",
    "q": {
     "en": "Side reflectors on a motorcycle are…",
-    "es": "Los catadióptricos laterales de una moto son…"
+    "es": "Los catadióptricos laterales de una moto son…",
+    "uk": "Бічні світлоповертачі на мотоциклі…"
    },
    "o": [
     {
      "en": "optional, amber, one or two per side",
-     "es": "opcionales, amarillo auto, uno o dos por lado"
+     "es": "opcionales, amarillo auto, uno o dos por lado",
+     "uk": "необов’язкові, жовті, один чи два з кожного боку"
     },
     {
      "en": "compulsory and red",
-     "es": "obligatorios y rojos"
+     "es": "obligatorios y rojos",
+     "uk": "обов’язкові й червоні"
     },
     {
      "en": "forbidden",
-     "es": "prohibidos"
+     "es": "prohibidos",
+     "uk": "заборонені"
     }
    ],
    "why": {
     "en": "Optional.",
-    "es": "Opcionales."
+    "es": "Opcionales.",
+    "uk": "Необов’язкові."
    }
   },
   {
@@ -376,25 +452,30 @@ window.DGT_DATA = {
    "tag": "reflect",
    "q": {
     "en": "A reflector…",
-    "es": "Un catadióptrico…"
+    "es": "Un catadióptrico…",
+    "uk": "Світлоповертач…"
    },
    "o": [
     {
      "en": "has no light of its own: it reflects light",
-     "es": "no tiene luz propia: refleja la luz"
+     "es": "no tiene luz propia: refleja la luz",
+     "uk": "не має власного світла: він відбиває світло"
     },
     {
      "en": "is a small lamp",
-     "es": "es una pequeña lámpara"
+     "es": "es una pequeña lámpara",
+     "uk": "це невелика лампа"
     },
     {
      "en": "works only with the engine on",
-     "es": "solo funciona con el motor encendido"
+     "es": "solo funciona con el motor encendido",
+     "uk": "працює лише з увімкненим двигуном"
     }
    ],
    "why": {
     "en": "It shows the vehicle is there.",
-    "es": "Indica la presencia del vehículo."
+    "es": "Indica la presencia del vehículo.",
+    "uk": "Він показує, що транспортний засіб є."
    }
   },
   {
@@ -402,25 +483,30 @@ window.DGT_DATA = {
    "tag": "reflect",
    "q": {
     "en": "A three-wheeler 1.2 m wide must have at the rear…",
-    "es": "Un vehículo de tres ruedas de 1,2 m de ancho debe llevar detrás…"
+    "es": "Un vehículo de tres ruedas de 1,2 m de ancho debe llevar detrás…",
+    "uk": "Триколісний ТЗ шириною 1,2 м мусить мати ззаду…"
    },
    "o": [
     {
      "en": "two red non-triangular reflectors",
-     "es": "dos catadióptricos rojos no triangulares"
+     "es": "dos catadióptricos rojos no triangulares",
+     "uk": "два червоні нетрикутні світлоповертачі"
     },
     {
      "en": "one triangular reflector",
-     "es": "un catadióptrico triangular"
+     "es": "un catadióptrico triangular",
+     "uk": "один трикутний світлоповертач"
     },
     {
      "en": "no reflector",
-     "es": "ningún catadióptrico"
+     "es": "ningún catadióptrico",
+     "uk": "жодного світлоповертача"
     }
    ],
    "why": {
     "en": "One if up to 1 m wide.",
-    "es": "Uno si mide hasta 1 m."
+    "es": "Uno si mide hasta 1 m.",
+    "uk": "Один — якщо ширина до 1 м."
    }
   },
   {
@@ -428,25 +514,30 @@ window.DGT_DATA = {
    "tag": "dipped",
    "q": {
     "en": "On a motorcycle, the dipped beam must be on…",
-    "es": "En moto, la luz de cruce debe ir encendida…"
+    "es": "En moto, la luz de cruce debe ir encendida…",
+    "uk": "На мотоциклі ближнє світло має бути ввімкнене…"
    },
    "o": [
     {
      "en": "at any time of day, on every public road",
-     "es": "a cualquier hora del día, en todas las vías públicas"
+     "es": "a cualquier hora del día, en todas las vías públicas",
+     "uk": "у будь-який час доби на кожній дорозі загального користування"
     },
     {
      "en": "only at night",
-     "es": "solo de noche"
+     "es": "solo de noche",
+     "uk": "лише вночі"
     },
     {
      "en": "only out of town",
-     "es": "solo fuera de poblado"
+     "es": "solo fuera de poblado",
+     "uk": "лише за містом"
     }
    ],
    "why": {
     "en": "Together with the position lights.",
-    "es": "Junto con la de posición."
+    "es": "Junto con la de posición.",
+    "uk": "Разом із габаритними вогнями."
    }
   },
   {
@@ -454,25 +545,30 @@ window.DGT_DATA = {
    "tag": "dipped",
    "q": {
     "en": "Riding your motorcycle by day, you pass an “end of dipped beam” sign. You…",
-    "es": "Circulando de día en moto, pasas una señal «Fin de alumbrado de corto alcance». Tú…"
+    "es": "Circulando de día en moto, pasas una señal «Fin de alumbrado de corto alcance». Tú…",
+    "uk": "Удень на мотоциклі ви проїжджаєте знак «кінець зони ближнього світла». Ви…"
    },
    "o": [
     {
      "en": "keep the dipped beam on",
-     "es": "mantienes la luz de cruce"
+     "es": "mantienes la luz de cruce",
+     "uk": "залишаєте ближнє світло ввімкненим"
     },
     {
      "en": "switch it off",
-     "es": "la apagas"
+     "es": "la apagas",
+     "uk": "вимикаєте його"
     },
     {
      "en": "switch to position lights",
-     "es": "pones solo la de posición"
+     "es": "pones solo la de posición",
+     "uk": "перемикаєте на габаритні"
     }
    ],
    "why": {
     "en": "Motorcycles keep it on all day.",
-    "es": "Las motos la llevan todo el día."
+    "es": "Las motos la llevan todo el día.",
+    "uk": "Мотоцикли тримають його ввімкненим увесь день."
    }
   },
   {
@@ -480,25 +576,30 @@ window.DGT_DATA = {
    "tag": "dipped",
    "q": {
     "en": "Which light do you use when meeting oncoming traffic at night?",
-    "es": "¿Qué luz usas al cruzarte de noche con otro vehículo?"
+    "es": "¿Qué luz usas al cruzarte de noche con otro vehículo?",
+    "uk": "Яке світло вмикають уночі, зустрічаючи зустрічний транспорт?"
    },
    "o": [
     {
      "en": "The dipped beam",
-     "es": "La de cruce"
+     "es": "La de cruce",
+     "uk": "Ближнє"
     },
     {
      "en": "The main beam",
-     "es": "La de carretera"
+     "es": "La de carretera",
+     "uk": "Дальнє"
     },
     {
      "en": "The front fog light",
-     "es": "La antiniebla delantera"
+     "es": "La antiniebla delantera",
+     "uk": "Передні протитуманні"
     }
    ],
    "why": {
     "en": "So as not to dazzle.",
-    "es": "Para no deslumbrar."
+    "es": "Para no deslumbrar.",
+    "uk": "Щоб не засліпити."
    }
   },
   {
@@ -506,25 +607,30 @@ window.DGT_DATA = {
    "tag": "dipped",
    "q": {
     "en": "What colour is the dipped beam?",
-    "es": "¿De qué color es la luz de cruce?"
+    "es": "¿De qué color es la luz de cruce?",
+    "uk": "Якого кольору ближнє світло?"
    },
    "o": [
     {
      "en": "White",
-     "es": "Blanca"
+     "es": "Blanca",
+     "uk": "Біле"
     },
     {
      "en": "Selective yellow",
-     "es": "Amarillo selectivo"
+     "es": "Amarillo selectivo",
+     "uk": "Селективно жовте"
     },
     {
      "en": "Amber",
-     "es": "Amarillo auto"
+     "es": "Amarillo auto",
+     "uk": "Жовте (бурштинове)"
     }
    ],
    "why": {
     "en": "Main beam is white too.",
-    "es": "La de carretera también es blanca."
+    "es": "La de carretera también es blanca.",
+    "uk": "Дальнє теж біле."
    }
   },
   {
@@ -532,25 +638,30 @@ window.DGT_DATA = {
    "tag": "dipped",
    "q": {
     "en": "Which vehicles must have a dipped beam (1 or 2)?",
-    "es": "¿Qué vehículos deben llevar luz de cruce (1 o 2)?"
+    "es": "¿Qué vehículos deben llevar luz de cruce (1 o 2)?",
+    "uk": "Які транспортні засоби мусять мати ближнє світло (1 чи 2 фари)?"
    },
    "o": [
     {
      "en": "Mopeds, motorcycles, three-wheelers and quadricycles",
-     "es": "Ciclomotores, motocicletas, tres ruedas y cuadriciclos"
+     "es": "Ciclomotores, motocicletas, tres ruedas y cuadriciclos",
+     "uk": "Мопеди, мотоцикли, триколісні ТЗ і квадрицикли"
     },
     {
      "en": "Only motorcycles over 125 cm³",
-     "es": "Solo motos de más de 125 cm³"
+     "es": "Solo motos de más de 125 cm³",
+     "uk": "Лише мотоцикли понад 125 см³"
     },
     {
      "en": "Only quadricycles",
-     "es": "Solo cuadriciclos"
+     "es": "Solo cuadriciclos",
+     "uk": "Лише квадрицикли"
     }
    ],
    "why": {
     "en": "1 or 2 lamps.",
-    "es": "1 o 2 luces."
+    "es": "1 o 2 luces.",
+    "uk": "1 або 2 фари."
    }
   },
   {
@@ -558,25 +669,30 @@ window.DGT_DATA = {
    "tag": "main",
    "q": {
     "en": "At night, on a poorly lit interurban road at 80 km/h, with no one ahead or oncoming, you use…",
-    "es": "De noche, por una interurbana mal iluminada a 80 km/h, sin nadie delante ni de frente, usas…"
+    "es": "De noche, por una interurbana mal iluminada a 80 km/h, sin nadie delante ni de frente, usas…",
+    "uk": "Уночі на погано освітленій заміській дорозі, на 80 км/год, коли попереду й назустріч нікого немає, ви вмикаєте…"
    },
    "o": [
     {
      "en": "the main beam",
-     "es": "la luz de carretera"
+     "es": "la luz de carretera",
+     "uk": "дальнє світло"
     },
     {
      "en": "the dipped beam",
-     "es": "la luz de cruce"
+     "es": "la luz de cruce",
+     "uk": "ближнє світло"
     },
     {
      "en": "the front fog light",
-     "es": "la antiniebla delantera"
+     "es": "la antiniebla delantera",
+     "uk": "передній протитуманний"
     }
    ],
    "why": {
     "en": "Compulsory above 40 km/h.",
-    "es": "Obligatoria a más de 40 km/h."
+    "es": "Obligatoria a más de 40 km/h.",
+    "uk": "Обов’язкове понад 40 км/год."
    }
   },
   {
@@ -584,25 +700,30 @@ window.DGT_DATA = {
    "tag": "main",
    "q": {
     "en": "At 40 km/h or less, on a poorly lit road out of town at night, you may use…",
-    "es": "A 40 km/h o menos, de noche por una vía interurbana mal iluminada, puedes usar…"
+    "es": "A 40 km/h o menos, de noche por una vía interurbana mal iluminada, puedes usar…",
+    "uk": "На 40 км/год і менше, уночі на погано освітленій дорозі за містом, можна вмикати…"
    },
    "o": [
     {
      "en": "either the dipped or the main beam",
-     "es": "la de cruce o la de carretera"
+     "es": "la de cruce o la de carretera",
+     "uk": "ближнє або дальнє"
     },
     {
      "en": "only the main beam",
-     "es": "solo la de carretera"
+     "es": "solo la de carretera",
+     "uk": "лише дальнє"
     },
     {
      "en": "only the position lights",
-     "es": "solo la de posición"
+     "es": "solo la de posición",
+     "uk": "лише габаритні вогні"
     }
    ],
    "why": {
     "en": "Either of the two.",
-    "es": "Cualquiera de las dos."
+    "es": "Cualquiera de las dos.",
+    "uk": "Будь-яке з двох."
    }
   },
   {
@@ -610,25 +731,30 @@ window.DGT_DATA = {
    "tag": "main",
    "q": {
     "en": "May you use the main beam in town?",
-    "es": "¿Puedes usar la luz de carretera en poblado?"
+    "es": "¿Puedes usar la luz de carretera en poblado?",
+    "uk": "Чи можна вмикати дальнє світло в населеному пункті?"
    },
    "o": [
     {
      "en": "No",
-     "es": "No"
+     "es": "No",
+     "uk": "Ні"
     },
     {
      "en": "Yes, if poorly lit",
-     "es": "Sí, si está mal iluminado"
+     "es": "Sí, si está mal iluminado",
+     "uk": "Так, якщо погано освітлено"
     },
     {
      "en": "Yes, above 40 km/h",
-     "es": "Sí, a más de 40 km/h"
+     "es": "Sí, a más de 40 km/h",
+     "uk": "Так, понад 40 км/год"
     }
    ],
    "why": {
     "en": "Forbidden in town, and when stopped or parked.",
-    "es": "Prohibida en poblado y parado o estacionado."
+    "es": "Prohibida en poblado y parado o estacionado.",
+    "uk": "Заборонено в місті, а також на зупинці чи стоянці."
    }
   },
   {
@@ -636,25 +762,30 @@ window.DGT_DATA = {
    "tag": "main",
    "q": {
     "en": "In a poorly lit tunnel at midday, at 70 km/h, a motorcycle with main beam must use…",
-    "es": "En un túnel mal iluminado a mediodía, a 70 km/h, una moto con luz larga debe usar…"
+    "es": "En un túnel mal iluminado a mediodía, a 70 km/h, una moto con luz larga debe usar…",
+    "uk": "У погано освітленому тунелі опівдні, на 70 км/год, мотоцикл із дальнім світлом мусить вмикати…"
    },
    "o": [
     {
      "en": "the main beam, unless it could dazzle someone",
-     "es": "la luz de carretera, salvo que pueda deslumbrar"
+     "es": "la luz de carretera, salvo que pueda deslumbrar",
+     "uk": "дальнє, якщо воно нікого не засліпить"
     },
     {
      "en": "the dipped beam only",
-     "es": "solo la de cruce"
+     "es": "solo la de cruce",
+     "uk": "лише ближнє"
     },
     {
      "en": "no lights",
-     "es": "ninguna luz"
+     "es": "ninguna luz",
+     "uk": "жодного світла"
     }
    ],
    "why": {
     "en": "At any time of day in poorly lit tunnels.",
-    "es": "A cualquier hora en túneles mal iluminados."
+    "es": "A cualquier hora en túneles mal iluminados.",
+    "uk": "Будь-коли в погано освітлених тунелях."
    }
   },
   {
@@ -662,25 +793,30 @@ window.DGT_DATA = {
    "tag": "main",
    "q": {
     "en": "Your motorcycle is stopped on the shoulder at night. May the main beam be on?",
-    "es": "Tu moto está detenida en el arcén de noche. ¿Puede estar encendida la luz larga?"
+    "es": "Tu moto está detenida en el arcén de noche. ¿Puede estar encendida la luz larga?",
+    "uk": "Ваш мотоцикл уночі стоїть на узбіччі. Чи можна, щоб дальнє було ввімкнене?"
    },
    "o": [
     {
      "en": "No, it is forbidden stopped or parked",
-     "es": "No, está prohibida parado o estacionado"
+     "es": "No, está prohibida parado o estacionado",
+     "uk": "Ні, на зупинці чи стоянці воно заборонене"
     },
     {
      "en": "Yes, to be seen",
-     "es": "Sí, para ser visto"
+     "es": "Sí, para ser visto",
+     "uk": "Так, щоб вас бачили"
     },
     {
      "en": "Yes, with the hazard lights",
-     "es": "Sí, con la luz de emergencia"
+     "es": "Sí, con la luz de emergencia",
+     "uk": "Так, з аварійною сигналізацією"
     }
    ],
    "why": {
     "en": "Position lights instead.",
-    "es": "Luces de posición."
+    "es": "Luces de posición.",
+    "uk": "Замість нього — габаритні вогні."
    }
   },
   {
@@ -688,25 +824,30 @@ window.DGT_DATA = {
    "tag": "main",
    "q": {
     "en": "An oncoming car approaches while you use main beam. You…",
-    "es": "Se acerca un turismo de frente mientras llevas la larga. Tú…"
+    "es": "Se acerca un turismo de frente mientras llevas la larga. Tú…",
+    "uk": "Назустріч їде легковик, а у вас дальнє. Ви…"
    },
    "o": [
     {
      "en": "switch to dipped beam",
-     "es": "cambias a la de cruce"
+     "es": "cambias a la de cruce",
+     "uk": "перемикаєте на ближнє"
     },
     {
      "en": "keep the main beam if it doesn’t dip",
-     "es": "mantienes la larga si él no cambia"
+     "es": "mantienes la larga si él no cambia",
+     "uk": "залишаєте дальнє, якщо він не перемикає"
     },
     {
      "en": "flash it repeatedly",
-     "es": "le haces ráfagas"
+     "es": "le haces ráfagas",
+     "uk": "кілька разів блимаєте ним"
     }
    ],
    "why": {
     "en": "Even if the other driver doesn’t dip.",
-    "es": "Aunque el otro no lo haga."
+    "es": "Aunque el otro no lo haga.",
+    "uk": "Навіть якщо інший водій не перемикає."
    }
   },
   {
@@ -714,25 +855,30 @@ window.DGT_DATA = {
    "tag": "fog",
    "q": {
     "en": "Are front fog lights compulsory on a motorcycle?",
-    "es": "¿Son obligatorias las antiniebla delanteras en una moto?"
+    "es": "¿Son obligatorias las antiniebla delanteras en una moto?",
+    "uk": "Чи обов’язкові передні протитуманні фари на мотоциклі?"
    },
    "o": [
     {
      "en": "No, optional",
-     "es": "No, son opcionales"
+     "es": "No, son opcionales",
+     "uk": "Ні, необов’язкові"
     },
     {
      "en": "Yes",
-     "es": "Sí"
+     "es": "Sí",
+     "uk": "Так"
     },
     {
      "en": "Only on A2 motorcycles",
-     "es": "Solo en motos A2"
+     "es": "Solo en motos A2",
+     "uk": "Лише на мотоциклах A2"
     }
    ],
    "why": {
     "en": "1 or 2, white or selective yellow.",
-    "es": "1 o 2, blancas o amarillo selectivo."
+    "es": "1 o 2, blancas o amarillo selectivo.",
+    "uk": "1 або 2, білі чи селективно жовті."
    }
   },
   {
@@ -740,25 +886,30 @@ window.DGT_DATA = {
    "tag": "fog",
    "q": {
     "en": "In heavy (not very heavy) rain, may you switch on the rear fog light?",
-    "es": "Con lluvia intensa (no muy intensa), ¿puedes encender la antiniebla trasera?"
+    "es": "Con lluvia intensa (no muy intensa), ¿puedes encender la antiniebla trasera?",
+    "uk": "У сильний (але не дуже сильний) дощ чи можна вмикати задній протитуманний вогонь?"
    },
    "o": [
     {
      "en": "No, only in especially bad conditions",
-     "es": "No, solo con condiciones especialmente adversas"
+     "es": "No, solo con condiciones especialmente adversas",
+     "uk": "Ні, лише за особливо поганих умов"
     },
     {
      "en": "Yes",
-     "es": "Sí"
+     "es": "Sí",
+     "uk": "Так"
     },
     {
      "en": "Yes, in town",
-     "es": "Sí, en poblado"
+     "es": "Sí, en poblado",
+     "uk": "Так, у місті"
     }
    ],
    "why": {
     "en": "Very heavy rain, thick fog, heavy snow, dense dust.",
-    "es": "Lluvia muy intensa, niebla espesa, nevada fuerte, polvo denso."
+    "es": "Lluvia muy intensa, niebla espesa, nevada fuerte, polvo denso.",
+    "uk": "Дуже сильний дощ, густий туман, сильний сніг, щільний пил."
    }
   },
   {
@@ -766,25 +917,30 @@ window.DGT_DATA = {
    "tag": "fog",
    "q": {
     "en": "The front fog light may only be switched on with…",
-    "es": "La antiniebla delantera solo puede encenderse con…"
+    "es": "La antiniebla delantera solo puede encenderse con…",
+    "uk": "Передній протитуманний можна вмикати лише разом із…"
    },
    "o": [
     {
      "en": "the position lights on",
-     "es": "la luz de posición encendida"
+     "es": "la luz de posición encendida",
+     "uk": "габаритними вогнями"
     },
     {
      "en": "the main beam on",
-     "es": "la luz de carretera encendida"
+     "es": "la luz de carretera encendida",
+     "uk": "дальнім світлом"
     },
     {
      "en": "the hazard lights on",
-     "es": "la luz de emergencia"
+     "es": "la luz de emergencia",
+     "uk": "аварійною сигналізацією"
     }
    ],
    "why": {
     "en": "Alone or with dipped or main beam.",
-    "es": "Sola o con la de cruce o carretera."
+    "es": "Sola o con la de cruce o carretera.",
+    "uk": "Сам або з ближнім чи дальнім."
    }
   },
   {
@@ -792,25 +948,30 @@ window.DGT_DATA = {
    "tag": "fog",
    "q": {
     "en": "The rear fog light may only be switched on with…",
-    "es": "La antiniebla trasera solo puede encenderse con…"
+    "es": "La antiniebla trasera solo puede encenderse con…",
+    "uk": "Задній протитуманний можна вмикати лише разом із…"
    },
    "o": [
     {
      "en": "the dipped, main or front fog light on",
-     "es": "la de cruce, carretera o antiniebla delantera encendida"
+     "es": "la de cruce, carretera o antiniebla delantera encendida",
+     "uk": "ближнім, дальнім чи переднім протитуманним"
     },
     {
      "en": "the position lights only",
-     "es": "solo la de posición"
+     "es": "solo la de posición",
+     "uk": "лише габаритними вогнями"
     },
     {
      "en": "the brake light",
-     "es": "la luz de freno"
+     "es": "la luz de freno",
+     "uk": "стоп-сигналом"
     }
    ],
    "why": {
     "en": "It does not light the road.",
-    "es": "No alumbra la vía."
+    "es": "No alumbra la vía.",
+    "uk": "Дорогу він не освітлює."
    }
   },
   {
@@ -818,25 +979,30 @@ window.DGT_DATA = {
    "tag": "fog",
    "q": {
     "en": "On a narrow road (6 m) with the “dangerous bends” sign, in clear weather, you may use…",
-    "es": "En una vía estrecha (6 m) con la señal «curvas peligrosas», con buen tiempo, puedes usar…"
+    "es": "En una vía estrecha (6 m) con la señal «curvas peligrosas», con buen tiempo, puedes usar…",
+    "uk": "На вузькій дорозі (6 м) зі знаком «небезпечні повороти» в ясну погоду можна вмикати…"
    },
    "o": [
     {
      "en": "the front fog light",
-     "es": "la antiniebla delantera"
+     "es": "la antiniebla delantera",
+     "uk": "передній протитуманний"
     },
     {
      "en": "the rear fog light",
-     "es": "la antiniebla trasera"
+     "es": "la antiniebla trasera",
+     "uk": "задній протитуманний"
     },
     {
      "en": "both fog lights",
-     "es": "las dos antiniebla"
+     "es": "las dos antiniebla",
+     "uk": "обидва протитуманні"
     }
    ],
    "why": {
     "en": "The rear one never for bends.",
-    "es": "La trasera nunca por las curvas."
+    "es": "La trasera nunca por las curvas.",
+    "uk": "Задній — ніколи через повороти."
    }
   },
   {
@@ -844,25 +1010,30 @@ window.DGT_DATA = {
    "tag": "fog",
    "q": {
     "en": "In fog by day, at least which lights must you have on?",
-    "es": "Con niebla de día, ¿qué luces debes llevar como mínimo?"
+    "es": "Con niebla de día, ¿qué luces debes llevar como mínimo?",
+    "uk": "Які світлові прилади щонайменше мають бути ввімкнені в туман удень?"
    },
    "o": [
     {
      "en": "Position lights plus any lighting light (fog, dipped or main)",
-     "es": "Posición más cualquier luz de alumbrado (antiniebla, cruce o carretera)"
+     "es": "Posición más cualquier luz de alumbrado (antiniebla, cruce o carretera)",
+     "uk": "Габаритні плюс будь-яке освітлювальне світло (протитуманне, ближнє чи дальнє)"
     },
     {
      "en": "Only position lights",
-     "es": "Solo las de posición"
+     "es": "Solo las de posición",
+     "uk": "Лише габаритні"
     },
     {
      "en": "Only the rear fog light",
-     "es": "Solo la antiniebla trasera"
+     "es": "Solo la antiniebla trasera",
+     "uk": "Лише задній протитуманний"
     }
    ],
    "why": {
     "en": "At night: position and dipped at least.",
-    "es": "De noche: al menos posición y cruce."
+    "es": "De noche: al menos posición y cruce.",
+    "uk": "Уночі: щонайменше габаритні й ближнє."
    }
   },
   {
@@ -870,25 +1041,30 @@ window.DGT_DATA = {
    "tag": "fog",
    "q": {
     "en": "Using the front fog light together with the main beam is…",
-    "es": "Usar la antiniebla delantera junto con la luz de carretera…"
+    "es": "Usar la antiniebla delantera junto con la luz de carretera…",
+    "uk": "Вмикати передній протитуманний разом із дальнім…"
    },
    "o": [
     {
      "en": "allowed but not advisable: it can reflect and dazzle you",
-     "es": "se permite pero no es aconsejable: puede reflejarse y deslumbrarte"
+     "es": "se permite pero no es aconsejable: puede reflejarse y deslumbrarte",
+     "uk": "дозволено, але не варто: світло може відбиватися й засліплювати вас"
     },
     {
      "en": "forbidden",
-     "es": "está prohibido"
+     "es": "está prohibido",
+     "uk": "заборонено"
     },
     {
      "en": "compulsory in fog",
-     "es": "es obligatorio con niebla"
+     "es": "es obligatorio con niebla",
+     "uk": "обов’язково в туман"
     }
    ],
    "why": {
     "en": "In fog the light bounces back.",
-    "es": "Con niebla la luz rebota."
+    "es": "Con niebla la luz rebota.",
+    "uk": "У тумані світло відбивається назад."
    }
   },
   {
@@ -896,25 +1072,30 @@ window.DGT_DATA = {
    "tag": "fog",
    "q": {
     "en": "What colour may a motorcycle’s rear fog light be?",
-    "es": "¿De qué color puede ser la antiniebla trasera de una moto?"
+    "es": "¿De qué color puede ser la antiniebla trasera de una moto?",
+    "uk": "Якого кольору може бути задній протитуманний вогонь мотоцикла?"
    },
    "o": [
     {
      "en": "Red",
-     "es": "Roja"
+     "es": "Roja",
+     "uk": "Червоного"
     },
     {
      "en": "White",
-     "es": "Blanca"
+     "es": "Blanca",
+     "uk": "Білого"
     },
     {
      "en": "Selective yellow",
-     "es": "Amarillo selectivo"
+     "es": "Amarillo selectivo",
+     "uk": "Селективно жовтого"
     }
    ],
    "why": {
     "en": "Optional, 1 or 2.",
-    "es": "Opcional, 1 o 2."
+    "es": "Opcional, 1 o 2.",
+    "uk": "Необов’язковий, 1 або 2."
    }
   },
   {
@@ -922,25 +1103,30 @@ window.DGT_DATA = {
    "tag": "fog",
    "q": {
     "en": "Heavy snow at night. At least which lights?",
-    "es": "Nevada fuerte de noche. ¿Qué luces como mínimo?"
+    "es": "Nevada fuerte de noche. ¿Qué luces como mínimo?",
+    "uk": "Сильний снігопад уночі. Які світлові прилади щонайменше?"
    },
    "o": [
     {
      "en": "Position and dipped beam (others may be added)",
-     "es": "Posición y cruce (pueden añadirse las demás)"
+     "es": "Posición y cruce (pueden añadirse las demás)",
+     "uk": "Габаритні й ближнє (можна додати інші)"
     },
     {
      "en": "Only the front fog light",
-     "es": "Solo la antiniebla delantera"
+     "es": "Solo la antiniebla delantera",
+     "uk": "Лише передній протитуманний"
     },
     {
      "en": "Only position lights",
-     "es": "Solo las de posición"
+     "es": "Solo las de posición",
+     "uk": "Лише габаритні"
     }
    ],
    "why": {
     "en": "The rear fog light is allowed too: heavy snow.",
-    "es": "La antiniebla trasera también se permite: nevada fuerte."
+    "es": "La antiniebla trasera también se permite: nevada fuerte.",
+    "uk": "Задній протитуманний теж дозволено: сильний снігопад."
    }
   },
   {
@@ -948,25 +1134,30 @@ window.DGT_DATA = {
    "tag": "special",
    "q": {
     "en": "Riding on a reversible lane by day, you must have on at least…",
-    "es": "Circulando de día por un carril reversible, debes llevar al menos…"
+    "es": "Circulando de día por un carril reversible, debes llevar al menos…",
+    "uk": "Їдучи вдень реверсивною смугою, ви мусите мати ввімкненим щонайменше…"
    },
    "o": [
     {
      "en": "the dipped beam",
-     "es": "la luz de cruce"
+     "es": "la luz de cruce",
+     "uk": "ближнє світло"
     },
     {
      "en": "only position lights",
-     "es": "solo las de posición"
+     "es": "solo las de posición",
+     "uk": "лише габаритні"
     },
     {
      "en": "the hazard lights",
-     "es": "la luz de emergencia"
+     "es": "la luz de emergencia",
+     "uk": "аварійну сигналізацію"
     }
    ],
    "why": {
     "en": "Day and night.",
-    "es": "De día y de noche."
+    "es": "De día y de noche.",
+    "uk": "Удень і вночі."
    }
   },
   {
@@ -974,25 +1165,30 @@ window.DGT_DATA = {
    "tag": "special",
    "q": {
     "en": "You ride in the normal-direction lane next to a contraflow lane. Lights?",
-    "es": "Circulas por el carril del sentido normal contiguo a un carril en sentido contrario. ¿Luces?"
+    "es": "Circulas por el carril del sentido normal contiguo a un carril en sentido contrario. ¿Luces?",
+    "uk": "Ви їдете смугою звичайного напрямку поруч зі зустрічною смугою. Світло?"
    },
    "o": [
     {
      "en": "At least dipped, day and night",
-     "es": "Al menos la de cruce, de día y de noche"
+     "es": "Al menos la de cruce, de día y de noche",
+     "uk": "Щонайменше ближнє, удень і вночі"
     },
     {
      "en": "None by day",
-     "es": "Ninguna de día"
+     "es": "Ninguna de día",
+     "uk": "Удень жодного"
     },
     {
      "en": "Main beam",
-     "es": "La de carretera"
+     "es": "La de carretera",
+     "uk": "Дальнє"
     }
    ],
    "why": {
     "en": "The adjacent lane too.",
-    "es": "También el carril contiguo."
+    "es": "También el carril contiguo.",
+    "uk": "Сусідня смуга теж."
    }
   },
   {
@@ -1000,25 +1196,30 @@ window.DGT_DATA = {
    "tag": "special",
    "q": {
     "en": "On a road with a temporary additional lane, who must have the dipped beam on by day?",
-    "es": "En una vía con carril adicional circunstancial, ¿quién debe llevar de día la luz de cruce?"
+    "es": "En una vía con carril adicional circunstancial, ¿quién debe llevar de día la luz de cruce?",
+    "uk": "Хто на дорозі з тимчасовою додатковою смугою мусить удень вмикати ближнє?"
    },
    "o": [
     {
      "en": "Every vehicle using it",
-     "es": "Todos los vehículos que circulen por ella"
+     "es": "Todos los vehículos que circulen por ella",
+     "uk": "Кожен транспортний засіб, що нею їде"
     },
     {
      "en": "Only motorcycles",
-     "es": "Solo las motos"
+     "es": "Solo las motos",
+     "uk": "Лише мотоцикли"
     },
     {
      "en": "Only lorries",
-     "es": "Solo los camiones"
+     "es": "Solo los camiones",
+     "uk": "Лише вантажівки"
     }
    ],
    "why": {
     "en": "Motorcycles have it on anyway.",
-    "es": "Las motos ya la llevan."
+    "es": "Las motos ya la llevan.",
+    "uk": "Мотоцикли й так їздять з ним."
    }
   },
   {
@@ -1026,25 +1227,30 @@ window.DGT_DATA = {
    "tag": "dazzle",
    "q": {
     "en": "Dazzle is…",
-    "es": "El deslumbramiento es…"
+    "es": "El deslumbramiento es…",
+    "uk": "Засліплення — це…"
    },
    "o": [
     {
      "en": "a temporary blindness caused by more light than the eyes can take",
-     "es": "una ceguera temporal por recibir más luz de la que los ojos soportan"
+     "es": "una ceguera temporal por recibir más luz de la que los ojos soportan",
+     "uk": "тимчасова сліпота через більше світла, ніж можуть витримати очі"
     },
     {
      "en": "a fault in the headlight",
-     "es": "una avería del faro"
+     "es": "una avería del faro",
+     "uk": "несправність фари"
     },
     {
      "en": "a type of fog light",
-     "es": "un tipo de antiniebla"
+     "es": "un tipo de antiniebla",
+     "uk": "різновид протитуманного світла"
     }
    ],
    "why": {
     "en": "It lasts a few seconds.",
-    "es": "Dura unos segundos."
+    "es": "Dura unos segundos.",
+    "uk": "Триває кілька секунд."
    }
   },
   {
@@ -1052,25 +1258,30 @@ window.DGT_DATA = {
    "tag": "dazzle",
    "q": {
     "en": "At night you overtake a car. When may you switch on your main beam?",
-    "es": "De noche adelantas a un turismo. ¿Cuándo puedes poner la luz larga?"
+    "es": "De noche adelantas a un turismo. ¿Cuándo puedes poner la luz larga?",
+    "uk": "Уночі ви обганяєте легковик. Коли можна ввімкнути дальнє?"
    },
    "o": [
     {
      "en": "When you are level with it",
-     "es": "Cuando estés en paralelo con él"
+     "es": "Cuando estés en paralelo con él",
+     "uk": "Коли порівнялися з ним"
     },
     {
      "en": "Before starting to overtake",
-     "es": "Antes de empezar a adelantar"
+     "es": "Antes de empezar a adelantar",
+     "uk": "Перш ніж почати обгін"
     },
     {
      "en": "Never while overtaking",
-     "es": "Nunca durante el adelantamiento"
+     "es": "Nunca durante el adelantamiento",
+     "uk": "Під час обгону ніколи"
     }
    ],
    "why": {
     "en": "At that moment the overtaken driver dips.",
-    "es": "En ese momento el adelantado pone la de cruce."
+    "es": "En ese momento el adelantado pone la de cruce.",
+    "uk": "У цю мить той, кого обганяють, перемикає на ближнє."
    }
   },
   {
@@ -1078,25 +1289,30 @@ window.DGT_DATA = {
    "tag": "dazzle",
    "q": {
     "en": "On a bend, who should switch to dipped beam first?",
-    "es": "En una curva, ¿quién debe cambiar primero a la luz de cruce?"
+    "es": "En una curva, ¿quién debe cambiar primero a la luz de cruce?",
+    "uk": "Хто в повороті має першим перемкнути на ближнє?"
    },
    "o": [
     {
      "en": "The one for whom the bend turns right",
-     "es": "Aquel para quien la curva va hacia la derecha"
+     "es": "Aquel para quien la curva va hacia la derecha",
+     "uk": "Той, для кого поворот праворуч"
     },
     {
      "en": "The one for whom it turns left",
-     "es": "Aquel para quien va hacia la izquierda"
+     "es": "Aquel para quien va hacia la izquierda",
+     "uk": "Той, для кого поворот ліворуч"
     },
     {
      "en": "Both at the same time",
-     "es": "Ambos a la vez"
+     "es": "Ambos a la vez",
+     "uk": "Обидва одночасно"
     }
    ],
    "why": {
     "en": "Its beam falls on oncoming drivers.",
-    "es": "Su haz incide sobre los que vienen de frente."
+    "es": "Su haz incide sobre los que vienen de frente.",
+    "uk": "Його промінь падає на зустрічних водіїв."
    }
   },
   {
@@ -1104,25 +1320,30 @@ window.DGT_DATA = {
    "tag": "dazzle",
    "q": {
     "en": "You carry a passenger and a loaded top case at night. You should…",
-    "es": "Llevas de noche pasajero y un baúl cargado. Deberías…"
+    "es": "Llevas de noche pasajero y un baúl cargado. Deberías…",
+    "uk": "Уночі ви везете пасажира й завантажений кофр. Варто…"
    },
    "o": [
     {
      "en": "check the headlight aim: the rear sinks and the beam rises",
-     "es": "comprobar el reglaje del faro: la parte trasera baja y el haz sube"
+     "es": "comprobar el reglaje del faro: la parte trasera baja y el haz sube",
+     "uk": "перевірити нахил фари: задня частина просідає, і промінь піднімається"
     },
     {
      "en": "use the main beam",
-     "es": "usar la luz larga"
+     "es": "usar la luz larga",
+     "uk": "вмикати дальнє"
     },
     {
      "en": "switch on the rear fog light",
-     "es": "encender la antiniebla trasera"
+     "es": "encender la antiniebla trasera",
+     "uk": "увімкнути задній протитуманний"
     }
    ],
    "why": {
     "en": "To avoid dazzling others.",
-    "es": "Para no deslumbrar a los demás."
+    "es": "Para no deslumbrar a los demás.",
+    "uk": "Щоб не засліплювати інших."
    }
   },
   {
@@ -1130,25 +1351,30 @@ window.DGT_DATA = {
    "tag": "dazzle",
    "q": {
     "en": "An oncoming vehicle dazzles you. You…",
-    "es": "Un vehículo que viene de frente te deslumbra. Tú…"
+    "es": "Un vehículo que viene de frente te deslumbra. Tú…",
+    "uk": "Вас засліплює зустрічний транспорт. Ви…"
    },
    "o": [
     {
      "en": "slow down, even stop, without changing your position",
-     "es": "reduces la velocidad, incluso te detienes, sin variar tu posición"
+     "es": "reduces la velocidad, incluso te detienes, sin variar tu posición",
+     "uk": "сповільнюєтеся, навіть зупиняєтеся, не змінюючи положення"
     },
     {
      "en": "move onto the shoulder",
-     "es": "sales al arcén"
+     "es": "sales al arcén",
+     "uk": "з’їжджаєте на узбіччя"
     },
     {
      "en": "flash your main beam at it",
-     "es": "le das la luz larga"
+     "es": "le das la luz larga",
+     "uk": "блимаєте на нього дальнім"
     }
    ],
    "why": {
     "en": "Leaving for the shoulder risks running off the road or hitting someone.",
-    "es": "Salir al arcén es arriesgado: puedes salirte o encontrar a alguien."
+    "es": "Salir al arcén es arriesgado: puedes salirte o encontrar a alguien.",
+    "uk": "З’їзд на узбіччя загрожує вилетом з дороги чи наїздом на когось."
    }
   },
   {
@@ -1156,25 +1382,30 @@ window.DGT_DATA = {
    "tag": "dazzle",
    "q": {
     "en": "To reduce the chance of being dazzled by oncoming vehicles, you…",
-    "es": "Para reducir la posibilidad de ser deslumbrado por los que vienen de frente…"
+    "es": "Para reducir la posibilidad de ser deslumbrado por los que vienen de frente…",
+    "uk": "Щоб менше засліплювали зустрічні, ви…"
    },
    "o": [
     {
      "en": "look right, following the edge line, and close the left eye",
-     "es": "miras a la derecha guiándote por la línea del borde y cierras el ojo izquierdo"
+     "es": "miras a la derecha guiándote por la línea del borde y cierras el ojo izquierdo",
+     "uk": "дивитеся праворуч уздовж крайової лінії й закриваєте ліве око"
     },
     {
      "en": "look straight at their lights",
-     "es": "miras directamente a sus luces"
+     "es": "miras directamente a sus luces",
+     "uk": "дивитеся просто на їхні фари"
     },
     {
      "en": "close both eyes briefly",
-     "es": "cierras los dos ojos un instante"
+     "es": "cierras los dos ojos un instante",
+     "uk": "ненадовго закриваєте обидва ока"
     }
    ],
    "why": {
     "en": "The left eye gets the most light.",
-    "es": "El ojo izquierdo es el que más luz recibe."
+    "es": "El ojo izquierdo es el que más luz recibe.",
+    "uk": "Ліве око отримує найбільше світла."
    }
   },
   {
@@ -1182,25 +1413,30 @@ window.DGT_DATA = {
    "tag": "dazzle",
    "q": {
     "en": "The vehicle behind dazzles you through the mirrors. You may…",
-    "es": "El vehículo de detrás te deslumbra por los espejos. Puedes…"
+    "es": "El vehículo de detrás te deslumbra por los espejos. Puedes…",
+    "uk": "Транспорт позаду засліплює вас через дзеркала. Можна…"
    },
    "o": [
     {
      "en": "change the angle of the mirrors or your position",
-     "es": "cambiar la orientación de los retrovisores o tu posición"
+     "es": "cambiar la orientación de los retrovisores o tu posición",
+     "uk": "змінити кут дзеркал чи своє положення"
     },
     {
      "en": "brake suddenly",
-     "es": "frenar bruscamente"
+     "es": "frenar bruscamente",
+     "uk": "різко загальмувати"
     },
     {
      "en": "switch on the rear fog light",
-     "es": "encender la antiniebla trasera"
+     "es": "encender la antiniebla trasera",
+     "uk": "увімкнути задній протитуманний"
     }
    ],
    "why": {
     "en": "So the light doesn’t reach your eyes.",
-    "es": "Para que la luz no se refleje en tus ojos."
+    "es": "Para que la luz no se refleje en tus ojos.",
+    "uk": "Щоб світло не потрапляло в очі."
    }
   },
   {
@@ -1208,25 +1444,30 @@ window.DGT_DATA = {
    "tag": "dazzle",
    "q": {
     "en": "When may you switch the main beam back on after meeting a vehicle?",
-    "es": "¿Cuándo puedes volver a poner la luz larga tras cruzarte con un vehículo?"
+    "es": "¿Cuándo puedes volver a poner la luz larga tras cruzarte con un vehículo?",
+    "uk": "Коли можна знову ввімкнути дальнє після зустрічі з транспортним засобом?"
    },
    "o": [
     {
      "en": "When you are sure you won’t dazzle anyone",
-     "es": "Cuando estés seguro de no deslumbrar a nadie"
+     "es": "Cuando estés seguro de no deslumbrar a nadie",
+     "uk": "Коли ви певні, що нікого не засліпите"
     },
     {
      "en": "Immediately",
-     "es": "Inmediatamente"
+     "es": "Inmediatamente",
+     "uk": "Одразу"
     },
     {
      "en": "After 10 seconds",
-     "es": "A los 10 segundos"
+     "es": "A los 10 segundos",
+     "uk": "Через 10 секунд"
     }
    ],
    "why": {
     "en": "Including drivers ahead through their mirrors.",
-    "es": "Incluidos los de delante por sus retrovisores."
+    "es": "Incluidos los de delante por sus retrovisores.",
+    "uk": "Зокрема водіїв попереду через їхні дзеркала."
    }
   },
   {
@@ -1234,25 +1475,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "What colour are the indicators?",
-    "es": "¿De qué color son los intermitentes?"
+    "es": "¿De qué color son los intermitentes?",
+    "uk": "Якого кольору покажчики повороту?"
    },
    "o": [
     {
      "en": "Amber",
-     "es": "Amarillo auto"
+     "es": "Amarillo auto",
+     "uk": "Жовті (бурштинові)"
     },
     {
      "en": "White",
-     "es": "Blanco"
+     "es": "Blanco",
+     "uk": "Білі"
     },
     {
      "en": "Red",
-     "es": "Rojo"
+     "es": "Rojo",
+     "uk": "Червоні"
     }
    ],
    "why": {
     "en": "Compulsory.",
-    "es": "Obligatorios."
+    "es": "Obligatorios.",
+    "uk": "Обов’язкові."
    }
   },
   {
@@ -1260,25 +1506,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "Are hazard warning lights compulsory on a motorcycle?",
-    "es": "¿Es obligatoria la luz de emergencia en una motocicleta?"
+    "es": "¿Es obligatoria la luz de emergencia en una motocicleta?",
+    "uk": "Чи обов’язкова аварійна сигналізація на мотоциклі?"
    },
    "o": [
     {
      "en": "No, optional",
-     "es": "No, opcional"
+     "es": "No, opcional",
+     "uk": "Ні, необов’язкова"
     },
     {
      "en": "Yes, as on all automobiles",
-     "es": "Sí, como en todos los automóviles"
+     "es": "Sí, como en todos los automóviles",
+     "uk": "Так, як на всіх автомобілях"
     },
     {
      "en": "Only above 125 cm³",
-     "es": "Solo de más de 125 cm³"
+     "es": "Solo de más de 125 cm³",
+     "uk": "Лише понад 125 см³"
     }
    ],
    "why": {
     "en": "Compulsory on other automobiles.",
-    "es": "Obligatoria en los demás automóviles."
+    "es": "Obligatoria en los demás automóviles.",
+    "uk": "Обов’язкова на інших автомобілях."
    }
   },
   {
@@ -1286,25 +1537,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "The hazard warning lights consist of…",
-    "es": "La luz de emergencia consiste en…"
+    "es": "La luz de emergencia consiste en…",
+    "uk": "Аварійна сигналізація — це…"
    },
    "o": [
     {
      "en": "all indicators flashing at the same time",
-     "es": "el funcionamiento simultáneo de todos los intermitentes"
+     "es": "el funcionamiento simultáneo de todos los intermitentes",
+     "uk": "одночасне блимання всіх покажчиків повороту"
     },
     {
      "en": "the brake light flashing",
-     "es": "la luz de freno intermitente"
+     "es": "la luz de freno intermitente",
+     "uk": "блимання стоп-сигналу"
     },
     {
      "en": "the main beam flashing",
-     "es": "ráfagas de la luz larga"
+     "es": "ráfagas de la luz larga",
+     "uk": "блимання дальнього світла"
     }
    ],
    "why": {
     "en": "With a flashing red tell-tale.",
-    "es": "Con un testigo rojo intermitente."
+    "es": "Con un testigo rojo intermitente.",
+    "uk": "З червоним миготливим індикатором."
    }
   },
   {
@@ -1312,25 +1568,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "To warn that you are going to brake hard, you…",
-    "es": "Para avisar de que vas a frenar considerablemente…"
+    "es": "Para avisar de que vas a frenar considerablemente…",
+    "uk": "Щоб попередити, що різко загальмуєте, ви…"
    },
    "o": [
     {
      "en": "use the brake light repeatedly, when possible",
-     "es": "usas la luz de freno de forma reiterada, si es posible"
+     "es": "usas la luz de freno de forma reiterada, si es posible",
+     "uk": "кілька разів поспіль вмикаєте стоп-сигнал, коли можна"
     },
     {
      "en": "switch on the rear fog light",
-     "es": "enciendes la antiniebla trasera"
+     "es": "enciendes la antiniebla trasera",
+     "uk": "вмикаєте задній протитуманний"
     },
     {
      "en": "sound the horn",
-     "es": "tocas el claxon"
+     "es": "tocas el claxon",
+     "uk": "сигналите"
     }
    ],
    "why": {
     "en": "Or move your arm up and down.",
-    "es": "O mueves el brazo de arriba abajo."
+    "es": "O mueves el brazo de arriba abajo.",
+    "uk": "Або рухаєте рукою вгору-вниз."
    }
   },
   {
@@ -1338,25 +1599,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "Is a reversing light compulsory on a motorcycle?",
-    "es": "¿Es obligatoria la luz de marcha atrás en una moto?"
+    "es": "¿Es obligatoria la luz de marcha atrás en una moto?",
+    "uk": "Чи обов’язковий ліхтар заднього ходу на мотоциклі?"
    },
    "o": [
     {
      "en": "No, optional",
-     "es": "No, opcional"
+     "es": "No, opcional",
+     "uk": "Ні, необов’язковий"
     },
     {
      "en": "Yes",
-     "es": "Sí"
+     "es": "Sí",
+     "uk": "Так"
     },
     {
      "en": "Only with sidecar",
-     "es": "Solo con sidecar"
+     "es": "Solo con sidecar",
+     "uk": "Лише з коляскою"
     }
    ],
    "why": {
     "en": "White, at the rear.",
-    "es": "Blanca, en la parte trasera."
+    "es": "Blanca, en la parte trasera.",
+    "uk": "Білий, ззаду."
    }
   },
   {
@@ -1364,25 +1630,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "The rear number-plate light comes on…",
-    "es": "La luz de la placa de matrícula se enciende…"
+    "es": "La luz de la placa de matrícula se enciende…",
+    "uk": "Ліхтар освітлення заднього номерного знака вмикається…"
    },
    "o": [
     {
      "en": "automatically with the position lights",
-     "es": "automáticamente con las luces de posición"
+     "es": "automáticamente con las luces de posición",
+     "uk": "автоматично з габаритними вогнями"
     },
     {
      "en": "only with the main beam",
-     "es": "solo con la luz larga"
+     "es": "solo con la luz larga",
+     "uk": "лише з дальнім світлом"
     },
     {
      "en": "only when braking",
-     "es": "solo al frenar"
+     "es": "solo al frenar",
+     "uk": "лише під час гальмування"
     }
    ],
    "why": {
     "en": "So the plate can be read at night.",
-    "es": "Para que la placa se lea de noche."
+    "es": "Para que la placa se lea de noche.",
+    "uk": "Щоб номер можна було прочитати вночі."
    }
   },
   {
@@ -1390,25 +1661,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "The brake light lights up when you use…",
-    "es": "La luz de freno se enciende al usar…"
+    "es": "La luz de freno se enciende al usar…",
+    "uk": "Стоп-сигнал світиться, коли ви користуєтеся…"
    },
    "o": [
     {
      "en": "the front brake, the rear brake or both",
-     "es": "el freno delantero, el trasero o ambos"
+     "es": "el freno delantero, el trasero o ambos",
+     "uk": "переднім гальмом, заднім чи обома"
     },
     {
      "en": "only the rear brake",
-     "es": "solo el freno trasero"
+     "es": "solo el freno trasero",
+     "uk": "лише заднім гальмом"
     },
     {
      "en": "only the engine brake",
-     "es": "solo el freno motor"
+     "es": "solo el freno motor",
+     "uk": "лише гальмуванням двигуном"
     }
    ],
    "why": {
     "en": "It tells those behind you are braking.",
-    "es": "Indica a los de detrás que estás frenando."
+    "es": "Indica a los de detrás que estás frenando.",
+    "uk": "Він показує тим, хто позаду, що ви гальмуєте."
    }
   },
   {
@@ -1416,25 +1692,30 @@ window.DGT_DATA = {
    "tag": "purpose",
    "q": {
     "en": "Between sunset and sunrise, must every vehicle on the road have its lights on?",
-    "es": "Entre el ocaso y la salida del sol, ¿deben llevar las luces encendidas todos los vehículos que circulen?"
+    "es": "Entre el ocaso y la salida del sol, ¿deben llevar las luces encendidas todos los vehículos que circulen?",
+    "uk": "Чи мусить від заходу до сходу сонця кожен транспортний засіб на дорозі мати ввімкнене світло?"
    },
    "o": [
     {
      "en": "Yes, the lights that correspond",
-     "es": "Sí, el alumbrado que corresponda"
+     "es": "Sí, el alumbrado que corresponda",
+     "uk": "Так, відповідні світлові прилади"
     },
     {
      "en": "Only out of town",
-     "es": "Solo fuera de poblado"
+     "es": "Solo fuera de poblado",
+     "uk": "Лише за містом"
     },
     {
      "en": "Only on poorly lit roads",
-     "es": "Solo en vías mal iluminadas"
+     "es": "Solo en vías mal iluminadas",
+     "uk": "Лише на погано освітлених дорогах"
     }
    ],
    "why": {
     "en": "And at any time in tunnels.",
-    "es": "Y a cualquier hora en túneles."
+    "es": "Y a cualquier hora en túneles.",
+    "uk": "А в тунелях — будь-коли."
    }
   },
   {
@@ -1442,25 +1723,30 @@ window.DGT_DATA = {
    "tag": "position",
    "q": {
     "en": "What colour is a motorcycle’s rear position light?",
-    "es": "¿De qué color es la luz de posición trasera de una moto?"
+    "es": "¿De qué color es la luz de posición trasera de una moto?",
+    "uk": "Якого кольору задній габаритний вогонь мотоцикла?"
    },
    "o": [
     {
      "en": "Red",
-     "es": "Roja"
+     "es": "Roja",
+     "uk": "Червоний"
     },
     {
      "en": "White",
-     "es": "Blanca"
+     "es": "Blanca",
+     "uk": "Білий"
     },
     {
      "en": "Amber",
-     "es": "Amarillo auto"
+     "es": "Amarillo auto",
+     "uk": "Жовтий (бурштиновий)"
     }
    ],
    "why": {
     "en": "Front: white.",
-    "es": "Delante: blanca."
+    "es": "Delante: blanca.",
+    "uk": "Передній — білий."
    }
   },
   {
@@ -1468,25 +1754,30 @@ window.DGT_DATA = {
    "tag": "reflect",
    "q": {
     "en": "A motorcycle with a sidecar may have at the rear…",
-    "es": "Una motocicleta con sidecar puede llevar detrás…"
+    "es": "Una motocicleta con sidecar puede llevar detrás…",
+    "uk": "Мотоцикл із коляскою може мати ззаду…"
    },
    "o": [
     {
      "en": "two symmetrical red reflectors",
-     "es": "dos catadióptricos rojos simétricos"
+     "es": "dos catadióptricos rojos simétricos",
+     "uk": "два симетричні червоні світлоповертачі"
     },
     {
      "en": "one amber reflector",
-     "es": "un catadióptrico amarillo auto"
+     "es": "un catadióptrico amarillo auto",
+     "uk": "один жовтий світлоповертач"
     },
     {
      "en": "no reflectors",
-     "es": "ningún catadióptrico"
+     "es": "ningún catadióptrico",
+     "uk": "жодного світлоповертача"
     }
    ],
    "why": {
     "en": "Without sidecar: one.",
-    "es": "Sin sidecar: uno."
+    "es": "Sin sidecar: uno.",
+    "uk": "Без коляски — один."
    }
   },
   {
@@ -1494,25 +1785,30 @@ window.DGT_DATA = {
    "tag": "dipped",
    "q": {
     "en": "In town at night, on a well-lit street, your motorcycle has on…",
-    "es": "En poblado de noche, por una calle bien iluminada, tu moto lleva…"
+    "es": "En poblado de noche, por una calle bien iluminada, tu moto lleva…",
+    "uk": "Уночі в місті на добре освітленій вулиці на вашому мотоциклі ввімкнені…"
    },
    "o": [
     {
      "en": "dipped beam and position lights",
-     "es": "luz de cruce y de posición"
+     "es": "luz de cruce y de posición",
+     "uk": "ближнє світло й габаритні вогні"
     },
     {
      "en": "only position lights",
-     "es": "solo la de posición"
+     "es": "solo la de posición",
+     "uk": "лише габаритні вогні"
     },
     {
      "en": "main beam",
-     "es": "la luz de carretera"
+     "es": "la luz de carretera",
+     "uk": "дальнє світло"
     }
    ],
    "why": {
     "en": "Main beam is forbidden in town.",
-    "es": "La larga está prohibida en poblado."
+    "es": "La larga está prohibida en poblado.",
+    "uk": "Дальнє в місті заборонене."
    }
   },
   {
@@ -1520,25 +1816,30 @@ window.DGT_DATA = {
    "tag": "main",
    "q": {
     "en": "What colour is the main beam?",
-    "es": "¿De qué color es la luz de carretera?"
+    "es": "¿De qué color es la luz de carretera?",
+    "uk": "Якого кольору дальнє світло?"
    },
    "o": [
     {
      "en": "White",
-     "es": "Blanca"
+     "es": "Blanca",
+     "uk": "Біле"
     },
     {
      "en": "Selective yellow",
-     "es": "Amarillo selectivo"
+     "es": "Amarillo selectivo",
+     "uk": "Селективно жовте"
     },
     {
      "en": "Blue",
-     "es": "Azul"
+     "es": "Azul",
+     "uk": "Синє"
     }
    ],
    "why": {
     "en": "More intense than the dipped beam.",
-    "es": "Más intensa que la de cruce."
+    "es": "Más intensa que la de cruce.",
+    "uk": "Інтенсивніше за ближнє."
    }
   },
   {
@@ -1546,25 +1847,30 @@ window.DGT_DATA = {
    "tag": "special",
    "q": {
     "en": "A reversible lane at night, a contraflow lane by day: which light in both cases?",
-    "es": "Carril reversible de noche y carril en sentido contrario de día: ¿qué luz en ambos casos?"
+    "es": "Carril reversible de noche y carril en sentido contrario de día: ¿qué luz en ambos casos?",
+    "uk": "Реверсивна смуга вночі, зустрічна смуга вдень: яке світло в обох випадках?"
    },
    "o": [
     {
      "en": "At least the dipped beam",
-     "es": "Al menos la de cruce"
+     "es": "Al menos la de cruce",
+     "uk": "Щонайменше ближнє"
     },
     {
      "en": "Hazard lights",
-     "es": "La luz de emergencia"
+     "es": "La luz de emergencia",
+     "uk": "Аварійна сигналізація"
     },
     {
      "en": "Front fog lights",
-     "es": "La antiniebla delantera"
+     "es": "La antiniebla delantera",
+     "uk": "Передні протитуманні"
     }
    ],
    "why": {
     "en": "Day and night.",
-    "es": "De día y de noche."
+    "es": "De día y de noche.",
+    "uk": "Удень і вночі."
    }
   },
   {
@@ -1572,25 +1878,30 @@ window.DGT_DATA = {
    "tag": "special",
    "q": {
     "en": "Is a two-way road with three lanes separated by broken lines one of the cases requiring dipped beam by day for every vehicle?",
-    "es": "¿Una vía de doble sentido con tres carriles separados por discontinuas obliga a todos a llevar cruce de día?"
+    "es": "¿Una vía de doble sentido con tres carriles separados por discontinuas obliga a todos a llevar cruce de día?",
+    "uk": "Чи є дорога з двостороннім рухом і трьома смугами, розділеними переривчастими лініями, одним із випадків, коли кожен ТЗ мусить удень вмикати ближнє?"
    },
    "o": [
     {
      "en": "No, only reversible, additional and contraflow lanes",
-     "es": "No, solo carriles reversibles, adicionales y en sentido contrario"
+     "es": "No, solo carriles reversibles, adicionales y en sentido contrario",
+     "uk": "Ні, лише реверсивні, додаткові й зустрічні смуги"
     },
     {
      "en": "Yes",
-     "es": "Sí"
+     "es": "Sí",
+     "uk": "Так"
     },
     {
      "en": "Only in the centre lane",
-     "es": "Solo en el carril central"
+     "es": "Solo en el carril central",
+     "uk": "Лише на середній смузі"
     }
    ],
    "why": {
     "en": "On a motorcycle you have it on anyway.",
-    "es": "En moto ya la llevas igualmente."
+    "es": "En moto ya la llevas igualmente.",
+    "uk": "На мотоциклі воно й так увімкнене."
    }
   },
   {
@@ -1598,25 +1909,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "The hazard lights warn of…",
-    "es": "La luz de emergencia advierte del…"
+    "es": "La luz de emergencia advierte del…",
+    "uk": "Аварійна сигналізація попереджає про…"
    },
    "o": [
     {
      "en": "the danger of the vehicle, stopped or moving, because of an emergency",
-     "es": "peligro del vehículo, inmovilizado o en movimiento, por una emergencia"
+     "es": "peligro del vehículo, inmovilizado o en movimiento, por una emergencia",
+     "uk": "небезпеку від транспортного засобу, що стоїть чи рухається, через надзвичайну ситуацію"
     },
     {
      "en": "a turn",
-     "es": "un giro"
+     "es": "un giro",
+     "uk": "поворот"
     },
     {
      "en": "braking",
-     "es": "un frenado"
+     "es": "un frenado",
+     "uk": "гальмування"
     }
    ],
    "why": {
     "en": "Breakdown, accident…",
-    "es": "Avería, accidente…"
+    "es": "Avería, accidente…",
+    "uk": "Поломка, аварія…"
    }
   }
  ],
@@ -1625,243 +1941,297 @@ window.DGT_DATA = {
    "sec": 1,
    "en": "What lights are for",
    "es": "Finalidad de las luces",
+   "uk": "Навіщо світлові прилади",
    "recap": [
     [
      "Show the vehicle is there, light the road, warn others.",
-     "Indicar la presencia, alumbrar la vía y avisar."
+     "Indicar la presencia, alumbrar la vía y avisar.",
+     "Показати, що транспортний засіб є, освітити дорогу, попередити інших."
     ],
     [
      "Lights on from sunset to sunrise, and at any time in tunnels and underpasses.",
-     "Luces del ocaso a la salida del sol y a cualquier hora en túneles y pasos inferiores."
+     "Luces del ocaso a la salida del sol y a cualquier hora en túneles y pasos inferiores.",
+     "Світло ввімкнене від заходу до сходу сонця і будь-коли в тунелях і підземних проїздах."
     ],
     [
      "Poorly lit: plate unreadable at 10 m, dark vehicle unseen at 50 m.",
-     "Insuficientemente iluminada: matrícula ilegible a 10 m, vehículo oscuro no visible a 50 m."
+     "Insuficientemente iluminada: matrícula ilegible a 10 m, vehículo oscuro no visible a 50 m.",
+     "Погано освітлена: номер не прочитати з 10 м, темний ТЗ не видно з 50 м."
     ],
     [
      "Weaker lights after a breakdown: slow down to stop within the lit area.",
-     "Alumbrado más débil por avería: reducir hasta poder detenerse en la zona iluminada."
+     "Alumbrado más débil por avería: reducir hasta poder detenerse en la zona iluminada.",
+     "Слабше світло після поломки: сповільніться, щоб зупинитися в межах освітленої зони."
     ]
    ],
    "trap": [
     "Thinking a road with street lamps is always ‘well lit’.",
-    "Pensar que una vía con farolas está siempre «suficientemente iluminada»."
+    "Pensar que una vía con farolas está siempre «suficientemente iluminada».",
+    "Думати, що дорога з ліхтарями завжди «добре освітлена»."
    ]
   },
   "position": {
    "sec": 2,
    "en": "Position lights",
    "es": "Luces de posición",
+   "uk": "Габаритні вогні",
    "recap": [
     [
      "Presence and width: white front, red rear.",
-     "Presencia y anchura: blanca delante, roja detrás."
+     "Presencia y anchura: blanca delante, roja detrás.",
+     "Присутність і ширина: білі спереду, червоні ззаду."
     ],
     [
      "Motorcycles: 1 or 2 front and rear; three-wheelers over 1,300 mm: 2 each end.",
-     "Motos: 1 o 2 delante y detrás; tres ruedas de más de 1.300 mm: 2, en los extremos."
+     "Motos: 1 o 2 delante y detrás; tres ruedas de más de 1.300 mm: 2, en los extremos.",
+     "Мотоцикли: 1 або 2 спереду й ззаду; триколісні ТЗ ширші за 1 300 мм: 2 з кожного кінця."
     ],
     [
      "On when stopped on carriageway or shoulder at night, and parked in some places.",
-     "Encendidas al estar detenido en calzada o arcén de noche y al estacionar en ciertos lugares."
+     "Encendidas al estar detenido en calzada o arcén de noche y al estacionar en ciertos lugares.",
+     "Увімкнені на зупинці на проїзній частині чи узбіччі вночі і на стоянці в деяких місцях."
     ],
     [
      "Come on automatically with dipped, main or fog; never ride with position lights only.",
-     "Se encienden solas con cruce, carretera o antiniebla; prohibido circular solo con ellas."
+     "Se encienden solas con cruce, carretera o antiniebla; prohibido circular solo con ellas.",
+     "Вмикаються автоматично з ближнім, дальнім чи протитуманними; ніколи не їдьте лише з габаритними."
     ]
    ],
    "trap": [
     "Riding at dusk with only the position lights.",
-    "Circular al anochecer solo con la luz de posición."
+    "Circular al anochecer solo con la luz de posición.",
+    "Їхати в сутінках лише з габаритними вогнями."
    ]
   },
   "reflect": {
    "sec": 2,
    "en": "Reflectors",
    "es": "Catadióptricos",
+   "uk": "Світлоповертачі",
    "recap": [
     [
      "No light of their own: they reflect.",
-     "No tienen luz propia: reflejan."
+     "No tienen luz propia: reflejan.",
+     "Власного світла немає: вони відбивають."
     ],
     [
      "Motorcycle rear: compulsory, red, not triangular (two with sidecar).",
-     "Moto, detrás: obligatorio, rojo, no triangular (dos con sidecar)."
+     "Moto, detrás: obligatorio, rojo, no triangular (dos con sidecar).",
+     "Ззаду на мотоциклі: обов’язковий, червоний, не трикутний (два з коляскою)."
     ],
     [
      "Sides: optional, amber, one or two per side.",
-     "Laterales: opcionales, amarillo auto, uno o dos por lado."
+     "Laterales: opcionales, amarillo auto, uno o dos por lado.",
+     "Збоку: необов’язкові, жовті, один чи два з кожного боку."
     ],
     [
      "Three-wheelers over 1 m wide: two rear reflectors.",
-     "Tres ruedas de más de 1 m: dos traseros."
+     "Tres ruedas de más de 1 m: dos traseros.",
+     "Триколісні ТЗ ширші за 1 м: два задні світлоповертачі."
     ]
    ],
    "trap": [
     "Thinking the rear reflector may be triangular.",
-    "Pensar que el catadióptrico trasero puede ser triangular."
+    "Pensar que el catadióptrico trasero puede ser triangular.",
+    "Думати, що задній світлоповертач може бути трикутним."
    ]
   },
   "dipped": {
    "sec": 3,
    "en": "Dipped beam",
    "es": "Luz de cruce",
+   "uk": "Ближнє світло",
    "recap": [
     [
      "White; lights the road ahead without dazzling.",
-     "Blanca; alumbra por delante sin deslumbrar."
+     "Blanca; alumbra por delante sin deslumbrar.",
+     "Біле; освітлює дорогу попереду, не засліплюючи."
     ],
     [
      "Motorcycles: dipped + position lights at any time of day.",
-     "Motos: cruce + posición a cualquier hora del día."
+     "Motos: cruce + posición a cualquier hora del día.",
+     "Мотоцикли: ближнє + габаритні в будь-який час доби."
     ],
     [
      "Even after an ‘end of dipped beam’ sign.",
-     "Aunque aparezca la señal «Fin de alumbrado de corto alcance»."
+     "Aunque aparezca la señal «Fin de alumbrado de corto alcance».",
+     "Навіть після знака «кінець зони ближнього світла»."
     ],
     [
      "It is the light for meeting other road users.",
-     "Es la luz para cruzarse con otros usuarios."
+     "Es la luz para cruzarse con otros usuarios.",
+     "Це світло для зустрічі з іншими учасниками руху."
     ]
    ],
    "trap": [
     "Switching the dipped beam off by day on a motorcycle.",
-    "Apagar la luz de cruce de día en moto."
+    "Apagar la luz de cruce de día en moto.",
+    "Вимикати ближнє світло на мотоциклі вдень."
    ]
   },
   "main": {
    "sec": 3,
    "en": "Main beam",
    "es": "Luz de carretera",
+   "uk": "Дальнє світло",
    "recap": [
     [
      "White, more intense, lights far ahead.",
-     "Blanca, más intensa, alumbra a larga distancia."
+     "Blanca, más intensa, alumbra a larga distancia.",
+     "Біле, інтенсивніше, освітлює далеко вперед."
     ],
     [
      "Compulsory above 40 km/h: night on poorly lit roads out of town; any time in poorly lit tunnels.",
-     "Obligatoria a más de 40 km/h: de noche en interurbanas mal iluminadas; a cualquier hora en túneles mal iluminados."
+     "Obligatoria a más de 40 km/h: de noche en interurbanas mal iluminadas; a cualquier hora en túneles mal iluminados.",
+     "Обов’язкове понад 40 км/год: уночі на погано освітлених дорогах за містом; будь-коли в погано освітлених тунелях."
     ],
     [
      "At 40 km/h or less: either. Dipped if it could dazzle.",
-     "A 40 km/h o menos: cualquiera. Cruce si puede deslumbrar."
+     "A 40 km/h o menos: cualquiera. Cruce si puede deslumbrar.",
+     "40 км/год і менше: будь-яке з двох. Ближнє, якщо можна засліпити."
     ],
     [
      "Forbidden stopped, parked or in town.",
-     "Prohibida parado, estacionado o en poblado."
+     "Prohibida parado, estacionado o en poblado.",
+     "Заборонено на зупинці, стоянці чи в населеному пункті."
     ]
    ],
    "trap": [
     "Using the main beam in a poorly lit town street.",
-    "Usar la luz larga en una calle de poblado mal iluminada."
+    "Usar la luz larga en una calle de poblado mal iluminada.",
+    "Вмикати дальнє на погано освітленій міській вулиці."
    ]
   },
   "fog": {
    "sec": 3,
    "en": "Fog lights",
    "es": "Antiniebla",
+   "uk": "Протитуманні вогні",
    "recap": [
     [
      "Optional on motorcycles: front 1–2 white or selective yellow; rear 1–2 red.",
-     "Opcionales en moto: delante 1–2 blancas o amarillo selectivo; detrás 1–2 rojas."
+     "Opcionales en moto: delante 1–2 blancas o amarillo selectivo; detrás 1–2 rojas.",
+     "На мотоциклах необов’язкові: передні 1–2 білі чи селективно жовті; задній 1–2 червоні."
     ],
     [
      "Front: fog, heavy rain, snow, dust or smoke; narrow roads ≤ 6.50 m with bends sign.",
-     "Delantera: niebla, lluvia intensa, nevada, polvo o humo; vías ≤ 6,50 m con señal de curvas."
+     "Delantera: niebla, lluvia intensa, nevada, polvo o humo; vías ≤ 6,50 m con señal de curvas.",
+     "Передні: туман, сильний дощ, сніг, пил чи дим; вузькі дороги ≤ 6,50 м зі знаком поворотів."
     ],
     [
      "Rear: only especially bad conditions (thick fog, very heavy rain, heavy snow, dense dust).",
-     "Trasera: solo condiciones especialmente adversas (niebla espesa, lluvia muy intensa, nevada fuerte, polvo denso)."
+     "Trasera: solo condiciones especialmente adversas (niebla espesa, lluvia muy intensa, nevada fuerte, polvo denso).",
+     "Задній: лише особливо погані умови (густий туман, дуже сильний дощ, сильний снігопад, щільний пил)."
     ],
     [
      "Bad visibility by day: position + any light; at night: position + dipped at least.",
-     "Mala visibilidad de día: posición + cualquier alumbrado; de noche: al menos posición + cruce."
+     "Mala visibilidad de día: posición + cualquier alumbrado; de noche: al menos posición + cruce.",
+     "Погана видимість удень: габаритні + будь-яке світло; уночі: щонайменше габаритні + ближнє."
     ]
    ],
    "trap": [
     "Switching on the rear fog light in light rain.",
-    "Encender la antiniebla trasera con lluvia ligera."
+    "Encender la antiniebla trasera con lluvia ligera.",
+    "Вмикати задній протитуманний у невеликий дощ."
    ]
   },
   "special": {
    "sec": 3,
    "en": "Lanes with lights always on",
    "es": "Carriles con luz siempre",
+   "uk": "Смуги, де світло ввімкнене завжди",
    "recap": [
     [
      "Reversible lane: dipped, day and night.",
-     "Carril reversible: cruce, de día y de noche."
+     "Carril reversible: cruce, de día y de noche.",
+     "Реверсивна смуга: ближнє вдень і вночі."
     ],
     [
      "Roads with a temporary additional lane: dipped, day and night.",
-     "Vías con carril adicional circunstancial: cruce, de día y de noche."
+     "Vías con carril adicional circunstancial: cruce, de día y de noche.",
+     "Дороги з тимчасовою додатковою смугою: ближнє вдень і вночі."
     ],
     [
      "Contraflow lane and the adjacent normal lane: dipped, day and night.",
-     "Carril en sentido contrario y el contiguo del sentido normal: cruce, de día y de noche."
+     "Carril en sentido contrario y el contiguo del sentido normal: cruce, de día y de noche.",
+     "Зустрічна смуга й сусідня смуга звичайного напрямку: ближнє вдень і вночі."
     ],
     [
      "For every vehicle, not only motorcycles.",
-     "Para todos los vehículos, no solo motos."
+     "Para todos los vehículos, no solo motos.",
+     "Для всіх транспортних засобів, не лише мотоциклів."
     ]
    ],
    "trap": [
     "Thinking only the contraflow lane itself needs lights.",
-    "Pensar que solo el carril en sentido contrario necesita luces."
+    "Pensar que solo el carril en sentido contrario necesita luces.",
+    "Думати, що світло потрібне лише на самій зустрічній смузі."
    ]
   },
   "dazzle": {
    "sec": 3,
    "en": "Dazzle",
    "es": "Deslumbramientos",
+   "uk": "Засліплення",
    "recap": [
     [
      "Dip as soon as you could dazzle anyone, even if the oncoming driver doesn’t.",
-     "Poner la de cruce en cuanto puedas deslumbrar, aunque el otro no lo haga."
+     "Poner la de cruce en cuanto puedas deslumbrar, aunque el otro no lo haga.",
+     "Перемикайте на ближнє, щойно можете когось засліпити, навіть якщо зустрічний не перемикає."
     ],
     [
      "Overtaking: main beam only when level; the overtaken then dips.",
-     "Adelantamiento: larga solo en paralelo; entonces el adelantado pone la de cruce."
+     "Adelantamiento: larga solo en paralelo; entonces el adelantado pone la de cruce.",
+     "Обгін: дальнє лише після того, як порівнялися; тоді той, кого обганяють, перемикає на ближнє."
     ],
     [
      "Bends: the one turning right dips first. Keep the headlight aimed (passenger, load).",
-     "Curvas: cambia primero el que gira a la derecha. Faro bien reglado (pasajero, carga)."
+     "Curvas: cambia primero el que gira a la derecha. Faro bien reglado (pasajero, carga).",
+     "Повороти: першим перемикає той, хто повертає праворуч. Тримайте фару відрегульованою (пасажир, вантаж)."
     ],
     [
      "Dazzled: look right, close left eye; slow down, even stop, without moving onto the shoulder.",
-     "Deslumbrado: mirar a la derecha, cerrar el ojo izquierdo; reducir, incluso parar, sin salir al arcén."
+     "Deslumbrado: mirar a la derecha, cerrar el ojo izquierdo; reducir, incluso parar, sin salir al arcén.",
+     "Засліпили: дивіться праворуч, закрийте ліве око; сповільніться, аж до зупинки, не з’їжджаючи на узбіччя."
     ]
    ],
    "trap": [
     "Moving onto the shoulder when dazzled.",
-    "Salir al arcén cuando te deslumbran."
+    "Salir al arcén cuando te deslumbran.",
+    "З’їжджати на узбіччя, коли вас засліпили."
    ]
   },
   "warn": {
    "sec": 4,
    "en": "Warning lights",
    "es": "Luces de aviso",
+   "uk": "Попереджувальні вогні",
    "recap": [
     [
      "Indicators: amber, compulsory, for lateral moves.",
-     "Intermitentes: amarillo auto, obligatorios, para desplazamientos laterales."
+     "Intermitentes: amarillo auto, obligatorios, para desplazamientos laterales.",
+     "Покажчики повороту: жовті, обов’язкові, для бічних маневрів."
     ],
     [
      "Hazard lights: all indicators together; optional on motorcycles; flashing red tell-tale.",
-     "Emergencia: todos los intermitentes a la vez; opcional en moto; testigo rojo intermitente."
+     "Emergencia: todos los intermitentes a la vez; opcional en moto; testigo rojo intermitente.",
+     "Аварійна сигналізація: усі покажчики разом; на мотоциклах необов’язкова; червоний миготливий індикатор."
     ],
     [
      "Brake light: repeated use to warn of stopping or braking hard.",
-     "Freno: uso reiterado para avisar de que vas a parar o frenar mucho."
+     "Freno: uso reiterado para avisar de que vas a parar o frenar mucho.",
+     "Стоп-сигнал: кілька разів поспіль, щоб попередити про зупинку чи різке гальмування."
     ],
     [
      "Reversing light white, optional on motorcycles. Plate light on with position lights.",
-     "Marcha atrás blanca, opcional en moto. Matrícula: se enciende con la de posición."
+     "Marcha atrás blanca, opcional en moto. Matrícula: se enciende con la de posición.",
+     "Ліхтар заднього ходу білий, на мотоциклах необов’язковий. Ліхтар номера вмикається з габаритними."
     ]
    ],
    "trap": [
     "Thinking hazard lights are compulsory on every motorcycle.",
-    "Pensar que la luz de emergencia es obligatoria en toda moto."
+    "Pensar que la luz de emergencia es obligatoria en toda moto.",
+    "Думати, що аварійна сигналізація обов’язкова на кожному мотоциклі."
    ]
   }
  }

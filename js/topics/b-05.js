@@ -2,6 +2,10 @@
 window.DGT_DATA = {
  "topic": "b-05",
  "category": "b",
+ "langs": [
+  "en",
+  "es"
+ ],
  "title": {
   "en": "Topic 5 · Manoeuvres",
   "es": "Tema 5 · Las maniobras"

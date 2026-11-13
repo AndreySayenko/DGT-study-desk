@@ -2,7 +2,8 @@
 """Build the topic PDFs (English and Spanish) into ../pdf.
 
 Usage: python3 tools/build_pdf.py [version-tag] [topic-id ...]     e.g. python3 tools/build_pdf.py v1 b-02
-Without topic ids it builds every written topic (topics.BUILT).
+Without topic ids it builds every written topic (topics.BUILT). A topic with a Ukrainian translation (uk.py, see
+i18n.py) also gets a Ukrainian PDF.
 Needs Google Chrome. Set CHROME to its path if it is not found automatically."""
 import html
 import os
@@ -11,6 +12,7 @@ import subprocess
 import sys
 from pathlib import Path
 
+import i18n
 import topics
 
 VER = sys.argv[1] if len(sys.argv) > 1 else "v1"
@@ -30,6 +32,8 @@ UI = {
         sources_note="Wording is the author’s own; the thresholds come from the texts below. Check dgt.es before the exam in case a rule has changed.",
         lawdate="Law checked: November 2026",
         qn="Question",
+        tests="Tests",
+        tip="Exam tip: ",
     ),
     "es": dict(
         quiz="Autoevaluación",
@@ -41,8 +45,24 @@ UI = {
         sources_note="La redacción es propia; las cifras proceden de los textos siguientes. Conviene consultar dgt.es antes del examen por si cambia alguna norma.",
         lawdate="Normativa revisada: noviembre de 2026",
         qn="Pregunta",
+        tests="Tests",
+        tip="Ojo: ",
+    ),
+    "uk": dict(
+        quiz="Самоперевірка",
+        answers="Відповіді",
+        glossary="Глосарій: іспанська – українська",
+        gl_es="Іспанською (термін іспиту)",
+        gl_en="Українською",
+        sources="Джерела",
+        sources_note="Текст написано власними словами; числа й пороги взято з документів, наведених нижче (їхні назви подано англійською або іспанською). Перед іспитом перевірте dgt.es: правила можуть змінитися.",
+        lawdate="Законодавство перевірено: листопад 2026 р.",
+        qn="Питання",
+        tests="Тести",
+        tip="Порада до іспиту: ",
     ),
 }
+IDX = {lg: i for i, lg in enumerate(i18n.ORDER)}
 
 
 def last_section(blks):
@@ -124,9 +144,8 @@ def render_block(b, lang):
         if pills_:
             out.append('<div class="pills">' + "".join(f'<span class="pill">{pick(p, lang)}</span>' for p in pills_) + "</div>")
         if tip:
-            lab = "Exam tip: " if lang == "en" else "Ojo: "
-            txt = tip[0] if lang == "en" else tip[1]
-            out.append(f'<div class="tip"><b class="lab">{lab}</b>{txt}</div>')
+            txt = tip[IDX[lang]] if len(tip) > IDX[lang] else tip[0]
+            out.append(f'<div class="tip"><b class="lab">{UI[lang]["tip"]}</b>{txt}</div>')
         out.append("</div>")
         return "".join(out)
     if kind == "fig":
@@ -180,7 +199,7 @@ def render_sources(mod, lang, n):
 
 
 def build(tid, lang):
-    mod = topics.load(tid)
+    mod = i18n.view(topics.load(tid), lang)
     ui, meta = UI[lang], mod.META[lang]
     blks = mod.blocks()
     n = last_section(blks)
@@ -205,9 +224,11 @@ def build(tid, lang):
     )
     hp.unlink()
     print("built", pdf)
+    if mod.missing:
+        print(f"  warning: {len(mod.missing)} texts are not translated yet and appear in English. List them with: python3 tools/i18n.py todo {tid}")
 
 
 if __name__ == "__main__":
     for t in (sys.argv[2:] or list(topics.BUILT)):
-        for lg in ("en", "es"):
+        for lg in i18n.langs(topics.load(t)):
             build(t, lg)

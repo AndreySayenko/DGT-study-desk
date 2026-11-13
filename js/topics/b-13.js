@@ -2,6 +2,10 @@
 window.DGT_DATA = {
  "topic": "b-13",
  "category": "b",
+ "langs": [
+  "en",
+  "es"
+ ],
  "title": {
   "en": "Topic 13 · Vehicle maintenance and accessories",
   "es": "Tema 13 · Mantenimiento del vehículo y accesorios"

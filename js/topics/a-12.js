@@ -2,9 +2,15 @@
 window.DGT_DATA = {
  "topic": "a-12",
  "category": "a",
+ "langs": [
+  "en",
+  "es",
+  "uk"
+ ],
  "title": {
   "en": "Topic 12 · Riding techniques",
-  "es": "Tema 12 · Técnicas de conducción"
+  "es": "Tema 12 · Técnicas de conducción",
+  "uk": "Тема 12 · Техніка керування мотоциклом"
  },
  "bank": [
   {
@@ -12,25 +18,30 @@ window.DGT_DATA = {
    "tag": "features",
    "q": {
     "en": "Why do motorcycles need special preparation compared with cars?",
-    "es": "¿Por qué la moto exige una preparación especial frente al turismo?"
+    "es": "¿Por qué la moto exige una preparación especial frente al turismo?",
+    "uk": "Чому мотоцикли потребують особливої підготовки порівняно з легковиками?"
    },
    "o": [
     {
      "en": "They are less stable, more fragile, less visible and powerful for their mass",
-     "es": "Son menos estables, más frágiles, menos visibles y más potentes respecto a su masa"
+     "es": "Son menos estables, más frágiles, menos visibles y más potentes respecto a su masa",
+     "uk": "Вони менш стійкі, вразливіші, менш помітні й потужні щодо своєї маси"
     },
     {
      "en": "They are slower",
-     "es": "Son más lentas"
+     "es": "Son más lentas",
+     "uk": "Вони повільніші"
     },
     {
      "en": "They have more safety systems",
-     "es": "Tienen más sistemas de seguridad"
+     "es": "Tienen más sistemas de seguridad",
+     "uk": "У них більше систем безпеки"
     }
    ],
    "why": {
     "en": "Each of these features changes how you must ride.",
-    "es": "Cada una de esas características cambia la forma de conducir."
+    "es": "Cada una de esas características cambia la forma de conducir.",
+    "uk": "Кожна з цих особливостей змінює те, як треба їздити."
    }
   },
   {
@@ -38,25 +49,30 @@ window.DGT_DATA = {
    "tag": "features",
    "q": {
     "en": "What can happen under very hard acceleration on a motorcycle?",
-    "es": "¿Qué puede ocurrir al acelerar muy fuerte en moto?"
+    "es": "¿Qué puede ocurrir al acelerar muy fuerte en moto?",
+    "uk": "Що може статися під час дуже різкого прискорення на мотоциклі?"
    },
    "o": [
     {
      "en": "The centre of gravity shifts back, the front wheel loses grip and the bike can wobble",
-     "es": "El centro de gravedad se desplaza atrás, la delantera pierde adherencia y se favorece la fluctuación"
+     "es": "El centro de gravedad se desplaza atrás, la delantera pierde adherencia y se favorece la fluctuación",
+     "uk": "Центр ваги зміщується назад, переднє колесо втрачає зчеплення, і мотоцикл може виляти"
     },
     {
      "en": "The rear wheel locks",
-     "es": "Se bloquea la rueda trasera"
+     "es": "Se bloquea la rueda trasera",
+     "uk": "Заднє колесо блокується"
     },
     {
      "en": "Nothing: power is always an advantage",
-     "es": "Nada: la potencia siempre es una ventaja"
+     "es": "Nada: la potencia siempre es una ventaja",
+     "uk": "Нічого: потужність завжди перевага"
     }
    ],
    "why": {
     "en": "Strong acceleration can also surprise others and the rider.",
-    "es": "Las grandes aceleraciones también pueden sorprender a los demás y al propio conductor."
+    "es": "Las grandes aceleraciones también pueden sorprender a los demás y al propio conductor.",
+    "uk": "Сильне прискорення може також заскочити інших і самого водія."
    }
   },
   {
@@ -64,25 +80,30 @@ window.DGT_DATA = {
    "tag": "features",
    "q": {
     "en": "Why are motorcycles less visible to other road users?",
-    "es": "¿Por qué las motos son menos visibles para los demás?"
+    "es": "¿Por qué las motos son menos visibles para los demás?",
+    "uk": "Чому мотоцикли менш помітні для інших учасників руху?"
    },
    "o": [
     {
      "en": "Their small size, quick movements and speed",
-     "es": "Por su menor tamaño, la agilidad de sus movimientos y su velocidad"
+     "es": "Por su menor tamaño, la agilidad de sus movimientos y su velocidad",
+     "uk": "Через малий розмір, швидкі рухи й швидкість"
     },
     {
      "en": "Because they have fewer lights",
-     "es": "Porque llevan menos luces"
+     "es": "Porque llevan menos luces",
+     "uk": "Бо в них менше світлових приладів"
     },
     {
      "en": "Because they are usually dark",
-     "es": "Porque suelen ser oscuras"
+     "es": "Porque suelen ser oscuras",
+     "uk": "Бо вони зазвичай темні"
     }
    ],
    "why": {
     "en": "That is why riders must make themselves visible.",
-    "es": "Por eso el motorista debe hacerse visible."
+    "es": "Por eso el motorista debe hacerse visible.",
+    "uk": "Тому мотоциклісти мусять робити себе помітними."
    }
   },
   {
@@ -90,25 +111,30 @@ window.DGT_DATA = {
    "tag": "features",
    "q": {
     "en": "Which type of motorcycle is ideal for town: automatic, easy and economical?",
-    "es": "¿Qué tipo de moto es ideal para la ciudad: automática, manejable y económica?"
+    "es": "¿Qué tipo de moto es ideal para la ciudad: automática, manejable y económica?",
+    "uk": "Який тип мотоцикла ідеальний для міста: автомат, простий і економний?"
    },
    "o": [
     {
      "en": "Scooter",
-     "es": "Scooter"
+     "es": "Scooter",
+     "uk": "Скутер"
     },
     {
      "en": "Tourer",
-     "es": "Rutera"
+     "es": "Rutera",
+     "uk": "Турер"
     },
     {
      "en": "Trial",
-     "es": "Trial"
+     "es": "Trial",
+     "uk": "Тріал"
     }
    ],
    "why": {
     "en": "Scooters are easy to ride, automatic, economical and clean.",
-    "es": "Los scooter son manejables, automáticos, de bajo consumo y limpios."
+    "es": "Los scooter son manejables, automáticos, de bajo consumo y limpios.",
+    "uk": "Скутери прості в керуванні, з автоматом, економні й чисті."
    }
   },
   {
@@ -116,25 +142,30 @@ window.DGT_DATA = {
    "tag": "features",
    "q": {
     "en": "Which type suits long trips with a passenger but is less manoeuvrable?",
-    "es": "¿Qué tipo es idóneo para viajes largos con acompañante pero menos maniobrable?"
+    "es": "¿Qué tipo es idóneo para viajes largos con acompañante pero menos maniobrable?",
+    "uk": "Який тип підходить для далеких поїздок із пасажиром, але менш маневрений?"
    },
    "o": [
     {
      "en": "Tourer (gran turismo)",
-     "es": "Rutera (gran turismo)"
+     "es": "Rutera (gran turismo)",
+     "uk": "Турер (gran turismo)"
     },
     {
      "en": "Scooter",
-     "es": "Scooter"
+     "es": "Scooter",
+     "uk": "Скутер"
     },
     {
      "en": "Cross",
-     "es": "Cross"
+     "es": "Cross",
+     "uk": "Крос"
     }
    ],
    "why": {
     "en": "Large, heavy, with big fairings against rain and wind.",
-    "es": "Grande, pesada y con amplios carenados contra lluvia y viento."
+    "es": "Grande, pesada y con amplios carenados contra lluvia y viento.",
+    "uk": "Великий, важкий, з великими обтічниками проти дощу й вітру."
    }
   },
   {
@@ -142,25 +173,30 @@ window.DGT_DATA = {
    "tag": "features",
    "q": {
     "en": "What is the drawback of a sports motorcycle on long trips?",
-    "es": "¿Qué inconveniente tiene la moto deportiva en viajes largos?"
+    "es": "¿Qué inconveniente tiene la moto deportiva en viajes largos?",
+    "uk": "Який недолік спортивного мотоцикла в далеких поїздках?"
    },
    "o": [
     {
      "en": "An uncomfortable riding position",
-     "es": "Una postura incómoda"
+     "es": "Una postura incómoda",
+     "uk": "Незручна посадка"
     },
     {
      "en": "Too little power",
-     "es": "Poca potencia"
+     "es": "Poca potencia",
+     "uk": "Замала потужність"
     },
     {
      "en": "No fairing",
-     "es": "No tiene carenado"
+     "es": "No tiene carenado",
+     "uk": "Немає обтічника"
     }
    ],
    "why": {
     "en": "Very aerodynamic fairings force a tiring posture; they need training and experience.",
-    "es": "Sus carenados aerodinámicos obligan a una postura incómoda; requiere formación y experiencia."
+    "es": "Sus carenados aerodinámicos obligan a una postura incómoda; requiere formación y experiencia.",
+    "uk": "Дуже аеродинамічні обтічники вимагають утомливої посадки; потрібні навчання й досвід."
    }
   },
   {
@@ -168,25 +204,30 @@ window.DGT_DATA = {
    "tag": "features",
    "q": {
     "en": "What does the fairing do?",
-    "es": "¿Para qué sirve el carenado?"
+    "es": "¿Para qué sirve el carenado?",
+    "uk": "Що робить обтічник?"
    },
    "o": [
     {
      "en": "Improves safety and aerodynamics: protection, less fuel, fatigue later",
-     "es": "Mejora la seguridad y la aerodinámica: protección, menos consumo, la fatiga tarda más"
+     "es": "Mejora la seguridad y la aerodinámica: protección, menos consumo, la fatiga tarda más",
+     "uk": "Покращує безпеку й аеродинаміку: захист, менше пального, утома пізніше"
     },
     {
      "en": "Only decorates the motorcycle",
-     "es": "Solo decora la moto"
+     "es": "Solo decora la moto",
+     "uk": "Лише прикрашає мотоцикл"
     },
     {
      "en": "Covers the front wheel to keep it clean",
-     "es": "Cubre la rueda delantera para que no se ensucie"
+     "es": "Cubre la rueda delantera para que no se ensucie",
+     "uk": "Закриває переднє колесо, щоб воно було чистим"
     }
    ],
    "why": {
     "en": "It leaves the front wheel free, keeping manoeuvrability and cooling.",
-    "es": "Deja libre la rueda delantera, conservando la maniobrabilidad y la refrigeración."
+    "es": "Deja libre la rueda delantera, conservando la maniobrabilidad y la refrigeración.",
+    "uk": "Він залишає переднє колесо вільним, зберігаючи маневреність і охолодження."
    }
   },
   {
@@ -194,25 +235,30 @@ window.DGT_DATA = {
    "tag": "features",
    "q": {
     "en": "What is the drawback of a short, low handlebar?",
-    "es": "¿Qué inconveniente tiene un manillar corto y bajo?"
+    "es": "¿Qué inconveniente tiene un manillar corto y bajo?",
+    "uk": "Який недолік короткого низького керма?"
    },
    "o": [
     {
      "en": "Less steering angle to avoid obstacles",
-     "es": "Menor ángulo de giro para esquivar obstáculos"
+     "es": "Menor ángulo de giro para esquivar obstáculos",
+     "uk": "Менший кут повороту, щоб об’їжджати перешкоди"
     },
     {
      "en": "More wind resistance",
-     "es": "Más resistencia aerodinámica"
+     "es": "Más resistencia aerodinámica",
+     "uk": "Більший опір вітру"
     },
     {
      "en": "It is not allowed",
-     "es": "No está permitido"
+     "es": "No está permitido",
+     "uk": "Воно заборонене"
     }
    ],
    "why": {
     "en": "It has less wind resistance and suits high speed, but steers less.",
-    "es": "Tiene menos resistencia y va mejor a velocidad alta, pero gira menos."
+    "es": "Tiene menos resistencia y va mejor a velocidad alta, pero gira menos.",
+    "uk": "У нього менший опір вітру, і воно підходить для великої швидкості, але кермує менше."
    }
   },
   {
@@ -220,25 +266,30 @@ window.DGT_DATA = {
    "tag": "features",
    "q": {
     "en": "Is the seat height of a motorcycle usually adjustable?",
-    "es": "¿Suele ser regulable la altura del asiento de una moto?"
+    "es": "¿Suele ser regulable la altura del asiento de una moto?",
+    "uk": "Чи зазвичай регулюється висота сидіння мотоцикла?"
    },
    "o": [
     {
      "en": "No, except on a few motorcycles",
-     "es": "No, salvo casos excepcionales"
+     "es": "No, salvo casos excepcionales",
+     "uk": "Ні, крім небагатьох мотоциклів"
     },
     {
      "en": "Yes, always",
-     "es": "Sí, siempre"
+     "es": "Sí, siempre",
+     "uk": "Так, завжди"
     },
     {
      "en": "Only on scooters",
-     "es": "Solo en los scooter"
+     "es": "Solo en los scooter",
+     "uk": "Лише на скутерах"
     }
    ],
    "why": {
     "en": "The handlebar, on the other hand, is usually adjustable within limits.",
-    "es": "El manillar, en cambio, suele ser ajustable dentro de ciertos límites."
+    "es": "El manillar, en cambio, suele ser ajustable dentro de ciertos límites.",
+    "uk": "А от кермо зазвичай регулюється в певних межах."
    }
   },
   {
@@ -246,25 +297,30 @@ window.DGT_DATA = {
    "tag": "features",
    "q": {
     "en": "A motorcycle has a self-protection structure and seat belts, as its ITV card states. What must its occupants wear?",
-    "es": "Una moto tiene estructura de autoprotección y cinturones, y así consta en su tarjeta ITV. ¿Qué deben llevar sus ocupantes?"
+    "es": "Una moto tiene estructura de autoprotección y cinturones, y así consta en su tarjeta ITV. ¿Qué deben llevar sus ocupantes?",
+    "uk": "Мотоцикл має конструкцію самозахисту й ремені безпеки, як зазначено в картці техогляду. Що мусять мати люди в ньому?"
    },
    "o": [
     {
      "en": "The seat belt; they are exempt from helmet, gloves and closed shoes",
-     "es": "El cinturón; quedan exentos de casco, guantes y calzado cerrado"
+     "es": "El cinturón; quedan exentos de casco, guantes y calzado cerrado",
+     "uk": "Ремінь безпеки; вони звільнені від шолома, рукавичок і закритого взуття"
     },
     {
      "en": "Helmet and seat belt",
-     "es": "Casco y cinturón"
+     "es": "Casco y cinturón",
+     "uk": "Шолом і ремінь безпеки"
     },
     {
      "en": "Only the helmet",
-     "es": "Solo el casco"
+     "es": "Solo el casco",
+     "uk": "Лише шолом"
     }
    ],
    "why": {
     "en": "Art. 118 of the Reglamento General de Circulación.",
-    "es": "Art. 118 del Reglamento General de Circulación."
+    "es": "Art. 118 del Reglamento General de Circulación.",
+    "uk": "Ст. 118 Загального регламенту дорожнього руху."
    }
   },
   {
@@ -272,25 +328,30 @@ window.DGT_DATA = {
    "tag": "controls",
    "q": {
     "en": "On most motorcycles, which controls does the right hand work?",
-    "es": "En la mayoría de las motos, ¿qué mandos acciona la mano derecha?"
+    "es": "En la mayoría de las motos, ¿qué mandos acciona la mano derecha?",
+    "uk": "Якими органами керування на більшості мотоциклів працює права рука?"
    },
    "o": [
     {
      "en": "Throttle and front brake",
-     "es": "El acelerador y el freno delantero"
+     "es": "El acelerador y el freno delantero",
+     "uk": "Газом і переднім гальмом"
     },
     {
      "en": "Clutch and horn",
-     "es": "El embrague y el claxon"
+     "es": "El embrague y el claxon",
+     "uk": "Зчепленням і звуковим сигналом"
     },
     {
      "en": "Rear brake",
-     "es": "El freno trasero"
+     "es": "El freno trasero",
+     "uk": "Заднім гальмом"
     }
    ],
    "why": {
     "en": "Throttle gently; front brake gently and progressively.",
-    "es": "El acelerador, suavemente; el freno delantero, suave y progresivamente."
+    "es": "El acelerador, suavemente; el freno delantero, suave y progresivamente.",
+    "uk": "Газ — плавно; переднє гальмо — м’яко й поступово."
    }
   },
   {
@@ -298,25 +359,30 @@ window.DGT_DATA = {
    "tag": "controls",
    "q": {
     "en": "Which control does the left hand work?",
-    "es": "¿Qué mando acciona la mano izquierda?"
+    "es": "¿Qué mando acciona la mano izquierda?",
+    "uk": "Яким органом керування працює ліва рука?"
    },
    "o": [
     {
      "en": "The clutch (and the lights and horn switches)",
-     "es": "El embrague (y también las luces y el claxon)"
+     "es": "El embrague (y también las luces y el claxon)",
+     "uk": "Зчепленням (і перемикачами світла й звукового сигналу)"
     },
     {
      "en": "The front brake",
-     "es": "El freno delantero"
+     "es": "El freno delantero",
+     "uk": "Переднім гальмом"
     },
     {
      "en": "The throttle",
-     "es": "El acelerador"
+     "es": "El acelerador",
+     "uk": "Газом"
     }
    ],
    "why": {
     "en": "The left side of the motorcycle: clutch and gears.",
-    "es": "En el lado izquierdo de la moto: embrague y marchas."
+    "es": "En el lado izquierdo de la moto: embrague y marchas.",
+    "uk": "Лівий бік мотоцикла: зчеплення й передачі."
    }
   },
   {
@@ -324,25 +390,30 @@ window.DGT_DATA = {
    "tag": "controls",
    "q": {
     "en": "What does the right foot operate?",
-    "es": "¿Qué acciona el pie derecho?"
+    "es": "¿Qué acciona el pie derecho?",
+    "uk": "Що натискає права нога?"
    },
    "o": [
     {
      "en": "The rear brake",
-     "es": "El freno trasero"
+     "es": "El freno trasero",
+     "uk": "Заднє гальмо"
     },
     {
      "en": "The gear lever",
-     "es": "El selector de marchas"
+     "es": "El selector de marchas",
+     "uk": "Важіль перемикання передач"
     },
     {
      "en": "The side stand only",
-     "es": "Solo la pata de cabra"
+     "es": "Solo la pata de cabra",
+     "uk": "Лише бічну підніжку"
     }
    ],
    "why": {
     "en": "Right side: throttle and both brakes.",
-    "es": "Lado derecho: acelerador y los dos frenos."
+    "es": "Lado derecho: acelerador y los dos frenos.",
+    "uk": "Правий бік: газ і обидва гальма."
    }
   },
   {
@@ -350,25 +421,30 @@ window.DGT_DATA = {
    "tag": "controls",
    "q": {
     "en": "What does the left foot operate?",
-    "es": "¿Qué acciona el pie izquierdo?"
+    "es": "¿Qué acciona el pie izquierdo?",
+    "uk": "Що натискає ліва нога?"
    },
    "o": [
     {
      "en": "The gear lever",
-     "es": "El selector de marchas"
+     "es": "El selector de marchas",
+     "uk": "Важіль перемикання передач"
     },
     {
      "en": "The rear brake",
-     "es": "El freno trasero"
+     "es": "El freno trasero",
+     "uk": "Заднє гальмо"
     },
     {
      "en": "The front brake",
-     "es": "El freno delantero"
+     "es": "El freno delantero",
+     "uk": "Переднє гальмо"
     }
    ],
    "why": {
     "en": "Lever down for first; up to change up, down to change down.",
-    "es": "Abajo para la primera; arriba para subir y abajo para bajar."
+    "es": "Abajo para la primera; arriba para subir y abajo para bajar.",
+    "uk": "Важіль униз — перша; угору — вища передача, униз — нижча."
    }
   },
   {
@@ -376,25 +452,30 @@ window.DGT_DATA = {
    "tag": "controls",
    "q": {
     "en": "Which mirror is compulsory on a motorcycle whose top speed is not over 100 km/h?",
-    "es": "¿Qué espejo es obligatorio en una moto cuya velocidad máxima no supera los 100 km/h?"
+    "es": "¿Qué espejo es obligatorio en una moto cuya velocidad máxima no supera los 100 km/h?",
+    "uk": "Яке дзеркало обов’язкове на мотоциклі з максимальною швидкістю не понад 100 км/год?"
    },
    "o": [
     {
      "en": "The left one; the right one is optional",
-     "es": "El izquierdo; el derecho es optativo"
+     "es": "El izquierdo; el derecho es optativo",
+     "uk": "Ліве; праве необов’язкове"
     },
     {
      "en": "The right one only",
-     "es": "Solo el derecho"
+     "es": "Solo el derecho",
+     "uk": "Лише праве"
     },
     {
      "en": "Both",
-     "es": "Los dos"
+     "es": "Los dos",
+     "uk": "Обидва"
     }
    ],
    "why": {
     "en": "Reglamento General de Vehículos, Anexo III.",
-    "es": "Reglamento General de Vehículos, anexo III."
+    "es": "Reglamento General de Vehículos, anexo III.",
+    "uk": "Загальний регламент транспортних засобів, додаток III."
    }
   },
   {
@@ -402,25 +483,30 @@ window.DGT_DATA = {
    "tag": "controls",
    "q": {
     "en": "And on a motorcycle whose top speed is over 100 km/h?",
-    "es": "¿Y en una moto cuya velocidad máxima supera los 100 km/h?"
+    "es": "¿Y en una moto cuya velocidad máxima supera los 100 km/h?",
+    "uk": "А на мотоциклі з максимальною швидкістю понад 100 км/год?"
    },
    "o": [
     {
      "en": "Left and right",
-     "es": "Izquierdo y derecho"
+     "es": "Izquierdo y derecho",
+     "uk": "Ліве й праве"
     },
     {
      "en": "Left only",
-     "es": "Solo el izquierdo"
+     "es": "Solo el izquierdo",
+     "uk": "Лише ліве"
     },
     {
      "en": "None is compulsory",
-     "es": "Ninguno es obligatorio"
+     "es": "Ninguno es obligatorio",
+     "uk": "Жодне не обов’язкове"
     }
    ],
    "why": {
     "en": "Over 100 km/h both outside mirrors are compulsory.",
-    "es": "A más de 100 km/h, los dos retrovisores exteriores son obligatorios."
+    "es": "A más de 100 km/h, los dos retrovisores exteriores son obligatorios.",
+    "uk": "Понад 100 км/год обидва зовнішні дзеркала обов’язкові."
    }
   },
   {
@@ -428,25 +514,30 @@ window.DGT_DATA = {
    "tag": "controls",
    "q": {
     "en": "Which mirrors must a three-wheeler with a closed body carry?",
-    "es": "¿Qué espejos debe llevar un vehículo de tres ruedas con carrocería cerrada?"
+    "es": "¿Qué espejos debe llevar un vehículo de tres ruedas con carrocería cerrada?",
+    "uk": "Які дзеркала мусить мати трицикл із закритим кузовом?"
    },
    "o": [
     {
      "en": "One inside and one on the left (two outside if the inside one can’t give the view)",
-     "es": "Uno interior y otro izquierdo (dos exteriores si por el interior no se ve lo exigido)"
+     "es": "Uno interior y otro izquierdo (dos exteriores si por el interior no se ve lo exigido)",
+     "uk": "Одне всередині й одне ліворуч (два зовнішні, якщо внутрішнє не дає огляду)"
     },
     {
      "en": "Only one on the left",
-     "es": "Solo uno izquierdo"
+     "es": "Solo uno izquierdo",
+     "uk": "Лише одне ліворуч"
     },
     {
      "en": "None",
-     "es": "Ninguno"
+     "es": "Ninguno",
+     "uk": "Жодного"
     }
    ],
    "why": {
     "en": "If the interior mirror cannot meet the visibility requirements, the right outside mirror becomes compulsory.",
-    "es": "Si el interior no cumple la visibilidad exigida, es obligatorio el exterior derecho."
+    "es": "Si el interior no cumple la visibilidad exigida, es obligatorio el exterior derecho.",
+    "uk": "Якщо внутрішнє дзеркало не відповідає вимогам огляду, праве зовнішнє стає обов’язковим."
    }
   },
   {
@@ -454,25 +545,30 @@ window.DGT_DATA = {
    "tag": "controls",
    "q": {
     "en": "When and how should you adjust the mirrors?",
-    "es": "¿Cuándo y cómo debes regular los espejos?"
+    "es": "¿Cuándo y cómo debes regular los espejos?",
+    "uk": "Коли й як регулювати дзеркала?"
    },
    "o": [
     {
      "en": "Before moving off, with the motorcycle still, preferably on level ground",
-     "es": "Antes de iniciar la marcha, con la moto inmovilizada, preferiblemente en llano"
+     "es": "Antes de iniciar la marcha, con la moto inmovilizada, preferiblemente en llano",
+     "uk": "До початку руху, з нерухомим мотоциклом, бажано на рівному"
     },
     {
      "en": "While riding, at the first straight",
-     "es": "Circulando, en la primera recta"
+     "es": "Circulando, en la primera recta",
+     "uk": "Під час руху, на першій прямій"
     },
     {
      "en": "Only at the ITV",
-     "es": "Solo en la ITV"
+     "es": "Solo en la ITV",
+     "uk": "Лише на техогляді"
     }
    ],
    "why": {
     "en": "Or at least check that their adjustment is right.",
-    "es": "O, al menos, comprobar que su reglaje es correcto."
+    "es": "O, al menos, comprobar que su reglaje es correcto.",
+    "uk": "Або принаймні перевірте, що вони правильно відрегульовані."
    }
   },
   {
@@ -480,25 +576,30 @@ window.DGT_DATA = {
    "tag": "controls",
    "q": {
     "en": "What is the blind spot?",
-    "es": "¿Qué es el ángulo muerto?"
+    "es": "¿Qué es el ángulo muerto?",
+    "uk": "Що таке мертва зона?"
    },
    "o": [
     {
      "en": "The area at the sides and behind that the mirrors don’t show",
-     "es": "La zona lateral y trasera que no se ve por los espejos"
+     "es": "La zona lateral y trasera que no se ve por los espejos",
+     "uk": "Ділянка збоку й позаду, яку дзеркала не показують"
     },
     {
      "en": "The area right in front of the front wheel",
-     "es": "La zona justo delante de la rueda delantera"
+     "es": "La zona justo delante de la rueda delantera",
+     "uk": "Ділянка просто перед переднім колесом"
     },
     {
      "en": "A dark stretch of road",
-     "es": "Un tramo oscuro de la vía"
+     "es": "Un tramo oscuro de la vía",
+     "uk": "Темна ділянка дороги"
     }
    ],
    "why": {
     "en": "A good adjustment reduces it; turn your head before any manoeuvre to complete your view.",
-    "es": "Un buen reglaje lo reduce; hay que girar la cabeza antes de cualquier maniobra."
+    "es": "Un buen reglaje lo reduce; hay que girar la cabeza antes de cualquier maniobra.",
+    "uk": "Правильне регулювання її зменшує; перед будь-яким маневром повертайте голову, щоб доповнити огляд."
    }
   },
   {
@@ -506,25 +607,30 @@ window.DGT_DATA = {
    "tag": "controls",
    "q": {
     "en": "You want to change lanes. Your mirrors show nothing. What else must you do?",
-    "es": "Quieres cambiar de carril. Los espejos no muestran nada. ¿Qué más debes hacer?"
+    "es": "Quieres cambiar de carril. Los espejos no muestran nada. ¿Qué más debes hacer?",
+    "uk": "Ви хочете перестроїтися. У дзеркалах нічого немає. Що ще треба зробити?"
    },
    "o": [
     {
      "en": "Turn your head to check the blind spot",
-     "es": "Girar la cabeza para comprobar el ángulo muerto"
+     "es": "Girar la cabeza para comprobar el ángulo muerto",
+     "uk": "Повернути голову, щоб перевірити мертву зону"
     },
     {
      "en": "Nothing: the mirrors are enough",
-     "es": "Nada: los espejos bastan"
+     "es": "Nada: los espejos bastan",
+     "uk": "Нічого: дзеркал досить"
     },
     {
      "en": "Sound the horn",
-     "es": "Tocar el claxon"
+     "es": "Tocar el claxon",
+     "uk": "Посигналити"
     }
    ],
    "why": {
     "en": "A car can hide beside and slightly behind you.",
-    "es": "Un coche puede ocultarse a tu lado y algo por detrás."
+    "es": "Un coche puede ocultarse a tu lado y algo por detrás.",
+    "uk": "Легковик може сховатися поруч і трохи позаду вас."
    }
   },
   {
@@ -532,25 +638,30 @@ window.DGT_DATA = {
    "tag": "start",
    "q": {
     "en": "Pushing the motorcycle with the engine off, what should you avoid?",
-    "es": "Moviendo la moto con el motor parado, ¿qué debes evitar?"
+    "es": "Moviendo la moto con el motor parado, ¿qué debes evitar?",
+    "uk": "Чого уникати, штовхаючи мотоцикл із вимкненим двигуном?"
    },
    "o": [
     {
      "en": "Braking sharply with the front brake",
-     "es": "Frenar bruscamente con el freno delantero"
+     "es": "Frenar bruscamente con el freno delantero",
+     "uk": "Різкого гальмування переднім гальмом"
     },
     {
      "en": "Holding the handlebar with both hands",
-     "es": "Sujetar el manillar con las dos manos"
+     "es": "Sujetar el manillar con las dos manos",
+     "uk": "Тримати кермо обома руками"
     },
     {
      "en": "Leaning it slightly",
-     "es": "Inclinarla ligeramente"
+     "es": "Inclinarla ligeramente",
+     "uk": "Трохи нахиляти його"
     }
    ],
    "why": {
     "en": "It can destabilise the motorcycle and make it fall.",
-    "es": "Puede desestabilizarla y provocar una caída."
+    "es": "Puede desestabilizarla y provocar una caída.",
+    "uk": "Це може дестабілізувати мотоцикл і повалити його."
    }
   },
   {
@@ -558,25 +669,30 @@ window.DGT_DATA = {
    "tag": "start",
    "q": {
     "en": "How do you take a motorcycle off its side stand?",
-    "es": "¿Cómo se quita la pata de cabra?"
+    "es": "¿Cómo se quita la pata de cabra?",
+    "uk": "Як зняти мотоцикл із бічної підніжки?"
    },
    "o": [
     {
      "en": "Hold the handlebar with both hands, braking, bring the bike upright and push the stand back with your foot",
-     "es": "Sujetar el manillar con ambas manos, frenando, enderezar la moto y empujar el soporte con el pie"
+     "es": "Sujetar el manillar con ambas manos, frenando, enderezar la moto y empujar el soporte con el pie",
+     "uk": "Тримаючи кермо обома руками й гальмуючи, поставити мотоцикл рівно й відкинути підніжку ногою"
     },
     {
      "en": "Kick the stand while the motorcycle leans on it",
-     "es": "Golpear el soporte con la moto apoyada"
+     "es": "Golpear el soporte con la moto apoyada",
+     "uk": "Ударити ногою по підніжці, поки мотоцикл на неї спирається"
     },
     {
      "en": "Ride off and it folds by itself",
-     "es": "Arrancar y se pliega solo"
+     "es": "Arrancar y se pliega solo",
+     "uk": "Поїхати, і вона складеться сама"
     }
    ],
    "why": {
     "en": "Practise it on flat, firm ground, first standing, then sitting on the bike.",
-    "es": "Se practica en terreno llano y compacto, primero a pie y después subido."
+    "es": "Se practica en terreno llano y compacto, primero a pie y después subido.",
+    "uk": "Тренуйтеся на рівній твердій поверхні: спершу стоячи, потім сидячи на мотоциклі."
    }
   },
   {
@@ -584,25 +700,30 @@ window.DGT_DATA = {
    "tag": "start",
    "q": {
     "en": "How do you put a motorcycle on its centre stand?",
-    "es": "¿Cómo se pone la moto sobre el caballete?"
+    "es": "¿Cómo se pone la moto sobre el caballete?",
+    "uk": "Як поставити мотоцикл на центральну підніжку?"
    },
    "o": [
     {
      "en": "Foot on the stand and, putting your weight on it, pull the bike back and slightly up",
-     "es": "Pie sobre el soporte y, cargando el peso en él, tirar de la moto hacia atrás y algo hacia arriba"
+     "es": "Pie sobre el soporte y, cargando el peso en él, tirar de la moto hacia atrás y algo hacia arriba",
+     "uk": "Нога на підніжку і, переносячи на неї вагу, потягнути мотоцикл назад і трохи вгору"
     },
     {
      "en": "Push the motorcycle forwards onto it",
-     "es": "Empujar la moto hacia delante sobre él"
+     "es": "Empujar la moto hacia delante sobre él",
+     "uk": "Штовхнути мотоцикл уперед на неї"
     },
     {
      "en": "Lift the front wheel",
-     "es": "Levantar la rueda delantera"
+     "es": "Levantar la rueda delantera",
+     "uk": "Підняти переднє колесо"
     }
    ],
    "why": {
     "en": "One hand on the handlebar and the other on the rear.",
-    "es": "Una mano en el manillar y la otra en la parte trasera."
+    "es": "Una mano en el manillar y la otra en la parte trasera.",
+    "uk": "Одна рука на кермі, друга ззаду."
    }
   },
   {
@@ -610,25 +731,30 @@ window.DGT_DATA = {
    "tag": "start",
    "q": {
     "en": "How do you take a motorcycle off its centre stand?",
-    "es": "¿Cómo se quita el caballete?"
+    "es": "¿Cómo se quita el caballete?",
+    "uk": "Як зняти мотоцикл із центральної підніжки?"
    },
    "o": [
     {
      "en": "Sitting on it, feet on the ground, push it forwards with the front brake ready",
-     "es": "Subido, con los pies en el suelo, empujarla hacia delante con el freno delantero preparado"
+     "es": "Subido, con los pies en el suelo, empujarla hacia delante con el freno delantero preparado",
+     "uk": "Сидячи на ньому, ноги на землі, штовхнути вперед, тримаючи переднє гальмо напоготові"
     },
     {
      "en": "Pull it backwards",
-     "es": "Tirar de ella hacia atrás"
+     "es": "Tirar de ella hacia atrás",
+     "uk": "Потягнути назад"
     },
     {
      "en": "Start the engine and accelerate",
-     "es": "Arrancar y acelerar"
+     "es": "Arrancar y acelerar",
+     "uk": "Завести двигун і додати газу"
     }
    ],
    "why": {
     "en": "The front brake stops it rolling away.",
-    "es": "El freno delantero evita que se vaya hacia delante."
+    "es": "El freno delantero evita que se vaya hacia delante.",
+    "uk": "Переднє гальмо не дасть йому покотитися."
    }
   },
   {
@@ -636,25 +762,30 @@ window.DGT_DATA = {
    "tag": "start",
    "q": {
     "en": "To move off, which foot do you put on the ground?",
-    "es": "Para iniciar la marcha, ¿qué pie apoyas en el suelo?"
+    "es": "Para iniciar la marcha, ¿qué pie apoyas en el suelo?",
+    "uk": "Яку ногу ставити на землю, щоб рушити?"
    },
    "o": [
     {
      "en": "The right one: the left one selects first gear",
-     "es": "El derecho: el izquierdo mete la primera"
+     "es": "El derecho: el izquierdo mete la primera",
+     "uk": "Праву: ліва вмикає першу передачу"
     },
     {
      "en": "The left one",
-     "es": "El izquierdo"
+     "es": "El izquierdo",
+     "uk": "Ліву"
     },
     {
      "en": "Both",
-     "es": "Los dos"
+     "es": "Los dos",
+     "uk": "Обидві"
     }
    ],
    "why": {
     "en": "First gear is selected by pushing the lever down.",
-    "es": "La primera se selecciona empujando la palanca hacia abajo."
+    "es": "La primera se selecciona empujando la palanca hacia abajo.",
+    "uk": "Першу передачу вмикають, натиснувши важіль униз."
    }
   },
   {
@@ -662,25 +793,30 @@ window.DGT_DATA = {
    "tag": "start",
    "q": {
     "en": "How do you select first gear on most motorcycles?",
-    "es": "¿Cómo se mete la primera en la mayoría de las motos?"
+    "es": "¿Cómo se mete la primera en la mayoría de las motos?",
+    "uk": "Як увімкнути першу передачу на більшості мотоциклів?"
    },
    "o": [
     {
      "en": "Pushing the gear lever down with the left foot",
-     "es": "Empujando el selector hacia abajo con el pie izquierdo"
+     "es": "Empujando el selector hacia abajo con el pie izquierdo",
+     "uk": "Натиснувши важіль перемикання вниз лівою ногою"
     },
     {
      "en": "Pulling the lever up",
-     "es": "Subiendo la palanca"
+     "es": "Subiendo la palanca",
+     "uk": "Потягнувши важіль угору"
     },
     {
      "en": "With the right foot",
-     "es": "Con el pie derecho"
+     "es": "Con el pie derecho",
+     "uk": "Правою ногою"
     }
    ],
    "why": {
     "en": "Then up to change up, down to change down.",
-    "es": "Después, hacia arriba para subir y hacia abajo para bajar."
+    "es": "Después, hacia arriba para subir y hacia abajo para bajar.",
+    "uk": "Далі вгору — вища передача, униз — нижча."
    }
   },
   {
@@ -688,25 +824,30 @@ window.DGT_DATA = {
    "tag": "start",
    "q": {
     "en": "What can happen if you let the clutch out sharply when moving off?",
-    "es": "¿Qué puede ocurrir si sueltas el embrague de golpe al salir?"
+    "es": "¿Qué puede ocurrir si sueltas el embrague de golpe al salir?",
+    "uk": "Що може статися, якщо, рушаючи, різко відпустити зчеплення?"
    },
    "o": [
     {
      "en": "A wheelie: the mass moves back and the front wheel lifts",
-     "es": "Un caballito: la masa se desplaza atrás y la rueda delantera se levanta"
+     "es": "Un caballito: la masa se desplaza atrás y la rueda delantera se levanta",
+     "uk": "Мотоцикл стане на заднє колесо: маса зміщується назад, переднє колесо піднімається"
     },
     {
      "en": "The rear brake locks",
-     "es": "Se bloquea el freno trasero"
+     "es": "Se bloquea el freno trasero",
+     "uk": "Заблокується заднє гальмо"
     },
     {
      "en": "Nothing",
-     "es": "Nada"
+     "es": "Nada",
+     "uk": "Нічого"
     }
    ],
    "why": {
     "en": "Throttle and clutch must be worked gently and progressively.",
-    "es": "Hay que acelerar y soltar el embrague suave y progresivamente."
+    "es": "Hay que acelerar y soltar el embrague suave y progresivamente.",
+    "uk": "Газом і зчепленням працюйте плавно й поступово."
    }
   },
   {
@@ -714,25 +855,30 @@ window.DGT_DATA = {
    "tag": "start",
    "q": {
     "en": "Where do you put your feet once the motorcycle is moving?",
-    "es": "¿Dónde pones los pies una vez en movimiento?"
+    "es": "¿Dónde pones los pies una vez en movimiento?",
+    "uk": "Куди ставити ноги, коли мотоцикл рушив?"
    },
    "o": [
     {
      "en": "On the footrests",
-     "es": "En los estribos (reposapiés)"
+     "es": "En los estribos (reposapiés)",
+     "uk": "На підніжки"
     },
     {
      "en": "Near the ground, ready to stop",
-     "es": "Cerca del suelo, por si hay que parar"
+     "es": "Cerca del suelo, por si hay que parar",
+     "uk": "Біля землі, щоб бути готовим зупинитися"
     },
     {
      "en": "On the engine guard",
-     "es": "En el protector del motor"
+     "es": "En el protector del motor",
+     "uk": "На захисні дуги двигуна"
     }
    ],
    "why": {
     "en": "Keep them there, even at low speed in town.",
-    "es": "Se mantienen ahí incluso despacio en ciudad."
+    "es": "Se mantienen ahí incluso despacio en ciudad.",
+    "uk": "Тримайте їх там навіть на малій швидкості в місті."
    }
   },
   {
@@ -740,25 +886,30 @@ window.DGT_DATA = {
    "tag": "posture",
    "q": {
     "en": "Where must the passenger sit on a motorcycle?",
-    "es": "¿Dónde debe ir el pasajero en una moto?"
+    "es": "¿Dónde debe ir el pasajero en una moto?",
+    "uk": "Де має сидіти пасажир на мотоциклі?"
    },
    "o": [
     {
      "en": "Behind the rider, astride, feet on the footrests",
-     "es": "Detrás del conductor, a horcajadas, con los pies en los reposapiés"
+     "es": "Detrás del conductor, a horcajadas, con los pies en los reposapiés",
+     "uk": "Позаду водія, верхи, ноги на підніжках"
     },
     {
      "en": "Between the rider and the handlebar",
-     "es": "Entre el conductor y el manillar"
+     "es": "Entre el conductor y el manillar",
+     "uk": "Між водієм і кермом"
     },
     {
      "en": "Sideways, on the seat",
-     "es": "De lado, en el asiento"
+     "es": "De lado, en el asiento",
+     "uk": "Боком, на сидінні"
     }
    ],
    "why": {
     "en": "Never between the rider and the handlebar (art. 12).",
-    "es": "Nunca entre el conductor y el manillar (art. 12)."
+    "es": "Nunca entre el conductor y el manillar (art. 12).",
+    "uk": "Ніколи між водієм і кермом (ст. 12)."
    }
   },
   {
@@ -766,25 +917,30 @@ window.DGT_DATA = {
    "tag": "posture",
    "q": {
     "en": "Where should the rider look while riding?",
-    "es": "¿Hacia dónde debe mirar el motorista al circular?"
+    "es": "¿Hacia dónde debe mirar el motorista al circular?",
+    "uk": "Куди має дивитися водій під час руху?"
    },
    "o": [
     {
      "en": "Well ahead, at the vehicles beyond the one in front",
-     "es": "A lo lejos, a los vehículos que van más adelante"
+     "es": "A lo lejos, a los vehículos que van más adelante",
+     "uk": "Далеко вперед, на транспорт перед тим, хто попереду"
     },
     {
      "en": "At the vehicle right in front",
-     "es": "Al vehículo que va delante"
+     "es": "Al vehículo que va delante",
+     "uk": "На транспорт просто перед собою"
     },
     {
      "en": "At the front wheel",
-     "es": "A la rueda delantera"
+     "es": "A la rueda delantera",
+     "uk": "На переднє колесо"
     }
    ],
    "why": {
     "en": "Looking far ahead lets you anticipate.",
-    "es": "Mirar a lo lejos permite anticiparse."
+    "es": "Mirar a lo lejos permite anticiparse.",
+    "uk": "Погляд далеко вперед дає змогу передбачати."
    }
   },
   {
@@ -792,25 +948,30 @@ window.DGT_DATA = {
    "tag": "posture",
    "q": {
     "en": "How should the rider hold the handlebar?",
-    "es": "¿Cómo debe agarrar el manillar el motorista?"
+    "es": "¿Cómo debe agarrar el manillar el motorista?",
+    "uk": "Як водій має тримати кермо?"
    },
    "o": [
     {
      "en": "Gently but firmly, arms slightly bent",
-     "es": "Con suavidad y firmeza, brazos ligeramente flexionados"
+     "es": "Con suavidad y firmeza, brazos ligeramente flexionados",
+     "uk": "М’яко, але впевнено, руки трохи зігнуті"
     },
     {
      "en": "As tight as possible, arms locked",
-     "es": "Lo más fuerte posible, brazos rígidos"
+     "es": "Lo más fuerte posible, brazos rígidos",
+     "uk": "Якомога міцніше, руки випрямлені"
     },
     {
      "en": "With one hand on long straights",
-     "es": "Con una mano en las rectas largas"
+     "es": "Con una mano en las rectas largas",
+     "uk": "Однією рукою на довгих прямих"
     }
    ],
    "why": {
     "en": "Avoid tension and stiffness.",
-    "es": "Hay que evitar la fuerza y el agarrotamiento."
+    "es": "Hay que evitar la fuerza y el agarrotamiento.",
+    "uk": "Уникайте напруження й скутості."
    }
   },
   {
@@ -818,25 +979,30 @@ window.DGT_DATA = {
    "tag": "posture",
    "q": {
     "en": "When should your knees press against the tank?",
-    "es": "¿Cuándo deben ir las rodillas contra el depósito?"
+    "es": "¿Cuándo deben ir las rodillas contra el depósito?",
+    "uk": "Коли треба притискати коліна до бака?"
    },
    "o": [
     {
      "en": "When riding, especially in bends and when braking",
-     "es": "Al circular, sobre todo en las curvas y en las frenadas"
+     "es": "Al circular, sobre todo en las curvas y en las frenadas",
+     "uk": "Під час їзди, особливо в поворотах і під час гальмування"
     },
     {
      "en": "Only when stopped",
-     "es": "Solo parado"
+     "es": "Solo parado",
+     "uk": "Лише на зупинці"
     },
     {
      "en": "Never: it tires you",
-     "es": "Nunca: cansa"
+     "es": "Nunca: cansa",
+     "uk": "Ніколи: це втомлює"
     }
    ],
    "why": {
     "en": "Better control of the weight in bends; no sliding forward when braking.",
-    "es": "Más control del peso en curvas; evita deslizarse hacia delante al frenar."
+    "es": "Más control del peso en curvas; evita deslizarse hacia delante al frenar.",
+    "uk": "Кращий контроль ваги в поворотах; не ковзаєте вперед під час гальмування."
    }
   },
   {
@@ -844,25 +1010,30 @@ window.DGT_DATA = {
    "tag": "posture",
    "q": {
     "en": "What is wrong with a very high, upright riding position?",
-    "es": "¿Qué inconveniente tiene una postura muy alta y erguida?"
+    "es": "¿Qué inconveniente tiene una postura muy alta y erguida?",
+    "uk": "Що поганого в дуже високій прямій посадці?"
    },
    "o": [
     {
      "en": "It raises the centre of gravity: more fatigue and more wind resistance",
-     "es": "Eleva el centro de gravedad: más fatiga y más resistencia al avance"
+     "es": "Eleva el centro de gravedad: más fatiga y más resistencia al avance",
+     "uk": "Вона піднімає центр ваги: більше втоми й більше опору вітру"
     },
     {
      "en": "It improves stability",
-     "es": "Mejora la estabilidad"
+     "es": "Mejora la estabilidad",
+     "uk": "Вона покращує стійкість"
     },
     {
      "en": "Nothing",
-     "es": "Ninguno"
+     "es": "Ninguno",
+     "uk": "Нічого"
     }
    ],
    "why": {
     "en": "The posture should be relaxed, without leaning forward more than needed.",
-    "es": "La postura debe ser suelta, sin inclinarse más de lo necesario."
+    "es": "La postura debe ser suelta, sin inclinarse más de lo necesario.",
+    "uk": "Посадка має бути розслабленою, без зайвого нахилу вперед."
    }
   },
   {
@@ -870,25 +1041,30 @@ window.DGT_DATA = {
    "tag": "posture",
    "q": {
     "en": "How should a passenger behave in bends?",
-    "es": "¿Cómo debe comportarse el pasajero en las curvas?"
+    "es": "¿Cómo debe comportarse el pasajero en las curvas?",
+    "uk": "Як має поводитися пасажир у поворотах?"
    },
    "o": [
     {
      "en": "Hold on to the rider and lean exactly as the rider does",
-     "es": "Agarrarse al conductor y adoptar la misma inclinación"
+     "es": "Agarrarse al conductor y adoptar la misma inclinación",
+     "uk": "Триматися за водія й нахилятися точно як він"
     },
     {
      "en": "Lean the opposite way to balance",
-     "es": "Inclinarse al lado contrario para compensar"
+     "es": "Inclinarse al lado contrario para compensar",
+     "uk": "Нахилятися в протилежний бік для рівноваги"
     },
     {
      "en": "Stay rigidly upright",
-     "es": "Mantenerse rígido y vertical"
+     "es": "Mantenerse rígido y vertical",
+     "uk": "Сидіти жорстко рівно"
     }
    ],
    "why": {
     "en": "Otherwise they unbalance the motorcycle.",
-    "es": "Si no, desequilibra la moto o dificulta la conducción."
+    "es": "Si no, desequilibra la moto o dificulta la conducción.",
+    "uk": "Інакше він розбалансовує мотоцикл."
    }
   },
   {
@@ -896,25 +1072,30 @@ window.DGT_DATA = {
    "tag": "posture",
    "q": {
     "en": "With a passenger, how does braking change?",
-    "es": "Con pasajero, ¿cómo cambia la frenada?"
+    "es": "Con pasajero, ¿cómo cambia la frenada?",
+    "uk": "Як змінюється гальмування з пасажиром?"
    },
    "o": [
     {
      "en": "It takes longer, but the rear wheel locks less easily",
-     "es": "Es más prolongada, pero la rueda trasera se bloquea con más dificultad"
+     "es": "Es más prolongada, pero la rueda trasera se bloquea con más dificultad",
+     "uk": "Воно довше, але заднє колесо блокується не так легко"
     },
     {
      "en": "It is shorter",
-     "es": "Es más corta"
+     "es": "Es más corta",
+     "uk": "Воно коротше"
     },
     {
      "en": "The front wheel locks less",
-     "es": "La delantera se bloquea menos"
+     "es": "La delantera se bloquea menos",
+     "uk": "Переднє колесо блокується рідше"
     }
    ],
    "why": {
     "en": "So the rear brake can be used harder.",
-    "es": "Por eso el freno trasero puede usarse con más fuerza."
+    "es": "Por eso el freno trasero puede usarse con más fuerza.",
+    "uk": "Тож заднє гальмо можна використовувати сильніше."
    }
   },
   {
@@ -922,25 +1103,30 @@ window.DGT_DATA = {
    "tag": "posture",
    "q": {
     "en": "With a passenger, what should you do with the rear tyre pressure?",
-    "es": "Con pasajero, ¿qué haces con la presión del neumático trasero?"
+    "es": "Con pasajero, ¿qué haces con la presión del neumático trasero?",
+    "uk": "Що з пасажиром робити з тиском у задній шині?"
    },
    "o": [
     {
      "en": "Raise it, as the manufacturer says",
-     "es": "Aumentarla, según el fabricante"
+     "es": "Aumentarla, según el fabricante",
+     "uk": "Збільшити, як вказує виробник"
     },
     {
      "en": "Lower it for more grip",
-     "es": "Bajarla para tener más agarre"
+     "es": "Bajarla para tener más agarre",
+     "uk": "Зменшити для кращого зчеплення"
     },
     {
      "en": "Leave it",
-     "es": "Dejarla igual"
+     "es": "Dejarla igual",
+     "uk": "Залишити"
     }
    ],
    "why": {
     "en": "It helps avoid wobble (fluctuación).",
-    "es": "Ayuda a evitar la fluctuación."
+    "es": "Ayuda a evitar la fluctuación.",
+    "uk": "Це допомагає уникнути виляння (fluctuación)."
    }
   },
   {
@@ -948,25 +1134,30 @@ window.DGT_DATA = {
    "tag": "posture",
    "q": {
     "en": "What is wobble (fluctuación)?",
-    "es": "¿Qué es la fluctuación?"
+    "es": "¿Qué es la fluctuación?",
+    "uk": "Що таке виляння (fluctuación)?"
    },
    "o": [
     {
      "en": "A swaying of the tyres that harms grip and stability",
-     "es": "Un oscilamiento o vaivén de los neumáticos que perjudica la adherencia y la estabilidad"
+     "es": "Un oscilamiento o vaivén de los neumáticos que perjudica la adherencia y la estabilidad",
+     "uk": "Розгойдування шин, що погіршує зчеплення й стійкість"
     },
     {
      "en": "A puncture",
-     "es": "Un pinchazo"
+     "es": "Un pinchazo",
+     "uk": "Прокол"
     },
     {
      "en": "An engine vibration at idle",
-     "es": "Una vibración del motor al ralentí"
+     "es": "Una vibración del motor al ralentí",
+     "uk": "Вібрація двигуна на холостих"
     }
    ],
    "why": {
     "en": "It comes from the centre of gravity moving back, badly placed luggage or a poor road or bike.",
-    "es": "Se debe al desplazamiento del centro de gravedad hacia atrás, al equipaje mal colocado o al mal estado de la vía o la moto."
+    "es": "Se debe al desplazamiento del centro de gravedad hacia atrás, al equipaje mal colocado o al mal estado de la vía o la moto.",
+    "uk": "Його спричиняють зміщення центру ваги назад, погано розміщений багаж чи поганий стан дороги чи мотоцикла."
    }
   },
   {
@@ -974,25 +1165,30 @@ window.DGT_DATA = {
    "tag": "posture",
    "q": {
     "en": "With a passenger, what happens to acceleration?",
-    "es": "Con pasajero, ¿qué ocurre con la aceleración?"
+    "es": "Con pasajero, ¿qué ocurre con la aceleración?",
+    "uk": "Що з пасажиром відбувається з прискоренням?"
    },
    "o": [
     {
      "en": "It is weaker, and the mass shifts back when accelerating",
-     "es": "Es menor, y al acelerar la masa se desplaza hacia atrás"
+     "es": "Es menor, y al acelerar la masa se desplaza hacia atrás",
+     "uk": "Воно слабше, а маса під час прискорення зміщується назад"
     },
     {
      "en": "It is stronger",
-     "es": "Es mayor"
+     "es": "Es mayor",
+     "uk": "Воно сильніше"
     },
     {
      "en": "It does not change",
-     "es": "No cambia"
+     "es": "No cambia",
+     "uk": "Не змінюється"
     }
    ],
    "why": {
     "en": "The centre of gravity changes with a passenger.",
-    "es": "Con acompañante varía el centro de gravedad."
+    "es": "Con acompañante varía el centro de gravedad.",
+    "uk": "З пасажиром змінюється центр ваги."
    }
   },
   {
@@ -1000,25 +1196,30 @@ window.DGT_DATA = {
    "tag": "curves",
    "q": {
     "en": "When is it hardest to keep a motorcycle balanced?",
-    "es": "¿Cuándo es más difícil mantener el equilibrio en moto?"
+    "es": "¿Cuándo es más difícil mantener el equilibrio en moto?",
+    "uk": "Коли найважче тримати рівновагу на мотоциклі?"
    },
    "o": [
     {
      "en": "At low speed",
-     "es": "A baja velocidad"
+     "es": "A baja velocidad",
+     "uk": "На малій швидкості"
     },
     {
      "en": "At high speed",
-     "es": "A alta velocidad"
+     "es": "A alta velocidad",
+     "uk": "На великій швидкості"
     },
     {
      "en": "On a motorway",
-     "es": "En autopista"
+     "es": "En autopista",
+     "uk": "На автомагістралі"
     }
    ],
    "why": {
     "en": "At low speed the rider must use the handlebar and the body to avoid falling.",
-    "es": "A baja velocidad hay que corregir con el manillar y el cuerpo para no caer."
+    "es": "A baja velocidad hay que corregir con el manillar y el cuerpo para no caer.",
+    "uk": "На малій швидкості водій мусить працювати кермом і тілом, щоб не впасти."
    }
   },
   {
@@ -1026,25 +1227,30 @@ window.DGT_DATA = {
    "tag": "curves",
    "q": {
     "en": "From about what speed does the gyroscopic effect help to keep the balance, according to your course?",
-    "es": "¿A partir de qué velocidad el efecto giroscópico ayuda al equilibrio, según tu curso?"
+    "es": "¿A partir de qué velocidad el efecto giroscópico ayuda al equilibrio, según tu curso?",
+    "uk": "Приблизно з якої швидкості, за вашим курсом, гіроскопічний ефект допомагає тримати рівновагу?"
    },
    "o": [
     {
      "en": "About 30 km/h",
-     "es": "Unos 30 km/h"
+     "es": "Unos 30 km/h",
+     "uk": "Близько 30 км/год"
     },
     {
      "en": "About 10 km/h",
-     "es": "Unos 10 km/h"
+     "es": "Unos 10 km/h",
+     "uk": "Близько 10 км/год"
     },
     {
      "en": "About 80 km/h",
-     "es": "Unos 80 km/h"
+     "es": "Unos 80 km/h",
+     "uk": "Близько 80 км/год"
     }
    ],
    "why": {
     "en": "The spinning wheels make the motorcycle more stable.",
-    "es": "La rotación de las ruedas estabiliza la moto."
+    "es": "La rotación de las ruedas estabiliza la moto.",
+    "uk": "Колеса, що обертаються, роблять мотоцикл стійкішим."
    }
   },
   {
@@ -1052,25 +1258,30 @@ window.DGT_DATA = {
    "tag": "curves",
    "q": {
     "en": "Where should you brake for a bend?",
-    "es": "¿Dónde debes frenar para tomar una curva?"
+    "es": "¿Dónde debes frenar para tomar una curva?",
+    "uk": "Де гальмувати перед поворотом?"
    },
    "o": [
     {
      "en": "Before entering it, on the straight",
-     "es": "Antes de entrar, en la recta"
+     "es": "Antes de entrar, en la recta",
+     "uk": "До в’їзду в нього, на прямій"
     },
     {
      "en": "In the middle of the bend",
-     "es": "En mitad de la curva"
+     "es": "En mitad de la curva",
+     "uk": "Посеред повороту"
     },
     {
      "en": "At the exit",
-     "es": "A la salida"
+     "es": "A la salida",
+     "uk": "На виході"
     }
    ],
    "why": {
     "en": "Braking in the bend can make you lose grip.",
-    "es": "Frenar durante la curva puede hacer perder adherencia."
+    "es": "Frenar durante la curva puede hacer perder adherencia.",
+    "uk": "Гальмування в повороті може призвести до втрати зчеплення."
    }
   },
   {
@@ -1078,25 +1289,30 @@ window.DGT_DATA = {
    "tag": "curves",
    "q": {
     "en": "Why must you keep away from the centre line in a left-hand bend?",
-    "es": "¿Por qué debes alejarte del eje en una curva a la izquierda?"
+    "es": "¿Por qué debes alejarte del eje en una curva a la izquierda?",
+    "uk": "Чому в лівому повороті треба триматися подалі від осьової лінії?"
    },
    "o": [
     {
      "en": "A leaning motorcycle takes up more width and you could invade the opposite lane",
-     "es": "Inclinada, la moto ocupa más anchura y podrías invadir el sentido contrario"
+     "es": "Inclinada, la moto ocupa más anchura y podrías invadir el sentido contrario",
+     "uk": "Нахилений мотоцикл займає більше ширини, і ви можете виїхати на зустрічну смугу"
     },
     {
      "en": "To see the road signs",
-     "es": "Para ver las señales"
+     "es": "Para ver las señales",
+     "uk": "Щоб бачити знаки"
     },
     {
      "en": "To use less fuel",
-     "es": "Para gastar menos"
+     "es": "Para gastar menos",
+     "uk": "Щоб витрачати менше пального"
     }
    ],
    "why": {
     "en": "Your body hangs over the inside of the bend.",
-    "es": "El cuerpo sobresale hacia el interior de la curva."
+    "es": "El cuerpo sobresale hacia el interior de la curva.",
+    "uk": "Ваше тіло нависає над внутрішнім боком повороту."
    }
   },
   {
@@ -1104,25 +1320,30 @@ window.DGT_DATA = {
    "tag": "curves",
    "q": {
     "en": "Once inside the bend, what should you do with the throttle?",
-    "es": "Una vez dentro de la curva, ¿qué haces con el acelerador?"
+    "es": "Una vez dentro de la curva, ¿qué haces con el acelerador?",
+    "uk": "Що робити з газом, коли ви вже в повороті?"
    },
    "o": [
     {
      "en": "Accelerate progressively to bring the bike back upright",
-     "es": "Acelerar progresivamente para recobrar la verticalidad"
+     "es": "Acelerar progresivamente para recobrar la verticalidad",
+     "uk": "Поступово додавати, щоб випрямити мотоцикл"
     },
     {
      "en": "Close it completely",
-     "es": "Cerrarlo del todo"
+     "es": "Cerrarlo del todo",
+     "uk": "Повністю скинути"
     },
     {
      "en": "Accelerate hard",
-     "es": "Acelerar a fondo"
+     "es": "Acelerar a fondo",
+     "uk": "Різко додати"
     }
    ],
    "why": {
     "en": "If braking is essential, do it very gently.",
-    "es": "Si fuese imprescindible frenar, hacerlo muy suavemente."
+    "es": "Si fuese imprescindible frenar, hacerlo muy suavemente.",
+    "uk": "Якщо гальмувати неминуче, робіть це дуже м’яко."
    }
   },
   {
@@ -1130,25 +1351,30 @@ window.DGT_DATA = {
    "tag": "curves",
    "q": {
     "en": "You must brake hard in the middle of a bend. What do you do?",
-    "es": "Tienes que frenar de emergencia en mitad de una curva. ¿Qué haces?"
+    "es": "Tienes que frenar de emergencia en mitad de una curva. ¿Qué haces?",
+    "uk": "Посеред повороту вам треба різко загальмувати. Що робите?"
    },
    "o": [
     {
      "en": "Use both brakes and look at the exit of the bend",
-     "es": "Accionar los dos frenos y mirar hacia la salida de la curva"
+     "es": "Accionar los dos frenos y mirar hacia la salida de la curva",
+     "uk": "Використовую обидва гальма й дивлюся на вихід із повороту"
     },
     {
      "en": "Look at the obstacle and use the front brake only",
-     "es": "Mirar el obstáculo y usar solo el delantero"
+     "es": "Mirar el obstáculo y usar solo el delantero",
+     "uk": "Дивлюся на перешкоду й гальмую лише переднім"
     },
     {
      "en": "Close your eyes and brake",
-     "es": "Cerrar los ojos y frenar"
+     "es": "Cerrar los ojos y frenar",
+     "uk": "Заплющую очі й гальмую"
     }
    ],
    "why": {
     "en": "If you look at the obstacle you instinctively steer towards it.",
-    "es": "Si se mira el obstáculo, instintivamente se dirige la moto hacia él."
+    "es": "Si se mira el obstáculo, instintivamente se dirige la moto hacia él.",
+    "uk": "Якщо дивитися на перешкоду, інстинктивно кермуєте на неї."
    }
   },
   {
@@ -1156,25 +1382,30 @@ window.DGT_DATA = {
    "tag": "curves",
    "q": {
     "en": "Which of these increases the centrifugal force in a bend?",
-    "es": "¿Cuál de estos factores aumenta la fuerza centrífuga en una curva?"
+    "es": "¿Cuál de estos factores aumenta la fuerza centrífuga en una curva?",
+    "uk": "Що з цього збільшує відцентрову силу в повороті?"
    },
    "o": [
     {
      "en": "More speed",
-     "es": "Más velocidad"
+     "es": "Más velocidad",
+     "uk": "Більша швидкість"
     },
     {
      "en": "A wider bend",
-     "es": "Una curva más abierta"
+     "es": "Una curva más abierta",
+     "uk": "Ширший поворот"
     },
     {
      "en": "Less weight",
-     "es": "Menos peso"
+     "es": "Menos peso",
+     "uk": "Менша вага"
     }
    ],
    "why": {
     "en": "More weight, more speed, and a tighter bend (smaller radius) all increase it.",
-    "es": "Más peso, más velocidad y una curva más cerrada (menor radio) la aumentan."
+    "es": "Más peso, más velocidad y una curva más cerrada (menor radio) la aumentan.",
+    "uk": "Більша вага, більша швидкість і крутіший поворот (менший радіус) її збільшують."
    }
   },
   {
@@ -1182,25 +1413,30 @@ window.DGT_DATA = {
    "tag": "curves",
    "q": {
     "en": "How should you enter a bend?",
-    "es": "¿Cómo debes entrar en una curva?"
+    "es": "¿Cómo debes entrar en una curva?",
+    "uk": "Як в’їжджати в поворот?"
    },
    "o": [
     {
      "en": "With the motorcycle fully under control, so you won’t need to brake in it",
-     "es": "Con la moto totalmente dominada, para no tener que frenar dentro"
+     "es": "Con la moto totalmente dominada, para no tener que frenar dentro",
+     "uk": "З мотоциклом повністю під контролем, щоб у ньому не довелося гальмувати"
     },
     {
      "en": "Fast, and brake if needed",
-     "es": "Rápido, y frenar si hace falta"
+     "es": "Rápido, y frenar si hace falta",
+     "uk": "Швидко, а якщо треба — гальмувати"
     },
     {
      "en": "In neutral",
-     "es": "En punto muerto"
+     "es": "En punto muerto",
+     "uk": "На нейтралі"
     }
    ],
    "why": {
     "en": "Judge the line and adapt the speed before arriving.",
-    "es": "Hay que valorar la trayectoria y adaptar la velocidad antes de llegar."
+    "es": "Hay que valorar la trayectoria y adaptar la velocidad antes de llegar.",
+    "uk": "Оцініть траєкторію й пристосуйте швидкість до під’їзду."
    }
   },
   {
@@ -1208,25 +1444,30 @@ window.DGT_DATA = {
    "tag": "curves",
    "q": {
     "en": "Which bend produces the most centrifugal force at the same speed?",
-    "es": "¿Qué curva produce más fuerza centrífuga a la misma velocidad?"
+    "es": "¿Qué curva produce más fuerza centrífuga a la misma velocidad?",
+    "uk": "Який поворот на тій самій швидкості дає найбільшу відцентрову силу?"
    },
    "o": [
     {
      "en": "The tighter one, with the smaller radius",
-     "es": "La más cerrada, de menor radio"
+     "es": "La más cerrada, de menor radio",
+     "uk": "Крутіший, з меншим радіусом"
     },
     {
      "en": "The wider one",
-     "es": "La más abierta"
+     "es": "La más abierta",
+     "uk": "Ширший"
     },
     {
      "en": "Both the same",
-     "es": "Las dos igual"
+     "es": "Las dos igual",
+     "uk": "Однаково"
     }
    ],
    "why": {
     "en": "The smaller the radius, the greater the force.",
-    "es": "Cuanto menor es el radio, mayor es la fuerza."
+    "es": "Cuanto menor es el radio, mayor es la fuerza.",
+    "uk": "Що менший радіус, то більша сила."
    }
   },
   {
@@ -1234,25 +1475,30 @@ window.DGT_DATA = {
    "tag": "braking",
    "q": {
     "en": "Which wheel matters most for a motorcycle’s stability when braking?",
-    "es": "¿Qué rueda es la más importante para estabilizar la moto al frenar?"
+    "es": "¿Qué rueda es la más importante para estabilizar la moto al frenar?",
+    "uk": "Яке колесо найважливіше для стійкості мотоцикла під час гальмування?"
    },
    "o": [
     {
      "en": "The front wheel",
-     "es": "La rueda delantera"
+     "es": "La rueda delantera",
+     "uk": "Переднє"
     },
     {
      "en": "The rear wheel",
-     "es": "La rueda trasera"
+     "es": "La rueda trasera",
+     "uk": "Заднє"
     },
     {
      "en": "Both the same",
-     "es": "Las dos igual"
+     "es": "Las dos igual",
+     "uk": "Обидва однаково"
     }
    ],
    "why": {
     "en": "Braking must be progressive: too hard on the front can lock it and throw you off.",
-    "es": "La frenada debe ser progresiva: demasiado fuerte delante puede bloquearla y provocar la caída."
+    "es": "La frenada debe ser progresiva: demasiado fuerte delante puede bloquearla y provocar la caída.",
+    "uk": "Гальмування має бути поступовим: надто сильно на переднє — може заблокуватися й викинути вас."
    }
   },
   {
@@ -1260,25 +1506,30 @@ window.DGT_DATA = {
    "tag": "braking",
    "q": {
     "en": "According to your course, how do you share an emergency braking?",
-    "es": "Según tu curso, ¿cómo repartes una frenada de emergencia?"
+    "es": "Según tu curso, ¿cómo repartes una frenada de emergencia?",
+    "uk": "За вашим курсом, як розподіляти екстрене гальмування?"
    },
    "o": [
     {
      "en": "60–70 % on the front, 30–40 % on the rear",
-     "es": "60–70 % en la delantera y 30–40 % en la trasera"
+     "es": "60–70 % en la delantera y 30–40 % en la trasera",
+     "uk": "60–70 % на переднє, 30–40 % на заднє"
     },
     {
      "en": "50 % on each",
-     "es": "50 % en cada una"
+     "es": "50 % en cada una",
+     "uk": "По 50 % на кожне"
     },
     {
      "en": "Only the rear brake",
-     "es": "Solo el freno trasero"
+     "es": "Solo el freno trasero",
+     "uk": "Лише заднє гальмо"
     }
    ],
    "why": {
     "en": "Upright, clutch in, both brakes used hard.",
-    "es": "Recto, desembragado y con uso intensivo de ambos frenos."
+    "es": "Recto, desembragado y con uso intensivo de ambos frenos.",
+    "uk": "Рівно, зчеплення вижато, обидва гальма сильно."
    }
   },
   {
@@ -1286,25 +1537,30 @@ window.DGT_DATA = {
    "tag": "braking",
    "q": {
     "en": "A wheel locks while you brake. What do you do?",
-    "es": "Se bloquea una rueda al frenar. ¿Qué haces?"
+    "es": "Se bloquea una rueda al frenar. ¿Qué haces?",
+    "uk": "Під час гальмування колесо заблокувалося. Що робите?"
    },
    "o": [
     {
      "en": "Release that brake at once and apply it again once the wheel turns",
-     "es": "Soltar inmediatamente ese freno y volver a accionarlo una vez desbloqueada"
+     "es": "Soltar inmediatamente ese freno y volver a accionarlo una vez desbloqueada",
+     "uk": "Одразу відпускаю це гальмо й знову натискаю, щойно колесо обертається"
     },
     {
      "en": "Brake harder",
-     "es": "Frenar más fuerte"
+     "es": "Frenar más fuerte",
+     "uk": "Гальмую сильніше"
     },
     {
      "en": "Keep the brake on until you stop",
-     "es": "Mantener el freno hasta parar"
+     "es": "Mantener el freno hasta parar",
+     "uk": "Тримаю гальмо до зупинки"
     }
    ],
    "why": {
     "en": "A locked front wheel especially can make you fall.",
-    "es": "Una rueda delantera bloqueada, sobre todo, puede provocar la caída."
+    "es": "Una rueda delantera bloqueada, sobre todo, puede provocar la caída.",
+    "uk": "Особливо заблоковане переднє колесо може вас повалити."
    }
   },
   {
@@ -1312,25 +1568,30 @@ window.DGT_DATA = {
    "tag": "braking",
    "q": {
     "en": "When should you brake in an emergency?",
-    "es": "¿Cuándo debes frenar en una emergencia?"
+    "es": "¿Cuándo debes frenar en una emergencia?",
+    "uk": "Коли гальмувати в екстреній ситуації?"
    },
    "o": [
     {
      "en": "With the motorcycle upright, before it leans",
-     "es": "Con la moto recta, antes de inclinarla"
+     "es": "Con la moto recta, antes de inclinarla",
+     "uk": "З мотоциклом рівно, до нахилу"
     },
     {
      "en": "While leaning hard",
-     "es": "Muy inclinado"
+     "es": "Muy inclinado",
+     "uk": "У сильному нахилі"
     },
     {
      "en": "Only after the bend",
-     "es": "Solo después de la curva"
+     "es": "Solo después de la curva",
+     "uk": "Лише після повороту"
     }
    ],
    "why": {
     "en": "Brake when there is no lean, or before it.",
-    "es": "Frenar cuando no exista inclinación lateral o antes de ella."
+    "es": "Frenar cuando no exista inclinación lateral o antes de ella.",
+    "uk": "Гальмуйте, коли нахилу немає, чи до нього."
    }
   },
   {
@@ -1338,25 +1599,30 @@ window.DGT_DATA = {
    "tag": "braking",
    "q": {
     "en": "In an emergency braking, what happens to the weight?",
-    "es": "En una frenada de emergencia, ¿qué pasa con el peso?"
+    "es": "En una frenada de emergencia, ¿qué pasa con el peso?",
+    "uk": "Що відбувається з вагою під час екстреного гальмування?"
    },
    "o": [
     {
      "en": "It moves forward: the rear wheel loses traction and can lock and skid",
-     "es": "Se desplaza hacia delante: la rueda trasera pierde tracción y puede bloquearse y derrapar"
+     "es": "Se desplaza hacia delante: la rueda trasera pierde tracción y puede bloquearse y derrapar",
+     "uk": "Вона зміщується вперед: заднє колесо втрачає тягу й може заблокуватися й піти в занос"
     },
     {
      "en": "It moves back",
-     "es": "Se desplaza hacia atrás"
+     "es": "Se desplaza hacia atrás",
+     "uk": "Зміщується назад"
     },
     {
      "en": "It does not move",
-     "es": "No se desplaza"
+     "es": "No se desplaza",
+     "uk": "Не зміщується"
     }
    ],
    "why": {
     "en": "With a passenger the rear wheel locks less easily.",
-    "es": "Con pasajero es más difícil que se bloquee la trasera."
+    "es": "Con pasajero es más difícil que se bloquee la trasera.",
+    "uk": "З пасажиром заднє колесо блокується не так легко."
    }
   },
   {
@@ -1364,25 +1630,30 @@ window.DGT_DATA = {
    "tag": "braking",
    "q": {
     "en": "What body position helps in an emergency braking?",
-    "es": "¿Qué postura ayuda en una frenada de emergencia?"
+    "es": "¿Qué postura ayuda en una frenada de emergencia?",
+    "uk": "Яке положення тіла допомагає під час екстреного гальмування?"
    },
    "o": [
     {
      "en": "Rigid: arms straight, knees against the tank, heels pressing the footrests",
-     "es": "Rígida: brazos estirados, rodillas contra el depósito y talones presionando los reposapiés"
+     "es": "Rígida: brazos estirados, rodillas contra el depósito y talones presionando los reposapiés",
+     "uk": "Жорстке: руки прямі, коліна до бака, п’яти тиснуть на підніжки"
     },
     {
      "en": "Relaxed, leaning forward",
-     "es": "Relajada, inclinada adelante"
+     "es": "Relajada, inclinada adelante",
+     "uk": "Розслаблене, з нахилом уперед"
     },
     {
      "en": "Standing on the footrests",
-     "es": "De pie sobre los estribos"
+     "es": "De pie sobre los estribos",
+     "uk": "Стоячи на підніжках"
     }
    ],
    "why": {
     "en": "It stops the rider sliding forward.",
-    "es": "Evita el deslizamiento hacia delante del conductor."
+    "es": "Evita el deslizamiento hacia delante del conductor.",
+    "uk": "Це не дає водієві ковзати вперед."
    }
   },
   {
@@ -1390,25 +1661,30 @@ window.DGT_DATA = {
    "tag": "braking",
    "q": {
     "en": "In an emergency braking, what does your course advise doing with the clutch?",
-    "es": "En una frenada de emergencia, ¿qué aconseja tu curso hacer con el embrague?"
+    "es": "En una frenada de emergencia, ¿qué aconseja tu curso hacer con el embrague?",
+    "uk": "Що, за вашим курсом, робити зі зчепленням під час екстреного гальмування?"
    },
    "o": [
     {
      "en": "Pull it in and use both brakes hard",
-     "es": "Desembragar y hacer un uso intensivo de ambos frenos"
+     "es": "Desembragar y hacer un uso intensivo de ambos frenos",
+     "uk": "Вижати його й сильно гальмувати обома гальмами"
     },
     {
      "en": "Keep it out to use the engine brake",
-     "es": "No tocarlo, para usar el freno motor"
+     "es": "No tocarlo, para usar el freno motor",
+     "uk": "Не вижимати, щоб гальмувати двигуном"
     },
     {
      "en": "Change up a gear",
-     "es": "Subir una marcha"
+     "es": "Subir una marcha",
+     "uk": "Підвищити передачу"
     }
    ],
    "why": {
     "en": "Hard use of both brakes is only for this kind of braking.",
-    "es": "El uso intensivo de ambos frenos es solo para este tipo de frenadas."
+    "es": "El uso intensivo de ambos frenos es solo para este tipo de frenadas.",
+    "uk": "Сильне використання обох гальм — лише для такого гальмування."
    }
   },
   {
@@ -1416,25 +1692,30 @@ window.DGT_DATA = {
    "tag": "braking",
    "q": {
     "en": "In normal braking, when should you pull the clutch in?",
-    "es": "En una frenada normal, ¿cuándo accionas el embrague?"
+    "es": "En una frenada normal, ¿cuándo accionas el embrague?",
+    "uk": "Коли під час звичайного гальмування вижимати зчеплення?"
    },
    "o": [
     {
      "en": "When the motorcycle has almost stopped",
-     "es": "Cuando la moto esté prácticamente detenida"
+     "es": "Cuando la moto esté prácticamente detenida",
+     "uk": "Коли мотоцикл майже зупинився"
     },
     {
      "en": "As soon as you start braking",
-     "es": "En cuanto empiezas a frenar"
+     "es": "En cuanto empiezas a frenar",
+     "uk": "Щойно почали гальмувати"
     },
     {
      "en": "Never",
-     "es": "Nunca"
+     "es": "Nunca",
+     "uk": "Ніколи"
     }
    ],
    "why": {
     "en": "Until then the engine brake helps; except in emergency braking.",
-    "es": "Hasta entonces ayuda el freno motor; salvo en las frenadas de emergencia."
+    "es": "Hasta entonces ayuda el freno motor; salvo en las frenadas de emergencia.",
+    "uk": "До того допомагає гальмування двигуном; крім екстреного гальмування."
    }
   },
   {
@@ -1442,25 +1723,30 @@ window.DGT_DATA = {
    "tag": "braking",
    "q": {
     "en": "Why use the engine brake on a long descent?",
-    "es": "¿Por qué usar el freno motor en una bajada larga?"
+    "es": "¿Por qué usar el freno motor en una bajada larga?",
+    "uk": "Навіщо гальмувати двигуном на довгому спуску?"
    },
    "o": [
     {
      "en": "So the service brakes don’t overheat",
-     "es": "Para no calentar el freno de servicio"
+     "es": "Para no calentar el freno de servicio",
+     "uk": "Щоб робочі гальма не перегрівалися"
     },
     {
      "en": "To use less fuel only",
-     "es": "Solo para gastar menos"
+     "es": "Solo para gastar menos",
+     "uk": "Лише щоб витрачати менше пального"
     },
     {
      "en": "It is compulsory",
-     "es": "Es obligatorio"
+     "es": "Es obligatorio",
+     "uk": "Це обов’язково"
     }
    ],
    "why": {
     "en": "Change down carefully, with no jolt or locked wheel.",
-    "es": "Reducir con cuidado, sin sacudidas ni bloqueo de rueda."
+    "es": "Reducir con cuidado, sin sacudidas ni bloqueo de rueda.",
+    "uk": "Знижуйте передачу обережно, без ривка й блокування колеса."
    }
   },
   {
@@ -1468,25 +1754,30 @@ window.DGT_DATA = {
    "tag": "braking",
    "q": {
     "en": "On a shaft-drive motorcycle, what happens if you select a lower gear by mistake and let the clutch out sharply?",
-    "es": "En una moto con cardan, ¿qué pasa si metes una marcha inferior por error y sueltas el embrague de golpe?"
+    "es": "En una moto con cardan, ¿qué pasa si metes una marcha inferior por error y sueltas el embrague de golpe?",
+    "uk": "Що буде на мотоциклі з карданом, якщо помилково ввімкнути нижчу передачу й різко відпустити зчеплення?"
    },
    "o": [
     {
      "en": "The rear wheel bounces hard and the transmission can be damaged",
-     "es": "Un rebote acusado de la rueda trasera y una posible avería de la transmisión"
+     "es": "Un rebote acusado de la rueda trasera y una posible avería de la transmisión",
+     "uk": "Заднє колесо сильно підскочить, і трансмісія може пошкодитися"
     },
     {
      "en": "Nothing",
-     "es": "Nada"
+     "es": "Nada",
+     "uk": "Нічого"
     },
     {
      "en": "The front wheel locks",
-     "es": "Se bloquea la rueda delantera"
+     "es": "Se bloquea la rueda delantera",
+     "uk": "Заблокується переднє колесо"
     }
    ],
    "why": {
     "en": "Change down carefully.",
-    "es": "Hay que reducir con cuidado."
+    "es": "Hay que reducir con cuidado.",
+    "uk": "Знижуйте передачу обережно."
    }
   },
   {
@@ -1494,25 +1785,30 @@ window.DGT_DATA = {
    "tag": "town",
    "q": {
     "en": "In town, at very low speed, which brake does your course recommend for stability?",
-    "es": "En ciudad, a muy poca velocidad, ¿qué freno recomienda tu curso para mantener la estabilidad?"
+    "es": "En ciudad, a muy poca velocidad, ¿qué freno recomienda tu curso para mantener la estabilidad?",
+    "uk": "Яке гальмо ваш курс рекомендує для стійкості в місті на дуже малій швидкості?"
    },
    "o": [
     {
      "en": "The rear brake",
-     "es": "El freno trasero"
+     "es": "El freno trasero",
+     "uk": "Заднє гальмо"
     },
     {
      "en": "The front brake",
-     "es": "El freno delantero"
+     "es": "El freno delantero",
+     "uk": "Переднє гальмо"
     },
     {
      "en": "Neither: use your feet",
-     "es": "Ninguno: los pies"
+     "es": "Ninguno: los pies",
+     "uk": "Жодне: ногами"
     }
    ],
    "why": {
     "en": "And look far ahead, not at the front wheel.",
-    "es": "Y mirar a lo lejos, no cerca de la rueda delantera."
+    "es": "Y mirar a lo lejos, no cerca de la rueda delantera.",
+    "uk": "І дивіться далеко вперед, а не на переднє колесо."
    }
   },
   {
@@ -1520,25 +1816,30 @@ window.DGT_DATA = {
    "tag": "town",
    "q": {
     "en": "Riding slowly in town, may you take your feet off the footrests?",
-    "es": "Circulando despacio en ciudad, ¿puedes quitar los pies de los estribos?"
+    "es": "Circulando despacio en ciudad, ¿puedes quitar los pies de los estribos?",
+    "uk": "Повільно їдучи містом, чи можна знімати ноги з підніжок?"
    },
    "o": [
     {
      "en": "No: keep them there to avoid losing balance",
-     "es": "No: mantenerlos para evitar desequilibrios"
+     "es": "No: mantenerlos para evitar desequilibrios",
+     "uk": "Ні: тримайте їх там, щоб не втратити рівновагу"
     },
     {
      "en": "Yes, below 20 km/h",
-     "es": "Sí, por debajo de 20 km/h"
+     "es": "Sí, por debajo de 20 km/h",
+     "uk": "Так, до 20 км/год"
     },
     {
      "en": "Yes, always in town",
-     "es": "Sí, siempre en ciudad"
+     "es": "Sí, siempre en ciudad",
+     "uk": "Так, у місті завжди"
     }
    ],
    "why": {
     "en": "Even at low speed.",
-    "es": "Incluso aunque se circule a poca velocidad."
+    "es": "Incluso aunque se circule a poca velocidad.",
+    "uk": "Навіть на малій швидкості."
    }
   },
   {
@@ -1546,25 +1847,30 @@ window.DGT_DATA = {
    "tag": "town",
    "q": {
     "en": "What kind of riding suits town traffic?",
-    "es": "¿Qué tipo de conducción conviene en ciudad?"
+    "es": "¿Qué tipo de conducción conviene en ciudad?",
+    "uk": "Яка їзда підходить для міського руху?"
    },
    "o": [
     {
      "en": "Defensive riding: more attention, because motorcycles are more vulnerable",
-     "es": "Conducción defensiva: más atención, porque la moto es más vulnerable"
+     "es": "Conducción defensiva: más atención, porque la moto es más vulnerable",
+     "uk": "Захисна: більше уваги, бо мотоцикли вразливіші"
     },
     {
      "en": "Fast, to get through junctions quickly",
-     "es": "Rápida, para pasar pronto las intersecciones"
+     "es": "Rápida, para pasar pronto las intersecciones",
+     "uk": "Швидка, щоб швидше проскакувати перехрестя"
     },
     {
      "en": "Weaving to avoid queues",
-     "es": "Zigzagueando para evitar colas"
+     "es": "Zigzagueando para evitar colas",
+     "uk": "Петляння, щоб оминати черги"
     }
    ],
    "why": {
     "en": "Pedestrians, junctions and traffic make motorcycles more vulnerable.",
-    "es": "Peatones, intersecciones y la propia circulación hacen la moto más vulnerable."
+    "es": "Peatones, intersecciones y la propia circulación hacen la moto más vulnerable.",
+    "uk": "Пішоходи, перехрестя й рух роблять мотоцикли вразливішими."
    }
   },
   {
@@ -1572,25 +1878,30 @@ window.DGT_DATA = {
    "tag": "town",
    "q": {
     "en": "How should a large group of motorcyclists ride?",
-    "es": "¿Cómo debe circular un grupo numeroso de motoristas?"
+    "es": "¿Cómo debe circular un grupo numeroso de motoristas?",
+    "uk": "Як має їхати велика група мотоциклістів?"
    },
    "o": [
     {
      "en": "In subgroups of three or four, with gaps between them",
-     "es": "En subgrupos de tres o cuatro, distanciados entre sí"
+     "es": "En subgrupos de tres o cuatro, distanciados entre sí",
+     "uk": "Підгрупами по три-чотири з проміжками між ними"
     },
     {
      "en": "All together, close to each other",
-     "es": "Todos juntos y pegados"
+     "es": "Todos juntos y pegados",
+     "uk": "Усі разом, близько одне до одного"
     },
     {
      "en": "In pairs side by side",
-     "es": "De dos en dos en paralelo"
+     "es": "De dos en dos en paralelo",
+     "uk": "Парами поруч"
     }
    ],
    "why": {
     "en": "Group riding is influenced by the others: competitiveness can appear.",
-    "es": "En grupo influye el comportamiento de los demás: puede aparecer el afán competitivo."
+    "es": "En grupo influye el comportamiento de los demás: puede aparecer el afán competitivo.",
+    "uk": "У групі на кожного впливають інші: може з’явитися змагання."
    }
   },
   {
@@ -1598,25 +1909,30 @@ window.DGT_DATA = {
    "tag": "town",
    "q": {
     "en": "Where should the least experienced riders and least powerful motorcycles go?",
-    "es": "¿Dónde deben ir los conductores con menos experiencia y las motos de menor potencia?"
+    "es": "¿Dónde deben ir los conductores con menos experiencia y las motos de menor potencia?",
+    "uk": "Де мають їхати найменш досвідчені мотоциклісти й найменш потужні мотоцикли?"
    },
    "o": [
     {
      "en": "In the front groups",
-     "es": "En los grupos de cabeza"
+     "es": "En los grupos de cabeza",
+     "uk": "У передніх групах"
     },
     {
      "en": "At the back",
-     "es": "Al final"
+     "es": "Al final",
+     "uk": "Позаду"
     },
     {
      "en": "In the middle of the largest group",
-     "es": "En medio del grupo más numeroso"
+     "es": "En medio del grupo más numeroso",
+     "uk": "Посередині найбільшої групи"
     }
    ],
    "why": {
     "en": "So the group adapts to them and nobody is left behind.",
-    "es": "Así el grupo se adapta a ellos."
+    "es": "Así el grupo se adapta a ellos.",
+    "uk": "Щоб група пристосовувалася до них і ніхто не відставав."
    }
   },
   {
@@ -1624,25 +1940,30 @@ window.DGT_DATA = {
    "tag": "town",
    "q": {
     "en": "In a group, how should the motorcycles be placed?",
-    "es": "En grupo, ¿cómo se colocan las motos?"
+    "es": "En grupo, ¿cómo se colocan las motos?",
+    "uk": "Як розміщувати мотоцикли в групі?"
    },
    "o": [
     {
      "en": "In single file, slightly offset to see ahead",
-     "es": "En hilera, algo desviados para ver hacia delante"
+     "es": "En hilera, algo desviados para ver hacia delante",
+     "uk": "Один за одним, трохи зі зміщенням, щоб бачити вперед"
     },
     {
      "en": "Side by side",
-     "es": "En paralelo"
+     "es": "En paralelo",
+     "uk": "Поруч"
     },
     {
      "en": "All on the same line",
-     "es": "Todos en la misma línea"
+     "es": "Todos en la misma línea",
+     "uk": "Усі на одній лінії"
     }
    ],
    "why": {
     "en": "Never side by side.",
-    "es": "Nunca en paralelo."
+    "es": "Nunca en paralelo.",
+    "uk": "Ніколи поруч."
    }
   },
   {
@@ -1650,25 +1971,30 @@ window.DGT_DATA = {
    "tag": "town",
    "q": {
     "en": "In a group, who is responsible for each rider’s riding?",
-    "es": "En grupo, ¿quién responde de la conducción de cada motorista?"
+    "es": "En grupo, ¿quién responde de la conducción de cada motorista?",
+    "uk": "Хто в групі відповідає за їзду кожного мотоцикліста?"
    },
    "o": [
     {
      "en": "Each rider individually",
-     "es": "Cada conductor, individualmente"
+     "es": "Cada conductor, individualmente",
+     "uk": "Кожен мотоцикліст особисто"
     },
     {
      "en": "The leader",
-     "es": "El que va en cabeza"
+     "es": "El que va en cabeza",
+     "uk": "Ведучий"
     },
     {
      "en": "The organiser",
-     "es": "El organizador"
+     "es": "El organizador",
+     "uk": "Організатор"
     }
    ],
    "why": {
     "en": "Responsibility is individual.",
-    "es": "La responsabilidad es individual."
+    "es": "La responsabilidad es individual.",
+    "uk": "Відповідальність особиста."
    }
   },
   {
@@ -1676,25 +2002,30 @@ window.DGT_DATA = {
    "tag": "town",
    "q": {
     "en": "May two mopeds ride side by side on the shoulder?",
-    "es": "¿Pueden circular dos ciclomotores en paralelo por el arcén?"
+    "es": "¿Pueden circular dos ciclomotores en paralelo por el arcén?",
+    "uk": "Чи можуть два мопеди їхати поруч узбіччям?"
    },
    "o": [
     {
      "en": "No: the law forbids it for vehicles that must use the shoulder",
-     "es": "No: la ley lo prohíbe a los vehículos obligados a usar el arcén"
+     "es": "No: la ley lo prohíbe a los vehículos obligados a usar el arcén",
+     "uk": "Ні: закон забороняє це транспорту, що мусить їхати узбіччям"
     },
     {
      "en": "Yes, like bicycles",
-     "es": "Sí, como las bicicletas"
+     "es": "Sí, como las bicicletas",
+     "uk": "Так, як велосипеди"
     },
     {
      "en": "Yes, in town",
-     "es": "Sí, en poblado"
+     "es": "Sí, en poblado",
+     "uk": "Так, у місті"
     }
    ],
    "why": {
     "en": "Only bicycles may ride two abreast (art. 36).",
-    "es": "Solo las bicicletas pueden ir en columna de a dos (art. 36)."
+    "es": "Solo las bicicletas pueden ir en columna de a dos (art. 36).",
+    "uk": "Лише велосипеди можуть їхати по двоє (ст. 36)."
    }
   },
   {
@@ -1702,25 +2033,30 @@ window.DGT_DATA = {
    "tag": "sidecar",
    "q": {
     "en": "Why does a motorcycle with a sidecar handle differently?",
-    "es": "¿Por qué una moto con sidecar se conduce de forma diferente?"
+    "es": "¿Por qué una moto con sidecar se conduce de forma diferente?",
+    "uk": "Чому мотоцикл із коляскою поводиться інакше?"
    },
    "o": [
     {
      "en": "The weight is not symmetrical and the centre of gravity is shifted towards the motorcycle",
-     "es": "El peso no está repartido simétricamente y el centro de gravedad está desplazado hacia la moto"
+     "es": "El peso no está repartido simétricamente y el centro de gravedad está desplazado hacia la moto",
+     "uk": "Вага несиметрична, і центр ваги зміщений до мотоцикла"
     },
     {
      "en": "It has more power",
-     "es": "Tiene más potencia"
+     "es": "Tiene más potencia",
+     "uk": "Він потужніший"
     },
     {
      "en": "It has no rear brake",
-     "es": "No tiene freno trasero"
+     "es": "No tiene freno trasero",
+     "uk": "У нього немає заднього гальма"
     }
    ],
    "why": {
     "en": "Riding must be more moderate.",
-    "es": "La conducción debe ser más moderada."
+    "es": "La conducción debe ser más moderada.",
+    "uk": "Їхати треба помірніше."
    }
   },
   {
@@ -1728,25 +2064,30 @@ window.DGT_DATA = {
    "tag": "sidecar",
    "q": {
     "en": "When is there a risk of tipping over towards the sidecar?",
-    "es": "¿Cuándo hay riesgo de volcar hacia el lado del sidecar?"
+    "es": "¿Cuándo hay riesgo de volcar hacia el lado del sidecar?",
+    "uk": "Коли є ризик перекинутися на коляску?"
    },
    "o": [
     {
      "en": "When turning towards the side away from the sidecar, or swerving",
-     "es": "Al girar hacia el lado contrario al sidecar o al esquivar un obstáculo"
+     "es": "Al girar hacia el lado contrario al sidecar o al esquivar un obstáculo",
+     "uk": "Коли повертаєте в бік, протилежний колясці, чи різко об’їжджаєте"
     },
     {
      "en": "When braking in a straight line",
-     "es": "Al frenar en recta"
+     "es": "Al frenar en recta",
+     "uk": "Коли гальмуєте по прямій"
     },
     {
      "en": "When moving off",
-     "es": "Al arrancar"
+     "es": "Al arrancar",
+     "uk": "Коли рушаєте"
     }
    ],
    "why": {
     "en": "The centrifugal force pushes the outfit towards the sidecar.",
-    "es": "La fuerza centrífuga empuja el conjunto hacia el sidecar."
+    "es": "La fuerza centrífuga empuja el conjunto hacia el sidecar.",
+    "uk": "Відцентрова сила штовхає состав до коляски."
    }
   },
   {
@@ -1754,25 +2095,30 @@ window.DGT_DATA = {
    "tag": "sidecar",
    "q": {
     "en": "How many people may travel on a motorcycle with a sidecar?",
-    "es": "¿Cuántas personas pueden viajar en una moto con sidecar?"
+    "es": "¿Cuántas personas pueden viajar en una moto con sidecar?",
+    "uk": "Скільки людей може їхати на мотоциклі з коляскою?"
    },
    "o": [
     {
      "en": "Up to three, if the registration certificate allows it",
-     "es": "Hasta tres, si lo autoriza el permiso de circulación"
+     "es": "Hasta tres, si lo autoriza el permiso de circulación",
+     "uk": "До трьох, якщо дозволяє свідоцтво про реєстрацію"
     },
     {
      "en": "Two",
-     "es": "Dos"
+     "es": "Dos",
+     "uk": "Двоє"
     },
     {
      "en": "Four",
-     "es": "Cuatro"
+     "es": "Cuatro",
+     "uk": "Четверо"
     }
    ],
    "why": {
     "en": "The rider and a passenger on the motorcycle, and one in the sidecar.",
-    "es": "Conductor y pasajero en la moto, y otro en el sidecar."
+    "es": "Conductor y pasajero en la moto, y otro en el sidecar.",
+    "uk": "Водій і пасажир на мотоциклі та один у колясці."
    }
   },
   {
@@ -1780,25 +2126,30 @@ window.DGT_DATA = {
    "tag": "sidecar",
    "q": {
     "en": "With a single passenger, where does your course say they should ride?",
-    "es": "Con un solo pasajero, ¿dónde dice tu curso que debe ir?"
+    "es": "Con un solo pasajero, ¿dónde dice tu curso que debe ir?",
+    "uk": "Де, за вашим курсом, має їхати єдиний пасажир?"
    },
    "o": [
     {
      "en": "In the sidecar",
-     "es": "En el sidecar"
+     "es": "En el sidecar",
+     "uk": "У колясці"
     },
     {
      "en": "Behind the rider",
-     "es": "Detrás del conductor"
+     "es": "Detrás del conductor",
+     "uk": "Позаду водія"
     },
     {
      "en": "Either",
-     "es": "Indistintamente"
+     "es": "Indistintamente",
+     "uk": "Будь-де"
     }
    ],
    "why": {
     "en": "For the outfit’s stability, especially in turns.",
-    "es": "Por la estabilidad del conjunto, sobre todo en los giros."
+    "es": "Por la estabilidad del conjunto, sobre todo en los giros.",
+    "uk": "Для стійкості составу, особливо в поворотах."
    }
   },
   {
@@ -1806,25 +2157,30 @@ window.DGT_DATA = {
    "tag": "sidecar",
    "q": {
     "en": "With two passengers, who goes in the sidecar, according to your course?",
-    "es": "Con dos pasajeros, ¿quién va en el sidecar, según tu curso?"
+    "es": "Con dos pasajeros, ¿quién va en el sidecar, según tu curso?",
+    "uk": "З двома пасажирами хто, за вашим курсом, їде в колясці?"
    },
    "o": [
     {
      "en": "The heavier one",
-     "es": "El de mayor peso"
+     "es": "El de mayor peso",
+     "uk": "Важчий"
     },
     {
      "en": "The lighter one",
-     "es": "El de menor peso"
+     "es": "El de menor peso",
+     "uk": "Легший"
     },
     {
      "en": "The younger one",
-     "es": "El más joven"
+     "es": "El más joven",
+     "uk": "Молодший"
     }
    ],
    "why": {
     "en": "It helps balance the outfit.",
-    "es": "Ayuda a equilibrar el conjunto."
+    "es": "Ayuda a equilibrar el conjunto.",
+    "uk": "Це допомагає збалансувати состав."
    }
   },
   {
@@ -1832,25 +2188,30 @@ window.DGT_DATA = {
    "tag": "sidecar",
    "q": {
     "en": "Must the sidecar wheel have a brake?",
-    "es": "¿Debe tener freno la rueda del sidecar?"
+    "es": "¿Debe tener freno la rueda del sidecar?",
+    "uk": "Чи мусить колесо коляски мати гальмо?"
    },
    "o": [
     {
      "en": "No, it is not required",
-     "es": "No, no se exige"
+     "es": "No, no se exige",
+     "uk": "Ні, це не вимагається"
     },
     {
      "en": "Yes, always",
-     "es": "Sí, siempre"
+     "es": "Sí, siempre",
+     "uk": "Так, завжди"
     },
     {
      "en": "Only if a passenger travels in it",
-     "es": "Solo si va un pasajero"
+     "es": "Solo si va un pasajero",
+     "uk": "Лише якщо в ній їде пасажир"
     }
    ],
    "why": {
     "en": "The motorcycle needs two brakes, one front and one rear; the sidecar wheel need not have one.",
-    "es": "La moto necesita dos frenos, delantero y trasero; no se exige frenar la rueda del sidecar."
+    "es": "La moto necesita dos frenos, delantero y trasero; no se exige frenar la rueda del sidecar.",
+    "uk": "Мотоцикл має мати два гальма, переднє й заднє; колесо коляски може його не мати."
    }
   },
   {
@@ -1858,25 +2219,30 @@ window.DGT_DATA = {
    "tag": "load",
    "q": {
     "en": "Where should heavy luggage go?",
-    "es": "¿Dónde debe ir el equipaje pesado?"
+    "es": "¿Dónde debe ir el equipaje pesado?",
+    "uk": "Куди класти важкий багаж?"
    },
    "o": [
     {
      "en": "Low and close to the centre of gravity, at the bottom of the cases",
-     "es": "Bajo y cerca del centro de gravedad, en el fondo de las maletas"
+     "es": "Bajo y cerca del centro de gravedad, en el fondo de las maletas",
+     "uk": "Низько й ближче до центру ваги, на дно кофрів"
     },
     {
      "en": "High, in the top case",
-     "es": "Arriba, en el baúl"
+     "es": "Arriba, en el baúl",
+     "uk": "Високо, у кофр"
     },
     {
      "en": "On the handlebar",
-     "es": "En el manillar"
+     "es": "En el manillar",
+     "uk": "На кермо"
     }
    ],
    "why": {
     "en": "And spread the weight evenly on both sides.",
-    "es": "Y repartir el peso de forma equilibrada a ambos lados."
+    "es": "Y repartir el peso de forma equilibrada a ambos lados.",
+    "uk": "І розподіляйте вагу рівномірно на обидва боки."
    }
   },
   {
@@ -1884,25 +2250,30 @@ window.DGT_DATA = {
    "tag": "load",
    "q": {
     "en": "What should the rear rack (top case) carry?",
-    "es": "¿Qué debe llevar el portaequipajes trasero (baúl)?"
+    "es": "¿Qué debe llevar el portaequipajes trasero (baúl)?",
+    "uk": "Що можна возити на задньому багажнику (кофрі)?"
    },
    "o": [
     {
      "en": "Light items only",
-     "es": "Solo objetos ligeros"
+     "es": "Solo objetos ligeros",
+     "uk": "Лише легкі речі"
     },
     {
      "en": "The heaviest items",
-     "es": "Los objetos más pesados"
+     "es": "Los objetos más pesados",
+     "uk": "Найважчі речі"
     },
     {
      "en": "Fuel cans",
-     "es": "Bidones de combustible"
+     "es": "Bidones de combustible",
+     "uk": "Каністри з пальним"
     }
    ],
    "why": {
     "en": "Heavy items there cause wobble.",
-    "es": "Los objetos pesados ahí provocan fluctuación."
+    "es": "Los objetos pesados ahí provocan fluctuación.",
+    "uk": "Важкі речі там спричиняють виляння."
    }
   },
   {
@@ -1910,25 +2281,30 @@ window.DGT_DATA = {
    "tag": "load",
    "q": {
     "en": "What is the front rack, on the tank, good for?",
-    "es": "¿Para qué es adecuado el portaequipajes delantero, sobre el depósito?"
+    "es": "¿Para qué es adecuado el portaequipajes delantero, sobre el depósito?",
+    "uk": "Для чого передній багажник на баку?"
    },
    "o": [
     {
      "en": "Heavy items, because it doesn’t change the centre of gravity",
-     "es": "Objetos pesados, porque no modifica el centro de gravedad"
+     "es": "Objetos pesados, porque no modifica el centro de gravedad",
+     "uk": "Для важких речей, бо він не змінює центру ваги"
     },
     {
      "en": "Only light items",
-     "es": "Solo objetos ligeros"
+     "es": "Solo objetos ligeros",
+     "uk": "Лише для легких речей"
     },
     {
      "en": "Nothing: it is forbidden",
-     "es": "Para nada: está prohibido"
+     "es": "Para nada: está prohibido",
+     "uk": "Ні для чого: він заборонений"
     }
    ],
    "why": {
     "en": "It keeps the weight near the centre of the motorcycle.",
-    "es": "Mantiene el peso cerca del centro de la moto."
+    "es": "Mantiene el peso cerca del centro de la moto.",
+    "uk": "Він тримає вагу біля центру мотоцикла."
    }
   },
   {
@@ -1936,25 +2312,30 @@ window.DGT_DATA = {
    "tag": "load",
    "q": {
     "en": "How should side cases be loaded?",
-    "es": "¿Cómo se cargan las maletas laterales?"
+    "es": "¿Cómo se cargan las maletas laterales?",
+    "uk": "Як завантажувати бічні кофри?"
    },
    "o": [
     {
      "en": "The same weight on each side, without overloading",
-     "es": "El mismo peso a cada lado, sin sobrecargar"
+     "es": "El mismo peso a cada lado, sin sobrecargar",
+     "uk": "Однакова вага з кожного боку, без перевантаження"
     },
     {
      "en": "All the weight on the right side",
-     "es": "Todo el peso en el lado derecho"
+     "es": "Todo el peso en el lado derecho",
+     "uk": "Уся вага праворуч"
     },
     {
      "en": "Heaviest on top",
-     "es": "Lo más pesado arriba"
+     "es": "Lo más pesado arriba",
+     "uk": "Найважче зверху"
     }
    ],
    "why": {
     "en": "Unbalanced or overloaded cases are dangerous at speed.",
-    "es": "Unas maletas desequilibradas o sobrecargadas son peligrosas a velocidad elevada."
+    "es": "Unas maletas desequilibradas o sobrecargadas son peligrosas a velocidad elevada.",
+    "uk": "Незбалансовані чи перевантажені кофри небезпечні на швидкості."
    }
   },
   {
@@ -1962,25 +2343,30 @@ window.DGT_DATA = {
    "tag": "load",
    "q": {
     "en": "Where should you never place luggage?",
-    "es": "¿Dónde no debes colocar nunca la carga?"
+    "es": "¿Dónde no debes colocar nunca la carga?",
+    "uk": "Де ніколи не можна розміщувати багаж?"
    },
    "o": [
     {
      "en": "Near the handlebar, wheels, suspension, pedals or transmission",
-     "es": "Cerca del manillar, las ruedas, la suspensión, los pedales o la transmisión"
+     "es": "Cerca del manillar, las ruedas, la suspensión, los pedales o la transmisión",
+     "uk": "Біля керма, коліс, підвіски, педалей чи трансмісії"
     },
     {
      "en": "In the side cases",
-     "es": "En las maletas laterales"
+     "es": "En las maletas laterales",
+     "uk": "У бічних кофрах"
     },
     {
      "en": "In a tank bag",
-     "es": "En una bolsa sobre el depósito"
+     "es": "En una bolsa sobre el depósito",
+     "uk": "У сумці на баку"
     }
    ],
    "why": {
     "en": "It could interfere with them.",
-    "es": "Podría interferir con ellos."
+    "es": "Podría interferir con ellos.",
+    "uk": "Він може їм заважати."
    }
   },
   {
@@ -1988,25 +2374,30 @@ window.DGT_DATA = {
    "tag": "load",
    "q": {
     "en": "With a heavy load, what should you adjust on the motorcycle?",
-    "es": "Con mucha carga, ¿qué debes ajustar en la moto?"
+    "es": "Con mucha carga, ¿qué debes ajustar en la moto?",
+    "uk": "Що відрегулювати на мотоциклі з важким вантажем?"
    },
    "o": [
     {
      "en": "The suspension, to compensate for the load",
-     "es": "La amortiguación, para compensar la carga"
+     "es": "La amortiguación, para compensar la carga",
+     "uk": "Підвіску, щоб компенсувати вантаж"
     },
     {
      "en": "The mirrors only",
-     "es": "Solo los espejos"
+     "es": "Solo los espejos",
+     "uk": "Лише дзеркала"
     },
     {
      "en": "Nothing",
-     "es": "Nada"
+     "es": "Nada",
+     "uk": "Нічого"
     }
    ],
    "why": {
     "en": "Strap down everything that has no fixing.",
-    "es": "Y amarrar todo lo que no tenga anclaje."
+    "es": "Y amarrar todo lo que no tenga anclaje.",
+    "uk": "Закріпіть ременями все, що не має кріплення."
    }
   },
   {
@@ -2014,25 +2405,30 @@ window.DGT_DATA = {
    "tag": "load",
    "q": {
     "en": "What is the main factor in fuel consumption and pollution?",
-    "es": "¿Cuál es el principal factor del consumo y la contaminación?"
+    "es": "¿Cuál es el principal factor del consumo y la contaminación?",
+    "uk": "Який головний чинник витрати пального й забруднення?"
    },
    "o": [
     {
      "en": "High speed",
-     "es": "La velocidad elevada"
+     "es": "La velocidad elevada",
+     "uk": "Висока швидкість"
     },
     {
      "en": "The colour of the motorcycle",
-     "es": "El color de la moto"
+     "es": "El color de la moto",
+     "uk": "Колір мотоцикла"
     },
     {
      "en": "Riding with gloves",
-     "es": "Llevar guantes"
+     "es": "Llevar guantes",
+     "uk": "Їзда в рукавичках"
     }
    ],
    "why": {
     "en": "Also air resistance, aggressive riding, town riding, poor maintenance and overloading.",
-    "es": "También la resistencia al aire, la conducción agresiva, la ciudad, el mal mantenimiento y el exceso de carga."
+    "es": "También la resistencia al aire, la conducción agresiva, la ciudad, el mal mantenimiento y el exceso de carga.",
+    "uk": "Також опір повітря, агресивна їзда, міська їзда, поганий догляд і перевантаження."
    }
   },
   {
@@ -2040,25 +2436,30 @@ window.DGT_DATA = {
    "tag": "load",
    "q": {
     "en": "Where does a motorcycle use more fuel: in town or on the open road?",
-    "es": "¿Dónde consume más una moto: en poblado o en carretera?"
+    "es": "¿Dónde consume más una moto: en poblado o en carretera?",
+    "uk": "Де мотоцикл витрачає більше пального: у місті чи на трасі?"
    },
    "o": [
     {
      "en": "In town",
-     "es": "En poblado"
+     "es": "En poblado",
+     "uk": "У місті"
     },
     {
      "en": "On the open road",
-     "es": "En carretera"
+     "es": "En carretera",
+     "uk": "На трасі"
     },
     {
      "en": "The same",
-     "es": "Igual"
+     "es": "Igual",
+     "uk": "Однаково"
     }
    ],
    "why": {
     "en": "Stopping and starting raises consumption.",
-    "es": "Las paradas y arrancadas aumentan el consumo."
+    "es": "Las paradas y arrancadas aumentan el consumo.",
+    "uk": "Зупинки й рушання збільшують витрату."
    }
   },
   {
@@ -2066,25 +2467,30 @@ window.DGT_DATA = {
    "tag": "load",
    "q": {
     "en": "Why shouldn’t you modify the motorcycle’s fairing?",
-    "es": "¿Por qué no se debe modificar el carenado de la moto?"
+    "es": "¿Por qué no se debe modificar el carenado de la moto?",
+    "uk": "Чому не варто змінювати обтічник мотоцикла?"
    },
    "o": [
     {
      "en": "It changes the aerodynamics and raises fuel use",
-     "es": "Cambia la aerodinámica y aumenta el consumo"
+     "es": "Cambia la aerodinámica y aumenta el consumo",
+     "uk": "Це змінює аеродинаміку й збільшує витрату пального"
     },
     {
      "en": "It is only for looks",
-     "es": "Es solo estético"
+     "es": "Es solo estético",
+     "uk": "Він лише для краси"
     },
     {
      "en": "It voids the helmet approval",
-     "es": "Anula la homologación del casco"
+     "es": "Anula la homologación del casco",
+     "uk": "Це скасовує затвердження шолома"
     }
    ],
    "why": {
     "en": "Air resistance is one of the factors in consumption.",
-    "es": "La resistencia al aire es uno de los factores del consumo."
+    "es": "La resistencia al aire es uno de los factores del consumo.",
+    "uk": "Опір повітря — один із чинників витрати."
    }
   },
   {
@@ -2092,25 +2498,30 @@ window.DGT_DATA = {
    "tag": "load",
    "q": {
     "en": "Besides fuel use, what else do aggressive riding and overloading increase?",
-    "es": "Además del consumo, ¿qué más aumentan la conducción agresiva y el exceso de carga?"
+    "es": "Además del consumo, ¿qué más aumentan la conducción agresiva y el exceso de carga?",
+    "uk": "Що, крім витрати пального, збільшують агресивна їзда й перевантаження?"
    },
    "o": [
     {
      "en": "Tyre wear, through friction and heat",
-     "es": "El desgaste de los neumáticos, por rozamiento y calentamiento"
+     "es": "El desgaste de los neumáticos, por rozamiento y calentamiento",
+     "uk": "Знос шин через тертя й нагрівання"
     },
     {
      "en": "The motorcycle’s top speed",
-     "es": "La velocidad máxima de la moto"
+     "es": "La velocidad máxima de la moto",
+     "uk": "Максимальну швидкість мотоцикла"
     },
     {
      "en": "Nothing else",
-     "es": "Nada más"
+     "es": "Nada más",
+     "uk": "Більше нічого"
     }
    ],
    "why": {
     "en": "The same factors wear the tyres.",
-    "es": "Los mismos factores desgastan los neumáticos."
+    "es": "Los mismos factores desgastan los neumáticos.",
+    "uk": "Ті самі чинники зношують шини."
    }
   }
  ],
@@ -2119,243 +2530,297 @@ window.DGT_DATA = {
    "sec": 1,
    "en": "The motorcycle and its types",
    "es": "La moto y sus tipos",
+   "uk": "Мотоцикл і його типи",
    "recap": [
     [
      "Less stable, more fragile, less visible, powerful for their mass.",
-     "Menos estables, más frágiles, menos visibles, más potentes respecto a su masa."
+     "Menos estables, más frágiles, menos visibles, más potentes respecto a su masa.",
+     "Менш стійкі, вразливіші, менш помітні, потужні щодо своєї маси."
     ],
     [
      "Hard acceleration: centre of gravity back, front wheel loses grip, wobble.",
-     "Aceleración fuerte: centro de gravedad atrás, la delantera pierde agarre, fluctuación."
+     "Aceleración fuerte: centro de gravedad atrás, la delantera pierde agarre, fluctuación.",
+     "Різке прискорення: центр ваги назад, переднє колесо втрачає зчеплення, виляння."
     ],
     [
      "Scooter: town, automatic. Tourer: long trips, less manoeuvrable. Sports: high speed, tiring posture.",
-     "Scooter: ciudad, automática. Rutera: viajes largos, menos maniobrable. Deportiva: velocidad, postura incómoda."
+     "Scooter: ciudad, automática. Rutera: viajes largos, menos maniobrable. Deportiva: velocidad, postura incómoda.",
+     "Скутер: місто, автомат. Турер: далекі поїздки, менш маневрений. Спортивний: висока швидкість, утомлива посадка."
     ],
     [
      "Short, low handlebar: less resistance but less steering angle.",
-     "Manillar corto y bajo: menos resistencia pero menor ángulo de giro."
+     "Manillar corto y bajo: menos resistencia pero menor ángulo de giro.",
+     "Коротке низьке кермо: менший опір, але менший кут повороту."
     ]
    ],
    "trap": [
     "Thinking a high, wide handlebar is more aerodynamic.",
-    "Pensar que un manillar alto y ancho es más aerodinámico."
+    "Pensar que un manillar alto y ancho es más aerodinámico.",
+    "Думати, що високе широке кермо аеродинамічніше."
    ]
   },
   "controls": {
    "sec": 1,
    "en": "Controls and mirrors",
    "es": "Mandos y espejos",
+   "uk": "Органи керування й дзеркала",
    "recap": [
     [
      "Right hand: throttle and front brake. Left hand: clutch, lights, horn.",
-     "Mano derecha: acelerador y freno delantero. Izquierda: embrague, luces, claxon."
+     "Mano derecha: acelerador y freno delantero. Izquierda: embrague, luces, claxon.",
+     "Права рука: газ і переднє гальмо. Ліва рука: зчеплення, світло, звуковий сигнал."
     ],
     [
      "Right foot: rear brake. Left foot: gear lever.",
-     "Pie derecho: freno trasero. Pie izquierdo: selector de marchas."
+     "Pie derecho: freno trasero. Pie izquierdo: selector de marchas.",
+     "Права нога: заднє гальмо. Ліва нога: важіль перемикання передач."
     ],
     [
      "Mirrors: up to 100 km/h left compulsory; over 100 km/h left and right.",
-     "Espejos: hasta 100 km/h, izquierdo obligatorio; más de 100 km/h, izquierdo y derecho."
+     "Espejos: hasta 100 km/h, izquierdo obligatorio; más de 100 km/h, izquierdo y derecho.",
+     "Дзеркала: до 100 км/год обов’язкове ліве; понад 100 км/год ліве й праве."
     ],
     [
      "Adjust before moving off, stopped, on level ground; turn your head for the blind spot.",
-     "Regular antes de salir, parado y en llano; girar la cabeza para el ángulo muerto."
+     "Regular antes de salir, parado y en llano; girar la cabeza para el ángulo muerto.",
+     "Регулюйте до початку руху, стоячи, на рівному; повертайте голову, щоб перевірити мертву зону."
     ]
    ],
    "trap": [
     "Thinking the rear brake is a hand lever on most motorcycles.",
-    "Pensar que el freno trasero es una maneta en la mayoría de las motos."
+    "Pensar que el freno trasero es una maneta en la mayoría de las motos.",
+    "Думати, що на більшості мотоциклів заднє гальмо — ручний важіль."
    ]
   },
   "start": {
    "sec": 2,
    "en": "Stands and moving off",
    "es": "Soportes y puesta en marcha",
+   "uk": "Підніжки й рушання",
    "recap": [
     [
      "Engine off: handlebar with both hands, no sharp front braking, feel the weight.",
-     "Motor parado: manillar con las dos manos, sin frenar bruscamente delante, notar el peso."
+     "Motor parado: manillar con las dos manos, sin frenar bruscamente delante, notar el peso.",
+     "Двигун вимкнено: кермо двома руками, без різкого переднього гальмування, відчувайте вагу."
     ],
     [
      "Side stand: lean it on; to take it off, brake and bring the bike upright.",
-     "Pata de cabra: inclinarla sobre ella; para quitarla, frenar y enderezar la moto."
+     "Pata de cabra: inclinarla sobre ella; para quitarla, frenar y enderezar la moto.",
+     "Бічна підніжка: сперти на неї; щоб прибрати — гальмуйте й поставте мотоцикл рівно."
     ],
     [
      "Centre stand: foot on it, pull back and slightly up; off by pushing forward, front brake ready.",
-     "Caballete: pie encima, tirar hacia atrás y algo arriba; quitarlo empujando adelante con el freno delantero listo."
+     "Caballete: pie encima, tirar hacia atrás y algo arriba; quitarlo empujando adelante con el freno delantero listo.",
+     "Центральна підніжка: нога на неї, тягніть назад і трохи вгору; знімати — штовхаючи вперед, переднє гальмо напоготові."
     ],
     [
      "Right foot down, left selects first (lever down); throttle and clutch out gently.",
-     "Pie derecho al suelo, el izquierdo mete primera (palanca abajo); acelerar y soltar embrague con suavidad."
+     "Pie derecho al suelo, el izquierdo mete primera (palanca abajo); acelerar y soltar embrague con suavidad.",
+     "Права нога на землі, ліва вмикає першу (важіль униз); газ і зчеплення плавно."
     ]
    ],
    "trap": [
     "Letting the clutch out sharply and doing a wheelie.",
-    "Soltar el embrague de golpe y hacer un caballito."
+    "Soltar el embrague de golpe y hacer un caballito.",
+    "Різко відпустити зчеплення й стати на заднє колесо."
    ]
   },
   "posture": {
    "sec": 2,
    "en": "Posture and the passenger",
    "es": "Postura y acompañante",
+   "uk": "Посадка й пасажир",
    "recap": [
     [
      "Astride, relaxed, looking well ahead; arms slightly bent; knees on the tank in bends and braking.",
-     "A horcajadas, suelto, mirando a lo lejos; brazos flexionados; rodillas al depósito en curvas y frenadas."
+     "A horcajadas, suelto, mirando a lo lejos; brazos flexionados; rodillas al depósito en curvas y frenadas.",
+     "Верхи, розслаблено, дивлячись далеко вперед; руки трохи зігнуті; коліна до бака в поворотах і під час гальмування."
     ],
     [
      "Passenger behind, astride, feet on footrests; never between rider and handlebar.",
-     "Pasajero detrás, a horcajadas, pies en reposapiés; nunca entre conductor y manillar."
+     "Pasajero detrás, a horcajadas, pies en reposapiés; nunca entre conductor y manillar.",
+     "Пасажир позаду, верхи, ноги на підніжках; ніколи між водієм і кермом."
     ],
     [
      "The passenger holds on and leans like the rider.",
-     "El pasajero se agarra y se inclina como el conductor."
+     "El pasajero se agarra y se inclina como el conductor.",
+     "Пасажир тримається й нахиляється, як водій."
     ],
     [
      "With a passenger: longer braking, less acceleration, rear locks less, more rear tyre pressure.",
-     "Con pasajero: frenadas más largas, menos aceleración, la trasera se bloquea menos, más presión detrás."
+     "Con pasajero: frenadas más largas, menos aceleración, la trasera se bloquea menos, más presión detrás.",
+     "З пасажиром: довше гальмування, слабше прискорення, заднє колесо рідше блокується, більший тиск у задній шині."
     ]
    ],
    "trap": [
     "Thinking the passenger should lean the other way to balance.",
-    "Pensar que el pasajero debe inclinarse al revés para compensar."
+    "Pensar que el pasajero debe inclinarse al revés para compensar.",
+    "Думати, що пасажир має нахилятися в інший бік для рівноваги."
    ]
   },
   "curves": {
    "sec": 2,
    "en": "Balance and bends",
    "es": "Equilibrio y curvas",
+   "uk": "Рівновага й повороти",
    "recap": [
     [
      "Balance is hardest at low speed; gyroscopic help from about 30 km/h.",
-     "El equilibrio es más difícil despacio; ayuda giroscópica desde unos 30 km/h."
+     "El equilibrio es más difícil despacio; ayuda giroscópica desde unos 30 km/h.",
+     "Рівновагу найважче тримати на малій швидкості; гіроскопічний ефект допомагає приблизно з 30 км/год."
     ],
     [
      "Brake before the bend, not in it; a leaning bike takes more width.",
-     "Frenar antes de la curva, no dentro; inclinada, la moto ocupa más anchura."
+     "Frenar antes de la curva, no dentro; inclinada, la moto ocupa más anchura.",
+     "Гальмуйте перед поворотом, не в ньому; нахилений мотоцикл займає більше ширини."
     ],
     [
      "Inside: accelerate progressively; if you must brake, very gently.",
-     "Dentro: acelerar progresivamente; si hay que frenar, muy suave."
+     "Dentro: acelerar progresivamente; si hay que frenar, muy suave.",
+     "У повороті: поступово додавайте газ; якщо мусите гальмувати — дуже м’яко."
     ],
     [
      "Emergency in a bend: both brakes, look at the exit. Centrifugal force: weight, speed, tighter bend.",
-     "Emergencia en curva: los dos frenos y mirar a la salida. Fuerza centrífuga: peso, velocidad, curva cerrada."
+     "Emergencia en curva: los dos frenos y mirar a la salida. Fuerza centrífuga: peso, velocidad, curva cerrada.",
+     "Екстрена ситуація в повороті: обидва гальма, дивіться на вихід. Відцентрова сила: вага, швидкість, крутіший поворот."
     ]
    ],
    "trap": [
     "Looking at the obstacle during an emergency in a bend.",
-    "Mirar al obstáculo en una emergencia en curva."
+    "Mirar al obstáculo en una emergencia en curva.",
+    "Дивитися на перешкоду під час екстреної ситуації в повороті."
    ]
   },
   "braking": {
    "sec": 2,
    "en": "Braking",
    "es": "Frenada",
+   "uk": "Гальмування",
    "recap": [
     [
      "The front wheel matters most; brake progressively; locked wheel → release and brake again.",
-     "La rueda delantera es la más importante; frenar progresivo; rueda bloqueada → soltar y volver a frenar."
+     "La rueda delantera es la más importante; frenar progresivo; rueda bloqueada → soltar y volver a frenar.",
+     "Найважливіше переднє колесо; гальмуйте поступово; колесо заблокувалося → відпустіть і гальмуйте знову."
     ],
     [
      "Emergency: upright, 60–70 % front, 30–40 % rear, clutch in, both brakes hard.",
-     "Emergencia: recto, 60–70 % delante, 30–40 % detrás, desembragar, los dos frenos a fondo."
+     "Emergencia: recto, 60–70 % delante, 30–40 % detrás, desembragar, los dos frenos a fondo.",
+     "Екстрене: рівно, 60–70 % переднє, 30–40 % заднє, зчеплення вижато, обидва гальма сильно."
     ],
     [
      "Rigid body: arms straight, knees on the tank, heels on the footrests.",
-     "Cuerpo rígido: brazos estirados, rodillas al depósito, talones en los reposapiés."
+     "Cuerpo rígido: brazos estirados, rodillas al depósito, talones en los reposapiés.",
+     "Тіло жорстке: руки прямі, коліна до бака, п’яти тиснуть на підніжки."
     ],
     [
      "Engine brake: change down carefully; downhill to spare the brakes; clutch only near the stop.",
-     "Freno motor: reducir con cuidado; en bajadas para no calentar frenos; embrague solo al final."
+     "Freno motor: reducir con cuidado; en bajadas para no calentar frenos; embrague solo al final.",
+     "Гальмування двигуном: знижуйте передачу обережно; на спуску, щоб берегти гальма; зчеплення лише перед зупинкою."
     ]
    ],
    "trap": [
     "Braking hard with the front brake while leaned over.",
-    "Frenar fuerte con el delantero con la moto inclinada."
+    "Frenar fuerte con el delantero con la moto inclinada.",
+    "Сильно гальмувати переднім гальмом у нахилі."
    ]
   },
   "town": {
    "sec": 2,
    "en": "Town and groups",
    "es": "Ciudad y grupo",
+   "uk": "Місто й групи",
    "recap": [
     [
      "Town: defensive riding, feet on the footrests, rear brake at very low speed, look ahead.",
-     "Ciudad: conducción defensiva, pies en los estribos, freno trasero muy despacio, mirar lejos."
+     "Ciudad: conducción defensiva, pies en los estribos, freno trasero muy despacio, mirar lejos.",
+     "Місто: захисна їзда, ноги на підніжках, заднє гальмо на дуже малій швидкості, дивіться вперед."
     ],
     [
      "Groups: subgroups of 3–4, with gaps between them.",
-     "Grupo: subgrupos de 3–4, separados entre sí."
+     "Grupo: subgrupos de 3–4, separados entre sí.",
+     "Групи: підгрупи по 3–4 з проміжками між ними."
     ],
     [
      "Least experienced and least powerful in the front groups.",
-     "Los menos experimentados y menos potentes en los grupos de cabeza."
+     "Los menos experimentados y menos potentes en los grupos de cabeza.",
+     "Найменш досвідчені й найменш потужні — у передніх групах."
     ],
     [
      "Single file, slightly offset, never side by side; responsibility is individual.",
-     "En hilera, algo desviados, nunca en paralelo; la responsabilidad es individual."
+     "En hilera, algo desviados, nunca en paralelo; la responsabilidad es individual.",
+     "Один за одним, трохи зі зміщенням, ніколи поруч; відповідальність особиста."
     ]
    ],
    "trap": [
     "Putting the most experienced riders at the front of the group.",
-    "Poner a los más experimentados en cabeza del grupo."
+    "Poner a los más experimentados en cabeza del grupo.",
+    "Ставити найдосвідченіших мотоциклістів на чолі групи."
    ]
   },
   "sidecar": {
    "sec": 2,
    "en": "The sidecar",
    "es": "El sidecar",
+   "uk": "Коляска",
    "recap": [
     [
      "Weight not symmetrical; centre of gravity shifted towards the motorcycle.",
-     "Peso no simétrico; centro de gravedad desplazado hacia la moto."
+     "Peso no simétrico; centro de gravedad desplazado hacia la moto.",
+     "Вага несиметрична; центр ваги зміщений до мотоцикла."
     ],
     [
      "Turning away from the sidecar or swerving: risk of losing grip or tipping towards the sidecar.",
-     "Girar hacia el lado contrario al sidecar o esquivar: riesgo de perder adherencia o volcar hacia el sidecar."
+     "Girar hacia el lado contrario al sidecar o esquivar: riesgo de perder adherencia o volcar hacia el sidecar.",
+     "Поворот у бік, протилежний колясці, чи різкий об’їзд: ризик втратити зчеплення чи перекинутися на коляску."
     ],
     [
      "Up to three people, if the registration certificate allows it.",
-     "Hasta tres personas, si lo autoriza el permiso de circulación."
+     "Hasta tres personas, si lo autoriza el permiso de circulación.",
+     "До трьох людей, якщо дозволяє свідоцтво про реєстрацію."
     ],
     [
      "Course: the heaviest in the sidecar; a single passenger in the sidecar.",
-     "Curso: el de más peso en el sidecar; un solo pasajero, en el sidecar."
+     "Curso: el de más peso en el sidecar; un solo pasajero, en el sidecar.",
+     "Курс: найважчий — у колясці; один пасажир — у колясці."
     ]
    ],
    "trap": [
     "Seating a single passenger behind the rider instead of in the sidecar.",
-    "Sentar a un único pasajero detrás del conductor en lugar de en el sidecar."
+    "Sentar a un único pasajero detrás del conductor en lugar de en el sidecar.",
+    "Садити єдиного пасажира позаду водія, а не в коляску."
    ]
   },
   "load": {
    "sec": 2,
    "en": "Luggage and fuel use",
    "es": "Carga y consumo",
+   "uk": "Багаж і витрата пального",
    "recap": [
     [
      "Only what you need, low and close to the centre of gravity, strapped down.",
-     "Solo lo necesario, bajo y cerca del centro de gravedad, amarrado."
+     "Solo lo necesario, bajo y cerca del centro de gravedad, amarrado.",
+     "Лише потрібне, низько й ближче до центру ваги, закріплене."
     ],
     [
      "Front rack (tank): heavy; rear rack: light; side cases: equal weight.",
-     "Delantero (depósito): pesado; trasero: ligero; laterales: mismo peso."
+     "Delantero (depósito): pesado; trasero: ligero; laterales: mismo peso.",
+     "Передній багажник (бак): важке; задній: легке; бічні кофри: однакова вага."
     ],
     [
      "Nothing near handlebar, wheels, suspension, pedals or transmission; adjust the suspension.",
-     "Nada cerca de manillar, ruedas, suspensión, pedales o transmisión; ajustar la amortiguación."
+     "Nada cerca de manillar, ruedas, suspensión, pedales o transmisión; ajustar la amortiguación.",
+     "Нічого біля керма, коліс, підвіски, педалей чи трансмісії; відрегулюйте підвіску."
     ],
     [
      "Fuel use: speed above all, air resistance, aggressive riding, town, poor maintenance, overload.",
-     "Consumo: sobre todo la velocidad, el aire, la conducción agresiva, la ciudad, el mal mantenimiento, el exceso de carga."
+     "Consumo: sobre todo la velocidad, el aire, la conducción agresiva, la ciudad, el mal mantenimiento, el exceso de carga.",
+     "Витрата пального: передусім швидкість, опір повітря, агресивна їзда, місто, поганий догляд, перевантаження."
     ]
    ],
    "trap": [
     "Putting heavy items in the top case.",
-    "Llevar objetos pesados en el baúl."
+    "Llevar objetos pesados en el baúl.",
+    "Класти важкі речі в кофр."
    ]
   }
  }

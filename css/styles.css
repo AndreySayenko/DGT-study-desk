@@ -28,7 +28,9 @@
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
 body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 16.5px; line-height: 1.55; }
-html[data-lang="en"] .lang-es, html[data-lang="es"] .lang-en { display: none !important; }
+html:not([data-lang="en"]) .lang-en, html:not([data-lang="es"]) .lang-es, html:not([data-lang="uk"]) .lang-uk { display: none !important; }
+/* Archivo has no Cyrillic letters, so Ukrainian headings use the body face (which has them) in bold. */
+html[lang="uk"] { --display: "Source Sans 3", "Segoe UI", Helvetica, Arial, sans-serif; }
 button { font: inherit; color: inherit; cursor: pointer; }
 :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
 a { color: var(--accent); }
@@ -44,6 +46,13 @@ a.brand:hover .tag { filter: brightness(1.1); }
 .seg { display: inline-flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
 .seg button { background: transparent; border: 0; padding: 5px 12px; font-weight: 600; font-size: 14px; color: var(--muted); }
 .seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+/* language menu: a native select (keyboard and phone pickers for free), boxed like the theme switch */
+.langsel { position: relative; display: inline-flex; }
+.langsel select { appearance: none; -webkit-appearance: none; margin: 0; font: inherit; font-weight: 600; font-size: 14px; line-height: 1.55; color: var(--ink);
+  background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 5px 32px 5px 12px; cursor: pointer; }
+.langsel select:hover { border-color: var(--accent); }
+.langsel::after { content: ""; position: absolute; right: 13px; top: 50%; width: 6px; height: 6px; margin-top: -5px; pointer-events: none;
+  border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted); transform: rotate(45deg); }
 .btn { border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 6px 13px; font-weight: 600; font-size: 14.5px; }
 .btn:hover { border-color: var(--accent); }
 .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
@@ -54,6 +63,8 @@ a.btn.primary { color: var(--accent-ink); }
 .sync { font-size: 12.5px; color: var(--muted); display: inline-flex; align-items: center; gap: 6px; }
 .sync i { width: 8px; height: 8px; border-radius: 50%; background: var(--warn); display: inline-block; }
 .sync.on i { background: var(--good); }
+.langnote { margin: 0; padding: 7px 16px; background: var(--warn-tint); border-bottom: 1px solid var(--line); font-size: 14.5px; text-align: center; }
+.langnote[hidden] { display: none; }
 .xmsg { font-size: 14.5px; padding: 6px 10px; border-radius: 0 6px 6px 0; border-left: 3px solid var(--good); background: var(--good-tint); }
 .xmsg.no { border-left-color: var(--bad); background: var(--bad-tint); }
 

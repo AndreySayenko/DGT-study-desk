@@ -34,13 +34,30 @@
       exported: 'Progreso exportado a {f}. Búscalo en tu carpeta de Descargas.',
       imported: 'Progreso del {d} importado (temas: {k}, preguntas: {n}, tests terminados: {m}) y combinado con el progreso de aquí.',
       importBad: 'Ese archivo no es un archivo de progreso de DGT Study Desk, así que no se ha cambiado nada.'
+    },
+    uk: {
+      eyebrow: 'Теорія іспиту на посвідчення водія в Іспанії · Іспит DGT', chooseH: 'Оберіть категорію',
+      chooseLead: 'Оберіть категорію, до якої готуєтеся, а потім тему. У кожній темі є конспект і тести, а ваш прогрес зберігається автоматично.',
+      catReady: 'Готово тем: {r} з {n}', catAnswers: 'відповідей: {a}', cont: 'Продовжити: {c}, тема {n}',
+      allCats: '‹ Усі категорії', topicsLead: 'Тем: {n}. Теми з позначкою «Незабаром» ще не написані.',
+      topic: 'Тема', soon: 'Незабаром', notStarted: 'Не розпочато', inProgress: 'Триває', unfinished: 'Незавершений тест',
+      qs: 'Питань: {q}', seen: 'переглянуто {s} з {q}', acc: 'правильних {p} %', openErr: 'невиправлених помилок: {o}',
+      xfer: 'Резервна копія та перенесення прогресу', export: 'Експортувати прогрес', import: 'Імпортувати прогрес',
+      xferNote: 'Експорт зберігає прогрес усіх тем в один файл. На іншому комп’ютері відкрийте цей головний екран та імпортуйте файл. Його буде об’єднано з наявним там прогресом: для кожного питання залишиться найсвіжіший результат.',
+      xferLocal: 'Зараз прогрес зберігається лише в цьому браузері. Запустіть проєкт командою npm start, щоб він зберігався ще й у папці проєкту.',
+      exported: 'Прогрес експортовано у файл {f}. Шукайте його в папці «Завантаження».',
+      imported: 'Імпортовано прогрес від {d} (тем: {k}, питань: {n}, завершених тестів: {m}) і об’єднано з тутешнім.',
+      importBad: 'Цей файл не є файлом прогресу DGT Study Desk, тому нічого не змінено.',
+      onlyEnEs: 'Теми цієї категорії поки є лише англійською та іспанською.', enEs: 'англійською та іспанською'
     }
   };
 
   var xferMsg = null;   // {k, p, ok}: result of the last export or import
 
   function lang() { return DGT.lang(); }
-  function t(k) { return TXT[lang()][k] || k; }
+  function t(k) { return TXT[lang()][k] || TXT.en[k] || k; }
+  // Categories whose topics are not all in the reader's language say so (their titles fall back to English).
+  function translated(c) { return c.topics.every(function (tp) { return !tp.page || (tp.langs || []).indexOf(lang()) >= 0; }); }
   function fmt(k, p) { return t(k).replace(/\{(\w)\}/g, function (_, x) { return p && p[x] !== undefined ? p[x] : ''; }); }
   function L(o) { return o ? (o[lang()] || o.en || '') : ''; }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
@@ -74,14 +91,15 @@
       });
       h += '<a class="cat" href="#' + esc(c.id) + '"><span class="cat-tag">' + esc(c.tag) + '</span>' +
         '<span class="cat-name">' + esc(L(c.name)) + '</span><span class="cat-sub">' + esc(L(c.sub)) + '</span>' +
-        '<span class="cat-meta">' + esc(fmt('catReady', { r: ready, n: c.topics.length })) + (answers ? ' · ' + esc(fmt('catAnswers', { a: answers })) : '') + '</span></a>';
+        '<span class="cat-meta">' + esc(fmt('catReady', { r: ready, n: c.topics.length })) + (answers ? ' · ' + esc(fmt('catAnswers', { a: answers })) : '') +
+        (translated(c) ? '' : ' · ' + esc(t('enEs'))) + '</span></a>';
     });
     return h + '</div>';
   }
 
   function renderTopics(c) {
     var h = '<a class="back-link" href="#">' + esc(t('allCats')) + '</a>';
-    h += band(L(c.sub) + ' · DGT', L(c.name), fmt('topicsLead', { n: c.topics.length }));
+    h += band(L(c.sub) + ' · DGT', L(c.name), fmt('topicsLead', { n: c.topics.length }) + (translated(c) ? '' : ' ' + t('onlyEnEs')));
     h += '<ol class="topics">';
     c.topics.forEach(function (tp) {
       if (!tp.page) {
@@ -143,7 +161,7 @@
         try { doc = JSON.parse(String(rd.result)); } catch (e) { /* not JSON */ }
         var sum = DGT.importDoc(doc);
         if (!sum) { xferMsg = { k: 'importBad', ok: false }; return render(); }
-        var d = sum.date ? new Date(sum.date).toLocaleDateString(lang() === 'es' ? 'es-ES' : 'en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) : '–';
+        var d = sum.date ? new Date(sum.date).toLocaleDateString(DGT.locale(), { day: 'numeric', month: 'short', year: 'numeric' }) : '–';
         xferMsg = { k: 'imported', p: { d: d, k: sum.topics, n: sum.questions, m: sum.tests }, ok: true };
         render();
       };

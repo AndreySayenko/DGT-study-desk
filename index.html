@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- Main screen: choose a category, then a topic. Rendered by js/home.js from js/catalog.js (built from tools/catalog.py). -->
-<html lang="en" data-lang="en">
+<html lang="en" data-lang="en" data-langs="en es uk">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,16 +13,17 @@
 <header class="bar"><div class="bar-in">
   <a class="brand" href="#"><span class="tag">DGT</span><span>Study Desk</span></a>
   <span class="sync" id="sync"><i></i><span></span></span>
-  <div class="seg" role="group" aria-label="Language / Idioma">
-    <button type="button" id="lang-en" data-lang-btn="en" aria-pressed="true">English</button>
-    <button type="button" id="lang-es" data-lang-btn="es" aria-pressed="false">Español</button>
-  </div>
+  <span class="langsel"><select id="lang-select" aria-label="Language / Idioma / Мова">
+    <option value="en" lang="en">English</option>
+    <option value="es" lang="es">Español</option>
+    <option value="uk" lang="uk">Українська</option>
+  </select></span>
   <div class="seg" role="group" aria-label="Theme / Tema">
     <button type="button" id="theme-light" data-theme-btn="light" aria-pressed="true">Light</button>
     <button type="button" id="theme-dark" data-theme-btn="dark" aria-pressed="false">Dark</button>
   </div>
 </div></header>
-<main class="home" id="home"><noscript><p>This page needs JavaScript. / Esta página necesita JavaScript.</p></noscript></main>
+<main class="home" id="home"><noscript><p>This page needs JavaScript. / Esta página necesita JavaScript. / Ця сторінка потребує JavaScript.</p></noscript></main>
 <script src="js/catalog.js"></script>
 <script src="js/shared.js"></script>
 <script src="js/home.js"></script>

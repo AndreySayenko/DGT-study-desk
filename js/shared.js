@@ -14,11 +14,17 @@
   var K_PREFS = 'dgt-prefs', K_LAST = 'dgt-last-topic', K_TOPIC = 'dgt-progress-';
   var K_V1 = 'dgt-topic1-v1', V1_TOPIC = 'b-01';                  // before topics existed, Topic 1 was the only one
   var TOPIC_ID = /^[a-z]-\d{2}$/;
+  // Every page has English and Spanish; a page translated further lists its languages in <html data-langs>.
+  var LANGS = ['en', 'es', 'uk'];
+  var NAMES = { en: 'English', es: 'Español', uk: 'Українська' };
 
   var TXT = {
     en: { light: 'Light', dark: 'Dark', saveCloud: 'Progress saved to your account', saveFile: 'Progress saved in the project folder', saveLocal: 'Progress saved in this browser only' },
-    es: { light: 'Claro', dark: 'Oscuro', saveCloud: 'Progreso guardado en tu cuenta', saveFile: 'Progreso guardado en la carpeta del proyecto', saveLocal: 'Progreso guardado solo en este navegador' }
+    es: { light: 'Claro', dark: 'Oscuro', saveCloud: 'Progreso guardado en tu cuenta', saveFile: 'Progreso guardado en la carpeta del proyecto', saveLocal: 'Progreso guardado solo en este navegador' },
+    uk: { light: 'Світла', dark: 'Темна', saveCloud: 'Прогрес збережено у вашому обліковому записі', saveFile: 'Прогрес збережено в папці проєкту', saveLocal: 'Прогрес збережено лише в цьому браузері' }
   };
+  // Shown, in the language the reader chose, on a page that is not translated into it.
+  var NOT_HERE = { uk: 'Цю сторінку ще не перекладено українською, тому вона англійською. Українською є тільки категорія A1 / A2.' };
 
   // ------------------------------------------------------------------ shapes
   function num(x) { return typeof x === 'number' && isFinite(x); }
@@ -41,7 +47,7 @@
   function sanePrefs(o) {
     var p = { lang: null, theme: null, updated: 0 };
     if (!o || typeof o !== 'object') return p;
-    if (o.lang === 'en' || o.lang === 'es') p.lang = o.lang;
+    if (LANGS.indexOf(o.lang) >= 0) p.lang = o.lang;
     if (o.theme === 'light' || o.theme === 'dark') p.theme = o.theme;
     if (num(o.updated)) p.updated = o.updated;
     return p;
@@ -277,8 +283,18 @@
   }
 
   // ------------------------------------------------------------------ public: preferences + header
-  function lang() { return P.lang || ((navigator.language || 'en').toLowerCase().indexOf('es') === 0 ? 'es' : 'en'); }
-  function t(k) { return TXT[lang()][k] || k; }
+  function pageLangs() { return (document.documentElement.getAttribute('data-langs') || 'en es').split(/\s+/); }
+  // The language the reader asked for (or their browser's), whether or not this page has it.
+  function wanted() {
+    if (P.lang) return P.lang;
+    var nav = (navigator.language || 'en').toLowerCase();
+    for (var i = 1; i < LANGS.length; i++) if (nav.indexOf(LANGS[i]) === 0) return LANGS[i];
+    return 'en';
+  }
+  // The language this page is shown in: the wanted one, or English when the page is not translated into it.
+  function lang() { var w = wanted(); return pageLangs().indexOf(w) >= 0 ? w : 'en'; }
+  function locale() { return { en: 'en-GB', es: 'es-ES', uk: 'uk-UA' }[lang()]; }
+  function t(k) { return TXT[lang()][k] || TXT.en[k] || k; }
   function theme() {
     if (P.theme) return P.theme;
     return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
@@ -293,20 +309,45 @@
     el.className = 'sync' + (mode === 'local' ? '' : ' on');
     el.lastChild.textContent = t({ cloud: 'saveCloud', file: 'saveFile' }[mode] || 'saveLocal');
   }
+  function paintNote(lg) {
+    var w = wanted(), msg = w !== lg ? NOT_HERE[w] : null, el = document.getElementById('langnote');
+    if (!msg) { if (el) el.hidden = true; return; }
+    var bar = document.querySelector('.bar'); if (!bar) return;
+    if (!el) {
+      el = document.createElement('p'); el.id = 'langnote'; el.className = 'langnote'; el.setAttribute('role', 'note');
+      bar.parentNode.insertBefore(el, bar.nextSibling);
+    }
+    el.lang = w; el.textContent = msg; el.hidden = false;
+  }
+  // The language menu shows the reader's choice. On a page not translated into it (a B page when Ukrainian
+  // is chosen) the menu gets that language as an extra entry, so it still shows the choice, and picking
+  // English or Spanish there is a real change.
+  function paintLangMenu() {
+    var sel = document.getElementById('lang-select'); if (!sel) return;
+    var w = wanted(), extra = sel.querySelector('option[data-extra]');
+    if (pageLangs().indexOf(w) < 0) {
+      if (!extra) { extra = document.createElement('option'); extra.setAttribute('data-extra', ''); sel.appendChild(extra); }
+      extra.value = w; extra.lang = w; extra.textContent = NAMES[w] || w;
+    } else if (extra) sel.removeChild(extra);
+    sel.value = w;
+  }
   function applyPrefs() {
     var root = document.documentElement, lg = lang(), th = theme();
     root.setAttribute('data-lang', lg); root.setAttribute('lang', lg);
     if (P.theme) root.setAttribute('data-theme', P.theme); else root.removeAttribute('data-theme');
-    ['en', 'es'].forEach(function (x) { var b = document.getElementById('lang-' + x); if (b) b.setAttribute('aria-pressed', String(x === lg)); });
+    paintLangMenu();
+    paintNote(lg);
     ['light', 'dark'].forEach(function (x) { var b = document.getElementById('theme-' + x); if (b) { b.setAttribute('aria-pressed', String(x === th)); b.textContent = t(x); } });
     paintSync();
     emit({ type: 'prefs' });
   }
   // A page may set DGT.beforeLang = function (newLang) { return afterFn; } to keep its scroll position.
   document.addEventListener('click', function (ev) {
-    var el = ev.target.closest('[data-lang-btn],[data-theme-btn]'); if (!el) return;
-    if (el.hasAttribute('data-theme-btn')) return setPrefs({ theme: el.getAttribute('data-theme-btn') });
-    var lg = el.getAttribute('data-lang-btn'); if (lg === lang()) return;
+    var el = ev.target.closest('[data-theme-btn]'); if (el) setPrefs({ theme: el.getAttribute('data-theme-btn') });
+  });
+  document.addEventListener('change', function (ev) {
+    var el = ev.target; if (!el || el.id !== 'lang-select') return;
+    var lg = el.value; if (LANGS.indexOf(lg) < 0 || lg === wanted()) return;
     var after = typeof api.beforeLang === 'function' ? api.beforeLang(lg) : null;
     setPrefs({ lang: lg });
     if (typeof after === 'function') after();
@@ -327,7 +368,7 @@
 
   var api = {
     start: start, on: on,
-    lang: lang, theme: theme, setPrefs: setPrefs,
+    lang: lang, locale: locale, theme: theme, setPrefs: setPrefs,
     mode: function () { return mode; }, probing: function () { return probing; },
     loadTopic: loadTopic, saveTopic: saveTopic, freshTopic: freshTopic, topicSummary: topicSummary, flush: flush,
     exportDoc: exportDoc, importDoc: importDoc,

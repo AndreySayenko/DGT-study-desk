@@ -54,8 +54,36 @@
       back: 'Volver a los tests', retryWrong: 'Practicar las que he fallado', done: 'Hecho',
       reset: 'Borrar mi progreso de este tema', reset2: 'Pulsa otra vez para borrar el progreso de este tema', history: 'Tests recientes',
       mExam: 'Simulacro de examen', mAll: 'Todas las preguntas', mDrill: 'Práctica', mAi: 'Preguntas de Claude', section: 'Apartado'
+    },
+    uk: {
+      tests: 'Тести',
+      xferHome: 'Щоб зробити резервну копію прогресу або перенести його на інший комп’ютер, скористайтеся кнопками «Експортувати» та «Імпортувати» на <a href="../index.html">головному екрані</a>.',
+      answered: 'відповідей дано', accuracy: 'правильних', open: 'невиправлених помилок', seen: 'питань переглянуто',
+      exam: 'Пробний іспит (30 питань)', all: 'Усі питання за розділами', resume: 'Продовжити незавершений тест', mistakes: 'Повторити мої помилки',
+      examNote: 'Пробний іспит повторює формат DGT: 30 питань, іспит складено, якщо помилок не більше трьох.',
+      bySection: 'Результати за розділами', sNew: 'не розпочато', sWeak: 'слабко', sMid: 'покращується', sOk: 'впевнено',
+      myErr: 'Мої помилки', noErr: 'Невиправлених помилок немає. Пройдіть тест: кожна хибна відповідь зберігатиметься тут, доки ви не відповісте на це питання правильно двічі поспіль.',
+      you: 'Ваша відповідь', right: 'Правильна відповідь', times: 'разів помилково', review: 'Повторити розділ',
+      analysis: 'Аналіз помилок', noData: 'Спершу дайте відповіді на кілька питань, і тут з’явиться аналіз.',
+      genTask: 'Скласти моє навчальне завдання', regen: 'Скласти нове завдання', taskTitle: 'Ваше навчальне завдання',
+      taskNone: 'Невиправлених помилок у вас немає. Щоб навчатися далі, ось розділи, які ви тренували найменше.',
+      step1: 'Перечитайте', step2: 'Запам’ятайте ці правила', step3: 'Потренуйтеся', drillStart: 'Почати тренування', why: 'Чому тут зазвичай помиляються',
+      drillGoal: 'питань. Помилку вважають виправленою після двох правильних відповідей поспіль.',
+      ai: 'Попросити Claude скласти нові питання з моїх слабких місць', aiBusy: 'Claude складає ваші питання…', aiFail: 'Зараз Claude не вдалося скласти питання. Вбудоване навчальне завдання працює й далі.',
+      aiNote: 'Складено Claude на основі правил із цієї сторінки. Якщо щось здивує, звірте з текстом розділу.',
+      aiCoach: 'Порада від Claude', aiStart: 'Почати питання від Claude',
+      q: 'Питання', of: 'з', next: 'Наступне питання', finish: 'Подивитися результат', quit: 'Зупинити й зберегти',
+      ok: 'Правильно.', no: 'Неправильно.', result: 'Результат', passed: 'Складено', failed: 'Не складено', errors: 'помилок',
+      back: 'Назад до тестів', retryWrong: 'Повторити ті, де я помилився', done: 'Готово',
+      reset: 'Стерти мій прогрес у цій темі', reset2: 'Натисніть ще раз, щоб стерти прогрес цієї теми', history: 'Останні тести',
+      mExam: 'Пробний іспит', mAll: 'Усі питання', mDrill: 'Тренування', mAi: 'Питання від Claude', section: 'Розділ',
+      // after a number: [1, 21, 31…], [2–4, 22–24…], [5–20, 25…]
+      openN: ['невиправлена помилка', 'невиправлені помилки', 'невиправлених помилок'],
+      errorsN: ['помилка', 'помилки', 'помилок'], timesN: ['раз помилково', 'рази помилково', 'разів помилково'],
+      drillGoalN: ['питання. Помилку вважають виправленою після двох правильних відповідей поспіль.', 'питання. Помилку вважають виправленою після двох правильних відповідей поспіль.', 'питань. Помилку вважають виправленою після двох правильних відповідей поспіль.']
     }
   };
+  var LI = { en: 0, es: 1, uk: 2 };     // position of a language in the recap and trap lists
 
   // ------------------------------------------------------------------ state
   // S is this topic's progress. Saving it, language and theme are handled by js/shared.js (window.DGT).
@@ -82,7 +110,15 @@
 
   // ------------------------------------------------------------------ helpers
   function lang() { return DGT.lang(); }
-  function t(k) { return TXT[lang()][k] || k; }
+  function t(k) { return TXT[lang()][k] || TXT.en[k] || k; }
+  function pickL(arr) { return arr[LI[lang()]] || arr[0]; }
+  // "3 mistakes": a number and the word that follows it, in the plural form the language needs.
+  function tn(k, n) {
+    var f = TXT[lang()][k + 'N'];
+    if (!f) return n + ' ' + t(k);
+    var a = n % 10, b = n % 100;
+    return n + ' ' + f[a === 1 && b !== 11 ? 0 : a >= 2 && a <= 4 && (b < 12 || b > 14) ? 1 : 2];
+  }
   function L(o) { return o ? (o[lang()] || o.en || '') : ''; }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function getQ(id) {
@@ -179,7 +215,7 @@
   }
   function askClaude() {
     if (!sampleFn || aiBusy) return;
-    var w = weakTags(3), es = lang() === 'es';
+    var w = weakTags(3);
     var facts = w.tags.map(function (g) {
       return '[' + g + '] ' + TAGS[g].en + ':\n' + TAGS[g].recap.map(function (r) { return '- ' + r[0]; }).join('\n');
     }).join('\n\n');
@@ -192,7 +228,7 @@
     var prompt = 'You are a tutor for the Spanish DGT driving theory exam (' + about + ').\n' +
       'Use ONLY the facts below. Do not add numbers or rules that are not listed.\n\nFACTS\n' + facts +
       '\n\nLEARNER MISTAKES\n' + (errs || '(none yet; the learner has practised these sections least)') +
-      '\n\nWrite in ' + (es ? 'Spanish' : 'English, keeping the Spanish exam term in parentheses where useful') + '.\n' +
+      '\n\nWrite in ' + ({ es: 'Spanish', uk: 'Ukrainian, keeping the Spanish exam term in parentheses where useful' }[lang()] || 'English, keeping the Spanish exam term in parentheses where useful') + '.\n' +
       'Return ONLY a JSON object with this shape:\n' +
       '{"coach": "3 to 5 sentences: what pattern the mistakes show and one memory trick per weak section",' +
       ' "questions": [{"tag": "one of: ' + w.tags.join(', ') + '", "q": "question text", "options": ["correct answer", "plausible wrong answer", "plausible wrong answer"], "why": "one-sentence explanation"}]}\n' +
@@ -208,9 +244,9 @@
       var stamp = Date.now();
       S.ai = {
         t: stamp, coach: String(v.coach || ''), questions: qs.map(function (x, i) {
-          var o = x.options.map(function (s) { s = esc(String(s)); return { en: s, es: s }; });
-          var qq = esc(x.q), ww = esc(String(x.why || ''));
-          return { id: 'ai' + stamp + '_' + i, tag: x.tag, ai: true, q: { en: qq, es: qq }, o: o, why: { en: ww, es: ww } };
+          function all(v) { return { en: v, es: v, uk: v }; }
+          var o = x.options.map(function (s) { return all(esc(String(s))); });
+          return { id: 'ai' + stamp + '_' + i, tag: x.tag, ai: true, q: all(esc(x.q)), o: o, why: all(esc(String(x.why || ''))) };
         })
       };
       aiBusy = false; save(); render();
@@ -257,7 +293,7 @@
         h += '<ul>';
         w.tags.forEach(function (g) {
           var s = ts[g];
-          h += '<li><b>' + esc(L(TAGS[g])) + '</b>: ' + s.open + ' ' + t('open') + ', ' + pct(s.r, s.w) + ' % ' + t('accuracy') + '. <span class="note">' + esc(TAGS[g].trap[lang() === 'es' ? 1 : 0]) + '</span></li>';
+          h += '<li><b>' + esc(L(TAGS[g])) + '</b>: ' + tn('open', s.open) + ', ' + pct(s.r, s.w) + ' % ' + t('accuracy') + '. <span class="note">' + esc(pickL(TAGS[g].trap)) + '</span></li>';
         });
         h += '</ul>';
       } else h += '<p class="note">' + t('taskNone') + '</p>';
@@ -280,7 +316,7 @@
       h += '<div class="err"><div class="q">' + L(q.q) + '</div>' +
         (q.o[st.pick] ? '<div class="you">' + t('you') + ': ' + L(q.o[st.pick]) + '</div>' : '') +
         '<div class="right">' + t('right') + ': ' + L(q.o[0]) + '</div><div>' + L(q.why) + '</div>' +
-        '<div class="meta">' + st.w + ' ' + t('times') + ' · ' + sectionLink(q.tag, t('review') + ' ' + TAGS[q.tag].sec) + '</div></div>';
+        '<div class="meta">' + tn('times', st.w) + ' · ' + sectionLink(q.tag, t('review') + ' ' + TAGS[q.tag].sec) + '</div></div>';
     });
 
     // history
@@ -289,7 +325,7 @@
       S.sessions.slice(0, 6).forEach(function (s) {
         var d = new Date(s.t);
         h += '<div class="trow" style="grid-template-columns:minmax(0,1fr) 90px 70px"><div>' + modeName(s.mode) + '</div><div class="num">' +
-          d.toLocaleDateString(lang() === 'es' ? 'es-ES' : 'en-GB', { day: 'numeric', month: 'short' }) + '</div><div class="num">' + s.good + '/' + s.total + '</div></div>';
+          d.toLocaleDateString(DGT.locale(), { day: 'numeric', month: 'short' }) + '</div><div class="num">' + s.good + '/' + s.total + '</div></div>';
       });
     }
     if (R + W) h += '<div class="actions" style="margin-top:18px"><button class="btn ghost" data-act="reset">' + t(resetArmed ? 'reset2' : 'reset') + '</button></div>';
@@ -298,17 +334,17 @@
   }
 
   function renderTask() {
-    var k = S.task, li = lang() === 'es' ? 1 : 0;
+    var k = S.task;
     var h = '<div class="task" id="task"><div class="sub" style="margin-top:0">' + t('taskTitle') + '</div>';
     if (!k.fromErrors) h += '<p class="note">' + t('taskNone') + '</p>';
     k.tags.forEach(function (g, i) {
       var T = TAGS[g];
       h += '<h4>' + (i + 1) + '. ' + esc(L(T)) + '</h4><ul>' +
         '<li><b>' + t('step1') + ':</b> ' + sectionLink(g, t('section') + ' ' + T.sec) + '</li>' +
-        '<li><b>' + t('step2') + ':</b><ul>' + T.recap.map(function (r) { return '<li>' + esc(r[li]) + '</li>'; }).join('') + '</ul></li>' +
-        '<li><b>' + t('why') + ':</b> ' + esc(T.trap[li]) + '</li></ul>';
+        '<li><b>' + t('step2') + ':</b><ul>' + T.recap.map(function (r) { return '<li>' + esc(pickL(r)) + '</li>'; }).join('') + '</ul></li>' +
+        '<li><b>' + t('why') + ':</b> ' + esc(pickL(T.trap)) + '</li></ul>';
     });
-    h += '<h4>' + (k.tags.length + 1) + '. ' + t('step3') + '</h4><p>' + k.ids.length + ' ' + t('drillGoal') + '</p>' +
+    h += '<h4>' + (k.tags.length + 1) + '. ' + t('step3') + '</h4><p>' + tn('drillGoal', k.ids.length) + '</p>' +
       '<button class="btn primary" data-act="drill">' + t('drillStart') + '</button></div>';
     return h;
   }
@@ -339,8 +375,8 @@
   function renderResult() {
     var r = lastResult, bad = r.total - r.good, h = '<div class="result"><div class="sub" style="margin-top:0">' + t('result') + ' · ' + modeName(r.mode) + '</div>';
     h += '<div class="big">' + r.good + ' / ' + r.total + '</div>';
-    if (r.mode === 'exam' && r.total === EXAM_N) h += '<p class="' + (bad <= EXAM_MAX_ERR ? 'pass' : 'fail') + '"><b>' + t(bad <= EXAM_MAX_ERR ? 'passed' : 'failed') + '</b> · ' + bad + ' ' + t('errors') + '</p>';
-    else h += '<p>' + bad + ' ' + t('errors') + '</p>';
+    if (r.mode === 'exam' && r.total === EXAM_N) h += '<p class="' + (bad <= EXAM_MAX_ERR ? 'pass' : 'fail') + '"><b>' + t(bad <= EXAM_MAX_ERR ? 'passed' : 'failed') + '</b> · ' + tn('errors', bad) + '</p>';
+    else h += '<p>' + tn('errors', bad) + '</p>';
     h += '<div class="actions">';
     if (r.wrong.length) h += '<button class="btn primary" data-act="retry">' + t('retryWrong') + ' (' + r.wrong.length + ')</button>';
     h += '<button class="btn" data-act="task">' + t('genTask') + '</button><button class="btn" data-act="home">' + t('back') + '</button></div>';

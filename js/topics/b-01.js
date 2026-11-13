@@ -2,6 +2,10 @@
 window.DGT_DATA = {
  "topic": "b-01",
  "category": "b",
+ "langs": [
+  "en",
+  "es"
+ ],
  "title": {
   "en": "Topic 1 · Definitions and general concepts",
   "es": "Tema 1 · Definiciones y conceptos generales"

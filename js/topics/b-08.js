@@ -2,6 +2,10 @@
 window.DGT_DATA = {
  "topic": "b-08",
  "category": "b",
+ "langs": [
+  "en",
+  "es"
+ ],
  "title": {
   "en": "Topic 8 · Signs and signals",
   "es": "Tema 8 · Las señales"

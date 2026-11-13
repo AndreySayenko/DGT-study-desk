@@ -2,9 +2,15 @@
 window.DGT_DATA = {
  "topic": "a-06",
  "category": "a",
+ "langs": [
+  "en",
+  "es",
+  "uk"
+ ],
  "title": {
   "en": "Topic 6 · Carrying people and goods",
-  "es": "Tema 6 · Transporte de personas y mercancías"
+  "es": "Tema 6 · Transporte de personas y mercancías",
+  "uk": "Тема 6 · Перевезення людей і вантажів"
  },
  "bank": [
   {
@@ -12,25 +18,30 @@ window.DGT_DATA = {
    "tag": "people",
    "q": {
     "en": "How many passengers may a motorcycle without sidecar carry?",
-    "es": "¿Cuántos pasajeros puede llevar una motocicleta sin sidecar?"
+    "es": "¿Cuántos pasajeros puede llevar una motocicleta sin sidecar?",
+    "uk": "Скільки пасажирів може перевозити мотоцикл без коляски?"
    },
    "o": [
     {
      "en": "One, if the registration document allows it",
-     "es": "Uno, si consta en el permiso de circulación"
+     "es": "Uno, si consta en el permiso de circulación",
+     "uk": "Одного, якщо це дозволяє реєстраційний документ"
     },
     {
      "en": "Two",
-     "es": "Dos"
+     "es": "Dos",
+     "uk": "Двох"
     },
     {
      "en": "None",
-     "es": "Ninguno"
+     "es": "Ninguno",
+     "uk": "Жодного"
     }
    ],
    "why": {
     "en": "Besides the rider.",
-    "es": "Además del conductor."
+    "es": "Además del conductor.",
+    "uk": "Крім водія."
    }
   },
   {
@@ -38,25 +49,30 @@ window.DGT_DATA = {
    "tag": "people",
    "q": {
     "en": "Minimum age of a passenger on a motorcycle, as a rule:",
-    "es": "Edad mínima del pasajero de una moto, como norma general:"
+    "es": "Edad mínima del pasajero de una moto, como norma general:",
+    "uk": "Мінімальний вік пасажира на мотоциклі, як правило:"
    },
    "o": [
     {
      "en": "Over 12",
-     "es": "Mayor de 12 años"
+     "es": "Mayor de 12 años",
+     "uk": "Більше 12 років"
     },
     {
      "en": "Over 7",
-     "es": "Mayor de 7 años"
+     "es": "Mayor de 7 años",
+     "uk": "Більше 7 років"
     },
     {
      "en": "Over 16",
-     "es": "Mayor de 16 años"
+     "es": "Mayor de 16 años",
+     "uk": "Більше 16 років"
     }
    ],
    "why": {
     "en": "Exceptionally over 7.",
-    "es": "Excepcionalmente, mayor de 7."
+    "es": "Excepcionalmente, mayor de 7.",
+    "uk": "У виняткових випадках — більше 7."
    }
   },
   {
@@ -64,25 +80,30 @@ window.DGT_DATA = {
    "tag": "people",
    "q": {
     "en": "An 8-year-old may ride as a passenger on a motorcycle if the rider is…",
-    "es": "Un niño de 8 años puede ir de pasajero en moto si conduce…"
+    "es": "Un niño de 8 años puede ir de pasajero en moto si conduce…",
+    "uk": "8-річна дитина може їхати пасажиром на мотоциклі, якщо водій…"
    },
    "o": [
     {
      "en": "their father, mother, guardian or an adult they authorise",
-     "es": "su padre, madre, tutor o un adulto autorizado por ellos"
+     "es": "su padre, madre, tutor o un adulto autorizado por ellos",
+     "uk": "її батько, мати, опікун чи уповноважений ними повнолітній"
     },
     {
      "en": "any adult",
-     "es": "cualquier adulto"
+     "es": "cualquier adulto",
+     "uk": "будь-який повнолітній"
     },
     {
      "en": "nobody: they must be over 12",
-     "es": "nadie: debe tener más de 12"
+     "es": "nadie: debe tener más de 12",
+     "uk": "ніхто: їй має бути більше 12"
     }
    ],
    "why": {
     "en": "With an approved helmet and meeting the other conditions.",
-    "es": "Con casco homologado y el resto de condiciones."
+    "es": "Con casco homologado y el resto de condiciones.",
+    "uk": "У затвердженому шоломі й за дотримання інших умов."
    }
   },
   {
@@ -90,25 +111,30 @@ window.DGT_DATA = {
    "tag": "people",
    "q": {
     "en": "Where must the passenger sit?",
-    "es": "¿Dónde debe ir el pasajero?"
+    "es": "¿Dónde debe ir el pasajero?",
+    "uk": "Де має сидіти пасажир?"
    },
    "o": [
     {
      "en": "On the seat behind the rider",
-     "es": "En el asiento detrás del conductor"
+     "es": "En el asiento detrás del conductor",
+     "uk": "На сидінні позаду водія"
     },
     {
      "en": "Between the rider and the handlebar, if a child",
-     "es": "Entre el conductor y el manillar, si es un niño"
+     "es": "Entre el conductor y el manillar, si es un niño",
+     "uk": "Між водієм і кермом, якщо це дитина"
     },
     {
      "en": "Wherever there is room",
-     "es": "Donde haya sitio"
+     "es": "Donde haya sitio",
+     "uk": "Де є місце"
     }
    ],
    "why": {
     "en": "Never in an intermediate position.",
-    "es": "Nunca en lugar intermedio."
+    "es": "Nunca en lugar intermedio.",
+    "uk": "Ніколи посередині."
    }
   },
   {
@@ -116,25 +142,30 @@ window.DGT_DATA = {
    "tag": "people",
    "q": {
     "en": "How must the passenger sit?",
-    "es": "¿Cómo debe ir sentado el pasajero?"
+    "es": "¿Cómo debe ir sentado el pasajero?",
+    "uk": "Як має сидіти пасажир?"
    },
    "o": [
     {
      "en": "Astride, with feet on the side footrests",
-     "es": "A horcajadas, con los pies en los reposapiés laterales"
+     "es": "A horcajadas, con los pies en los reposapiés laterales",
+     "uk": "Верхи, ноги на бічних підніжках"
     },
     {
      "en": "Side-saddle",
-     "es": "De lado"
+     "es": "De lado",
+     "uk": "Боком"
     },
     {
      "en": "However is comfortable",
-     "es": "Como le resulte cómodo"
+     "es": "Como le resulte cómodo",
+     "uk": "Як зручно"
     }
    ],
    "why": {
     "en": "One leg each side.",
-    "es": "Una pierna a cada lado."
+    "es": "Una pierna a cada lado.",
+    "uk": "По нозі з кожного боку."
    }
   },
   {
@@ -142,25 +173,30 @@ window.DGT_DATA = {
    "tag": "people",
    "q": {
     "en": "Where can you check how many seats your motorcycle has?",
-    "es": "¿Dónde puedes consultar el número de plazas de tu moto?"
+    "es": "¿Dónde puedes consultar el número de plazas de tu moto?",
+    "uk": "Де перевірити, скільки місць має ваш мотоцикл?"
    },
    "o": [
     {
      "en": "On the inspection card or the registration certificate",
-     "es": "En la tarjeta ITV o en el permiso de circulación"
+     "es": "En la tarjeta ITV o en el permiso de circulación",
+     "uk": "У картці техогляду чи свідоцтві про реєстрацію"
     },
     {
      "en": "On the driving licence",
-     "es": "En el permiso de conducción"
+     "es": "En el permiso de conducción",
+     "uk": "У посвідченні водія"
     },
     {
      "en": "On the insurance policy",
-     "es": "En la póliza del seguro"
+     "es": "En la póliza del seguro",
+     "uk": "У страховому полісі"
     }
    ],
    "why": {
     "en": "Also the MMA.",
-    "es": "También la MMA."
+    "es": "También la MMA.",
+    "uk": "Там само й MMA."
    }
   },
   {
@@ -168,25 +204,30 @@ window.DGT_DATA = {
    "tag": "people",
    "q": {
     "en": "Besides the rider, a motorcycle with sidecar may carry…",
-    "es": "Además del conductor, una moto con sidecar puede llevar…"
+    "es": "Además del conductor, una moto con sidecar puede llevar…",
+    "uk": "Крім водія, мотоцикл із коляскою може перевозити…"
    },
    "o": [
     {
      "en": "the sidecar occupant and one passenger",
-     "es": "al ocupante del sidecar y a un pasajero"
+     "es": "al ocupante del sidecar y a un pasajero",
+     "uk": "пасажира в колясці й одного пасажира"
     },
     {
      "en": "only the sidecar occupant",
-     "es": "solo al ocupante del sidecar"
+     "es": "solo al ocupante del sidecar",
+     "uk": "лише пасажира в колясці"
     },
     {
      "en": "two passengers on the seat",
-     "es": "dos pasajeros en el asiento"
+     "es": "dos pasajeros en el asiento",
+     "uk": "двох пасажирів на сидінні"
     }
    ],
    "why": {
     "en": "If the documents allow it.",
-    "es": "Si consta en la documentación."
+    "es": "Si consta en la documentación.",
+    "uk": "Якщо це дозволяють документи."
    }
   },
   {
@@ -194,25 +235,30 @@ window.DGT_DATA = {
    "tag": "people",
    "q": {
     "en": "With a passenger and luggage, which limit must you never exceed?",
-    "es": "Con pasajero y equipaje, ¿qué límite no puedes superar nunca?"
+    "es": "Con pasajero y equipaje, ¿qué límite no puedes superar nunca?",
+    "uk": "Яку межу з пасажиром і багажем ніколи не можна перевищувати?"
    },
    "o": [
     {
      "en": "The MMA",
-     "es": "La MMA"
+     "es": "La MMA",
+     "uk": "MMA"
     },
     {
      "en": "The tare",
-     "es": "La tara"
+     "es": "La tara",
+     "uk": "Тару"
     },
     {
      "en": "The mass in running order",
-     "es": "La masa en orden de marcha"
+     "es": "La masa en orden de marcha",
+     "uk": "Масу в спорядженому стані"
     }
    ],
    "why": {
     "en": "People count towards the mass.",
-    "es": "Las personas cuentan en la masa."
+    "es": "Las personas cuentan en la masa.",
+    "uk": "Люди теж рахуються в масу."
    }
   },
   {
@@ -220,25 +266,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "Since October 2026, riding a motorcycle on an interurban road, you and your passenger must wear…",
-    "es": "Desde octubre de 2026, en moto por vía interurbana, tú y tu pasajero debéis llevar…"
+    "es": "Desde octubre de 2026, en moto por vía interurbana, tú y tu pasajero debéis llevar…",
+    "uk": "З жовтня 2026 року на мотоциклі на заміській дорозі ви й ваш пасажир мусите мати…"
    },
    "o": [
     {
      "en": "helmet, protective gloves and closed shoes",
-     "es": "casco, guantes de protección y calzado cerrado"
+     "es": "casco, guantes de protección y calzado cerrado",
+     "uk": "шолом, захисні рукавички й закрите взуття"
     },
     {
      "en": "only the helmet",
-     "es": "solo el casco"
+     "es": "solo el casco",
+     "uk": "лише шолом"
     },
     {
      "en": "helmet and vest",
-     "es": "casco y chaleco"
+     "es": "casco y chaleco",
+     "uk": "шолом і жилет"
     }
    ],
    "why": {
     "en": "Gloves on interurban roads; helmet and shoes on every road.",
-    "es": "Guantes en interurbanas; casco y calzado en todas."
+    "es": "Guantes en interurbanas; casco y calzado en todas.",
+    "uk": "Рукавички на заміських дорогах; шолом і взуття на будь-якій."
    }
   },
   {
@@ -246,25 +297,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "In town, on a motorcycle, are protective gloves compulsory?",
-    "es": "En ciudad, en moto, ¿son obligatorios los guantes de protección?"
+    "es": "En ciudad, en moto, ¿son obligatorios los guantes de protección?",
+    "uk": "Чи обов’язкові захисні рукавички на мотоциклі в місті?"
    },
    "o": [
     {
      "en": "No, only on interurban roads",
-     "es": "No, solo en vías interurbanas"
+     "es": "No, solo en vías interurbanas",
+     "uk": "Ні, лише на заміських дорогах"
     },
     {
      "en": "Yes, always",
-     "es": "Sí, siempre"
+     "es": "Sí, siempre",
+     "uk": "Так, завжди"
     },
     {
      "en": "Only for the passenger",
-     "es": "Solo para el pasajero"
+     "es": "Solo para el pasajero",
+     "uk": "Лише для пасажира"
     }
    ],
    "why": {
     "en": "Recommended anyway.",
-    "es": "Recomendables de todos modos."
+    "es": "Recomendables de todos modos.",
+    "uk": "Однаково рекомендовані."
    }
   },
   {
@@ -272,25 +328,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "Closed shoes covering the whole foot are compulsory on a motorcycle…",
-    "es": "El calzado cerrado que cubra todo el pie es obligatorio en moto…"
+    "es": "El calzado cerrado que cubra todo el pie es obligatorio en moto…",
+    "uk": "Закрите взуття, що закриває всю стопу, на мотоциклі обов’язкове…"
    },
    "o": [
     {
      "en": "on every road",
-     "es": "en todas las vías"
+     "es": "en todas las vías",
+     "uk": "на будь-якій дорозі"
     },
     {
      "en": "only on interurban roads",
-     "es": "solo en vías interurbanas"
+     "es": "solo en vías interurbanas",
+     "uk": "лише на заміських дорогах"
     },
     {
      "en": "only for the rider",
-     "es": "solo para el conductor"
+     "es": "solo para el conductor",
+     "uk": "лише для водія"
     }
    ],
    "why": {
     "en": "Since 1 October 2026.",
-    "es": "Desde el 1 de octubre de 2026."
+    "es": "Desde el 1 de octubre de 2026.",
+    "uk": "З 1 жовтня 2026 року."
    }
   },
   {
@@ -298,25 +359,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "The motorcycle helmet must be approved according to…",
-    "es": "El casco de moto debe estar homologado según…"
+    "es": "El casco de moto debe estar homologado según…",
+    "uk": "Мотоциклетний шолом має бути затверджений відповідно до…"
    },
    "o": [
     {
      "en": "UNECE Regulation R22",
-     "es": "el Reglamento UNECE R22"
+     "es": "el Reglamento UNECE R22",
+     "uk": "Правил ООН (UNECE) R22"
     },
     {
      "en": "UNECE R44",
-     "es": "el Reglamento UNECE R44"
+     "es": "el Reglamento UNECE R44",
+     "uk": "UNECE R44"
     },
     {
      "en": "No standard is required",
-     "es": "No se exige norma"
+     "es": "No se exige norma",
+     "uk": "Жоден стандарт не вимагається"
     }
    ],
    "why": {
     "en": "And properly fastened.",
-    "es": "Y correctamente abrochado."
+    "es": "Y correctamente abrochado.",
+    "uk": "І правильно застебнутий."
    }
   },
   {
@@ -324,25 +390,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "A quadricycle with a protective structure and seat belts, as stated on its ITV card. Its occupants…",
-    "es": "Un cuadriciclo con estructura de autoprotección y cinturones, según su tarjeta ITV. Sus ocupantes…"
+    "es": "Un cuadriciclo con estructura de autoprotección y cinturones, según su tarjeta ITV. Sus ocupantes…",
+    "uk": "Квадрицикл із захисною конструкцією і ременями безпеки, як зазначено в картці техогляду. Люди в ньому…"
    },
    "o": [
     {
      "en": "wear the seat belt instead of the helmet",
-     "es": "usan el cinturón en lugar del casco"
+     "es": "usan el cinturón en lugar del casco",
+     "uk": "пристібаються ременем замість шолома"
     },
     {
      "en": "wear helmet and belt",
-     "es": "usan casco y cinturón"
+     "es": "usan casco y cinturón",
+     "uk": "мають і шолом, і ремінь"
     },
     {
      "en": "need neither",
-     "es": "no necesitan ninguno"
+     "es": "no necesitan ninguno",
+     "uk": "не потребують ні того, ні іншого"
     }
    ],
    "why": {
     "en": "Also exempt from gloves and closed shoes.",
-    "es": "También quedan exentos de guantes y calzado."
+    "es": "También quedan exentos de guantes y calzado.",
+    "uk": "Також звільнені від рукавичок і закритого взуття."
    }
   },
   {
@@ -350,25 +421,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "Until when may moped users keep wearing certified (not approved) helmets?",
-    "es": "¿Hasta cuándo pueden usarse en ciclomotor cascos certificados (no homologados)?"
+    "es": "¿Hasta cuándo pueden usarse en ciclomotor cascos certificados (no homologados)?",
+    "uk": "До якого часу водії мопедів можуть носити сертифіковані (не затверджені) шоломи?"
    },
    "o": [
     {
      "en": "1 October 2027",
-     "es": "Hasta el 1 de octubre de 2027"
+     "es": "Hasta el 1 de octubre de 2027",
+     "uk": "До 1 жовтня 2027 року"
     },
     {
      "en": "Indefinitely",
-     "es": "Indefinidamente"
+     "es": "Indefinidamente",
+     "uk": "Безстроково"
     },
     {
      "en": "1 January 2026",
-     "es": "Hasta el 1 de enero de 2026"
+     "es": "Hasta el 1 de enero de 2026",
+     "uk": "До 1 січня 2026 року"
     }
    ],
    "why": {
     "en": "A one-year transitional period.",
-    "es": "Un periodo transitorio de un año."
+    "es": "Un periodo transitorio de un año.",
+    "uk": "Однорічний перехідний період."
    }
   },
   {
@@ -376,25 +452,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "Your motorcycle breaks down on an interurban road and you get off onto the shoulder. You must…",
-    "es": "Tu moto se avería en vía interurbana y te bajas al arcén. Debes…"
+    "es": "Tu moto se avería en vía interurbana y te bajas al arcén. Debes…",
+    "uk": "Ваш мотоцикл зламався на заміській дорозі, і ви зійшли на узбіччя. Ви мусите…"
    },
    "o": [
     {
      "en": "wear the high-visibility vest",
-     "es": "ponerte el chaleco de alta visibilidad"
+     "es": "ponerte el chaleco de alta visibilidad",
+     "uk": "вдягти світловідбивний жилет"
     },
     {
      "en": "place two triangles",
-     "es": "colocar dos triángulos"
+     "es": "colocar dos triángulos",
+     "uk": "поставити два знаки аварійної зупинки"
     },
     {
      "en": "take off the helmet",
-     "es": "quitarte el casco"
+     "es": "quitarte el casco",
+     "uk": "зняти шолом"
     }
    ],
    "why": {
     "en": "Every motorcycle must carry one since October 2026.",
-    "es": "Toda moto debe llevarlo desde octubre de 2026."
+    "es": "Toda moto debe llevarlo desde octubre de 2026.",
+    "uk": "З жовтня 2026 року кожен мотоцикл мусить його мати."
    }
   },
   {
@@ -402,25 +483,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "A delivery rider working on a motorcycle in town must wear the vest…",
-    "es": "Un repartidor que trabaja en moto en ciudad debe llevar el chaleco…"
+    "es": "Un repartidor que trabaja en moto en ciudad debe llevar el chaleco…",
+    "uk": "Кур’єр, що працює на мотоциклі в місті, мусить носити жилет…"
    },
    "o": [
     {
      "en": "at all times, on every road",
-     "es": "siempre, en todas las vías"
+     "es": "siempre, en todas las vías",
+     "uk": "завжди й на будь-якій дорозі"
     },
     {
      "en": "only on interurban roads",
-     "es": "solo en interurbanas"
+     "es": "solo en interurbanas",
+     "uk": "лише на заміських дорогах"
     },
     {
      "en": "only at night",
-     "es": "solo de noche"
+     "es": "solo de noche",
+     "uk": "лише вночі"
     }
    ],
    "why": {
     "en": "Riders who work on the vehicle.",
-    "es": "Quien circula por su actividad profesional."
+    "es": "Quien circula por su actividad profesional.",
+    "uk": "Ті, хто працює на транспортному засобі."
    }
   },
   {
@@ -428,25 +514,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "Must the passenger also wear the helmet?",
-    "es": "¿Debe llevar casco también el pasajero?"
+    "es": "¿Debe llevar casco también el pasajero?",
+    "uk": "Чи мусить пасажир теж бути в шоломі?"
    },
    "o": [
     {
      "en": "Yes, approved and fastened",
-     "es": "Sí, homologado y abrochado"
+     "es": "Sí, homologado y abrochado",
+     "uk": "Так, затвердженому й застебнутому"
     },
     {
      "en": "Only out of town",
-     "es": "Solo fuera de poblado"
+     "es": "Solo fuera de poblado",
+     "uk": "Лише за містом"
     },
     {
      "en": "Only if under 18",
-     "es": "Solo si es menor de 18"
+     "es": "Solo si es menor de 18",
+     "uk": "Лише якщо молодший 18"
     }
    ],
    "why": {
     "en": "Rider and passenger.",
-    "es": "Conductor y pasajero."
+    "es": "Conductor y pasajero.",
+    "uk": "Водій і пасажир."
    }
   },
   {
@@ -454,25 +545,30 @@ window.DGT_DATA = {
    "tag": "load",
    "q": {
     "en": "Where should a load go on a two-wheeled motorcycle?",
-    "es": "¿Dónde debe ir la carga en una moto de dos ruedas?"
+    "es": "¿Dónde debe ir la carga en una moto de dos ruedas?",
+    "uk": "Де має бути вантаж на двоколісному мотоциклі?"
    },
    "o": [
     {
      "en": "On the central rear rack or in two side cases fixed to the frame",
-     "es": "En el portaequipajes central o en dos maletas laterales fijadas al chasis"
+     "es": "En el portaequipajes central o en dos maletas laterales fijadas al chasis",
+     "uk": "На центральному задньому багажнику або у двох бічних кофрах, закріплених на рамі"
     },
     {
      "en": "On the fuel tank",
-     "es": "Sobre el depósito"
+     "es": "Sobre el depósito",
+     "uk": "На паливному баку"
     },
     {
      "en": "Held by the passenger",
-     "es": "Sujeta por el pasajero"
+     "es": "Sujeta por el pasajero",
+     "uk": "У руках пасажира"
     }
    ],
    "why": {
     "en": "Well placed and secured.",
-    "es": "Bien colocada y sujeta."
+    "es": "Bien colocada y sujeta.",
+    "uk": "Добре розміщений і закріплений."
    }
   },
   {
@@ -480,25 +576,30 @@ window.DGT_DATA = {
    "tag": "load",
    "q": {
     "en": "A load must never…",
-    "es": "La carga nunca debe…"
+    "es": "La carga nunca debe…",
+    "uk": "Вантаж ніколи не повинен…"
    },
    "o": [
     {
      "en": "hide the lights or the number plate",
-     "es": "ocultar las luces ni la placa de matrícula"
+     "es": "ocultar las luces ni la placa de matrícula",
+     "uk": "закривати фари чи номерний знак"
     },
     {
      "en": "be in a top case",
-     "es": "ir en un baúl"
+     "es": "ir en un baúl",
+     "uk": "бути в кофрі"
     },
     {
      "en": "weigh more than 5 kg",
-     "es": "pesar más de 5 kg"
+     "es": "pesar más de 5 kg",
+     "uk": "важити понад 5 кг"
     }
    ],
    "why": {
     "en": "Nor the rider’s arm signals.",
-    "es": "Ni las advertencias con el brazo."
+    "es": "Ni las advertencias con el brazo.",
+    "uk": "Як і сигнали рукою водія."
    }
   },
   {
@@ -506,25 +607,30 @@ window.DGT_DATA = {
    "tag": "load",
    "q": {
     "en": "A load that makes dust or may fall must be…",
-    "es": "Una carga que produce polvo o puede caer debe…"
+    "es": "Una carga que produce polvo o puede caer debe…",
+    "uk": "Вантаж, що пилить чи може впасти, має бути…"
    },
    "o": [
     {
      "en": "fully and effectively covered",
-     "es": "cubrirse total y eficazmente"
+     "es": "cubrirse total y eficazmente",
+     "uk": "повністю й надійно накритий"
     },
     {
      "en": "carried only at night",
-     "es": "llevarse solo de noche"
+     "es": "llevarse solo de noche",
+     "uk": "перевезений лише вночі"
     },
     {
      "en": "signalled with a V-20",
-     "es": "señalizarse con la V-20"
+     "es": "señalizarse con la V-20",
+     "uk": "позначений V-20"
     }
    ],
    "why": {
     "en": "To avoid dangers and nuisance.",
-    "es": "Para evitar peligros y molestias."
+    "es": "Para evitar peligros y molestias.",
+    "uk": "Щоб уникнути небезпеки й незручностей."
    }
   },
   {
@@ -532,25 +638,30 @@ window.DGT_DATA = {
    "tag": "load",
    "q": {
     "en": "Which of these is a load placement rule?",
-    "es": "¿Cuál de estas es una norma de colocación de la carga?"
+    "es": "¿Cuál de estas es una norma de colocación de la carga?",
+    "uk": "Що з переліченого — правило розміщення вантажу?"
    },
    "o": [
     {
      "en": "It must not compromise the vehicle’s stability",
-     "es": "No debe comprometer la estabilidad del vehículo"
+     "es": "No debe comprometer la estabilidad del vehículo",
+     "uk": "Він не повинен порушувати стійкість транспортного засобу"
     },
     {
      "en": "It must be on the left side",
-     "es": "Debe ir en el lado izquierdo"
+     "es": "Debe ir en el lado izquierdo",
+     "uk": "Він має бути з лівого боку"
     },
     {
      "en": "It must be red",
-     "es": "Debe ser de color rojo"
+     "es": "Debe ser de color rojo",
+     "uk": "Він має бути червоним"
     }
    ],
    "why": {
     "en": "Nor drag, fall or shift.",
-    "es": "Ni arrastrar, caer o desplazarse."
+    "es": "Ni arrastrar, caer o desplazarse.",
+    "uk": "А також не волочитися, не падати й не зміщуватися."
    }
   },
   {
@@ -558,25 +669,30 @@ window.DGT_DATA = {
    "tag": "load",
    "q": {
     "en": "Badly loaded side cases make the motorcycle lean to one side. This breaks the rule that the load must not…",
-    "es": "Unas maletas mal cargadas hacen que la moto se incline a un lado. Esto incumple que la carga no debe…"
+    "es": "Unas maletas mal cargadas hacen que la moto se incline a un lado. Esto incumple que la carga no debe…",
+    "uk": "Неправильно завантажені бічні кофри нахиляють мотоцикл на один бік. Це порушує правило, що вантаж не повинен…"
    },
    "o": [
     {
      "en": "compromise stability",
-     "es": "comprometer la estabilidad"
+     "es": "comprometer la estabilidad",
+     "uk": "порушувати стійкість"
     },
     {
      "en": "make noise",
-     "es": "producir ruido"
+     "es": "producir ruido",
+     "uk": "шуміти"
     },
     {
      "en": "hide the lights",
-     "es": "ocultar las luces"
+     "es": "ocultar las luces",
+     "uk": "закривати фари"
     }
    ],
    "why": {
     "en": "Balance the load on both sides.",
-    "es": "Reparte la carga en ambos lados."
+    "es": "Reparte la carga en ambos lados.",
+    "uk": "Розподіляйте вантаж на обидва боки."
    }
   },
   {
@@ -584,25 +700,30 @@ window.DGT_DATA = {
    "tag": "overhang",
    "q": {
     "en": "On a vehicle less than 1 m wide, the load may stick out at the rear…",
-    "es": "En un vehículo de menos de 1 m de ancho, la carga puede sobresalir por detrás…"
+    "es": "En un vehículo de menos de 1 m de ancho, la carga puede sobresalir por detrás…",
+    "uk": "На транспортному засобі шириною менше 1 м вантаж може виступати ззаду на…"
    },
    "o": [
     {
      "en": "0.25 m",
-     "es": "0,25 m"
+     "es": "0,25 m",
+     "uk": "0,25 м"
     },
     {
      "en": "0.50 m",
-     "es": "0,50 m"
+     "es": "0,50 m",
+     "uk": "0,50 м"
     },
     {
      "en": "1 m",
-     "es": "1 m"
+     "es": "1 m",
+     "uk": "1 м"
     }
    ],
    "why": {
     "en": "And nothing at the front.",
-    "es": "Y nada por delante."
+    "es": "Y nada por delante.",
+    "uk": "І нічого спереду."
    }
   },
   {
@@ -610,25 +731,30 @@ window.DGT_DATA = {
    "tag": "overhang",
    "q": {
     "en": "On a motorcycle, how far may a load stick out sideways?",
-    "es": "En una moto, ¿cuánto puede sobresalir la carga lateralmente?"
+    "es": "En una moto, ¿cuánto puede sobresalir la carga lateralmente?",
+    "uk": "Наскільки на мотоциклі вантаж може виступати вбік?"
    },
    "o": [
     {
      "en": "0.50 m each side of its long axis",
-     "es": "0,50 m a cada lado de su eje longitudinal"
+     "es": "0,50 m a cada lado de su eje longitudinal",
+     "uk": "0,50 м з кожного боку від його поздовжньої осі"
     },
     {
      "en": "0.25 m each side",
-     "es": "0,25 m a cada lado"
+     "es": "0,25 m a cada lado",
+     "uk": "0,25 м з кожного боку"
     },
     {
      "en": "It may not stick out sideways",
-     "es": "No puede sobresalir lateralmente"
+     "es": "No puede sobresalir lateralmente",
+     "uk": "Вбік виступати не може"
     }
    ],
    "why": {
     "en": "So the total width stays within 1 m.",
-    "es": "La anchura total no supera 1 m."
+    "es": "La anchura total no supera 1 m.",
+    "uk": "Щоб загальна ширина не перевищувала 1 м."
    }
   },
   {
@@ -636,25 +762,30 @@ window.DGT_DATA = {
    "tag": "overhang",
    "q": {
     "en": "On a motorcycle, may the load stick out at the front?",
-    "es": "En una moto, ¿puede sobresalir la carga por delante?"
+    "es": "En una moto, ¿puede sobresalir la carga por delante?",
+    "uk": "Чи може на мотоциклі вантаж виступати спереду?"
    },
    "o": [
     {
      "en": "No",
-     "es": "No"
+     "es": "No",
+     "uk": "Ні"
     },
     {
      "en": "Up to 0.25 m",
-     "es": "Hasta 0,25 m"
+     "es": "Hasta 0,25 m",
+     "uk": "До 0,25 м"
     },
     {
      "en": "Up to 0.50 m",
-     "es": "Hasta 0,50 m"
+     "es": "Hasta 0,50 m",
+     "uk": "До 0,50 м"
     }
    ],
    "why": {
     "en": "Never at the front.",
-    "es": "Nunca por la parte delantera."
+    "es": "Nunca por la parte delantera.",
+    "uk": "Спереду ніколи."
    }
   },
   {
@@ -662,25 +793,30 @@ window.DGT_DATA = {
    "tag": "overhang",
    "q": {
     "en": "Your top case sticks out 0.20 m behind the motorcycle. Must you signal it with a V-20?",
-    "es": "Tu baúl sobresale 0,20 m por detrás de la moto. ¿Debes señalizarlo con la V-20?"
+    "es": "Tu baúl sobresale 0,20 m por detrás de la moto. ¿Debes señalizarlo con la V-20?",
+    "uk": "Ваш кофр виступає на 0,20 м позаду мотоцикла. Чи треба позначати його V-20?"
    },
    "o": [
     {
      "en": "No, vehicles under 1 m wide don’t need to",
-     "es": "No, los vehículos de menos de 1 m de ancho no lo necesitan"
+     "es": "No, los vehículos de menos de 1 m de ancho no lo necesitan",
+     "uk": "Ні, транспортним засобам шириною менше 1 м не треба"
     },
     {
      "en": "Yes, always",
-     "es": "Sí, siempre"
+     "es": "Sí, siempre",
+     "uk": "Так, завжди"
     },
     {
      "en": "Only at night",
-     "es": "Solo de noche"
+     "es": "Solo de noche",
+     "uk": "Лише вночі"
     }
    ],
    "why": {
     "en": "It is within the 0.25 m allowed.",
-    "es": "Está dentro de los 0,25 m permitidos."
+    "es": "Está dentro de los 0,25 m permitidos.",
+    "uk": "Він у межах дозволених 0,25 м."
    }
   },
   {
@@ -688,25 +824,30 @@ window.DGT_DATA = {
    "tag": "overhang",
    "q": {
     "en": "On a car (not a goods vehicle), a divisible load may stick out at the rear up to…",
-    "es": "En un turismo (no de mercancías), una carga divisible puede sobresalir por detrás hasta…"
+    "es": "En un turismo (no de mercancías), una carga divisible puede sobresalir por detrás hasta…",
+    "uk": "На легковику (не вантажному) подільний вантаж може виступати ззаду до…"
    },
    "o": [
     {
      "en": "10 % of its length",
-     "es": "el 10 % de su longitud"
+     "es": "el 10 % de su longitud",
+     "uk": "10 % його довжини"
     },
     {
      "en": "15 % of its length",
-     "es": "el 15 % de su longitud"
+     "es": "el 15 % de su longitud",
+     "uk": "15 % його довжини"
     },
     {
      "en": "1 m",
-     "es": "1 m"
+     "es": "1 m",
+     "uk": "1 м"
     }
    ],
    "why": {
     "en": "Indivisible: 15 %.",
-    "es": "Indivisible: 15 %."
+    "es": "Indivisible: 15 %.",
+    "uk": "Неподільний: 15 %."
    }
   },
   {
@@ -714,25 +855,30 @@ window.DGT_DATA = {
    "tag": "overhang",
    "q": {
     "en": "A load sticking out at the rear, at night, on a vehicle where it must be signalled, carries…",
-    "es": "Una carga que sobresale por detrás, de noche, en un vehículo que debe señalizarla, lleva…"
+    "es": "Una carga que sobresale por detrás, de noche, en un vehículo que debe señalizarla, lleva…",
+    "uk": "Уночі вантаж, що виступає ззаду, на ТЗ, де його треба позначати, має…"
    },
    "o": [
     {
      "en": "the V-20 panel and a red light",
-     "es": "el panel V-20 y una luz roja"
+     "es": "el panel V-20 y una luz roja",
+     "uk": "табличку V-20 і червоний вогонь"
     },
     {
      "en": "only the V-20 panel",
-     "es": "solo el panel V-20"
+     "es": "solo el panel V-20",
+     "uk": "лише табличку V-20"
     },
     {
      "en": "a white light",
-     "es": "una luz blanca"
+     "es": "una luz blanca",
+     "uk": "білий вогонь"
     }
    ],
    "why": {
     "en": "By day, the panel alone.",
-    "es": "De día, solo el panel."
+    "es": "De día, solo el panel.",
+    "uk": "Удень — лише табличка."
    }
   },
   {
@@ -740,25 +886,30 @@ window.DGT_DATA = {
    "tag": "overhang",
    "q": {
     "en": "Besides signalling it, the end of a load that sticks out must be…",
-    "es": "Además de señalizarla, el extremo de una carga que sobresale debe…"
+    "es": "Además de señalizarla, el extremo de una carga que sobresale debe…",
+    "uk": "Крім позначення, кінець вантажу, що виступає, має бути…"
    },
    "o": [
     {
      "en": "protected to soften any rub or knock",
-     "es": "ir resguardado para aminorar los efectos de un roce o choque"
+     "es": "ir resguardado para aminorar los efectos de un roce o choque",
+     "uk": "захищений, щоб пом’якшити тертя чи удар"
     },
     {
      "en": "painted red",
-     "es": "pintarse de rojo"
+     "es": "pintarse de rojo",
+     "uk": "пофарбований у червоне"
     },
     {
      "en": "tied with rope only",
-     "es": "atarse solo con cuerda"
+     "es": "atarse solo con cuerda",
+     "uk": "лише прив’язаний мотузкою"
     }
    ],
    "why": {
     "en": "To avoid harm to others.",
-    "es": "Para evitar daños a los demás."
+    "es": "Para evitar daños a los demás.",
+    "uk": "Щоб не завдати шкоди іншим."
    }
   },
   {
@@ -766,25 +917,30 @@ window.DGT_DATA = {
    "tag": "trailer",
    "q": {
     "en": "May a motorcycle tow a trailer?",
-    "es": "¿Puede una motocicleta arrastrar un remolque?"
+    "es": "¿Puede una motocicleta arrastrar un remolque?",
+    "uk": "Чи може мотоцикл буксирувати причіп?"
    },
    "o": [
     {
      "en": "Yes, under certain conditions",
-     "es": "Sí, con ciertas condiciones"
+     "es": "Sí, con ciertas condiciones",
+     "uk": "Так, за певних умов"
     },
     {
      "en": "No, never",
-     "es": "No, nunca"
+     "es": "No, nunca",
+     "uk": "Ні, ніколи"
     },
     {
      "en": "Only in town",
-     "es": "Solo en poblado"
+     "es": "Solo en poblado",
+     "uk": "Лише в місті"
     }
    ],
    "why": {
     "en": "Mass, daytime, speed and no people.",
-    "es": "Masa, de día, velocidad y sin personas."
+    "es": "Masa, de día, velocidad y sin personas.",
+    "uk": "Маса, світлий час доби, швидкість і жодних людей."
    }
   },
   {
@@ -792,25 +948,30 @@ window.DGT_DATA = {
    "tag": "trailer",
    "q": {
     "en": "The trailer of a motorcycle may weigh at most…",
-    "es": "El remolque de una moto puede pesar como máximo…"
+    "es": "El remolque de una moto puede pesar como máximo…",
+    "uk": "Причіп мотоцикла може важити щонайбільше…"
    },
    "o": [
     {
      "en": "50 % of the motorcycle’s unladen mass",
-     "es": "el 50 % de la masa en vacío de la moto"
+     "es": "el 50 % de la masa en vacío de la moto",
+     "uk": "50 % маси мотоцикла без навантаження"
     },
     {
      "en": "50 % of its MMA",
-     "es": "el 50 % de su MMA"
+     "es": "el 50 % de su MMA",
+     "uk": "50 % його MMA"
     },
     {
      "en": "750 kg",
-     "es": "750 kg"
+     "es": "750 kg",
+     "uk": "750 кг"
     }
    ],
    "why": {
     "en": "Unladen mass of the towing vehicle.",
-    "es": "Masa en vacío del vehículo tractor."
+    "es": "Masa en vacío del vehículo tractor.",
+    "uk": "Маса тягача без навантаження."
    }
   },
   {
@@ -818,25 +979,30 @@ window.DGT_DATA = {
    "tag": "trailer",
    "q": {
     "en": "A motorcycle towing a trailer out of town must…",
-    "es": "Una moto con remolque fuera de poblado debe…"
+    "es": "Una moto con remolque fuera de poblado debe…",
+    "uk": "Мотоцикл із причепом поза населеним пунктом мусить…"
    },
    "o": [
     {
      "en": "reduce its generic speeds by 10 %",
-     "es": "reducir un 10 % sus velocidades genéricas"
+     "es": "reducir un 10 % sus velocidades genéricas",
+     "uk": "знизити свої загальні швидкості на 10 %"
     },
     {
      "en": "reduce them by 10 km/h",
-     "es": "reducirlas 10 km/h"
+     "es": "reducirlas 10 km/h",
+     "uk": "знизити їх на 10 км/год"
     },
     {
      "en": "keep the same speeds",
-     "es": "mantener las mismas velocidades"
+     "es": "mantener las mismas velocidades",
+     "uk": "тримати ті самі швидкості"
     }
    ],
    "why": {
     "en": "Per cent, not km/h.",
-    "es": "Por ciento, no km/h."
+    "es": "Por ciento, no km/h.",
+    "uk": "Відсотки, а не км/год."
    }
   },
   {
@@ -844,25 +1010,30 @@ window.DGT_DATA = {
    "tag": "trailer",
    "q": {
     "en": "May a child travel in the trailer of a motorcycle?",
-    "es": "¿Puede viajar un niño en el remolque de una moto?"
+    "es": "¿Puede viajar un niño en el remolque de una moto?",
+    "uk": "Чи може дитина їхати в причепі мотоцикла?"
    },
    "o": [
     {
      "en": "No, never",
-     "es": "No, nunca"
+     "es": "No, nunca",
+     "uk": "Ні, ніколи"
     },
     {
      "en": "Yes, with a helmet",
-     "es": "Sí, con casco"
+     "es": "Sí, con casco",
+     "uk": "Так, у шоломі"
     },
     {
      "en": "Yes, in town",
-     "es": "Sí, en poblado"
+     "es": "Sí, en poblado",
+     "uk": "Так, у місті"
     }
    ],
    "why": {
     "en": "Never people in the towed vehicle.",
-    "es": "Nunca personas en el vehículo remolcado."
+    "es": "Nunca personas en el vehículo remolcado.",
+    "uk": "Ніколи не возять людей у причепі."
    }
   },
   {
@@ -870,25 +1041,30 @@ window.DGT_DATA = {
    "tag": "trailer",
    "q": {
     "en": "At night, may a moped tow a trailer?",
-    "es": "De noche, ¿puede un ciclomotor arrastrar un remolque?"
+    "es": "De noche, ¿puede un ciclomotor arrastrar un remolque?",
+    "uk": "Чи може мопед уночі буксирувати причіп?"
    },
    "o": [
     {
      "en": "No, only by day with good visibility",
-     "es": "No, solo de día y con buena visibilidad"
+     "es": "No, solo de día y con buena visibilidad",
+     "uk": "Ні, лише вдень за доброї видимості"
     },
     {
      "en": "Yes, with the lights on",
-     "es": "Sí, con las luces encendidas"
+     "es": "Sí, con las luces encendidas",
+     "uk": "Так, з увімкненим світлом"
     },
     {
      "en": "Yes, in town",
-     "es": "Sí, en poblado"
+     "es": "Sí, en poblado",
+     "uk": "Так, у місті"
     }
    ],
    "why": {
     "en": "In town, local bylaws apply.",
-    "es": "En poblado, las ordenanzas municipales."
+    "es": "En poblado, las ordenanzas municipales.",
+    "uk": "У місті діють місцеві постанови."
    }
   },
   {
@@ -896,25 +1072,30 @@ window.DGT_DATA = {
    "tag": "trailer",
    "q": {
     "en": "Since October 2026, which of these is NOT covered by the motorcycle trailer rule (−10 %, 50 %)?",
-    "es": "Desde octubre de 2026, ¿cuál NO está en la norma de remolque de las motos (−10 %, 50 %)?"
+    "es": "Desde octubre de 2026, ¿cuál NO está en la norma de remolque de las motos (−10 %, 50 %)?",
+    "uk": "Що з переліченого з жовтня 2026 року НЕ підпадає під правило про причіп мотоцикла (−10 %, 50 %)?"
    },
    "o": [
     {
      "en": "Bicycles",
-     "es": "Las bicicletas"
+     "es": "Las bicicletas",
+     "uk": "Велосипеди"
     },
     {
      "en": "Mopeds",
-     "es": "Los ciclomotores"
+     "es": "Los ciclomotores",
+     "uk": "Мопеди"
     },
     {
      "en": "Three-wheeled vehicles",
-     "es": "Los vehículos de tres ruedas"
+     "es": "Los vehículos de tres ruedas",
+     "uk": "Триколісні транспортні засоби"
     }
    ],
    "why": {
     "en": "Bicycles have their own trailer rules now. Your course still lists cycles.",
-    "es": "Las bicicletas tienen ahora sus propias normas. Tu curso aún incluye los ciclos."
+    "es": "Las bicicletas tienen ahora sus propias normas. Tu curso aún incluye los ciclos.",
+    "uk": "Для велосипедів тепер власні правила щодо причепів. Ваш курс досі згадує цикли."
    }
   },
   {
@@ -922,25 +1103,30 @@ window.DGT_DATA = {
    "tag": "plates",
    "q": {
     "en": "The V-1 sign (priority vehicle) consists of…",
-    "es": "La señal V-1 (vehículo prioritario) consiste en…"
+    "es": "La señal V-1 (vehículo prioritario) consiste en…",
+    "uk": "Знак V-1 (транспорт із пріоритетом) — це…"
    },
    "o": [
     {
      "en": "one or more blue lights",
-     "es": "una o varias luces azules"
+     "es": "una o varias luces azules",
+     "uk": "один чи кілька синіх вогнів"
     },
     {
      "en": "one or more amber lights",
-     "es": "una o varias luces amarillo auto"
+     "es": "una o varias luces amarillo auto",
+     "uk": "один чи кілька жовтих вогнів"
     },
     {
      "en": "a red flashing light",
-     "es": "una luz roja intermitente"
+     "es": "una luz roja intermitente",
+     "uk": "червоний проблисковий вогонь"
     }
    ],
    "why": {
     "en": "Police, fire, civil protection, ambulance on urgent service.",
-    "es": "Policía, bomberos, protección civil, asistencia sanitaria en servicio urgente."
+    "es": "Policía, bomberos, protección civil, asistencia sanitaria en servicio urgente.",
+    "uk": "Поліція, пожежники, цивільний захист, швидка на терміновому виклику."
    }
   },
   {
@@ -948,25 +1134,30 @@ window.DGT_DATA = {
    "tag": "plates",
    "q": {
     "en": "An amber rotating light (V-2) on a vehicle working at the roadside means…",
-    "es": "Una luz giratoria amarillo auto (V-2) en un vehículo trabajando junto a la vía indica…"
+    "es": "Una luz giratoria amarillo auto (V-2) en un vehículo trabajando junto a la vía indica…",
+    "uk": "Жовтий обертовий маячок (V-2) на машині, що працює біля дороги, означає…"
    },
    "o": [
     {
      "en": "a vehicle-obstacle: stopped, parked or going at no more than 40 km/h",
-     "es": "vehículo-obstáculo: parado, estacionado o a no más de 40 km/h"
+     "es": "vehículo-obstáculo: parado, estacionado o a no más de 40 km/h",
+     "uk": "транспорт-перешкоду: стоїть чи їде не швидше 40 км/год"
     },
     {
      "en": "a priority vehicle",
-     "es": "un vehículo prioritario"
+     "es": "un vehículo prioritario",
+     "uk": "транспорт із пріоритетом"
     },
     {
      "en": "a long vehicle",
-     "es": "un vehículo largo"
+     "es": "un vehículo largo",
+     "uk": "довгий транспортний засіб"
     }
    ],
    "why": {
     "en": "Also special transport and escorts.",
-    "es": "También transporte especial y acompañamiento."
+    "es": "También transporte especial y acompañamiento.",
+    "uk": "Також спецперевезення і супровід."
    }
   },
   {
@@ -974,25 +1165,30 @@ window.DGT_DATA = {
    "tag": "plates",
    "q": {
     "en": "The V-6 sign is carried by vehicles or combinations longer than…",
-    "es": "La señal V-6 la llevan los vehículos o conjuntos de más de…"
+    "es": "La señal V-6 la llevan los vehículos o conjuntos de más de…",
+    "uk": "Знак V-6 мають транспортні засоби чи состави, довші за…"
    },
    "o": [
     {
      "en": "12 m",
-     "es": "12 m"
+     "es": "12 m",
+     "uk": "12 м"
     },
     {
      "en": "10 m",
-     "es": "10 m"
+     "es": "10 m",
+     "uk": "10 м"
     },
     {
      "en": "18.75 m",
-     "es": "18,75 m"
+     "es": "18,75 m",
+     "uk": "18,75 м"
     }
    ],
    "why": {
     "en": "Long vehicle.",
-    "es": "Vehículo largo."
+    "es": "Vehículo largo.",
+    "uk": "Довгий транспортний засіб."
    }
   },
   {
@@ -1000,25 +1196,30 @@ window.DGT_DATA = {
    "tag": "plates",
    "q": {
     "en": "On a motorcycle, the V-13 (novice) sign goes…",
-    "es": "En una moto, la señal V-13 (novel) va…"
+    "es": "En una moto, la señal V-13 (novel) va…",
+    "uk": "На мотоциклі знак V-13 (початківець) розміщують…"
    },
    "o": [
     {
      "en": "at the rear left, visible",
-     "es": "en la parte posterior izquierda, visible"
+     "es": "en la parte posterior izquierda, visible",
+     "uk": "ззаду ліворуч, на видноті"
     },
     {
      "en": "at the front",
-     "es": "en la parte delantera"
+     "es": "en la parte delantera",
+     "uk": "спереду"
     },
     {
      "en": "on the helmet",
-     "es": "en el casco"
+     "es": "en el casco",
+     "uk": "на шоломі"
     }
    ],
    "why": {
     "en": "Licence held under a year; 13 × 10 cm on motorcycles.",
-    "es": "Permiso de menos de un año; 13 × 10 cm en motos."
+    "es": "Permiso de menos de un año; 13 × 10 cm en motos.",
+    "uk": "Посвідчення менше року; 13 × 10 см на мотоциклах."
    }
   },
   {
@@ -1026,25 +1227,30 @@ window.DGT_DATA = {
    "tag": "plates",
    "q": {
     "en": "The V-13 means the driver’s licence is…",
-    "es": "La señal V-13 indica que el permiso del conductor tiene…"
+    "es": "La señal V-13 indica que el permiso del conductor tiene…",
+    "uk": "V-13 означає, що посвідченню водія…"
    },
    "o": [
     {
      "en": "less than one year old",
-     "es": "menos de un año de antigüedad"
+     "es": "menos de un año de antigüedad",
+     "uk": "менше року"
     },
     {
      "en": "less than two years old",
-     "es": "menos de dos años"
+     "es": "menos de dos años",
+     "uk": "менше двох років"
     },
     {
      "en": "a learner’s permit",
-     "es": "un permiso de aprendizaje"
+     "es": "un permiso de aprendizaje",
+     "uk": "це учнівський дозвіл"
     }
    ],
    "why": {
     "en": "Novice driver.",
-    "es": "Conductor novel."
+    "es": "Conductor novel.",
+    "uk": "Водій-початківець."
    }
   },
   {
@@ -1052,25 +1258,30 @@ window.DGT_DATA = {
    "tag": "plates",
    "q": {
     "en": "Since 1 January 2026, are warning triangles still valid instead of the V-16?",
-    "es": "Desde el 1 de enero de 2026, ¿siguen valiendo los triángulos en lugar de la V-16?"
+    "es": "Desde el 1 de enero de 2026, ¿siguen valiendo los triángulos en lugar de la V-16?",
+    "uk": "Чи дійсні з 1 січня 2026 року знаки аварійної зупинки замість V-16?"
    },
    "o": [
     {
      "en": "No, only the connected V-16",
-     "es": "No, solo la V-16 conectada"
+     "es": "No, solo la V-16 conectada",
+     "uk": "Ні, лише підключений V-16"
     },
     {
      "en": "Yes, as an alternative",
-     "es": "Sí, como alternativa"
+     "es": "Sí, como alternativa",
+     "uk": "Так, як альтернатива"
     },
     {
      "en": "Yes, on motorways",
-     "es": "Sí, en autopistas"
+     "es": "Sí, en autopistas",
+     "uk": "Так, на автомагістралях"
     }
    ],
    "why": {
     "en": "The V-16 is not compulsory on motorcycles.",
-    "es": "La V-16 no es obligatoria en motos."
+    "es": "La V-16 no es obligatoria en motos.",
+    "uk": "На мотоциклах V-16 не обов’язковий."
    }
   },
   {
@@ -1078,25 +1289,30 @@ window.DGT_DATA = {
    "tag": "plates",
    "q": {
     "en": "The V-16 tells others that…",
-    "es": "La V-16 indica que…"
+    "es": "La V-16 indica que…",
+    "uk": "V-16 повідомляє іншим, що…"
    },
    "o": [
     {
      "en": "the vehicle is immobilised on the carriageway or its load is on it",
-     "es": "el vehículo está inmovilizado en la calzada o su carga está sobre ella"
+     "es": "el vehículo está inmovilizado en la calzada o su carga está sobre ella",
+     "uk": "транспортний засіб знерухомлений на проїзній частині або на ній його вантаж"
     },
     {
      "en": "the vehicle is slow",
-     "es": "el vehículo es lento"
+     "es": "el vehículo es lento",
+     "uk": "транспортний засіб повільний"
     },
     {
      "en": "the driver is a novice",
-     "es": "el conductor es novel"
+     "es": "el conductor es novel",
+     "uk": "водій — початківець"
     }
    ],
    "why": {
     "en": "Warning device.",
-    "es": "Dispositivo de preseñalización de peligro."
+    "es": "Dispositivo de preseñalización de peligro.",
+    "uk": "Аварійний маяк."
    }
   },
   {
@@ -1104,25 +1320,30 @@ window.DGT_DATA = {
    "tag": "plates",
    "q": {
     "en": "Is it compulsory to display the environmental label (V-25) on a motorcycle?",
-    "es": "¿Es obligatorio colocar el distintivo ambiental (V-25) en una moto?"
+    "es": "¿Es obligatorio colocar el distintivo ambiental (V-25) en una moto?",
+    "uk": "Чи обов’язково розміщувати на мотоциклі екологічну наліпку (V-25)?"
    },
    "o": [
     {
      "en": "No, it is recommended on the screen or another visible place",
-     "es": "No, se recomienda en la cúpula o en otro lugar visible"
+     "es": "No, se recomienda en la cúpula o en otro lugar visible",
+     "uk": "Ні, її рекомендують на вітровому щитку чи іншому видному місці"
     },
     {
      "en": "Yes, on the number plate",
-     "es": "Sí, en la placa de matrícula"
+     "es": "Sí, en la placa de matrícula",
+     "uk": "Так, на номерному знаку"
     },
     {
      "en": "Yes, on the helmet",
-     "es": "Sí, en el casco"
+     "es": "Sí, en el casco",
+     "uk": "Так, на шоломі"
     }
    ],
    "why": {
     "en": "A recommendation, not an obligation.",
-    "es": "Es una recomendación, no una obligación."
+    "es": "Es una recomendación, no una obligación.",
+    "uk": "Рекомендація, а не обов’язок."
    }
   },
   {
@@ -1130,25 +1351,30 @@ window.DGT_DATA = {
    "tag": "plates",
    "q": {
     "en": "The V-19 badge shows that…",
-    "es": "El distintivo V-19 indica que…"
+    "es": "El distintivo V-19 indica que…",
+    "uk": "Позначка V-19 показує, що…"
    },
    "o": [
     {
      "en": "the vehicle passed its periodic inspection, and when the next is due",
-     "es": "el vehículo ha superado la ITV y la fecha de la próxima"
+     "es": "el vehículo ha superado la ITV y la fecha de la próxima",
+     "uk": "транспортний засіб пройшов періодичний техогляд і коли наступний"
     },
     {
      "en": "the vehicle is insured",
-     "es": "el vehículo está asegurado"
+     "es": "el vehículo está asegurado",
+     "uk": "транспортний засіб застрахований"
     },
     {
      "en": "the vehicle is for hire",
-     "es": "el vehículo es de alquiler"
+     "es": "el vehículo es de alquiler",
+     "uk": "транспортний засіб здається напрокат"
     }
    ],
    "why": {
     "en": "ITV badge.",
-    "es": "Distintivo de ITV."
+    "es": "Distintivo de ITV.",
+    "uk": "Позначка техогляду."
    }
   },
   {
@@ -1156,25 +1382,30 @@ window.DGT_DATA = {
    "tag": "plates",
    "q": {
     "en": "The V-26 badge identifies…",
-    "es": "El distintivo V-26 identifica…"
+    "es": "El distintivo V-26 identifica…",
+    "uk": "Позначка V-26 означає…"
    },
    "o": [
     {
      "en": "a shared-use vehicle (car sharing)",
-     "es": "un vehículo de uso compartido"
+     "es": "un vehículo de uso compartido",
+     "uk": "транспортний засіб спільного користування (каршеринг)"
     },
     {
      "en": "a taxi",
-     "es": "un taxi"
+     "es": "un taxi",
+     "uk": "таксі"
     },
     {
      "en": "a school bus",
-     "es": "un autobús escolar"
+     "es": "un autobús escolar",
+     "uk": "шкільний автобус"
     }
    ],
    "why": {
     "en": "Self-drive rental used by many users in a set zone.",
-    "es": "Alquiler sin conductor de uso concatenado en una zona delimitada."
+    "es": "Alquiler sin conductor de uso concatenado en una zona delimitada.",
+    "uk": "Прокат без водія для багатьох користувачів у визначеній зоні."
    }
   },
   {
@@ -1182,25 +1413,30 @@ window.DGT_DATA = {
    "tag": "plates",
    "q": {
     "en": "The VEH 21/05 blind-spot sticker is…",
-    "es": "La señal adhesiva VEH 21/05 de ángulos muertos es…"
+    "es": "La señal adhesiva VEH 21/05 de ángulos muertos es…",
+    "uk": "Наліпка VEH 21/05 про мертві зони…"
    },
    "o": [
     {
      "en": "voluntary, to warn vulnerable users such as motorcyclists",
-     "es": "voluntaria, para advertir a usuarios vulnerables como los motoristas"
+     "es": "voluntaria, para advertir a usuarios vulnerables como los motoristas",
+     "uk": "добровільна, щоб попереджати уразливих учасників, як-от мотоциклістів"
     },
     {
      "en": "compulsory on all lorries",
-     "es": "obligatoria en todos los camiones"
+     "es": "obligatoria en todos los camiones",
+     "uk": "обов’язкова на всіх вантажівках"
     },
     {
      "en": "compulsory on motorcycles",
-     "es": "obligatoria en las motos"
+     "es": "obligatoria en las motos",
+     "uk": "обов’язкова на мотоциклах"
     }
    ],
    "why": {
     "en": "Three per vehicle.",
-    "es": "Tres por vehículo."
+    "es": "Tres por vehículo.",
+    "uk": "Три на кожен ТЗ."
    }
   },
   {
@@ -1208,25 +1444,30 @@ window.DGT_DATA = {
    "tag": "plates",
    "q": {
     "en": "A red-and-white striped square panel at the rear of a load is the…",
-    "es": "Un panel cuadrado con franjas rojas y blancas en el extremo de una carga es la…"
+    "es": "Un panel cuadrado con franjas rojas y blancas en el extremo de una carga es la…",
+    "uk": "Квадратна табличка з червоно-білими смугами ззаду вантажу — це…"
    },
    "o": [
     {
      "en": "V-20",
-     "es": "V-20"
+     "es": "V-20",
+     "uk": "V-20"
     },
     {
      "en": "V-2",
-     "es": "V-2"
+     "es": "V-2",
+     "uk": "V-2"
     },
     {
      "en": "V-6",
-     "es": "V-6"
+     "es": "V-6",
+     "uk": "V-6"
     }
    ],
    "why": {
     "en": "Load that sticks out.",
-    "es": "Carga que sobresale."
+    "es": "Carga que sobresale.",
+    "uk": "Вантаж, що виступає."
    }
   },
   {
@@ -1234,25 +1475,30 @@ window.DGT_DATA = {
    "tag": "people",
    "q": {
     "en": "May a moped carry a passenger?",
-    "es": "¿Puede un ciclomotor llevar pasajero?"
+    "es": "¿Puede un ciclomotor llevar pasajero?",
+    "uk": "Чи може мопед перевозити пасажира?"
    },
    "o": [
     {
      "en": "Yes, with the same conditions as a motorcycle, if its licence allows it",
-     "es": "Sí, con las mismas condiciones que la moto, si consta en su licencia"
+     "es": "Sí, con las mismas condiciones que la moto, si consta en su licencia",
+     "uk": "Так, на тих самих умовах, що й мотоцикл, якщо це дозволяє його документ"
     },
     {
      "en": "No, never",
-     "es": "No, nunca"
+     "es": "No, nunca",
+     "uk": "Ні, ніколи"
     },
     {
      "en": "Only children",
-     "es": "Solo niños"
+     "es": "Solo niños",
+     "uk": "Лише дітей"
     }
    ],
    "why": {
     "en": "Over 12, behind the rider, astride, helmet.",
-    "es": "Mayor de 12, detrás, a horcajadas, con casco."
+    "es": "Mayor de 12, detrás, a horcajadas, con casco.",
+    "uk": "Старший 12, позаду водія, верхи, у шоломі."
    }
   },
   {
@@ -1260,25 +1506,30 @@ window.DGT_DATA = {
    "tag": "people",
    "q": {
     "en": "Your motorcycle’s documents allow only one seat. May you carry a passenger?",
-    "es": "La documentación de tu moto solo admite una plaza. ¿Puedes llevar pasajero?"
+    "es": "La documentación de tu moto solo admite una plaza. ¿Puedes llevar pasajero?",
+    "uk": "Документи вашого мотоцикла дозволяють лише одне місце. Чи можна возити пасажира?"
    },
    "o": [
     {
      "en": "No",
-     "es": "No"
+     "es": "No",
+     "uk": "Ні"
     },
     {
      "en": "Yes, if the passenger is light",
-     "es": "Sí, si el pasajero pesa poco"
+     "es": "Sí, si el pasajero pesa poco",
+     "uk": "Так, якщо пасажир легкий"
     },
     {
      "en": "Yes, in town",
-     "es": "Sí, en poblado"
+     "es": "Sí, en poblado",
+     "uk": "Так, у місті"
     }
    ],
    "why": {
     "en": "It must be stated on the registration document.",
-    "es": "Debe constar en el permiso de circulación."
+    "es": "Debe constar en el permiso de circulación.",
+    "uk": "Це має бути зазначено в реєстраційному документі."
    }
   },
   {
@@ -1286,25 +1537,30 @@ window.DGT_DATA = {
    "tag": "people",
    "q": {
     "en": "May the passenger carry a small child between themselves and the rider?",
-    "es": "¿Puede el pasajero llevar a un niño pequeño entre él y el conductor?"
+    "es": "¿Puede el pasajero llevar a un niño pequeño entre él y el conductor?",
+    "uk": "Чи може пасажир везти малу дитину між собою й водієм?"
    },
    "o": [
     {
      "en": "No: at most one passenger",
-     "es": "No: como máximo un pasajero"
+     "es": "No: como máximo un pasajero",
+     "uk": "Ні: щонайбільше один пасажир"
     },
     {
      "en": "Yes, if under 7",
-     "es": "Sí, si es menor de 7"
+     "es": "Sí, si es menor de 7",
+     "uk": "Так, якщо їй менше 7"
     },
     {
      "en": "Yes, with a helmet",
-     "es": "Sí, con casco"
+     "es": "Sí, con casco",
+     "uk": "Так, у шоломі"
     }
    ],
    "why": {
     "en": "Besides the rider and the sidecar occupant, one passenger only.",
-    "es": "Además del conductor y del ocupante del sidecar, solo un pasajero."
+    "es": "Además del conductor y del ocupante del sidecar, solo un pasajero.",
+    "uk": "Крім водія й пасажира в колясці — лише один пасажир."
    }
   },
   {
@@ -1312,25 +1568,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "Must the passenger also wear gloves on an interurban road?",
-    "es": "¿Debe llevar guantes también el pasajero en vía interurbana?"
+    "es": "¿Debe llevar guantes también el pasajero en vía interurbana?",
+    "uk": "Чи мусить пасажир на заміській дорозі теж бути в рукавичках?"
    },
    "o": [
     {
      "en": "Yes, riders and passengers",
-     "es": "Sí, conductores y pasajeros"
+     "es": "Sí, conductores y pasajeros",
+     "uk": "Так, і водії, і пасажири"
     },
     {
      "en": "No, only the rider",
-     "es": "No, solo el conductor"
+     "es": "No, solo el conductor",
+     "uk": "Ні, лише водій"
     },
     {
      "en": "Only at night",
-     "es": "Solo de noche"
+     "es": "Solo de noche",
+     "uk": "Лише вночі"
     }
    ],
    "why": {
     "en": "Since 1 October 2026.",
-    "es": "Desde el 1 de octubre de 2026."
+    "es": "Desde el 1 de octubre de 2026.",
+    "uk": "З 1 жовтня 2026 року."
    }
   },
   {
@@ -1338,25 +1599,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "Who must wear a helmet among these?",
-    "es": "¿Quién debe llevar casco entre estos?"
+    "es": "¿Quién debe llevar casco entre estos?",
+    "uk": "Хто з них мусить бути в шоломі?"
    },
    "o": [
     {
      "en": "The rider of a quad approved as a special vehicle",
-     "es": "El conductor de un quad homologado como vehículo especial"
+     "es": "El conductor de un quad homologado como vehículo especial",
+     "uk": "Водій квадроцикла, затвердженого як спеціальний ТЗ"
     },
     {
      "en": "A car driver",
-     "es": "El conductor de un turismo"
+     "es": "El conductor de un turismo",
+     "uk": "Водій легковика"
     },
     {
      "en": "A bus passenger",
-     "es": "Un pasajero de autobús"
+     "es": "Un pasajero de autobús",
+     "uk": "Пасажир автобуса"
     }
    ],
    "why": {
     "en": "Motorcycles, three-wheelers, quadricycles, mopeds and quads.",
-    "es": "Motos, tres ruedas, cuadriciclos, ciclomotores y quads."
+    "es": "Motos, tres ruedas, cuadriciclos, ciclomotores y quads.",
+    "uk": "Мотоцикли, триколісні ТЗ, квадрицикли, мопеди й квадроцикли."
    }
   },
   {
@@ -1364,25 +1630,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "A helmet worn but unfastened…",
-    "es": "Un casco puesto pero sin abrochar…"
+    "es": "Un casco puesto pero sin abrochar…",
+    "uk": "Шолом на голові, але не застебнутий…"
    },
    "o": [
     {
      "en": "does not meet the rule: it must be properly fastened",
-     "es": "no cumple la norma: debe ir correctamente abrochado"
+     "es": "no cumple la norma: debe ir correctamente abrochado",
+     "uk": "не відповідає правилу: він має бути правильно застебнутий"
     },
     {
      "en": "is enough in town",
-     "es": "basta en ciudad"
+     "es": "basta en ciudad",
+     "uk": "достатній у місті"
     },
     {
      "en": "is enough below 30 km/h",
-     "es": "basta por debajo de 30 km/h"
+     "es": "basta por debajo de 30 km/h",
+     "uk": "достатній до 30 км/год"
     }
    ],
    "why": {
     "en": "An unfastened helmet can come off in a fall.",
-    "es": "Un casco sin abrochar puede salir despedido en una caída."
+    "es": "Un casco sin abrochar puede salir despedido en una caída.",
+    "uk": "Незастебнутий шолом може злетіти під час падіння."
    }
   },
   {
@@ -1390,25 +1661,30 @@ window.DGT_DATA = {
    "tag": "load",
    "q": {
     "en": "At night, a bag on your rack hides the rear light. This is…",
-    "es": "De noche, una bolsa en tu portaequipajes tapa la luz trasera. Esto está…"
+    "es": "De noche, una bolsa en tu portaequipajes tapa la luz trasera. Esto está…",
+    "uk": "Уночі сумка на багажнику закриває задній ліхтар. Це…"
    },
    "o": [
     {
      "en": "forbidden",
-     "es": "prohibido"
+     "es": "prohibido",
+     "uk": "заборонено"
     },
     {
      "en": "allowed if the bag is small",
-     "es": "permitido si la bolsa es pequeña"
+     "es": "permitido si la bolsa es pequeña",
+     "uk": "дозволено, якщо сумка мала"
     },
     {
      "en": "allowed in town",
-     "es": "permitido en poblado"
+     "es": "permitido en poblado",
+     "uk": "дозволено в місті"
     }
    ],
    "why": {
     "en": "The load must not hide lights or plates.",
-    "es": "La carga no debe ocultar luces ni placas."
+    "es": "La carga no debe ocultar luces ni placas.",
+    "uk": "Вантаж не повинен закривати фари чи номерні знаки."
    }
   },
   {
@@ -1416,25 +1692,30 @@ window.DGT_DATA = {
    "tag": "overhang",
    "q": {
     "en": "On a vehicle less than 1 m wide, the total width including the load may not exceed…",
-    "es": "En un vehículo de menos de 1 m de ancho, la anchura total con la carga no puede superar…"
+    "es": "En un vehículo de menos de 1 m de ancho, la anchura total con la carga no puede superar…",
+    "uk": "На транспортному засобі шириною менше 1 м загальна ширина разом із вантажем не може перевищувати…"
    },
    "o": [
     {
      "en": "1 m",
-     "es": "1 m"
+     "es": "1 m",
+     "uk": "1 м"
     },
     {
      "en": "1.5 m",
-     "es": "1,5 m"
+     "es": "1,5 m",
+     "uk": "1,5 м"
     },
     {
      "en": "0.75 m",
-     "es": "0,75 m"
+     "es": "0,75 m",
+     "uk": "0,75 м"
     }
    ],
    "why": {
     "en": "0.50 m each side of the axis.",
-    "es": "0,50 m a cada lado del eje."
+    "es": "0,50 m a cada lado del eje.",
+    "uk": "0,50 м з кожного боку від осі."
    }
   },
   {
@@ -1442,25 +1723,30 @@ window.DGT_DATA = {
    "tag": "overhang",
    "q": {
     "en": "On a car, an indivisible load may stick out at the rear up to…",
-    "es": "En un turismo, una carga indivisible puede sobresalir por detrás hasta…"
+    "es": "En un turismo, una carga indivisible puede sobresalir por detrás hasta…",
+    "uk": "На легковику неподільний вантаж може виступати ззаду до…"
    },
    "o": [
     {
      "en": "15 % of its length",
-     "es": "el 15 % de su longitud"
+     "es": "el 15 % de su longitud",
+     "uk": "15 % його довжини"
     },
     {
      "en": "10 % of its length",
-     "es": "el 10 % de su longitud"
+     "es": "el 10 % de su longitud",
+     "uk": "10 % його довжини"
     },
     {
      "en": "25 % of its length",
-     "es": "el 25 % de su longitud"
+     "es": "el 25 % de su longitud",
+     "uk": "25 % його довжини"
     }
    ],
    "why": {
     "en": "Divisible: 10 %.",
-    "es": "Divisible: 10 %."
+    "es": "Divisible: 10 %.",
+    "uk": "Подільний: 10 %."
    }
   },
   {
@@ -1468,25 +1754,30 @@ window.DGT_DATA = {
    "tag": "trailer",
    "q": {
     "en": "In town, the rules for a moped towing a trailer are set by…",
-    "es": "En poblado, las normas del ciclomotor con remolque las fijan…"
+    "es": "En poblado, las normas del ciclomotor con remolque las fijan…",
+    "uk": "У місті правила для мопеда з причепом встановлюють…"
    },
    "o": [
     {
      "en": "the municipal bylaws",
-     "es": "las ordenanzas municipales"
+     "es": "las ordenanzas municipales",
+     "uk": "місцеві постанови"
     },
     {
      "en": "the DGT, for each street",
-     "es": "la DGT, calle a calle"
+     "es": "la DGT, calle a calle",
+     "uk": "DGT для кожної вулиці"
     },
     {
      "en": "nobody: they are banned",
-     "es": "nadie: están prohibidos"
+     "es": "nadie: están prohibidos",
+     "uk": "ніхто: це заборонено"
     }
    ],
    "why": {
     "en": "Out of town: the −10 % rule.",
-    "es": "Fuera de poblado: la regla del −10 %."
+    "es": "Fuera de poblado: la regla del −10 %.",
+    "uk": "За містом: правило −10 %."
    }
   },
   {
@@ -1494,25 +1785,30 @@ window.DGT_DATA = {
    "tag": "plates",
    "q": {
     "en": "The V-2 may also be used by…",
-    "es": "La V-2 también la pueden usar…"
+    "es": "La V-2 también la pueden usar…",
+    "uk": "V-2 можуть використовувати також…"
    },
    "o": [
     {
      "en": "escort vehicles of cycling marches and sports events",
-     "es": "los vehículos de acompañamiento de marchas ciclistas y pruebas deportivas"
+     "es": "los vehículos de acompañamiento de marchas ciclistas y pruebas deportivas",
+     "uk": "машини супроводу велопробігів і спортивних заходів"
     },
     {
      "en": "taxis",
-     "es": "los taxis"
+     "es": "los taxis",
+     "uk": "таксі"
     },
     {
      "en": "novice drivers",
-     "es": "los conductores noveles"
+     "es": "los conductores noveles",
+     "uk": "водії-початківці"
     }
    ],
    "why": {
     "en": "Also special transport and military columns.",
-    "es": "También transporte especial y columnas militares."
+    "es": "También transporte especial y columnas militares.",
+    "uk": "Також спецперевезення й військові колони."
    }
   },
   {
@@ -1520,25 +1816,30 @@ window.DGT_DATA = {
    "tag": "plates",
    "q": {
     "en": "On a car with a windscreen, the V-25 environmental label goes…",
-    "es": "En un turismo con parabrisas, el distintivo ambiental V-25 va…"
+    "es": "En un turismo con parabrisas, el distintivo ambiental V-25 va…",
+    "uk": "На легковику з лобовим склом екологічну наліпку V-25 розміщують…"
    },
    "o": [
     {
      "en": "in the lower right corner, on the inside",
-     "es": "en el ángulo inferior derecho, por dentro"
+     "es": "en el ángulo inferior derecho, por dentro",
+     "uk": "у правому нижньому куті зсередини"
     },
     {
      "en": "on the number plate",
-     "es": "en la placa de matrícula"
+     "es": "en la placa de matrícula",
+     "uk": "на номерному знаку"
     },
     {
      "en": "on the rear window",
-     "es": "en la luna trasera"
+     "es": "en la luna trasera",
+     "uk": "на задньому склі"
     }
    ],
    "why": {
     "en": "Without a windscreen, somewhere clearly visible.",
-    "es": "Sin parabrisas, en sitio bien visible."
+    "es": "Sin parabrisas, en sitio bien visible.",
+    "uk": "Без лобового скла — на добре видному місці."
    }
   },
   {
@@ -1546,25 +1847,30 @@ window.DGT_DATA = {
    "tag": "plates",
    "q": {
     "en": "How many VEH 21/05 blind-spot stickers does a vehicle carry?",
-    "es": "¿Cuántas señales VEH 21/05 de ángulos muertos lleva un vehículo?"
+    "es": "¿Cuántas señales VEH 21/05 de ángulos muertos lleva un vehículo?",
+    "uk": "Скільки наліпок VEH 21/05 про мертві зони має транспортний засіб?"
    },
    "o": [
     {
      "en": "Three: one each side and one at the rear right",
-     "es": "Tres: una a cada lado y una detrás a la derecha"
+     "es": "Tres: una a cada lado y una detrás a la derecha",
+     "uk": "Три: по одній з кожного боку й одну ззаду праворуч"
     },
     {
      "en": "One at the rear",
-     "es": "Una detrás"
+     "es": "Una detrás",
+     "uk": "Одну ззаду"
     },
     {
      "en": "Four, one per corner",
-     "es": "Cuatro, una por esquina"
+     "es": "Cuatro, una por esquina",
+     "uk": "Чотири, по одній на кожен кут"
     }
    ],
    "why": {
     "en": "Refuse trucks: two at the rear.",
-    "es": "Vehículos de residuos: dos detrás."
+    "es": "Vehículos de residuos: dos detrás.",
+    "uk": "Сміттєвози: дві ззаду."
    }
   }
  ],
@@ -1573,162 +1879,198 @@ window.DGT_DATA = {
    "sec": 1,
    "en": "Carrying a passenger",
    "es": "Llevar pasajero",
+   "uk": "Перевезення пасажира",
    "recap": [
     [
      "No more people than seats, and never over the MMA.",
-     "No más personas que plazas y nunca por encima de la MMA."
+     "No más personas que plazas y nunca por encima de la MMA.",
+     "Не більше людей, ніж місць, і ніколи понад MMA."
     ],
     [
      "One passenger, if the registration document allows it.",
-     "Un pasajero, si consta en el permiso o licencia de circulación."
+     "Un pasajero, si consta en el permiso o licencia de circulación.",
+     "Один пасажир, якщо це дозволяє реєстраційний документ."
     ],
     [
      "Over 12; over 7 with father, mother, guardian or authorised adult.",
-     "Mayor de 12; mayor de 7 con padre, madre, tutor o adulto autorizado."
+     "Mayor de 12; mayor de 7 con padre, madre, tutor o adulto autorizado.",
+     "Старший 12 років; старший 7 з батьком, матір’ю, опікуном чи уповноваженим дорослим."
     ],
     [
      "Behind the rider, astride, feet on the footrests; never in front.",
-     "Detrás del conductor, a horcajadas, pies en los reposapiés; nunca delante."
+     "Detrás del conductor, a horcajadas, pies en los reposapiés; nunca delante.",
+     "Позаду водія, верхи, ноги на підніжках; ніколи спереду."
     ]
    ],
    "trap": [
     "Putting a small child between the rider and the handlebar.",
-    "Llevar a un niño pequeño entre el conductor y el manillar."
+    "Llevar a un niño pequeño entre el conductor y el manillar.",
+    "Садити малу дитину між водієм і кермом."
    ]
   },
   "equip": {
    "sec": 1,
    "en": "Helmet, gloves, shoes, vest",
    "es": "Casco, guantes, calzado y chaleco",
+   "uk": "Шолом, рукавички, взуття, жилет",
    "recap": [
     [
      "Helmet UNECE R22, fastened, every road (rider and passenger).",
-     "Casco UNECE R22 abrochado en todas las vías (conductor y pasajero)."
+     "Casco UNECE R22 abrochado en todas las vías (conductor y pasajero).",
+     "Шолом UNECE R22, застебнутий, на будь-якій дорозі (водій і пасажир)."
     ],
     [
      "Gloves on interurban roads; closed shoes on every road (since 1-10-2026).",
-     "Guantes en interurbanas; calzado cerrado en todas (desde el 1-10-2026)."
+     "Guantes en interurbanas; calzado cerrado en todas (desde el 1-10-2026).",
+     "Рукавички на заміських дорогах; закрите взуття на будь-якій дорозі (з 1.10.2026)."
     ],
     [
      "Protective structure + belts on the ITV card: seat belt instead.",
-     "Estructura de autoprotección y cinturones en la ITV: cinturón en su lugar."
+     "Estructura de autoprotección y cinturones en la ITV: cinturón en su lugar.",
+     "Захисна конструкція + ремені в картці техогляду: замість шолома ремінь безпеки."
     ],
     [
      "Vest: carried on every motorcycle; worn when off the bike on interurban roads; professionals always.",
-     "Chaleco: en toda moto; puesto al bajarse en interurbana; profesionales siempre."
+     "Chaleco: en toda moto; puesto al bajarse en interurbana; profesionales siempre.",
+     "Жилет: має бути на кожному мотоциклі; вдягати поза мотоциклом на заміських дорогах; професіоналам завжди."
     ]
    ],
    "trap": [
     "Thinking gloves are compulsory in town.",
-    "Pensar que los guantes son obligatorios en ciudad."
+    "Pensar que los guantes son obligatorios en ciudad.",
+    "Думати, що рукавички обов’язкові в місті."
    ]
   },
   "load": {
    "sec": 2,
    "en": "Placing the load",
    "es": "Colocar la carga",
+   "uk": "Розміщення вантажу",
    "recap": [
     [
      "Must not compromise stability.",
-     "No comprometer la estabilidad."
+     "No comprometer la estabilidad.",
+     "Не повинен порушувати стійкість."
     ],
     [
      "Must not hide lights, plates or arm signals.",
-     "No ocultar luces, placas ni las señales con el brazo."
+     "No ocultar luces, placas ni las señales con el brazo.",
+     "Не повинен закривати фари, номерні знаки чи сигнали рукою."
     ],
     [
      "Must not drag, fall or shift; no avoidable noise or dust (cover it).",
-     "No arrastrar, caer ni desplazarse; sin ruido ni polvo evitables (cubrirla)."
+     "No arrastrar, caer ni desplazarse; sin ruido ni polvo evitables (cubrirla).",
+     "Не повинен волочитися, падати чи зміщуватися; жодного зайвого шуму чи пилу (накрийте його)."
     ],
     [
      "On a motorcycle: central rack or two side cases fixed to the frame.",
-     "En moto: portaequipajes central o dos maletas laterales fijadas al chasis."
+     "En moto: portaequipajes central o dos maletas laterales fijadas al chasis.",
+     "На мотоциклі: центральний багажник або два бічні кофри, закріплені на рамі."
     ]
    ],
    "trap": [
     "Thinking a load may cover the rear light if it is short.",
-    "Pensar que la carga puede tapar la luz trasera si es poco tiempo."
+    "Pensar que la carga puede tapar la luz trasera si es poco tiempo.",
+    "Думати, що вантаж може закривати задній ліхтар, якщо він короткий."
    ]
   },
   "overhang": {
    "sec": 2,
    "en": "Overhang and signalling",
    "es": "Carga que sobresale",
+   "uk": "Виступ вантажу і його позначення",
    "recap": [
     [
      "Under 1 m wide: 0.25 m rear, 0.50 m each side of the axis, nothing in front.",
-     "Menos de 1 m de ancho: 0,25 m detrás, 0,50 m a cada lado del eje, nada delante."
+     "Menos de 1 m de ancho: 0,25 m detrás, 0,50 m a cada lado del eje, nada delante.",
+     "Ширина менше 1 м: 0,25 м ззаду, 0,50 м з кожного боку від осі, нічого спереду."
     ],
     [
      "Other vehicles not only for goods: 10 % divisible, 15 % indivisible (rear).",
-     "Otros no exclusivos de mercancías: 10 % divisible, 15 % indivisible (detrás)."
+     "Otros no exclusivos de mercancías: 10 % divisible, 15 % indivisible (detrás).",
+     "Інші ТЗ не лише для вантажів: 10 % подільний, 15 % неподільний (ззаду)."
     ],
     [
      "Protect the end; V-20 at the rear; plus a red light at night.",
-     "Resguardar el extremo; V-20 detrás; de noche, además luz roja."
+     "Resguardar el extremo; V-20 detrás; de noche, además luz roja.",
+     "Захистіть кінець; V-20 ззаду; уночі ще й червоний вогонь."
     ],
     [
      "Under 1 m wide: no need to signal the rear overhang.",
-     "Menos de 1 m de ancho: no hace falta señalizar lo que sobresale detrás."
+     "Menos de 1 m de ancho: no hace falta señalizar lo que sobresale detrás.",
+     "Ширина менше 1 м: виступ ззаду позначати не треба."
     ]
    ],
    "trap": [
     "Putting a V-20 on a motorcycle top case that sticks out 20 cm.",
-    "Poner una V-20 en el baúl de una moto que sobresale 20 cm."
+    "Poner una V-20 en el baúl de una moto que sobresale 20 cm.",
+    "Чіпляти V-20 на кофр мотоцикла, що виступає на 20 см."
    ]
   },
   "trailer": {
    "sec": 2,
    "en": "Towing a trailer",
    "es": "Remolque",
+   "uk": "Буксирування причепа",
    "recap": [
     [
      "Motorcycles, three-wheelers and mopeds (not bicycles since 2026).",
-     "Motos, tres ruedas y ciclomotores (no las bicicletas desde 2026)."
+     "Motos, tres ruedas y ciclomotores (no las bicicletas desde 2026).",
+     "Мотоцикли, триколісні ТЗ і мопеди (з 2026 року не велосипеди)."
     ],
     [
      "Trailer ≤ 50 % of the towing vehicle’s unladen mass.",
-     "Remolque ≤ 50 % de la masa en vacío del tractor."
+     "Remolque ≤ 50 % de la masa en vacío del tractor.",
+     "Причіп ≤ 50 % маси тягача без навантаження."
     ],
     [
      "By day, good visibility, nobody in the trailer.",
-     "De día, buena visibilidad, sin personas en el remolque."
+     "De día, buena visibilidad, sin personas en el remolque.",
+     "Удень, за доброї видимості, у причепі нікого."
     ],
     [
      "Generic out-of-town speeds −10 %; in town, bylaws.",
-     "Velocidades genéricas fuera de poblado −10 %; en poblado, ordenanzas."
+     "Velocidades genéricas fuera de poblado −10 %; en poblado, ordenanzas.",
+     "Загальні швидкості за містом −10 %; у місті — місцеві постанови."
     ]
    ],
    "trap": [
     "Using the MMA instead of the unladen mass for the 50 %.",
-    "Usar la MMA en vez de la masa en vacío para el 50 %."
+    "Usar la MMA en vez de la masa en vacío para el 50 %.",
+    "Брати MMA замість маси без навантаження для розрахунку 50 %."
    ]
   },
   "plates": {
    "sec": 3,
    "en": "Signs on vehicles",
    "es": "Señales en los vehículos",
+   "uk": "Знаки на транспортних засобах",
    "recap": [
     [
      "V-1 blue: priority vehicle on urgent service. V-2 amber: obstacle or work vehicle ≤ 40 km/h.",
-     "V-1 azul: prioritario en servicio urgente. V-2 amarillo auto: obstáculo o de trabajo a ≤ 40 km/h."
+     "V-1 azul: prioritario en servicio urgente. V-2 amarillo auto: obstáculo o de trabajo a ≤ 40 km/h.",
+     "V-1 синій: транспорт із пріоритетом на терміновому виклику. V-2 жовтий: перешкода чи робоча машина ≤ 40 км/год."
     ],
     [
      "V-6 over 12 m. V-13 novice (< 1 year), rear left. V-19 ITV. V-20 rear overhang.",
-     "V-6 más de 12 m. V-13 novel (< 1 año), detrás a la izquierda. V-19 ITV. V-20 carga que sobresale."
+     "V-6 más de 12 m. V-13 novel (< 1 año), detrás a la izquierda. V-19 ITV. V-20 carga que sobresale.",
+     "V-6 понад 12 м. V-13 початківець (< 1 року), ззаду ліворуч. V-19 техогляд. V-20 виступ ззаду."
     ],
     [
      "V-16: vehicle or load on the carriageway; triangles invalid since 2026; not compulsory on motorcycles.",
-     "V-16: vehículo o carga en la calzada; triángulos sin validez desde 2026; no obligatoria en moto."
+     "V-16: vehículo o carga en la calzada; triángulos sin validez desde 2026; no obligatoria en moto.",
+     "V-16: ТЗ чи вантаж на проїзній частині; знаки аварійної зупинки недійсні з 2026 року; на мотоциклах не обов’язковий."
     ],
     [
      "V-25 environmental label (voluntary on motorcycles); V-26 shared use; VEH 21/05 blind spots, voluntary.",
-     "V-25 ambiental (voluntario en moto); V-26 uso compartido; VEH 21/05 ángulos muertos, voluntaria."
+     "V-25 ambiental (voluntario en moto); V-26 uso compartido; VEH 21/05 ángulos muertos, voluntaria.",
+     "V-25 екологічна наліпка (на мотоциклах добровільна); V-26 спільне користування; VEH 21/05 мертві зони, добровільна."
     ]
    ],
    "trap": [
     "Confusing the V-1 (blue) with the V-2 (amber).",
-    "Confundir la V-1 (azul) con la V-2 (amarillo auto)."
+    "Confundir la V-1 (azul) con la V-2 (amarillo auto).",
+    "Плутати V-1 (синій) з V-2 (жовтий)."
    ]
   }
  }

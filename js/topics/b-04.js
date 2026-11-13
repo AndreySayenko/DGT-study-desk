@@ -2,6 +2,10 @@
 window.DGT_DATA = {
  "topic": "b-04",
  "category": "b",
+ "langs": [
+  "en",
+  "es"
+ ],
  "title": {
   "en": "Topic 4 · Priority",
   "es": "Tema 4 · La prioridad"

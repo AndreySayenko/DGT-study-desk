@@ -2,6 +2,10 @@
 window.DGT_DATA = {
  "topic": "b-10",
  "category": "b",
+ "langs": [
+  "en",
+  "es"
+ ],
  "title": {
   "en": "Topic 10 · Accidents and their factors",
   "es": "Tema 10 · Los accidentes y sus factores"

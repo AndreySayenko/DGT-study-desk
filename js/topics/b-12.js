@@ -2,6 +2,10 @@
 window.DGT_DATA = {
  "topic": "b-12",
  "category": "b",
+ "langs": [
+  "en",
+  "es"
+ ],
  "title": {
   "en": "Topic 12 · Driving techniques",
   "es": "Tema 12 · Técnicas de conducción"

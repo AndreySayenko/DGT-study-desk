@@ -21,7 +21,11 @@ window.DGT_CATALOG = {
       "es": "Definiciones y conceptos generales"
      },
      "page": "topics/b-01.html",
-     "questions": 58
+     "questions": 58,
+     "langs": [
+      "en",
+      "es"
+     ]
     },
     {
      "id": "b-02",
@@ -31,7 +35,11 @@ window.DGT_CATALOG = {
       "es": "Uso de las vías"
      },
      "page": "topics/b-02.html",
-     "questions": 92
+     "questions": 92,
+     "langs": [
+      "en",
+      "es"
+     ]
     },
     {
      "id": "b-03",
@@ -41,7 +49,11 @@ window.DGT_CATALOG = {
       "es": "La velocidad"
      },
      "page": "topics/b-03.html",
-     "questions": 88
+     "questions": 88,
+     "langs": [
+      "en",
+      "es"
+     ]
     },
     {
      "id": "b-04",
@@ -51,7 +63,11 @@ window.DGT_CATALOG = {
       "es": "La prioridad"
      },
      "page": "topics/b-04.html",
-     "questions": 91
+     "questions": 91,
+     "langs": [
+      "en",
+      "es"
+     ]
     },
     {
      "id": "b-05",
@@ -61,7 +77,11 @@ window.DGT_CATALOG = {
       "es": "Las maniobras"
      },
      "page": "topics/b-05.html",
-     "questions": 137
+     "questions": 137,
+     "langs": [
+      "en",
+      "es"
+     ]
     },
     {
      "id": "b-06",
@@ -71,7 +91,11 @@ window.DGT_CATALOG = {
       "es": "Transporte de personas y mercancías"
      },
      "page": "topics/b-06.html",
-     "questions": 95
+     "questions": 95,
+     "langs": [
+      "en",
+      "es"
+     ]
     },
     {
      "id": "b-07",
@@ -81,7 +105,11 @@ window.DGT_CATALOG = {
       "es": "Las luces"
      },
      "page": "topics/b-07.html",
-     "questions": 77
+     "questions": 77,
+     "langs": [
+      "en",
+      "es"
+     ]
     },
     {
      "id": "b-08",
@@ -91,7 +119,11 @@ window.DGT_CATALOG = {
       "es": "Las señales"
      },
      "page": "topics/b-08.html",
-     "questions": 196
+     "questions": 196,
+     "langs": [
+      "en",
+      "es"
+     ]
     },
     {
      "id": "b-09",
@@ -101,7 +133,11 @@ window.DGT_CATALOG = {
       "es": "Documentación"
      },
      "page": "topics/b-09.html",
-     "questions": 116
+     "questions": 116,
+     "langs": [
+      "en",
+      "es"
+     ]
     },
     {
      "id": "b-10",
@@ -111,7 +147,11 @@ window.DGT_CATALOG = {
       "es": "Los accidentes y sus factores"
      },
      "page": "topics/b-10.html",
-     "questions": 259
+     "questions": 259,
+     "langs": [
+      "en",
+      "es"
+     ]
     },
     {
      "id": "b-11",
@@ -121,7 +161,11 @@ window.DGT_CATALOG = {
       "es": "Primeros auxilios"
      },
      "page": "topics/b-11.html",
-     "questions": 107
+     "questions": 107,
+     "langs": [
+      "en",
+      "es"
+     ]
     },
     {
      "id": "b-12",
@@ -131,7 +175,11 @@ window.DGT_CATALOG = {
       "es": "Técnicas de conducción"
      },
      "page": "topics/b-12.html",
-     "questions": 99
+     "questions": 99,
+     "langs": [
+      "en",
+      "es"
+     ]
     },
     {
      "id": "b-13",
@@ -141,7 +189,11 @@ window.DGT_CATALOG = {
       "es": "Mantenimiento del vehículo y accesorios"
      },
      "page": "topics/b-13.html",
-     "questions": 77
+     "questions": 77,
+     "langs": [
+      "en",
+      "es"
+     ]
     }
    ]
   },
@@ -150,11 +202,13 @@ window.DGT_CATALOG = {
    "tag": "A1 · A2",
    "name": {
     "en": "Category A1 / A2",
-    "es": "Permiso A1 / A2"
+    "es": "Permiso A1 / A2",
+    "uk": "Категорія A1 / A2"
    },
    "sub": {
     "en": "Motorcycles",
-    "es": "Motocicletas"
+    "es": "Motocicletas",
+    "uk": "Мотоцикли"
    },
    "topics": [
     {
@@ -162,130 +216,208 @@ window.DGT_CATALOG = {
      "n": 1,
      "title": {
       "en": "Definitions and general concepts",
-      "es": "Definiciones y conceptos generales"
+      "es": "Definiciones y conceptos generales",
+      "uk": "Визначення та загальні поняття"
      },
      "page": "topics/a-01.html",
-     "questions": 60
+     "questions": 60,
+     "langs": [
+      "en",
+      "es",
+      "uk"
+     ]
     },
     {
      "id": "a-02",
      "n": 2,
      "title": {
       "en": "Use of the road",
-      "es": "Uso de las vías"
+      "es": "Uso de las vías",
+      "uk": "Користування дорогами"
      },
      "page": "topics/a-02.html",
-     "questions": 89
+     "questions": 89,
+     "langs": [
+      "en",
+      "es",
+      "uk"
+     ]
     },
     {
      "id": "a-03",
      "n": 3,
      "title": {
       "en": "Speed",
-      "es": "La velocidad"
+      "es": "La velocidad",
+      "uk": "Швидкість"
      },
      "page": "topics/a-03.html",
-     "questions": 70
+     "questions": 70,
+     "langs": [
+      "en",
+      "es",
+      "uk"
+     ]
     },
     {
      "id": "a-04",
      "n": 4,
      "title": {
       "en": "Priority",
-      "es": "La prioridad"
+      "es": "La prioridad",
+      "uk": "Перевага в русі"
      },
      "page": "topics/a-04.html",
-     "questions": 60
+     "questions": 60,
+     "langs": [
+      "en",
+      "es",
+      "uk"
+     ]
     },
     {
      "id": "a-05",
      "n": 5,
      "title": {
       "en": "Manoeuvres",
-      "es": "Las maniobras"
+      "es": "Las maniobras",
+      "uk": "Маневри"
      },
      "page": "topics/a-05.html",
-     "questions": 93
+     "questions": 93,
+     "langs": [
+      "en",
+      "es",
+      "uk"
+     ]
     },
     {
      "id": "a-06",
      "n": 6,
      "title": {
       "en": "Carrying people and goods",
-      "es": "Transporte de personas y mercancías"
+      "es": "Transporte de personas y mercancías",
+      "uk": "Перевезення людей і вантажів"
      },
      "page": "topics/a-06.html",
-     "questions": 60
+     "questions": 60,
+     "langs": [
+      "en",
+      "es",
+      "uk"
+     ]
     },
     {
      "id": "a-07",
      "n": 7,
      "title": {
       "en": "Lights",
-      "es": "Las luces"
+      "es": "Las luces",
+      "uk": "Світлові прилади"
      },
      "page": "topics/a-07.html",
-     "questions": 62
+     "questions": 62,
+     "langs": [
+      "en",
+      "es",
+      "uk"
+     ]
     },
     {
      "id": "a-08",
      "n": 8,
      "title": {
       "en": "Signs and signals",
-      "es": "Las señales"
+      "es": "Las señales",
+      "uk": "Знаки та сигнали"
      },
      "page": "topics/a-08.html",
-     "questions": 120
+     "questions": 120,
+     "langs": [
+      "en",
+      "es",
+      "uk"
+     ]
     },
     {
      "id": "a-09",
      "n": 9,
      "title": {
       "en": "Documentation",
-      "es": "Documentación"
+      "es": "Documentación",
+      "uk": "Документи"
      },
      "page": "topics/a-09.html",
-     "questions": 88
+     "questions": 88,
+     "langs": [
+      "en",
+      "es",
+      "uk"
+     ]
     },
     {
      "id": "a-10",
      "n": 10,
      "title": {
       "en": "Accidents and their factors",
-      "es": "Los accidentes y sus factores"
+      "es": "Los accidentes y sus factores",
+      "uk": "ДТП та їхні чинники"
      },
      "page": "topics/a-10.html",
-     "questions": 89
+     "questions": 89,
+     "langs": [
+      "en",
+      "es",
+      "uk"
+     ]
     },
     {
      "id": "a-11",
      "n": 11,
      "title": {
       "en": "First aid",
-      "es": "Primeros auxilios"
+      "es": "Primeros auxilios",
+      "uk": "Перша допомога"
      },
      "page": "topics/a-11.html",
-     "questions": 79
+     "questions": 79,
+     "langs": [
+      "en",
+      "es",
+      "uk"
+     ]
     },
     {
      "id": "a-12",
      "n": 12,
      "title": {
       "en": "Riding techniques",
-      "es": "Técnicas de conducción"
+      "es": "Técnicas de conducción",
+      "uk": "Техніка керування мотоциклом"
      },
      "page": "topics/a-12.html",
-     "questions": 81
+     "questions": 81,
+     "langs": [
+      "en",
+      "es",
+      "uk"
+     ]
     },
     {
      "id": "a-13",
      "n": 13,
      "title": {
       "en": "Maintenance and accessories",
-      "es": "Mantenimiento del vehículo y accesorios"
+      "es": "Mantenimiento del vehículo y accesorios",
+      "uk": "Технічне обслуговування та приладдя"
      },
      "page": "topics/a-13.html",
-     "questions": 63
+     "questions": 63,
+     "langs": [
+      "en",
+      "es",
+      "uk"
+     ]
     }
    ]
   }

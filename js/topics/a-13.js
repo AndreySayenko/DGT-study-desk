@@ -2,9 +2,15 @@
 window.DGT_DATA = {
  "topic": "a-13",
  "category": "a",
+ "langs": [
+  "en",
+  "es",
+  "uk"
+ ],
  "title": {
   "en": "Topic 13 · Maintenance and accessories",
-  "es": "Tema 13 · Mantenimiento del vehículo y accesorios"
+  "es": "Tema 13 · Mantenimiento del vehículo y accesorios",
+  "uk": "Тема 13 · Технічне обслуговування та приладдя"
  },
  "bank": [
   {
@@ -12,25 +18,30 @@ window.DGT_DATA = {
    "tag": "engine",
    "q": {
     "en": "What are the three main parts of a motorcycle?",
-    "es": "¿Cuáles son las tres partes principales de una moto?"
+    "es": "¿Cuáles son las tres partes principales de una moto?",
+    "uk": "Які три головні частини мотоцикла?"
    },
    "o": [
     {
      "en": "Chassis, engine and transmission",
-     "es": "Chasis, motor y transmisión"
+     "es": "Chasis, motor y transmisión",
+     "uk": "Рама, двигун і трансмісія"
     },
     {
      "en": "Tank, seat and handlebar",
-     "es": "Depósito, asiento y manillar"
+     "es": "Depósito, asiento y manillar",
+     "uk": "Бак, сидіння й кермо"
     },
     {
      "en": "Wheels, brakes and lights",
-     "es": "Ruedas, frenos y luces"
+     "es": "Ruedas, frenos y luces",
+     "uk": "Колеса, гальма й світло"
     }
    ],
    "why": {
     "en": "Other systems are added to these.",
-    "es": "A ellos se suman otros sistemas."
+    "es": "A ellos se suman otros sistemas.",
+    "uk": "До них додаються інші системи."
    }
   },
   {
@@ -38,25 +49,30 @@ window.DGT_DATA = {
    "tag": "engine",
    "q": {
     "en": "What is a motorcycle’s chassis (frame) usually made of?",
-    "es": "¿De qué suele estar hecho el chasis o bastidor de una moto?"
+    "es": "¿De qué suele estar hecho el chasis o bastidor de una moto?",
+    "uk": "З чого зазвичай роблять раму (шасі) мотоцикла?"
    },
    "o": [
     {
      "en": "Steel or aluminium: strong and light",
-     "es": "Acero o aluminio: resistente y ligero"
+     "es": "Acero o aluminio: resistente y ligero",
+     "uk": "Зі сталі чи алюмінію: міцна й легка"
     },
     {
      "en": "Plastic",
-     "es": "Plástico"
+     "es": "Plástico",
+     "uk": "З пластику"
     },
     {
      "en": "Wood and carbon",
-     "es": "Madera y carbono"
+     "es": "Madera y carbono",
+     "uk": "З дерева й карбону"
     }
    ],
    "why": {
     "en": "It supports all the systems and parts.",
-    "es": "Es el soporte de todos los sistemas y elementos."
+    "es": "Es el soporte de todos los sistemas y elementos.",
+    "uk": "Вона несе всі системи й деталі."
    }
   },
   {
@@ -64,25 +80,30 @@ window.DGT_DATA = {
    "tag": "engine",
    "q": {
     "en": "What does the engine do?",
-    "es": "¿Qué hace el motor?"
+    "es": "¿Qué hace el motor?",
+    "uk": "Що робить двигун?"
    },
    "o": [
     {
      "en": "Turns energy into mechanical energy to move the motorcycle",
-     "es": "Transforma la energía en energía mecánica para desplazar la moto"
+     "es": "Transforma la energía en energía mecánica para desplazar la moto",
+     "uk": "Перетворює енергію на механічну, щоб рухати мотоцикл"
     },
     {
      "en": "Stores electricity",
-     "es": "Almacena electricidad"
+     "es": "Almacena electricidad",
+     "uk": "Накопичує електрику"
     },
     {
      "en": "Cools the motorcycle",
-     "es": "Refrigera la moto"
+     "es": "Refrigera la moto",
+     "uk": "Охолоджує мотоцикл"
     }
    ],
    "why": {
     "en": "It can be two-stroke or four-stroke.",
-    "es": "Puede ser de dos o de cuatro tiempos."
+    "es": "Puede ser de dos o de cuatro tiempos.",
+    "uk": "Він може бути двотактним чи чотиритактним."
    }
   },
   {
@@ -90,25 +111,30 @@ window.DGT_DATA = {
    "tag": "engine",
    "q": {
     "en": "In a two-stroke engine, how many piston movements does it take to complete intake, compression, explosion and exhaust?",
-    "es": "En un motor de dos tiempos, ¿en cuántos movimientos del pistón se hacen la admisión, compresión, explosión y escape?"
+    "es": "En un motor de dos tiempos, ¿en cuántos movimientos del pistón se hacen la admisión, compresión, explosión y escape?",
+    "uk": "У двотактному двигуні за скільки рухів поршня відбуваються впуск, стиснення, вибух і випуск?"
    },
    "o": [
     {
      "en": "Two",
-     "es": "Dos"
+     "es": "Dos",
+     "uk": "За два"
     },
     {
      "en": "Four",
-     "es": "Cuatro"
+     "es": "Cuatro",
+     "uk": "За чотири"
     },
     {
      "en": "One",
-     "es": "Uno"
+     "es": "Uno",
+     "uk": "За один"
     }
    ],
    "why": {
     "en": "A four-stroke needs four.",
-    "es": "El de cuatro tiempos necesita cuatro."
+    "es": "El de cuatro tiempos necesita cuatro.",
+    "uk": "Чотиритактному потрібно чотири."
    }
   },
   {
@@ -116,25 +142,30 @@ window.DGT_DATA = {
    "tag": "engine",
    "q": {
     "en": "How is a two-stroke engine lubricated?",
-    "es": "¿Cómo se lubrica un motor de dos tiempos?"
+    "es": "¿Cómo se lubrica un motor de dos tiempos?",
+    "uk": "Як змащується двотактний двигун?"
    },
    "o": [
     {
      "en": "Oil is mixed with the petrol, or comes from a separate oil tank",
-     "es": "El aceite se mezcla con la gasolina o va en un depósito aparte"
+     "es": "El aceite se mezcla con la gasolina o va en un depósito aparte",
+     "uk": "Олива змішується з бензином або надходить з окремого оливного бачка"
     },
     {
      "en": "It needs no oil",
-     "es": "No necesita aceite"
+     "es": "No necesita aceite",
+     "uk": "Йому не потрібна олива"
     },
     {
      "en": "Oil in the crankcase, checked with a dipstick",
-     "es": "Con aceite en el cárter, comprobado con varilla"
+     "es": "Con aceite en el cárter, comprobado con varilla",
+     "uk": "Олива в картері, перевіряється щупом"
     }
    ],
    "why": {
     "en": "Your course’s introduction swaps this with the four-stroke; its lubrication section has it right.",
-    "es": "La introducción de tu curso lo intercambia con el de cuatro tiempos; su apartado de lubricación lo dice bien."
+    "es": "La introducción de tu curso lo intercambia con el de cuatro tiempos; su apartado de lubricación lo dice bien.",
+    "uk": "У вступі вашого курсу це переплутано з чотиритактним; у розділі про змащення — правильно."
    }
   },
   {
@@ -142,25 +173,30 @@ window.DGT_DATA = {
    "tag": "engine",
    "q": {
     "en": "How is a four-stroke engine lubricated?",
-    "es": "¿Cómo se lubrica un motor de cuatro tiempos?"
+    "es": "¿Cómo se lubrica un motor de cuatro tiempos?",
+    "uk": "Як змащується чотиритактний двигун?"
    },
    "o": [
     {
      "en": "With oil in the crankcase, kept between MIN and MAX",
-     "es": "Con aceite en el cárter, entre el mínimo y el máximo"
+     "es": "Con aceite en el cárter, entre el mínimo y el máximo",
+     "uk": "Оливою в картері, рівень між MIN і MAX"
     },
     {
      "en": "By mixing oil into the petrol",
-     "es": "Mezclando aceite con la gasolina"
+     "es": "Mezclando aceite con la gasolina",
+     "uk": "Оливою, підмішаною в бензин"
     },
     {
      "en": "It needs no lubrication",
-     "es": "No necesita lubricación"
+     "es": "No necesita lubricación",
+     "uk": "Йому не потрібне змащення"
     }
    ],
    "why": {
     "en": "Check the level regularly with the dipstick.",
-    "es": "El nivel se comprueba periódicamente con la varilla."
+    "es": "El nivel se comprueba periódicamente con la varilla.",
+    "uk": "Регулярно перевіряйте рівень щупом."
    }
   },
   {
@@ -168,25 +204,30 @@ window.DGT_DATA = {
    "tag": "engine",
    "q": {
     "en": "Which wheel does the transmission drive on a motorcycle?",
-    "es": "¿A qué rueda lleva el movimiento la transmisión en una moto?"
+    "es": "¿A qué rueda lleva el movimiento la transmisión en una moto?",
+    "uk": "Яке колесо мотоцикла приводить трансмісія?"
    },
    "o": [
     {
      "en": "The rear wheel",
-     "es": "A la rueda trasera"
+     "es": "A la rueda trasera",
+     "uk": "Заднє"
     },
     {
      "en": "The front wheel",
-     "es": "A la rueda delantera"
+     "es": "A la rueda delantera",
+     "uk": "Переднє"
     },
     {
      "en": "Both",
-     "es": "A las dos"
+     "es": "A las dos",
+     "uk": "Обидва"
     }
    ],
    "why": {
     "en": "The rear wheel is the driving wheel.",
-    "es": "La rueda trasera es la motriz."
+    "es": "La rueda trasera es la motriz.",
+    "uk": "Заднє колесо — ведуче."
    }
   },
   {
@@ -194,25 +235,30 @@ window.DGT_DATA = {
    "tag": "fuel",
    "q": {
     "en": "What does the fuel system do?",
-    "es": "¿Qué hace el sistema de alimentación?"
+    "es": "¿Qué hace el sistema de alimentación?",
+    "uk": "Що робить система живлення?"
    },
    "o": [
     {
      "en": "Delivers the right amount of air and fuel to the cylinders",
-     "es": "Hace llegar a los cilindros la cantidad de aire y combustible necesaria"
+     "es": "Hace llegar a los cilindros la cantidad de aire y combustible necesaria",
+     "uk": "Подає в циліндри потрібну кількість повітря й пального"
     },
     {
      "en": "Cools the engine",
-     "es": "Refrigera el motor"
+     "es": "Refrigera el motor",
+     "uk": "Охолоджує двигун"
     },
     {
      "en": "Charges the battery",
-     "es": "Carga la batería"
+     "es": "Carga la batería",
+     "uk": "Заряджає акумулятор"
     }
    ],
    "why": {
     "en": "Its main parts: air filter and carburettor or injection.",
-    "es": "Sus componentes principales: filtro de aire y carburador o inyección."
+    "es": "Sus componentes principales: filtro de aire y carburador o inyección.",
+    "uk": "Її головні частини: повітряний фільтр і карбюратор чи упорскування."
    }
   },
   {
@@ -220,25 +266,30 @@ window.DGT_DATA = {
    "tag": "fuel",
    "q": {
     "en": "What happens if the air filter is dirty?",
-    "es": "¿Qué ocurre si el filtro del aire está sucio?"
+    "es": "¿Qué ocurre si el filtro del aire está sucio?",
+    "uk": "Що буде, якщо повітряний фільтр брудний?"
    },
    "o": [
     {
      "en": "The engine uses more fuel and pollutes more",
-     "es": "El motor consume más combustible y contamina más"
+     "es": "El motor consume más combustible y contamina más",
+     "uk": "Двигун витрачає більше пального й більше забруднює"
     },
     {
      "en": "Nothing important",
-     "es": "Nada importante"
+     "es": "Nada importante",
+     "uk": "Нічого важливого"
     },
     {
      "en": "The engine uses less fuel",
-     "es": "El motor consume menos"
+     "es": "El motor consume menos",
+     "uk": "Двигун витрачає менше пального"
     }
    ],
    "why": {
     "en": "Change it as the manufacturer says, more often in summer and on dusty tracks.",
-    "es": "Hay que cambiarlo según el fabricante, más a menudo en verano y por caminos polvorientos."
+    "es": "Hay que cambiarlo según el fabricante, más a menudo en verano y por caminos polvorientos.",
+    "uk": "Міняйте його, як каже виробник, частіше влітку й на пильних дорогах."
    }
   },
   {
@@ -246,25 +297,30 @@ window.DGT_DATA = {
    "tag": "fuel",
    "q": {
     "en": "When should the air filter be changed more often?",
-    "es": "¿Cuándo hay que cambiar el filtro del aire con más frecuencia?"
+    "es": "¿Cuándo hay que cambiar el filtro del aire con más frecuencia?",
+    "uk": "Коли повітряний фільтр треба міняти частіше?"
    },
    "o": [
     {
      "en": "In summer and when riding on dusty tracks",
-     "es": "En verano y si se circula por caminos polvorientos"
+     "es": "En verano y si se circula por caminos polvorientos",
+     "uk": "Влітку й під час їзди пильними дорогами"
     },
     {
      "en": "In winter",
-     "es": "En invierno"
+     "es": "En invierno",
+     "uk": "Взимку"
     },
     {
      "en": "Only in town",
-     "es": "Solo en ciudad"
+     "es": "Solo en ciudad",
+     "uk": "Лише в місті"
     }
    ],
    "why": {
     "en": "Dust clogs it sooner.",
-    "es": "El polvo lo obstruye antes."
+    "es": "El polvo lo obstruye antes.",
+    "uk": "Пил забиває його швидше."
    }
   },
   {
@@ -272,25 +328,30 @@ window.DGT_DATA = {
    "tag": "fuel",
    "q": {
     "en": "What does the carburettor do?",
-    "es": "¿Qué hace el carburador?"
+    "es": "¿Qué hace el carburador?",
+    "uk": "Що робить карбюратор?"
    },
    "o": [
     {
      "en": "Makes the air and petrol mixture in the right proportion",
-     "es": "Elabora la mezcla de aire y gasolina en la proporción adecuada"
+     "es": "Elabora la mezcla de aire y gasolina en la proporción adecuada",
+     "uk": "Готує суміш повітря й бензину в потрібній пропорції"
     },
     {
      "en": "Filters the oil",
-     "es": "Filtra el aceite"
+     "es": "Filtra el aceite",
+     "uk": "Фільтрує оливу"
     },
     {
      "en": "Cools the engine",
-     "es": "Refrigera el motor"
+     "es": "Refrigera el motor",
+     "uk": "Охолоджує двигун"
     }
    ],
    "why": {
     "en": "Today it is giving way to electronic injection.",
-    "es": "Hoy está en desuso frente a la inyección electrónica."
+    "es": "Hoy está en desuso frente a la inyección electrónica.",
+    "uk": "Сьогодні його витісняє електронне упорскування."
    }
   },
   {
@@ -298,25 +359,30 @@ window.DGT_DATA = {
    "tag": "fuel",
    "q": {
     "en": "How does fuel injection work?",
-    "es": "¿Cómo funciona la inyección?"
+    "es": "¿Cómo funciona la inyección?",
+    "uk": "Як працює упорскування пального?"
    },
    "o": [
     {
      "en": "A pump injects fuel under pressure, and sensors give each cylinder the exact amount",
-     "es": "Una bomba inyecta combustible a presión y unos sensores dan a cada cilindro la cantidad precisa"
+     "es": "Una bomba inyecta combustible a presión y unos sensores dan a cada cilindro la cantidad precisa",
+     "uk": "Насос подає пальне під тиском, а датчики дають кожному циліндру точну кількість"
     },
     {
      "en": "The fuel falls by gravity",
-     "es": "El combustible cae por gravedad"
+     "es": "El combustible cae por gravedad",
+     "uk": "Пальне стікає самопливом"
     },
     {
      "en": "It mixes oil and petrol",
-     "es": "Mezcla aceite y gasolina"
+     "es": "Mezcla aceite y gasolina",
+     "uk": "Змішує оливу з бензином"
     }
    ],
    "why": {
     "en": "The fuel goes into the intake.",
-    "es": "El combustible se inyecta en la conducción de admisión."
+    "es": "El combustible se inyecta en la conducción de admisión.",
+    "uk": "Пальне надходить у впуск."
    }
   },
   {
@@ -324,25 +390,30 @@ window.DGT_DATA = {
    "tag": "fuel",
    "q": {
     "en": "Which is a maintenance task of the fuel system?",
-    "es": "¿Cuál es una tarea de mantenimiento del sistema de alimentación?"
+    "es": "¿Cuál es una tarea de mantenimiento del sistema de alimentación?",
+    "uk": "Що з цього — обслуговування системи живлення?"
    },
    "o": [
     {
      "en": "Clean the carburettor, clean or change the air filter, adjust the idle",
-     "es": "Limpiar el carburador, limpiar o cambiar el filtro del aire y regular el ralentí"
+     "es": "Limpiar el carburador, limpiar o cambiar el filtro del aire y regular el ralentí",
+     "uk": "Чистити карбюратор, чистити чи міняти повітряний фільтр, регулювати холостий хід"
     },
     {
      "en": "Top up the electrolyte",
-     "es": "Reponer el electrolito"
+     "es": "Reponer el electrolito",
+     "uk": "Доливати електроліт"
     },
     {
      "en": "Grease the stands",
-     "es": "Engrasar los caballetes"
+     "es": "Engrasar los caballetes",
+     "uk": "Змащувати підніжки"
     }
    ],
    "why": {
     "en": "It avoids excessive fuel use.",
-    "es": "Evita un consumo excesivo."
+    "es": "Evita un consumo excesivo.",
+    "uk": "Це запобігає надмірній витраті пального."
    }
   },
   {
@@ -350,25 +421,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "What is the job of the lubrication system?",
-    "es": "¿Cuál es la misión del sistema de lubricación?"
+    "es": "¿Cuál es la misión del sistema de lubricación?",
+    "uk": "Яке завдання системи змащення?"
    },
    "o": [
     {
      "en": "To put a film of oil between metal parts, reducing friction and wear",
-     "es": "Interponer una película de aceite entre las piezas metálicas para reducir rozamiento y desgaste"
+     "es": "Interponer una película de aceite entre las piezas metálicas para reducir rozamiento y desgaste",
+     "uk": "Створювати плівку оливи між металевими деталями, зменшуючи тертя й знос"
     },
     {
      "en": "To cool the tyres",
-     "es": "Refrigerar los neumáticos"
+     "es": "Refrigerar los neumáticos",
+     "uk": "Охолоджувати шини"
     },
     {
      "en": "To clean the air",
-     "es": "Limpiar el aire"
+     "es": "Limpiar el aire",
+     "uk": "Очищати повітря"
     }
    ],
    "why": {
     "en": "It prevents premature wear.",
-    "es": "Evita un desgaste prematuro."
+    "es": "Evita un desgaste prematuro.",
+    "uk": "Вона запобігає передчасному зносу."
    }
   },
   {
@@ -376,25 +452,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "How should you check the oil level of a four-stroke motorcycle?",
-    "es": "¿Cómo compruebas el nivel de aceite de una moto de cuatro tiempos?"
+    "es": "¿Cómo compruebas el nivel de aceite de una moto de cuatro tiempos?",
+    "uk": "Як перевіряти рівень оливи чотиритактного мотоцикла?"
    },
    "o": [
     {
      "en": "Engine stopped and cold, motorcycle upright, dipstick between MIN and MAX",
-     "es": "Motor parado y frío, moto en posición horizontal, varilla entre mínimo y máximo"
+     "es": "Motor parado y frío, moto en posición horizontal, varilla entre mínimo y máximo",
+     "uk": "Двигун зупинений і холодний, мотоцикл рівно, щуп між MIN і MAX"
     },
     {
      "en": "Engine running",
-     "es": "Con el motor en marcha"
+     "es": "Con el motor en marcha",
+     "uk": "На працюючому двигуні"
     },
     {
      "en": "Right after a long ride, on the side stand",
-     "es": "Recién llegado de un viaje, sobre la pata de cabra"
+     "es": "Recién llegado de un viaje, sobre la pata de cabra",
+     "uk": "Одразу після довгої поїздки, на бічній підніжці"
     }
    ],
    "why": {
     "en": "On the side stand the motorcycle leans and the reading is wrong.",
-    "es": "Sobre la pata de cabra la moto se inclina y la lectura no es fiable."
+    "es": "Sobre la pata de cabra la moto se inclina y la lectura no es fiable.",
+    "uk": "На бічній підніжці мотоцикл нахилений, і показ хибний."
    }
   },
   {
@@ -402,25 +483,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "When should the oil be changed?",
-    "es": "¿Cuándo debe cambiarse el aceite?"
+    "es": "¿Cuándo debe cambiarse el aceite?",
+    "uk": "Коли міняти оливу?"
    },
    "o": [
     {
      "en": "With the engine warm and the motorcycle upright",
-     "es": "Con el motor caliente y la moto en posición horizontal"
+     "es": "Con el motor caliente y la moto en posición horizontal",
+     "uk": "На теплому двигуні, мотоцикл рівно"
     },
     {
      "en": "With the engine cold and leaning",
-     "es": "Con el motor frío e inclinada"
+     "es": "Con el motor frío e inclinada",
+     "uk": "На холодному двигуні, мотоцикл нахилений"
     },
     {
      "en": "Never: you only top it up",
-     "es": "Nunca: solo se repone"
+     "es": "Nunca: solo se repone",
+     "uk": "Ніколи: її лише доливають"
     }
    ],
    "why": {
     "en": "Warm oil flows out better. Change the filter as the manufacturer says.",
-    "es": "El aceite caliente sale mejor. El filtro, según el fabricante."
+    "es": "El aceite caliente sale mejor. El filtro, según el fabricante.",
+    "uk": "Тепла олива краще витікає. Фільтр міняйте, як каже виробник."
    }
   },
   {
@@ -428,25 +514,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "What should you do with the used oil?",
-    "es": "¿Qué debes hacer con el aceite usado?"
+    "es": "¿Qué debes hacer con el aceite usado?",
+    "uk": "Що робити з відпрацьованою оливою?"
    },
    "o": [
     {
      "en": "Take it to a recycling or collection point",
-     "es": "Llevarlo a un centro de reciclaje o recogida"
+     "es": "Llevarlo a un centro de reciclaje o recogida",
+     "uk": "Віднести в пункт переробки чи збору"
     },
     {
      "en": "Pour it down the drain",
-     "es": "Echarlo a la alcantarilla"
+     "es": "Echarlo a la alcantarilla",
+     "uk": "Вилити в каналізацію"
     },
     {
      "en": "Pour it on the ground in the countryside",
-     "es": "Verterlo en el campo"
+     "es": "Verterlo en el campo",
+     "uk": "Вилити на землю за містом"
     }
    ],
    "why": {
     "en": "It is highly polluting.",
-    "es": "Es altamente contaminante."
+    "es": "Es altamente contaminante.",
+    "uk": "Вона дуже забруднює довкілля."
    }
   },
   {
@@ -454,25 +545,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "On a two-stroke motorcycle with a separate oil tank, what must you do?",
-    "es": "En una moto de dos tiempos con depósito de aceite aparte, ¿qué debes hacer?"
+    "es": "En una moto de dos tiempos con depósito de aceite aparte, ¿qué debes hacer?",
+    "uk": "Що треба робити на двотактному мотоциклі з окремим оливним бачком?"
    },
    "o": [
     {
      "en": "Top up the oil tank regularly",
-     "es": "Reponer periódicamente el depósito de aceite"
+     "es": "Reponer periódicamente el depósito de aceite",
+     "uk": "Регулярно доливати оливу в бачок"
     },
     {
      "en": "Nothing: it never needs oil",
-     "es": "Nada: nunca necesita aceite"
+     "es": "Nada: nunca necesita aceite",
+     "uk": "Нічого: олива йому не потрібна"
     },
     {
      "en": "Change the crankcase oil with a dipstick",
-     "es": "Cambiar el aceite del cárter con la varilla"
+     "es": "Cambiar el aceite del cárter con la varilla",
+     "uk": "Міняти оливу в картері, перевіряючи щупом"
     }
    ],
    "why": {
     "en": "A pump or dosing device mixes it with the petrol.",
-    "es": "Una bomba o dosificador lo mezcla con la gasolina."
+    "es": "Una bomba o dosificador lo mezcla con la gasolina.",
+    "uk": "Насос чи дозатор змішує її з бензином."
    }
   },
   {
@@ -480,25 +576,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "What are the two cooling systems of a motorcycle?",
-    "es": "¿Cuáles son los dos sistemas de refrigeración de una moto?"
+    "es": "¿Cuáles son los dos sistemas de refrigeración de una moto?",
+    "uk": "Які дві системи охолодження мотоцикла?"
    },
    "o": [
     {
      "en": "By air (direct or forced by a fan) and by liquid",
-     "es": "Por aire (directo o forzado por ventilador) y por líquido"
+     "es": "Por aire (directo o forzado por ventilador) y por líquido",
+     "uk": "Повітряна (пряма чи примусова вентилятором) і рідинна"
     },
     {
      "en": "By oil and by water spray",
-     "es": "Por aceite y por pulverización de agua"
+     "es": "Por aceite y por pulverización de agua",
+     "uk": "Оливна й водяним розпиленням"
     },
     {
      "en": "Only by liquid",
-     "es": "Solo por líquido"
+     "es": "Solo por líquido",
+     "uk": "Лише рідинна"
     }
    ],
    "why": {
     "en": "Liquid cooling uses a pump to move the coolant through the engine block.",
-    "es": "La refrigeración por líquido usa una bomba que mueve el líquido por el bloque motor."
+    "es": "La refrigeración por líquido usa una bomba que mueve el líquido por el bloque motor.",
+    "uk": "Рідинна використовує насос, що жене охолоджувальну рідину через блок двигуна."
    }
   },
   {
@@ -506,25 +607,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "What maintenance does air cooling need?",
-    "es": "¿Qué mantenimiento necesita la refrigeración por aire?"
+    "es": "¿Qué mantenimiento necesita la refrigeración por aire?",
+    "uk": "Якого обслуговування потребує повітряне охолодження?"
    },
    "o": [
     {
      "en": "Keep the fins and the turbine’s protective slots clean and in good condition",
-     "es": "Limpiar y mantener las aletas exteriores y las ranuras de la turbina"
+     "es": "Limpiar y mantener las aletas exteriores y las ranuras de la turbina",
+     "uk": "Тримати ребра й захисні щілини турбіни чистими й справними"
     },
     {
      "en": "Top up the coolant",
-     "es": "Reponer el refrigerante"
+     "es": "Reponer el refrigerante",
+     "uk": "Доливати охолоджувальну рідину"
     },
     {
      "en": "None",
-     "es": "Ninguno"
+     "es": "Ninguno",
+     "uk": "Жодного"
     }
    ],
    "why": {
     "en": "Dirty fins cool badly.",
-    "es": "Unas aletas sucias refrigeran mal."
+    "es": "Unas aletas sucias refrigeran mal.",
+    "uk": "Брудні ребра погано охолоджують."
    }
   },
   {
@@ -532,25 +638,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "What maintenance does liquid cooling need?",
-    "es": "¿Qué mantenimiento necesita la refrigeración por líquido?"
+    "es": "¿Qué mantenimiento necesita la refrigeración por líquido?",
+    "uk": "Якого обслуговування потребує рідинне охолодження?"
    },
    "o": [
     {
      "en": "Check the coolant level, and top up or change it as the manufacturer says",
-     "es": "Comprobar el nivel del refrigerante y añadir o cambiar según el fabricante"
+     "es": "Comprobar el nivel del refrigerante y añadir o cambiar según el fabricante",
+     "uk": "Перевіряти рівень охолоджувальної рідини, доливати чи міняти її, як каже виробник"
     },
     {
      "en": "Clean the fins only",
-     "es": "Solo limpiar las aletas"
+     "es": "Solo limpiar las aletas",
+     "uk": "Лише чистити ребра"
     },
     {
      "en": "Grease the radiator",
-     "es": "Engrasar el radiador"
+     "es": "Engrasar el radiador",
+     "uk": "Змащувати радіатор"
     }
    ],
    "why": {
     "en": "Low coolant is one cause of overheating.",
-    "es": "El refrigerante bajo es una causa de recalentamiento."
+    "es": "El refrigerante bajo es una causa de recalentamiento.",
+    "uk": "Низький рівень рідини — одна з причин перегріву."
    }
   },
   {
@@ -558,25 +669,30 @@ window.DGT_DATA = {
    "tag": "elec",
    "q": {
     "en": "When does the battery supply the motorcycle’s electrical energy?",
-    "es": "¿Cuándo proporciona la batería la energía eléctrica de la moto?"
+    "es": "¿Cuándo proporciona la batería la energía eléctrica de la moto?",
+    "uk": "Коли акумулятор живить електрику мотоцикла?"
    },
    "o": [
     {
      "en": "While the engine is stopped",
-     "es": "Mientras el motor está parado"
+     "es": "Mientras el motor está parado",
+     "uk": "Коли двигун не працює"
     },
     {
      "en": "Only at high speed",
-     "es": "Solo a alta velocidad"
+     "es": "Solo a alta velocidad",
+     "uk": "Лише на великій швидкості"
     },
     {
      "en": "Never: it only stores it",
-     "es": "Nunca: solo la almacena"
+     "es": "Nunca: solo la almacena",
+     "uk": "Ніколи: він лише накопичує"
     }
    ],
    "why": {
     "en": "With the engine running, the charging system takes over.",
-    "es": "Con el motor en marcha, se encarga el sistema de carga."
+    "es": "Con el motor en marcha, se encarga el sistema de carga.",
+    "uk": "На працюючому двигуні її бере на себе система заряджання."
    }
   },
   {
@@ -584,25 +700,30 @@ window.DGT_DATA = {
    "tag": "elec",
    "q": {
     "en": "What should you add if the battery electrolyte is low?",
-    "es": "¿Qué debes añadir si el electrolito de la batería está bajo?"
+    "es": "¿Qué debes añadir si el electrolito de la batería está bajo?",
+    "uk": "Що доливати, якщо електроліту в акумуляторі мало?"
    },
    "o": [
     {
      "en": "Distilled water only",
-     "es": "Solo agua destilada"
+     "es": "Solo agua destilada",
+     "uk": "Лише дистильовану воду"
     },
     {
      "en": "Sulphuric acid",
-     "es": "Ácido sulfúrico"
+     "es": "Ácido sulfúrico",
+     "uk": "Сірчану кислоту"
     },
     {
      "en": "Tap water",
-     "es": "Agua del grifo"
+     "es": "Agua del grifo",
+     "uk": "Воду з-під крана"
     }
    ],
    "why": {
     "en": "The electrolyte is sulphuric acid and distilled water. Many batteries today need no maintenance.",
-    "es": "El electrolito es ácido sulfúrico y agua destilada. Hoy muchas baterías no requieren mantenimiento."
+    "es": "El electrolito es ácido sulfúrico y agua destilada. Hoy muchas baterías no requieren mantenimiento.",
+    "uk": "Електроліт — це сірчана кислота й дистильована вода. Багато сучасних акумуляторів не потребують обслуговування."
    }
   },
   {
@@ -610,25 +731,30 @@ window.DGT_DATA = {
    "tag": "elec",
    "q": {
     "en": "What does the starting circuit do?",
-    "es": "¿Qué hace el circuito de arranque?"
+    "es": "¿Qué hace el circuito de arranque?",
+    "uk": "Що робить коло пуску?"
    },
    "o": [
     {
      "en": "A switch turns an electric motor that gives the engine its first turns",
-     "es": "Un interruptor hace girar un motor eléctrico que da los primeros giros al motor"
+     "es": "Un interruptor hace girar un motor eléctrico que da los primeros giros al motor",
+     "uk": "Вмикач обертає електродвигун, який дає двигуну перші оберти"
     },
     {
      "en": "It makes the spark in the cylinder",
-     "es": "Provoca la chispa en el cilindro"
+     "es": "Provoca la chispa en el cilindro",
+     "uk": "Дає іскру в циліндрі"
     },
     {
      "en": "It charges the battery",
-     "es": "Carga la batería"
+     "es": "Carga la batería",
+     "uk": "Заряджає акумулятор"
     }
    ],
    "why": {
     "en": "The switch is a button or the ignition key.",
-    "es": "El interruptor es un pulsador o la llave de contacto."
+    "es": "El interruptor es un pulsador o la llave de contacto.",
+    "uk": "Вмикач — кнопка чи ключ запалювання."
    }
   },
   {
@@ -636,25 +762,30 @@ window.DGT_DATA = {
    "tag": "elec",
    "q": {
     "en": "What makes the spark in the cylinder of a petrol engine?",
-    "es": "¿Qué provoca la chispa en el cilindro de un motor de gasolina?"
+    "es": "¿Qué provoca la chispa en el cilindro de un motor de gasolina?",
+    "uk": "Що дає іскру в циліндрі бензинового двигуна?"
    },
    "o": [
     {
      "en": "The spark plug, in the ignition circuit",
-     "es": "La bujía, en el circuito de encendido"
+     "es": "La bujía, en el circuito de encendido",
+     "uk": "Свічка запалювання в колі запалювання"
     },
     {
      "en": "The battery directly",
-     "es": "La batería directamente"
+     "es": "La batería directamente",
+     "uk": "Безпосередньо акумулятор"
     },
     {
      "en": "The carburettor",
-     "es": "El carburador"
+     "es": "El carburador",
+     "uk": "Карбюратор"
     }
    ],
    "why": {
     "en": "The spark ignites the air–fuel mixture.",
-    "es": "La chispa enciende la mezcla de aire y carburante."
+    "es": "La chispa enciende la mezcla de aire y carburante.",
+    "uk": "Іскра запалює суміш повітря й пального."
    }
   },
   {
@@ -662,25 +793,30 @@ window.DGT_DATA = {
    "tag": "elec",
    "q": {
     "en": "What should be kept clean on a battery?",
-    "es": "¿Qué hay que mantener limpio en la batería?"
+    "es": "¿Qué hay que mantener limpio en la batería?",
+    "uk": "Що треба тримати чистим на акумуляторі?"
    },
    "o": [
     {
      "en": "The terminals and the gas vents",
-     "es": "Los bornes y los orificios de salida de gases"
+     "es": "Los bornes y los orificios de salida de gases",
+     "uk": "Клеми й газовідвідні отвори"
     },
     {
      "en": "The label",
-     "es": "La etiqueta"
+     "es": "La etiqueta",
+     "uk": "Наліпку"
     },
     {
      "en": "Nothing",
-     "es": "Nada"
+     "es": "Nada",
+     "uk": "Нічого"
     }
    ],
    "why": {
     "en": "Also check the spark plugs and the engine tuning.",
-    "es": "También hay que verificar las bujías y la puesta a punto del motor."
+    "es": "También hay que verificar las bujías y la puesta a punto del motor.",
+    "uk": "Також перевіряйте свічки й налаштування двигуна."
    }
   },
   {
@@ -688,25 +824,30 @@ window.DGT_DATA = {
    "tag": "trans",
    "q": {
     "en": "What does the clutch do?",
-    "es": "¿Qué hace el embrague?"
+    "es": "¿Qué hace el embrague?",
+    "uk": "Що робить зчеплення?"
    },
    "o": [
     {
      "en": "Connects or cuts the engine’s movement to the gearbox",
-     "es": "Transmite o interrumpe el movimiento del motor a la caja de velocidades"
+     "es": "Transmite o interrumpe el movimiento del motor a la caja de velocidades",
+     "uk": "З’єднує чи роз’єднує передачу руху від двигуна до коробки передач"
     },
     {
      "en": "Stops the motorcycle",
-     "es": "Detiene la moto"
+     "es": "Detiene la moto",
+     "uk": "Зупиняє мотоцикл"
     },
     {
      "en": "Changes gear by itself",
-     "es": "Cambia de marcha por sí solo"
+     "es": "Cambia de marcha por sí solo",
+     "uk": "Саме перемикає передачі"
     }
    ],
    "why": {
     "en": "The gearbox adapts the pace; the chain, belt or shaft drives the rear wheel.",
-    "es": "La caja adapta la marcha; la cadena, correa o cardan mueve la rueda trasera."
+    "es": "La caja adapta la marcha; la cadena, correa o cardan mueve la rueda trasera.",
+    "uk": "Коробка передач пристосовує темп руху; ланцюг, пас чи вал приводить заднє колесо."
    }
   },
   {
@@ -714,25 +855,30 @@ window.DGT_DATA = {
    "tag": "trans",
    "q": {
     "en": "When is it especially important to grease and tension the chain?",
-    "es": "¿Cuándo es especialmente importante engrasar y tensar la cadena?"
+    "es": "¿Cuándo es especialmente importante engrasar y tensar la cadena?",
+    "uk": "Коли особливо важливо змастити й натягнути ланцюг?"
    },
    "o": [
     {
      "en": "After riding in the rain",
-     "es": "Después de circular con lluvia"
+     "es": "Después de circular con lluvia",
+     "uk": "Після їзди під дощем"
     },
     {
      "en": "After riding at night",
-     "es": "Después de circular de noche"
+     "es": "Después de circular de noche",
+     "uk": "Після їзди вночі"
     },
     {
      "en": "Only at the ITV",
-     "es": "Solo en la ITV"
+     "es": "Solo en la ITV",
+     "uk": "Лише перед техоглядом"
     }
    ],
    "why": {
     "en": "Water washes the grease away.",
-    "es": "El agua elimina la grasa."
+    "es": "El agua elimina la grasa.",
+    "uk": "Вода змиває мастило."
    }
   },
   {
@@ -740,25 +886,30 @@ window.DGT_DATA = {
    "tag": "trans",
    "q": {
     "en": "Which elements can link the gearbox with the rear wheel?",
-    "es": "¿Qué elementos pueden unir la caja de cambios con la rueda trasera?"
+    "es": "¿Qué elementos pueden unir la caja de cambios con la rueda trasera?",
+    "uk": "Що може з’єднувати коробку передач із заднім колесом?"
    },
    "o": [
     {
      "en": "Chain, belt or shaft (cardan)",
-     "es": "Cadena, correa o cardan"
+     "es": "Cadena, correa o cardan",
+     "uk": "Ланцюг, пас чи вал (кардан)"
     },
     {
      "en": "Only a chain",
-     "es": "Solo una cadena"
+     "es": "Solo una cadena",
+     "uk": "Лише ланцюг"
     },
     {
      "en": "Gears on the front wheel",
-     "es": "Engranajes en la rueda delantera"
+     "es": "Engranajes en la rueda delantera",
+     "uk": "Шестерні на передньому колесі"
     }
    ],
    "why": {
     "en": "Each needs its own maintenance.",
-    "es": "Cada uno requiere su mantenimiento."
+    "es": "Cada uno requiere su mantenimiento.",
+    "uk": "Кожен потребує свого обслуговування."
    }
   },
   {
@@ -766,25 +917,30 @@ window.DGT_DATA = {
    "tag": "trans",
    "q": {
     "en": "What maintenance does a shaft drive need, according to your course?",
-    "es": "¿Qué mantenimiento necesita el cardan, según tu curso?"
+    "es": "¿Qué mantenimiento necesita el cardan, según tu curso?",
+    "uk": "Якого обслуговування, за вашим курсом, потребує карданний привід?"
    },
    "o": [
     {
      "en": "Minimal: an oil change every 10,000 or 15,000 km",
-     "es": "Mínimo: un cambio de aceite cada 10.000 o 15.000 km"
+     "es": "Mínimo: un cambio de aceite cada 10.000 o 15.000 km",
+     "uk": "Мінімального: заміна оливи кожні 10 000 чи 15 000 км"
     },
     {
      "en": "Greasing after every rain",
-     "es": "Engrasarlo tras cada lluvia"
+     "es": "Engrasarlo tras cada lluvia",
+     "uk": "Змащування після кожного дощу"
     },
     {
      "en": "Tensioning every week",
-     "es": "Tensarlo cada semana"
+     "es": "Tensarlo cada semana",
+     "uk": "Натягування щотижня"
     }
    ],
    "why": {
     "en": "Follow the manufacturer’s figure.",
-    "es": "Sigue la cifra del fabricante."
+    "es": "Sigue la cifra del fabricante.",
+    "uk": "Дотримуйтеся числа виробника."
    }
   },
   {
@@ -792,25 +948,30 @@ window.DGT_DATA = {
    "tag": "trans",
    "q": {
     "en": "Where is the chain slack measured?",
-    "es": "¿Dónde se mide la holgura de la cadena?"
+    "es": "¿Dónde se mide la holgura de la cadena?",
+    "uk": "Де вимірюють провисання ланцюга?"
    },
    "o": [
     {
      "en": "In the middle of the lower run, with the wheel on the ground",
-     "es": "En el centro del tramo inferior, con la rueda en el suelo"
+     "es": "En el centro del tramo inferior, con la rueda en el suelo",
+     "uk": "Посередині нижньої гілки, колесо на землі"
     },
     {
      "en": "On the rear sprocket",
-     "es": "En la corona"
+     "es": "En la corona",
+     "uk": "На задній зірочці"
     },
     {
      "en": "At the front sprocket, with the engine running",
-     "es": "En el piñón, con el motor en marcha"
+     "es": "En el piñón, con el motor en marcha",
+     "uk": "На передній зірочці, на працюючому двигуні"
     }
    ],
    "why": {
     "en": "Follow the owner’s manual for the figure (usually about 20–30 mm).",
-    "es": "La cifra la da el manual (lo habitual, unos 20–30 mm)."
+    "es": "La cifra la da el manual (lo habitual, unos 20–30 mm).",
+    "uk": "Число — за інструкцією власника (зазвичай близько 20–30 мм)."
    }
   },
   {
@@ -818,25 +979,30 @@ window.DGT_DATA = {
    "tag": "trans",
    "q": {
     "en": "How should the handlebar be held, and why?",
-    "es": "¿Cómo se maneja el manillar y por qué?"
+    "es": "¿Cómo se maneja el manillar y por qué?",
+    "uk": "Як тримати кермо і чому?"
    },
    "o": [
     {
      "en": "Firmly but not rigidly: a small movement changes the front wheel’s angle at once",
-     "es": "Con firmeza pero sin rigidez: un pequeño movimiento cambia al instante el ángulo de la rueda delantera"
+     "es": "Con firmeza pero sin rigidez: un pequeño movimiento cambia al instante el ángulo de la rueda delantera",
+     "uk": "Впевнено, але не жорстко: малий рух одразу змінює кут переднього колеса"
     },
     {
      "en": "Very tightly, to avoid vibration",
-     "es": "Muy apretado, para evitar vibraciones"
+     "es": "Muy apretado, para evitar vibraciones",
+     "uk": "Дуже міцно, щоб не було вібрації"
     },
     {
      "en": "With one hand on straights",
-     "es": "Con una mano en las rectas"
+     "es": "Con una mano en las rectas",
+     "uk": "Однією рукою на прямих"
     }
    ],
    "why": {
     "en": "The steering-head bearings must have no play and no stiffness.",
-    "es": "Los rodamientos de la tija no deben tener holguras ni agarrotamiento."
+    "es": "Los rodamientos de la tija no deben tener holguras ni agarrotamiento.",
+    "uk": "Підшипники рульової колонки не повинні мати ні люфту, ні тугості."
    }
   },
   {
@@ -844,25 +1010,30 @@ window.DGT_DATA = {
    "tag": "trans",
    "q": {
     "en": "What is the job of the suspension?",
-    "es": "¿Cuál es la misión de la suspensión?"
+    "es": "¿Cuál es la misión de la suspensión?",
+    "uk": "Яке завдання підвіски?"
    },
    "o": [
     {
      "en": "To keep even contact with the ground and give some comfort",
-     "es": "Asegurar un contacto uniforme con el suelo y dar cierto confort"
+     "es": "Asegurar un contacto uniforme con el suelo y dar cierto confort",
+     "uk": "Тримати рівномірний контакт із дорогою й давати певний комфорт"
     },
     {
      "en": "To brake the rear wheel",
-     "es": "Frenar la rueda trasera"
+     "es": "Frenar la rueda trasera",
+     "uk": "Гальмувати заднє колесо"
     },
     {
      "en": "To steer the motorcycle",
-     "es": "Dirigir la moto"
+     "es": "Dirigir la moto",
+     "uk": "Кермувати мотоциклом"
     }
    ],
    "why": {
     "en": "Check the shock absorbers: they affect control.",
-    "es": "Hay que revisar los amortiguadores: afectan al control."
+    "es": "Hay que revisar los amortiguadores: afectan al control.",
+    "uk": "Перевіряйте амортизатори: вони впливають на керованість."
    }
   },
   {
@@ -870,25 +1041,30 @@ window.DGT_DATA = {
    "tag": "trans",
    "q": {
     "en": "What does the rear suspension usually use?",
-    "es": "¿Qué suele usar la suspensión trasera?"
+    "es": "¿Qué suele usar la suspensión trasera?",
+    "uk": "Що зазвичай використовує задня підвіска?"
    },
    "o": [
     {
      "en": "A swingarm with shock absorbers",
-     "es": "Una horquilla oscilante (basculante) con amortiguadores"
+     "es": "Una horquilla oscilante (basculante) con amortiguadores",
+     "uk": "Маятник з амортизаторами"
     },
     {
      "en": "A telescopic fork",
-     "es": "Una horquilla telescópica"
+     "es": "Una horquilla telescópica",
+     "uk": "Телескопічну вилку"
     },
     {
      "en": "Nothing: only the tyre",
-     "es": "Nada: solo el neumático"
+     "es": "Nada: solo el neumático",
+     "uk": "Нічого: лише шину"
     }
    ],
    "why": {
     "en": "The telescopic fork is the front suspension.",
-    "es": "La horquilla telescópica es la suspensión delantera."
+    "es": "La horquilla telescópica es la suspensión delantera.",
+    "uk": "Телескопічна вилка — це передня підвіска."
    }
   },
   {
@@ -896,25 +1072,30 @@ window.DGT_DATA = {
    "tag": "access",
    "q": {
     "en": "You fit a new exhaust from another brand. What must it be?",
-    "es": "Instalas un escape nuevo de otra marca. ¿Cómo debe ser?"
+    "es": "Instalas un escape nuevo de otra marca. ¿Cómo debe ser?",
+    "uk": "Ви ставите новий глушник іншої марки. Яким він має бути?"
    },
    "o": [
     {
      "en": "Approved (homologado)",
-     "es": "Homologado"
+     "es": "Homologado",
+     "uk": "Затвердженим (homologado)"
     },
     {
      "en": "From the same manufacturer only",
-     "es": "Solo del mismo fabricante"
+     "es": "Solo del mismo fabricante",
+     "uk": "Лише від того самого виробника"
     },
     {
      "en": "Anything, if it is quieter",
-     "es": "Cualquiera, si es más silencioso"
+     "es": "Cualquiera, si es más silencioso",
+     "uk": "Будь-яким, якщо тихіший"
     }
    ],
    "why": {
     "en": "Any accessory must be approved, from the manufacturer or another make.",
-    "es": "Cualquier accesorio debe estar homologado, sea del fabricante o de otro."
+    "es": "Cualquier accesorio debe estar homologado, sea del fabricante o de otro.",
+    "uk": "Будь-яке приладдя має бути затвердженим — від виробника чи іншої марки."
    }
   },
   {
@@ -922,25 +1103,30 @@ window.DGT_DATA = {
    "tag": "access",
    "q": {
     "en": "Which spare parts must a motorcycle carry?",
-    "es": "¿Qué repuestos debe llevar obligatoriamente una moto?"
+    "es": "¿Qué repuestos debe llevar obligatoriamente una moto?",
+    "uk": "Які запчастини мусить возити мотоцикл?"
    },
    "o": [
     {
      "en": "None",
-     "es": "Ninguno"
+     "es": "Ninguno",
+     "uk": "Жодних"
     },
     {
      "en": "Spare bulbs",
-     "es": "Lámparas de repuesto"
+     "es": "Lámparas de repuesto",
+     "uk": "Запасні лампи"
     },
     {
      "en": "A spare tyre",
-     "es": "Una rueda de repuesto"
+     "es": "Una rueda de repuesto",
+     "uk": "Запасну шину"
     }
    ],
    "why": {
     "en": "Spare bulbs are recommended, not compulsory.",
-    "es": "Las lámparas de repuesto son recomendables, no obligatorias."
+    "es": "Las lámparas de repuesto son recomendables, no obligatorias.",
+    "uk": "Запасні лампи рекомендовані, а не обов’язкові."
    }
   },
   {
@@ -948,25 +1134,30 @@ window.DGT_DATA = {
    "tag": "access",
    "q": {
     "en": "Why is it advisable to carry spare bulbs?",
-    "es": "¿Por qué conviene llevar lámparas de repuesto?"
+    "es": "¿Por qué conviene llevar lámparas de repuesto?",
+    "uk": "Чому варто возити запасні лампи?"
    },
    "o": [
     {
      "en": "Agents may immobilise the motorcycle if a light is blown",
-     "es": "Los agentes pueden inmovilizar la moto si lleva una luz fundida"
+     "es": "Los agentes pueden inmovilizar la moto si lleva una luz fundida",
+     "uk": "Регулювальники можуть знерухомити мотоцикл, якщо перегоріла лампа"
     },
     {
      "en": "They are compulsory",
-     "es": "Son obligatorias"
+     "es": "Son obligatorias",
+     "uk": "Вони обов’язкові"
     },
     {
      "en": "They improve fuel use",
-     "es": "Mejoran el consumo"
+     "es": "Mejoran el consumo",
+     "uk": "Вони зменшують витрату пального"
     }
    ],
    "why": {
     "en": "It lets you replace a blown bulb at once.",
-    "es": "Permite sustituir enseguida una lámpara fundida."
+    "es": "Permite sustituir enseguida una lámpara fundida.",
+    "uk": "Так ви одразу заміните перегорілу лампу."
    }
   },
   {
@@ -974,25 +1165,30 @@ window.DGT_DATA = {
    "tag": "access",
    "q": {
     "en": "Since 1 October 2026, what must every motorcycle carry?",
-    "es": "Desde el 1 de octubre de 2026, ¿qué debe llevar toda motocicleta?"
+    "es": "Desde el 1 de octubre de 2026, ¿qué debe llevar toda motocicleta?",
+    "uk": "Що з 1 жовтня 2026 року мусить возити кожен мотоцикл?"
    },
    "o": [
     {
      "en": "A high-visibility reflective vest",
-     "es": "Un chaleco reflectante de alta visibilidad"
+     "es": "Un chaleco reflectante de alta visibilidad",
+     "uk": "Світловідбивний жилет"
     },
     {
      "en": "A V-16 light",
-     "es": "Una luz V-16"
+     "es": "Una luz V-16",
+     "uk": "Аварійний маяк V-16"
     },
     {
      "en": "A fire extinguisher",
-     "es": "Un extintor"
+     "es": "Un extintor",
+     "uk": "Вогнегасник"
     }
    ],
    "why": {
     "en": "Reglamento General de Vehículos, Anexo XII, as amended by RD 518/2026. The V-16 is recommended on motorcycles.",
-    "es": "Reglamento General de Vehículos, anexo XII, reformado por el RD 518/2026. La V-16 es recomendable en moto."
+    "es": "Reglamento General de Vehículos, anexo XII, reformado por el RD 518/2026. La V-16 es recomendable en moto.",
+    "uk": "Загальний регламент транспортних засобів, додаток XII, у редакції RD 518/2026. V-16 на мотоциклах рекомендований."
    }
   },
   {
@@ -1000,25 +1196,30 @@ window.DGT_DATA = {
    "tag": "access",
    "q": {
     "en": "After a major modification such as fitting a sidecar, what is needed?",
-    "es": "Tras una reforma de importancia, como montar un sidecar, ¿qué hace falta?"
+    "es": "Tras una reforma de importancia, como montar un sidecar, ¿qué hace falta?",
+    "uk": "Що потрібно після суттєвої зміни, як-от установлення коляски?"
    },
    "o": [
     {
      "en": "An extraordinary ITV inspection before riding again",
-     "es": "Una ITV extraordinaria antes de volver a circular"
+     "es": "Una ITV extraordinaria antes de volver a circular",
+     "uk": "Позачерговий техогляд, перш ніж знову виїжджати"
     },
     {
      "en": "Nothing, if the parts are approved",
-     "es": "Nada, si las piezas están homologadas"
+     "es": "Nada, si las piezas están homologadas",
+     "uk": "Нічого, якщо деталі затверджені"
     },
     {
      "en": "Only tell the insurer",
-     "es": "Solo comunicarlo a la aseguradora"
+     "es": "Solo comunicarlo a la aseguradora",
+     "uk": "Лише повідомити страховика"
     }
    ],
    "why": {
     "en": "Topic 9.",
-    "es": "Tema 9."
+    "es": "Tema 9.",
+    "uk": "Тема 9."
    }
   },
   {
@@ -1026,25 +1227,30 @@ window.DGT_DATA = {
    "tag": "access",
    "q": {
     "en": "Which of these can you do yourself with general mechanical knowledge?",
-    "es": "¿Cuál de estas tareas puedes hacer tú con conocimientos mecánicos generales?"
+    "es": "¿Cuál de estas tareas puedes hacer tú con conocimientos mecánicos generales?",
+    "uk": "Що з цього можна зробити самому із загальними знаннями механіки?"
    },
    "o": [
     {
      "en": "Adjust the chain and clean the air filter",
-     "es": "Ajustar la cadena y limpiar el filtro del aire"
+     "es": "Ajustar la cadena y limpiar el filtro del aire",
+     "uk": "Відрегулювати ланцюг і почистити повітряний фільтр"
     },
     {
      "en": "Rebuild the gearbox",
-     "es": "Reconstruir la caja de cambios"
+     "es": "Reconstruir la caja de cambios",
+     "uk": "Перебрати коробку передач"
     },
     {
      "en": "Reprogram the injection",
-     "es": "Reprogramar la inyección"
+     "es": "Reprogramar la inyección",
+     "uk": "Перепрограмувати упорскування"
     }
    ],
    "why": {
     "en": "Also adjust the pedals, tighten some nuts and bolts and grease the main parts.",
-    "es": "También ajustar los pedales, apretar algunas tuercas y tornillos y engrasar las piezas fundamentales."
+    "es": "También ajustar los pedales, apretar algunas tuercas y tornillos y engrasar las piezas fundamentales.",
+    "uk": "Також відрегулювати педалі, підтягнути деякі гайки й болти та змастити головні частини."
    }
   },
   {
@@ -1052,25 +1258,30 @@ window.DGT_DATA = {
    "tag": "access",
    "q": {
     "en": "After riding in the rain, which of these should you grease?",
-    "es": "Tras circular con lluvia, ¿cuál de estos elementos debes engrasar?"
+    "es": "Tras circular con lluvia, ¿cuál de estos elementos debes engrasar?",
+    "uk": "Що з цього треба змастити після їзди під дощем?"
    },
    "o": [
     {
      "en": "The chain, the clutch and brake levers, and the stands",
-     "es": "La cadena, las manetas de embrague y frenos y los caballetes"
+     "es": "La cadena, las manetas de embrague y frenos y los caballetes",
+     "uk": "Ланцюг, важелі зчеплення й гальма та підніжки"
     },
     {
      "en": "The brake discs",
-     "es": "Los discos de freno"
+     "es": "Los discos de freno",
+     "uk": "Гальмівні диски"
     },
     {
      "en": "The tyres",
-     "es": "Los neumáticos"
+     "es": "Los neumáticos",
+     "uk": "Шини"
     }
    ],
    "why": {
     "en": "Also the throttle and starter cables, the pedals and the cable ends. Never grease brake discs or tyres.",
-    "es": "También los cables del acelerador y del estárter, los pedales y los extremos de los cables. Nunca se engrasan discos ni neumáticos."
+    "es": "También los cables del acelerador y del estárter, los pedales y los extremos de los cables. Nunca se engrasan discos ni neumáticos.",
+    "uk": "Також троси газу й підсосу, педалі й кінці тросів. Ніколи не змащуйте гальмівні диски чи шини."
    }
   },
   {
@@ -1078,25 +1289,30 @@ window.DGT_DATA = {
    "tag": "faults",
    "q": {
     "en": "The engine won’t start. Which is a possible cause?",
-    "es": "El motor no arranca. ¿Cuál es una posible causa?"
+    "es": "El motor no arranca. ¿Cuál es una posible causa?",
+    "uk": "Двигун не заводиться. Яка можлива причина?"
    },
    "o": [
     {
      "en": "A flat battery or bad connections",
-     "es": "Batería descargada o problema en las conexiones"
+     "es": "Batería descargada o problema en las conexiones",
+     "uk": "Розряджений акумулятор чи погані контакти"
     },
     {
      "en": "Worn tyres",
-     "es": "Neumáticos gastados"
+     "es": "Neumáticos gastados",
+     "uk": "Зношені шини"
     },
     {
      "en": "A loose mirror",
-     "es": "Un espejo suelto"
+     "es": "Un espejo suelto",
+     "uk": "Розхитане дзеркало"
     }
    ],
    "why": {
     "en": "Also a spark plug in poor condition, no fuel, or a faulty starter button or key.",
-    "es": "También bujía en malas condiciones, que no llegue combustible o fallo en el pulsador o la llave."
+    "es": "También bujía en malas condiciones, que no llegue combustible o fallo en el pulsador o la llave.",
+    "uk": "Також свічка в поганому стані, немає пального чи несправна кнопка пуску чи ключ."
    }
   },
   {
@@ -1104,25 +1320,30 @@ window.DGT_DATA = {
    "tag": "faults",
    "q": {
     "en": "The clutch is hard to disengage. What may be the cause?",
-    "es": "Cuesta desembragar. ¿Cuál puede ser la causa?"
+    "es": "Cuesta desembragar. ¿Cuál puede ser la causa?",
+    "uk": "Зчеплення важко вимкнути. Яка може бути причина?"
    },
    "o": [
     {
      "en": "Oil in poor condition, too thick, or too much oil",
-     "es": "Aceite en mal estado, muy viscoso o exceso de nivel"
+     "es": "Aceite en mal estado, muy viscoso o exceso de nivel",
+     "uk": "Олива в поганому стані, надто густа чи її забагато"
     },
     {
      "en": "Low tyre pressure",
-     "es": "Poca presión en los neumáticos"
+     "es": "Poca presión en los neumáticos",
+     "uk": "Низький тиск у шинах"
     },
     {
      "en": "A dirty visor",
-     "es": "Una visera sucia"
+     "es": "Una visera sucia",
+     "uk": "Брудний візор"
     }
    ],
    "why": {
     "en": "On many motorcycles the clutch works in the engine oil.",
-    "es": "En muchas motos el embrague trabaja en el aceite del motor."
+    "es": "En muchas motos el embrague trabaja en el aceite del motor.",
+    "uk": "На багатьох мотоциклах зчеплення працює в моторній оливі."
    }
   },
   {
@@ -1130,25 +1351,30 @@ window.DGT_DATA = {
    "tag": "faults",
    "q": {
     "en": "The exhaust gives off bluish-white smoke. What does it mean?",
-    "es": "El escape echa humo blanco azulado. ¿Qué indica?"
+    "es": "El escape echa humo blanco azulado. ¿Qué indica?",
+    "uk": "З вихлопу йде синювато-білий дим. Що це означає?"
    },
    "o": [
     {
      "en": "The engine is burning too much oil",
-     "es": "Consumo excesivo de aceite"
+     "es": "Consumo excesivo de aceite",
+     "uk": "Двигун спалює забагато оливи"
     },
     {
      "en": "Too much fuel",
-     "es": "Consumo excesivo de combustible"
+     "es": "Consumo excesivo de combustible",
+     "uk": "Забагато пального"
     },
     {
      "en": "Condensed water evaporating",
-     "es": "Evaporación del agua condensada"
+     "es": "Evaporación del agua condensada",
+     "uk": "Випаровується конденсат"
     }
    ],
    "why": {
     "en": "Black smoke: too much fuel. White: condensed water.",
-    "es": "Humo negro: exceso de combustible. Blanco: agua condensada."
+    "es": "Humo negro: exceso de combustible. Blanco: agua condensada.",
+    "uk": "Чорний дим — забагато пального. Білий — конденсат."
    }
   },
   {
@@ -1156,25 +1382,30 @@ window.DGT_DATA = {
    "tag": "faults",
    "q": {
     "en": "What does black exhaust smoke indicate?",
-    "es": "¿Qué indica el humo negro del escape?"
+    "es": "¿Qué indica el humo negro del escape?",
+    "uk": "Про що свідчить чорний дим із вихлопу?"
    },
    "o": [
     {
      "en": "Excessive fuel consumption",
-     "es": "Consumo excesivo de combustible"
+     "es": "Consumo excesivo de combustible",
+     "uk": "Про надмірну витрату пального"
     },
     {
      "en": "Excessive oil consumption",
-     "es": "Consumo excesivo de aceite"
+     "es": "Consumo excesivo de aceite",
+     "uk": "Про надмірну витрату оливи"
     },
     {
      "en": "A cold morning",
-     "es": "Una mañana fría"
+     "es": "Una mañana fría",
+     "uk": "Про холодний ранок"
     }
    ],
    "why": {
     "en": "Too much fuel or too little air.",
-    "es": "Exceso de combustible o falta de aire."
+    "es": "Exceso de combustible o falta de aire.",
+    "uk": "Забагато пального чи замало повітря."
    }
   },
   {
@@ -1182,25 +1413,30 @@ window.DGT_DATA = {
    "tag": "faults",
    "q": {
     "en": "White smoke when you start on a cold morning. What is it?",
-    "es": "Humo blanco al arrancar una mañana fría. ¿Qué es?"
+    "es": "Humo blanco al arrancar una mañana fría. ¿Qué es?",
+    "uk": "Білий дим, коли заводите холодного ранку. Що це?"
    },
    "o": [
     {
      "en": "Condensed water in the exhaust evaporating",
-     "es": "Evaporación del agua condensada en el tubo de escape"
+     "es": "Evaporación del agua condensada en el tubo de escape",
+     "uk": "Випаровується конденсат у вихлопній системі"
     },
     {
      "en": "A serious oil leak",
-     "es": "Una fuga grave de aceite"
+     "es": "Una fuga grave de aceite",
+     "uk": "Серйозний витік оливи"
     },
     {
      "en": "Too much fuel",
-     "es": "Exceso de combustible"
+     "es": "Exceso de combustible",
+     "uk": "Забагато пального"
     }
    ],
    "why": {
     "en": "If it goes on with the engine warm, have it checked.",
-    "es": "Si sigue con el motor caliente, hay que revisarlo."
+    "es": "Si sigue con el motor caliente, hay que revisarlo.",
+    "uk": "Якщо він не зникає на прогрітому двигуні, перевірте мотоцикл."
    }
   },
   {
@@ -1208,25 +1444,30 @@ window.DGT_DATA = {
    "tag": "faults",
    "q": {
     "en": "The motorcycle feels unstable. Which is a possible cause?",
-    "es": "La moto va inestable. ¿Cuál es una posible causa?"
+    "es": "La moto va inestable. ¿Cuál es una posible causa?",
+    "uk": "Мотоцикл нестійкий. Яка можлива причина?"
    },
    "o": [
     {
      "en": "Low tyre pressure, a misaligned wheel, a bent rim or a steering head too tight",
-     "es": "Poca presión, rueda desalineada, llanta torcida o tija de dirección demasiado apretada"
+     "es": "Poca presión, rueda desalineada, llanta torcida o tija de dirección demasiado apretada",
+     "uk": "Низький тиск у шинах, неспіввісне колесо, погнутий обід чи надто туга рульова колонка"
     },
     {
      "en": "A dirty air filter",
-     "es": "Un filtro del aire sucio"
+     "es": "Un filtro del aire sucio",
+     "uk": "Брудний повітряний фільтр"
     },
     {
      "en": "A flat battery",
-     "es": "Una batería descargada"
+     "es": "Una batería descargada",
+     "uk": "Розряджений акумулятор"
     }
    ],
    "why": {
     "en": "Also uneven tyre wear.",
-    "es": "También un desgaste desigual de los neumáticos."
+    "es": "También un desgaste desigual de los neumáticos.",
+    "uk": "Також нерівномірний знос шин."
    }
   },
   {
@@ -1234,25 +1475,30 @@ window.DGT_DATA = {
    "tag": "faults",
    "q": {
     "en": "The engine overheats. Which is a possible cause?",
-    "es": "El motor se recalienta. ¿Cuál es una posible causa?"
+    "es": "El motor se recalienta. ¿Cuál es una posible causa?",
+    "uk": "Двигун перегрівається. Яка можлива причина?"
    },
    "o": [
     {
      "en": "Low coolant level",
-     "es": "Nivel de refrigerante bajo"
+     "es": "Nivel de refrigerante bajo",
+     "uk": "Низький рівень охолоджувальної рідини"
     },
     {
      "en": "New tyres",
-     "es": "Neumáticos nuevos"
+     "es": "Neumáticos nuevos",
+     "uk": "Нові шини"
     },
     {
      "en": "A full fuel tank",
-     "es": "El depósito lleno"
+     "es": "El depósito lleno",
+     "uk": "Повний паливний бак"
     }
    ],
    "why": {
     "en": "Also a wrong or dirty spark plug, a dirty air filter, lubrication problems or a low float-bowl level.",
-    "es": "También bujía inapropiada o sucia, filtro del aire en mal estado, problemas de lubricación o nivel bajo en la cuba del carburador."
+    "es": "También bujía inapropiada o sucia, filtro del aire en mal estado, problemas de lubricación o nivel bajo en la cuba del carburador.",
+    "uk": "Також невідповідна чи брудна свічка, брудний повітряний фільтр, проблеми змащення чи низький рівень у поплавковій камері."
    }
   },
   {
@@ -1260,25 +1506,30 @@ window.DGT_DATA = {
    "tag": "faults",
    "q": {
     "en": "The engine runs badly at low speed. What may be wrong?",
-    "es": "El motor falla a baja velocidad. ¿Qué puede ocurrir?"
+    "es": "El motor falla a baja velocidad. ¿Qué puede ocurrir?",
+    "uk": "Двигун погано працює на малих обертах. Що може бути не так?"
    },
    "o": [
     {
      "en": "The air filter is blocked or the carburettor is dirty",
-     "es": "El filtro del aire está obstruido o el carburador sucio"
+     "es": "El filtro del aire está obstruido o el carburador sucio",
+     "uk": "Забитий повітряний фільтр чи брудний карбюратор"
     },
     {
      "en": "The tyres are too hard",
-     "es": "Los neumáticos están muy duros"
+     "es": "Los neumáticos están muy duros",
+     "uk": "Надто тверді шини"
     },
     {
      "en": "The chain is too greased",
-     "es": "La cadena tiene demasiada grasa"
+     "es": "La cadena tiene demasiada grasa",
+     "uk": "Ланцюг надто змащений"
     }
    ],
    "why": {
     "en": "Or the air–petrol mixture is wrong.",
-    "es": "O la mezcla de aire y gasolina es incorrecta."
+    "es": "O la mezcla de aire y gasolina es incorrecta.",
+    "uk": "Або неправильна суміш повітря й бензину."
    }
   },
   {
@@ -1286,25 +1537,30 @@ window.DGT_DATA = {
    "tag": "faults",
    "q": {
     "en": "The motorcycle loses power at high speed. Which is a possible cause?",
-    "es": "La moto pierde potencia a alta velocidad. ¿Cuál es una posible causa?"
+    "es": "La moto pierde potencia a alta velocidad. ¿Cuál es una posible causa?",
+    "uk": "Мотоцикл втрачає потужність на великій швидкості. Яка можлива причина?"
    },
    "o": [
     {
      "en": "A dragging brake or a dirty spark plug",
-     "es": "Rozamiento del freno o una bujía sucia"
+     "es": "Rozamiento del freno o una bujía sucia",
+     "uk": "Гальмо, що підгальмовує, чи брудна свічка"
     },
     {
      "en": "A loose mirror",
-     "es": "Un espejo suelto"
+     "es": "Un espejo suelto",
+     "uk": "Розхитане дзеркало"
     },
     {
      "en": "A new battery",
-     "es": "Una batería nueva"
+     "es": "Una batería nueva",
+     "uk": "Новий акумулятор"
     }
    ],
    "why": {
     "en": "Also a dirty air filter, blocked jets, a wrong fuel level in the carburettor, or pre-ignition.",
-    "es": "También filtro del aire en mal estado, surtidor atascado, nivel inadecuado en el carburador o autoencendido."
+    "es": "También filtro del aire en mal estado, surtidor atascado, nivel inadecuado en el carburador o autoencendido.",
+    "uk": "Також брудний повітряний фільтр, забиті жиклери, неправильний рівень пального в карбюраторі чи передчасне запалювання."
    }
   },
   {
@@ -1312,25 +1568,30 @@ window.DGT_DATA = {
    "tag": "engine",
    "q": {
     "en": "What are the four phases of the engine cycle?",
-    "es": "¿Cuáles son las cuatro fases del ciclo del motor?"
+    "es": "¿Cuáles son las cuatro fases del ciclo del motor?",
+    "uk": "Які чотири фази робочого циклу двигуна?"
    },
    "o": [
     {
      "en": "Intake, compression, explosion and exhaust",
-     "es": "Admisión, compresión, explosión y escape"
+     "es": "Admisión, compresión, explosión y escape",
+     "uk": "Впуск, стиснення, вибух і випуск"
     },
     {
      "en": "Start, run, brake and stop",
-     "es": "Arranque, marcha, frenada y parada"
+     "es": "Arranque, marcha, frenada y parada",
+     "uk": "Пуск, хід, гальмування й зупинка"
     },
     {
      "en": "Fuel, oil, water and air",
-     "es": "Combustible, aceite, agua y aire"
+     "es": "Combustible, aceite, agua y aire",
+     "uk": "Пальне, олива, вода й повітря"
     }
    ],
    "why": {
     "en": "A two-stroke does them in two piston movements, a four-stroke in four.",
-    "es": "El de dos tiempos las hace en dos movimientos del pistón; el de cuatro, en cuatro."
+    "es": "El de dos tiempos las hace en dos movimientos del pistón; el de cuatro, en cuatro.",
+    "uk": "Двотактний виконує їх за два рухи поршня, чотиритактний — за чотири."
    }
   },
   {
@@ -1338,25 +1599,30 @@ window.DGT_DATA = {
    "tag": "engine",
    "q": {
     "en": "In a four-stroke engine, what is the fuel mixture made of?",
-    "es": "En un motor de cuatro tiempos, ¿de qué se compone la mezcla de combustible?"
+    "es": "En un motor de cuatro tiempos, ¿de qué se compone la mezcla de combustible?",
+    "uk": "Із чого складається паливна суміш чотиритактного двигуна?"
    },
    "o": [
     {
      "en": "Air and petrol",
-     "es": "Aire y gasolina"
+     "es": "Aire y gasolina",
+     "uk": "З повітря й бензину"
     },
     {
      "en": "Air, petrol and oil",
-     "es": "Aire, gasolina y aceite"
+     "es": "Aire, gasolina y aceite",
+     "uk": "З повітря, бензину й оливи"
     },
     {
      "en": "Petrol and water",
-     "es": "Gasolina y agua"
+     "es": "Gasolina y agua",
+     "uk": "З бензину й води"
     }
    ],
    "why": {
     "en": "Its oil stays in the crankcase. Your course’s introduction has this the wrong way round.",
-    "es": "Su aceite se queda en el cárter. La introducción de tu curso lo dice al revés."
+    "es": "Su aceite se queda en el cárter. La introducción de tu curso lo dice al revés.",
+    "uk": "Його олива лишається в картері. У вступі вашого курсу це навпаки."
    }
   },
   {
@@ -1364,25 +1630,30 @@ window.DGT_DATA = {
    "tag": "fuel",
    "q": {
     "en": "Which system is replacing the carburettor on modern motorcycles?",
-    "es": "¿Qué sistema está sustituyendo al carburador en las motos modernas?"
+    "es": "¿Qué sistema está sustituyendo al carburador en las motos modernas?",
+    "uk": "Яка система замінює карбюратор на сучасних мотоциклах?"
    },
    "o": [
     {
      "en": "Electronic injection",
-     "es": "La inyección electrónica"
+     "es": "La inyección electrónica",
+     "uk": "Електронне упорскування"
     },
     {
      "en": "The turbine",
-     "es": "La turbina"
+     "es": "La turbina",
+     "uk": "Турбіна"
     },
     {
      "en": "The cardan",
-     "es": "El cardan"
+     "es": "El cardan",
+     "uk": "Кардан"
     }
    ],
    "why": {
     "en": "Sensors give each cylinder the exact amount of fuel.",
-    "es": "Unos sensores dan a cada cilindro la cantidad precisa de combustible."
+    "es": "Unos sensores dan a cada cilindro la cantidad precisa de combustible.",
+    "uk": "Датчики дають кожному циліндру точну кількість пального."
    }
   },
   {
@@ -1390,25 +1661,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "Why check the oil with the motorcycle upright rather than on its side stand?",
-    "es": "¿Por qué comprobar el aceite con la moto vertical y no sobre la pata de cabra?"
+    "es": "¿Por qué comprobar el aceite con la moto vertical y no sobre la pata de cabra?",
+    "uk": "Чому оливу перевіряють, коли мотоцикл стоїть рівно, а не на бічній підніжці?"
    },
    "o": [
     {
      "en": "Leaning, the level reads wrong",
-     "es": "Inclinada, el nivel se lee mal"
+     "es": "Inclinada, el nivel se lee mal",
+     "uk": "Коли він нахилений, рівень показується хибно"
     },
     {
      "en": "The engine could start",
-     "es": "El motor podría arrancar"
+     "es": "El motor podría arrancar",
+     "uk": "Може завестися двигун"
     },
     {
      "en": "It makes no difference",
-     "es": "Da igual"
+     "es": "Da igual",
+     "uk": "Різниці немає"
     }
    ],
    "why": {
     "en": "Your course says ‘horizontal position’: the motorcycle upright, for example on the centre stand.",
-    "es": "Tu curso dice «posición horizontal»: la moto vertical, por ejemplo sobre el caballete."
+    "es": "Tu curso dice «posición horizontal»: la moto vertical, por ejemplo sobre el caballete.",
+    "uk": "Ваш курс каже «горизонтальне положення»: мотоцикл рівно, наприклад на центральній підніжці."
    }
   },
   {
@@ -1416,25 +1692,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "In forced-air cooling, what moves the air?",
-    "es": "En la refrigeración por aire forzado, ¿qué mueve el aire?"
+    "es": "En la refrigeración por aire forzado, ¿qué mueve el aire?",
+    "uk": "Що жене повітря в примусовому повітряному охолодженні?"
    },
    "o": [
     {
      "en": "A fan or turbine driven by the engine",
-     "es": "Un ventilador o turbina que recibe el movimiento del motor"
+     "es": "Un ventilador o turbina que recibe el movimiento del motor",
+     "uk": "Вентилятор чи турбіна з приводом від двигуна"
     },
     {
      "en": "The coolant pump",
-     "es": "La bomba del refrigerante"
+     "es": "La bomba del refrigerante",
+     "uk": "Насос охолоджувальної рідини"
     },
     {
      "en": "The rider’s body",
-     "es": "El cuerpo del conductor"
+     "es": "El cuerpo del conductor",
+     "uk": "Тіло водія"
     }
    ],
    "why": {
     "en": "Direct air cooling relies on the motorcycle’s movement.",
-    "es": "La refrigeración por aire directo se basa en el movimiento de la moto."
+    "es": "La refrigeración por aire directo se basa en el movimiento de la moto.",
+    "uk": "Пряме повітряне охолодження залежить від руху мотоцикла."
    }
   },
   {
@@ -1442,25 +1723,30 @@ window.DGT_DATA = {
    "tag": "elec",
    "q": {
     "en": "What is battery electrolyte made of?",
-    "es": "¿De qué se compone el electrolito de la batería?"
+    "es": "¿De qué se compone el electrolito de la batería?",
+    "uk": "Із чого складається електроліт акумулятора?"
    },
    "o": [
     {
      "en": "Sulphuric acid and distilled water",
-     "es": "Ácido sulfúrico y agua destilada"
+     "es": "Ácido sulfúrico y agua destilada",
+     "uk": "Із сірчаної кислоти й дистильованої води"
     },
     {
      "en": "Engine oil",
-     "es": "Aceite de motor"
+     "es": "Aceite de motor",
+     "uk": "Із моторної оливи"
     },
     {
      "en": "Coolant",
-     "es": "Líquido refrigerante"
+     "es": "Líquido refrigerante",
+     "uk": "З охолоджувальної рідини"
     }
    ],
    "why": {
     "en": "Top it up with distilled water only.",
-    "es": "Se repone solo con agua destilada."
+    "es": "Se repone solo con agua destilada.",
+    "uk": "Доливайте лише дистильовану воду."
    }
   },
   {
@@ -1468,25 +1754,30 @@ window.DGT_DATA = {
    "tag": "elec",
    "q": {
     "en": "Do all batteries need their electrolyte checked?",
-    "es": "¿Hay que comprobar el electrolito de todas las baterías?"
+    "es": "¿Hay que comprobar el electrolito de todas las baterías?",
+    "uk": "Чи в усіх акумуляторах треба перевіряти електроліт?"
    },
    "o": [
     {
      "en": "No: many batteries today are maintenance-free",
-     "es": "No: hoy muchas baterías no requieren mantenimiento"
+     "es": "No: hoy muchas baterías no requieren mantenimiento",
+     "uk": "Ні: багато сучасних акумуляторів не потребують обслуговування"
     },
     {
      "en": "Yes, every week",
-     "es": "Sí, cada semana"
+     "es": "Sí, cada semana",
+     "uk": "Так, щотижня"
     },
     {
      "en": "Only electric motorcycles have batteries",
-     "es": "Solo las motos eléctricas tienen batería"
+     "es": "Solo las motos eléctricas tienen batería",
+     "uk": "Акумулятори є лише в електромотоциклів"
     }
    ],
    "why": {
     "en": "Where it is needed, check the level regularly.",
-    "es": "Cuando haga falta, se comprueba periódicamente."
+    "es": "Cuando haga falta, se comprueba periódicamente.",
+    "uk": "Де потрібно, регулярно перевіряйте рівень."
    }
   },
   {
@@ -1494,25 +1785,30 @@ window.DGT_DATA = {
    "tag": "trans",
    "q": {
     "en": "What does the gearbox do?",
-    "es": "¿Qué hace la caja de cambios?"
+    "es": "¿Qué hace la caja de cambios?",
+    "uk": "Що робить коробка передач?"
    },
    "o": [
     {
      "en": "Adapts the motorcycle’s pace to what is needed",
-     "es": "Permite adaptar la marcha del vehículo según convenga"
+     "es": "Permite adaptar la marcha del vehículo según convenga",
+     "uk": "Пристосовує темп руху мотоцикла до потреби"
     },
     {
      "en": "Cuts the engine off from the wheel",
-     "es": "Desconecta el motor de la rueda"
+     "es": "Desconecta el motor de la rueda",
+     "uk": "Від’єднує двигун від колеса"
     },
     {
      "en": "Cools the clutch",
-     "es": "Refrigera el embrague"
+     "es": "Refrigera el embrague",
+     "uk": "Охолоджує зчеплення"
     }
    ],
    "why": {
     "en": "Check its lubrication regularly.",
-    "es": "Hay que verificar su lubricado periódicamente."
+    "es": "Hay que verificar su lubricado periódicamente.",
+    "uk": "Регулярно перевіряйте її змащення."
    }
   },
   {
@@ -1520,25 +1816,30 @@ window.DGT_DATA = {
    "tag": "trans",
    "q": {
     "en": "What can a chain that is too tight do?",
-    "es": "¿Qué puede provocar una cadena demasiado tensa?"
+    "es": "¿Qué puede provocar una cadena demasiado tensa?",
+    "uk": "До чого може призвести надто натягнутий ланцюг?"
    },
    "o": [
     {
      "en": "Wear the chain, sprockets and bearings",
-     "es": "Desgastar la cadena, los piñones y los rodamientos"
+     "es": "Desgastar la cadena, los piñones y los rodamientos",
+     "uk": "До зносу ланцюга, зірочок і підшипників"
     },
     {
      "en": "Improve braking",
-     "es": "Mejorar la frenada"
+     "es": "Mejorar la frenada",
+     "uk": "До кращого гальмування"
     },
     {
      "en": "Nothing",
-     "es": "Nada"
+     "es": "Nada",
+     "uk": "Ні до чого"
     }
    ],
    "why": {
     "en": "That is why the slack follows the owner’s manual (usually about 20–30 mm).",
-    "es": "Por eso la holgura se ajusta según el manual (lo habitual, unos 20–30 mm)."
+    "es": "Por eso la holgura se ajusta según el manual (lo habitual, unos 20–30 mm).",
+    "uk": "Тому провисання — за інструкцією власника (зазвичай близько 20–30 мм)."
    }
   },
   {
@@ -1546,25 +1847,30 @@ window.DGT_DATA = {
    "tag": "access",
    "q": {
     "en": "Which of these accessories must be approved if you fit it?",
-    "es": "¿Cuál de estos accesorios debe estar homologado si lo instalas?"
+    "es": "¿Cuál de estos accesorios debe estar homologado si lo instalas?",
+    "uk": "Яке з цього приладдя має бути затвердженим, якщо ви його ставите?"
    },
    "o": [
     {
      "en": "All of them: racks, fairings, mirrors, exhausts, shock absorbers…",
-     "es": "Todos: portaequipajes, carenados, retrovisores, escapes, amortiguadores…"
+     "es": "Todos: portaequipajes, carenados, retrovisores, escapes, amortiguadores…",
+     "uk": "Усе: багажники, обтічники, дзеркала, глушники, амортизатори…"
     },
     {
      "en": "Only the exhaust",
-     "es": "Solo el escape"
+     "es": "Solo el escape",
+     "uk": "Лише глушник"
     },
     {
      "en": "None, if the manufacturer made it",
-     "es": "Ninguno, si es del fabricante"
+     "es": "Ninguno, si es del fabricante",
+     "uk": "Жодне, якщо його зробив виробник"
     }
    ],
    "why": {
     "en": "Whether it is the manufacturer’s or another make.",
-    "es": "Sea del propio fabricante u otro."
+    "es": "Sea del propio fabricante u otro.",
+    "uk": "Чи від виробника, чи від іншої марки."
    }
   },
   {
@@ -1572,25 +1878,30 @@ window.DGT_DATA = {
    "tag": "access",
    "q": {
     "en": "Which nuts and bolts can you check yourself?",
-    "es": "¿Qué tuercas y tornillos puedes revisar tú mismo?"
+    "es": "¿Qué tuercas y tornillos puedes revisar tú mismo?",
+    "uk": "Які гайки й болти можна перевірити самому?"
    },
    "o": [
     {
      "en": "The axle fixings, the steering head, the rear shock and the footrests",
-     "es": "Las fijaciones de los ejes, la tija de dirección, el amortiguador trasero y las estriberas"
+     "es": "Las fijaciones de los ejes, la tija de dirección, el amortiguador trasero y las estriberas",
+     "uk": "Кріплення осей, рульову колонку, задній амортизатор і підніжки"
     },
     {
      "en": "The cylinder head bolts",
-     "es": "Los tornillos de la culata"
+     "es": "Los tornillos de la culata",
+     "uk": "Болти головки циліндра"
     },
     {
      "en": "None: only a workshop can",
-     "es": "Ninguno: solo un taller"
+     "es": "Ninguno: solo un taller",
+     "uk": "Жодних: лише в майстерні"
     }
    ],
    "why": {
     "en": "With general mechanical knowledge, without a specialist workshop.",
-    "es": "Con conocimientos mecánicos generales, sin acudir a un taller especializado."
+    "es": "Con conocimientos mecánicos generales, sin acudir a un taller especializado.",
+    "uk": "Із загальними знаннями механіки, без спеціалізованої майстерні."
    }
   },
   {
@@ -1598,25 +1909,30 @@ window.DGT_DATA = {
    "tag": "faults",
    "q": {
     "en": "Which fault can cause both loss of power and overheating?",
-    "es": "¿Qué fallo puede causar a la vez falta de potencia y recalentamiento?"
+    "es": "¿Qué fallo puede causar a la vez falta de potencia y recalentamiento?",
+    "uk": "Яка несправність може спричинити і втрату потужності, і перегрів?"
    },
    "o": [
     {
      "en": "A wrong, dirty, broken or badly gapped spark plug",
-     "es": "Una bujía inapropiada, sucia, rota o mal ajustada"
+     "es": "Una bujía inapropiada, sucia, rota o mal ajustada",
+     "uk": "Невідповідна, брудна, зламана чи з неправильним зазором свічка"
     },
     {
      "en": "Low tyre pressure",
-     "es": "Poca presión en los neumáticos"
+     "es": "Poca presión en los neumáticos",
+     "uk": "Низький тиск у шинах"
     },
     {
      "en": "A loose mirror",
-     "es": "Un espejo suelto"
+     "es": "Un espejo suelto",
+     "uk": "Розхитане дзеркало"
     }
    ],
    "why": {
     "en": "A dirty air filter also appears in both lists.",
-    "es": "El filtro del aire en mal estado también aparece en las dos listas."
+    "es": "El filtro del aire en mal estado también aparece en las dos listas.",
+    "uk": "Брудний повітряний фільтр теж є в обох списках."
    }
   },
   {
@@ -1624,25 +1940,30 @@ window.DGT_DATA = {
    "tag": "faults",
    "q": {
     "en": "Which of these can make the steering feel heavy and the motorcycle unstable?",
-    "es": "¿Cuál de estos fallos puede hacer la dirección pesada y la moto inestable?"
+    "es": "¿Cuál de estos fallos puede hacer la dirección pesada y la moto inestable?",
+    "uk": "Що з цього може зробити кермо важким, а мотоцикл нестійким?"
    },
    "o": [
     {
      "en": "A steering head that is too tight",
-     "es": "Una tija de dirección demasiado apretada"
+     "es": "Una tija de dirección demasiado apretada",
+     "uk": "Надто туга рульова колонка"
     },
     {
      "en": "A full fuel tank",
-     "es": "Un depósito lleno"
+     "es": "Un depósito lleno",
+     "uk": "Повний паливний бак"
     },
     {
      "en": "New brake pads",
-     "es": "Pastillas de freno nuevas"
+     "es": "Pastillas de freno nuevas",
+     "uk": "Нові гальмівні колодки"
     }
    ],
    "why": {
     "en": "The steering bearings must have no play and no stiffness.",
-    "es": "Los rodamientos de la dirección no deben tener holguras ni agarrotamiento."
+    "es": "Los rodamientos de la dirección no deben tener holguras ni agarrotamiento.",
+    "uk": "Підшипники керма не повинні мати ні люфту, ні тугості."
    }
   }
  ],
@@ -1651,189 +1972,231 @@ window.DGT_DATA = {
    "sec": 1,
    "en": "Chassis, engine and transmission",
    "es": "Chasis, motor y transmisión",
+   "uk": "Рама, двигун і трансмісія",
    "recap": [
     [
      "Frame: steel or aluminium, strong and light; carries everything.",
-     "Bastidor: acero o aluminio, resistente y ligero; soporta todo."
+     "Bastidor: acero o aluminio, resistente y ligero; soporta todo.",
+     "Рама: сталь чи алюміній, міцна й легка; несе все."
     ],
     [
      "Engine: turns energy into mechanical energy; two-stroke or four-stroke.",
-     "Motor: transforma la energía en mecánica; de dos o de cuatro tiempos."
+     "Motor: transforma la energía en mecánica; de dos o de cuatro tiempos.",
+     "Двигун перетворює енергію на механічну; двотактний чи чотиритактний."
     ],
     [
      "Two-stroke: four phases in two piston movements; oil mixed with the petrol.",
-     "Dos tiempos: cuatro fases en dos movimientos; aceite con la gasolina."
+     "Dos tiempos: cuatro fases en dos movimientos; aceite con la gasolina.",
+     "Двотактний: чотири фази за два рухи поршня; олива змішана з бензином."
     ],
     [
      "Four-stroke: four movements; oil in the crankcase. Transmission drives the rear wheel.",
-     "Cuatro tiempos: cuatro movimientos; aceite en el cárter. La transmisión mueve la rueda trasera."
+     "Cuatro tiempos: cuatro movimientos; aceite en el cárter. La transmisión mueve la rueda trasera.",
+     "Чотиритактний: чотири рухи; олива в картері. Трансмісія приводить заднє колесо."
     ]
    ],
    "trap": [
     "Thinking a two-stroke engine uses no oil.",
-    "Pensar que el motor de dos tiempos no lleva aceite."
+    "Pensar que el motor de dos tiempos no lleva aceite.",
+    "Думати, що двотактному двигуну олива не потрібна."
    ]
   },
   "fuel": {
    "sec": 1,
    "en": "Fuel system",
    "es": "Alimentación",
+   "uk": "Система живлення",
    "recap": [
     [
      "Delivers the right amount of air and fuel to the cylinders.",
-     "Hace llegar a los cilindros la cantidad de aire y combustible necesaria."
+     "Hace llegar a los cilindros la cantidad de aire y combustible necesaria.",
+     "Подає в циліндри потрібну кількість повітря й пального."
     ],
     [
      "Air filter: clean air; dirty = more fuel and pollution; change more often in summer and on dust.",
-     "Filtro de aire: aire limpio; sucio = más consumo y contaminación; cambiarlo más en verano y con polvo."
+     "Filtro de aire: aire limpio; sucio = más consumo y contaminación; cambiarlo más en verano y con polvo.",
+     "Повітряний фільтр: чисте повітря; брудний = більше пального й забруднення; міняти частіше влітку й на пилу."
     ],
     [
      "Carburettor makes the mixture; being replaced by electronic injection.",
-     "El carburador hace la mezcla; en desuso frente a la inyección electrónica."
+     "El carburador hace la mezcla; en desuso frente a la inyección electrónica.",
+     "Карбюратор готує суміш; його витісняє електронне упорскування."
     ],
     [
      "Clean the carburettor, clean or change the filter, adjust the idle.",
-     "Limpiar el carburador, limpiar o cambiar el filtro, regular el ralentí."
+     "Limpiar el carburador, limpiar o cambiar el filtro, regular el ralentí.",
+     "Чистити карбюратор, чистити чи міняти фільтр, регулювати холостий хід."
     ]
    ],
    "trap": [
     "Thinking a dirty air filter only affects power, not fuel use.",
-    "Pensar que un filtro sucio solo afecta a la potencia, no al consumo."
+    "Pensar que un filtro sucio solo afecta a la potencia, no al consumo.",
+    "Думати, що брудний повітряний фільтр впливає лише на потужність, а не на витрату пального."
    ]
   },
   "lube": {
    "sec": 1,
    "en": "Lubrication and cooling",
    "es": "Lubricación y refrigeración",
+   "uk": "Змащення й охолодження",
    "recap": [
     [
      "Oil film between metal parts: less friction, less wear.",
-     "Película de aceite entre piezas metálicas: menos rozamiento y desgaste."
+     "Película de aceite entre piezas metálicas: menos rozamiento y desgaste.",
+     "Плівка оливи між металевими деталями: менше тертя, менше зносу."
     ],
     [
      "Four-stroke: check cold, upright, dipstick between MIN and MAX; change warm; filter as the maker says.",
-     "Cuatro tiempos: comprobar en frío, vertical, varilla entre MIN y MAX; cambiar en caliente; filtro según fabricante."
+     "Cuatro tiempos: comprobar en frío, vertical, varilla entre MIN y MAX; cambiar en caliente; filtro según fabricante.",
+     "Чотиритактний: перевіряти на холодному, мотоцикл рівно, щуп між MIN і MAX; міняти на теплому; фільтр — як каже виробник."
     ],
     [
      "Used oil to a collection point, never down the drain.",
-     "Aceite usado a un punto de recogida, nunca a la alcantarilla."
+     "Aceite usado a un punto de recogida, nunca a la alcantarilla.",
+     "Відпрацьовану оливу — у пункт збору, ніколи в каналізацію."
     ],
     [
      "Cooling: air (fins, fan) or liquid (pump, radiator, coolant level).",
-     "Refrigeración: aire (aletas, ventilador) o líquido (bomba, radiador, nivel)."
+     "Refrigeración: aire (aletas, ventilador) o líquido (bomba, radiador, nivel).",
+     "Охолодження: повітряне (ребра, вентилятор) чи рідинне (насос, радіатор, рівень рідини)."
     ]
    ],
    "trap": [
     "Checking the oil with a hot engine, just after riding.",
-    "Comprobar el aceite con el motor caliente, recién llegado."
+    "Comprobar el aceite con el motor caliente, recién llegado.",
+    "Перевіряти оливу на гарячому двигуні, одразу після поїздки."
    ]
   },
   "elec": {
    "sec": 1,
    "en": "Electrical system",
    "es": "Sistema eléctrico",
+   "uk": "Електрична система",
    "recap": [
     [
      "The battery powers the motorcycle while the engine is stopped.",
-     "La batería da energía mientras el motor está parado."
+     "La batería da energía mientras el motor está parado.",
+     "Акумулятор живить мотоцикл, коли двигун не працює."
     ],
     [
      "Starting circuit: an electric motor gives the first turns.",
-     "Circuito de arranque: un motor eléctrico da los primeros giros."
+     "Circuito de arranque: un motor eléctrico da los primeros giros.",
+     "Коло пуску: електродвигун дає перші оберти."
     ],
     [
      "Ignition: the spark plug makes the spark in a petrol engine.",
-     "Encendido: la bujía hace la chispa en el motor de gasolina."
+     "Encendido: la bujía hace la chispa en el motor de gasolina.",
+     "Запалювання: свічка дає іскру в бензиновому двигуні."
     ],
     [
      "Electrolyte: sulphuric acid and distilled water; top up with distilled water only.",
-     "Electrolito: ácido sulfúrico y agua destilada; reponer solo con agua destilada."
+     "Electrolito: ácido sulfúrico y agua destilada; reponer solo con agua destilada.",
+     "Електроліт: сірчана кислота й дистильована вода; доливати лише дистильовану воду."
     ]
    ],
    "trap": [
     "Topping up a battery with tap water.",
-    "Rellenar la batería con agua del grifo."
+    "Rellenar la batería con agua del grifo.",
+    "Доливати в акумулятор воду з-під крана."
    ]
   },
   "trans": {
    "sec": 1,
    "en": "Transmission, steering and suspension",
    "es": "Transmisión, dirección y suspensión",
+   "uk": "Трансмісія, кермування й підвіска",
    "recap": [
     [
      "Clutch, gearbox, and chain, belt or shaft to the rear wheel.",
-     "Embrague, caja de cambios y cadena, correa o cardan a la rueda trasera."
+     "Embrague, caja de cambios y cadena, correa o cardan a la rueda trasera.",
+     "Зчеплення, коробка передач і ланцюг, пас чи вал до заднього колеса."
     ],
     [
      "Chain: tension and grease regularly, especially after rain.",
-     "Cadena: tensar y engrasar periódicamente, sobre todo tras la lluvia."
+     "Cadena: tensar y engrasar periódicamente, sobre todo tras la lluvia.",
+     "Ланцюг: регулярно натягувати й змащувати, особливо після дощу."
     ],
     [
      "Shaft: little maintenance, oil every 10,000–15,000 km (course).",
-     "Cardan: poco mantenimiento, aceite cada 10.000–15.000 km (curso)."
+     "Cardan: poco mantenimiento, aceite cada 10.000–15.000 km (curso).",
+     "Вал: мало обслуговування, олива кожні 10 000–15 000 км (курс)."
     ],
     [
      "Steering bearings without play or stiffness; check the shock absorbers.",
-     "Rodamientos de la dirección sin holgura ni agarrotamiento; revisar los amortiguadores."
+     "Rodamientos de la dirección sin holgura ni agarrotamiento; revisar los amortiguadores.",
+     "Підшипники керма без люфту й тугості; перевіряйте амортизатори."
     ]
    ],
    "trap": [
     "Thinking a shaft drive needs greasing like a chain after rain.",
-    "Pensar que el cardan hay que engrasarlo como la cadena tras la lluvia."
+    "Pensar que el cardan hay que engrasarlo como la cadena tras la lluvia.",
+    "Думати, що карданний вал треба змащувати після дощу, як ланцюг."
    ]
   },
   "access": {
    "sec": 1,
    "en": "Accessories, spares and maintenance",
    "es": "Accesorios, repuestos y mantenimiento",
+   "uk": "Приладдя, запчастини й обслуговування",
    "recap": [
     [
      "Every accessory must be approved; major modifications need an ITV.",
-     "Todo accesorio debe estar homologado; las reformas de importancia, ITV."
+     "Todo accesorio debe estar homologado; las reformas de importancia, ITV.",
+     "Усе приладдя має бути затвердженим; суттєві зміни потребують техогляду."
     ],
     [
      "No spare part is compulsory; spare bulbs recommended.",
-     "Ningún repuesto es obligatorio; lámparas de repuesto recomendables."
+     "Ningún repuesto es obligatorio; lámparas de repuesto recomendables.",
+     "Жодна запчастина не обов’язкова; запасні лампи рекомендовані."
     ],
     [
      "Since 1-10-2026 a motorcycle must carry a high-visibility vest.",
-     "Desde el 1-10-2026 la moto debe llevar chaleco de alta visibilidad."
+     "Desde el 1-10-2026 la moto debe llevar chaleco de alta visibilidad.",
+     "З 1.10.2026 мотоцикл мусить возити світловідбивний жилет."
     ],
     [
      "After rain grease: chain, cables, levers, pedals, cable ends, stands.",
-     "Tras la lluvia engrasar: cadena, cables, manetas, pedales, extremos de cables, caballetes."
+     "Tras la lluvia engrasar: cadena, cables, manetas, pedales, extremos de cables, caballetes.",
+     "Після дощу змастіть: ланцюг, троси, важелі, педалі, кінці тросів, підніжки."
     ]
    ],
    "trap": [
     "Thinking a motorcycle must carry spare bulbs.",
-    "Pensar que la moto debe llevar lámparas de repuesto obligatoriamente."
+    "Pensar que la moto debe llevar lámparas de repuesto obligatoriamente.",
+    "Думати, що мотоцикл мусить возити запасні лампи."
    ]
   },
   "faults": {
    "sec": 1,
    "en": "Breakdowns",
    "es": "Averías",
+   "uk": "Несправності",
    "recap": [
     [
      "Won’t start: battery, spark plug, no fuel, starter button or key.",
-     "No arranca: batería, bujía, no llega combustible, pulsador o llave."
+     "No arranca: batería, bujía, no llega combustible, pulsador o llave.",
+     "Не заводиться: акумулятор, свічка, немає пального, кнопка пуску чи ключ."
     ],
     [
      "Clutch drags: oil in poor condition, too thick or too much.",
-     "Problemas al desembragar: aceite en mal estado, muy viscoso o exceso."
+     "Problemas al desembragar: aceite en mal estado, muy viscoso o exceso.",
+     "Зчеплення веде: олива в поганому стані, надто густа чи її забагато."
     ],
     [
      "Smoke: black fuel, bluish white oil, white condensed water.",
-     "Humo: negro combustible, blanco azulado aceite, blanco agua condensada."
+     "Humo: negro combustible, blanco azulado aceite, blanco agua condensada.",
+     "Дим: чорний — пальне, синювато-білий — олива, білий — конденсат."
     ],
     [
      "Unstable: tyres, wheel alignment, rim, steering head too tight. Overheating: plug, filter, coolant, lubrication.",
-     "Inestable: neumáticos, alineación, llanta, tija apretada. Recalentamiento: bujía, filtro, refrigerante, lubricación."
+     "Inestable: neumáticos, alineación, llanta, tija apretada. Recalentamiento: bujía, filtro, refrigerante, lubricación.",
+     "Нестійкий: шини, співвісність коліс, обід, туга рульова колонка. Перегрів: свічка, фільтр, рідина, змащення."
     ]
    ],
    "trap": [
     "Thinking bluish-white smoke means too much fuel.",
-    "Pensar que el humo blanco azulado indica exceso de combustible."
+    "Pensar que el humo blanco azulado indica exceso de combustible.",
+    "Думати, що синювато-білий дим означає забагато пального."
    ]
   }
  }

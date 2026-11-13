@@ -2,6 +2,10 @@
 window.DGT_DATA = {
  "topic": "b-06",
  "category": "b",
+ "langs": [
+  "en",
+  "es"
+ ],
  "title": {
   "en": "Topic 6 · Carrying people and goods",
   "es": "Tema 6 · Transporte de personas y mercancías"

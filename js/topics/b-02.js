@@ -2,6 +2,10 @@
 window.DGT_DATA = {
  "topic": "b-02",
  "category": "b",
+ "langs": [
+  "en",
+  "es"
+ ],
  "title": {
   "en": "Topic 2 · Use of the road",
   "es": "Tema 2 · Uso de las vías"

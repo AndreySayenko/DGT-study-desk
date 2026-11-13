@@ -2,6 +2,10 @@
 window.DGT_DATA = {
  "topic": "b-03",
  "category": "b",
+ "langs": [
+  "en",
+  "es"
+ ],
  "title": {
   "en": "Topic 3 · Speed",
   "es": "Tema 3 · La velocidad"
