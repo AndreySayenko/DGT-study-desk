@@ -231,7 +231,7 @@ def categories(lang):
     for t in (0, 0.75, 3.5, 5, 10, 12):
         p.append(f'<line x1="{X(t)}" y1="{ay-4}" x2="{X(t)}" y2="{ay+4}" stroke="{SLATE}" stroke-width="1.5"/>')
         p.append(txt(X(t), ay + 18, ("%g" % t), 10.5, 600, SLATE, "middle"))
-    p.append(txt(X(14) + 18, ay + 36, T["unit"], 10.5, 400, SLATE, "end"))
+    p.append(txt(716, ay + 36, T["unit"], 10.5, 400, SLATE, "end"))   # inside the 720 canvas
     return svg(720, 300, "".join(p), "Vehicle categories M, N and O by mass")
 
 

@@ -4,11 +4,13 @@ window.DGT_DATA = {
  "category": "b",
  "langs": [
   "en",
-  "es"
+  "es",
+  "uk"
  ],
  "title": {
   "en": "Topic 4 · Priority",
-  "es": "Tema 4 · La prioridad"
+  "es": "Tema 4 · La prioridad",
+  "uk": "Тема 4 · Перевага в русі"
  },
  "bank": [
   {
@@ -16,25 +18,30 @@ window.DGT_DATA = {
    "tag": "signed",
    "q": {
     "en": "Priority (preferencia de paso) is…",
-    "es": "La prioridad o preferencia de paso es…"
+    "es": "La prioridad o preferencia de paso es…",
+    "uk": "Перевага в русі (preferencia de paso) — це…"
    },
    "o": [
     {
      "en": "the right to go before another road user at a junction or where your paths cross",
-     "es": "el derecho a pasar antes que otro usuario en las intersecciones o cuando se cruzan sus trayectorias"
+     "es": "el derecho a pasar antes que otro usuario en las intersecciones o cuando se cruzan sus trayectorias",
+     "uk": "право проїхати раніше за іншого учасника руху на перехресті чи там, де перетинаються ваші шляхи"
     },
     {
      "en": "the duty to stop at every junction",
-     "es": "la obligación de detenerse en todas las intersecciones"
+     "es": "la obligación de detenerse en todas las intersecciones",
+     "uk": "обов’язок зупинятися на кожному перехресті"
     },
     {
      "en": "the right to drive faster than others",
-     "es": "el derecho a circular más rápido que los demás"
+     "es": "el derecho a circular más rápido que los demás",
+     "uk": "право їхати швидше за інших"
     }
    ],
    "why": {
     "en": "A junction is where vehicle paths cross at the same level.",
-    "es": "Una intersección es donde las trayectorias se cruzan a nivel."
+    "es": "Una intersección es donde las trayectorias se cruzan a nivel.",
+    "uk": "Перехрестя — місце, де шляхи ТЗ перетинаються в одному рівні."
    }
   },
   {
@@ -42,25 +49,30 @@ window.DGT_DATA = {
    "tag": "signed",
    "q": {
     "en": "At a give-way sign, you give way to vehicles on the priority road coming from…",
-    "es": "Ante una señal de ceda el paso, se cede a los vehículos de la vía preferente que vienen…"
+    "es": "Ante una señal de ceda el paso, se cede a los vehículos de la vía preferente que vienen…",
+    "uk": "Біля знака «Дати дорогу» ви поступаєтеся ТЗ на головній дорозі, що наближаються…"
    },
    "o": [
     {
      "en": "either side",
-     "es": "por cualquiera de los dos lados"
+     "es": "por cualquiera de los dos lados",
+     "uk": "з будь-якого боку"
     },
     {
      "en": "the right only",
-     "es": "solo por la derecha"
+     "es": "solo por la derecha",
+     "uk": "лише праворуч"
     },
     {
      "en": "the left only",
-     "es": "solo por la izquierda"
+     "es": "solo por la izquierda",
+     "uk": "лише ліворуч"
     }
    ],
    "why": {
     "en": "Whichever side they approach from.",
-    "es": "Cualquiera que sea el lado por el que se aproximen."
+    "es": "Cualquiera que sea el lado por el que se aproximen.",
+    "uk": "Хоч з якого боку вони наближаються."
    }
   },
   {
@@ -68,25 +80,30 @@ window.DGT_DATA = {
    "tag": "signed",
    "q": {
     "en": "Where do you stop at a STOP sign if there is no stop line?",
-    "es": "¿Dónde te detienes en un stop si no hay línea de detención?"
+    "es": "¿Dónde te detienes en un stop si no hay línea de detención?",
+    "uk": "Де зупинятися біля знака STOP, якщо немає стоп-лінії?"
    },
    "o": [
     {
      "en": "Immediately before the junction",
-     "es": "Inmediatamente antes de la intersección"
+     "es": "Inmediatamente antes de la intersección",
+     "uk": "Безпосередньо перед перехрестям"
     },
     {
      "en": "Next to the sign, wherever it is",
-     "es": "Junto a la señal, esté donde esté"
+     "es": "Junto a la señal, esté donde esté",
+     "uk": "Біля знака, хоч де він стоїть"
     },
     {
      "en": "Inside the junction, where you can see",
-     "es": "Dentro de la intersección, donde se vea"
+     "es": "Dentro de la intersección, donde se vea",
+     "uk": "На перехресті, звідки видно"
     }
    ],
    "why": {
     "en": "With a line, you stop at the line.",
-    "es": "Si hay línea, ante la línea."
+    "es": "Si hay línea, ante la línea.",
+    "uk": "Якщо лінія є — зупиняються біля лінії."
    }
   },
   {
@@ -94,25 +111,30 @@ window.DGT_DATA = {
    "tag": "signed",
    "q": {
     "en": "You have stopped at a STOP line but cannot see the priority road well. What do you do?",
-    "es": "Te has detenido en la línea de un stop pero no ves bien la vía preferente. ¿Qué haces?"
+    "es": "Te has detenido en la línea de un stop pero no ves bien la vía preferente. ¿Qué haces?",
+    "uk": "Ви зупинилися на стоп-лінії біля знака STOP, але погано бачите головну дорогу. Що робите?"
    },
    "o": [
     {
      "en": "Stop again where you can see, without endangering anyone",
-     "es": "Detenerme de nuevo donde tenga visibilidad, sin poner en peligro a nadie"
+     "es": "Detenerme de nuevo donde tenga visibilidad, sin poner en peligro a nadie",
+     "uk": "Зупиняєтеся ще раз там, звідки видно, не створюючи нікому небезпеки"
     },
     {
      "en": "Carry on slowly without stopping again",
-     "es": "Seguir despacio sin volver a detenerme"
+     "es": "Seguir despacio sin volver a detenerme",
+     "uk": "Повільно їдете далі, не зупиняючись знову"
     },
     {
      "en": "Sound the horn and cross",
-     "es": "Tocar el claxon y cruzar"
+     "es": "Tocar el claxon y cruzar",
+     "uk": "Сигналите й перетинаєте"
     }
    ],
    "why": {
     "en": "The second stop is part of the rule when visibility is poor.",
-    "es": "La segunda detención forma parte de la norma cuando falta visibilidad."
+    "es": "La segunda detención forma parte de la norma cuando falta visibilidad.",
+    "uk": "Друга зупинка — частина правила за поганої видимості."
    }
   },
   {
@@ -120,25 +142,30 @@ window.DGT_DATA = {
    "tag": "signed",
    "q": {
     "en": "At a give-way sign, must you always come to a complete stop?",
-    "es": "Ante un ceda el paso, ¿hay que detenerse siempre por completo?"
+    "es": "Ante un ceda el paso, ¿hay que detenerse siempre por completo?",
+    "uk": "Чи треба біля знака «Дати дорогу» завжди повністю зупинятися?"
    },
    "o": [
     {
      "en": "Only when necessary to give way",
-     "es": "Solo cuando sea preciso para ceder el paso"
+     "es": "Solo cuando sea preciso para ceder el paso",
+     "uk": "Лише коли це потрібно, щоб поступитися"
     },
     {
      "en": "Yes, always",
-     "es": "Sí, siempre"
+     "es": "Sí, siempre",
+     "uk": "Так, завжди"
     },
     {
      "en": "Never",
-     "es": "Nunca"
+     "es": "Nunca",
+     "uk": "Ніколи"
     }
    ],
    "why": {
     "en": "STOP is the sign that always requires a full stop.",
-    "es": "La señal que obliga siempre a detenerse es el stop."
+    "es": "La señal que obliga siempre a detenerse es el stop.",
+    "uk": "Повної зупинки завжди вимагає знак STOP."
    }
   },
   {
@@ -146,25 +173,30 @@ window.DGT_DATA = {
    "tag": "signed",
    "q": {
     "en": "Which of these gives you priority?",
-    "es": "¿Cuál de estas te da prioridad?"
+    "es": "¿Cuál de estas te da prioridad?",
+    "uk": "Що з цього дає вам перевагу?"
    },
    "o": [
     {
      "en": "A triangular P-1 sign whose thick line is your road",
-     "es": "Una señal triangular P-1 cuya línea gruesa es tu vía"
+     "es": "Una señal triangular P-1 cuya línea gruesa es tu vía",
+     "uk": "Трикутний знак P-1, де товста лінія — ваша дорога"
     },
     {
      "en": "An inverted-triangle R-1 sign",
-     "es": "Una señal R-1 de triángulo invertido"
+     "es": "Una señal R-1 de triángulo invertido",
+     "uk": "Знак R-1 у формі перевернутого трикутника"
     },
     {
      "en": "A steady amber light",
-     "es": "Una luz ámbar fija"
+     "es": "Una luz ámbar fija",
+     "uk": "Постійний жовтий сигнал"
     }
    ],
    "why": {
     "en": "The yellow diamond (priority road) and a green light also give priority.",
-    "es": "El rombo amarillo (calzada con prioridad) y la luz verde también la dan."
+    "es": "El rombo amarillo (calzada con prioridad) y la luz verde también la dan.",
+    "uk": "Перевагу також дають жовтий ромб (головна дорога) і зелений сигнал."
    }
   },
   {
@@ -172,25 +204,30 @@ window.DGT_DATA = {
    "tag": "signed",
    "q": {
     "en": "Which of these takes priority away from you?",
-    "es": "¿Cuál de estas te quita la prioridad?"
+    "es": "¿Cuál de estas te quita la prioridad?",
+    "uk": "Що з цього позбавляє вас переваги?"
    },
    "o": [
     {
      "en": "A sign announcing a roundabout ahead",
-     "es": "Una señal que anuncia una glorieta próxima"
+     "es": "Una señal que anuncia una glorieta próxima",
+     "uk": "Знак, що попереджає про кільцеву розв’язку попереду"
     },
     {
      "en": "A green light",
-     "es": "Una luz verde"
+     "es": "Una luz verde",
+     "uk": "Зелений сигнал"
     },
     {
      "en": "The yellow diamond sign",
-     "es": "La señal del rombo amarillo"
+     "es": "La señal del rombo amarillo",
+     "uk": "Знак із жовтим ромбом"
     }
    ],
    "why": {
     "en": "At the roundabout you will give way to those already inside.",
-    "es": "En la glorieta cederás el paso a los que ya están dentro."
+    "es": "En la glorieta cederás el paso a los que ya están dentro.",
+    "uk": "На кільцевій розв’язці ви поступатиметеся тим, хто вже на ній."
    }
   },
   {
@@ -198,25 +235,30 @@ window.DGT_DATA = {
    "tag": "signed",
    "q": {
     "en": "An agent signals you to go, but the traffic light is red. You obey…",
-    "es": "Un agente te indica que pases, pero el semáforo está en rojo. Obedeces…"
+    "es": "Un agente te indica que pases, pero el semáforo está en rojo. Obedeces…",
+    "uk": "Регулювальник показує вам їхати, а світлофор червоний. Ви виконуєте сигнал…"
    },
    "o": [
     {
      "en": "the agent",
-     "es": "al agente"
+     "es": "al agente",
+     "uk": "регулювальника"
     },
     {
      "en": "the traffic light",
-     "es": "al semáforo"
+     "es": "al semáforo",
+     "uk": "світлофора"
     },
     {
      "en": "whichever is more restrictive",
-     "es": "a la indicación más restrictiva"
+     "es": "a la indicación más restrictiva",
+     "uk": "той, що суворіший"
     }
    ],
    "why": {
     "en": "Agents’ signals come first, then temporary signs, lights, vertical signs and markings.",
-    "es": "Primero los agentes; después la señalización circunstancial, semáforos, señales verticales y marcas viales."
+    "es": "Primero los agentes; después la señalización circunstancial, semáforos, señales verticales y marcas viales.",
+    "uk": "Спершу сигнали регулювальників, потім тимчасові знаки, світлофори, вертикальні знаки й розмітка."
    }
   },
   {
@@ -224,25 +266,30 @@ window.DGT_DATA = {
    "tag": "signed",
    "q": {
     "en": "A STOP sign obliges you to…",
-    "es": "La señal de stop obliga a…"
+    "es": "La señal de stop obliga a…",
+    "uk": "Знак STOP зобов’язує вас…"
    },
    "o": [
     {
      "en": "stop completely, even if nobody is coming",
-     "es": "detenerse por completo, aunque no venga nadie"
+     "es": "detenerse por completo, aunque no venga nadie",
+     "uk": "повністю зупинитися, навіть якщо ніхто не їде"
     },
     {
      "en": "stop only if vehicles are coming",
-     "es": "detenerse solo si vienen vehículos"
+     "es": "detenerse solo si vienen vehículos",
+     "uk": "зупинитися, лише якщо наближаються ТЗ"
     },
     {
      "en": "slow down without stopping",
-     "es": "reducir la velocidad sin detenerse"
+     "es": "reducir la velocidad sin detenerse",
+     "uk": "сповільнитися, не зупиняючись"
     }
    ],
    "why": {
     "en": "Then give way to vehicles on the road you approach.",
-    "es": "Después se cede el paso a los vehículos de la vía a la que se accede."
+    "es": "Después se cede el paso a los vehículos de la vía a la que se accede.",
+    "uk": "Потім поступитися ТЗ на дорозі, до якої ви під’їжджаєте."
    }
   },
   {
@@ -250,25 +297,30 @@ window.DGT_DATA = {
    "tag": "unsigned",
    "q": {
     "en": "At a junction with no signs, the general rule is to give way to vehicles…",
-    "es": "En una intersección sin señalizar, la norma general es ceder el paso a los vehículos…"
+    "es": "En una intersección sin señalizar, la norma general es ceder el paso a los vehículos…",
+    "uk": "На перехресті без знаків загальне правило — поступатися ТЗ, що наближаються…"
    },
    "o": [
     {
      "en": "approaching from your right",
-     "es": "que se aproximen por la derecha"
+     "es": "que se aproximen por la derecha",
+     "uk": "праворуч від вас"
     },
     {
      "en": "approaching from your left",
-     "es": "que se aproximen por la izquierda"
+     "es": "que se aproximen por la izquierda",
+     "uk": "ліворуч від вас"
     },
     {
      "en": "on the wider road",
-     "es": "de la vía más ancha"
+     "es": "de la vía más ancha",
+     "uk": "ширшою дорогою"
     }
    ],
    "why": {
     "en": "Unless one of the four exceptions applies.",
-    "es": "Salvo que se dé alguna de las cuatro excepciones."
+    "es": "Salvo que se dé alguna de las cuatro excepciones.",
+    "uk": "Якщо не діє один із чотирьох винятків."
    }
   },
   {
@@ -276,25 +328,30 @@ window.DGT_DATA = {
    "tag": "unsigned",
    "q": {
     "en": "Unsigned junction: you are on a paved road and a car comes out of an unpaved track on your right. Who goes first?",
-    "es": "Intersección sin señalizar: vas por una vía pavimentada y un turismo sale por tu derecha de un camino sin pavimentar. ¿Quién pasa primero?"
+    "es": "Intersección sin señalizar: vas por una vía pavimentada y un turismo sale por tu derecha de un camino sin pavimentar. ¿Quién pasa primero?",
+    "uk": "Перехрестя без знаків: ви на дорозі з покриттям, а праворуч із ґрунтовки виїжджає автомобіль. Хто проїжджає першим?"
    },
    "o": [
     {
      "en": "You",
-     "es": "Tú"
+     "es": "Tú",
+     "uk": "Ви"
     },
     {
      "en": "The car on your right",
-     "es": "El turismo de tu derecha"
+     "es": "El turismo de tu derecha",
+     "uk": "Автомобіль праворуч"
     },
     {
      "en": "Whoever arrives first",
-     "es": "El que llegue primero"
+     "es": "El que llegue primero",
+     "uk": "Хто першим під’їхав"
     }
    ],
    "why": {
     "en": "Paved road beats unpaved road, whatever the side.",
-    "es": "La vía pavimentada pasa antes que la no pavimentada, sea cual sea el lado."
+    "es": "La vía pavimentada pasa antes que la no pavimentada, sea cual sea el lado.",
+    "uk": "Дорога з покриттям має перевагу над дорогою без покриття, з якого боку не було б."
    }
   },
   {
@@ -302,25 +359,30 @@ window.DGT_DATA = {
    "tag": "unsigned",
    "q": {
     "en": "Unsigned junction: a tram comes from your left. Who goes first?",
-    "es": "Intersección sin señalizar: un tranvía viene por tu izquierda. ¿Quién pasa primero?"
+    "es": "Intersección sin señalizar: un tranvía viene por tu izquierda. ¿Quién pasa primero?",
+    "uk": "Перехрестя без знаків: ліворуч від вас наближається трамвай. Хто проїжджає першим?"
    },
    "o": [
     {
      "en": "The tram",
-     "es": "El tranvía"
+     "es": "El tranvía",
+     "uk": "Трамвай"
     },
     {
      "en": "You, because it is on your left",
-     "es": "Tú, porque viene por tu izquierda"
+     "es": "Tú, porque viene por tu izquierda",
+     "uk": "Ви, бо він ліворуч"
     },
     {
      "en": "Whoever arrives first",
-     "es": "El que llegue primero"
+     "es": "El que llegue primero",
+     "uk": "Хто першим під’їхав"
     }
    ],
    "why": {
     "en": "Vehicles on rails have priority over the other road users.",
-    "es": "Los vehículos que circulan por raíles tienen prioridad sobre los demás usuarios."
+    "es": "Los vehículos que circulan por raíles tienen prioridad sobre los demás usuarios.",
+    "uk": "Рейкові ТЗ мають перевагу над іншими учасниками руху."
    }
   },
   {
@@ -328,25 +390,30 @@ window.DGT_DATA = {
    "tag": "unsigned",
    "q": {
     "en": "At a roundabout with no signs, who has priority?",
-    "es": "En una glorieta sin señalizar, ¿quién tiene prioridad?"
+    "es": "En una glorieta sin señalizar, ¿quién tiene prioridad?",
+    "uk": "Хто має перевагу на кільцевій розв’язці без знаків?"
    },
    "o": [
     {
      "en": "Those already inside the ring",
-     "es": "Los que ya circulan por el anillo"
+     "es": "Los que ya circulan por el anillo",
+     "uk": "Ті, хто вже на кільці"
     },
     {
      "en": "Those entering from the right",
-     "es": "Los que entran por la derecha"
+     "es": "Los que entran por la derecha",
+     "uk": "Ті, хто в’їжджає праворуч"
     },
     {
      "en": "The larger vehicle",
-     "es": "El vehículo más grande"
+     "es": "El vehículo más grande",
+     "uk": "Більший ТЗ"
     }
    ],
    "why": {
     "en": "Those inside have priority over those who want to enter.",
-    "es": "Los de dentro tienen prioridad sobre los que pretenden acceder."
+    "es": "Los de dentro tienen prioridad sobre los que pretenden acceder.",
+    "uk": "Ті, хто на кільці, мають перевагу над тими, хто хоче в’їхати."
    }
   },
   {
@@ -354,25 +421,30 @@ window.DGT_DATA = {
    "tag": "unsigned",
    "q": {
     "en": "The P-2 sign “Junction with priority to the right”…",
-    "es": "La señal P-2 «Intersección con prioridad de la derecha»…"
+    "es": "La señal P-2 «Intersección con prioridad de la derecha»…",
+    "uk": "Знак P-2 «Перехрестя з перевагою правої сторони»…"
    },
    "o": [
     {
      "en": "does not change priority: it reminds you that the general rules apply",
-     "es": "no modifica la prioridad: recuerda que se aplican las normas generales"
+     "es": "no modifica la prioridad: recuerda que se aplican las normas generales",
+     "uk": "не змінює переваги: нагадує, що діють загальні правила"
     },
     {
      "en": "gives priority to whoever comes from the right in every case, even from an unpaved track",
-     "es": "da prioridad al que viene por la derecha en todo caso, incluso desde un camino sin pavimentar"
+     "es": "da prioridad al que viene por la derecha en todo caso, incluso desde un camino sin pavimentar",
+     "uk": "дає перевагу тому, хто праворуч, у будь-якому разі, навіть із ґрунтовки"
     },
     {
      "en": "means vehicles from the right must stop",
-     "es": "indica que los de la derecha deben detenerse"
+     "es": "indica que los de la derecha deben detenerse",
+     "uk": "означає, що ТЗ праворуч мусять зупинитися"
     }
    ],
    "why": {
     "en": "The four exceptions still apply.",
-    "es": "Las cuatro excepciones siguen aplicándose."
+    "es": "Las cuatro excepciones siguen aplicándose.",
+    "uk": "Чотири винятки однаково діють."
    }
   },
   {
@@ -380,25 +452,30 @@ window.DGT_DATA = {
    "tag": "unsigned",
    "q": {
     "en": "You are on an autovía and a car is joining from the slip road on your right. Who goes first?",
-    "es": "Circulas por una autovía y un turismo se incorpora desde el carril de la derecha. ¿Quién pasa primero?"
+    "es": "Circulas por una autovía y un turismo se incorpora desde el carril de la derecha. ¿Quién pasa primero?",
+    "uk": "Ви на autovía, а праворуч зі смуги розгону вливається автомобіль. Хто проїжджає першим?"
    },
    "o": [
     {
      "en": "You, already on the autovía",
-     "es": "Tú, que ya circulas por la autovía"
+     "es": "Tú, que ya circulas por la autovía",
+     "uk": "Ви, бо вже на autovía"
     },
     {
      "en": "The joining car, since it is on your right",
-     "es": "El que se incorpora, por venir por la derecha"
+     "es": "El que se incorpora, por venir por la derecha",
+     "uk": "Автомобіль, що вливається, бо він праворуч"
     },
     {
      "en": "Whoever is faster",
-     "es": "El más rápido"
+     "es": "El más rápido",
+     "uk": "Хто швидший"
     }
    ],
    "why": {
     "en": "Vehicles on an autopista or autovía have priority over those joining it.",
-    "es": "Los que circulan por autopista o autovía tienen prioridad sobre los que acceden."
+    "es": "Los que circulan por autopista o autovía tienen prioridad sobre los que acceden.",
+    "uk": "ТЗ на autopista чи autovía мають перевагу над тими, хто на неї в’їжджає."
    }
   },
   {
@@ -406,25 +483,30 @@ window.DGT_DATA = {
    "tag": "unsigned",
    "q": {
     "en": "Unsigned junction: a car comes from your left on an ordinary paved road. Who goes first?",
-    "es": "Intersección sin señalizar: un turismo viene por tu izquierda por una vía pavimentada normal. ¿Quién pasa primero?"
+    "es": "Intersección sin señalizar: un turismo viene por tu izquierda por una vía pavimentada normal. ¿Quién pasa primero?",
+    "uk": "Перехрестя без знаків: ліворуч від вас звичайною дорогою з покриттям наближається автомобіль. Хто проїжджає першим?"
    },
    "o": [
     {
      "en": "You, unless someone is coming from your right",
-     "es": "Tú, salvo que venga alguien por tu derecha"
+     "es": "Tú, salvo que venga alguien por tu derecha",
+     "uk": "Ви, якщо ніхто не наближається праворуч від вас"
     },
     {
      "en": "The car on your left",
-     "es": "El de tu izquierda"
+     "es": "El de tu izquierda",
+     "uk": "Автомобіль ліворуч"
     },
     {
      "en": "The larger vehicle",
-     "es": "El vehículo más grande"
+     "es": "El vehículo más grande",
+     "uk": "Більший ТЗ"
     }
    ],
    "why": {
     "en": "You are the one on its right.",
-    "es": "Tú eres el que viene por su derecha."
+    "es": "Tú eres el que viene por su derecha.",
+    "uk": "Це ви праворуч від нього."
    }
   },
   {
@@ -432,25 +514,30 @@ window.DGT_DATA = {
    "tag": "conduct",
    "q": {
     "en": "If you must give way, you may not start or carry on until…",
-    "es": "Si debes ceder el paso, no puedes iniciar ni continuar la marcha hasta…"
+    "es": "Si debes ceder el paso, no puedes iniciar ni continuar la marcha hasta…",
+    "uk": "Якщо ви мусите поступитися, рушати чи продовжувати рух не можна, доки…"
    },
    "o": [
     {
      "en": "you are sure you will not force the driver with priority to change path or speed abruptly",
-     "es": "asegurarte de que no obligas al que tiene prioridad a modificar bruscamente su trayectoria o velocidad"
+     "es": "asegurarte de que no obligas al que tiene prioridad a modificar bruscamente su trayectoria o velocidad",
+     "uk": "ви не впевнені, що не змусите водія з перевагою різко змінити траєкторію чи швидкість"
     },
     {
      "en": "the other vehicle is 10 m away",
-     "es": "que el otro esté a 10 m"
+     "es": "que el otro esté a 10 m",
+     "uk": "інший ТЗ не опиниться за 10 м"
     },
     {
      "en": "you have signalled your manoeuvre",
-     "es": "haber señalizado la maniobra"
+     "es": "haber señalizado la maniobra",
+     "uk": "ви не подали сигнал про маневр"
     }
    ],
    "why": {
     "en": "Signalling never gives you the right to go.",
-    "es": "Señalizar nunca da derecho a pasar."
+    "es": "Señalizar nunca da derecho a pasar.",
+    "uk": "Сигнал ніколи не дає права проїхати."
    }
   },
   {
@@ -458,25 +545,30 @@ window.DGT_DATA = {
    "tag": "conduct",
    "q": {
     "en": "Your light is green but the exit beyond the junction is full of stopped cars. You…",
-    "es": "Tu semáforo está en verde, pero la salida de la intersección está llena de vehículos detenidos. Tú…"
+    "es": "Tu semáforo está en verde, pero la salida de la intersección está llena de vehículos detenidos. Tú…",
+    "uk": "Вам горить зелений, але виїзд за перехрестям заповнений автомобілями, що стоять. Ви…"
    },
    "o": [
     {
      "en": "wait before the junction",
-     "es": "esperas antes de la intersección"
+     "es": "esperas antes de la intersección",
+     "uk": "чекаєте перед перехрестям"
     },
     {
      "en": "enter, because you have priority",
-     "es": "entras, porque tienes prioridad"
+     "es": "entras, porque tienes prioridad",
+     "uk": "в’їжджаєте, бо маєте перевагу"
     },
     {
      "en": "enter halfway and wait",
-     "es": "entras hasta la mitad y esperas"
+     "es": "entras hasta la mitad y esperas",
+     "uk": "в’їжджаєте наполовину й чекаєте"
     }
    ],
    "why": {
     "en": "Never enter if you will probably stop inside and block the cross traffic.",
-    "es": "No se entra si previsiblemente se va a quedar detenido obstruyendo la circulación transversal."
+    "es": "No se entra si previsiblemente se va a quedar detenido obstruyendo la circulación transversal.",
+    "uk": "Ніколи не в’їжджайте, якщо, ймовірно, зупинитеся там і заблокуєте поперечний рух."
    }
   },
   {
@@ -484,25 +576,30 @@ window.DGT_DATA = {
    "tag": "conduct",
    "q": {
     "en": "How do you show early that you will give way?",
-    "es": "¿Cómo se demuestra con antelación que se va a ceder el paso?"
+    "es": "¿Cómo se demuestra con antelación que se va a ceder el paso?",
+    "uk": "Як завчасно показати, що ви поступитеся?"
    },
    "o": [
     {
      "en": "By slowing down gradually",
-     "es": "Reduciendo paulatinamente la velocidad"
+     "es": "Reduciendo paulatinamente la velocidad",
+     "uk": "Поступово знижуючи швидкість"
     },
     {
      "en": "By flashing your headlights",
-     "es": "Con ráfagas de luz"
+     "es": "Con ráfagas de luz",
+     "uk": "Блимаючи фарами"
     },
     {
      "en": "By sounding the horn",
-     "es": "Tocando el claxon"
+     "es": "Tocando el claxon",
+     "uk": "Сигналячи"
     }
    ],
    "why": {
     "en": "Your way of driving must make it clear.",
-    "es": "La forma de circular debe dejarlo claro."
+    "es": "La forma de circular debe dejarlo claro.",
+    "uk": "Ваша манера керування має це чітко показувати."
    }
   },
   {
@@ -510,25 +607,30 @@ window.DGT_DATA = {
    "tag": "conduct",
    "q": {
     "en": "You are stuck inside a junction with traffic lights and your light turns red. You…",
-    "es": "Te has quedado detenido dentro de una intersección con semáforo y tu semáforo se pone en rojo. Tú…"
+    "es": "Te has quedado detenido dentro de una intersección con semáforo y tu semáforo se pone en rojo. Tú…",
+    "uk": "Ви застрягли на регульованому перехресті, і вам загорівся червоний. Ви…"
    },
    "o": [
     {
      "en": "leave it without waiting for green, without hindering those who now have green",
-     "es": "sales sin esperar al verde, sin entorpecer a quienes ahora lo tienen"
+     "es": "sales sin esperar al verde, sin entorpecer a quienes ahora lo tienen",
+     "uk": "виїжджаєте, не чекаючи зеленого й не заважаючи тим, кому тепер зелений"
     },
     {
      "en": "stay until your light turns green again",
-     "es": "esperas a que tu semáforo vuelva a ponerse verde"
+     "es": "esperas a que tu semáforo vuelva a ponerse verde",
+     "uk": "стоїте, доки знову не загориться зелений"
     },
     {
      "en": "reverse to the stop line",
-     "es": "retrocedes hasta la línea de detención"
+     "es": "retrocedes hasta la línea de detención",
+     "uk": "заднім ходом повертаєтеся до стоп-лінії"
     }
    ],
    "why": {
     "en": "You are an obstacle there, so you get out.",
-    "es": "Ahí eres un obstáculo, así que debes salir."
+    "es": "Ahí eres un obstáculo, así que debes salir.",
+    "uk": "Там ви перешкода, тож виїжджаєте."
    }
   },
   {
@@ -536,25 +638,30 @@ window.DGT_DATA = {
    "tag": "conduct",
    "q": {
     "en": "Even with priority, you must not enter a pedestrian crossing if…",
-    "es": "Aun teniendo prioridad, no debes entrar en un paso para peatones si…"
+    "es": "Aun teniendo prioridad, no debes entrar en un paso para peatones si…",
+    "uk": "Навіть маючи перевагу, не можна в’їжджати на пішохідний перехід, якщо…"
    },
    "o": [
     {
      "en": "you may be left stopped on it, blocking the cross traffic",
-     "es": "puedes quedar detenido en él obstruyendo la circulación transversal"
+     "es": "puedes quedar detenido en él obstruyendo la circulación transversal",
+     "uk": "ви можете зупинитися на ньому, заблокувавши поперечний рух"
     },
     {
      "en": "it has no traffic lights",
-     "es": "no tiene semáforo"
+     "es": "no tiene semáforo",
+     "uk": "на ньому немає світлофорів"
     },
     {
      "en": "it is night",
-     "es": "es de noche"
+     "es": "es de noche",
+     "uk": "зараз ніч"
     }
    ],
    "why": {
     "en": "Same for junctions and cycle crossings.",
-    "es": "Igual en intersecciones y pasos para ciclistas."
+    "es": "Igual en intersecciones y pasos para ciclistas.",
+    "uk": "Так само з перехрестями й велосипедними переїздами."
    }
   },
   {
@@ -562,25 +669,30 @@ window.DGT_DATA = {
    "tag": "conduct",
    "q": {
     "en": "A yellow criss-cross grid painted on a junction means…",
-    "es": "Una cuadrícula amarilla pintada en una intersección indica…"
+    "es": "Una cuadrícula amarilla pintada en una intersección indica…",
+    "uk": "Жовта сітка, намальована на перехресті, означає…"
    },
    "o": [
     {
      "en": "do not enter if you may have to stop inside",
-     "es": "no entrar si se puede quedar detenido dentro"
+     "es": "no entrar si se puede quedar detenido dentro",
+     "uk": "не в’їжджайте, якщо, можливо, доведеться там зупинитися"
     },
     {
      "en": "a taxi rank",
-     "es": "una parada de taxis"
+     "es": "una parada de taxis",
+     "uk": "стоянку таксі"
     },
     {
      "en": "a place to stop and wait for a gap",
-     "es": "un lugar para detenerse a esperar un hueco"
+     "es": "un lugar para detenerse a esperar un hueco",
+     "uk": "місце, щоб зупинитися й чекати проміжку"
     }
    ],
    "why": {
     "en": "It keeps the junction clear for cross traffic.",
-    "es": "Mantiene libre la intersección para el tráfico transversal."
+    "es": "Mantiene libre la intersección para el tráfico transversal.",
+    "uk": "Вона тримає перехрестя вільним для поперечного руху."
    }
   },
   {
@@ -588,25 +700,30 @@ window.DGT_DATA = {
    "tag": "rail",
    "q": {
     "en": "Approaching a level crossing, you must…",
-    "es": "Al aproximarte a un paso a nivel, debes…"
+    "es": "Al aproximarte a un paso a nivel, debes…",
+    "uk": "Наближаючись до залізничного переїзду, ви мусите…"
    },
    "o": [
     {
      "en": "take extreme care and slow down below the maximum allowed",
-     "es": "extremar la prudencia y reducir la velocidad por debajo de la máxima permitida"
+     "es": "extremar la prudencia y reducir la velocidad por debajo de la máxima permitida",
+     "uk": "бути надзвичайно обережним і знизити швидкість нижче дозволеного максимуму"
     },
     {
      "en": "keep your speed to cross quickly",
-     "es": "mantener la velocidad para cruzar rápido"
+     "es": "mantener la velocidad para cruzar rápido",
+     "uk": "не змінювати швидкості, щоб швидко проїхати"
     },
     {
      "en": "always stop",
-     "es": "detenerte siempre"
+     "es": "detenerte siempre",
+     "uk": "завжди зупинятися"
     }
    ],
    "why": {
     "en": "Same for movable bridges.",
-    "es": "Igual ante un puente móvil."
+    "es": "Igual ante un puente móvil.",
+    "uk": "Так само з розвідними мостами."
    }
   },
   {
@@ -614,25 +731,30 @@ window.DGT_DATA = {
    "tag": "rail",
    "q": {
     "en": "The half-barriers of a level crossing are rising. You…",
-    "es": "Las semibarreras de un paso a nivel están subiendo. Tú…"
+    "es": "Las semibarreras de un paso a nivel están subiendo. Tú…",
+    "uk": "Напівшлагбауми переїзду піднімаються. Ви…"
    },
    "o": [
     {
      "en": "may not enter while they are moving",
-     "es": "no puedes entrar mientras estén en movimiento"
+     "es": "no puedes entrar mientras estén en movimiento",
+     "uk": "не можете в’їжджати, доки вони рухаються"
     },
     {
      "en": "may enter: they are opening",
-     "es": "puedes entrar: se están abriendo"
+     "es": "puedes entrar: se están abriendo",
+     "uk": "можете в’їхати: вони відкриваються"
     },
     {
      "en": "may enter if no train is in sight",
-     "es": "puedes entrar si no se ve ningún tren"
+     "es": "puedes entrar si no se ve ningún tren",
+     "uk": "можете в’їхати, якщо потяга не видно"
     }
    ],
    "why": {
     "en": "Not while they are going up or down.",
-    "es": "Ni subiendo ni bajando."
+    "es": "Ni subiendo ni bajando.",
+    "uk": "Ні тоді, коли вони піднімаються, ні тоді, коли опускаються."
    }
   },
   {
@@ -640,25 +762,30 @@ window.DGT_DATA = {
    "tag": "rail",
    "q": {
     "en": "At a level crossing without barriers or lights, you…",
-    "es": "En un paso a nivel sin barreras ni semáforos, tú…"
+    "es": "En un paso a nivel sin barreras ni semáforos, tú…",
+    "uk": "На переїзді без шлагбаумів і світлофорів ви…"
    },
    "o": [
     {
      "en": "make sure no train is coming; stopping is not compulsory",
-     "es": "te aseguras de que no se acerca ningún tren; no es obligatorio detenerse"
+     "es": "te aseguras de que no se acerca ningún tren; no es obligatorio detenerse",
+     "uk": "переконуєтеся, що потяг не наближається; зупинка не обов’язкова"
     },
     {
      "en": "must always stop before crossing",
-     "es": "debes detenerte siempre antes de cruzar"
+     "es": "debes detenerte siempre antes de cruzar",
+     "uk": "мусите завжди зупинитися перед переїздом"
     },
     {
      "en": "cross quickly: the train will see you",
-     "es": "cruzas rápido: el tren te verá"
+     "es": "cruzas rápido: el tren te verá",
+     "uk": "швидко проїжджаєте: потяг вас побачить"
     }
    ],
    "why": {
     "en": "Unless a STOP sign tells you to stop.",
-    "es": "Salvo que una señal de stop obligue a detenerse."
+    "es": "Salvo que una señal de stop obligue a detenerse.",
+    "uk": "Якщо знак STOP не вимагає зупинки."
    }
   },
   {
@@ -666,25 +793,30 @@ window.DGT_DATA = {
    "tag": "rail",
    "q": {
     "en": "Your car breaks down on a level crossing. First you…",
-    "es": "Tu turismo se avería en un paso a nivel. Lo primero es…"
+    "es": "Tu turismo se avería en un paso a nivel. Lo primero es…",
+    "uk": "Ваш автомобіль зламався на залізничному переїзді. Спершу ви…"
    },
    "o": [
     {
      "en": "get the occupants out quickly and try to clear the crossing",
-     "es": "desalojar rápidamente a los ocupantes e intentar dejar el paso libre"
+     "es": "desalojar rápidamente a los ocupantes e intentar dejar el paso libre",
+     "uk": "швидко виводите людей і намагаєтеся звільнити переїзд"
     },
     {
      "en": "stay inside and wait for help",
-     "es": "quedarse dentro y esperar ayuda"
+     "es": "quedarse dentro y esperar ayuda",
+     "uk": "лишаєтеся всередині й чекаєте допомоги"
     },
     {
      "en": "switch on the hazard lights and wait",
-     "es": "encender la luz de emergencia y esperar"
+     "es": "encender la luz de emergencia y esperar",
+     "uk": "вмикаєте аварійну сигналізацію й чекаєте"
     }
    ],
    "why": {
     "en": "Same if your load falls onto the crossing.",
-    "es": "Igual si se cae la carga dentro del paso."
+    "es": "Igual si se cae la carga dentro del paso.",
+    "uk": "Так само, якщо ваш вантаж упав на переїзд."
    }
   },
   {
@@ -692,25 +824,30 @@ window.DGT_DATA = {
    "tag": "rail",
    "q": {
     "en": "If you cannot clear the level crossing, you must…",
-    "es": "Si no consigues dejar libre el paso a nivel, debes…"
+    "es": "Si no consigues dejar libre el paso a nivel, debes…",
+    "uk": "Якщо звільнити переїзд не вдається, ви мусите…"
    },
    "o": [
     {
      "en": "make sure train drivers and other drivers are warned of the danger in good time",
-     "es": "conseguir que los maquinistas y los demás conductores sean advertidos del peligro con antelación"
+     "es": "conseguir que los maquinistas y los demás conductores sean advertidos del peligro con antelación",
+     "uk": "подбати, щоб машиністів і інших водіїв вчасно попередили про небезпеку"
     },
     {
      "en": "leave without doing anything else",
-     "es": "marcharte sin hacer nada más"
+     "es": "marcharte sin hacer nada más",
+     "uk": "піти, нічого більше не роблячи"
     },
     {
      "en": "wait inside the vehicle",
-     "es": "esperar dentro del vehículo"
+     "es": "esperar dentro del vehículo",
+     "uk": "чекати в ТЗ"
     }
    ],
    "why": {
     "en": "Using every means you have.",
-    "es": "Con todas las medidas a tu alcance."
+    "es": "Con todas las medidas a tu alcance.",
+    "uk": "Усіма доступними засобами."
    }
   },
   {
@@ -718,25 +855,30 @@ window.DGT_DATA = {
    "tag": "rail",
    "q": {
     "en": "At a junction without priority signs, a tram and an ambulance on urgent service meet. Who goes first?",
-    "es": "En una intersección sin señal de preferencia coinciden un tranvía y una ambulancia en servicio urgente. ¿Quién pasa primero?"
+    "es": "En una intersección sin señal de preferencia coinciden un tranvía y una ambulancia en servicio urgente. ¿Quién pasa primero?",
+    "uk": "На перехресті без знаків переваги зустрілися трамвай і швидка допомога, що виконує термінове завдання. Хто проїжджає першим?"
    },
    "o": [
     {
      "en": "The ambulance",
-     "es": "La ambulancia"
+     "es": "La ambulancia",
+     "uk": "Швидка допомога"
     },
     {
      "en": "The tram, which always has priority",
-     "es": "El tranvía, que siempre tiene prioridad"
+     "es": "El tranvía, que siempre tiene prioridad",
+     "uk": "Трамвай, він завжди має перевагу"
     },
     {
      "en": "Whoever comes from the right",
-     "es": "El que venga por la derecha"
+     "es": "El que venga por la derecha",
+     "uk": "Той, хто праворуч"
     }
    ],
    "why": {
     "en": "Trams have priority from right and left, except over priority vehicles on urgent service.",
-    "es": "El tranvía tiene prioridad por la derecha y por la izquierda, salvo sobre los prioritarios en servicio de urgencia."
+    "es": "El tranvía tiene prioridad por la derecha y por la izquierda, salvo sobre los prioritarios en servicio de urgencia.",
+    "uk": "Трамваї мають перевагу з правого й лівого боку, крім ТЗ з перевагою, що виконують термінове завдання."
    }
   },
   {
@@ -744,25 +886,30 @@ window.DGT_DATA = {
    "tag": "rail",
    "q": {
     "en": "Do trains have priority?",
-    "es": "¿Tienen prioridad los trenes?"
+    "es": "¿Tienen prioridad los trenes?",
+    "uk": "Чи мають потяги перевагу?"
    },
    "o": [
     {
      "en": "Yes, always",
-     "es": "Sí, siempre"
+     "es": "Sí, siempre",
+     "uk": "Так, завжди"
     },
     {
      "en": "Only at crossings without barriers",
-     "es": "Solo en pasos sin barreras"
+     "es": "Solo en pasos sin barreras",
+     "uk": "Лише на переїздах без шлагбаумів"
     },
     {
      "en": "Only at night",
-     "es": "Solo de noche"
+     "es": "Solo de noche",
+     "uk": "Лише вночі"
     }
    ],
    "why": {
     "en": "Because of their characteristics.",
-    "es": "Por sus características particulares."
+    "es": "Por sus características particulares.",
+    "uk": "Через свої особливості."
    }
   },
   {
@@ -770,25 +917,30 @@ window.DGT_DATA = {
    "tag": "rail",
    "q": {
     "en": "How do you cross a level crossing?",
-    "es": "¿Cómo se cruza un paso a nivel?"
+    "es": "¿Cómo se cruza un paso a nivel?",
+    "uk": "Як проїжджати залізничний переїзд?"
    },
    "o": [
     {
      "en": "Without delay, once sure you will not get stuck inside",
-     "es": "Sin demora, tras asegurarse de que no se va a quedar inmovilizado dentro"
+     "es": "Sin demora, tras asegurarse de que no se va a quedar inmovilizado dentro",
+     "uk": "Без затримки, переконавшись, що не застрягнете на ньому"
     },
     {
      "en": "Slowly, stopping on the rails to look",
-     "es": "Despacio, deteniéndose sobre las vías para mirar"
+     "es": "Despacio, deteniéndose sobre las vías para mirar",
+     "uk": "Повільно, зупиняючись на рейках, щоб подивитися"
     },
     {
      "en": "Only in first gear",
-     "es": "Solo en primera velocidad"
+     "es": "Solo en primera velocidad",
+     "uk": "Лише на першій передачі"
     }
    ],
    "why": {
     "en": "Check the exit is clear before you go onto the tracks.",
-    "es": "Comprueba que la salida está libre antes de entrar en las vías."
+    "es": "Comprueba que la salida está libre antes de entrar en las vías.",
+    "uk": "Перевірте, що виїзд вільний, перш ніж заїжджати на колії."
    }
   },
   {
@@ -796,25 +948,30 @@ window.DGT_DATA = {
    "tag": "rail",
    "q": {
     "en": "May signs give drivers priority over trams?",
-    "es": "¿Pueden las señales dar prioridad a los conductores sobre los tranvías?"
+    "es": "¿Pueden las señales dar prioridad a los conductores sobre los tranvías?",
+    "uk": "Чи можуть знаки давати водіям перевагу над трамваями?"
    },
    "o": [
     {
      "en": "Yes",
-     "es": "Sí"
+     "es": "Sí",
+     "uk": "Так"
     },
     {
      "en": "No, trams always go first",
-     "es": "No, el tranvía pasa siempre primero"
+     "es": "No, el tranvía pasa siempre primero",
+     "uk": "Ні, трамваї завжди проїжджають першими"
     },
     {
      "en": "Only in town centres",
-     "es": "Solo en el centro de las ciudades"
+     "es": "Solo en el centro de las ciudades",
+     "uk": "Лише в центрі міст"
     }
    ],
    "why": {
     "en": "The tram’s general priority applies at junctions without priority signs.",
-    "es": "La prioridad general del tranvía rige en intersecciones sin señal de preferencia."
+    "es": "La prioridad general del tranvía rige en intersecciones sin señal de preferencia.",
+    "uk": "Загальна перевага трамвая діє на перехрестях без знаків переваги."
    }
   },
   {
@@ -822,25 +979,30 @@ window.DGT_DATA = {
    "tag": "tunnels",
    "q": {
     "en": "Which underpasses must be signed?",
-    "es": "¿Qué pasos inferiores deben estar señalizados?"
+    "es": "¿Qué pasos inferiores deben estar señalizados?",
+    "uk": "Які підземні переходи (проїзди) треба позначати?"
    },
    "o": [
     {
      "en": "Those longer than 200 m",
-     "es": "Los de más de 200 m"
+     "es": "Los de más de 200 m",
+     "uk": "Довші за 200 м"
     },
     {
      "en": "All of them",
-     "es": "Todos"
+     "es": "Todos",
+     "uk": "Усі"
     },
     {
      "en": "Those longer than 500 m",
-     "es": "Los de más de 500 m"
+     "es": "Los de más de 500 m",
+     "uk": "Довші за 500 м"
     }
    ],
    "why": {
     "en": "Tunnels are signed whatever their length.",
-    "es": "Los túneles, sea cual sea su longitud."
+    "es": "Los túneles, sea cual sea su longitud.",
+    "uk": "Тунелі позначають незалежно від довжини."
    }
   },
   {
@@ -848,25 +1010,30 @@ window.DGT_DATA = {
    "tag": "tunnels",
    "q": {
     "en": "Inside a tunnel it is forbidden to…",
-    "es": "Dentro de un túnel está prohibido…"
+    "es": "Dentro de un túnel está prohibido…",
+    "uk": "У тунелі заборонено…"
    },
    "o": [
     {
      "en": "stop, park, turn round and reverse",
-     "es": "parar, estacionar, cambiar de sentido y dar marcha atrás"
+     "es": "parar, estacionar, cambiar de sentido y dar marcha atrás",
+     "uk": "зупинятися, ставити на стоянку, розвертатися й їхати заднім ходом"
     },
     {
      "en": "use dipped headlights",
-     "es": "usar la luz de cruce"
+     "es": "usar la luz de cruce",
+     "uk": "вмикати ближнє світло"
     },
     {
      "en": "drive at the speed limit",
-     "es": "circular al límite de velocidad"
+     "es": "circular al límite de velocidad",
+     "uk": "їхати з дозволеною швидкістю"
     }
    ],
    "why": {
     "en": "Overtaking is restricted too.",
-    "es": "El adelantamiento también está restringido."
+    "es": "El adelantamiento también está restringido.",
+    "uk": "Обгін теж обмежено."
    }
   },
   {
@@ -874,25 +1041,30 @@ window.DGT_DATA = {
    "tag": "tunnels",
    "q": {
     "en": "Overtaking in a two-way tunnel is…",
-    "es": "Adelantar en un túnel de doble sentido está…"
+    "es": "Adelantar en un túnel de doble sentido está…",
+    "uk": "Обгін у тунелі з двостороннім рухом…"
    },
    "o": [
     {
      "en": "forbidden, unless there is more than one lane for your direction",
-     "es": "prohibido, salvo que haya más de un carril para tu sentido"
+     "es": "prohibido, salvo que haya más de un carril para tu sentido",
+     "uk": "заборонений, якщо у вашому напрямку не кілька смуг"
     },
     {
      "en": "allowed if visibility is good",
-     "es": "permitido si hay buena visibilidad"
+     "es": "permitido si hay buena visibilidad",
+     "uk": "дозволений за доброї видимості"
     },
     {
      "en": "allowed for motorcycles",
-     "es": "permitido a las motocicletas"
+     "es": "permitido a las motocicletas",
+     "uk": "дозволений мотоциклам"
     }
    ],
    "why": {
     "en": "With 2+ lanes your way, without entering the opposite direction.",
-    "es": "Con 2 o más carriles en tu sentido, sin invadir el contrario."
+    "es": "Con 2 o más carriles en tu sentido, sin invadir el contrario.",
+    "uk": "За 2+ смуг у вашому напрямку — не виїжджаючи на зустрічний."
    }
   },
   {
@@ -900,25 +1072,30 @@ window.DGT_DATA = {
    "tag": "tunnels",
    "q": {
     "en": "In a tunnel, when not overtaking, a car keeps at least…",
-    "es": "En un túnel, cuando no adelanta, un turismo mantiene al menos…"
+    "es": "En un túnel, cuando no adelanta, un turismo mantiene al menos…",
+    "uk": "У тунелі легковик, що не обганяє, тримає щонайменше…"
    },
    "o": [
     {
      "en": "100 m or 4 seconds",
-     "es": "100 m o 4 segundos"
+     "es": "100 m o 4 segundos",
+     "uk": "100 м або 4 секунди"
     },
     {
      "en": "50 m or 2 seconds",
-     "es": "50 m o 2 segundos"
+     "es": "50 m o 2 segundos",
+     "uk": "50 м або 2 секунди"
     },
     {
      "en": "150 m or 6 seconds",
-     "es": "150 m o 6 segundos"
+     "es": "150 m o 6 segundos",
+     "uk": "150 м або 6 секунд"
     }
    ],
    "why": {
     "en": "Vehicles over 3,500 kg: 150 m or 6 s.",
-    "es": "Más de 3.500 kg: 150 m o 6 s."
+    "es": "Más de 3.500 kg: 150 m o 6 s.",
+    "uk": "ТЗ понад 3 500 кг: 150 м або 6 с."
    }
   },
   {
@@ -926,25 +1103,30 @@ window.DGT_DATA = {
    "tag": "tunnels",
    "q": {
     "en": "In a tunnel, a vehicle with an MMA over 3,500 kg keeps at least…",
-    "es": "En un túnel, un vehículo de MMA superior a 3.500 kg mantiene al menos…"
+    "es": "En un túnel, un vehículo de MMA superior a 3.500 kg mantiene al menos…",
+    "uk": "У тунелі ТЗ з MMA понад 3 500 кг тримає щонайменше…"
    },
    "o": [
     {
      "en": "150 m or 6 seconds",
-     "es": "150 m o 6 segundos"
+     "es": "150 m o 6 segundos",
+     "uk": "150 м або 6 секунд"
     },
     {
      "en": "100 m or 4 seconds",
-     "es": "100 m o 4 segundos"
+     "es": "100 m o 4 segundos",
+     "uk": "100 м або 4 секунди"
     },
     {
      "en": "200 m or 8 seconds",
-     "es": "200 m o 8 segundos"
+     "es": "200 m o 8 segundos",
+     "uk": "200 м або 8 секунд"
     }
    ],
    "why": {
     "en": "Or three chevrons in sight.",
-    "es": "O la visión de tres galones."
+    "es": "O la visión de tres galones.",
+    "uk": "Або три шеврони в полі зору."
    }
   },
   {
@@ -952,25 +1134,30 @@ window.DGT_DATA = {
    "tag": "tunnels",
    "q": {
     "en": "The traffic light at a tunnel entrance is red. You…",
-    "es": "El semáforo a la entrada de un túnel está en rojo. Tú…"
+    "es": "El semáforo a la entrada de un túnel está en rojo. Tú…",
+    "uk": "Світлофор на в’їзді в тунель червоний. Ви…"
    },
    "o": [
     {
      "en": "do not enter",
-     "es": "no entras"
+     "es": "no entras",
+     "uk": "не в’їжджаєте"
     },
     {
      "en": "enter slowly",
-     "es": "entras despacio"
+     "es": "entras despacio",
+     "uk": "в’їжджаєте повільно"
     },
     {
      "en": "enter if there is no one inside",
-     "es": "entras si no hay nadie dentro"
+     "es": "entras si no hay nadie dentro",
+     "uk": "в’їжджаєте, якщо всередині нікого немає"
     }
    ],
    "why": {
     "en": "Tunnel lights and message panels must always be obeyed.",
-    "es": "Los semáforos y paneles del túnel se obedecen siempre."
+    "es": "Los semáforos y paneles del túnel se obedecen siempre.",
+    "uk": "Світлофори й табла тунелю треба виконувати завжди."
    }
   },
   {
@@ -978,25 +1165,30 @@ window.DGT_DATA = {
    "tag": "tunnels",
    "q": {
     "en": "In a tunnel you hear instructions over the loudspeakers. You…",
-    "es": "En un túnel oyes instrucciones por megafonía. Tú…"
+    "es": "En un túnel oyes instrucciones por megafonía. Tú…",
+    "uk": "У тунелі ви чуєте вказівки через гучномовці. Ви…"
    },
    "o": [
     {
      "en": "follow them",
-     "es": "las sigues"
+     "es": "las sigues",
+     "uk": "виконуєте їх"
     },
     {
      "en": "ignore them if the light is green",
-     "es": "las ignoras si el semáforo está en verde"
+     "es": "las ignoras si el semáforo está en verde",
+     "uk": "ігноруєте, якщо горить зелений"
     },
     {
      "en": "only follow agents in person",
-     "es": "solo obedeces a agentes en persona"
+     "es": "solo obedeces a agentes en persona",
+     "uk": "виконуєте лише вказівки регулювальників особисто"
     }
    ],
    "why": {
     "en": "Or any other means the tunnel uses to reach you.",
-    "es": "O cualquier otro medio que use el túnel."
+    "es": "O cualquier otro medio que use el túnel.",
+    "uk": "Чи будь-якими іншими засобами, якими тунель до вас звертається."
    }
   },
   {
@@ -1004,25 +1196,30 @@ window.DGT_DATA = {
    "tag": "peds",
    "q": {
     "en": "Pedestrians have priority on…",
-    "es": "Los peatones tienen prioridad en…"
+    "es": "Los peatones tienen prioridad en…",
+    "uk": "Пішоходи мають перевагу на…"
    },
    "o": [
     {
      "en": "signed pedestrian crossings, pavements and pedestrian zones",
-     "es": "los pasos para peatones señalizados, las aceras y las zonas peatonales"
+     "es": "los pasos para peatones señalizados, las aceras y las zonas peatonales",
+     "uk": "позначених пішохідних переходах, тротуарах і в пішохідних зонах"
     },
     {
      "en": "any part of the road",
-     "es": "cualquier parte de la vía"
+     "es": "cualquier parte de la vía",
+     "uk": "будь-якій частині дороги"
     },
     {
      "en": "only crossings with traffic lights",
-     "es": "solo los pasos con semáforo"
+     "es": "solo los pasos con semáforo",
+     "uk": "лише регульованих переходах"
     }
    ],
    "why": {
     "en": "Plus the other listed cases.",
-    "es": "Además de los demás casos de la lista."
+    "es": "Además de los demás casos de la lista.",
+    "uk": "Плюс інші перелічені випадки."
    }
   },
   {
@@ -1030,25 +1227,30 @@ window.DGT_DATA = {
    "tag": "peds",
    "q": {
     "en": "You turn right into another street and pedestrians are crossing it where there is no crossing. Who goes first?",
-    "es": "Giras a la derecha para entrar en otra calle y hay peatones cruzándola donde no hay paso. ¿Quién pasa primero?"
+    "es": "Giras a la derecha para entrar en otra calle y hay peatones cruzándola donde no hay paso. ¿Quién pasa primero?",
+    "uk": "Ви повертаєте праворуч на іншу вулицю, а її переходять пішоходи там, де переходу немає. Хто проходить першим?"
    },
    "o": [
     {
      "en": "The pedestrians",
-     "es": "Los peatones"
+     "es": "Los peatones",
+     "uk": "Пішоходи"
     },
     {
      "en": "You, since there is no crossing",
-     "es": "Tú, porque no hay paso"
+     "es": "Tú, porque no hay paso",
+     "uk": "Ви, бо переходу немає"
     },
     {
      "en": "Whoever arrives first",
-     "es": "El que llegue primero"
+     "es": "El que llegue primero",
+     "uk": "Хто першим"
     }
    ],
    "why": {
     "en": "Even without a pedestrian crossing.",
-    "es": "Aunque no exista paso para peatones."
+    "es": "Aunque no exista paso para peatones.",
+    "uk": "Навіть без пішохідного переходу."
    }
   },
   {
@@ -1056,25 +1258,30 @@ window.DGT_DATA = {
    "tag": "peds",
    "q": {
     "en": "You cross a hard shoulder to turn off, and pedestrians are walking along it (there is no pavement). Who goes first?",
-    "es": "Cruzas un arcén para salir de la vía y por él caminan peatones (no hay acera). ¿Quién pasa primero?"
+    "es": "Cruzas un arcén para salir de la vía y por él caminan peatones (no hay acera). ¿Quién pasa primero?",
+    "uk": "Ви перетинаєте узбіччя, щоб з’їхати, а ним ідуть пішоходи (тротуару немає). Хто першим?"
    },
    "o": [
     {
      "en": "The pedestrians",
-     "es": "Los peatones"
+     "es": "Los peatones",
+     "uk": "Пішоходи"
     },
     {
      "en": "You",
-     "es": "Tú"
+     "es": "Tú",
+     "uk": "Ви"
     },
     {
      "en": "Whoever is faster",
-     "es": "El más rápido"
+     "es": "El más rápido",
+     "uk": "Хто швидший"
     }
    ],
    "why": {
     "en": "They have no pedestrian zone, so the shoulder is theirs.",
-    "es": "No disponen de zona peatonal, así que el arcén es suyo."
+    "es": "No disponen de zona peatonal, así que el arcén es suyo.",
+    "uk": "Пішохідної зони в них немає, тож узбіччя — їхнє."
    }
   },
   {
@@ -1082,25 +1289,30 @@ window.DGT_DATA = {
    "tag": "peds",
    "q": {
     "en": "Pedestrians who have just got off a bus at a signed stop are between the bus and the pavement. They…",
-    "es": "Unos peatones acaban de bajar de un autobús en una parada señalizada y están entre el autobús y la acera. Ellos…"
+    "es": "Unos peatones acaban de bajar de un autobús en una parada señalizada y están entre el autobús y la acera. Ellos…",
+    "uk": "Пішоходи, що щойно вийшли з автобуса на позначеній зупинці, — між автобусом і тротуаром. Вони…"
    },
    "o": [
     {
      "en": "have priority",
-     "es": "tienen prioridad"
+     "es": "tienen prioridad",
+     "uk": "мають перевагу"
     },
     {
      "en": "must wait for a gap in the traffic",
-     "es": "deben esperar un hueco en el tráfico"
+     "es": "deben esperar un hueco en el tráfico",
+     "uk": "мусять чекати проміжку в русі"
     },
     {
      "en": "only have priority if they are children",
-     "es": "solo tienen prioridad si son niños"
+     "es": "solo tienen prioridad si son niños",
+     "uk": "мають перевагу, лише якщо це діти"
     }
    ],
    "why": {
     "en": "Also those about to get on.",
-    "es": "También los que van a subir."
+    "es": "También los que van a subir.",
+    "uk": "Так само ті, хто збирається сісти."
    }
   },
   {
@@ -1108,25 +1320,30 @@ window.DGT_DATA = {
    "tag": "peds",
    "q": {
     "en": "A school row is crossing the road on foot. It…",
-    "es": "Una fila escolar cruza la calzada a pie. Tiene…"
+    "es": "Una fila escolar cruza la calzada a pie. Tiene…",
+    "uk": "Шкільна колона переходить дорогу пішки. Вона…"
    },
    "o": [
     {
      "en": "has priority over vehicles",
-     "es": "prioridad sobre los vehículos"
+     "es": "prioridad sobre los vehículos",
+     "uk": "має перевагу над ТЗ"
     },
     {
      "en": "must give way to vehicles",
-     "es": "que ceder el paso a los vehículos"
+     "es": "que ceder el paso a los vehículos",
+     "uk": "мусить поступатися ТЗ"
     },
     {
      "en": "has priority only with an agent present",
-     "es": "prioridad solo si hay un agente"
+     "es": "prioridad solo si hay un agente",
+     "uk": "має перевагу лише з регулювальником"
     }
    ],
    "why": {
     "en": "So do troops and organised processions.",
-    "es": "Igual las unidades militares y las comitivas organizadas."
+    "es": "Igual las unidades militares y las comitivas organizadas.",
+    "uk": "Так само військові підрозділи й організовані процесії."
    }
   },
   {
@@ -1134,25 +1351,30 @@ window.DGT_DATA = {
    "tag": "peds",
    "q": {
     "en": "Leaving a garage across the pavement, who goes first?",
-    "es": "Al salir de un garaje cruzando la acera, ¿quién pasa primero?"
+    "es": "Al salir de un garaje cruzando la acera, ¿quién pasa primero?",
+    "uk": "Виїжджаючи з гаража через тротуар, хто першим?"
    },
    "o": [
     {
      "en": "The pedestrians on the pavement",
-     "es": "Los peatones de la acera"
+     "es": "Los peatones de la acera",
+     "uk": "Пішоходи на тротуарі"
     },
     {
      "en": "You, if you signal",
-     "es": "Tú, si señalizas"
+     "es": "Tú, si señalizas",
+     "uk": "Ви, якщо подасте сигнал"
     },
     {
      "en": "Whoever is on the right",
-     "es": "El que esté a la derecha"
+     "es": "El que esté a la derecha",
+     "uk": "Той, хто праворуч"
     }
    ],
    "why": {
     "en": "Vehicles crossing a pedestrian zone through its passage give way to pedestrians.",
-    "es": "Los vehículos que cruzan una zona peatonal por su paso habilitado ceden a los peatones."
+    "es": "Los vehículos que cruzan una zona peatonal por su paso habilitado ceden a los peatones.",
+    "uk": "ТЗ, що перетинають пішохідну зону її проїздом, поступаються пішоходам."
    }
   },
   {
@@ -1160,25 +1382,30 @@ window.DGT_DATA = {
    "tag": "peds",
    "q": {
     "en": "Since October 2026, on a single-platform street (road and pavement at the same level)…",
-    "es": "Desde octubre de 2026, en una calle de plataforma única (calzada y acera al mismo nivel)…"
+    "es": "Desde octubre de 2026, en una calle de plataforma única (calzada y acera al mismo nivel)…",
+    "uk": "З жовтня 2026 року на вулиці plataforma única (проїзна частина й тротуар на одному рівні)…"
    },
    "o": [
     {
      "en": "pedestrians have priority",
-     "es": "los peatones tienen prioridad"
+     "es": "los peatones tienen prioridad",
+     "uk": "перевагу мають пішоходи"
     },
     {
      "en": "vehicles have priority",
-     "es": "los vehículos tienen prioridad"
+     "es": "los vehículos tienen prioridad",
+     "uk": "перевагу мають ТЗ"
     },
     {
      "en": "whoever comes from the right goes first",
-     "es": "pasa primero quien venga por la derecha"
+     "es": "pasa primero quien venga por la derecha",
+     "uk": "першим проїжджає той, хто праворуч"
     }
    ],
    "why": {
     "en": "Its generic speed limit is also the lowest: 20 km/h.",
-    "es": "Su límite genérico de velocidad es además el más bajo: 20 km/h."
+    "es": "Su límite genérico de velocidad es además el más bajo: 20 km/h.",
+    "uk": "Її загальне обмеження швидкості теж найнижче: 20 км/год."
    }
   },
   {
@@ -1186,25 +1413,30 @@ window.DGT_DATA = {
    "tag": "peds",
    "q": {
     "en": "Which of these counts as a vulnerable road user under the 2026 reform?",
-    "es": "¿Cuál de estos es un usuario vulnerable según la reforma de 2026?"
+    "es": "¿Cuál de estos es un usuario vulnerable según la reforma de 2026?",
+    "uk": "Хто з них вважається вразливим учасником руху за реформою 2026 року?"
    },
    "o": [
     {
      "en": "A motorcyclist",
-     "es": "Un motorista"
+     "es": "Un motorista",
+     "uk": "Мотоцикліст"
     },
     {
      "en": "A lorry driver",
-     "es": "Un camionero"
+     "es": "Un camionero",
+     "uk": "Водій вантажівки"
     },
     {
      "en": "A bus driver",
-     "es": "Un conductor de autobús"
+     "es": "Un conductor de autobús",
+     "uk": "Водій автобуса"
     }
    ],
    "why": {
     "en": "Also pedestrians, cyclists, personal mobility vehicle users and moped riders.",
-    "es": "También peatones, ciclistas, usuarios de vehículos de movilidad personal y de ciclomotores."
+    "es": "También peatones, ciclistas, usuarios de vehículos de movilidad personal y de ciclomotores.",
+    "uk": "А також пішоходи, велосипедисти, користувачі засобів персональної мобільності й водії мопедів."
    }
   },
   {
@@ -1212,25 +1444,30 @@ window.DGT_DATA = {
    "tag": "cyclists",
    "q": {
     "en": "Cyclists have priority over vehicles when riding on…",
-    "es": "Los ciclistas tienen prioridad sobre los vehículos cuando circulan por…"
+    "es": "Los ciclistas tienen prioridad sobre los vehículos cuando circulan por…",
+    "uk": "Велосипедисти мають перевагу над ТЗ, коли їдуть…"
    },
    "o": [
     {
      "en": "a signed cycle lane, cycle crossing or hard shoulder",
-     "es": "un carril bici, paso para ciclistas o arcén señalizados"
+     "es": "un carril bici, paso para ciclistas o arcén señalizados",
+     "uk": "позначеною велосмугою, велосипедним переїздом чи узбіччям"
     },
     {
      "en": "any lane of a motorway",
-     "es": "cualquier carril de una autopista"
+     "es": "cualquier carril de una autopista",
+     "uk": "будь-якою смугою автомагістралі"
     },
     {
      "en": "any pavement",
-     "es": "cualquier acera"
+     "es": "cualquier acera",
+     "uk": "будь-яким тротуаром"
     }
    ],
    "why": {
     "en": "Properly signed.",
-    "es": "Debidamente señalizados."
+    "es": "Debidamente señalizados.",
+    "uk": "Належно позначеними."
    }
   },
   {
@@ -1238,25 +1475,30 @@ window.DGT_DATA = {
    "tag": "cyclists",
    "q": {
     "en": "You turn left into a side road and a cyclist close by is going straight on. Who goes first?",
-    "es": "Giras a la izquierda para entrar en una vía lateral y un ciclista próximo sigue recto. ¿Quién pasa primero?"
+    "es": "Giras a la izquierda para entrar en una vía lateral y un ciclista próximo sigue recto. ¿Quién pasa primero?",
+    "uk": "Ви повертаєте ліворуч на бічну дорогу, а велосипедист поруч їде прямо. Хто першим?"
    },
    "o": [
     {
      "en": "The cyclist",
-     "es": "El ciclista"
+     "es": "El ciclista",
+     "uk": "Велосипедист"
     },
     {
      "en": "You",
-     "es": "Tú"
+     "es": "Tú",
+     "uk": "Ви"
     },
     {
      "en": "Whoever is on the right",
-     "es": "El que esté a la derecha"
+     "es": "El que esté a la derecha",
+     "uk": "Той, хто праворуч"
     }
    ],
    "why": {
     "en": "Turning right or left, the nearby cyclist goes first.",
-    "es": "Gires a la derecha o a la izquierda, pasa primero el ciclista próximo."
+    "es": "Gires a la derecha o a la izquierda, pasa primero el ciclista próximo.",
+    "uk": "Повертаючи праворуч чи ліворуч, першим проїжджає велосипедист поблизу."
    }
   },
   {
@@ -1264,25 +1506,30 @@ window.DGT_DATA = {
    "tag": "cyclists",
    "q": {
     "en": "The first rider of a group of cyclists has already entered a roundabout. You…",
-    "es": "El primero de un grupo de ciclistas ya ha entrado en una glorieta. Tú…"
+    "es": "El primero de un grupo de ciclistas ya ha entrado en una glorieta. Tú…",
+    "uk": "Перший велосипедист групи вже в’їхав на кільцеву розв’язку. Ви…"
    },
    "o": [
     {
      "en": "give way to the whole group",
-     "es": "cedes el paso a todo el grupo"
+     "es": "cedes el paso a todo el grupo",
+     "uk": "поступаєтеся всій групі"
     },
     {
      "en": "may cut in after the first rider",
-     "es": "puedes meterte después del primero"
+     "es": "puedes meterte después del primero",
+     "uk": "можете вклинитися після першого"
     },
     {
      "en": "have priority over the rest of the group",
-     "es": "tienes prioridad sobre el resto del grupo"
+     "es": "tienes prioridad sobre el resto del grupo",
+     "uk": "маєте перевагу над рештою групи"
     }
    ],
    "why": {
     "en": "The group counts as one moving unit.",
-    "es": "El grupo se considera una unidad móvil."
+    "es": "El grupo se considera una unidad móvil.",
+    "uk": "Група вважається одним рухомим цілим."
    }
   },
   {
@@ -1290,25 +1537,30 @@ window.DGT_DATA = {
    "tag": "cyclists",
    "q": {
     "en": "Outside the listed cases, priority between cyclists and other vehicles follows…",
-    "es": "Fuera de los casos enumerados, la prioridad entre ciclistas y demás vehículos sigue…"
+    "es": "Fuera de los casos enumerados, la prioridad entre ciclistas y demás vehículos sigue…",
+    "uk": "Поза переліченими випадками перевага між велосипедистами й іншими ТЗ визначається…"
    },
    "o": [
     {
      "en": "the general priority rules between vehicles",
-     "es": "las normas generales de prioridad entre vehículos"
+     "es": "las normas generales de prioridad entre vehículos",
+     "uk": "загальними правилами переваги між ТЗ"
     },
     {
      "en": "always the cyclist",
-     "es": "siempre al ciclista"
+     "es": "siempre al ciclista",
+     "uk": "завжди на користь велосипедиста"
     },
     {
      "en": "always the motor vehicle",
-     "es": "siempre al vehículo de motor"
+     "es": "siempre al vehículo de motor",
+     "uk": "завжди на користь механічного ТЗ"
     }
    ],
    "why": {
     "en": "For example, give way to the right at unsigned junctions.",
-    "es": "Por ejemplo, ceder a la derecha en intersecciones sin señalizar."
+    "es": "Por ejemplo, ceder a la derecha en intersecciones sin señalizar.",
+    "uk": "Наприклад, поступатися правому на перехрестях без знаків."
    }
   },
   {
@@ -1316,25 +1568,30 @@ window.DGT_DATA = {
    "tag": "cyclists",
    "q": {
     "en": "Who must give way to a nearby cyclist when turning into another road?",
-    "es": "¿Quién debe ceder el paso al ciclista próximo al girar para entrar en otra vía?"
+    "es": "¿Quién debe ceder el paso al ciclista próximo al girar para entrar en otra vía?",
+    "uk": "Хто мусить поступатися велосипедисту поблизу, повертаючи на іншу дорогу?"
    },
    "o": [
     {
      "en": "Motor vehicles and mopeds",
-     "es": "Los vehículos de motor y los ciclomotores"
+     "es": "Los vehículos de motor y los ciclomotores",
+     "uk": "Механічні ТЗ і мопеди"
     },
     {
      "en": "Only lorries",
-     "es": "Solo los camiones"
+     "es": "Solo los camiones",
+     "uk": "Лише вантажівки"
     },
     {
      "en": "Only cars turning right",
-     "es": "Solo los turismos que giran a la derecha"
+     "es": "Solo los turismos que giran a la derecha",
+     "uk": "Лише легковики, що повертають праворуч"
     }
    ],
    "why": {
     "en": "Whichever way they turn.",
-    "es": "Giren hacia donde giren."
+    "es": "Giren hacia donde giren.",
+    "uk": "Хоч куди вони повертають."
    }
   },
   {
@@ -1342,25 +1599,30 @@ window.DGT_DATA = {
    "tag": "cyclists",
    "q": {
     "en": "Unsigned junction on an ordinary road: a cyclist comes from your left, and you go straight on. Who goes first?",
-    "es": "Intersección sin señalizar en una vía normal: un ciclista viene por tu izquierda y tú sigues recto. ¿Quién pasa primero?"
+    "es": "Intersección sin señalizar en una vía normal: un ciclista viene por tu izquierda y tú sigues recto. ¿Quién pasa primero?",
+    "uk": "Перехрестя без знаків на звичайній дорозі: велосипедист наближається ліворуч від вас, ви їдете прямо. Хто першим?"
    },
    "o": [
     {
      "en": "You, under the general rules",
-     "es": "Tú, por las normas generales"
+     "es": "Tú, por las normas generales",
+     "uk": "Ви, за загальними правилами"
     },
     {
      "en": "The cyclist, always",
-     "es": "El ciclista, siempre"
+     "es": "El ciclista, siempre",
+     "uk": "Велосипедист, завжди"
     },
     {
      "en": "Whoever is slower",
-     "es": "El más lento"
+     "es": "El más lento",
+     "uk": "Хто повільніший"
     }
    ],
    "why": {
     "en": "No cycle lane, no turn, no group: general rules apply.",
-    "es": "Sin carril bici, sin giro y sin grupo: rigen las normas generales."
+    "es": "Sin carril bici, sin giro y sin grupo: rigen las normas generales.",
+    "uk": "Ні велосмуги, ні повороту, ні групи: діють загальні правила."
    }
   },
   {
@@ -1368,25 +1630,30 @@ window.DGT_DATA = {
    "tag": "animals",
    "q": {
     "en": "As a general rule, between vehicles and animals…",
-    "es": "Como norma general, entre vehículos y animales…"
+    "es": "Como norma general, entre vehículos y animales…",
+    "uk": "Як правило, між ТЗ і тваринами…"
    },
    "o": [
     {
      "en": "drivers have priority, with some exceptions",
-     "es": "los conductores tienen prioridad, con algunas excepciones"
+     "es": "los conductores tienen prioridad, con algunas excepciones",
+     "uk": "перевагу мають водії, з деякими винятками"
     },
     {
      "en": "animals always have priority",
-     "es": "los animales tienen siempre prioridad"
+     "es": "los animales tienen siempre prioridad",
+     "uk": "тварини завжди мають перевагу"
     },
     {
      "en": "whoever arrives first goes first",
-     "es": "pasa el que llega primero"
+     "es": "pasa el que llega primero",
+     "uk": "першим проходить той, хто першим під’їхав"
     }
    ],
    "why": {
     "en": "Three exceptions: signed cañadas, turning, crossing a shoulder.",
-    "es": "Tres excepciones: cañadas señalizadas, giros y cruce de arcén."
+    "es": "Tres excepciones: cañadas señalizadas, giros y cruce de arcén.",
+    "uk": "Три винятки: позначені cañadas, поворот, перетин узбіччя."
    }
   },
   {
@@ -1394,25 +1661,30 @@ window.DGT_DATA = {
    "tag": "animals",
    "q": {
     "en": "On a signed cañada, who goes first?",
-    "es": "En una cañada señalizada, ¿quién pasa primero?"
+    "es": "En una cañada señalizada, ¿quién pasa primero?",
+    "uk": "Хто першим на позначеній cañada?"
    },
    "o": [
     {
      "en": "The animals",
-     "es": "Los animales"
+     "es": "Los animales",
+     "uk": "Тварини"
     },
     {
      "en": "The vehicles",
-     "es": "Los vehículos"
+     "es": "Los vehículos",
+     "uk": "ТЗ"
     },
     {
      "en": "The larger one",
-     "es": "El más grande"
+     "es": "El más grande",
+     "uk": "Більший"
     }
    ],
    "why": {
     "en": "It is the animals’ route.",
-    "es": "Es el itinerario de los animales."
+    "es": "Es el itinerario de los animales.",
+    "uk": "Це маршрут тварин."
    }
   },
   {
@@ -1420,25 +1692,30 @@ window.DGT_DATA = {
    "tag": "animals",
    "q": {
     "en": "You turn into another road and a flock is crossing it where there is no cañada. You…",
-    "es": "Giras para entrar en otra vía y un rebaño la está cruzando donde no hay cañada. Tú…"
+    "es": "Giras para entrar en otra vía y un rebaño la está cruzando donde no hay cañada. Tú…",
+    "uk": "Ви повертаєте на іншу дорогу, а її перетинає отара там, де cañada немає. Ви…"
    },
    "o": [
     {
      "en": "give way to the animals",
-     "es": "cedes el paso a los animales"
+     "es": "cedes el paso a los animales",
+     "uk": "поступаєтеся тваринам"
     },
     {
      "en": "have priority",
-     "es": "tienes prioridad"
+     "es": "tienes prioridad",
+     "uk": "маєте перевагу"
     },
     {
      "en": "sound the horn and go on",
-     "es": "tocas el claxon y sigues"
+     "es": "tocas el claxon y sigues",
+     "uk": "сигналите й їдете далі"
     }
    ],
    "why": {
     "en": "Even though there is no crossing for them.",
-    "es": "Aunque no exista paso para ellos."
+    "es": "Aunque no exista paso para ellos.",
+    "uk": "Навіть якщо переходу для них немає."
    }
   },
   {
@@ -1446,25 +1723,30 @@ window.DGT_DATA = {
    "tag": "animals",
    "q": {
     "en": "How is a cañada signed?",
-    "es": "¿Cómo se señaliza una cañada?"
+    "es": "¿Cómo se señaliza una cañada?",
+    "uk": "Як позначають cañada?"
    },
    "o": [
     {
      "en": "A «cañada» panel under the domestic animals warning sign, plus speed limits",
-     "es": "Un panel «cañada» bajo la señal de animales domésticos, más limitación de velocidad"
+     "es": "Un panel «cañada» bajo la señal de animales domésticos, más limitación de velocidad",
+     "uk": "Табличкою «cañada» під попереджувальним знаком про свійських тварин, плюс обмеження швидкості"
     },
     {
      "en": "With a green information sign only",
-     "es": "Solo con una señal verde informativa"
+     "es": "Solo con una señal verde informativa",
+     "uk": "Лише зеленим інформаційним знаком"
     },
     {
      "en": "With road markings only",
-     "es": "Solo con marcas viales"
+     "es": "Solo con marcas viales",
+     "uk": "Лише дорожньою розміткою"
     }
    ],
    "why": {
     "en": "The speed-limit signs complement it.",
-    "es": "Las señales de limitación de velocidad la complementan."
+    "es": "Las señales de limitación de velocidad la complementan.",
+    "uk": "Його доповнюють знаки обмеження швидкості."
    }
   },
   {
@@ -1472,25 +1754,30 @@ window.DGT_DATA = {
    "tag": "animals",
    "q": {
     "en": "You cross a hard shoulder along which animals are walking (no cañada). Who goes first?",
-    "es": "Cruzas un arcén por el que caminan animales (no hay cañada). ¿Quién pasa primero?"
+    "es": "Cruzas un arcén por el que caminan animales (no hay cañada). ¿Quién pasa primero?",
+    "uk": "Ви перетинаєте узбіччя, яким ідуть тварини (cañada немає). Хто першим?"
    },
    "o": [
     {
      "en": "The animals",
-     "es": "Los animales"
+     "es": "Los animales",
+     "uk": "Тварини"
     },
     {
      "en": "You",
-     "es": "Tú"
+     "es": "Tú",
+     "uk": "Ви"
     },
     {
      "en": "Whoever is faster",
-     "es": "El más rápido"
+     "es": "El más rápido",
+     "uk": "Хто швидший"
     }
    ],
    "why": {
     "en": "Same logic as pedestrians on a shoulder.",
-    "es": "La misma lógica que con los peatones en el arcén."
+    "es": "La misma lógica que con los peatones en el arcén.",
+    "uk": "Та сама логіка, що й з пішоходами на узбіччі."
    }
   },
   {
@@ -1498,25 +1785,30 @@ window.DGT_DATA = {
    "tag": "narrow",
    "q": {
     "en": "A narrow stretch (estrechamiento) is a part of the road where…",
-    "es": "Un estrechamiento es un tramo de la vía en el que…"
+    "es": "Un estrechamiento es un tramo de la vía en el que…",
+    "uk": "Вузька ділянка (estrechamiento) — частина дороги, де…"
    },
    "o": [
     {
      "en": "two vehicles in opposite directions cannot pass, or only with great difficulty",
-     "es": "es imposible o muy difícil el paso simultáneo de dos vehículos en sentidos opuestos"
+     "es": "es imposible o muy difícil el paso simultáneo de dos vehículos en sentidos opuestos",
+     "uk": "два ТЗ у протилежних напрямках не можуть роз’їхатися або можуть лише з великими труднощами"
     },
     {
      "en": "the road is under 6 m wide",
-     "es": "la calzada mide menos de 6 m"
+     "es": "la calzada mide menos de 6 m",
+     "uk": "дорога вужча за 6 м"
     },
     {
      "en": "there is only one lane per direction",
-     "es": "solo hay un carril por sentido"
+     "es": "solo hay un carril por sentido",
+     "uk": "лише одна смуга в кожному напрямку"
     }
    ],
    "why": {
     "en": "Because of its narrowness.",
-    "es": "Por su estrechez."
+    "es": "Por su estrechez.",
+    "uk": "Через її вузькість."
    }
   },
   {
@@ -1524,25 +1816,30 @@ window.DGT_DATA = {
    "tag": "narrow",
    "q": {
     "en": "A blue square sign with a large white arrow up and a small red arrow down (R-6) means…",
-    "es": "Una señal cuadrada azul con flecha blanca grande hacia arriba y flecha roja pequeña hacia abajo (R-6) indica…"
+    "es": "Una señal cuadrada azul con flecha blanca grande hacia arriba y flecha roja pequeña hacia abajo (R-6) indica…",
+    "uk": "Синій квадратний знак із великою білою стрілкою вгору й маленькою червоною вниз (R-6) означає…"
    },
    "o": [
     {
      "en": "you have priority over oncoming vehicles",
-     "es": "prioridad respecto al sentido contrario: pasas tú"
+     "es": "prioridad respecto al sentido contrario: pasas tú",
+     "uk": "у вас перевага над зустрічними ТЗ"
     },
     {
      "en": "give way to oncoming vehicles",
-     "es": "debes ceder el paso al sentido contrario"
+     "es": "debes ceder el paso al sentido contrario",
+     "uk": "поступіться зустрічним ТЗ"
     },
     {
      "en": "a one-way road",
-     "es": "una calle de sentido único"
+     "es": "una calle de sentido único",
+     "uk": "дорога з одностороннім рухом"
     }
    ],
    "why": {
     "en": "The round red one (R-5) means the opposite.",
-    "es": "La redonda roja (R-5) indica lo contrario."
+    "es": "La redonda roja (R-5) indica lo contrario.",
+    "uk": "Круглий червоний (R-5) означає протилежне."
    }
   },
   {
@@ -1550,25 +1847,30 @@ window.DGT_DATA = {
    "tag": "narrow",
    "q": {
     "en": "In a narrow stretch with no signs, who goes first?",
-    "es": "En un estrechamiento sin señalizar, ¿quién pasa primero?"
+    "es": "En un estrechamiento sin señalizar, ¿quién pasa primero?",
+    "uk": "Хто першим на вузькій ділянці без знаків?"
    },
    "o": [
     {
      "en": "The vehicle that entered first",
-     "es": "El vehículo que hubiera entrado primero"
+     "es": "El vehículo que hubiera entrado primero",
+     "uk": "ТЗ, що в’їхав першим"
     },
     {
      "en": "The larger vehicle",
-     "es": "El vehículo más grande"
+     "es": "El vehículo más grande",
+     "uk": "Більший ТЗ"
     },
     {
      "en": "The one going uphill, always",
-     "es": "El que sube, siempre"
+     "es": "El que sube, siempre",
+     "uk": "Той, хто їде вгору, завжди"
     }
    ],
    "why": {
     "en": "The list of vehicles is only for doubtful cases.",
-    "es": "La lista de vehículos solo se usa en caso de duda."
+    "es": "La lista de vehículos solo se usa en caso de duda.",
+    "uk": "Перелік ТЗ — лише для сумнівних випадків."
    }
   },
   {
@@ -1576,25 +1878,30 @@ window.DGT_DATA = {
    "tag": "narrow",
    "q": {
     "en": "Narrow stretch, no signs, unclear who entered first: a bus meets a lorry. Who goes first?",
-    "es": "Estrechamiento sin señales, sin saber quién entró primero: se encuentran un autobús y un camión. ¿Quién pasa?"
+    "es": "Estrechamiento sin señales, sin saber quién entró primero: se encuentran un autobús y un camión. ¿Quién pasa?",
+    "uk": "Вузька ділянка, знаків немає, незрозуміло, хто в’їхав першим: автобус зустрів вантажівку. Хто першим?"
    },
    "o": [
     {
      "en": "The bus",
-     "es": "El autobús"
+     "es": "El autobús",
+     "uk": "Автобус"
     },
     {
      "en": "The lorry",
-     "es": "El camión"
+     "es": "El camión",
+     "uk": "Вантажівка"
     },
     {
      "en": "The one with less distance to reverse",
-     "es": "El que tenga menos marcha atrás"
+     "es": "El que tenga menos marcha atrás",
+     "uk": "Той, кому менше їхати назад"
     }
    ],
    "why": {
     "en": "Buses are 5th, lorries 6th.",
-    "es": "Autobuses 5.º, camiones 6.º."
+    "es": "Autobuses 5.º, camiones 6.º.",
+    "uk": "Автобуси — 5-ті, вантажівки — 6-ті."
    }
   },
   {
@@ -1602,25 +1909,30 @@ window.DGT_DATA = {
    "tag": "narrow",
    "q": {
     "en": "In doubt: a car towing a 600 kg trailer meets a bus. Who goes first?",
-    "es": "En caso de duda: un turismo con remolque de 600 kg se encuentra con un autobús. ¿Quién pasa?"
+    "es": "En caso de duda: un turismo con remolque de 600 kg se encuentra con un autobús. ¿Quién pasa?",
+    "uk": "У сумнівному випадку легковик із причепом 600 кг зустрів автобус. Хто першим?"
    },
    "o": [
     {
      "en": "The car with the trailer",
-     "es": "El turismo con remolque"
+     "es": "El turismo con remolque",
+     "uk": "Легковик із причепом"
     },
     {
      "en": "The bus",
-     "es": "El autobús"
+     "es": "El autobús",
+     "uk": "Автобус"
     },
     {
      "en": "The one coming from the right",
-     "es": "El que viene por la derecha"
+     "es": "El que viene por la derecha",
+     "uk": "Той, хто праворуч"
     }
    ],
    "why": {
     "en": "Cars with a trailer up to 750 kg, and motorhomes, are 4th; buses 5th.",
-    "es": "Turismos con remolque de hasta 750 kg y autocaravanas, 4.º; autobuses, 5.º."
+    "es": "Turismos con remolque de hasta 750 kg y autocaravanas, 4.º; autobuses, 5.º.",
+    "uk": "Легковики з причепом до 750 кг і автобудинки — 4-ті; автобуси — 5-ті."
    }
   },
   {
@@ -1628,25 +1940,30 @@ window.DGT_DATA = {
    "tag": "narrow",
    "q": {
     "en": "In doubt: a motorcycle without sidecar meets a car. Who goes first?",
-    "es": "En caso de duda: una motocicleta sin sidecar se encuentra con un turismo. ¿Quién pasa?"
+    "es": "En caso de duda: una motocicleta sin sidecar se encuentra con un turismo. ¿Quién pasa?",
+    "uk": "У сумнівному випадку мотоцикл без коляски зустрів легковик. Хто першим?"
    },
    "o": [
     {
      "en": "The car",
-     "es": "El turismo"
+     "es": "El turismo",
+     "uk": "Легковик"
     },
     {
      "en": "The motorcycle",
-     "es": "La motocicleta"
+     "es": "La motocicleta",
+     "uk": "Мотоцикл"
     },
     {
      "en": "The one going downhill",
-     "es": "El que baja"
+     "es": "El que baja",
+     "uk": "Той, хто їде вниз"
     }
    ],
    "why": {
     "en": "Two-wheelers are last on the list.",
-    "es": "Las de dos ruedas son las últimas de la lista."
+    "es": "Las de dos ruedas son las últimas de la lista.",
+    "uk": "Двоколісні — останні в переліку."
    }
   },
   {
@@ -1654,25 +1971,30 @@ window.DGT_DATA = {
    "tag": "narrow",
    "q": {
     "en": "Two cars meet in a narrow stretch and it is unclear who entered first. Who goes first?",
-    "es": "Dos turismos se encuentran en un estrechamiento y no está claro quién entró primero. ¿Quién pasa?"
+    "es": "Dos turismos se encuentran en un estrechamiento y no está claro quién entró primero. ¿Quién pasa?",
+    "uk": "Два легковики зустрілися на вузькій ділянці, і незрозуміло, хто в’їхав першим. Хто першим?"
    },
    "o": [
     {
      "en": "The one that would have to reverse further",
-     "es": "El que tuviera que dar marcha atrás mayor distancia"
+     "es": "El que tuviera que dar marcha atrás mayor distancia",
+     "uk": "Той, кому довелося б довше їхати назад"
     },
     {
      "en": "The faster one",
-     "es": "El más rápido"
+     "es": "El más rápido",
+     "uk": "Швидший"
     },
     {
      "en": "The one on the right",
-     "es": "El de la derecha"
+     "es": "El de la derecha",
+     "uk": "Той, хто праворуч"
     }
    ],
    "why": {
     "en": "If that is equal: the wider, longer or heavier.",
-    "es": "Si es igual: el de mayor anchura, longitud o MMA."
+    "es": "Si es igual: el de mayor anchura, longitud o MMA.",
+    "uk": "Якщо однаково — ширший, довший чи важчий."
    }
   },
   {
@@ -1680,25 +2002,30 @@ window.DGT_DATA = {
    "tag": "narrow",
    "q": {
     "en": "Narrow stretch on a gradient of 7 % or more, no signs. Who goes first?",
-    "es": "Estrechamiento en pendiente del 7 % o más, sin señales. ¿Quién pasa primero?"
+    "es": "Estrechamiento en pendiente del 7 % o más, sin señales. ¿Quién pasa primero?",
+    "uk": "Вузька ділянка на ухилі 7 % чи більше, знаків немає. Хто першим?"
    },
    "o": [
     {
      "en": "The vehicle going uphill, unless it could reach a lay-by first",
-     "es": "El que sube, salvo que pudiera llegar antes a un apartadero"
+     "es": "El que sube, salvo que pudiera llegar antes a un apartadero",
+     "uk": "ТЗ, що їде вгору, якщо той, хто їде вниз, не може першим дістатися кишені"
     },
     {
      "en": "The vehicle going downhill",
-     "es": "El que baja"
+     "es": "El que baja",
+     "uk": "ТЗ, що їде вниз"
     },
     {
      "en": "The heavier vehicle",
-     "es": "El más pesado"
+     "es": "El más pesado",
+     "uk": "Важчий ТЗ"
     }
    ],
    "why": {
     "en": "In doubt about the gradient or the lay-by, the general rules apply.",
-    "es": "En caso de duda sobre la pendiente o el apartadero, rigen las normas generales."
+    "es": "En caso de duda sobre la pendiente o el apartadero, rigen las normas generales.",
+    "uk": "У сумніві щодо ухилу чи кишені діють загальні правила."
    }
   },
   {
@@ -1706,25 +2033,30 @@ window.DGT_DATA = {
    "tag": "narrow",
    "q": {
     "en": "In doubt: an oversize special vehicle meets a combination of vehicles. Who goes first?",
-    "es": "En caso de duda: un vehículo especial que excede de las dimensiones se encuentra con un conjunto de vehículos. ¿Quién pasa?"
+    "es": "En caso de duda: un vehículo especial que excede de las dimensiones se encuentra con un conjunto de vehículos. ¿Quién pasa?",
+    "uk": "У сумнівному випадку великогабаритний спеціальний ТЗ зустрів состав ТЗ. Хто першим?"
    },
    "o": [
     {
      "en": "The oversize special vehicle",
-     "es": "El vehículo especial que excede"
+     "es": "El vehículo especial que excede",
+     "uk": "Великогабаритний спеціальний ТЗ"
     },
     {
      "en": "The combination",
-     "es": "El conjunto de vehículos"
+     "es": "El conjunto de vehículos",
+     "uk": "Состав"
     },
     {
      "en": "The one that entered last",
-     "es": "El que entró el último"
+     "es": "El que entró el último",
+     "uk": "Той, хто в’їхав останнім"
     }
    ],
    "why": {
     "en": "It is first on the list.",
-    "es": "Es el primero de la lista."
+    "es": "Es el primero de la lista.",
+    "uk": "Він перший у переліку."
    }
   },
   {
@@ -1732,25 +2064,30 @@ window.DGT_DATA = {
    "tag": "narrow",
    "q": {
     "en": "In doubt: an animal-drawn cart meets a lorry. Who goes first?",
-    "es": "En caso de duda: un carro de tracción animal se encuentra con un camión. ¿Quién pasa?"
+    "es": "En caso de duda: un carro de tracción animal se encuentra con un camión. ¿Quién pasa?",
+    "uk": "У сумнівному випадку гужовий віз зустрів вантажівку. Хто першим?"
    },
    "o": [
     {
      "en": "The animal-drawn cart",
-     "es": "El vehículo de tracción animal"
+     "es": "El vehículo de tracción animal",
+     "uk": "Гужовий віз"
     },
     {
      "en": "The lorry",
-     "es": "El camión"
+     "es": "El camión",
+     "uk": "Вантажівка"
     },
     {
      "en": "The one on the right",
-     "es": "El de la derecha"
+     "es": "El de la derecha",
+     "uk": "Той, хто праворуч"
     }
    ],
    "why": {
     "en": "Animal-drawn vehicles are 3rd; lorries 6th.",
-    "es": "Tracción animal, 3.º; camiones, 6.º."
+    "es": "Tracción animal, 3.º; camiones, 6.º.",
+    "uk": "Гужові ТЗ — 3-ті; вантажівки — 6-ті."
    }
   },
   {
@@ -1758,25 +2095,30 @@ window.DGT_DATA = {
    "tag": "narrow",
    "q": {
     "en": "A round sign with a red rim, a black arrow down and a red arrow up (R-5) means…",
-    "es": "Una señal redonda con borde rojo, flecha negra hacia abajo y flecha roja hacia arriba (R-5) indica…"
+    "es": "Una señal redonda con borde rojo, flecha negra hacia abajo y flecha roja hacia arriba (R-5) indica…",
+    "uk": "Круглий знак із червоною облямівкою, чорною стрілкою вниз і червоною вгору (R-5) означає…"
    },
    "o": [
     {
      "en": "give way to oncoming vehicles",
-     "es": "prioridad en sentido contrario: cedes el paso"
+     "es": "prioridad en sentido contrario: cedes el paso",
+     "uk": "поступіться зустрічним ТЗ"
     },
     {
      "en": "you have priority over oncoming vehicles",
-     "es": "tienes prioridad sobre el sentido contrario"
+     "es": "tienes prioridad sobre el sentido contrario",
+     "uk": "у вас перевага над зустрічними ТЗ"
     },
     {
      "en": "no entry",
-     "es": "entrada prohibida"
+     "es": "entrada prohibida",
+     "uk": "в’їзд заборонено"
     }
    ],
    "why": {
     "en": "Red, round = you give way.",
-    "es": "Roja y redonda = cedes."
+    "es": "Roja y redonda = cedes.",
+    "uk": "Червоний круглий = ви поступаєтеся."
    }
   },
   {
@@ -1784,25 +2126,30 @@ window.DGT_DATA = {
    "tag": "bridges",
    "q": {
     "en": "A narrow bridge has an R-5 sign at your end. You meet a car on the bridge. You…",
-    "es": "Un puente estrecho tiene una señal R-5 en tu extremo. Te encuentras con un turismo en el puente. Tú…"
+    "es": "Un puente estrecho tiene una señal R-5 en tu extremo. Te encuentras con un turismo en el puente. Tú…",
+    "uk": "Вузький міст має знак R-5 з вашого боку. На мосту ви зустріли легковик. Ви…"
    },
    "o": [
     {
      "en": "reverse to let it pass",
-     "es": "retrocedes para dejarle paso"
+     "es": "retrocedes para dejarle paso",
+     "uk": "їдете назад, щоб його пропустити"
     },
     {
      "en": "wait for it to reverse",
-     "es": "esperas a que retroceda él"
+     "es": "esperas a que retroceda él",
+     "uk": "чекаєте, доки він поїде назад"
     },
     {
      "en": "the smaller one reverses",
-     "es": "retrocede el más pequeño"
+     "es": "retrocede el más pequeño",
+     "uk": "назад їде менший"
     }
    ],
    "why": {
     "en": "Same with a give-way sign at your end.",
-    "es": "Igual con un ceda el paso en tu extremo."
+    "es": "Igual con un ceda el paso en tu extremo.",
+    "uk": "Так само зі знаком «Дати дорогу» з вашого боку."
    }
   },
   {
@@ -1810,25 +2157,30 @@ window.DGT_DATA = {
    "tag": "bridges",
    "q": {
     "en": "On a narrow bridge with no signs, who goes first?",
-    "es": "En un puente estrecho sin señalizar, ¿quién pasa primero?"
+    "es": "En un puente estrecho sin señalizar, ¿quién pasa primero?",
+    "uk": "Хто першим на вузькому мосту без знаків?"
    },
    "o": [
     {
      "en": "As in narrow stretches: first in; in doubt, the vehicle list",
-     "es": "Como en los estrechamientos: el que entró primero; en duda, la lista"
+     "es": "Como en los estrechamientos: el que entró primero; en duda, la lista",
+     "uk": "Як на вузьких ділянках: хто першим в’їхав; у сумніві — перелік ТЗ"
     },
     {
      "en": "Whoever comes from the right",
-     "es": "El que viene por la derecha"
+     "es": "El que viene por la derecha",
+     "uk": "Той, хто праворуч"
     },
     {
      "en": "Always the heavier vehicle",
-     "es": "Siempre el más pesado"
+     "es": "Siempre el más pesado",
+     "uk": "Завжди важчий ТЗ"
     }
    ],
    "why": {
     "en": "Section 4.1 applies.",
-    "es": "Se aplica el apartado 4.1."
+    "es": "Se aplica el apartado 4.1.",
+    "uk": "Діє розділ 4.1."
    }
   },
   {
@@ -1836,25 +2188,30 @@ window.DGT_DATA = {
    "tag": "bridges",
    "q": {
     "en": "Vehicles that need a special permit may not pass each other on bridges whose carriageway is narrower than…",
-    "es": "Los vehículos que necesitan autorización especial no pueden cruzarse en puentes cuya calzada mida menos de…"
+    "es": "Los vehículos que necesitan autorización especial no pueden cruzarse en puentes cuya calzada mida menos de…",
+    "uk": "ТЗ, яким потрібен спеціальний дозвіл, не можуть роз’їжджатися на мостах із проїзною частиною вужчою за…"
    },
    "o": [
     {
      "en": "6 m",
-     "es": "6 m"
+     "es": "6 m",
+     "uk": "6 м"
     },
     {
      "en": "4 m",
-     "es": "4 m"
+     "es": "4 m",
+     "uk": "4 м"
     },
     {
      "en": "8 m",
-     "es": "8 m"
+     "es": "8 m",
+     "uk": "8 м"
     }
    ],
    "why": {
     "en": "If they meet, the narrow-stretch rules apply.",
-    "es": "Si se encuentran, rigen las normas de los estrechamientos."
+    "es": "Si se encuentran, rigen las normas de los estrechamientos.",
+    "uk": "Якщо вони зустрілися, діють правила для вузьких ділянок."
    }
   },
   {
@@ -1862,25 +2219,30 @@ window.DGT_DATA = {
    "tag": "bridges",
    "q": {
     "en": "On a bridge too narrow to pass, the order of priority is set first by…",
-    "es": "En un puente que no permite el cruce, el orden de preferencia lo marca en primer lugar…"
+    "es": "En un puente que no permite el cruce, el orden de preferencia lo marca en primer lugar…",
+    "uk": "На мосту, надто вузькому, щоб роз’їхатися, черговість насамперед визначають…"
    },
    "o": [
     {
      "en": "the signs that regulate it",
-     "es": "la señalización que lo regule"
+     "es": "la señalización que lo regule",
+     "uk": "знаки, що її регулюють"
     },
     {
      "en": "the size of the vehicles",
-     "es": "el tamaño de los vehículos"
+     "es": "el tamaño de los vehículos",
+     "uk": "розміри ТЗ"
     },
     {
      "en": "the time of day",
-     "es": "la hora del día"
+     "es": "la hora del día",
+     "uk": "час доби"
     }
    ],
    "why": {
     "en": "Without signs, the vehicle list.",
-    "es": "Sin señales, la lista de vehículos."
+    "es": "Sin señales, la lista de vehículos.",
+    "uk": "Без знаків — перелік ТЗ."
    }
   },
   {
@@ -1888,25 +2250,30 @@ window.DGT_DATA = {
    "tag": "priority",
    "q": {
     "en": "Which vehicles are emergency-service priority vehicles?",
-    "es": "¿Qué vehículos son prioritarios de servicios de urgencia?"
+    "es": "¿Qué vehículos son prioritarios de servicios de urgencia?",
+    "uk": "Які ТЗ — ТЗ з перевагою екстрених служб?"
    },
    "o": [
     {
      "en": "Police, fire brigade, civil protection and ambulances on urgent service",
-     "es": "Policía, bomberos, protección civil y asistencia sanitaria en servicio urgente"
+     "es": "Policía, bomberos, protección civil y asistencia sanitaria en servicio urgente",
+     "uk": "Поліція, пожежні, цивільний захист і швидка допомога, що виконують термінове завдання"
     },
     {
      "en": "All buses",
-     "es": "Todos los autobuses"
+     "es": "Todos los autobuses",
+     "uk": "Усі автобуси"
     },
     {
      "en": "Taxis carrying passengers",
-     "es": "Los taxis con pasajeros"
+     "es": "Los taxis con pasajeros",
+     "uk": "Таксі з пасажирами"
     }
    ],
    "why": {
     "en": "Public or private.",
-    "es": "Públicos o privados."
+    "es": "Públicos o privados.",
+    "uk": "Державні чи приватні."
    }
   },
   {
@@ -1914,25 +2281,30 @@ window.DGT_DATA = {
    "tag": "priority",
    "q": {
     "en": "To be a priority vehicle, an ambulance on urgent service normally uses…",
-    "es": "Para ser prioritaria, una ambulancia en servicio urgente utiliza normalmente…"
+    "es": "Para ser prioritaria, una ambulancia en servicio urgente utiliza normalmente…",
+    "uk": "Щоб бути ТЗ з перевагою, швидка допомога, що виконує термінове завдання, зазвичай вмикає…"
    },
    "o": [
     {
      "en": "the blue light and the siren at the same time",
-     "es": "la señal luminosa y la acústica a la vez"
+     "es": "la señal luminosa y la acústica a la vez",
+     "uk": "синій маячок і сирену одночасно"
     },
     {
      "en": "only the siren",
-     "es": "solo la sirena"
+     "es": "solo la sirena",
+     "uk": "лише сирену"
     },
     {
      "en": "the hazard lights",
-     "es": "la luz de emergencia"
+     "es": "la luz de emergencia",
+     "uk": "аварійну сигналізацію"
     }
    ],
    "why": {
     "en": "The light alone only when omitting the siren is no danger.",
-    "es": "Solo la luz cuando omitir la sirena no entrañe peligro."
+    "es": "Solo la luz cuando omitir la sirena no entrañe peligro.",
+    "uk": "Лише маячок — тільки тоді, коли без сирени немає небезпеки."
    }
   },
   {
@@ -1940,25 +2312,30 @@ window.DGT_DATA = {
    "tag": "priority",
    "q": {
     "en": "The V-1 light of a priority vehicle is…",
-    "es": "La señal luminosa V-1 de un vehículo prioritario es…"
+    "es": "La señal luminosa V-1 de un vehículo prioritario es…",
+    "uk": "Маячок V-1 ТЗ з перевагою —"
    },
    "o": [
     {
      "en": "blue, visible from at least 50 m in all directions",
-     "es": "azul, visible a 50 m como mínimo en todas las direcciones"
+     "es": "azul, visible a 50 m como mínimo en todas las direcciones",
+     "uk": "синій, видимий щонайменше з 50 м у всіх напрямках"
     },
     {
      "en": "amber, visible from 100 m",
-     "es": "ámbar, visible a 100 m"
+     "es": "ámbar, visible a 100 m",
+     "uk": "жовтий, видимий зі 100 м"
     },
     {
      "en": "red, visible from 150 m to the front",
-     "es": "roja, visible a 150 m por delante"
+     "es": "roja, visible a 150 m por delante",
+     "uk": "червоний, видимий зі 150 м спереду"
     }
    ],
    "why": {
     "en": "One or more blue lights.",
-    "es": "Uno o varios destellos azules."
+    "es": "Uno o varios destellos azules.",
+    "uk": "Один чи кілька синіх маячків."
    }
   },
   {
@@ -1966,25 +2343,30 @@ window.DGT_DATA = {
    "tag": "priority",
    "q": {
     "en": "When may a priority vehicle use only the light, without the siren?",
-    "es": "¿Cuándo puede un vehículo prioritario usar solo la señal luminosa, sin la acústica?"
+    "es": "¿Cuándo puede un vehículo prioritario usar solo la señal luminosa, sin la acústica?",
+    "uk": "Коли ТЗ з перевагою може вмикати лише маячок, без сирени?"
    },
    "o": [
     {
      "en": "Exceptionally, when leaving out the siren is no danger",
-     "es": "Excepcionalmente, cuando omitir la acústica no entrañe peligro"
+     "es": "Excepcionalmente, cuando omitir la acústica no entrañe peligro",
+     "uk": "У виняткових випадках, коли без сирени немає небезпеки"
     },
     {
      "en": "Never",
-     "es": "Nunca"
+     "es": "Nunca",
+     "uk": "Ніколи"
     },
     {
      "en": "Always at night",
-     "es": "Siempre de noche"
+     "es": "Siempre de noche",
+     "uk": "Завжди вночі"
     }
    ],
    "why": {
     "en": "For example on an empty road at night, if that is safe.",
-    "es": "Por ejemplo en una vía vacía de noche, si es seguro."
+    "es": "Por ejemplo en una vía vacía de noche, si es seguro.",
+    "uk": "Наприклад, на порожній дорозі вночі, якщо це безпечно."
    }
   },
   {
@@ -1992,25 +2374,30 @@ window.DGT_DATA = {
    "tag": "priority",
    "q": {
     "en": "On urgent service and signalling correctly, a priority vehicle may…",
-    "es": "En servicio urgente y señalizándolo correctamente, un vehículo prioritario puede…"
+    "es": "En servicio urgente y señalizándolo correctamente, un vehículo prioritario puede…",
+    "uk": "Виконуючи термінове завдання й правильно сигналізуючи, ТЗ з перевагою може…"
    },
    "o": [
     {
      "en": "exceed the speed limits, on its own responsibility",
-     "es": "superar los límites de velocidad, bajo su exclusiva responsabilidad"
+     "es": "superar los límites de velocidad, bajo su exclusiva responsabilidad",
+     "uk": "перевищувати обмеження швидкості під власну відповідальність"
     },
     {
      "en": "ignore agents’ instructions",
-     "es": "ignorar las órdenes de los agentes"
+     "es": "ignorar las órdenes de los agentes",
+     "uk": "ігнорувати вказівки регулювальників"
     },
     {
      "en": "never cross a red light",
-     "es": "no cruzar nunca un semáforo en rojo"
+     "es": "no cruzar nunca un semáforo en rojo",
+     "uk": "ніколи не проїжджати на червоний"
     }
    ],
    "why": {
     "en": "Agents’ instructions must always be obeyed.",
-    "es": "Las órdenes de los agentes son siempre de obligado cumplimiento."
+    "es": "Las órdenes de los agentes son siempre de obligado cumplimiento.",
+    "uk": "Вказівки регулювальників треба виконувати завжди."
    }
   },
   {
@@ -2018,25 +2405,30 @@ window.DGT_DATA = {
    "tag": "priority",
    "q": {
     "en": "Before going through a red light, a priority vehicle must…",
-    "es": "Antes de pasar un semáforo en rojo, un vehículo prioritario debe…"
+    "es": "Antes de pasar un semáforo en rojo, un vehículo prioritario debe…",
+    "uk": "Перш ніж проїхати на червоний, ТЗ з перевагою мусить…"
    },
    "o": [
     {
      "en": "make sure there is no risk of hitting pedestrians and that other drivers have stopped",
-     "es": "cerciorarse de que no hay riesgo de atropello y de que los demás han detenido su marcha"
+     "es": "cerciorarse de que no hay riesgo de atropello y de que los demás han detenido su marcha",
+     "uk": "переконатися, що немає ризику наїхати на пішоходів і що інші водії зупинилися"
     },
     {
      "en": "just switch on the siren",
-     "es": "solo activar la sirena"
+     "es": "solo activar la sirena",
+     "uk": "лише ввімкнути сирену"
     },
     {
      "en": "slow down to 20 km/h",
-     "es": "reducir a 20 km/h"
+     "es": "reducir a 20 km/h",
+     "uk": "сповільнитися до 20 км/год"
     }
    ],
    "why": {
     "en": "Same at junctions where it would otherwise have to give way.",
-    "es": "Igual en las intersecciones donde tendría que ceder."
+    "es": "Igual en las intersecciones donde tendría que ceder.",
+    "uk": "Так само на перехрестях, де він інакше мав би поступитися."
    }
   },
   {
@@ -2044,25 +2436,30 @@ window.DGT_DATA = {
    "tag": "priority",
    "q": {
     "en": "On an autovía, exceptionally and without endangering anyone, a priority vehicle may…",
-    "es": "En una autovía, excepcionalmente y sin comprometer la seguridad, un vehículo prioritario puede…"
+    "es": "En una autovía, excepcionalmente y sin comprometer la seguridad, un vehículo prioritario puede…",
+    "uk": "На autovía у виняткових випадках і нікому не створюючи небезпеки ТЗ з перевагою може…"
    },
    "o": [
     {
      "en": "drive against the traffic on the hard shoulder",
-     "es": "circular en sentido contrario por el arcén"
+     "es": "circular en sentido contrario por el arcén",
+     "uk": "їхати узбіччям проти напрямку руху"
     },
     {
      "en": "drive against the traffic in the left lane",
-     "es": "circular en sentido contrario por el carril izquierdo"
+     "es": "circular en sentido contrario por el carril izquierdo",
+     "uk": "їхати лівою смугою проти напрямку руху"
     },
     {
      "en": "park in the right lane",
-     "es": "estacionar en el carril derecho"
+     "es": "estacionar en el carril derecho",
+     "uk": "стати на праву смугу"
     }
    ],
    "why": {
     "en": "Also turn round, reverse, or enter the median and its crossing points.",
-    "es": "También dar media vuelta, marcha atrás o penetrar en la mediana y sus pasos transversales."
+    "es": "También dar media vuelta, marcha atrás o penetrar en la mediana y sus pasos transversales.",
+    "uk": "А також розвертатися, їхати заднім ходом чи заїжджати на розділювальну смугу та її розриви."
    }
   },
   {
@@ -2070,25 +2467,30 @@ window.DGT_DATA = {
    "tag": "priority",
    "q": {
     "en": "Which instructions must a priority vehicle always obey?",
-    "es": "¿Qué indicaciones debe obedecer siempre un vehículo prioritario?"
+    "es": "¿Qué indicaciones debe obedecer siempre un vehículo prioritario?",
+    "uk": "Чиї вказівки ТЗ з перевагою мусить виконувати завжди?"
    },
    "o": [
     {
      "en": "Those of traffic agents",
-     "es": "Las de los agentes"
+     "es": "Las de los agentes",
+     "uk": "Регулювальників"
     },
     {
      "en": "Traffic lights",
-     "es": "Los semáforos"
+     "es": "Los semáforos",
+     "uk": "Світлофорів"
     },
     {
      "en": "All vertical signs",
-     "es": "Todas las señales verticales"
+     "es": "Todas las señales verticales",
+     "uk": "Усіх вертикальних знаків"
     }
    ],
    "why": {
     "en": "It may skip other rules and signs on its own responsibility.",
-    "es": "Puede no cumplir otras normas y señales bajo su responsabilidad."
+    "es": "Puede no cumplir otras normas y señales bajo su responsabilidad.",
+    "uk": "Інші правила й знаки він може не виконувати під власну відповідальність."
    }
   },
   {
@@ -2096,25 +2498,30 @@ window.DGT_DATA = {
    "tag": "priority",
    "q": {
     "en": "Besides emergency services, who else has priority under the law?",
-    "es": "Además de los servicios de urgencia, ¿quién más tiene prioridad según la ley?"
+    "es": "Además de los servicios de urgencia, ¿quién más tiene prioridad según la ley?",
+    "uk": "Хто ще, крім екстрених служб, має перевагу за законом?"
    },
    "o": [
     {
      "en": "Road maintenance crews and vehicles going to provide roadside assistance",
-     "es": "Los equipos de mantenimiento de la vía y los vehículos que acuden a un auxilio en carretera"
+     "es": "Los equipos de mantenimiento de la vía y los vehículos que acuden a un auxilio en carretera",
+     "uk": "Бригади дорожнього обслуговування й ТЗ, що прямують надати допомогу на дорозі"
     },
     {
      "en": "Driving school cars",
-     "es": "Los vehículos de autoescuela"
+     "es": "Los vehículos de autoescuela",
+     "uk": "Автомобілі автошкіл"
     },
     {
      "en": "Taxis",
-     "es": "Los taxis"
+     "es": "Los taxis",
+     "uk": "Таксі"
     }
    ],
    "why": {
     "en": "Your course includes them with the priority vehicles.",
-    "es": "Tu curso los incluye con los prioritarios."
+    "es": "Tu curso los incluye con los prioritarios.",
+    "uk": "Ваш курс зараховує їх до ТЗ з перевагою."
    }
   },
   {
@@ -2122,25 +2529,30 @@ window.DGT_DATA = {
    "tag": "nonprio",
    "q": {
     "en": "With no other option, you drive a seriously injured person to hospital in your own car. How do you make others notice?",
-    "es": "Sin otra opción, llevas a un herido grave al hospital en tu turismo. ¿Cómo te haces notar?"
+    "es": "Sin otra opción, llevas a un herido grave al hospital en tu turismo. ¿Cómo te haces notar?",
+    "uk": "Не маючи іншого виходу, ви везете тяжко пораненого в лікарню власним автомобілем. Як привернути увагу інших?"
    },
    "o": [
     {
      "en": "Horn on and off and hazard lights, or waving a handkerchief",
-     "es": "Claxon intermitente y luz de emergencia, o agitando un pañuelo"
+     "es": "Claxon intermitente y luz de emergencia, o agitando un pañuelo",
+     "uk": "Переривчастим звуковим сигналом і аварійною сигналізацією або махаючи хусткою"
     },
     {
      "en": "With blue lights",
-     "es": "Con luces azules"
+     "es": "Con luces azules",
+     "uk": "Синіми маячками"
     },
     {
      "en": "With the horn held down continuously",
-     "es": "Con el claxon de forma continua"
+     "es": "Con el claxon de forma continua",
+     "uk": "Безперервним звуковим сигналом"
     }
    ],
    "why": {
     "en": "Hazard lights if the vehicle has them.",
-    "es": "La luz de emergencia, si se dispone de ella."
+    "es": "La luz de emergencia, si se dispone de ella.",
+    "uk": "Аварійною сигналізацією, якщо ТЗ її має."
    }
   },
   {
@@ -2148,25 +2560,30 @@ window.DGT_DATA = {
    "tag": "nonprio",
    "q": {
     "en": "Does a non-priority vehicle on emergency service have priority?",
-    "es": "¿Tiene prioridad un vehículo no prioritario en servicio de urgencia?"
+    "es": "¿Tiene prioridad un vehículo no prioritario en servicio de urgencia?",
+    "uk": "Чи має перевагу ТЗ без переваги, що виконує екстрене завдання?"
    },
    "o": [
     {
      "en": "No: it must obey every traffic rule",
-     "es": "No: debe respetar todas las normas de circulación"
+     "es": "No: debe respetar todas las normas de circulación",
+     "uk": "Ні: він мусить виконувати всі правила руху"
     },
     {
      "en": "Yes, like an ambulance",
-     "es": "Sí, como una ambulancia"
+     "es": "Sí, como una ambulancia",
+     "uk": "Так, як швидка допомога"
     },
     {
      "en": "Only at junctions",
-     "es": "Solo en las intersecciones"
+     "es": "Solo en las intersecciones",
+     "uk": "Лише на перехрестях"
     }
    ],
    "why": {
     "en": "Especially at junctions.",
-    "es": "Especialmente en las intersecciones."
+    "es": "Especialmente en las intersecciones.",
+    "uk": "Особливо на перехрестях."
    }
   },
   {
@@ -2174,25 +2591,30 @@ window.DGT_DATA = {
    "tag": "nonprio",
    "q": {
     "en": "May an ordinary car on an emergency trip exceed the speed limit?",
-    "es": "¿Puede un turismo en un servicio de urgencia superar el límite de velocidad?"
+    "es": "¿Puede un turismo en un servicio de urgencia superar el límite de velocidad?",
+    "uk": "Чи може звичайний легковик під час екстреної поїздки перевищувати обмеження швидкості?"
    },
    "o": [
     {
      "en": "No",
-     "es": "No"
+     "es": "No",
+     "uk": "Ні"
     },
     {
      "en": "Yes, by up to 20 km/h",
-     "es": "Sí, hasta 20 km/h"
+     "es": "Sí, hasta 20 km/h",
+     "uk": "Так, до 20 км/год"
     },
     {
      "en": "Yes, with the hazard lights on",
-     "es": "Sí, con la luz de emergencia encendida"
+     "es": "Sí, con la luz de emergencia encendida",
+     "uk": "Так, з аварійною сигналізацією"
     }
    ],
    "why": {
     "en": "It must respect every rule.",
-    "es": "Debe respetar todas las normas."
+    "es": "Debe respetar todas las normas.",
+    "uk": "Він мусить виконувати всі правила."
    }
   },
   {
@@ -2200,25 +2622,30 @@ window.DGT_DATA = {
    "tag": "nonprio",
    "q": {
     "en": "Agents may ask the driver of a non-priority vehicle on emergency service to…",
-    "es": "Los agentes pueden exigir al conductor de un vehículo no prioritario en servicio de urgencia…"
+    "es": "Los agentes pueden exigir al conductor de un vehículo no prioritario en servicio de urgencia…",
+    "uk": "Регулювальники можуть вимагати від водія ТЗ без переваги, що виконує екстрене завдання…"
    },
    "o": [
     {
      "en": "justify the emergency, at any time",
-     "es": "la justificación de la urgencia, en cualquier momento"
+     "es": "la justificación de la urgencia, en cualquier momento",
+     "uk": "обґрунтувати надзвичайну ситуацію будь-коли"
     },
     {
      "en": "pay an escort fee",
-     "es": "el pago de una escolta"
+     "es": "el pago de una escolta",
+     "uk": "заплатити за супровід"
     },
     {
      "en": "follow them to the hospital",
-     "es": "que les siga hasta el hospital"
+     "es": "que les siga hasta el hospital",
+     "uk": "їхати за ними до лікарні"
     }
    ],
    "why": {
     "en": "The emergency must be real and especially serious.",
-    "es": "La urgencia debe ser real y especialmente grave."
+    "es": "La urgencia debe ser real y especialmente grave.",
+    "uk": "Надзвичайна ситуація має бути справжньою й особливо серйозною."
    }
   },
   {
@@ -2226,25 +2653,30 @@ window.DGT_DATA = {
    "tag": "yield",
    "q": {
     "en": "When you notice a vehicle on emergency service, you normally…",
-    "es": "Cuando percibes un vehículo en servicio de urgencia, normalmente…"
+    "es": "Cuando percibes un vehículo en servicio de urgencia, normalmente…",
+    "uk": "Помітивши ТЗ, що виконує екстрене завдання, ви зазвичай…"
    },
    "o": [
     {
      "en": "move to your right, and stop if necessary",
-     "es": "te apartas a la derecha y te detienes si es preciso"
+     "es": "te apartas a la derecha y te detienes si es preciso",
+     "uk": "зміщуєтеся праворуч, а за потреби зупиняєтеся"
     },
     {
      "en": "speed up to clear the way",
-     "es": "aceleras para dejar libre el camino"
+     "es": "aceleras para dejar libre el camino",
+     "uk": "прискорюєтеся, щоб звільнити дорогу"
     },
     {
      "en": "stop in the middle of your lane",
-     "es": "te detienes en mitad de tu carril"
+     "es": "te detienes en mitad de tu carril",
+     "uk": "зупиняєтеся посеред своєї смуги"
     }
    ],
    "why": {
     "en": "Whatever the circumstances allow.",
-    "es": "Según las circunstancias del momento y lugar."
+    "es": "Según las circunstancias del momento y lugar.",
+    "uk": "Як дозволяють обставини."
    }
   },
   {
@@ -2252,25 +2684,30 @@ window.DGT_DATA = {
    "tag": "yield",
    "q": {
     "en": "Must you also make way for a non-priority vehicle on emergency service?",
-    "es": "¿Hay que facilitar el paso también a un vehículo no prioritario en servicio de urgencia?"
+    "es": "¿Hay que facilitar el paso también a un vehículo no prioritario en servicio de urgencia?",
+    "uk": "Чи треба звільняти дорогу й ТЗ без переваги, що виконує екстрене завдання?"
    },
    "o": [
     {
      "en": "Yes",
-     "es": "Sí"
+     "es": "Sí",
+     "uk": "Так"
     },
     {
      "en": "No, only for priority vehicles",
-     "es": "No, solo a los prioritarios"
+     "es": "No, solo a los prioritarios",
+     "uk": "Ні, лише ТЗ з перевагою"
     },
     {
      "en": "Only on motorways",
-     "es": "Solo en autopistas"
+     "es": "Solo en autopistas",
+     "uk": "Лише на автомагістралях"
     }
    ],
    "why": {
     "en": "The duty covers both, priority or not.",
-    "es": "La obligación incluye a ambos, prioritarios o no."
+    "es": "La obligación incluye a ambos, prioritarios o no.",
+    "uk": "Обов’язок стосується обох — з перевагою чи без."
    }
   },
   {
@@ -2278,25 +2715,30 @@ window.DGT_DATA = {
    "tag": "yield",
    "q": {
     "en": "On a motorway with two lanes in your direction, the emergency corridor opens…",
-    "es": "En una autopista con dos carriles en tu sentido, el carril de emergencia se forma…"
+    "es": "En una autopista con dos carriles en tu sentido, el carril de emergencia se forma…",
+    "uk": "На автомагістралі з двома смугами у вашому напрямку екстрений коридор відкривається…"
    },
    "o": [
     {
      "en": "in the centre, between the two lanes",
-     "es": "en el centro, entre ambos carriles"
+     "es": "en el centro, entre ambos carriles",
+     "uk": "посередині, між двома смугами"
     },
     {
      "en": "on the right shoulder",
-     "es": "en el arcén derecho"
+     "es": "en el arcén derecho",
+     "uk": "на правому узбіччі"
     },
     {
      "en": "on the left shoulder",
-     "es": "en el arcén izquierdo"
+     "es": "en el arcén izquierdo",
+     "uk": "на лівому узбіччі"
     }
    ],
    "why": {
     "en": "Left lane moves left, right lane moves right.",
-    "es": "El carril izquierdo se orilla a la izquierda y el derecho a la derecha."
+    "es": "El carril izquierdo se orilla a la izquierda y el derecho a la derecha.",
+    "uk": "Ліва смуга зміщується ліворуч, права — праворуч."
    }
   },
   {
@@ -2304,25 +2746,30 @@ window.DGT_DATA = {
    "tag": "yield",
    "q": {
     "en": "With three or more lanes in your direction, the emergency corridor opens…",
-    "es": "Con tres o más carriles en tu sentido, el carril de emergencia se forma…"
+    "es": "Con tres o más carriles en tu sentido, el carril de emergencia se forma…",
+    "uk": "За трьох чи більше смуг у вашому напрямку екстрений коридор відкривається…"
    },
    "o": [
     {
      "en": "between the leftmost lane and the next one",
-     "es": "entre el carril de más a la izquierda y su contiguo"
+     "es": "entre el carril de más a la izquierda y su contiguo",
+     "uk": "між крайньою лівою смугою і сусідньою"
     },
     {
      "en": "between the right lane and the next one",
-     "es": "entre el carril derecho y su contiguo"
+     "es": "entre el carril derecho y su contiguo",
+     "uk": "між правою смугою і сусідньою"
     },
     {
      "en": "in the centre lane",
-     "es": "en el carril central"
+     "es": "en el carril central",
+     "uk": "на середній смузі"
     }
    ],
    "why": {
     "en": "Left lane as far left as possible; the rest as far right as possible.",
-    "es": "El izquierdo, lo más a la izquierda posible; el resto, lo más a la derecha posible."
+    "es": "El izquierdo, lo más a la izquierda posible; el resto, lo más a la derecha posible.",
+    "uk": "Ліва смуга якомога лівіше; решта якомога правіше."
    }
   },
   {
@@ -2330,25 +2777,30 @@ window.DGT_DATA = {
    "tag": "yield",
    "q": {
     "en": "When must you open the emergency corridor?",
-    "es": "¿Cuándo hay que formar el carril de emergencia?"
+    "es": "¿Cuándo hay que formar el carril de emergencia?",
+    "uk": "Коли треба відкривати екстрений коридор?"
    },
    "o": [
     {
      "en": "When the queue moves at walking pace or stops",
-     "es": "Cuando la retención avanza a paso de peatón o se detiene"
+     "es": "Cuando la retención avanza a paso de peatón o se detiene",
+     "uk": "Коли колона рухається зі швидкістю пішохода чи зупиняється"
     },
     {
      "en": "Only when you hear a siren",
-     "es": "Solo cuando oyes una sirena"
+     "es": "Solo cuando oyes una sirena",
+     "uk": "Лише коли чуєте сирену"
     },
     {
      "en": "Only inside tunnels",
-     "es": "Solo en los túneles"
+     "es": "Solo en los túneles",
+     "uk": "Лише в тунелях"
     }
    ],
    "why": {
     "en": "Before the emergency vehicle arrives.",
-    "es": "Antes de que llegue el vehículo de urgencia."
+    "es": "Antes de que llegue el vehículo de urgencia.",
+    "uk": "Ще до прибуття екстреного ТЗ."
    }
   },
   {
@@ -2356,25 +2808,30 @@ window.DGT_DATA = {
    "tag": "yield",
    "q": {
     "en": "A police car behind you, with blue light and siren, switches on a red light flashing forward. You must…",
-    "es": "Un coche de policía detrás de ti, con luz azul y sirena, activa una luz roja intermitente hacia delante. Debes…"
+    "es": "Un coche de policía detrás de ti, con luz azul y sirena, activa una luz roja intermitente hacia delante. Debes…",
+    "uk": "Поліцейський автомобіль позаду вас із синім маячком і сиреною вмикає червоний вогонь, що блимає вперед. Ви мусите…"
    },
    "o": [
     {
      "en": "stop on the right, in front of the police vehicle, and stay inside",
-     "es": "detenerte a la derecha, delante del vehículo policial, y permanecer en el interior"
+     "es": "detenerte a la derecha, delante del vehículo policial, y permanecer en el interior",
+     "uk": "зупинитися праворуч попереду поліцейського ТЗ і лишатися всередині"
     },
     {
      "en": "move aside and let it pass",
-     "es": "apartarte y dejarle pasar"
+     "es": "apartarte y dejarle pasar",
+     "uk": "з’їхати вбік і пропустити його"
     },
     {
      "en": "get out and walk to the police car",
-     "es": "bajarte e ir andando al coche policial"
+     "es": "bajarte e ir andando al coche policial",
+     "uk": "вийти й піти до поліцейського автомобіля"
     }
    ],
    "why": {
     "en": "It is an order to stop, in force since July 2025.",
-    "es": "Es una orden de detención, en vigor desde julio de 2025."
+    "es": "Es una orden de detención, en vigor desde julio de 2025.",
+    "uk": "Це наказ зупинитися, чинний з липня 2025 року."
    }
   }
  ],
@@ -2383,351 +2840,429 @@ window.DGT_DATA = {
    "sec": 1,
    "en": "Junctions with signs",
    "es": "Intersecciones señalizadas",
+   "uk": "Перехрестя зі знаками",
    "recap": [
     [
      "Priority follows the signs: agents, traffic lights, vertical signs, road markings (in that order if they disagree, after temporary signs).",
-     "La prioridad la marcan las señales: agentes, semáforos, señales verticales y marcas viales (en ese orden si se contradicen, tras las circunstanciales)."
+     "La prioridad la marcan las señales: agentes, semáforos, señales verticales y marcas viales (en ese orden si se contradicen, tras las circunstanciales).",
+     "Перевага визначається сигналами: регулювальники, світлофори, вертикальні знаки, розмітка (у такому порядку, якщо вони суперечать, після тимчасових знаків)."
     ],
     [
      "Give way or STOP: give way to vehicles on the priority road from either side; STOP always means a full stop.",
-     "Ceda el paso o stop: se cede a los de la vía preferente vengan por donde vengan; el stop obliga siempre a detenerse."
+     "Ceda el paso o stop: se cede a los de la vía preferente vengan por donde vengan; el stop obliga siempre a detenerse.",
+     "«Дати дорогу» чи STOP: поступайтеся ТЗ на головній дорозі з будь-якого боку; STOP завжди означає повну зупинку."
     ],
     [
      "Stop at the stop line or, if there is none, immediately before the junction.",
-     "La detención, ante la línea de detención o, si no la hay, inmediatamente antes de la intersección."
+     "La detención, ante la línea de detención o, si no la hay, inmediatamente antes de la intersección.",
+     "Зупиняйтеся біля стоп-лінії, а якщо її немає — безпосередньо перед перехрестям."
     ],
     [
      "Not enough visibility from there? Stop again where you can see, without endangering anyone.",
-     "¿Sin visibilidad suficiente? Detenerse de nuevo donde se tenga, sin poner en peligro a nadie."
+     "¿Sin visibilidad suficiente? Detenerse de nuevo donde se tenga, sin poner en peligro a nadie.",
+     "Звідти не видно? Зупиніться ще раз там, де видно, нікому не створюючи небезпеки."
     ]
    ],
    "trap": [
     "Thinking that at a give-way sign you only yield to vehicles from the right.",
-    "Pensar que en un ceda el paso solo se cede a los que vienen por la derecha."
+    "Pensar que en un ceda el paso solo se cede a los que vienen por la derecha.",
+    "Думати, що біля знака «Дати дорогу» ви поступаєтеся лише ТЗ праворуч."
    ]
   },
   "unsigned": {
    "sec": 1,
    "en": "Junctions without signs",
    "es": "Intersecciones sin señalizar",
+   "uk": "Перехрестя без знаків",
    "recap": [
     [
      "General rule: give way to vehicles approaching from your right.",
-     "Norma general: ceder el paso a los que se aproximan por la derecha."
+     "Norma general: ceder el paso a los que se aproximan por la derecha.",
+     "Загальне правило: поступайтеся ТЗ, що наближаються праворуч."
     ],
     [
      "Exceptions: paved over unpaved; rail vehicles over everyone; inside a roundabout over those entering; on a motorway over those joining.",
-     "Excepciones: pavimentada sobre sin pavimentar; raíles sobre todos; dentro de la glorieta sobre los que entran; en la autopista sobre los que acceden."
+     "Excepciones: pavimentada sobre sin pavimentar; raíles sobre todos; dentro de la glorieta sobre los que entran; en la autopista sobre los que acceden.",
+     "Винятки: дорога з покриттям над дорогою без нього; рейкові ТЗ над усіма; ті, хто на кільці, над тими, хто в’їжджає; ті, хто на автомагістралі, над тими, хто в’їжджає."
     ],
     [
      "The P-2 sign changes nothing: it reminds you of these rules.",
-     "La señal P-2 no cambia nada: recuerda estas normas."
+     "La señal P-2 no cambia nada: recuerda estas normas.",
+     "Знак P-2 нічого не змінює: він нагадує ці правила."
     ],
     [
      "A vehicle on your left gives way to you, unless an exception favours it.",
-     "El que viene por tu izquierda te cede el paso, salvo que una excepción le favorezca."
+     "El que viene por tu izquierda te cede el paso, salvo que una excepción le favorezca.",
+     "ТЗ ліворуч поступається вам, якщо виняток не на його користь."
     ]
    ],
    "trap": [
     "Applying the right-hand rule to a car coming out of an unpaved track or into a roundabout.",
-    "Aplicar la regla de la derecha a quien sale de un camino de tierra o entra en una glorieta."
+    "Aplicar la regla de la derecha a quien sale de un camino de tierra o entra en una glorieta.",
+    "Застосовувати правило правої руки до автомобіля, що виїжджає з ґрунтовки чи в’їжджає на кільцеву розв’язку."
    ]
   },
   "conduct": {
    "sec": 1,
    "en": "How to act at junctions",
    "es": "Normas de actuación",
+   "uk": "Як діяти на перехрестях",
    "recap": [
     [
      "Giving way: do not start or carry on if you would force the other driver to brake or swerve.",
-     "Al ceder el paso: no iniciar ni continuar si obligas al otro a frenar o desviarse bruscamente."
+     "Al ceder el paso: no iniciar ni continuar si obligas al otro a frenar o desviarse bruscamente.",
+     "Поступаючись: не рушайте й не їдьте далі, якщо змусите іншого водія гальмувати чи змінити траєкторію."
     ],
     [
      "Show early that you will give way, above all by slowing down gradually.",
-     "Demostrar con antelación que se va a ceder, sobre todo reduciendo la velocidad paulatinamente."
+     "Demostrar con antelación que se va a ceder, sobre todo reduciendo la velocidad paulatinamente.",
+     "Завчасно показуйте, що поступитеся, передусім поступово знижуючи швидкість."
     ],
     [
      "With priority: still do not enter a junction or a pedestrian or cycle crossing if you may get stuck there.",
-     "Con prioridad: tampoco se entra en una intersección o paso para peatones o ciclistas si se puede quedar detenido."
+     "Con prioridad: tampoco se entra en una intersección o paso para peatones o ciclistas si se puede quedar detenido.",
+     "З перевагою: однаково не в’їжджайте на перехрестя, пішохідний чи велосипедний переїзд, якщо можете там застрягти."
     ],
     [
      "Stuck inside a junction with lights: leave without waiting for your green, without hindering anyone.",
-     "Detenido dentro de una intersección con semáforo: salir sin esperar al verde, sin entorpecer."
+     "Detenido dentro de una intersección con semáforo: salir sin esperar al verde, sin entorpecer.",
+     "Застрягли на регульованому перехресті: виїжджайте, не чекаючи свого зеленого й нікому не заважаючи."
     ]
    ],
    "trap": [
     "Believing that a green light means you may enter even when the exit is blocked.",
-    "Creer que el verde permite entrar aunque la salida esté bloqueada."
+    "Creer que el verde permite entrar aunque la salida esté bloqueada.",
+    "Вважати, що зелений дозволяє в’їхати, навіть коли виїзд заблоковано."
    ]
   },
   "rail": {
    "sec": 2,
    "en": "Level crossings, bridges and rail vehicles",
    "es": "Pasos a nivel, puentes móviles y raíles",
+   "uk": "Залізничні переїзди, мости й рейкові ТЗ",
    "recap": [
     [
      "Approaching a level crossing or movable bridge: extreme care and slow down below the limit.",
-     "Al acercarse a un paso a nivel o puente móvil: extremar la prudencia y bajar de la velocidad máxima."
+     "Al acercarse a un paso a nivel o puente móvil: extremar la prudencia y bajar de la velocidad máxima.",
+     "Наближаючись до залізничного переїзду чи розвідного мосту: надзвичайна обережність і швидкість нижче від обмеження."
     ],
     [
      "Never enter with barriers down or moving, or lights showing stop; queue one behind another.",
-     "No entrar con barreras bajadas o en movimiento, o semáforo de detención; esperar uno detrás de otro."
+     "No entrar con barreras bajadas o en movimiento, o semáforo de detención; esperar uno detrás de otro.",
+     "Ніколи не в’їжджайте, коли шлагбауми опущені чи рухаються або світлофор забороняє рух; ставайте один за одним."
     ],
     [
      "No barriers or lights: make sure no train is coming; stopping to look is not compulsory. Cross without delay.",
-     "Sin barreras ni semáforos: asegurarse de que no viene ningún tren; detenerse no es obligatorio. Cruzar sin demora."
+     "Sin barreras ni semáforos: asegurarse de que no viene ningún tren; detenerse no es obligatorio. Cruzar sin demora.",
+     "Без шлагбаумів і світлофорів: переконайтеся, що потяг не наближається; зупинятися, щоб подивитися, не обов’язково. Проїжджайте без затримки."
     ],
     [
      "Stuck: get people out, clear the crossing; if impossible, warn train drivers and other drivers. Trains always first; trams from right and left except over priority vehicles.",
-     "Detenido: desalojar, dejar libre el paso; si no, avisar a maquinistas y conductores. El tren siempre; el tranvía por derecha e izquierda salvo ante prioritarios."
+     "Detenido: desalojar, dejar libre el paso; si no, avisar a maquinistas y conductores. El tren siempre; el tranvía por derecha e izquierda salvo ante prioritarios.",
+     "Застрягли: виведіть людей, звільніть переїзд; якщо неможливо — попередьте машиністів та інших водіїв. Потяги завжди першими; трамваї — і праворуч, і ліворуч, крім ТЗ з перевагою."
     ]
    ],
    "trap": [
     "Thinking you must always stop at a level crossing without barriers, or that trams beat ambulances.",
-    "Creer que siempre hay que detenerse en un paso sin barreras, o que el tranvía pasa antes que una ambulancia."
+    "Creer que siempre hay que detenerse en un paso sin barreras, o que el tranvía pasa antes que una ambulancia.",
+    "Думати, що на переїзді без шлагбаумів завжди треба зупинятися або що трамвай має перевагу над швидкою."
    ]
   },
   "tunnels": {
    "sec": 2,
    "en": "Tunnels and underpasses",
    "es": "Túneles y pasos inferiores",
+   "uk": "Тунелі й підземні проїзди",
    "recap": [
     [
      "Tunnels of any length and underpasses over 200 m are signed.",
-     "Se señalizan los túneles de cualquier longitud y los pasos inferiores de más de 200 m."
+     "Se señalizan los túneles de cualquier longitud y los pasos inferiores de más de 200 m.",
+     "Тунелі будь-якої довжини й підземні проїзди понад 200 м позначають."
     ],
     [
      "Obey the lights, the variable-message panels and loudspeaker instructions.",
-     "Obedecer semáforos, paneles de mensaje variable e instrucciones por megafonía."
+     "Obedecer semáforos, paneles de mensaje variable e instrucciones por megafonía.",
+     "Виконуйте сигнали світлофорів, табло зі змінною інформацією й вказівки з гучномовців."
     ],
     [
      "Forbidden: stopping, parking, turning round, reversing; overtaking in two-way tunnels unless 2+ lanes your way. Lights on.",
-     "Prohibido: parar, estacionar, cambiar de sentido, marcha atrás; adelantar en doble sentido salvo 2 o más carriles para tu sentido. Alumbrado encendido."
+     "Prohibido: parar, estacionar, cambiar de sentido, marcha atrás; adelantar en doble sentido salvo 2 o más carriles para tu sentido. Alumbrado encendido.",
+     "Заборонено: зупинятися, ставити на стоянку, розвертатися, їхати заднім ходом; обганяти в тунелях із двостороннім рухом, якщо у вашому напрямку не 2+ смуги. Світло ввімкнене."
     ],
     [
      "Distance: 100 m or 4 s; over 3,500 kg: 150 m or 6 s.",
-     "Distancia: 100 m o 4 s; más de 3.500 kg: 150 m o 6 s."
+     "Distancia: 100 m o 4 s; más de 3.500 kg: 150 m o 6 s.",
+     "Дистанція: 100 м або 4 с; понад 3 500 кг — 150 м або 6 с."
     ]
    ],
    "trap": [
     "Mixing up 100 m / 4 s (cars) with 150 m / 6 s (over 3,500 kg).",
-    "Confundir 100 m / 4 s (turismos) con 150 m / 6 s (más de 3.500 kg)."
+    "Confundir 100 m / 4 s (turismos) con 150 m / 6 s (más de 3.500 kg).",
+    "Плутати 100 м / 4 с (легковики) зі 150 м / 6 с (понад 3 500 кг)."
    ]
   },
   "peds": {
    "sec": 3,
    "en": "Pedestrians",
    "es": "Peatones",
+   "uk": "Пішоходи",
    "recap": [
     [
      "Pedestrian crossings, pavements and pedestrian zones; and since October 2026, single-platform streets.",
-     "Pasos para peatones, aceras y zonas peatonales; y desde octubre de 2026, calles de plataforma única."
+     "Pasos para peatones, aceras y zonas peatonales; y desde octubre de 2026, calles de plataforma única.",
+     "Пішохідні переходи, тротуари й пішохідні зони; а з жовтня 2026 року — вулиці plataforma única."
     ],
     [
      "A vehicle turning into another road gives way to pedestrians crossing it, even with no crossing.",
-     "El vehículo que gira para entrar en otra vía cede a los peatones que la cruzan, aunque no haya paso."
+     "El vehículo que gira para entrar en otra vía cede a los peatones que la cruzan, aunque no haya paso.",
+     "ТЗ, що повертає на іншу дорогу, поступається пішоходам, які її переходять, навіть без переходу."
     ],
     [
      "Crossing a shoulder used by pedestrians, or a pedestrian zone through its passage (garage), pedestrians go first.",
-     "Al cruzar un arcén con peatones, o una zona peatonal por su paso habilitado (garaje), pasan primero los peatones."
+     "Al cruzar un arcén con peatones, o una zona peatonal por su paso habilitado (garaje), pasan primero los peatones.",
+     "Перетинаючи узбіччя, яким ідуть пішоходи, чи пішохідну зону її проїздом (гараж), — пішоходи першими."
     ],
     [
      "Bus passengers between the bus and the pavement at a signed stop; troops, school rows and processions.",
-     "Viajeros entre el autobús y la acera en una parada señalizada; tropas, filas escolares y comitivas organizadas."
+     "Viajeros entre el autobús y la acera en una parada señalizada; tropas, filas escolares y comitivas organizadas.",
+     "Пасажири автобуса між автобусом і тротуаром на позначеній зупинці; військові підрозділи, шкільні колони й процесії."
     ]
    ],
    "trap": [
     "Thinking pedestrians only have priority on a marked crossing.",
-    "Pensar que los peatones solo tienen prioridad en un paso señalizado."
+    "Pensar que los peatones solo tienen prioridad en un paso señalizado.",
+    "Думати, що пішоходи мають перевагу лише на розміченому переході."
    ]
   },
   "cyclists": {
    "sec": 3,
    "en": "Cyclists",
    "es": "Ciclistas",
+   "uk": "Велосипедисти",
    "recap": [
     [
      "On a signed cycle lane, cycle crossing or hard shoulder.",
-     "En carril bici, paso para ciclistas o arcén debidamente señalizados."
+     "En carril bici, paso para ciclistas o arcén debidamente señalizados.",
+     "На позначеній велосмузі, велосипедному переїзді чи узбіччі."
     ],
     [
      "When a motor vehicle or moped turns right or left into another road and a cyclist is close by.",
-     "Cuando un vehículo de motor o ciclomotor gira a derecha o izquierda para entrar en otra vía y hay un ciclista próximo."
+     "Cuando un vehículo de motor o ciclomotor gira a derecha o izquierda para entrar en otra vía y hay un ciclista próximo.",
+     "Коли механічний ТЗ чи мопед повертає праворуч чи ліворуч на іншу дорогу, а поруч велосипедист."
     ],
     [
      "A group is one moving unit once the first has started crossing or entered a roundabout.",
-     "Un grupo es una unidad móvil cuando el primero ha iniciado el cruce o entrado en la glorieta."
+     "Un grupo es una unidad móvil cuando el primero ha iniciado el cruce o entrado en la glorieta.",
+     "Група — одне рухоме ціле, щойно перший почав перетинати чи в’їхав на кільцеву розв’язку."
     ],
     [
      "Every other case: the general rules between vehicles.",
-     "En los demás casos, las normas generales entre vehículos."
+     "En los demás casos, las normas generales entre vehículos.",
+     "В усіх інших випадках — загальні правила між ТЗ."
     ]
    ],
    "trap": [
     "Cutting into a group of cyclists after the leader has entered the roundabout.",
-    "Meterse en un grupo de ciclistas cuando el primero ya ha entrado en la glorieta."
+    "Meterse en un grupo de ciclistas cuando el primero ya ha entrado en la glorieta.",
+    "Вклинитися в групу велосипедистів після того, як лідер в’їхав на кільцеву розв’язку."
    ]
   },
   "animals": {
    "sec": 3,
    "en": "Animals",
    "es": "Animales",
+   "uk": "Тварини",
    "recap": [
     [
      "Drivers have priority over animals, with three exceptions.",
-     "Los conductores tienen prioridad sobre los animales, con tres excepciones."
+     "Los conductores tienen prioridad sobre los animales, con tres excepciones.",
+     "Водії мають перевагу над тваринами, з трьома винятками."
     ],
     [
      "Signed cañadas: the animals go first.",
-     "En cañadas señalizadas, pasan primero los animales."
+     "En cañadas señalizadas, pasan primero los animales.",
+     "Позначені cañadas: тварини першими."
     ],
     [
      "Turning into a road that animals are crossing, even without a cañada; crossing a shoulder they walk along.",
-     "Al girar para entrar en una vía que cruzan animales, aunque no haya cañada; al cruzar un arcén por el que circulan."
+     "Al girar para entrar en una vía que cruzan animales, aunque no haya cañada; al cruzar un arcén por el que circulan.",
+     "Поворот на дорогу, яку перетинають тварини, навіть без cañada; перетин узбіччя, яким вони йдуть."
     ],
     [
      "A cañada is signed with a «cañada» panel under the domestic animals sign, plus speed limits.",
-     "La cañada se señaliza con un panel «cañada» bajo la señal de animales domésticos, más limitación de velocidad."
+     "La cañada se señaliza con un panel «cañada» bajo la señal de animales domésticos, más limitación de velocidad.",
+     "Cañada позначають табличкою «cañada» під знаком про свійських тварин, плюс обмеження швидкості."
     ]
    ],
    "trap": [
     "Thinking animals always have priority, or never.",
-    "Pensar que los animales tienen siempre prioridad, o nunca."
+    "Pensar que los animales tienen siempre prioridad, o nunca.",
+    "Думати, що тварини завжди мають перевагу, або що ніколи."
    ]
   },
   "narrow": {
    "sec": 4,
    "en": "Narrow stretches",
    "es": "Estrechamientos",
+   "uk": "Вузькі ділянки",
    "recap": [
     [
      "Signs first: agents, lights, R-6 (blue square: you go first), R-5 (red circle: you give way).",
-     "Primero las señales: agentes, semáforos, R-6 (cuadrado azul: pasas tú), R-5 (círculo rojo: cedes)."
+     "Primero las señales: agentes, semáforos, R-6 (cuadrado azul: pasas tú), R-5 (círculo rojo: cedes).",
+     "Спершу сигнали: регулювальники, світлофори, R-6 (синій квадрат: ви першим), R-5 (червоне коло: ви поступаєтеся)."
     ],
     [
      "No signs: whoever entered first. In doubt: the harder to manoeuvre, by the 10-step list.",
-     "Sin señales: el que entró primero. En duda: el de mayor dificultad de maniobra, según la lista de 10."
+     "Sin señales: el que entró primero. En duda: el de mayor dificultad de maniobra, según la lista de 10.",
+     "Без знаків: хто першим в’їхав. У сумніві — той, кому важче маневрувати, за переліком із 10 пунктів."
     ],
     [
      "Order: oversize specials, combinations, animal-drawn, car + trailer ≤ 750 kg and motorhomes, buses, lorries, cars, small specials and quads, 3 wheels, 2 wheels.",
-     "Orden: especiales que exceden, conjuntos, tracción animal, turismo + remolque ≤ 750 kg y autocaravanas, autobuses, camiones, turismos, especiales pequeños y cuadriciclos, 3 ruedas, 2 ruedas."
+     "Orden: especiales que exceden, conjuntos, tracción animal, turismo + remolque ≤ 750 kg y autocaravanas, autobuses, camiones, turismos, especiales pequeños y cuadriciclos, 3 ruedas, 2 ruedas.",
+     "Порядок: великогабаритні спеціальні, состави, гужові, легковик + причіп ≤ 750 кг і автобудинки, автобуси, вантажівки, легковики, малі спеціальні й квадрицикли, 3 колеса, 2 колеса."
     ],
     [
      "Same type: longer reverse, then width, length or MMA. Gradient ≥ 7 %: uphill first, unless it can reach a lay-by first.",
-     "Mismo tipo: mayor marcha atrás, después anchura, longitud o MMA. Pendiente ≥ 7 %: el que sube, salvo que llegue antes a un apartadero."
+     "Mismo tipo: mayor marcha atrás, después anchura, longitud o MMA. Pendiente ≥ 7 %: el que sube, salvo que llegue antes a un apartadero.",
+     "Однаковий тип: кому довше їхати назад, далі ширина, довжина чи MMA. Ухил ≥ 7 %: першим той, хто їде вгору, якщо той, хто їде вниз, не може першим дістатися кишені."
     ]
    ],
    "trap": [
     "Using the vehicle list when it is clear who entered first.",
-    "Usar la lista de vehículos cuando está claro quién entró primero."
+    "Usar la lista de vehículos cuando está claro quién entró primero.",
+    "Користуватися переліком ТЗ, коли зрозуміло, хто в’їхав першим."
    ]
   },
   "bridges": {
    "sec": 4,
    "en": "Narrow bridges",
    "es": "Puentes y obras de paso",
+   "uk": "Вузькі мости",
    "recap": [
     [
      "Signs decide the order on a narrow bridge.",
-     "La señalización decide el orden en un puente estrecho."
+     "La señalización decide el orden en un puente estrecho.",
+     "Черговість на вузькому мосту визначають знаки."
     ],
     [
      "Meeting on it: the one who came in by the end with R-5 or give way reverses.",
-     "Si se encuentran, retrocede el que entró por el extremo con R-5 o ceda el paso."
+     "Si se encuentran, retrocede el que entró por el extremo con R-5 o ceda el paso.",
+     "Зустрілися на ньому: назад їде той, хто в’їхав з боку зі знаком R-5 чи «Дати дорогу»."
     ],
     [
      "No signs: the order of vehicles for narrow stretches.",
-     "Sin señales: el orden de vehículos de los estrechamientos."
+     "Sin señales: el orden de vehículos de los estrechamientos.",
+     "Без знаків — черговість ТЗ, як на вузьких ділянках."
     ],
     [
      "Vehicles with a special permit may not pass each other on bridges under 6 m wide.",
-     "Los vehículos con autorización especial no se cruzan en puentes de menos de 6 m."
+     "Los vehículos con autorización especial no se cruzan en puentes de menos de 6 m.",
+     "ТЗ зі спеціальним дозволом не можуть роз’їжджатися на мостах, вужчих за 6 м."
     ]
    ],
    "trap": [
     "Thinking the bigger vehicle always has the right to stay on the bridge.",
-    "Pensar que el vehículo más grande siempre tiene derecho a quedarse en el puente."
+    "Pensar que el vehículo más grande siempre tiene derecho a quedarse en el puente.",
+    "Думати, що більший ТЗ завжди має право лишатися на мосту."
    ]
   },
   "priority": {
    "sec": 5,
    "en": "Priority vehicles",
    "es": "Vehículos prioritarios",
+   "uk": "ТЗ з перевагою",
    "recap": [
     [
      "Police, fire, civil protection and ambulances, public or private, on urgent service; also maintenance crews and roadside assistance.",
-     "Policía, bomberos, protección civil y asistencia sanitaria, públicos o privados, en servicio urgente; también mantenimiento y auxilio en carretera."
+     "Policía, bomberos, protección civil y asistencia sanitaria, públicos o privados, en servicio urgente; también mantenimiento y auxilio en carretera.",
+     "Поліція, пожежні, цивільний захист і швидка допомога, державні чи приватні, що виконують термінове завдання; також бригади обслуговування й допомоги на дорозі."
     ],
     [
      "Light (V-1, blue, visible at 50 m) and siren together; the light alone only if that is no danger.",
-     "Luz (V-1, azul, visible a 50 m) y sirena a la vez; solo la luz si no entraña peligro."
+     "Luz (V-1, azul, visible a 50 m) y sirena a la vez; solo la luz si no entraña peligro.",
+     "Маячок (V-1, синій, видно з 50 м) і сирена разом; лише маячок — якщо це не небезпечно."
     ],
     [
      "May exceed limits and ignore rules and signs on their own responsibility, never agents’ instructions.",
-     "Pueden superar los límites y no cumplir normas o señales bajo su responsabilidad, nunca las órdenes de los agentes."
+     "Pueden superar los límites y no cumplir normas o señales bajo su responsabilidad, nunca las órdenes de los agentes.",
+     "Можуть перевищувати обмеження й не виконувати правил і знаків під власну відповідальність, але ніколи — вказівок регулювальників."
     ],
     [
      "At junctions and lights they make sure others have stopped; on motorways they may exceptionally turn, reverse, go against traffic on the shoulder or cross the median.",
-     "En intersecciones y semáforos se aseguran de que los demás han parado; en autopista pueden excepcionalmente dar la vuelta, retroceder, ir en sentido contrario por el arcén o cruzar la mediana."
+     "En intersecciones y semáforos se aseguran de que los demás han parado; en autopista pueden excepcionalmente dar la vuelta, retroceder, ir en sentido contrario por el arcén o cruzar la mediana.",
+     "На перехрестях і світлофорах переконуються, що інші зупинилися; на автомагістралях у виняткових випадках можуть розвертатися, їхати назад, проти руху узбіччям чи перетинати розділювальну смугу."
     ]
    ],
    "trap": [
     "Thinking priority vehicles may also ignore agents’ instructions.",
-    "Pensar que los prioritarios pueden ignorar también las órdenes de los agentes."
+    "Pensar que los prioritarios pueden ignorar también las órdenes de los agentes.",
+    "Думати, що ТЗ з перевагою можуть не виконувати й вказівок регулювальників."
    ]
   },
   "nonprio": {
    "sec": 5,
    "en": "Non-priority vehicles in an emergency",
    "es": "No prioritarios en servicio de urgencia",
+   "uk": "ТЗ без переваги в надзвичайній ситуації",
    "recap": [
     [
      "Only in especially serious circumstances and with no other means.",
-     "Solo en circunstancias especialmente graves y sin otro medio."
+     "Solo en circunstancias especialmente graves y sin otro medio.",
+     "Лише за особливо серйозних обставин і коли інших засобів немає."
     ],
     [
      "Horn on and off plus hazard lights, or a handkerchief waved.",
-     "Claxon intermitente y luz de emergencia, o un pañuelo agitado."
+     "Claxon intermitente y luz de emergencia, o un pañuelo agitado.",
+     "Переривчастий звуковий сигнал плюс аварійна сигналізація або хустка, якою махають."
     ],
     [
      "No priority: every traffic rule applies, above all at junctions.",
-     "Sin prioridad: todas las normas, sobre todo en las intersecciones."
+     "Sin prioridad: todas las normas, sobre todo en las intersecciones.",
+     "Переваги немає: діють усі правила руху, передусім на перехрестях."
     ],
     [
      "Agents may ask for justification at any time.",
-     "Los agentes pueden exigir la justificación en cualquier momento."
+     "Los agentes pueden exigir la justificación en cualquier momento.",
+     "Регулювальники можуть будь-коли вимагати обґрунтування."
     ]
    ],
    "trap": [
     "Thinking hazard lights and the horn give an ordinary car the right to skip red lights.",
-    "Pensar que la luz de emergencia y el claxon permiten a un turismo saltarse los semáforos."
+    "Pensar que la luz de emergencia y el claxon permiten a un turismo saltarse los semáforos.",
+    "Думати, що аварійна сигналізація й звуковий сигнал дають звичайному легковику право їхати на червоний."
    ]
   },
   "yield": {
    "sec": 5,
    "en": "Making way for emergencies",
    "es": "Facilitar el paso a los vehículos de urgencia",
+   "uk": "Звільнення дороги для екстрених служб",
    "recap": [
     [
      "Make way for any vehicle on emergency service, priority or not.",
-     "Facilitar el paso a todo vehículo en servicio de urgencia, prioritario o no."
+     "Facilitar el paso a todo vehículo en servicio de urgencia, prioritario o no.",
+     "Звільняйте дорогу будь-якому ТЗ, що виконує екстрене завдання, з перевагою чи без."
     ],
     [
      "Normally move to your right, and stop if necessary.",
-     "Normalmente apartarse a la derecha y detenerse si es preciso."
+     "Normalmente apartarse a la derecha y detenerse si es preciso.",
+     "Зазвичай зміщуйтеся праворуч, а за потреби зупиняйтеся."
     ],
     [
      "Queue at walking pace or stopped on a motorway: open the emergency corridor.",
-     "Retención a paso de peatón o detenida en autopista: abrir el carril de emergencia."
+     "Retención a paso de peatón o detenida en autopista: abrir el carril de emergencia.",
+     "Колона на автомагістралі рухається зі швидкістю пішохода чи стоїть: відкрийте екстрений коридор."
     ],
     [
      "2 lanes: centre. 3+: between the left lane and the next.",
-     "2 carriles: centro. 3 o más: entre el izquierdo y su contiguo."
+     "2 carriles: centro. 3 o más: entre el izquierdo y su contiguo.",
+     "2 смуги: посередині. 3+: між лівою смугою і сусідньою."
     ]
    ],
    "trap": [
     "Opening the corridor on the hard shoulder, or waiting for the siren before opening it.",
-    "Abrir el hueco en el arcén, o esperar a oír la sirena para abrirlo."
+    "Abrir el hueco en el arcén, o esperar a oír la sirena para abrirlo.",
+    "Відкривати коридор на узбіччі або чекати сирени, щоб його відкрити."
    ]
   }
  }

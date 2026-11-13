@@ -4,11 +4,13 @@ window.DGT_DATA = {
  "category": "b",
  "langs": [
   "en",
-  "es"
+  "es",
+  "uk"
  ],
  "title": {
   "en": "Topic 12 · Driving techniques",
-  "es": "Tema 12 · Técnicas de conducción"
+  "es": "Tema 12 · Técnicas de conducción",
+  "uk": "Тема 12 · Техніка водіння"
  },
  "bank": [
   {
@@ -16,25 +18,30 @@ window.DGT_DATA = {
    "tag": "vision",
    "q": {
     "en": "Preventive driving rests on three principles. Which?",
-    "es": "La conducción preventiva se basa en tres principios. ¿Cuáles?"
+    "es": "La conducción preventiva se basa en tres principios. ¿Cuáles?",
+    "uk": "Превентивне керування спирається на три принципи. Які?"
    },
    "o": [
     {
      "en": "Vision, anticipation and space control",
-     "es": "Visión, anticipación y control del espacio"
+     "es": "Visión, anticipación y control del espacio",
+     "uk": "Огляд, передбачення й контроль простору"
     },
     {
      "en": "Speed, braking and steering",
-     "es": "Velocidad, frenada y dirección"
+     "es": "Velocidad, frenada y dirección",
+     "uk": "Швидкість, гальмування й кермування"
     },
     {
      "en": "Lights, horn and mirrors",
-     "es": "Luces, claxon y espejos"
+     "es": "Luces, claxon y espejos",
+     "uk": "Світло, звуковий сигнал і дзеркала"
     }
    ],
    "why": {
     "en": "So you can react faster to anything unexpected.",
-    "es": "Para reaccionar con mayor rapidez ante cualquier imprevisto."
+    "es": "Para reaccionar con mayor rapidez ante cualquier imprevisto.",
+    "uk": "Щоб швидше реагувати на будь-яку несподіванку."
    }
   },
   {
@@ -42,25 +49,30 @@ window.DGT_DATA = {
    "tag": "vision",
    "q": {
     "en": "In town, how often should you check the mirrors?",
-    "es": "En vía urbana, ¿cada cuánto conviene mirar los retrovisores?"
+    "es": "En vía urbana, ¿cada cuánto conviene mirar los retrovisores?",
+    "uk": "Як часто в місті слід дивитися в дзеркала?"
    },
    "o": [
     {
      "en": "Every 5–10 seconds",
-     "es": "Cada 5–10 segundos"
+     "es": "Cada 5–10 segundos",
+     "uk": "Кожні 5–10 секунд"
     },
     {
      "en": "Every 30 seconds",
-     "es": "Cada 30 segundos"
+     "es": "Cada 30 segundos",
+     "uk": "Кожні 30 секунд"
     },
     {
      "en": "Only before a manoeuvre",
-     "es": "Solo antes de una maniobra"
+     "es": "Solo antes de una maniobra",
+     "uk": "Лише перед маневром"
     }
    ],
    "why": {
     "en": "Also on roads with heavy traffic.",
-    "es": "También en carreteras con tráfico denso."
+    "es": "También en carreteras con tráfico denso.",
+    "uk": "Також на дорогах зі щільним рухом."
    }
   },
   {
@@ -68,25 +80,30 @@ window.DGT_DATA = {
    "tag": "vision",
    "q": {
     "en": "On an autovía with little traffic, check the mirrors every…",
-    "es": "En una autovía con poco tráfico, mira los retrovisores cada…"
+    "es": "En una autovía con poco tráfico, mira los retrovisores cada…",
+    "uk": "На autovía з невеликим рухом дивіться в дзеркала кожні…"
    },
    "o": [
     {
      "en": "10–15 seconds",
-     "es": "10–15 segundos"
+     "es": "10–15 segundos",
+     "uk": "10–15 секунд"
     },
     {
      "en": "5 seconds",
-     "es": "5 segundos"
+     "es": "5 segundos",
+     "uk": "5 секунд"
     },
     {
      "en": "minute",
-     "es": "minuto"
+     "es": "minuto",
+     "uk": "хвилину"
     }
    ],
    "why": {
     "en": "Town and heavy traffic: 5–10 s.",
-    "es": "Ciudad y tráfico denso: 5–10 s."
+    "es": "Ciudad y tráfico denso: 5–10 s.",
+    "uk": "Місто й щільний рух: 5–10 с."
    }
   },
   {
@@ -94,25 +111,30 @@ window.DGT_DATA = {
    "tag": "vision",
    "q": {
     "en": "Should you check the mirrors when you are not going to manoeuvre?",
-    "es": "¿Hay que mirar los retrovisores aunque no vayas a hacer ninguna maniobra?"
+    "es": "¿Hay que mirar los retrovisores aunque no vayas a hacer ninguna maniobra?",
+    "uk": "Чи слід дивитися в дзеркала, коли не збираєтеся маневрувати?"
    },
    "o": [
     {
      "en": "Yes, often, to keep track of the vehicles behind and beside you",
-     "es": "Sí, con frecuencia, para controlar a los de detrás y a los lados"
+     "es": "Sí, con frecuencia, para controlar a los de detrás y a los lados",
+     "uk": "Так, часто, щоб стежити за ТЗ позаду й поруч"
     },
     {
      "en": "No, only before manoeuvres",
-     "es": "No, solo antes de maniobrar"
+     "es": "No, solo antes de maniobrar",
+     "uk": "Ні, лише перед маневрами"
     },
     {
      "en": "Only at night",
-     "es": "Solo de noche"
+     "es": "Solo de noche",
+     "uk": "Лише вночі"
     }
    ],
    "why": {
     "en": "Especially in stressful or heavy traffic.",
-    "es": "Sobre todo con estrés o tráfico denso."
+    "es": "Sobre todo con estrés o tráfico denso.",
+    "uk": "Особливо в напруженому чи щільному русі."
    }
   },
   {
@@ -120,25 +142,30 @@ window.DGT_DATA = {
    "tag": "vision",
    "q": {
     "en": "To check the blind spot before moving sideways you should…",
-    "es": "Para comprobar el ángulo muerto antes de un desplazamiento lateral hay que…"
+    "es": "Para comprobar el ángulo muerto antes de un desplazamiento lateral hay que…",
+    "uk": "Щоб перевірити мертву зону перед перестроюванням, слід…"
    },
    "o": [
     {
      "en": "turn your head about 45° and look directly",
-     "es": "girar la cabeza unos 45° y mirar directamente"
+     "es": "girar la cabeza unos 45° y mirar directamente",
+     "uk": "повернути голову приблизно на 45° і подивитися безпосередньо"
     },
     {
      "en": "look in the interior mirror",
-     "es": "mirar por el retrovisor interior"
+     "es": "mirar por el retrovisor interior",
+     "uk": "подивитися в салонне дзеркало"
     },
     {
      "en": "sound the horn",
-     "es": "tocar el claxon"
+     "es": "tocar el claxon",
+     "uk": "посигналити"
     }
    ],
    "why": {
     "en": "The mirrors can’t show it.",
-    "es": "Los espejos no lo muestran."
+    "es": "Los espejos no lo muestran.",
+    "uk": "Дзеркала її не показують."
    }
   },
   {
@@ -146,25 +173,30 @@ window.DGT_DATA = {
    "tag": "vision",
    "q": {
     "en": "With well-adjusted mirrors…",
-    "es": "Con los espejos bien reglados…"
+    "es": "Con los espejos bien reglados…",
+    "uk": "З добре відрегульованими дзеркалами…"
    },
    "o": [
     {
      "en": "there is still a blind spot",
-     "es": "sigue quedando un ángulo muerto"
+     "es": "sigue quedando un ángulo muerto",
+     "uk": "мертва зона однаково є"
     },
     {
      "en": "there is no blind spot",
-     "es": "no hay ángulo muerto"
+     "es": "no hay ángulo muerto",
+     "uk": "мертвої зони немає"
     },
     {
      "en": "you never need to turn your head",
-     "es": "nunca hace falta girar la cabeza"
+     "es": "nunca hace falta girar la cabeza",
+     "uk": "повертати голову ніколи не треба"
     }
    ],
    "why": {
     "en": "A place where you can’t see another road user.",
-    "es": "Un lugar donde no se percibe a otro usuario."
+    "es": "Un lugar donde no se percibe a otro usuario.",
+    "uk": "Місце, де не видно іншого учасника руху."
    }
   },
   {
@@ -172,25 +204,30 @@ window.DGT_DATA = {
    "tag": "vision",
    "q": {
     "en": "Where should you look, especially at higher speeds?",
-    "es": "¿Dónde hay que mirar, sobre todo a mayor velocidad?"
+    "es": "¿Dónde hay que mirar, sobre todo a mayor velocidad?",
+    "uk": "Куди слід дивитися, особливо на вищій швидкості?"
    },
    "o": [
     {
      "en": "Far ahead, where you will be in a few seconds",
-     "es": "A lo lejos, al punto donde estaremos en unos segundos"
+     "es": "A lo lejos, al punto donde estaremos en unos segundos",
+     "uk": "Далеко вперед, туди, де ви будете за кілька секунд"
     },
     {
      "en": "Only at the car in front",
-     "es": "Solo al coche de delante"
+     "es": "Solo al coche de delante",
+     "uk": "Лише на автомобіль попереду"
     },
     {
      "en": "At the dashboard",
-     "es": "Al salpicadero"
+     "es": "Al salpicadero",
+     "uk": "На панель приладів"
     }
    ],
    "why": {
     "en": "Not only at the vehicle in front.",
-    "es": "No solo al vehículo de delante."
+    "es": "No solo al vehículo de delante.",
+    "uk": "Не лише на ТЗ попереду."
    }
   },
   {
@@ -198,25 +235,30 @@ window.DGT_DATA = {
    "tag": "vision",
    "q": {
     "en": "Looking to the sides often helps you…",
-    "es": "Mirar a los lados con frecuencia ayuda a…"
+    "es": "Mirar a los lados con frecuencia ayuda a…",
+    "uk": "Часто дивитися вбоки допомагає…"
    },
    "o": [
     {
      "en": "spot sudden movements, such as a lane change",
-     "es": "percibir movimientos imprevistos, como un cambio de carril"
+     "es": "percibir movimientos imprevistos, como un cambio de carril",
+     "uk": "помітити раптові рухи, як-от перестроювання"
     },
     {
      "en": "save fuel",
-     "es": "ahorrar combustible"
+     "es": "ahorrar combustible",
+     "uk": "заощадити пальне"
     },
     {
      "en": "read the signs better",
-     "es": "leer mejor las señales"
+     "es": "leer mejor las señales",
+     "uk": "краще читати знаки"
     }
    ],
    "why": {
     "en": "On both sides.",
-    "es": "A ambos lados."
+    "es": "A ambos lados.",
+    "uk": "З обох боків."
    }
   },
   {
@@ -224,25 +266,30 @@ window.DGT_DATA = {
    "tag": "anticip",
    "q": {
     "en": "Defensive driving means…",
-    "es": "La conducción defensiva consiste en…"
+    "es": "La conducción defensiva consiste en…",
+    "uk": "Захисне керування означає…"
    },
    "o": [
     {
      "en": "anticipating risks and not trusting that others will always do the right thing",
-     "es": "anticiparse a los riesgos y desconfiar de que los demás actúen siempre bien"
+     "es": "anticiparse a los riesgos y desconfiar de que los demás actúen siempre bien",
+     "uk": "передбачати ризики й не покладатися на те, що інші завжди діятимуть правильно"
     },
     {
      "en": "driving aggressively to stay safe",
-     "es": "conducir de forma agresiva para estar seguro"
+     "es": "conducir de forma agresiva para estar seguro",
+     "uk": "керувати агресивно, щоб убезпечитися"
     },
     {
      "en": "driving always very slowly",
-     "es": "circular siempre muy despacio"
+     "es": "circular siempre muy despacio",
+     "uk": "завжди їхати дуже повільно"
     }
    ],
    "why": {
     "en": "Anyone can make a mistake or be distracted.",
-    "es": "Cualquiera puede cometer un error o distraerse."
+    "es": "Cualquiera puede cometer un error o distraerse.",
+    "uk": "Будь-хто може помилитися чи відволіктися."
    }
   },
   {
@@ -250,25 +297,30 @@ window.DGT_DATA = {
    "tag": "anticip",
    "q": {
     "en": "You see a situation that could become risky. It is advisable to…",
-    "es": "Ves una situación de posible riesgo. Conviene…"
+    "es": "Ves una situación de posible riesgo. Conviene…",
+    "uk": "Ви бачите ситуацію, що може стати ризикованою. Варто…"
    },
    "o": [
     {
      "en": "cover the brake pedal with your foot",
-     "es": "preparar el pie sobre el pedal del freno"
+     "es": "preparar el pie sobre el pedal del freno",
+     "uk": "тримати ногу над педаллю гальма"
     },
     {
      "en": "speed up to get past",
-     "es": "acelerar para pasar"
+     "es": "acelerar para pasar",
+     "uk": "прискоритися, щоб проскочити"
     },
     {
      "en": "look away",
-     "es": "apartar la vista"
+     "es": "apartar la vista",
+     "uk": "відвести погляд"
     }
    ],
    "why": {
     "en": "So you can stop sooner.",
-    "es": "Para poder detenerse antes."
+    "es": "Para poder detenerse antes.",
+    "uk": "Щоб зупинитися швидше."
    }
   },
   {
@@ -276,25 +328,30 @@ window.DGT_DATA = {
    "tag": "anticip",
    "q": {
     "en": "To ‘be seen and understood’ you should…",
-    "es": "Para «hacerse ver y entender» hay que…"
+    "es": "Para «hacerse ver y entender» hay que…",
+    "uk": "Щоб «вас бачили й розуміли», слід…"
    },
    "o": [
     {
      "en": "signal early and keep signalling until the manoeuvre is finished",
-     "es": "señalizar con antelación y mantenerlo hasta terminar la maniobra"
+     "es": "señalizar con antelación y mantenerlo hasta terminar la maniobra",
+     "uk": "сигналізувати завчасно й до кінця маневру"
     },
     {
      "en": "signal only at the last moment",
-     "es": "señalizar en el último momento"
+     "es": "señalizar en el último momento",
+     "uk": "сигналізувати лише в останню мить"
     },
     {
      "en": "use the horn often",
-     "es": "usar el claxon a menudo"
+     "es": "usar el claxon a menudo",
+     "uk": "часто сигналити звуком"
     }
    ],
    "why": {
     "en": "And use your lights well.",
-    "es": "Y hacer un uso adecuado del alumbrado."
+    "es": "Y hacer un uso adecuado del alumbrado.",
+    "uk": "І правильно користуватися світлом."
    }
   },
   {
@@ -302,25 +359,30 @@ window.DGT_DATA = {
    "tag": "anticip",
    "q": {
     "en": "When should you take extra care that others can see you?",
-    "es": "¿Cuándo hay que cuidar especialmente que los demás te vean?"
+    "es": "¿Cuándo hay que cuidar especialmente que los demás te vean?",
+    "uk": "Коли слід особливо подбати, щоб інші вас бачили?"
    },
    "o": [
     {
      "en": "When oncoming drivers have the sun in their eyes or leave a tunnel",
-     "es": "Cuando los que vienen de frente tienen el sol de cara o salen de un túnel"
+     "es": "Cuando los que vienen de frente tienen el sol de cara o salen de un túnel",
+     "uk": "Коли зустрічним водіям світить сонце в очі чи вони виїжджають із тунелю"
     },
     {
      "en": "On a sunny morning with the sun behind them",
-     "es": "Con sol a su espalda"
+     "es": "Con sol a su espalda",
+     "uk": "Сонячного ранку, коли сонце в них позаду"
     },
     {
      "en": "Never",
-     "es": "Nunca"
+     "es": "Nunca",
+     "uk": "Ніколи"
     }
    ],
    "why": {
     "en": "Unfavourable light.",
-    "es": "Condiciones de luminosidad desfavorables."
+    "es": "Condiciones de luminosidad desfavorables.",
+    "uk": "Несприятливе освітлення."
    }
   },
   {
@@ -328,25 +390,30 @@ window.DGT_DATA = {
    "tag": "anticip",
    "q": {
     "en": "Why avoid staying in a lorry’s blind spot?",
-    "es": "¿Por qué evitar quedarse en el ángulo muerto de un camión?"
+    "es": "¿Por qué evitar quedarse en el ángulo muerto de un camión?",
+    "uk": "Чому слід уникати перебування в мертвій зоні вантажівки?"
    },
    "o": [
     {
      "en": "Its driver may not see you",
-     "es": "Su conductor puede no detectarte"
+     "es": "Su conductor puede no detectarte",
+     "uk": "Її водій може вас не бачити"
     },
     {
      "en": "It uses more fuel",
-     "es": "Consume más combustible"
+     "es": "Consume más combustible",
+     "uk": "Це витрачає більше пального"
     },
     {
      "en": "It is forbidden to overtake lorries",
-     "es": "Está prohibido adelantar a camiones"
+     "es": "Está prohibido adelantar a camiones",
+     "uk": "Обганяти вантажівки заборонено"
     }
    ],
    "why": {
     "en": "Even more so on a motorcycle.",
-    "es": "Más aún si vas en moto."
+    "es": "Más aún si vas en moto.",
+    "uk": "Тим паче на мотоциклі."
    }
   },
   {
@@ -354,25 +421,30 @@ window.DGT_DATA = {
    "tag": "anticip",
    "q": {
     "en": "Adapting your driving means a speed suited to…",
-    "es": "Adaptar la conducción supone una velocidad adecuada a…"
+    "es": "Adaptar la conducción supone una velocidad adecuada a…",
+    "uk": "Пристосувати керування — означає швидкість, відповідну…"
    },
    "o": [
     {
      "en": "the weather, the traffic, the road, the vehicle and your own state",
-     "es": "la meteorología, el tráfico, la vía, el vehículo y el propio conductor"
+     "es": "la meteorología, el tráfico, la vía, el vehículo y el propio conductor",
+     "uk": "погоді, руху, дорозі, ТЗ і вашому стану"
     },
     {
      "en": "the speed limit only",
-     "es": "solo el límite de velocidad"
+     "es": "solo el límite de velocidad",
+     "uk": "лише обмеженню швидкості"
     },
     {
      "en": "the car in front",
-     "es": "el coche de delante"
+     "es": "el coche de delante",
+     "uk": "автомобілю попереду"
     }
    ],
    "why": {
     "en": "So you can stop safely.",
-    "es": "Para poder detenerse con seguridad."
+    "es": "Para poder detenerse con seguridad.",
+    "uk": "Щоб безпечно зупинитися."
    }
   },
   {
@@ -380,25 +452,30 @@ window.DGT_DATA = {
    "tag": "space",
    "q": {
     "en": "In town, the front safety gap should be at least…",
-    "es": "En zona urbana, la distancia de seguridad delantera debe ser al menos de…"
+    "es": "En zona urbana, la distancia de seguridad delantera debe ser al menos de…",
+    "uk": "У місті безпечний інтервал попереду має бути щонайменше…"
    },
    "o": [
     {
      "en": "2 seconds",
-     "es": "2 segundos"
+     "es": "2 segundos",
+     "uk": "2 секунди"
     },
     {
      "en": "1 second",
-     "es": "1 segundo"
+     "es": "1 segundo",
+     "uk": "1 секунда"
     },
     {
      "en": "5 seconds",
-     "es": "5 segundos"
+     "es": "5 segundos",
+     "uk": "5 секунд"
     }
    ],
    "why": {
     "en": "3 seconds on the open road.",
-    "es": "3 segundos en carretera."
+    "es": "3 segundos en carretera.",
+    "uk": "3 секунди за містом."
    }
   },
   {
@@ -406,25 +483,30 @@ window.DGT_DATA = {
    "tag": "space",
    "q": {
     "en": "On the open road, the front safety gap should be at least…",
-    "es": "En carretera, la distancia de seguridad delantera debe ser al menos de…"
+    "es": "En carretera, la distancia de seguridad delantera debe ser al menos de…",
+    "uk": "За містом безпечний інтервал попереду має бути щонайменше…"
    },
    "o": [
     {
      "en": "3 seconds",
-     "es": "3 segundos"
+     "es": "3 segundos",
+     "uk": "3 секунди"
     },
     {
      "en": "2 seconds",
-     "es": "2 segundos"
+     "es": "2 segundos",
+     "uk": "2 секунди"
     },
     {
      "en": "1 second",
-     "es": "1 segundo"
+     "es": "1 segundo",
+     "uk": "1 секунда"
     }
    ],
    "why": {
     "en": "At least one more second in worse conditions.",
-    "es": "Al menos un segundo más en peores condiciones."
+    "es": "Al menos un segundo más en peores condiciones.",
+    "uk": "Щонайменше на секунду більше за гірших умов."
    }
   },
   {
@@ -432,25 +514,30 @@ window.DGT_DATA = {
    "tag": "space",
    "q": {
     "en": "When should you add at least one more second to your gap?",
-    "es": "¿Cuándo hay que aumentar la distancia al menos un segundo más?"
+    "es": "¿Cuándo hay que aumentar la distancia al menos un segundo más?",
+    "uk": "Коли слід додати до інтервалу щонайменше ще секунду?"
    },
    "o": [
     {
      "en": "In bad weather, when tired, on a poor surface, or when someone follows too close",
-     "es": "Con mal tiempo, cansancio, mal firme o si te siguen muy cerca"
+     "es": "Con mal tiempo, cansancio, mal firme o si te siguen muy cerca",
+     "uk": "У негоду, утомившись, на поганому покритті чи коли хтось їде надто близько позаду"
     },
     {
      "en": "Only at night",
-     "es": "Solo de noche"
+     "es": "Solo de noche",
+     "uk": "Лише вночі"
     },
     {
      "en": "Only on motorways",
-     "es": "Solo en autopista"
+     "es": "Solo en autopista",
+     "uk": "Лише на автомагістралях"
     }
    ],
    "why": {
     "en": "Adverse conditions.",
-    "es": "Condiciones adversas."
+    "es": "Condiciones adversas.",
+    "uk": "Несприятливі умови."
    }
   },
   {
@@ -458,25 +545,30 @@ window.DGT_DATA = {
    "tag": "space",
    "q": {
     "en": "A vehicle is following you too closely. You should…",
-    "es": "Un vehículo te sigue demasiado cerca. Debes…"
+    "es": "Un vehículo te sigue demasiado cerca. Debes…",
+    "uk": "ТЗ позаду їде надто близько. Вам слід…"
    },
    "o": [
     {
      "en": "increase your front gap, signal early and brake gently",
-     "es": "aumentar tu distancia delantera, señalizar antes y frenar suave"
+     "es": "aumentar tu distancia delantera, señalizar antes y frenar suave",
+     "uk": "збільшити інтервал попереду, сигналізувати завчасно й гальмувати м’яко"
     },
     {
      "en": "brake hard to warn them",
-     "es": "frenar fuerte para avisarle"
+     "es": "frenar fuerte para avisarle",
+     "uk": "різко загальмувати, щоб попередити"
     },
     {
      "en": "speed up a lot",
-     "es": "acelerar mucho"
+     "es": "acelerar mucho",
+     "uk": "сильно прискоритися"
     }
    ],
    "why": {
     "en": "So you won’t need to brake suddenly.",
-    "es": "Para no tener que frenar bruscamente."
+    "es": "Para no tener que frenar bruscamente.",
+    "uk": "Щоб не довелося гальмувати раптово."
    }
   },
   {
@@ -484,25 +576,30 @@ window.DGT_DATA = {
    "tag": "space",
    "q": {
     "en": "You are stopped and a rear-end crash can’t be avoided. You should…",
-    "es": "Estás detenido y no se puede evitar un alcance. Conviene…"
+    "es": "Estás detenido y no se puede evitar un alcance. Conviene…",
+    "uk": "Ви стоїте, і наїзду ззаду не уникнути. Вам слід…"
    },
    "o": [
     {
      "en": "keep the vehicle braked",
-     "es": "mantener el vehículo frenado"
+     "es": "mantener el vehículo frenado",
+     "uk": "тримати ТЗ загальмованим"
     },
     {
      "en": "release the brake",
-     "es": "soltar el freno"
+     "es": "soltar el freno",
+     "uk": "відпустити гальмо"
     },
     {
      "en": "put it in neutral",
-     "es": "ponerlo en punto muerto"
+     "es": "ponerlo en punto muerto",
+     "uk": "увімкнути нейтраль"
     }
    ],
    "why": {
     "en": "If you are moving and a crash looks likely, try to move aside.",
-    "es": "Si estás en marcha, intenta apartarte."
+    "es": "Si estás en marcha, intenta apartarte.",
+    "uk": "Якщо ви рухаєтеся й зіткнення ймовірне — спробуйте зміститися вбік."
    }
   },
   {
@@ -510,25 +607,30 @@ window.DGT_DATA = {
    "tag": "space",
    "q": {
     "en": "Which road user has the largest side zone of uncertainty?",
-    "es": "¿Qué usuario tiene una gran zona lateral de incertidumbre?"
+    "es": "¿Qué usuario tiene una gran zona lateral de incertidumbre?",
+    "uk": "Який учасник руху має найбільшу бічну зону невизначеності?"
    },
    "o": [
     {
      "en": "A cyclist, especially on long climbs",
-     "es": "El ciclista, sobre todo en ascensos prolongados"
+     "es": "El ciclista, sobre todo en ascensos prolongados",
+     "uk": "Велосипедист, особливо на довгих підйомах"
     },
     {
      "en": "An adult pedestrian",
-     "es": "Un peatón adulto"
+     "es": "Un peatón adulto",
+     "uk": "Дорослий пішохід"
     },
     {
      "en": "A parked lorry",
-     "es": "Un camión aparcado"
+     "es": "Un camión aparcado",
+     "uk": "Припаркована вантажівка"
     }
    ],
    "why": {
     "en": "They sway with the effort of pedalling.",
-    "es": "Oscilan por el esfuerzo del pedaleo."
+    "es": "Oscilan por el esfuerzo del pedaleo.",
+    "uk": "Він хитається від зусиль, крутячи педалі."
    }
   },
   {
@@ -536,25 +638,30 @@ window.DGT_DATA = {
    "tag": "space",
    "q": {
     "en": "When you stop behind another vehicle you should leave…",
-    "es": "Al detenerte detrás de otro vehículo debes dejar…"
+    "es": "Al detenerte detrás de otro vehículo debes dejar…",
+    "uk": "Зупиняючись позаду іншого ТЗ, слід лишати…"
    },
    "o": [
     {
      "en": "2–3 metres, enough to see its rear tyres on the road",
-     "es": "2–3 metros, viendo sus ruedas traseras sobre el suelo"
+     "es": "2–3 metros, viendo sus ruedas traseras sobre el suelo",
+     "uk": "2–3 метри, щоб бачити його задні шини на дорозі"
     },
     {
      "en": "50 cm",
-     "es": "50 cm"
+     "es": "50 cm",
+     "uk": "50 см"
     },
     {
      "en": "10 metres",
-     "es": "10 metros"
+     "es": "10 metros",
+     "uk": "10 метрів"
     }
    ],
    "why": {
     "en": "To react if it rolls back or breaks down.",
-    "es": "Para reaccionar si va hacia atrás o se avería."
+    "es": "Para reaccionar si va hacia atrás o se avería.",
+    "uk": "Щоб зреагувати, якщо він скотиться назад чи зламається."
    }
   },
   {
@@ -562,25 +669,30 @@ window.DGT_DATA = {
    "tag": "space",
    "q": {
     "en": "You are the last vehicle in an unexpected queue. You should…",
-    "es": "Eres el último vehículo de una retención imprevista. Debes…"
+    "es": "Eres el último vehículo de una retención imprevista. Debes…",
+    "uk": "Ви останній у несподіваному заторі. Вам слід…"
    },
    "o": [
     {
      "en": "switch on the hazard lights and leave 5–6 m to the vehicle in front",
-     "es": "encender la emergencia y dejar 5–6 m con el de delante"
+     "es": "encender la emergencia y dejar 5–6 m con el de delante",
+     "uk": "увімкнути аварійну сигналізацію й лишити 5–6 м до ТЗ попереду"
     },
     {
      "en": "switch off the engine",
-     "es": "apagar el motor"
+     "es": "apagar el motor",
+     "uk": "заглушити двигун"
     },
     {
      "en": "get out of the car",
-     "es": "salir del coche"
+     "es": "salir del coche",
+     "uk": "вийти з автомобіля"
     }
    ],
    "why": {
     "en": "Watch the mirrors, ready to move aside.",
-    "es": "Vigilar los espejos, listo para apartarte."
+    "es": "Vigilar los espejos, listo para apartarte.",
+    "uk": "Стежте за дзеркалами, готові зміститися вбік."
    }
   },
   {
@@ -588,25 +700,30 @@ window.DGT_DATA = {
    "tag": "space",
    "q": {
     "en": "How long do you keep the ‘last in the queue’ measures up?",
-    "es": "¿Hasta cuándo se mantienen las medidas de «último de la cola»?"
+    "es": "¿Hasta cuándo se mantienen las medidas de «último de la cola»?",
+    "uk": "Скільки тримати заходи «останнього в заторі»?"
    },
    "o": [
     {
      "en": "Until several vehicles have stopped behind you",
-     "es": "Hasta que se detengan varios vehículos por detrás"
+     "es": "Hasta que se detengan varios vehículos por detrás",
+     "uk": "Доки позаду вас не зупиниться кілька ТЗ"
     },
     {
      "en": "For 10 seconds",
-     "es": "Durante 10 segundos"
+     "es": "Durante 10 segundos",
+     "uk": "10 секунд"
     },
     {
      "en": "Until the police arrive",
-     "es": "Hasta que llegue la policía"
+     "es": "Hasta que llegue la policía",
+     "uk": "Доки не приїде поліція"
     }
    ],
    "why": {
     "en": "Then the risk of being hit falls.",
-    "es": "Entonces baja el riesgo de alcance."
+    "es": "Entonces baja el riesgo de alcance.",
+    "uk": "Тоді ризик, що в вас вріжуться, знижується."
    }
   },
   {
@@ -614,25 +731,30 @@ window.DGT_DATA = {
    "tag": "space",
    "q": {
     "en": "Why leave space when you stop uphill behind another car?",
-    "es": "¿Por qué dejar espacio al detenerse en subida detrás de otro coche?"
+    "es": "¿Por qué dejar espacio al detenerse en subida detrás de otro coche?",
+    "uk": "Навіщо лишати простір, зупиняючись на підйомі позаду іншого автомобіля?"
    },
    "o": [
     {
      "en": "It may roll back when it moves off",
-     "es": "Puede ir hacia atrás al arrancar"
+     "es": "Puede ir hacia atrás al arrancar",
+     "uk": "Він може скотитися назад, рушаючи"
     },
     {
      "en": "To save fuel",
-     "es": "Para ahorrar combustible"
+     "es": "Para ahorrar combustible",
+     "uk": "Щоб заощадити пальне"
     },
     {
      "en": "It isn’t needed uphill",
-     "es": "En subida no hace falta"
+     "es": "En subida no hace falta",
+     "uk": "На підйомі це не потрібно"
     }
    ],
    "why": {
     "en": "Also to get round it if it breaks down.",
-    "es": "También para esquivarlo si se avería."
+    "es": "También para esquivarlo si se avería.",
+    "uk": "А також щоб об’їхати його, якщо він зламається."
    }
   },
   {
@@ -640,25 +762,30 @@ window.DGT_DATA = {
    "tag": "space",
    "q": {
     "en": "A parked car’s zone of uncertainty includes…",
-    "es": "La zona de incertidumbre de un coche aparcado incluye…"
+    "es": "La zona de incertidumbre de un coche aparcado incluye…",
+    "uk": "Зона невизначеності припаркованого автомобіля включає…"
    },
    "o": [
     {
      "en": "a door that may open",
-     "es": "una puerta que se puede abrir"
+     "es": "una puerta que se puede abrir",
+     "uk": "двері, що можуть відчинитися"
     },
     {
      "en": "nothing",
-     "es": "nada"
+     "es": "nada",
+     "uk": "нічого"
     },
     {
      "en": "only its boot",
-     "es": "solo el maletero"
+     "es": "solo el maletero",
+     "uk": "лише багажник"
     }
    ],
    "why": {
     "en": "Also a sudden move or turn.",
-    "es": "También una salida o giro imprevisto."
+    "es": "También una salida o giro imprevisto.",
+    "uk": "А також раптовий рух чи поворот."
    }
   },
   {
@@ -666,25 +793,30 @@ window.DGT_DATA = {
    "tag": "devices",
    "q": {
     "en": "Tinted or coloured glass that is not approved is…",
-    "es": "Los vidrios tintados o coloreados no homologados…"
+    "es": "Los vidrios tintados o coloreados no homologados…",
+    "uk": "Тоноване чи кольорове скло без сертифікації…"
    },
    "o": [
     {
      "en": "prohibited",
-     "es": "están prohibidos"
+     "es": "están prohibidos",
+     "uk": "заборонене"
     },
     {
      "en": "allowed on rear windows",
-     "es": "se permiten en las ventanillas traseras"
+     "es": "se permiten en las ventanillas traseras",
+     "uk": "дозволене на задніх вікнах"
     },
     {
      "en": "recommended in summer",
-     "es": "se recomiendan en verano"
+     "es": "se recomiendan en verano",
+     "uk": "рекомендоване влітку"
     }
    ],
    "why": {
     "en": "Glass must not distort what you see.",
-    "es": "Los cristales no deben deformar la visión."
+    "es": "Los cristales no deben deformar la visión.",
+    "uk": "Скло не повинно спотворювати те, що ви бачите."
    }
   },
   {
@@ -692,25 +824,30 @@ window.DGT_DATA = {
    "tag": "devices",
    "q": {
     "en": "A car with windscreen wipers must also have…",
-    "es": "Un automóvil con limpiaparabrisas debe tener además…"
+    "es": "Un automóvil con limpiaparabrisas debe tener además…",
+    "uk": "Автомобіль зі склоочисниками мусить мати ще й…"
    },
    "o": [
     {
      "en": "a windscreen washer",
-     "es": "lavaparabrisas"
+     "es": "lavaparabrisas",
+     "uk": "омивач лобового скла"
     },
     {
      "en": "a rear washer",
-     "es": "lavalunetas"
+     "es": "lavalunetas",
+     "uk": "омивач заднього скла"
     },
     {
      "en": "a heated windscreen",
-     "es": "parabrisas térmico"
+     "es": "parabrisas térmico",
+     "uk": "обігрів лобового скла"
     }
    ],
    "why": {
     "en": "The rear washer is not compulsory.",
-    "es": "El lavalunetas no es obligatorio."
+    "es": "El lavalunetas no es obligatorio.",
+    "uk": "Омивач заднього скла не обов’язковий."
    }
   },
   {
@@ -718,25 +855,30 @@ window.DGT_DATA = {
    "tag": "devices",
    "q": {
     "en": "The rear window washer is…",
-    "es": "El lavalunetas es…"
+    "es": "El lavalunetas es…",
+    "uk": "Омивач заднього скла…"
    },
    "o": [
     {
      "en": "not compulsory, but recommended",
-     "es": "no obligatorio, pero sí recomendable"
+     "es": "no obligatorio, pero sí recomendable",
+     "uk": "не обов’язковий, але рекомендований"
     },
     {
      "en": "compulsory",
-     "es": "obligatorio"
+     "es": "obligatorio",
+     "uk": "обов’язковий"
     },
     {
      "en": "prohibited",
-     "es": "prohibido"
+     "es": "prohibido",
+     "uk": "заборонений"
     }
    ],
    "why": {
     "en": "It sits at the rear window.",
-    "es": "Se sitúa en la luneta trasera."
+    "es": "Se sitúa en la luneta trasera.",
+    "uk": "Він стоїть біля заднього скла."
    }
   },
   {
@@ -744,25 +886,30 @@ window.DGT_DATA = {
    "tag": "devices",
    "q": {
     "en": "Using the wipers on a dry windscreen with the washer tank empty…",
-    "es": "Usar el limpiaparabrisas con el cristal seco y el depósito vacío…"
+    "es": "Usar el limpiaparabrisas con el cristal seco y el depósito vacío…",
+    "uk": "Вмикати склоочисники на сухому склі з порожнім бачком омивача…"
    },
    "o": [
     {
      "en": "scratches the glass and damages the blade",
-     "es": "raya el cristal y daña la escobilla"
+     "es": "raya el cristal y daña la escobilla",
+     "uk": "дряпає скло й псує щітку"
     },
     {
      "en": "cleans better",
-     "es": "limpia mejor"
+     "es": "limpia mejor",
+     "uk": "чистить краще"
     },
     {
      "en": "saves water",
-     "es": "ahorra agua"
+     "es": "ahorra agua",
+     "uk": "економить воду"
     }
    ],
    "why": {
     "en": "It drags dust across the glass.",
-    "es": "Arrastra polvo y suciedad."
+    "es": "Arrastra polvo y suciedad.",
+    "uk": "Вони тягнуть пил по склу."
    }
   },
   {
@@ -770,25 +917,30 @@ window.DGT_DATA = {
    "tag": "devices",
    "q": {
     "en": "Which wiper speed is recommended?",
-    "es": "¿Qué velocidad del limpiaparabrisas se recomienda?"
+    "es": "¿Qué velocidad del limpiaparabrisas se recomienda?",
+    "uk": "Яку швидкість склоочисників рекомендовано?"
    },
    "o": [
     {
      "en": "The slowest one that works",
-     "es": "La más lenta posible"
+     "es": "La más lenta posible",
+     "uk": "Найповільнішу, що справляється"
     },
     {
      "en": "Always the fastest",
-     "es": "Siempre la más rápida"
+     "es": "Siempre la más rápida",
+     "uk": "Завжди найшвидшу"
     },
     {
      "en": "Intermittent only",
-     "es": "Solo intermitente"
+     "es": "Solo intermitente",
+     "uk": "Лише переривчасту"
     }
    ],
    "why": {
     "en": "Less distraction and wear.",
-    "es": "Menos molestia visual y desgaste."
+    "es": "Menos molestia visual y desgaste.",
+    "uk": "Менше відволікання й зносу."
    }
   },
   {
@@ -796,25 +948,30 @@ window.DGT_DATA = {
    "tag": "devices",
    "q": {
     "en": "The washer tank should be filled with…",
-    "es": "El depósito del lavaparabrisas se recomienda rellenarlo con…"
+    "es": "El depósito del lavaparabrisas se recomienda rellenarlo con…",
+    "uk": "Бачок омивача слід наповнювати…"
    },
    "o": [
     {
      "en": "distilled water and a cleaning agent",
-     "es": "agua destilada y un agente limpiador"
+     "es": "agua destilada y un agente limpiador",
+     "uk": "дистильованою водою з мийним засобом"
     },
     {
      "en": "tap water only",
-     "es": "solo agua del grifo"
+     "es": "solo agua del grifo",
+     "uk": "лише водою з-під крана"
     },
     {
      "en": "oil",
-     "es": "aceite"
+     "es": "aceite",
+     "uk": "олією"
     }
    ],
    "why": {
     "en": "Keep the jets clean.",
-    "es": "Y mantener limpios los orificios."
+    "es": "Y mantener limpios los orificios.",
+    "uk": "Тримайте форсунки чистими."
    }
   },
   {
@@ -822,25 +979,30 @@ window.DGT_DATA = {
    "tag": "devices",
    "q": {
     "en": "The heated rear window works by…",
-    "es": "La luneta térmica funciona mediante…"
+    "es": "La luneta térmica funciona mediante…",
+    "uk": "Обігрів заднього скла працює завдяки…"
    },
    "o": [
     {
      "en": "filaments in the rear glass",
-     "es": "unos filamentos en el cristal trasero"
+     "es": "unos filamentos en el cristal trasero",
+     "uk": "ниткам у задньому склі"
     },
     {
      "en": "a fan in the boot",
-     "es": "un ventilador en el maletero"
+     "es": "un ventilador en el maletero",
+     "uk": "вентилятору в багажнику"
     },
     {
      "en": "the wipers",
-     "es": "el limpiaparabrisas"
+     "es": "el limpiaparabrisas",
+     "uk": "склоочисникам"
     }
    ],
    "why": {
     "en": "It clears frost and mist.",
-    "es": "Elimina la escarcha y el vaho."
+    "es": "Elimina la escarcha y el vaho.",
+    "uk": "Він прибирає іній і запотівання."
    }
   },
   {
@@ -848,25 +1010,30 @@ window.DGT_DATA = {
    "tag": "devices",
    "q": {
     "en": "Wiper blades should be replaced when they…",
-    "es": "Las escobillas se deben sustituir cuando…"
+    "es": "Las escobillas se deben sustituir cuando…",
+    "uk": "Щітки склоочисників треба міняти, коли вони…"
    },
    "o": [
     {
      "en": "are cracked, don’t clean well or scratch the glass",
-     "es": "están cuarteadas, no limpian bien o arañan el cristal"
+     "es": "están cuarteadas, no limpian bien o arañan el cristal",
+     "uk": "потріскалися, погано чистять чи дряпають скло"
     },
     {
      "en": "are a year old, always",
-     "es": "tienen un año, siempre"
+     "es": "tienen un año, siempre",
+     "uk": "щороку, завжди"
     },
     {
      "en": "get wet",
-     "es": "se mojan"
+     "es": "se mojan",
+     "uk": "намокли"
     }
    ],
    "why": {
     "en": "Visibility comes first.",
-    "es": "La visibilidad es lo primero."
+    "es": "La visibilidad es lo primero.",
+    "uk": "Видимість понад усе."
    }
   },
   {
@@ -874,25 +1041,30 @@ window.DGT_DATA = {
    "tag": "mirrors",
    "q": {
     "en": "In a car, which mirrors are always compulsory?",
-    "es": "En un turismo, ¿qué espejos son siempre obligatorios?"
+    "es": "En un turismo, ¿qué espejos son siempre obligatorios?",
+    "uk": "Які дзеркала в легковику обов’язкові завжди?"
    },
    "o": [
     {
      "en": "The outside left mirror and the interior mirror",
-     "es": "El exterior izquierdo y el interior"
+     "es": "El exterior izquierdo y el interior",
+     "uk": "Ліве зовнішнє й салонне"
     },
     {
      "en": "Only the interior mirror",
-     "es": "Solo el interior"
+     "es": "Solo el interior",
+     "uk": "Лише салонне"
     },
     {
      "en": "Both outside mirrors only",
-     "es": "Solo los dos exteriores"
+     "es": "Solo los dos exteriores",
+     "uk": "Лише обидва зовнішні"
     }
    ],
    "why": {
     "en": "The right one if the interior mirror can’t see behind.",
-    "es": "El derecho, si el interior no permite ver."
+    "es": "El derecho, si el interior no permite ver.",
+    "uk": "Праве — якщо через салонне не видно, що позаду."
    }
   },
   {
@@ -900,25 +1072,30 @@ window.DGT_DATA = {
    "tag": "mirrors",
    "q": {
     "en": "When does the outside right mirror become compulsory in a car?",
-    "es": "¿Cuándo es obligatorio el espejo exterior derecho en un turismo?"
+    "es": "¿Cuándo es obligatorio el espejo exterior derecho en un turismo?",
+    "uk": "Коли праве зовнішнє дзеркало стає обов’язковим у легковику?"
    },
    "o": [
     {
      "en": "When the interior mirror can’t give the view behind (trailer, luggage…)",
-     "es": "Cuando el interior no permite la visión trasera (remolque, equipaje…)"
+     "es": "Cuando el interior no permite la visión trasera (remolque, equipaje…)",
+     "uk": "Коли через салонне дзеркало не видно, що позаду (причіп, багаж…)"
     },
     {
      "en": "Always",
-     "es": "Siempre"
+     "es": "Siempre",
+     "uk": "Завжди"
     },
     {
      "en": "Never",
-     "es": "Nunca"
+     "es": "Nunca",
+     "uk": "Ніколи"
     }
    ],
    "why": {
     "en": "Otherwise it is optional.",
-    "es": "En el resto de casos es opcional."
+    "es": "En el resto de casos es opcional.",
+    "uk": "Інакше воно необов’язкове."
    }
   },
   {
@@ -926,25 +1103,30 @@ window.DGT_DATA = {
    "tag": "mirrors",
    "q": {
     "en": "A motorcycle with a top speed over 100 km/h must have…",
-    "es": "Una motocicleta de más de 100 km/h debe llevar…"
+    "es": "Una motocicleta de más de 100 km/h debe llevar…",
+    "uk": "Мотоцикл із максимальною швидкістю понад 100 км/год мусить мати…"
    },
    "o": [
     {
      "en": "mirrors on the left and right",
-     "es": "espejo izquierdo y derecho"
+     "es": "espejo izquierdo y derecho",
+     "uk": "дзеркала ліворуч і праворуч"
     },
     {
      "en": "only a left mirror",
-     "es": "solo el izquierdo"
+     "es": "solo el izquierdo",
+     "uk": "лише ліве дзеркало"
     },
     {
      "en": "no mirrors",
-     "es": "ningún espejo"
+     "es": "ningún espejo",
+     "uk": "жодних дзеркал"
     }
    ],
    "why": {
     "en": "Up to 100 km/h: at least the left one.",
-    "es": "Hasta 100 km/h: al menos el izquierdo."
+    "es": "Hasta 100 km/h: al menos el izquierdo.",
+    "uk": "До 100 км/год: щонайменше ліве."
    }
   },
   {
@@ -952,25 +1134,30 @@ window.DGT_DATA = {
    "tag": "mirrors",
    "q": {
     "en": "A two-wheeled moped must have at least…",
-    "es": "Un ciclomotor de dos ruedas debe llevar al menos…"
+    "es": "Un ciclomotor de dos ruedas debe llevar al menos…",
+    "uk": "Двоколісний мопед мусить мати щонайменше…"
    },
    "o": [
     {
      "en": "a left mirror",
-     "es": "un espejo en la izquierda"
+     "es": "un espejo en la izquierda",
+     "uk": "ліве дзеркало"
     },
     {
      "en": "two mirrors",
-     "es": "dos espejos"
+     "es": "dos espejos",
+     "uk": "два дзеркала"
     },
     {
      "en": "an interior mirror",
-     "es": "un espejo interior"
+     "es": "un espejo interior",
+     "uk": "салонне дзеркало"
     }
    ],
    "why": {
     "en": "Other mopeds depend on their body.",
-    "es": "Los demás, según su carrocería."
+    "es": "Los demás, según su carrocería.",
+    "uk": "Інші мопеди — залежно від кузова."
    }
   },
   {
@@ -978,25 +1165,30 @@ window.DGT_DATA = {
    "tag": "mirrors",
    "q": {
     "en": "When should the mirrors be adjusted?",
-    "es": "¿Cuándo se deben regular los espejos?"
+    "es": "¿Cuándo se deben regular los espejos?",
+    "uk": "Коли слід регулювати дзеркала?"
    },
    "o": [
     {
      "en": "Before setting off, with the vehicle still",
-     "es": "Antes de iniciar la marcha, con el vehículo parado"
+     "es": "Antes de iniciar la marcha, con el vehículo parado",
+     "uk": "Перед виїздом, коли ТЗ стоїть"
     },
     {
      "en": "While driving on the motorway",
-     "es": "Circulando por la autopista"
+     "es": "Circulando por la autopista",
+     "uk": "Під час руху автомагістраллю"
     },
     {
      "en": "Only at the ITV",
-     "es": "Solo en la ITV"
+     "es": "Solo en la ITV",
+     "uk": "Лише на техогляді"
     }
    ],
    "why": {
     "en": "Preferably on flat, level ground.",
-    "es": "Preferiblemente en terreno recto y llano."
+    "es": "Preferiblemente en terreno recto y llano.",
+    "uk": "Бажано на рівній горизонтальній поверхні."
    }
   },
   {
@@ -1004,25 +1196,30 @@ window.DGT_DATA = {
    "tag": "mirrors",
    "q": {
     "en": "A well-adjusted interior mirror shows…",
-    "es": "Un retrovisor interior bien reglado muestra…"
+    "es": "Un retrovisor interior bien reglado muestra…",
+    "uk": "Добре відрегульоване салонне дзеркало показує…"
    },
    "o": [
     {
      "en": "at least three of the four sides of the rear window",
-     "es": "al menos tres de los cuatro lados de la luneta trasera"
+     "es": "al menos tres de los cuatro lados de la luneta trasera",
+     "uk": "щонайменше три з чотирьох сторін заднього скла"
     },
     {
      "en": "only the rear seats",
-     "es": "solo los asientos traseros"
+     "es": "solo los asientos traseros",
+     "uk": "лише задні сидіння"
     },
     {
      "en": "the driver’s face",
-     "es": "la cara del conductor"
+     "es": "la cara del conductor",
+     "uk": "обличчя водія"
     }
    ],
    "why": {
     "en": "With a slight movement of the eyes.",
-    "es": "Con un leve movimiento de ojos."
+    "es": "Con un leve movimiento de ojos.",
+    "uk": "Невеликим рухом очей."
    }
   },
   {
@@ -1030,25 +1227,30 @@ window.DGT_DATA = {
    "tag": "mirrors",
    "q": {
     "en": "A well-adjusted door mirror shows…",
-    "es": "Un retrovisor exterior bien reglado muestra…"
+    "es": "Un retrovisor exterior bien reglado muestra…",
+    "uk": "Добре відрегульоване бічне дзеркало показує…"
    },
    "o": [
     {
      "en": "as little of your car and as much road as possible, about 50 % road and 50 % sky",
-     "es": "lo mínimo del vehículo y lo máximo de la calzada, 50 % asfalto y 50 % cielo"
+     "es": "lo mínimo del vehículo y lo máximo de la calzada, 50 % asfalto y 50 % cielo",
+     "uk": "якомога менше вашого автомобіля й якомога більше дороги, приблизно 50 % дороги й 50 % неба"
     },
     {
      "en": "mostly your own car",
-     "es": "sobre todo tu coche"
+     "es": "sobre todo tu coche",
+     "uk": "переважно ваш автомобіль"
     },
     {
      "en": "only the sky",
-     "es": "solo el cielo"
+     "es": "solo el cielo",
+     "uk": "лише небо"
     }
    ],
    "why": {
     "en": "Horizon in the middle.",
-    "es": "Horizonte en medio."
+    "es": "Horizonte en medio.",
+    "uk": "Горизонт посередині."
    }
   },
   {
@@ -1056,25 +1258,30 @@ window.DGT_DATA = {
    "tag": "mirrors",
    "q": {
     "en": "Convex mirrors…",
-    "es": "Los espejos convexos…"
+    "es": "Los espejos convexos…",
+    "uk": "Опуклі дзеркала…"
    },
    "o": [
     {
      "en": "give a wider view but make things look smaller and further away",
-     "es": "dan más ángulo pero empequeñecen y alejan la imagen"
+     "es": "dan más ángulo pero empequeñecen y alejan la imagen",
+     "uk": "дають ширший огляд, але предмети здаються меншими й далі"
     },
     {
      "en": "give a true-size image",
-     "es": "dan una imagen real"
+     "es": "dan una imagen real",
+     "uk": "дають зображення в натуральну величину"
     },
     {
      "en": "make things look closer",
-     "es": "acercan los objetos"
+     "es": "acercan los objetos",
+     "uk": "наближають предмети"
     }
    ],
    "why": {
     "en": "Door mirrors are convex.",
-    "es": "Los exteriores son convexos."
+    "es": "Los exteriores son convexos.",
+    "uk": "Бічні дзеркала — опуклі."
    }
   },
   {
@@ -1082,25 +1289,30 @@ window.DGT_DATA = {
    "tag": "mirrors",
    "q": {
     "en": "The panoramic interior mirror…",
-    "es": "El espejo interior panorámico…"
+    "es": "El espejo interior panorámico…",
+    "uk": "Панорамне салонне дзеркало…"
    },
    "o": [
     {
      "en": "gives a wider view but doesn’t replace the door mirrors",
-     "es": "da más ángulo pero no sustituye a los exteriores"
+     "es": "da más ángulo pero no sustituye a los exteriores",
+     "uk": "дає ширший огляд, але не замінює бічних дзеркал"
     },
     {
      "en": "replaces the door mirrors",
-     "es": "sustituye a los exteriores"
+     "es": "sustituye a los exteriores",
+     "uk": "замінює бічні дзеркала"
     },
     {
      "en": "is prohibited",
-     "es": "está prohibido"
+     "es": "está prohibido",
+     "uk": "заборонене"
     }
    ],
    "why": {
     "en": "Flat mirrors give a true image.",
-    "es": "El plano da imagen real."
+    "es": "El plano da imagen real.",
+    "uk": "Пласкі дзеркала дають точне зображення."
    }
   },
   {
@@ -1108,25 +1320,30 @@ window.DGT_DATA = {
    "tag": "mirrors",
    "q": {
     "en": "The interior mirror must let you see behind the car up to…",
-    "es": "El espejo interior debe permitir ver por detrás del vehículo hasta…"
+    "es": "El espejo interior debe permitir ver por detrás del vehículo hasta…",
+    "uk": "Салонне дзеркало має давати огляд позаду автомобіля до…"
    },
    "o": [
     {
      "en": "60 m, 20 m wide",
-     "es": "60 m, en 20 m de anchura"
+     "es": "60 m, en 20 m de anchura",
+     "uk": "60 м, шириною 20 м"
     },
     {
      "en": "10 m",
-     "es": "10 m"
+     "es": "10 m",
+     "uk": "10 м"
     },
     {
      "en": "200 m",
-     "es": "200 m"
+     "es": "200 m",
+     "uk": "200 м"
     }
    ],
    "why": {
     "en": "From the horizon on a flat road.",
-    "es": "Desde el horizonte, en carretera plana."
+    "es": "Desde el horizonte, en carretera plana.",
+    "uk": "Від горизонту на рівній дорозі."
    }
   },
   {
@@ -1134,25 +1351,30 @@ window.DGT_DATA = {
    "tag": "ecostart",
    "q": {
     "en": "According to your course, efficient driving reduces fuel use by…",
-    "es": "Según tu curso, la conducción eficiente reduce el consumo entre…"
+    "es": "Según tu curso, la conducción eficiente reduce el consumo entre…",
+    "uk": "За вашим курсом, економне керування зменшує витрату пального на…"
    },
    "o": [
     {
      "en": "10 % and 25 %",
-     "es": "el 10 % y el 25 %"
+     "es": "el 10 % y el 25 %",
+     "uk": "10 % і 25 %"
     },
     {
      "en": "1 % and 2 %",
-     "es": "el 1 % y el 2 %"
+     "es": "el 1 % y el 2 %",
+     "uk": "1 % і 2 %"
     },
     {
      "en": "50 % and 80 %",
-     "es": "el 50 % y el 80 %"
+     "es": "el 50 % y el 80 %",
+     "uk": "50 % і 80 %"
     }
    ],
    "why": {
     "en": "The course gives 50–80 % for CO₂.",
-    "es": "El curso da 50–80 % para el CO₂."
+    "es": "El curso da 50–80 % para el CO₂.",
+    "uk": "Для CO₂ курс дає 50–80 %."
    }
   },
   {
@@ -1160,25 +1382,30 @@ window.DGT_DATA = {
    "tag": "ecostart",
    "q": {
     "en": "According to your course, efficient driving reduces CO₂ emissions by…",
-    "es": "Según tu curso, la conducción eficiente reduce las emisiones de CO₂ entre…"
+    "es": "Según tu curso, la conducción eficiente reduce las emisiones de CO₂ entre…",
+    "uk": "За вашим курсом, економне керування зменшує викиди CO₂ на…"
    },
    "o": [
     {
      "en": "50 % and 80 %",
-     "es": "el 50 % y el 80 %"
+     "es": "el 50 % y el 80 %",
+     "uk": "50 % і 80 %"
     },
     {
      "en": "1 % and 5 %",
-     "es": "el 1 % y el 5 %"
+     "es": "el 1 % y el 5 %",
+     "uk": "1 % і 5 %"
     },
     {
      "en": "nothing",
-     "es": "nada"
+     "es": "nada",
+     "uk": "нічого"
     }
    ],
    "why": {
     "en": "In reality CO₂ falls with the fuel saved (about 15 %, IDAE).",
-    "es": "En realidad, el CO₂ baja con el combustible ahorrado (en torno al 15 %, IDAE)."
+    "es": "En realidad, el CO₂ baja con el combustible ahorrado (en torno al 15 %, IDAE).",
+    "uk": "Насправді CO₂ зменшується пропорційно заощадженому пальному (близько 15 %, IDAE)."
    }
   },
   {
@@ -1186,25 +1413,30 @@ window.DGT_DATA = {
    "tag": "ecostart",
    "q": {
     "en": "To start a modern car’s engine you should…",
-    "es": "Para arrancar el motor de un coche actual hay que…"
+    "es": "Para arrancar el motor de un coche actual hay que…",
+    "uk": "Щоб запустити двигун сучасного автомобіля, слід…"
    },
    "o": [
     {
      "en": "not press the accelerator",
-     "es": "no pisar el acelerador"
+     "es": "no pisar el acelerador",
+     "uk": "не натискати акселератор"
     },
     {
      "en": "press the accelerator fully",
-     "es": "pisar a fondo el acelerador"
+     "es": "pisar a fondo el acelerador",
+     "uk": "повністю натиснути акселератор"
     },
     {
      "en": "rev it several times",
-     "es": "acelerar varias veces"
+     "es": "acelerar varias veces",
+     "uk": "кілька разів газанути"
     }
    ],
    "why": {
     "en": "It isn’t needed.",
-    "es": "No es necesario."
+    "es": "No es necesario.",
+    "uk": "Це не потрібно."
    }
   },
   {
@@ -1212,25 +1444,30 @@ window.DGT_DATA = {
    "tag": "ecostart",
    "q": {
     "en": "With a petrol engine, after starting you should…",
-    "es": "Con un motor de gasolina, tras arrancar hay que…"
+    "es": "Con un motor de gasolina, tras arrancar hay que…",
+    "uk": "З бензиновим двигуном після запуску слід…"
    },
    "o": [
     {
      "en": "move off straight away",
-     "es": "iniciar la marcha inmediatamente"
+     "es": "iniciar la marcha inmediatamente",
+     "uk": "одразу рушати"
     },
     {
      "en": "wait 5 minutes",
-     "es": "esperar 5 minutos"
+     "es": "esperar 5 minutos",
+     "uk": "чекати 5 хвилин"
     },
     {
      "en": "rev it to warm it up",
-     "es": "acelerar para calentarlo"
+     "es": "acelerar para calentarlo",
+     "uk": "газувати, щоб прогріти"
     }
    ],
    "why": {
     "en": "Diesel: wait a few seconds.",
-    "es": "Diésel: esperar unos segundos."
+    "es": "Diésel: esperar unos segundos.",
+    "uk": "Дизель: зачекати кілька секунд."
    }
   },
   {
@@ -1238,25 +1475,30 @@ window.DGT_DATA = {
    "tag": "ecostart",
    "q": {
     "en": "With a diesel engine, after starting…",
-    "es": "Con un motor diésel, tras arrancar…"
+    "es": "Con un motor diésel, tras arrancar…",
+    "uk": "З дизельним двигуном після запуску…"
    },
    "o": [
     {
      "en": "wait a few seconds so it is lubricated",
-     "es": "esperar unos segundos para que se lubrique"
+     "es": "esperar unos segundos para que se lubrique",
+     "uk": "зачекайте кілька секунд, щоб він змастився"
     },
     {
      "en": "move off at once",
-     "es": "salir inmediatamente"
+     "es": "salir inmediatamente",
+     "uk": "одразу рушайте"
     },
     {
      "en": "wait 10 minutes",
-     "es": "esperar 10 minutos"
+     "es": "esperar 10 minutos",
+     "uk": "зачекайте 10 хвилин"
     }
    ],
    "why": {
     "en": "Petrol: move off at once.",
-    "es": "Gasolina: salir enseguida."
+    "es": "Gasolina: salir enseguida.",
+    "uk": "Бензин: рушайте одразу."
    }
   },
   {
@@ -1264,25 +1506,30 @@ window.DGT_DATA = {
    "tag": "ecostart",
    "q": {
     "en": "When should you change from first to second gear?",
-    "es": "¿Cuándo hay que pasar de 1.ª a 2.ª?"
+    "es": "¿Cuándo hay que pasar de 1.ª a 2.ª?",
+    "uk": "Коли перемикати з першої на другу передачу?"
    },
    "o": [
     {
      "en": "After about 2 seconds or 6 metres",
-     "es": "A los 2 segundos o 6 metros"
+     "es": "A los 2 segundos o 6 metros",
+     "uk": "Приблизно через 2 секунди чи 6 метрів"
     },
     {
      "en": "At 40 km/h",
-     "es": "A 40 km/h"
+     "es": "A 40 km/h",
+     "uk": "На 40 км/год"
     },
     {
      "en": "After 100 metres",
-     "es": "A los 100 metros"
+     "es": "A los 100 metros",
+     "uk": "Через 100 метрів"
     }
    ],
    "why": {
     "en": "First gear is only for moving off.",
-    "es": "La 1.ª solo para iniciar la marcha."
+    "es": "La 1.ª solo para iniciar la marcha.",
+    "uk": "Перша передача — лише для рушання."
    }
   },
   {
@@ -1290,25 +1537,30 @@ window.DGT_DATA = {
    "tag": "ecostart",
    "q": {
     "en": "Revving hard with a cold engine…",
-    "es": "Acelerar fuerte con el motor en frío…"
+    "es": "Acelerar fuerte con el motor en frío…",
+    "uk": "Сильно газувати з холодним двигуном…"
    },
    "o": [
     {
      "en": "harms it: it isn’t well lubricated yet",
-     "es": "lo perjudica: aún no está bien lubricado"
+     "es": "lo perjudica: aún no está bien lubricado",
+     "uk": "шкідливо: він ще погано змащений"
     },
     {
      "en": "warms it up faster and is good",
-     "es": "lo calienta antes y es bueno"
+     "es": "lo calienta antes y es bueno",
+     "uk": "швидше його прогріває й корисно"
     },
     {
      "en": "has no effect",
-     "es": "no tiene efecto"
+     "es": "no tiene efecto",
+     "uk": "не має ефекту"
     }
    ],
    "why": {
     "en": "Drive gently at first.",
-    "es": "Conducir con suavidad al principio."
+    "es": "Conducir con suavidad al principio.",
+    "uk": "Спершу їдьте м’яко."
    }
   },
   {
@@ -1316,25 +1568,30 @@ window.DGT_DATA = {
    "tag": "ecostart",
    "q": {
     "en": "Which is an advantage of efficient driving?",
-    "es": "¿Cuál es una ventaja de la conducción eficiente?"
+    "es": "¿Cuál es una ventaja de la conducción eficiente?",
+    "uk": "Яка перевага економного керування?"
    },
    "o": [
     {
      "en": "More comfort and less stress",
-     "es": "Más confort y menos estrés"
+     "es": "Más confort y menos estrés",
+     "uk": "Більше комфорту й менше стресу"
     },
     {
      "en": "Shorter journey times always",
-     "es": "Siempre trayectos más cortos"
+     "es": "Siempre trayectos más cortos",
+     "uk": "Завжди коротша поїздка"
     },
     {
      "en": "More engine wear",
-     "es": "Más desgaste del motor"
+     "es": "Más desgaste del motor",
+     "uk": "Більший знос двигуна"
     }
    ],
    "why": {
     "en": "Also longer life for brakes and gearbox, and less noise.",
-    "es": "También más vida útil de frenos y caja de cambios, y menos ruido."
+    "es": "También más vida útil de frenos y caja de cambios, y menos ruido.",
+    "uk": "А також довша служба гальм і коробки, менше шуму."
    }
   },
   {
@@ -1342,25 +1599,30 @@ window.DGT_DATA = {
    "tag": "gears",
    "q": {
     "en": "Fewer engine revs mean…",
-    "es": "Menos revoluciones del motor suponen…"
+    "es": "Menos revoluciones del motor suponen…",
+    "uk": "Менші оберти двигуна означають…"
    },
    "o": [
     {
      "en": "less fuel and less pollution",
-     "es": "menos consumo y menos contaminación"
+     "es": "menos consumo y menos contaminación",
+     "uk": "менше пального й менше забруднення"
     },
     {
      "en": "more fuel",
-     "es": "más consumo"
+     "es": "más consumo",
+     "uk": "більше пального"
     },
     {
      "en": "less safety",
-     "es": "menos seguridad"
+     "es": "menos seguridad",
+     "uk": "менше безпеки"
     }
    ],
    "why": {
     "en": "Use the highest gear possible.",
-    "es": "Usar la marcha más alta posible."
+    "es": "Usar la marcha más alta posible.",
+    "uk": "Їдьте на найвищій можливій передачі."
    }
   },
   {
@@ -1368,25 +1630,30 @@ window.DGT_DATA = {
    "tag": "gears",
    "q": {
     "en": "With a diesel engine, change up between…",
-    "es": "Con un motor diésel, hay que cambiar de marcha entre…"
+    "es": "Con un motor diésel, hay que cambiar de marcha entre…",
+    "uk": "З дизельним двигуном перемикайте вгору між…"
    },
    "o": [
     {
      "en": "1,500 and 2,000 rpm",
-     "es": "1.500 y 2.000 rpm"
+     "es": "1.500 y 2.000 rpm",
+     "uk": "1 500 і 2 000 об/хв"
     },
     {
      "en": "3,000 and 4,000 rpm",
-     "es": "3.000 y 4.000 rpm"
+     "es": "3.000 y 4.000 rpm",
+     "uk": "3 000 і 4 000 об/хв"
     },
     {
      "en": "500 and 1,000 rpm",
-     "es": "500 y 1.000 rpm"
+     "es": "500 y 1.000 rpm",
+     "uk": "500 і 1 000 об/хв"
     }
    ],
    "why": {
     "en": "Petrol: 2,000–2,500 rpm.",
-    "es": "Gasolina: 2.000–2.500 rpm."
+    "es": "Gasolina: 2.000–2.500 rpm.",
+    "uk": "Бензин: 2 000–2 500 об/хв."
    }
   },
   {
@@ -1394,25 +1661,30 @@ window.DGT_DATA = {
    "tag": "gears",
    "q": {
     "en": "With a petrol engine, change up between…",
-    "es": "Con un motor de gasolina, hay que cambiar de marcha entre…"
+    "es": "Con un motor de gasolina, hay que cambiar de marcha entre…",
+    "uk": "З бензиновим двигуном перемикайте вгору між…"
    },
    "o": [
     {
      "en": "2,000 and 2,500 rpm",
-     "es": "2.000 y 2.500 rpm"
+     "es": "2.000 y 2.500 rpm",
+     "uk": "2 000 і 2 500 об/хв"
     },
     {
      "en": "1,000 and 1,500 rpm",
-     "es": "1.000 y 1.500 rpm"
+     "es": "1.000 y 1.500 rpm",
+     "uk": "1 000 і 1 500 об/хв"
     },
     {
      "en": "4,000 and 5,000 rpm",
-     "es": "4.000 y 5.000 rpm"
+     "es": "4.000 y 5.000 rpm",
+     "uk": "4 000 і 5 000 об/хв"
     }
    ],
    "why": {
     "en": "Diesel: 1,500–2,000 rpm.",
-    "es": "Diésel: 1.500–2.000 rpm."
+    "es": "Diésel: 1.500–2.000 rpm.",
+    "uk": "Дизель: 1 500–2 000 об/хв."
    }
   },
   {
@@ -1420,25 +1692,30 @@ window.DGT_DATA = {
    "tag": "gears",
    "q": {
     "en": "Is it possible to skip gears when accelerating?",
-    "es": "¿Se pueden saltar marchas al acelerar?"
+    "es": "¿Se pueden saltar marchas al acelerar?",
+    "uk": "Чи можна пропускати передачі під час розгону?"
    },
    "o": [
     {
      "en": "Yes, for example third at 30, fourth at 40, fifth at 50 km/h",
-     "es": "Sí, por ejemplo 3.ª a 30, 4.ª a 40, 5.ª a 50 km/h"
+     "es": "Sí, por ejemplo 3.ª a 30, 4.ª a 40, 5.ª a 50 km/h",
+     "uk": "Так, наприклад, третя на 30, четверта на 40, п’ята на 50 км/год"
     },
     {
      "en": "No, never",
-     "es": "No, nunca"
+     "es": "No, nunca",
+     "uk": "Ні, ніколи"
     },
     {
      "en": "Only in automatic cars",
-     "es": "Solo en los automáticos"
+     "es": "Solo en los automáticos",
+     "uk": "Лише з автоматом"
     }
    ],
    "why": {
     "en": "It saves fuel.",
-    "es": "Ahorra combustible."
+    "es": "Ahorra combustible.",
+    "uk": "Це заощаджує пальне."
    }
   },
   {
@@ -1446,25 +1723,30 @@ window.DGT_DATA = {
    "tag": "gears",
    "q": {
     "en": "In gear, with your foot off the accelerator, fuel use is…",
-    "es": "Con una marcha engranada y sin acelerar, el consumo es…"
+    "es": "Con una marcha engranada y sin acelerar, el consumo es…",
+    "uk": "З увімкненою передачею й ногою не на акселераторі витрата пального…"
    },
    "o": [
     {
      "en": "zero",
-     "es": "nulo"
+     "es": "nulo",
+     "uk": "нульова"
     },
     {
      "en": "the same as idling",
-     "es": "el mismo que al ralentí"
+     "es": "el mismo que al ralentí",
+     "uk": "така сама, як на холостому ходу"
     },
     {
      "en": "higher",
-     "es": "mayor"
+     "es": "mayor",
+     "uk": "вища"
     }
    ],
    "why": {
     "en": "That is the engine brake.",
-    "es": "Es el freno motor."
+    "es": "Es el freno motor.",
+    "uk": "Це гальмування двигуном."
    }
   },
   {
@@ -1472,25 +1754,30 @@ window.DGT_DATA = {
    "tag": "gears",
    "q": {
     "en": "To slow down efficiently you should…",
-    "es": "Para reducir la velocidad de forma eficiente hay que…"
+    "es": "Para reducir la velocidad de forma eficiente hay que…",
+    "uk": "Щоб ефективно сповільнитися, слід…"
    },
    "o": [
     {
      "en": "use the engine brake and change down as late as possible",
-     "es": "usar el freno motor y reducir de marcha lo más tarde posible"
+     "es": "usar el freno motor y reducir de marcha lo más tarde posible",
+     "uk": "гальмувати двигуном і знижувати передачу якомога пізніше"
     },
     {
      "en": "change down through every gear at once",
-     "es": "reducir todas las marchas enseguida"
+     "es": "reducir todas las marchas enseguida",
+     "uk": "одразу перебрати всі передачі вниз"
     },
     {
      "en": "put it in neutral",
-     "es": "ponerlo en punto muerto"
+     "es": "ponerlo en punto muerto",
+     "uk": "увімкнути нейтраль"
     }
    ],
    "why": {
     "en": "You can skip gears when changing down too.",
-    "es": "También se pueden saltar marchas al reducir."
+    "es": "También se pueden saltar marchas al reducir.",
+    "uk": "Знижуючи, теж можна пропускати передачі."
    }
   },
   {
@@ -1498,25 +1785,30 @@ window.DGT_DATA = {
    "tag": "gears",
    "q": {
     "en": "Efficient acceleration should be…",
-    "es": "La aceleración eficiente debe ser…"
+    "es": "La aceleración eficiente debe ser…",
+    "uk": "Ефективний розгін має бути…"
    },
    "o": [
     {
      "en": "smooth and progressive",
-     "es": "suave y progresiva"
+     "es": "suave y progresiva",
+     "uk": "плавним і поступовим"
     },
     {
      "en": "hard and short",
-     "es": "fuerte y corta"
+     "es": "fuerte y corta",
+     "uk": "різким і коротким"
     },
     {
      "en": "always with the pedal fully down",
-     "es": "siempre a fondo"
+     "es": "siempre a fondo",
+     "uk": "завжди з педаллю в підлогу"
     }
    ],
    "why": {
     "en": "Don’t over-rev the engine.",
-    "es": "No forzar el motor."
+    "es": "No forzar el motor.",
+    "uk": "Не перекручуйте двигун."
    }
   },
   {
@@ -1524,25 +1816,30 @@ window.DGT_DATA = {
    "tag": "gears",
    "q": {
     "en": "You are at 50 km/h in a car. The efficient gear is usually…",
-    "es": "Circulas a 50 km/h en un turismo. La marcha eficiente suele ser…"
+    "es": "Circulas a 50 km/h en un turismo. La marcha eficiente suele ser…",
+    "uk": "Ви їдете легковиком 50 км/год. Ефективна передача зазвичай —"
    },
    "o": [
     {
      "en": "fifth",
-     "es": "la 5.ª"
+     "es": "la 5.ª",
+     "uk": "п’ята"
     },
     {
      "en": "second",
-     "es": "la 2.ª"
+     "es": "la 2.ª",
+     "uk": "друга"
     },
     {
      "en": "first",
-     "es": "la 1.ª"
+     "es": "la 1.ª",
+     "uk": "перша"
     }
    ],
    "why": {
     "en": "Fifth from 50 km/h, according to your course.",
-    "es": "5.ª desde 50 km/h, según tu curso."
+    "es": "5.ª desde 50 km/h, según tu curso.",
+    "uk": "П’ята з 50 км/год, за вашим курсом."
    }
   },
   {
@@ -1550,25 +1847,30 @@ window.DGT_DATA = {
    "tag": "savings",
    "q": {
     "en": "Higher speed means…",
-    "es": "A mayor velocidad…"
+    "es": "A mayor velocidad…",
+    "uk": "Вища швидкість означає…"
    },
    "o": [
     {
      "en": "more fuel use",
-     "es": "mayor consumo"
+     "es": "mayor consumo",
+     "uk": "більшу витрату пального"
     },
     {
      "en": "less fuel use",
-     "es": "menor consumo"
+     "es": "menor consumo",
+     "uk": "меншу витрату пального"
     },
     {
      "en": "no change",
-     "es": "ningún cambio"
+     "es": "ningún cambio",
+     "uk": "жодних змін"
     }
    ],
    "why": {
     "en": "Moderate, steady speed.",
-    "es": "Velocidad moderada y uniforme."
+    "es": "Velocidad moderada y uniforme.",
+    "uk": "Помірна, рівна швидкість."
    }
   },
   {
@@ -1576,25 +1878,30 @@ window.DGT_DATA = {
    "tag": "savings",
    "q": {
     "en": "It is advisable to switch the engine off for stops longer than…",
-    "es": "Es recomendable apagar el motor en detenciones de más de…"
+    "es": "Es recomendable apagar el motor en detenciones de más de…",
+    "uk": "Двигун варто глушити під час зупинок, довших за…"
    },
    "o": [
     {
      "en": "60 seconds",
-     "es": "60 segundos"
+     "es": "60 segundos",
+     "uk": "60 секунд"
     },
     {
      "en": "5 seconds",
-     "es": "5 segundos"
+     "es": "5 segundos",
+     "uk": "5 секунд"
     },
     {
      "en": "10 minutes",
-     "es": "10 minutos"
+     "es": "10 minutos",
+     "uk": "10 хвилин"
     }
    ],
    "why": {
     "en": "Not for stops of a few seconds.",
-    "es": "No en detenciones momentáneas."
+    "es": "No en detenciones momentáneas.",
+    "uk": "Не на зупинках у кілька секунд."
    }
   },
   {
@@ -1602,25 +1909,30 @@ window.DGT_DATA = {
    "tag": "savings",
    "q": {
     "en": "A roof rack…",
-    "es": "La baca…"
+    "es": "La baca…",
+    "uk": "Багажник на даху…"
    },
    "o": [
     {
      "en": "increases fuel use even when empty",
-     "es": "aumenta el consumo incluso sin carga"
+     "es": "aumenta el consumo incluso sin carga",
+     "uk": "збільшує витрату пального навіть порожній"
     },
     {
      "en": "only increases it when loaded",
-     "es": "solo aumenta el consumo cargada"
+     "es": "solo aumenta el consumo cargada",
+     "uk": "збільшує її лише з вантажем"
     },
     {
      "en": "saves fuel",
-     "es": "ahorra combustible"
+     "es": "ahorra combustible",
+     "uk": "заощаджує пальне"
     }
    ],
    "why": {
     "en": "Use it only when there is no other option.",
-    "es": "Solo si no hay otra opción."
+    "es": "Solo si no hay otra opción.",
+    "uk": "Користуйтеся ним, лише коли немає іншого вибору."
    }
   },
   {
@@ -1628,25 +1940,30 @@ window.DGT_DATA = {
    "tag": "savings",
    "q": {
     "en": "The recommended air-conditioning temperature is about…",
-    "es": "La temperatura recomendada del climatizador es de unos…"
+    "es": "La temperatura recomendada del climatizador es de unos…",
+    "uk": "Рекомендована температура кондиціонера — приблизно…"
    },
    "o": [
     {
      "en": "23 °C",
-     "es": "23 °C"
+     "es": "23 °C",
+     "uk": "23 °C"
     },
     {
      "en": "16 °C",
-     "es": "16 °C"
+     "es": "16 °C",
+     "uk": "16 °C"
     },
     {
      "en": "30 °C",
-     "es": "30 °C"
+     "es": "30 °C",
+     "uk": "30 °C"
     }
    ],
    "why": {
     "en": "It has a big effect on fuel use.",
-    "es": "Tiene gran incidencia en el consumo."
+    "es": "Tiene gran incidencia en el consumo.",
+    "uk": "Вона сильно впливає на витрату пального."
    }
   },
   {
@@ -1654,25 +1971,30 @@ window.DGT_DATA = {
    "tag": "savings",
    "q": {
     "en": "At high speed on the road, it is better to…",
-    "es": "A velocidad alta en carretera es mejor…"
+    "es": "A velocidad alta en carretera es mejor…",
+    "uk": "На великій швидкості за містом краще…"
    },
    "o": [
     {
      "en": "use the vents or moderate air conditioning than open the windows",
-     "es": "usar las rejillas o el aire moderado que bajar las ventanillas"
+     "es": "usar las rejillas o el aire moderado que bajar las ventanillas",
+     "uk": "користуватися вентиляцією чи помірним кондиціонером, ніж відчиняти вікна"
     },
     {
      "en": "drive with the windows down",
-     "es": "circular con las ventanillas bajadas"
+     "es": "circular con las ventanillas bajadas",
+     "uk": "їхати з опущеними вікнами"
     },
     {
      "en": "open the sunroof",
-     "es": "abrir el techo"
+     "es": "abrir el techo",
+     "uk": "відчинити люк"
     }
    ],
    "why": {
     "en": "Open windows spoil the aerodynamics.",
-    "es": "Las ventanillas abiertas empeoran la aerodinámica."
+    "es": "Las ventanillas abiertas empeoran la aerodinámica.",
+    "uk": "Відчинені вікна псують аеродинаміку."
    }
   },
   {
@@ -1680,25 +2002,30 @@ window.DGT_DATA = {
    "tag": "savings",
    "q": {
     "en": "Coasting downhill in neutral…",
-    "es": "Bajar una pendiente en punto muerto…"
+    "es": "Bajar una pendiente en punto muerto…",
+    "uk": "Котитися з гори на нейтралі…"
    },
    "o": [
     {
      "en": "should not be done",
-     "es": "no se debe hacer"
+     "es": "no se debe hacer",
+     "uk": "не слід"
     },
     {
      "en": "saves fuel and is recommended",
-     "es": "ahorra combustible y se recomienda"
+     "es": "ahorra combustible y se recomienda",
+     "uk": "заощаджує пальне й рекомендовано"
     },
     {
      "en": "is only allowed on motorways",
-     "es": "solo se permite en autopistas"
+     "es": "solo se permite en autopistas",
+     "uk": "дозволено лише на автомагістралях"
     }
    ],
    "why": {
     "en": "In gear and off the throttle, fuel use is zero — and you keep control.",
-    "es": "Con marcha y sin acelerar el consumo es nulo, y se mantiene el control."
+    "es": "Con marcha y sin acelerar el consumo es nulo, y se mantiene el control.",
+    "uk": "З увімкненою передачею без газу витрата нульова — і ви зберігаєте контроль."
    }
   },
   {
@@ -1706,25 +2033,30 @@ window.DGT_DATA = {
    "tag": "savings",
    "q": {
     "en": "Under-inflated tyres…",
-    "es": "Los neumáticos con menos presión de la recomendada…"
+    "es": "Los neumáticos con menos presión de la recomendada…",
+    "uk": "Недокачані шини…"
    },
    "o": [
     {
      "en": "increase fuel use and wear out sooner",
-     "es": "aumentan el consumo y duran menos"
+     "es": "aumentan el consumo y duran menos",
+     "uk": "збільшують витрату пального й швидше зношуються"
     },
     {
      "en": "save fuel",
-     "es": "ahorran combustible"
+     "es": "ahorran combustible",
+     "uk": "заощаджують пальне"
     },
     {
      "en": "improve grip on dry roads",
-     "es": "mejoran la adherencia en seco"
+     "es": "mejoran la adherencia en seco",
+     "uk": "покращують зчеплення на сухій дорозі"
     }
    ],
    "why": {
     "en": "Use the manufacturer’s pressure.",
-    "es": "Usar la presión del fabricante."
+    "es": "Usar la presión del fabricante.",
+    "uk": "Тримайте тиск за вказівкою виробника."
    }
   },
   {
@@ -1732,25 +2064,30 @@ window.DGT_DATA = {
    "tag": "savings",
    "q": {
     "en": "Using petrol with a lower octane than recommended…",
-    "es": "Usar gasolina de menor octanaje que el recomendado…"
+    "es": "Usar gasolina de menor octanaje que el recomendado…",
+    "uk": "Заливати бензин із нижчим октановим числом, ніж рекомендовано…"
    },
    "o": [
     {
      "en": "should not be done",
-     "es": "no se debe hacer"
+     "es": "no se debe hacer",
+     "uk": "не слід"
     },
     {
      "en": "saves money and fuel",
-     "es": "ahorra dinero y combustible"
+     "es": "ahorra dinero y combustible",
+     "uk": "заощаджує гроші й пальне"
     },
     {
      "en": "is required in winter",
-     "es": "es obligatorio en invierno"
+     "es": "es obligatorio en invierno",
+     "uk": "потрібно взимку"
     }
    ],
    "why": {
     "en": "Follow the manufacturer.",
-    "es": "Seguir al fabricante."
+    "es": "Seguir al fabricante.",
+    "uk": "Дотримуйтеся вказівок виробника."
    }
   },
   {
@@ -1758,25 +2095,30 @@ window.DGT_DATA = {
    "tag": "savings",
    "q": {
     "en": "Switching the lights on later at dusk to save fuel is…",
-    "es": "Retrasar el encendido de las luces al anochecer para ahorrar…"
+    "es": "Retrasar el encendido de las luces al anochecer para ahorrar…",
+    "uk": "Пізніше вмикати світло в сутінках, щоб заощадити пальне, —"
    },
    "o": [
     {
      "en": "something you should not do",
-     "es": "es algo que no se debe hacer"
+     "es": "es algo que no se debe hacer",
+     "uk": "те, чого робити не слід"
     },
     {
      "en": "a recommended saving",
-     "es": "es un ahorro recomendado"
+     "es": "es un ahorro recomendado",
+     "uk": "рекомендована економія"
     },
     {
      "en": "only allowed in town",
-     "es": "solo se permite en ciudad"
+     "es": "solo se permite en ciudad",
+     "uk": "дозволено лише в місті"
     }
    ],
    "why": {
     "en": "Safety comes first.",
-    "es": "La seguridad es lo primero."
+    "es": "La seguridad es lo primero.",
+    "uk": "Безпека — передусім."
    }
   },
   {
@@ -1784,25 +2126,30 @@ window.DGT_DATA = {
    "tag": "savings",
    "q": {
     "en": "The ECO driving mode…",
-    "es": "El modo ECO…"
+    "es": "El modo ECO…",
+    "uk": "Режим ECO…"
    },
    "o": [
     {
      "en": "limits acceleration and climate control to save fuel",
-     "es": "limita la aceleración y la climatización para ahorrar"
+     "es": "limita la aceleración y la climatización para ahorrar",
+     "uk": "обмежує розгін і клімат-контроль, щоб заощадити пальне"
     },
     {
      "en": "disables the brakes",
-     "es": "desactiva los frenos"
+     "es": "desactiva los frenos",
+     "uk": "вимикає гальма"
     },
     {
      "en": "is always on and can’t be switched off",
-     "es": "está siempre activo y no se puede desconectar"
+     "es": "está siempre activo y no se puede desconectar",
+     "uk": "завжди ввімкнений і не вимикається"
     }
    ],
    "why": {
     "en": "The driver can switch it on and off.",
-    "es": "El conductor lo conecta y desconecta."
+    "es": "El conductor lo conecta y desconecta.",
+    "uk": "Водій може вмикати й вимикати його."
    }
   },
   {
@@ -1810,25 +2157,30 @@ window.DGT_DATA = {
    "tag": "savings",
    "q": {
     "en": "On a motorcycle, to save fuel you should not…",
-    "es": "En una moto, para ahorrar no se debe…"
+    "es": "En una moto, para ahorrar no se debe…",
+    "uk": "На мотоциклі, щоб заощадити пальне, не слід…"
    },
    "o": [
     {
      "en": "alter the fairing",
-     "es": "alterar el carenado"
+     "es": "alterar el carenado",
+     "uk": "змінювати обтічник"
     },
     {
      "en": "keep the right tyre pressure",
-     "es": "llevar la presión correcta"
+     "es": "llevar la presión correcta",
+     "uk": "тримати правильний тиск у шинах"
     },
     {
      "en": "ride smoothly",
-     "es": "conducir con suavidad"
+     "es": "conducir con suavidad",
+     "uk": "їхати плавно"
     }
    ],
    "why": {
     "en": "It changes the aerodynamics.",
-    "es": "Afecta a la aerodinámica."
+    "es": "Afecta a la aerodinámica.",
+    "uk": "Це змінює аеродинаміку."
    }
   },
   {
@@ -1836,25 +2188,30 @@ window.DGT_DATA = {
    "tag": "savings",
    "q": {
     "en": "Climbing a hill in a low gear with high revs…",
-    "es": "Subir una pendiente con marchas cortas y el motor revolucionado…"
+    "es": "Subir una pendiente con marchas cortas y el motor revolucionado…",
+    "uk": "Підйом на низькій передачі з високими обертами…"
    },
    "o": [
     {
      "en": "wastes fuel and should be avoided",
-     "es": "gasta más y se debe evitar"
+     "es": "gasta más y se debe evitar",
+     "uk": "марнує пальне, і його слід уникати"
     },
     {
      "en": "is the most efficient way",
-     "es": "es lo más eficiente"
+     "es": "es lo más eficiente",
+     "uk": "найефективніший спосіб"
     },
     {
      "en": "is compulsory",
-     "es": "es obligatorio"
+     "es": "es obligatorio",
+     "uk": "обов’язковий"
     }
    ],
    "why": {
     "en": "Use the highest gear that pulls well.",
-    "es": "Usar la marcha más alta posible."
+    "es": "Usar la marcha más alta posible.",
+    "uk": "Їдьте на найвищій передачі, що добре тягне."
    }
   },
   {
@@ -1862,25 +2219,30 @@ window.DGT_DATA = {
    "tag": "pollution",
    "q": {
     "en": "The gas mainly responsible for the greenhouse effect is…",
-    "es": "El gas mayor responsable del efecto invernadero es…"
+    "es": "El gas mayor responsable del efecto invernadero es…",
+    "uk": "Газ, що найбільше відповідає за парниковий ефект, —"
    },
    "o": [
     {
      "en": "CO₂ (carbon dioxide)",
-     "es": "el CO₂ (dióxido de carbono)"
+     "es": "el CO₂ (dióxido de carbono)",
+     "uk": "CO₂ (вуглекислий газ)"
     },
     {
      "en": "SO₂ (sulphur dioxide)",
-     "es": "el SO₂ (dióxido de azufre)"
+     "es": "el SO₂ (dióxido de azufre)",
+     "uk": "SO₂ (діоксид сірки)"
     },
     {
      "en": "NOx",
-     "es": "los NOx"
+     "es": "los NOx",
+     "uk": "NOx"
     }
    ],
    "why": {
     "en": "SO₂: acid rain.",
-    "es": "SO₂: lluvia ácida."
+    "es": "SO₂: lluvia ácida.",
+    "uk": "SO₂ — кислотні дощі."
    }
   },
   {
@@ -1888,25 +2250,30 @@ window.DGT_DATA = {
    "tag": "pollution",
    "q": {
     "en": "Acid rain is caused mainly by…",
-    "es": "La lluvia ácida se debe sobre todo al…"
+    "es": "La lluvia ácida se debe sobre todo al…",
+    "uk": "Кислотні дощі спричиняє переважно…"
    },
    "o": [
     {
      "en": "sulphur dioxide (SO₂)",
-     "es": "dióxido de azufre (SO₂)"
+     "es": "dióxido de azufre (SO₂)",
+     "uk": "діоксид сірки (SO₂)"
     },
     {
      "en": "carbon dioxide (CO₂)",
-     "es": "dióxido de carbono (CO₂)"
+     "es": "dióxido de carbono (CO₂)",
+     "uk": "вуглекислий газ (CO₂)"
     },
     {
      "en": "water vapour",
-     "es": "vapor de agua"
+     "es": "vapor de agua",
+     "uk": "водяна пара"
     }
    ],
    "why": {
     "en": "CO₂: greenhouse effect.",
-    "es": "CO₂: efecto invernadero."
+    "es": "CO₂: efecto invernadero.",
+    "uk": "CO₂ — парниковий ефект."
    }
   },
   {
@@ -1914,25 +2281,30 @@ window.DGT_DATA = {
    "tag": "pollution",
    "q": {
     "en": "Nitrogen oxides (NOx) mainly cause…",
-    "es": "Los óxidos de nitrógeno (NOx) causan sobre todo…"
+    "es": "Los óxidos de nitrógeno (NOx) causan sobre todo…",
+    "uk": "Оксиди азоту (NOx) переважно спричиняють…"
    },
    "o": [
     {
      "en": "breathing problems",
-     "es": "problemas respiratorios"
+     "es": "problemas respiratorios",
+     "uk": "проблеми з диханням"
     },
     {
      "en": "acid rain only",
-     "es": "solo lluvia ácida"
+     "es": "solo lluvia ácida",
+     "uk": "лише кислотні дощі"
     },
     {
      "en": "nothing",
-     "es": "nada"
+     "es": "nada",
+     "uk": "нічого"
     }
    ],
    "why": {
     "en": "HC: toxic unburnt hydrocarbons.",
-    "es": "HC: hidrocarburos sin quemar, tóxicos."
+    "es": "HC: hidrocarburos sin quemar, tóxicos.",
+    "uk": "HC — токсичні незгорілі вуглеводні."
    }
   },
   {
@@ -1940,25 +2312,30 @@ window.DGT_DATA = {
    "tag": "pollution",
    "q": {
     "en": "Carbon monoxide (CO) is…",
-    "es": "El monóxido de carbono (CO) es…"
+    "es": "El monóxido de carbono (CO) es…",
+    "uk": "Чадний газ (CO)…"
    },
    "o": [
     {
      "en": "very toxic and can kill",
-     "es": "muy tóxico y puede ser mortal"
+     "es": "muy tóxico y puede ser mortal",
+     "uk": "дуже токсичний і може вбити"
     },
     {
      "en": "harmless",
-     "es": "inofensivo"
+     "es": "inofensivo",
+     "uk": "нешкідливий"
     },
     {
      "en": "the cause of acid rain",
-     "es": "la causa de la lluvia ácida"
+     "es": "la causa de la lluvia ácida",
+     "uk": "причина кислотних дощів"
     }
    ],
    "why": {
     "en": "It is colourless and odourless.",
-    "es": "Es incoloro e inodoro."
+    "es": "Es incoloro e inodoro.",
+    "uk": "Він безбарвний і без запаху."
    }
   },
   {
@@ -1966,25 +2343,30 @@ window.DGT_DATA = {
    "tag": "pollution",
    "q": {
     "en": "Changing the engine oil on the public road is…",
-    "es": "Cambiar el aceite del motor en la vía pública…"
+    "es": "Cambiar el aceite del motor en la vía pública…",
+    "uk": "Міняти моторну оливу на дорозі загального користування…"
    },
    "o": [
     {
      "en": "prohibited",
-     "es": "no está permitido"
+     "es": "no está permitido",
+     "uk": "заборонено"
     },
     {
      "en": "allowed if you clean up",
-     "es": "se permite si se limpia"
+     "es": "se permite si se limpia",
+     "uk": "дозволено, якщо приберете"
     },
     {
      "en": "allowed on the shoulder",
-     "es": "se permite en el arcén"
+     "es": "se permite en el arcén",
+     "uk": "дозволено на узбіччі"
     }
    ],
    "why": {
     "en": "Take the oil to a recovery container.",
-    "es": "Hay que entregarlo en un contenedor de recuperación."
+    "es": "Hay que entregarlo en un contenedor de recuperación.",
+    "uk": "Здавайте оливу в контейнер для збору."
    }
   },
   {
@@ -1992,25 +2374,30 @@ window.DGT_DATA = {
    "tag": "pollution",
    "q": {
     "en": "A vehicle makes noise above the limits. Agents can…",
-    "es": "Un vehículo emite ruido por encima de los límites. Los agentes pueden…"
+    "es": "Un vehículo emite ruido por encima de los límites. Los agentes pueden…",
+    "uk": "ТЗ шумить понад норми. Регулювальники можуть…"
    },
    "o": [
     {
      "en": "fine you and immobilise the vehicle",
-     "es": "sancionar e inmovilizar el vehículo"
+     "es": "sancionar e inmovilizar el vehículo",
+     "uk": "оштрафувати вас і знерухомити ТЗ"
     },
     {
      "en": "only warn you",
-     "es": "solo avisar"
+     "es": "solo avisar",
+     "uk": "лише попередити вас"
     },
     {
      "en": "do nothing",
-     "es": "no hacer nada"
+     "es": "no hacer nada",
+     "uk": "нічого не робити"
     }
    ],
    "why": {
     "en": "Open exhausts, loud music, revving…",
-    "es": "Escape libre, música alta, acelerones…"
+    "es": "Escape libre, música alta, acelerones…",
+    "uk": "Прямотік, гучна музика, газування…"
    }
   },
   {
@@ -2018,25 +2405,30 @@ window.DGT_DATA = {
    "tag": "pollution",
    "q": {
     "en": "Which is ‘needless noise’?",
-    "es": "¿Cuál es un «ruido innecesario»?"
+    "es": "¿Cuál es un «ruido innecesario»?",
+    "uk": "Що з цього — «зайвий шум»?"
    },
    "o": [
     {
      "en": "An exhaust without a silencer",
-     "es": "Un escape libre sin silenciador"
+     "es": "Un escape libre sin silenciador",
+     "uk": "Вихлоп без глушника"
     },
     {
      "en": "The indicator click",
-     "es": "El clic del intermitente"
+     "es": "El clic del intermitente",
+     "uk": "Клацання покажчика повороту"
     },
     {
      "en": "Normal engine noise",
-     "es": "El ruido normal del motor"
+     "es": "El ruido normal del motor",
+     "uk": "Звичайний шум двигуна"
     }
    ],
    "why": {
     "en": "Also resonator exhausts, horn, loud music, revving.",
-    "es": "También tubos resonadores, claxon, música alta, acelerones."
+    "es": "También tubos resonadores, claxon, música alta, acelerones.",
+    "uk": "А також резонаторні вихлопи, сигнал, гучна музика, газування."
    }
   },
   {
@@ -2044,25 +2436,30 @@ window.DGT_DATA = {
    "tag": "pollution",
    "q": {
     "en": "Throwing a cigarette end onto the road is…",
-    "es": "Arrojar una colilla a la vía…"
+    "es": "Arrojar una colilla a la vía…",
+    "uk": "Викидати недопалок на дорогу…"
    },
    "o": [
     {
      "en": "not allowed",
-     "es": "no está permitido"
+     "es": "no está permitido",
+     "uk": "не дозволено"
     },
     {
      "en": "allowed in towns",
-     "es": "está permitido en poblado"
+     "es": "está permitido en poblado",
+     "uk": "дозволено в містах"
     },
     {
      "en": "allowed if it is out",
-     "es": "está permitido si está apagada"
+     "es": "está permitido si está apagada",
+     "uk": "дозволено, якщо він погашений"
     }
    ],
    "why": {
     "en": "Also food waste and other objects.",
-    "es": "Tampoco restos de comida u otros objetos."
+    "es": "Tampoco restos de comida u otros objetos.",
+    "uk": "Так само харчові відходи й інші предмети."
    }
   },
   {
@@ -2070,25 +2467,30 @@ window.DGT_DATA = {
    "tag": "zbe",
    "q": {
     "en": "Which municipalities must have sustainable mobility plans with low-emission zones?",
-    "es": "¿Qué municipios deben tener planes de movilidad sostenible con zonas de bajas emisiones?"
+    "es": "¿Qué municipios deben tener planes de movilidad sostenible con zonas de bajas emisiones?",
+    "uk": "Які муніципалітети мусять мати плани сталої мобільності із зонами з низькими викидами?"
    },
    "o": [
     {
      "en": "Over 50,000 people, island territories, and over 20,000 that exceed pollution limits",
-     "es": "Los de más de 50.000 habitantes, los territorios insulares y los de más de 20.000 que superen los límites"
+     "es": "Los de más de 50.000 habitantes, los territorios insulares y los de más de 20.000 que superen los límites",
+     "uk": "Понад 50 000 жителів, острівні території й понад 20 000, що перевищують межі забруднення"
     },
     {
      "en": "Only Madrid and Barcelona",
-     "es": "Solo Madrid y Barcelona"
+     "es": "Solo Madrid y Barcelona",
+     "uk": "Лише Мадрид і Барселона"
     },
     {
      "en": "All municipalities",
-     "es": "Todos los municipios"
+     "es": "Todos los municipios",
+     "uk": "Усі муніципалітети"
     }
    ],
    "why": {
     "en": "Ley 7/2021 on climate change.",
-    "es": "Ley 7/2021 de cambio climático."
+    "es": "Ley 7/2021 de cambio climático.",
+    "uk": "Ley 7/2021 про зміну клімату."
    }
   },
   {
@@ -2096,25 +2498,30 @@ window.DGT_DATA = {
    "tag": "zbe",
    "q": {
     "en": "A low-emission zone (ZBE) restricts…",
-    "es": "Una zona de bajas emisiones (ZBE) restringe…"
+    "es": "Una zona de bajas emisiones (ZBE) restringe…",
+    "uk": "Зона з низькими викидами (ZBE) обмежує…"
    },
    "o": [
     {
      "en": "access, driving and parking according to each vehicle’s emissions classification",
-     "es": "el acceso, la circulación y el estacionamiento según la clasificación por emisiones"
+     "es": "el acceso, la circulación y el estacionamiento según la clasificación por emisiones",
+     "uk": "в’їзд, рух і стоянку залежно від екологічного класу кожного ТЗ"
     },
     {
      "en": "only parking",
-     "es": "solo el estacionamiento"
+     "es": "solo el estacionamiento",
+     "uk": "лише стоянку"
     },
     {
      "en": "only lorries",
-     "es": "solo los camiones"
+     "es": "solo los camiones",
+     "uk": "лише вантажівки"
     }
    ],
    "why": {
     "en": "To improve air quality.",
-    "es": "Para mejorar la calidad del aire."
+    "es": "Para mejorar la calidad del aire.",
+    "uk": "Щоб покращити якість повітря."
    }
   },
   {
@@ -2122,25 +2529,30 @@ window.DGT_DATA = {
    "tag": "zbe",
    "q": {
     "en": "Sign R-120 means…",
-    "es": "La señal R-120 significa…"
+    "es": "La señal R-120 significa…",
+    "uk": "Знак R-120 означає…"
    },
    "o": [
     {
      "en": "entry prohibited to vehicles according to their environmental label or other criteria",
-     "es": "entrada prohibida a vehículos en función de su distintivo ambiental u otros criterios"
+     "es": "entrada prohibida a vehículos en función de su distintivo ambiental u otros criterios",
+     "uk": "в’їзд заборонено ТЗ залежно від їхньої екологічної наліпки чи інших критеріїв"
     },
     {
      "en": "no entry for lorries",
-     "es": "entrada prohibida a camiones"
+     "es": "entrada prohibida a camiones",
+     "uk": "в’їзд заборонено вантажівкам"
     },
     {
      "en": "end of the low-emission zone",
-     "es": "fin de la zona de bajas emisiones"
+     "es": "fin de la zona de bajas emisiones",
+     "uk": "кінець зони з низькими викидами"
     }
    ],
    "why": {
     "en": "The conditions are on an additional panel.",
-    "es": "Las condiciones, en un panel complementario."
+    "es": "Las condiciones, en un panel complementario.",
+    "uk": "Умови — на додатковій табличці."
    }
   },
   {
@@ -2148,25 +2560,30 @@ window.DGT_DATA = {
    "tag": "zbe",
    "q": {
     "en": "Where are the conditions of an R-120 sign shown?",
-    "es": "¿Dónde se indican las condiciones de la señal R-120?"
+    "es": "¿Dónde se indican las condiciones de la señal R-120?",
+    "uk": "Де вказані умови знака R-120?"
    },
    "o": [
     {
      "en": "On an additional panel or a board that includes the sign",
-     "es": "En un panel complementario o en un cartel que incluya la señal"
+     "es": "En un panel complementario o en un cartel que incluya la señal",
+     "uk": "На додатковій табличці чи щиті зі знаком"
     },
     {
      "en": "Nowhere",
-     "es": "En ningún sitio"
+     "es": "En ningún sitio",
+     "uk": "Ніде"
     },
     {
      "en": "Only online",
-     "es": "Solo en internet"
+     "es": "Solo en internet",
+     "uk": "Лише в інтернеті"
     }
    ],
    "why": {
     "en": "For example, which labels may enter.",
-    "es": "Por ejemplo, qué distintivos pueden entrar."
+    "es": "Por ejemplo, qué distintivos pueden entrar.",
+    "uk": "Наприклад, які наліпки можуть в’їжджати."
    }
   },
   {
@@ -2174,25 +2591,30 @@ window.DGT_DATA = {
    "tag": "zbe",
    "q": {
     "en": "A residential priority zone…",
-    "es": "Una zona de prioridad residencial…"
+    "es": "Una zona de prioridad residencial…",
+    "uk": "Зона пріоритету для мешканців…"
    },
    "o": [
     {
      "en": "restricts access or traffic for non-residents’ vehicles",
-     "es": "restringe el acceso o la circulación a vehículos de no residentes"
+     "es": "restringe el acceso o la circulación a vehículos de no residentes",
+     "uk": "обмежує в’їзд чи рух ТЗ нерезидентів"
     },
     {
      "en": "is only for buses",
-     "es": "es solo para autobuses"
+     "es": "es solo para autobuses",
+     "uk": "лише для автобусів"
     },
     {
      "en": "allows any vehicle",
-     "es": "permite cualquier vehículo"
+     "es": "permite cualquier vehículo",
+     "uk": "дозволяє будь-який ТЗ"
     }
    ],
    "why": {
     "en": "Regulated by the town council.",
-    "es": "La regula la Autoridad municipal."
+    "es": "La regula la Autoridad municipal.",
+    "uk": "Її регулює муніципалітет."
    }
   },
   {
@@ -2200,25 +2622,30 @@ window.DGT_DATA = {
    "tag": "zbe",
    "q": {
     "en": "A safe school route is…",
-    "es": "Un camino escolar seguro es…"
+    "es": "Un camino escolar seguro es…",
+    "uk": "Безпечний шкільний маршрут — це…"
    },
    "o": [
     {
      "en": "roads adapted so children can get to school on foot, by public transport or by non-motorised means",
-     "es": "un conjunto de vías acondicionadas para que los niños vayan al colegio a pie, en transporte público o en medios no motorizados"
+     "es": "un conjunto de vías acondicionadas para que los niños vayan al colegio a pie, en transporte público o en medios no motorizados",
+     "uk": "дороги, пристосовані, щоб діти діставалися до школи пішки, громадським транспортом чи немеханічним способом"
     },
     {
      "en": "a bus lane",
-     "es": "un carril bus"
+     "es": "un carril bus",
+     "uk": "автобусна смуга"
     },
     {
      "en": "a car park at the school",
-     "es": "un aparcamiento junto al colegio"
+     "es": "un aparcamiento junto al colegio",
+     "uk": "стоянка біля школи"
     }
    ],
    "why": {
     "en": "It can have its own signs and speed limits.",
-    "es": "Puede tener señales y límites propios."
+    "es": "Puede tener señales y límites propios.",
+    "uk": "Він може мати власні знаки й обмеження швидкості."
    }
   },
   {
@@ -2226,25 +2653,30 @@ window.DGT_DATA = {
    "tag": "zbe",
    "q": {
     "en": "Near schools and hospitals, the authorities apply…",
-    "es": "Cerca de colegios y hospitales, las autoridades aplican…"
+    "es": "Cerca de colegios y hospitales, las autoridades aplican…",
+    "uk": "Біля шкіл і лікарень органи влади застосовують…"
    },
    "o": [
     {
      "en": "speed limits, parking rules and traffic calming",
-     "es": "limitación de velocidad, estacionamiento y calmado del tráfico"
+     "es": "limitación de velocidad, estacionamiento y calmado del tráfico",
+     "uk": "обмеження швидкості, правила стоянки й заспокоєння руху"
     },
     {
      "en": "higher speed limits",
-     "es": "límites de velocidad más altos"
+     "es": "límites de velocidad más altos",
+     "uk": "вищі обмеження швидкості"
     },
     {
      "en": "nothing special",
-     "es": "nada especial"
+     "es": "nada especial",
+     "uk": "нічого особливого"
     }
    ],
    "why": {
     "en": "To protect vulnerable users.",
-    "es": "Para proteger a los usuarios vulnerables."
+    "es": "Para proteger a los usuarios vulnerables.",
+    "uk": "Щоб захистити вразливих учасників."
    }
   },
   {
@@ -2252,25 +2684,30 @@ window.DGT_DATA = {
    "tag": "zbe",
    "q": {
     "en": "Local authorities send information on their low-emission zones to…",
-    "es": "Las entidades locales comunican sus zonas de bajas emisiones al…"
+    "es": "Las entidades locales comunican sus zonas de bajas emisiones al…",
+    "uk": "Місцеві органи влади надсилають інформацію про свої зони з низькими викидами до…"
    },
    "o": [
     {
      "en": "the National Access Point for traffic information",
-     "es": "Punto de Acceso Nacional de información de tráfico"
+     "es": "Punto de Acceso Nacional de información de tráfico",
+     "uk": "Національної точки доступу до інформації про рух"
     },
     {
      "en": "the ITV station",
-     "es": "la estación ITV"
+     "es": "la estación ITV",
+     "uk": "станції техогляду"
     },
     {
      "en": "the insurers",
-     "es": "las aseguradoras"
+     "es": "las aseguradoras",
+     "uk": "страховиків"
     }
    ],
    "why": {
     "en": "Areas, criteria, hours and restrictions.",
-    "es": "Áreas, criterios, horarios y restricciones."
+    "es": "Áreas, criterios, horarios y restricciones.",
+    "uk": "Зони, критерії, години й обмеження."
    }
   },
   {
@@ -2278,25 +2715,30 @@ window.DGT_DATA = {
    "tag": "labels",
    "q": {
     "en": "How many DGT environmental labels are there?",
-    "es": "¿Cuántos distintivos ambientales de la DGT existen?"
+    "es": "¿Cuántos distintivos ambientales de la DGT existen?",
+    "uk": "Скільки екологічних наліпок DGT?"
    },
    "o": [
     {
      "en": "Four: 0, ECO, C and B",
-     "es": "Cuatro: 0, ECO, C y B"
+     "es": "Cuatro: 0, ECO, C y B",
+     "uk": "Чотири: 0, ECO, C і B"
     },
     {
      "en": "Three",
-     "es": "Tres"
+     "es": "Tres",
+     "uk": "Три"
     },
     {
      "en": "Six",
-     "es": "Seis"
+     "es": "Seis",
+     "uk": "Шість"
     }
    ],
    "why": {
     "en": "From most to least efficient.",
-    "es": "De mayor a menor eficiencia."
+    "es": "De mayor a menor eficiencia.",
+    "uk": "Від найефективнішої до найменш ефективної."
    }
   },
   {
@@ -2304,25 +2746,30 @@ window.DGT_DATA = {
    "tag": "labels",
    "q": {
     "en": "Which label is the most efficient?",
-    "es": "¿Qué distintivo es el más eficiente?"
+    "es": "¿Qué distintivo es el más eficiente?",
+    "uk": "Яка наліпка найефективніша?"
    },
    "o": [
     {
      "en": "0 (zero emissions)",
-     "es": "El 0 (cero emisiones)"
+     "es": "El 0 (cero emisiones)",
+     "uk": "0 (нульові викиди)"
     },
     {
      "en": "ECO",
-     "es": "El ECO"
+     "es": "El ECO",
+     "uk": "ECO"
     },
     {
      "en": "C",
-     "es": "El C"
+     "es": "El C",
+     "uk": "C"
     }
    ],
    "why": {
     "en": "Then ECO, C and B.",
-    "es": "Después ECO, C y B."
+    "es": "Después ECO, C y B.",
+    "uk": "Далі ECO, C і B."
    }
   },
   {
@@ -2330,25 +2777,30 @@ window.DGT_DATA = {
    "tag": "labels",
    "q": {
     "en": "A plug-in hybrid gets the 0 label if its electric range is at least…",
-    "es": "Un híbrido enchufable tiene el distintivo 0 si su autonomía eléctrica es de al menos…"
+    "es": "Un híbrido enchufable tiene el distintivo 0 si su autonomía eléctrica es de al menos…",
+    "uk": "Гібрид із зарядкою від мережі отримує наліпку 0, якщо його запас ходу на електриці щонайменше…"
    },
    "o": [
     {
      "en": "40 km",
-     "es": "40 km"
+     "es": "40 km",
+     "uk": "40 км"
     },
     {
      "en": "10 km",
-     "es": "10 km"
+     "es": "10 km",
+     "uk": "10 км"
     },
     {
      "en": "90 km",
-     "es": "90 km"
+     "es": "90 km",
+     "uk": "90 км"
     }
    ],
    "why": {
     "en": "Under 40 km: ECO. The 90 km plan was dropped.",
-    "es": "Con menos de 40 km: ECO. La propuesta de 90 km se retiró."
+    "es": "Con menos de 40 km: ECO. La propuesta de 90 km se retiró.",
+    "uk": "Менше 40 км — ECO. План про 90 км скасовано."
    }
   },
   {
@@ -2356,25 +2808,30 @@ window.DGT_DATA = {
    "tag": "labels",
    "q": {
     "en": "A non-plug-in hybrid (HEV) gets the label…",
-    "es": "Un híbrido no enchufable (HEV) tiene el distintivo…"
+    "es": "Un híbrido no enchufable (HEV) tiene el distintivo…",
+    "uk": "Гібрид без зарядки від мережі (HEV) отримує наліпку…"
    },
    "o": [
     {
      "en": "ECO",
-     "es": "ECO"
+     "es": "ECO",
+     "uk": "ECO"
     },
     {
      "en": "0",
-     "es": "0"
+     "es": "0",
+     "uk": "0"
     },
     {
      "en": "B",
-     "es": "B"
+     "es": "B",
+     "uk": "B"
     }
    ],
    "why": {
     "en": "Also gas vehicles (CNG, LNG, LPG).",
-    "es": "También los de gas (GNC, GNL, GLP)."
+    "es": "También los de gas (GNC, GNL, GLP).",
+    "uk": "Також газові ТЗ (CNG, LNG, LPG)."
    }
   },
   {
@@ -2382,25 +2839,30 @@ window.DGT_DATA = {
    "tag": "labels",
    "q": {
     "en": "To get the ECO label, a vehicle must also meet the criteria of label…",
-    "es": "Para tener el distintivo ECO, el vehículo debe cumplir además los criterios del…"
+    "es": "Para tener el distintivo ECO, el vehículo debe cumplir además los criterios del…",
+    "uk": "Щоб отримати наліпку ECO, ТЗ має також відповідати критеріям наліпки…"
    },
    "o": [
     {
      "en": "C",
-     "es": "C"
+     "es": "C",
+     "uk": "C"
     },
     {
      "en": "B",
-     "es": "B"
+     "es": "B",
+     "uk": "B"
     },
     {
      "en": "0",
-     "es": "0"
+     "es": "0",
+     "uk": "0"
     }
    ],
    "why": {
     "en": "Latest Euro standards.",
-    "es": "Últimas normas Euro."
+    "es": "Últimas normas Euro.",
+    "uk": "Найновіші норми Євро."
    }
   },
   {
@@ -2408,25 +2870,30 @@ window.DGT_DATA = {
    "tag": "labels",
    "q": {
     "en": "A diesel car gets label C if it was registered from…",
-    "es": "Un turismo diésel tiene distintivo C si se matriculó desde…"
+    "es": "Un turismo diésel tiene distintivo C si se matriculó desde…",
+    "uk": "Дизельний легковик отримує наліпку C, якщо зареєстрований з…"
    },
    "o": [
     {
      "en": "September 2015",
-     "es": "septiembre de 2015"
+     "es": "septiembre de 2015",
+     "uk": "вересня 2015 року"
     },
     {
      "en": "January 2006",
-     "es": "enero de 2006"
+     "es": "enero de 2006",
+     "uk": "січня 2006 року"
     },
     {
      "en": "2001",
-     "es": "2001"
+     "es": "2001",
+     "uk": "2001 року"
     }
    ],
    "why": {
     "en": "Petrol: from January 2006.",
-    "es": "Gasolina: desde enero de 2006."
+    "es": "Gasolina: desde enero de 2006.",
+    "uk": "Бензиновий — із січня 2006 року."
    }
   },
   {
@@ -2434,25 +2901,30 @@ window.DGT_DATA = {
    "tag": "labels",
    "q": {
     "en": "A petrol car gets label C if it was registered from…",
-    "es": "Un turismo de gasolina tiene distintivo C si se matriculó desde…"
+    "es": "Un turismo de gasolina tiene distintivo C si se matriculó desde…",
+    "uk": "Бензиновий легковик отримує наліпку C, якщо зареєстрований з…"
    },
    "o": [
     {
      "en": "January 2006",
-     "es": "enero de 2006"
+     "es": "enero de 2006",
+     "uk": "січня 2006 року"
     },
     {
      "en": "September 2015",
-     "es": "septiembre de 2015"
+     "es": "septiembre de 2015",
+     "uk": "вересня 2015 року"
     },
     {
      "en": "2001",
-     "es": "2001"
+     "es": "2001",
+     "uk": "2001 року"
     }
    ],
    "why": {
     "en": "Diesel: from September 2015.",
-    "es": "Diésel: desde septiembre de 2015."
+    "es": "Diésel: desde septiembre de 2015.",
+    "uk": "Дизельний — з вересня 2015 року."
    }
   },
   {
@@ -2460,25 +2932,30 @@ window.DGT_DATA = {
    "tag": "labels",
    "q": {
     "en": "A petrol car registered in 2003 gets label…",
-    "es": "Un turismo de gasolina matriculado en 2003 tiene distintivo…"
+    "es": "Un turismo de gasolina matriculado en 2003 tiene distintivo…",
+    "uk": "Бензиновий легковик, зареєстрований у 2003 році, отримує наліпку…"
    },
    "o": [
     {
      "en": "B",
-     "es": "B"
+     "es": "B",
+     "uk": "B"
     },
     {
      "en": "C",
-     "es": "C"
+     "es": "C",
+     "uk": "C"
     },
     {
      "en": "none",
-     "es": "ninguno"
+     "es": "ninguno",
+     "uk": "жодної"
     }
    ],
    "why": {
     "en": "B: petrol from 1 January 2001.",
-    "es": "B: gasolina desde el 1 de enero de 2001."
+    "es": "B: gasolina desde el 1 de enero de 2001.",
+    "uk": "B: бензинові з 1 січня 2001 року."
    }
   },
   {
@@ -2486,25 +2963,30 @@ window.DGT_DATA = {
    "tag": "labels",
    "q": {
     "en": "What colour is label B?",
-    "es": "¿De qué color es el distintivo B?"
+    "es": "¿De qué color es el distintivo B?",
+    "uk": "Якого кольору наліпка B?"
    },
    "o": [
     {
      "en": "Yellow",
-     "es": "Amarillo"
+     "es": "Amarillo",
+     "uk": "Жовтого"
     },
     {
      "en": "Blue",
-     "es": "Azul"
+     "es": "Azul",
+     "uk": "Синього"
     },
     {
      "en": "Green",
-     "es": "Verde"
+     "es": "Verde",
+     "uk": "Зеленого"
     }
    ],
    "why": {
     "en": "0 blue, ECO blue and green, C green.",
-    "es": "0 azul, ECO azul y verde, C verde."
+    "es": "0 azul, ECO azul y verde, C verde.",
+    "uk": "0 — синя, ECO — синьо-зелена, C — зелена."
    }
   },
   {
@@ -2512,25 +2994,30 @@ window.DGT_DATA = {
    "tag": "labels",
    "q": {
     "en": "Which vehicles get no environmental label?",
-    "es": "¿Qué vehículos no tienen distintivo ambiental?"
+    "es": "¿Qué vehículos no tienen distintivo ambiental?",
+    "uk": "Які ТЗ не отримують екологічної наліпки?"
    },
    "o": [
     {
      "en": "The remaining 50 % most polluting",
-     "es": "El 50 % restante, el más contaminante"
+     "es": "El 50 % restante, el más contaminante",
+     "uk": "Решта 50 % найбільш забруднювальних"
     },
     {
      "en": "Electric cars",
-     "es": "Los eléctricos"
+     "es": "Los eléctricos",
+     "uk": "Електромобілі"
     },
     {
      "en": "Motorcycles",
-     "es": "Las motocicletas"
+     "es": "Las motocicletas",
+     "uk": "Мотоцикли"
     }
    ],
    "why": {
     "en": "They don’t meet the requirements.",
-    "es": "No cumplen los requisitos."
+    "es": "No cumplen los requisitos.",
+    "uk": "Вони не відповідають вимогам."
    }
   },
   {
@@ -2538,25 +3025,30 @@ window.DGT_DATA = {
    "tag": "labels",
    "q": {
     "en": "Where should the label be stuck, if you display it?",
-    "es": "¿Dónde se coloca el distintivo, si se pone?"
+    "es": "¿Dónde se coloca el distintivo, si se pone?",
+    "uk": "Куди клеїти наліпку, якщо ви її показуєте?"
    },
    "o": [
     {
      "en": "Bottom right corner of the windscreen",
-     "es": "En el ángulo inferior derecho del parabrisas"
+     "es": "En el ángulo inferior derecho del parabrisas",
+     "uk": "У нижній правий кут лобового скла"
     },
     {
      "en": "Top left of the rear window",
-     "es": "Arriba a la izquierda de la luneta"
+     "es": "Arriba a la izquierda de la luneta",
+     "uk": "Угорі ліворуч на задньому склі"
     },
     {
      "en": "On the number plate",
-     "es": "En la matrícula"
+     "es": "En la matrícula",
+     "uk": "На номерний знак"
     }
    ],
    "why": {
     "en": "Motorcycles: anywhere visible.",
-    "es": "Motocicletas: en cualquier sitio visible."
+    "es": "Motocicletas: en cualquier sitio visible.",
+    "uk": "Мотоцикли: на будь-якому видному місці."
    }
   },
   {
@@ -2564,25 +3056,30 @@ window.DGT_DATA = {
    "tag": "labels",
    "q": {
     "en": "According to the DGT, displaying the environmental label is…",
-    "es": "Según la DGT, colocar el distintivo ambiental es…"
+    "es": "Según la DGT, colocar el distintivo ambiental es…",
+    "uk": "За DGT, показувати екологічну наліпку…"
    },
    "o": [
     {
      "en": "voluntary, although some towns require it in their low-emission zones",
-     "es": "voluntario, aunque algunas ciudades lo exigen en sus ZBE"
+     "es": "voluntario, aunque algunas ciudades lo exigen en sus ZBE",
+     "uk": "добровільно, хоча деякі міста вимагають її у своїх зонах з низькими викидами"
     },
     {
      "en": "always compulsory",
-     "es": "siempre obligatorio"
+     "es": "siempre obligatorio",
+     "uk": "завжди обов’язково"
     },
     {
      "en": "prohibited",
-     "es": "prohibido"
+     "es": "prohibido",
+     "uk": "заборонено"
     }
    ],
    "why": {
     "en": "If displayed, bottom right of the windscreen.",
-    "es": "Si se pone, abajo a la derecha del parabrisas."
+    "es": "Si se pone, abajo a la derecha del parabrisas.",
+    "uk": "Якщо показуєте — у нижньому правому куті лобового скла."
    }
   }
  ],
@@ -2591,297 +3088,363 @@ window.DGT_DATA = {
    "sec": 1,
    "en": "Vision",
    "es": "Técnicas de visión",
+   "uk": "Огляд",
    "recap": [
     [
      "Preventive driving rests on vision, anticipation and space control.",
-     "La conducción preventiva se basa en visión, anticipación y control del espacio."
+     "La conducción preventiva se basa en visión, anticipación y control del espacio.",
+     "Превентивне керування спирається на огляд, передбачення й контроль простору."
     ],
     [
      "Look far ahead (where you’ll be in a few seconds), to the sides often, and in the mirrors often.",
-     "Mirar a lo lejos (donde estaremos en unos segundos), a los lados y por los retrovisores con frecuencia."
+     "Mirar a lo lejos (donde estaremos en unos segundos), a los lados y por los retrovisores con frecuencia.",
+     "Дивіться далеко вперед (туди, де будете за кілька секунд), часто вбоки й часто в дзеркала."
     ],
     [
      "Mirrors every 5–10 s in town and heavy traffic; every 10–15 s on motorways and empty roads.",
-     "Retrovisores cada 5–10 s en ciudad y tráfico denso; cada 10–15 s en autovía y vías sin tráfico."
+     "Retrovisores cada 5–10 s en ciudad y tráfico denso; cada 10–15 s en autovía y vías sin tráfico.",
+     "Дзеркала кожні 5–10 с у місті й щільному русі; кожні 10–15 с на автомагістралях і порожніх дорогах."
     ],
     [
      "There is always a blind spot: turn your head about 45° before moving sideways.",
-     "Siempre queda un ángulo muerto: girar la cabeza unos 45° antes de desplazarse lateralmente."
+     "Siempre queda un ángulo muerto: girar la cabeza unos 45° antes de desplazarse lateralmente.",
+     "Мертва зона є завжди: поверніть голову приблизно на 45° перед перестроюванням."
     ]
    ],
    "trap": [
     "Thinking well-adjusted mirrors leave no blind spot.",
-    "Pensar que con los espejos bien reglados no hay ángulo muerto."
+    "Pensar que con los espejos bien reglados no hay ángulo muerto.",
+    "Думати, що з добре відрегульованими дзеркалами мертвої зони немає."
    ]
   },
   "anticip": {
    "sec": 1,
    "en": "Anticipation",
    "es": "Anticipación",
+   "uk": "Передбачення",
    "recap": [
     [
      "Don’t trust others: anyone can make a mistake or be distracted.",
-     "Desconfiar de los demás: cualquiera puede equivocarse o distraerse."
+     "Desconfiar de los demás: cualquiera puede equivocarse o distraerse.",
+     "Не покладайтеся на інших: будь-хто може помилитися чи відволіктися."
     ],
     [
      "Adapt your speed to the circumstances; cover the brake when you sense a risk.",
-     "Adaptar la velocidad a las circunstancias; preparar el pie sobre el freno ante un riesgo."
+     "Adaptar la velocidad a las circunstancias; preparar el pie sobre el freno ante un riesgo.",
+     "Пристосовуйте швидкість до обставин; тримайте ногу над гальмом, коли відчуваєте ризик."
     ],
     [
      "Be seen and understood: signal early and until the end; use lights well (sun in their eyes, tunnel exits).",
-     "Hacerse ver y entender: señalizar con antelación y hasta el final; buen uso del alumbrado (sol de frente, salida de túneles)."
+     "Hacerse ver y entender: señalizar con antelación y hasta el final; buen uso del alumbrado (sol de frente, salida de túneles).",
+     "Щоб вас бачили й розуміли: сигналізуйте завчасно й до кінця; правильно користуйтеся світлом (сонце в очі, виїзд із тунелю)."
     ],
     [
      "Avoid other vehicles’ blind spots, especially heavy ones and when on a motorcycle.",
-     "Evitar los ángulos muertos de otros, sobre todo de los pesados y si vas en moto."
+     "Evitar los ángulos muertos de otros, sobre todo de los pesados y si vas en moto.",
+     "Уникайте мертвих зон інших ТЗ, особливо важких, і особливо на мотоциклі."
     ]
    ],
    "trap": [
     "Assuming others will always follow the rules.",
-    "Suponer que los demás siempre cumplirán las normas."
+    "Suponer que los demás siempre cumplirán las normas.",
+    "Вважати, що інші завжди дотримуватимуться правил."
    ]
   },
   "space": {
    "sec": 1,
    "en": "Space control",
    "es": "Control del espacio",
+   "uk": "Контроль простору",
    "recap": [
     [
      "Front gap: 2 s in town, 3 s on the road, at least 1 s more in worse conditions or with a tailgater.",
-     "Distancia delantera: 2 s en ciudad, 3 s en carretera, al menos 1 s más con malas condiciones o si nos siguen muy cerca."
+     "Distancia delantera: 2 s en ciudad, 3 s en carretera, al menos 1 s más con malas condiciones o si nos siguen muy cerca.",
+     "Інтервал попереду: 2 с у місті, 3 с за містом, щонайменше на 1 с більше за гірших умов чи коли хтось їде впритул позаду."
     ],
     [
      "Tailgater: more front gap, signal early, brake gently; if stopped and a crash is unavoidable, keep braking.",
-     "Si nos siguen muy cerca: más distancia delantera, señalizar antes, frenar suave; detenidos y sin evitar el alcance, mantener frenado."
+     "Si nos siguen muy cerca: más distancia delantera, señalizar antes, frenar suave; detenidos y sin evitar el alcance, mantener frenado.",
+     "Хтось їде впритул: більший інтервал попереду, сигналізуйте завчасно, гальмуйте м’яко; якщо стоїте й наїзду не уникнути — тримайте гальмо."
     ],
     [
      "Zone of uncertainty: large to the side for cyclists and vehicles; smaller for pedestrians except children.",
-     "Zona de incertidumbre: grande lateral en ciclistas y vehículos; menor en peatones salvo niños."
+     "Zona de incertidumbre: grande lateral en ciclistas y vehículos; menor en peatones salvo niños.",
+     "Зона невизначеності: велика збоку для велосипедистів і ТЗ; менша для пішоходів, крім дітей."
     ],
     [
      "Stopped: 2–3 m (see the rear tyres). Last in an unexpected queue: hazard lights, 5–6 m, mirrors, first gear ready.",
-     "Detenido: 2–3 m (ver las ruedas traseras). Último de una cola imprevista: emergencia, 5–6 m, espejos, 1.ª lista."
+     "Detenido: 2–3 m (ver las ruedas traseras). Último de una cola imprevista: emergencia, 5–6 m, espejos, 1.ª lista.",
+     "Зупинка: 2–3 м (видно задні шини). Останній у несподіваному заторі: аварійна сигналізація, 5–6 м, дзеркала, перша передача напоготові."
     ]
    ],
    "trap": [
     "Stopping right up against the car in front.",
-    "Detenerse pegado al vehículo de delante."
+    "Detenerse pegado al vehículo de delante.",
+    "Зупинятися впритул до автомобіля попереду."
    ]
   },
   "devices": {
    "sec": 1,
    "en": "Glass, wipers and demisters",
    "es": "Cristales, limpiaparabrisas y antivaho",
+   "uk": "Скло, склоочисники й обдув",
    "recap": [
     [
      "Glass must not distort, must be clean and safety glass; unapproved tinted glass is prohibited.",
-     "Los cristales no deben deformar, deben estar limpios y ser de seguridad; prohibido el tintado no homologado."
+     "Los cristales no deben deformar, deben estar limpios y ser de seguridad; prohibido el tintado no homologado.",
+     "Скло не повинно спотворювати, має бути чистим і безпечним; несертифіковане тоноване скло заборонене."
     ],
     [
      "Any car with wipers must have a windscreen washer; a rear washer is not compulsory.",
-     "Todo automóvil con limpiaparabrisas debe tener lavaparabrisas; el lavalunetas no es obligatorio."
+     "Todo automóvil con limpiaparabrisas debe tener lavaparabrisas; el lavalunetas no es obligatorio.",
+     "Кожен автомобіль зі склоочисниками мусить мати омивач лобового скла; омивач заднього скла не обов’язковий."
     ],
     [
      "Replace cracked blades; never wipe a dry screen with an empty tank; use the slowest speed; distilled water and soap.",
-     "Cambiar escobillas cuarteadas; nunca limpiar en seco con el depósito vacío; la velocidad más lenta; agua destilada y jabón."
+     "Cambiar escobillas cuarteadas; nunca limpiar en seco con el depósito vacío; la velocidad más lenta; agua destilada y jabón.",
+     "Міняйте потріскані щітки; ніколи не чистіть сухе скло з порожнім бачком; найповільніша швидкість; дистильована вода з милом."
     ],
     [
      "Heated rear window and front demister clear mist and frost.",
-     "La luneta térmica y el antivaho delantero eliminan vaho y hielo."
+     "La luneta térmica y el antivaho delantero eliminan vaho y hielo.",
+     "Обігрів заднього скла й обдув лобового прибирають запотівання й іній."
     ]
    ],
    "trap": [
     "Thinking the rear washer is compulsory.",
-    "Pensar que el lavalunetas es obligatorio."
+    "Pensar que el lavalunetas es obligatorio.",
+    "Думати, що омивач заднього скла обов’язковий."
    ]
   },
   "mirrors": {
    "sec": 1,
    "en": "Mirrors",
    "es": "Espejos retrovisores",
+   "uk": "Дзеркала",
    "recap": [
     [
      "Cars: outside left mirror and an interior mirror (60 m behind, 20 m wide); right mirror compulsory if the interior one can’t see.",
-     "Turismos: exterior izquierdo e interior (60 m por detrás, 20 m de ancho); el derecho, obligatorio si el interior no permite ver."
+     "Turismos: exterior izquierdo e interior (60 m por detrás, 20 m de ancho); el derecho, obligatorio si el interior no permite ver.",
+     "Легковики: ліве зовнішнє й салонне дзеркало (60 м позаду, 20 м завширшки); праве обов’язкове, якщо через салонне не видно."
     ],
     [
      "Motorcycles: left if top speed ≤ 100 km/h, left and right above. Two-wheel mopeds: at least left.",
-     "Motos: izquierdo si no superan 100 km/h, izquierdo y derecho si los superan. Ciclomotores de dos ruedas: al menos el izquierdo."
+     "Motos: izquierdo si no superan 100 km/h, izquierdo y derecho si los superan. Ciclomotores de dos ruedas: al menos el izquierdo.",
+     "Мотоцикли: ліве, якщо макс. швидкість ≤ 100 км/год, ліве й праве — якщо більше. Двоколісні мопеди: щонайменше ліве."
     ],
     [
      "Adjust before setting off, stopped, on flat ground: interior shows 3 of 4 sides of the rear window; door mirrors 50 % road, 50 % sky.",
-     "Regular antes de salir, parado, en llano: el interior muestra 3 de los 4 lados de la luneta; los exteriores, 50 % asfalto y 50 % cielo."
+     "Regular antes de salir, parado, en llano: el interior muestra 3 de los 4 lados de la luneta; los exteriores, 50 % asfalto y 50 % cielo.",
+     "Регулюйте до виїзду, на місці, на рівній поверхні: салонне показує 3 з 4 сторін заднього скла; бічні — 50 % дороги, 50 % неба."
     ],
     [
      "Convex: wider view, objects look smaller and further; flat: true image; panoramic doesn’t replace the door mirrors.",
-     "Convexo: más ángulo, empequeñece y aleja; plano: imagen real; el panorámico no sustituye a los exteriores."
+     "Convexo: más ángulo, empequeñece y aleja; plano: imagen real; el panorámico no sustituye a los exteriores.",
+     "Опуклі: ширший огляд, предмети здаються меншими й далі; пласкі: точне зображення; панорамне не замінює бічних."
     ]
    ],
    "trap": [
     "Thinking a convex mirror shows true distances.",
-    "Pensar que un espejo convexo muestra las distancias reales."
+    "Pensar que un espejo convexo muestra las distancias reales.",
+    "Думати, що опукле дзеркало показує справжні відстані."
    ]
   },
   "ecostart": {
    "sec": 2,
    "en": "Efficient driving and moving off",
    "es": "Conducción eficiente y arranque",
+   "uk": "Економне керування й рушання",
    "recap": [
     [
      "Efficient driving: 10–25 % less fuel; course: 50–80 % less CO₂; less wear, noise and stress.",
-     "Conducción eficiente: 10–25 % menos combustible; curso: 50–80 % menos CO₂; menos desgaste, ruido y estrés."
+     "Conducción eficiente: 10–25 % menos combustible; curso: 50–80 % menos CO₂; menos desgaste, ruido y estrés.",
+     "Економне керування: на 10–25 % менше пального; курс: на 50–80 % менше CO₂; менше зносу, шуму й стресу."
     ],
     [
      "Start the engine without accelerating.",
-     "Arrancar el motor sin acelerar."
+     "Arrancar el motor sin acelerar.",
+     "Запускайте двигун, не натискаючи акселератор."
     ],
     [
      "Petrol: move off at once. Diesel: wait a few seconds for lubrication.",
-     "Gasolina: salir enseguida. Diésel: esperar unos segundos por la lubricación."
+     "Gasolina: salir enseguida. Diésel: esperar unos segundos por la lubricación.",
+     "Бензин: рушайте одразу. Дизель: зачекайте кілька секунд, щоб він змастився."
     ],
     [
      "First gear only to move off; second after 2 s or 6 m; no hard revving when cold.",
-     "1.ª solo para iniciar la marcha; 2.ª a los 2 s o 6 m; sin acelerones en frío."
+     "1.ª solo para iniciar la marcha; 2.ª a los 2 s o 6 m; sin acelerones en frío.",
+     "Перша передача — лише щоб рушити; друга — через 2 с чи 6 м; жодного сильного газування на холодному."
     ]
    ],
    "trap": [
     "Warming the engine up by revving it while stopped.",
-    "Calentar el motor acelerando en parado."
+    "Calentar el motor acelerando en parado.",
+    "Прогрівати двигун, газуючи на місці."
    ]
   },
   "gears": {
    "sec": 2,
    "en": "Gears",
    "es": "Uso de las marchas",
+   "uk": "Передачі",
    "recap": [
     [
      "Highest gear possible: fewer revs, less fuel, less pollution.",
-     "La marcha más alta posible: menos revoluciones, menos consumo y contaminación."
+     "La marcha más alta posible: menos revoluciones, menos consumo y contaminación.",
+     "Найвища можлива передача: менше обертів, менше пального, менше забруднення."
     ],
     [
      "Change up at 1,500–2,000 rpm (diesel) or 2,000–2,500 rpm (petrol); accelerate smoothly.",
-     "Cambiar a 1.500–2.000 rpm (diésel) o 2.000–2.500 rpm (gasolina); acelerar suave."
+     "Cambiar a 1.500–2.000 rpm (diésel) o 2.000–2.500 rpm (gasolina); acelerar suave.",
+     "Перемикайте вгору на 1 500–2 000 об/хв (дизель) чи 2 000–2 500 об/хв (бензин); розганяйтеся плавно."
     ],
     [
      "You can skip gears: 3rd at 30, 4th at 40, 5th at 50 km/h.",
-     "Se pueden saltar marchas: 3.ª a 30, 4.ª a 40, 5.ª a 50 km/h."
+     "Se pueden saltar marchas: 3.ª a 30, 4.ª a 40, 5.ª a 50 km/h.",
+     "Можна пропускати передачі: 3-тя на 30, 4-та на 40, 5-та на 50 км/год."
     ],
     [
      "Slow down with the engine brake (in gear, off the throttle: zero fuel); change down as late as possible.",
-     "Reducir con el freno motor (con marcha y sin acelerar: consumo nulo); reducir de marcha lo más tarde posible."
+     "Reducir con el freno motor (con marcha y sin acelerar: consumo nulo); reducir de marcha lo más tarde posible.",
+     "Сповільнюйтеся гальмуванням двигуном (з передачею, без газу: нульова витрата); знижуйте якомога пізніше."
     ]
    ],
    "trap": [
     "Going through every gear in order.",
-    "Pasar por todas las marchas en orden."
+    "Pasar por todas las marchas en orden.",
+    "Перебирати всі передачі по черзі."
    ]
   },
   "savings": {
    "sec": 2,
    "en": "Saving fuel — and what not to do",
    "es": "Ahorro y lo que no hay que hacer",
+   "uk": "Економія пального — і чого не робити",
    "recap": [
     [
      "Moderate, steady speed; engine off for stops over 60 s; maintenance and correct tyre pressure.",
-     "Velocidad moderada y uniforme; apagar el motor en paradas de más de 60 s; mantenimiento y presión correcta."
+     "Velocidad moderada y uniforme; apagar el motor en paradas de más de 60 s; mantenimiento y presión correcta.",
+     "Помірна, рівна швидкість; глушіть двигун на зупинках понад 60 с; обслуговування й правильний тиск у шинах."
     ],
     [
      "No excess weight; boot rather than roof rack; don’t spoil aerodynamics; air conditioning at about 23 °C; ECO mode.",
-     "Sin peso de más; maletero mejor que baca; no alterar la aerodinámica; aire acondicionado a unos 23 °C; modo ECO."
+     "Sin peso de más; maletero mejor que baca; no alterar la aerodinámica; aire acondicionado a unos 23 °C; modo ECO.",
+     "Без зайвої ваги; багажник замість багажника на даху; не псуйте аеродинаміку; кондиціонер близько 23 °C; режим ECO."
     ],
     [
      "Don’t coast in neutral or with the engine off; don’t use lower-octane fuel; no windows down at speed.",
-     "No circular en punto muerto ni con el motor apagado; no usar gasolina de menor octanaje; no ventanillas bajadas a velocidad."
+     "No circular en punto muerto ni con el motor apagado; no usar gasolina de menor octanaje; no ventanillas bajadas a velocidad.",
+     "Не котіться на нейтралі чи з заглушеним двигуном; не заливайте пальне з нижчим октановим числом; не опускайте вікон на швидкості."
     ],
     [
      "Don’t climb in low gears with high revs; don’t save on lights; don’t switch off for a few seconds.",
-     "No subir con marchas cortas y el motor revolucionado; no ahorrar en luces; no apagar el motor unos segundos."
+     "No subir con marchas cortas y el motor revolucionado; no ahorrar en luces; no apagar el motor unos segundos.",
+     "Не піднімайтеся на низьких передачах із високими обертами; не економте на світлі; не глушіть на кілька секунд."
     ]
    ],
    "trap": [
     "Coasting downhill in neutral to save fuel.",
-    "Bajar en punto muerto para ahorrar."
+    "Bajar en punto muerto para ahorrar.",
+    "Котитися з гори на нейтралі, щоб заощадити пальне."
    ]
   },
   "pollution": {
    "sec": 2,
    "en": "Pollution",
    "es": "Contaminación",
+   "uk": "Забруднення",
    "recap": [
     [
      "CO: very toxic (colourless); CO₂: greenhouse effect; NOx: breathing problems; HC: toxic; SO₂: acid rain.",
-     "CO: muy tóxico (incoloro); CO₂: efecto invernadero; NOx: problemas respiratorios; HC: tóxicos; SO₂: lluvia ácida."
+     "CO: muy tóxico (incoloro); CO₂: efecto invernadero; NOx: problemas respiratorios; HC: tóxicos; SO₂: lluvia ácida.",
+     "CO: дуже токсичний (безбарвний); CO₂: парниковий ефект; NOx: проблеми з диханням; HC: токсичні; SO₂: кислотні дощі."
     ],
     [
      "Throwing objects onto the road is not allowed.",
-     "No se permite arrojar objetos a la vía."
+     "No se permite arrojar objetos a la vía.",
+     "Викидати предмети на дорогу заборонено."
     ],
     [
      "Noise or gases above limits: fines and immobilisation (open exhausts, loud music, revving, smoke).",
-     "Ruidos o gases por encima de los límites: sanción e inmovilización (escape libre, música alta, acelerones, humo)."
+     "Ruidos o gases por encima de los límites: sanción e inmovilización (escape libre, música alta, acelerones, humo).",
+     "Шум чи гази понад норми: штрафи й знерухомлення (прямотік, гучна музика, газування, дим)."
     ],
     [
      "Never change the oil on the street; take it to a recovery container.",
-     "Nunca cambiar el aceite en la vía pública; llevarlo a un contenedor de recuperación."
+     "Nunca cambiar el aceite en la vía pública; llevarlo a un contenedor de recuperación.",
+     "Ніколи не міняйте оливу на вулиці; здавайте її в контейнер для збору."
     ]
    ],
    "trap": [
     "Thinking CO₂ causes acid rain.",
-    "Pensar que el CO₂ causa la lluvia ácida."
+    "Pensar que el CO₂ causa la lluvia ácida.",
+    "Думати, що CO₂ спричиняє кислотні дощі."
    ]
   },
   "zbe": {
    "sec": 2,
    "en": "Low-emission zones and urban access",
    "es": "ZBE y acceso urbano",
+   "uk": "Зони з низькими викидами й доступ до міст",
    "recap": [
     [
      "Municipalities over 50,000 people, island territories, and over 20,000 exceeding pollution limits: mobility plans with ZBE.",
-     "Municipios de más de 50.000 habitantes, territorios insulares y de más de 20.000 que superen los límites: PMUS con ZBE."
+     "Municipios de más de 50.000 habitantes, territorios insulares y de más de 20.000 que superen los límites: PMUS con ZBE.",
+     "Муніципалітети понад 50 000 жителів, острівні території й понад 20 000, що перевищують межі забруднення: плани мобільності з ZBE."
     ],
     [
      "A ZBE restricts access, driving and parking by emissions classification; its entrance must be signed.",
-     "La ZBE restringe acceso, circulación y estacionamiento según la clasificación por emisiones; su entrada debe señalizarse."
+     "La ZBE restringe acceso, circulación y estacionamiento según la clasificación por emisiones; su entrada debe señalizarse.",
+     "ZBE обмежує в’їзд, рух і стоянку за екологічним класом; її в’їзд має бути позначений."
     ],
     [
      "R-120: entry prohibited according to the environmental label; conditions on a panel.",
-     "R-120: entrada prohibida según el distintivo ambiental; las condiciones, en un panel."
+     "R-120: entrada prohibida según el distintivo ambiental; las condiciones, en un panel.",
+     "R-120: в’їзд заборонено залежно від екологічної наліпки; умови — на табличці."
     ],
     [
      "Also residential priority zones, safe school routes and traffic calming near schools and hospitals.",
-     "También zonas de prioridad residencial, caminos escolares seguros y calmado del tráfico junto a colegios y hospitales."
+     "También zonas de prioridad residencial, caminos escolares seguros y calmado del tráfico junto a colegios y hospitales.",
+     "А також зони пріоритету для мешканців, безпечні шкільні маршрути й заспокоєння руху біля шкіл і лікарень."
     ]
    ],
    "trap": [
     "Thinking only Madrid and Barcelona must have low-emission zones.",
-    "Pensar que solo Madrid y Barcelona deben tener ZBE."
+    "Pensar que solo Madrid y Barcelona deben tener ZBE.",
+    "Думати, що зони з низькими викидами мусять мати лише Мадрид і Барселона."
    ]
   },
   "labels": {
    "sec": 2,
    "en": "Environmental labels",
    "es": "Distintivos ambientales",
+   "uk": "Екологічні наліпки",
    "recap": [
     [
      "Four labels, most to least efficient: 0 (blue), ECO, C (green), B (yellow).",
-     "Cuatro distintivos, de más a menos eficiente: 0 (azul), ECO, C (verde), B (amarillo)."
+     "Cuatro distintivos, de más a menos eficiente: 0 (azul), ECO, C (verde), B (amarillo).",
+     "Чотири наліпки від найефективнішої: 0 (синя), ECO, C (зелена), B (жовта)."
     ],
     [
      "0: BEV, REEV, PHEV ≥ 40 km, fuel cell. ECO: PHEV < 40 km, HEV, gas; must meet C.",
-     "0: BEV, REEV, PHEV ≥ 40 km, pila de combustible. ECO: PHEV < 40 km, HEV, gas; deben cumplir la C."
+     "0: BEV, REEV, PHEV ≥ 40 km, pila de combustible. ECO: PHEV < 40 km, HEV, gas; deben cumplir la C.",
+     "0: BEV, REEV, PHEV ≥ 40 км, паливні елементи. ECO: PHEV < 40 км, HEV, газ; мусить відповідати C."
     ],
     [
      "C: petrol from Jan 2006, diesel from Sep 2015 (heavy from 2014). B: petrol from Jan 2001, diesel from 2006.",
-     "C: gasolina desde enero 2006, diésel desde sept. 2015 (pesados desde 2014). B: gasolina desde enero 2001, diésel desde 2006."
+     "C: gasolina desde enero 2006, diésel desde sept. 2015 (pesados desde 2014). B: gasolina desde enero 2001, diésel desde 2006.",
+     "C: бензин із січня 2006, дизель із вересня 2015 (важкі — з 2014). B: бензин із січня 2001, дизель з 2006."
     ],
     [
      "No label: the 50 % most polluting. Display is voluntary; bottom right of the windscreen.",
-     "Sin distintivo: el 50 % más contaminante. Colocación voluntaria; abajo a la derecha del parabrisas."
+     "Sin distintivo: el 50 % más contaminante. Colocación voluntaria; abajo a la derecha del parabrisas.",
+     "Без наліпки: 50 % найбільш забруднювальних. Показувати — добровільно; нижній правий кут лобового скла."
     ]
    ],
    "trap": [
     "Thinking any plug-in hybrid gets the 0 label.",
-    "Pensar que cualquier híbrido enchufable tiene la etiqueta 0."
+    "Pensar que cualquier híbrido enchufable tiene la etiqueta 0.",
+    "Думати, що будь-який гібрид із зарядкою від мережі отримує наліпку 0."
    ]
   }
  }

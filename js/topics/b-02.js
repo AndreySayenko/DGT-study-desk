@@ -4,11 +4,13 @@ window.DGT_DATA = {
  "category": "b",
  "langs": [
   "en",
-  "es"
+  "es",
+  "uk"
  ],
  "title": {
   "en": "Topic 2 · Use of the road",
-  "es": "Tema 2 · Uso de las vías"
+  "es": "Tema 2 · Uso de las vías",
+  "uk": "Тема 2 · Користування дорогами"
  },
  "bank": [
   {
@@ -16,25 +18,30 @@ window.DGT_DATA = {
    "tag": "duties",
    "q": {
     "en": "Signalling a manoeuvre in good time…",
-    "es": "Señalizar una maniobra con antelación…"
+    "es": "Señalizar una maniobra con antelación…",
+    "uk": "Завчасно попередивши про маневр, ви…"
    },
    "o": [
     {
      "en": "does not give you the right to make it if it is not safe",
-     "es": "no da derecho a realizarla si no es segura"
+     "es": "no da derecho a realizarla si no es segura",
+     "uk": "не отримуєте права виконати його, якщо це небезпечно"
     },
     {
      "en": "gives you priority over the other road users",
-     "es": "da prioridad sobre los demás usuarios"
+     "es": "da prioridad sobre los demás usuarios",
+     "uk": "отримуєте перевагу над іншими учасниками руху"
     },
     {
      "en": "makes the manoeuvre legal in every case",
-     "es": "hace que la maniobra sea legal en todo caso"
+     "es": "hace que la maniobra sea legal en todo caso",
+     "uk": "робите маневр законним у будь-якому разі"
     }
    ],
    "why": {
     "en": "Warning is a duty, not a right: the manoeuvre still has to be done correctly and without danger.",
-    "es": "Advertir es una obligación, no un derecho: la maniobra hay que hacerla correctamente y sin peligro."
+    "es": "Advertir es una obligación, no un derecho: la maniobra hay que hacerla correctamente y sin peligro.",
+    "uk": "Попередження — обов’язок, а не право: маневр однаково треба виконати правильно й без небезпеки."
    }
   },
   {
@@ -42,25 +49,30 @@ window.DGT_DATA = {
    "tag": "duties",
    "q": {
     "en": "Driving recklessly (<i>de modo temerario</i>) is…",
-    "es": "Conducir de modo temerario está…"
+    "es": "Conducir de modo temerario está…",
+    "uk": "Безрозсудне керування (<i>de modo temerario</i>)…"
    },
    "o": [
     {
      "en": "strictly forbidden",
-     "es": "terminantemente prohibido"
+     "es": "terminantemente prohibido",
+     "uk": "суворо заборонене"
     },
     {
      "en": "allowed on empty roads",
-     "es": "permitido en vías vacías"
+     "es": "permitido en vías vacías",
+     "uk": "дозволене на порожніх дорогах"
     },
     {
      "en": "only an offence in town",
-     "es": "prohibido solo en poblado"
+     "es": "prohibido solo en poblado",
+     "uk": "є порушенням лише в місті"
     }
    ],
    "why": {
     "en": "The law forbids negligent or reckless driving everywhere.",
-    "es": "La ley prohíbe conducir de modo negligente o temerario en cualquier vía."
+    "es": "La ley prohíbe conducir de modo negligente o temerario en cualquier vía.",
+    "uk": "Закон забороняє недбале чи безрозсудне керування будь-де."
    }
   },
   {
@@ -68,25 +80,30 @@ window.DGT_DATA = {
    "tag": "duties",
    "q": {
     "en": "When approaching other road users, the law asks for extra care especially with…",
-    "es": "Al aproximarse a otros usuarios, la ley exige extremar la precaución especialmente con…"
+    "es": "Al aproximarse a otros usuarios, la ley exige extremar la precaución especialmente con…",
+    "uk": "Наближаючись до інших учасників руху, закон вимагає особливої обережності передусім щодо…"
    },
    "o": [
     {
      "en": "children, elderly people, blind people and people with reduced mobility",
-     "es": "niños, ancianos, invidentes y personas con movilidad reducida"
+     "es": "niños, ancianos, invidentes y personas con movilidad reducida",
+     "uk": "дітей, літніх людей, незрячих і людей з обмеженою рухливістю"
     },
     {
      "en": "drivers of heavy vehicles",
-     "es": "conductores de vehículos pesados"
+     "es": "conductores de vehículos pesados",
+     "uk": "водіїв важких ТЗ"
     },
     {
      "en": "other car drivers",
-     "es": "otros conductores de turismos"
+     "es": "otros conductores de turismos",
+     "uk": "інших водіїв легковиків"
     }
    ],
    "why": {
     "en": "These are the vulnerable users the law names.",
-    "es": "Son los usuarios vulnerables que cita la norma."
+    "es": "Son los usuarios vulnerables que cita la norma.",
+    "uk": "Це вразливі учасники руху, яких називає закон."
    }
   },
   {
@@ -94,25 +111,30 @@ window.DGT_DATA = {
    "tag": "duties",
    "q": {
     "en": "The principle “understand” (<i>comprender</i>) means…",
-    "es": "El principio de «comprender» significa…"
+    "es": "El principio de «comprender» significa…",
+    "uk": "Принцип «розуміти» (<i>comprender</i>) означає…"
    },
    "o": [
     {
      "en": "forgiving other people’s mistakes without using them to excuse your own or to turn aggressive",
-     "es": "disculpar los errores ajenos sin usarlos para justificar los propios ni para ponerse agresivo"
+     "es": "disculpar los errores ajenos sin usarlos para justificar los propios ni para ponerse agresivo",
+     "uk": "прощати чужі помилки, не виправдовуючи ними власних і не стаючи агресивним"
     },
     {
      "en": "always giving way to everyone",
-     "es": "ceder siempre el paso a todos"
+     "es": "ceder siempre el paso a todos",
+     "uk": "завжди всім поступатися"
     },
     {
      "en": "knowing how your engine works",
-     "es": "saber cómo funciona el motor"
+     "es": "saber cómo funciona el motor",
+     "uk": "знати, як працює ваш двигун"
     }
    ],
    "why": {
     "en": "Understand others’ warnings and mistakes; never copy them or answer aggressively.",
-    "es": "Comprender las advertencias y errores de los demás, sin imitarlos ni responder con agresividad."
+    "es": "Comprender las advertencias y errores de los demás, sin imitarlos ni responder con agresividad.",
+    "uk": "Розумійте попередження й помилки інших; ніколи не повторюйте їх і не відповідайте агресивно."
    }
   },
   {
@@ -120,25 +142,30 @@ window.DGT_DATA = {
    "tag": "bans",
    "q": {
     "en": "Is it an offence to drive holding your mobile phone in your hand, even if you are not using it?",
-    "es": "¿Es infracción conducir sujetando el móvil con la mano, aunque no se esté usando?"
+    "es": "¿Es infracción conducir sujetando el móvil con la mano, aunque no se esté usando?",
+    "uk": "Чи є порушенням керувати, тримаючи телефон у руці, навіть якщо ви ним не користуєтеся?"
    },
    "o": [
     {
      "en": "Yes",
-     "es": "Sí"
+     "es": "Sí",
+     "uk": "Так"
     },
     {
      "en": "No, only if you are talking",
-     "es": "No, solo si se está hablando"
+     "es": "No, solo si se está hablando",
+     "uk": "Ні, лише якщо ви розмовляєте"
     },
     {
      "en": "Only in town",
-     "es": "Solo en poblado"
+     "es": "Solo en poblado",
+     "uk": "Лише в місті"
     }
    ],
    "why": {
     "en": "Even holding it without using it is forbidden.",
-    "es": "Está prohibido incluso sujetarlo con la mano aunque no se utilice."
+    "es": "Está prohibido incluso sujetarlo con la mano aunque no se utilice.",
+    "uk": "Заборонено навіть тримати його, не користуючись."
    }
   },
   {
@@ -146,25 +173,30 @@ window.DGT_DATA = {
    "tag": "bans",
    "q": {
     "en": "May you use a mobile phone while driving?",
-    "es": "¿Se puede usar el móvil mientras se conduce?"
+    "es": "¿Se puede usar el móvil mientras se conduce?",
+    "uk": "Чи можна користуватися мобільним телефоном під час керування?"
    },
    "o": [
     {
      "en": "Only without using your hands and without headsets or earphones",
-     "es": "Solo sin emplear las manos y sin cascos ni auriculares"
+     "es": "Solo sin emplear las manos y sin cascos ni auriculares",
+     "uk": "Лише без рук і без гарнітури чи навушників"
     },
     {
      "en": "Yes, with a single earphone",
-     "es": "Sí, con un solo auricular"
+     "es": "Sí, con un solo auricular",
+     "uk": "Так, з одним навушником"
     },
     {
      "en": "Yes, if you hold it only for a moment",
-     "es": "Sí, si se sujeta solo un momento"
+     "es": "Sí, si se sujeta solo un momento",
+     "uk": "Так, якщо тримаєте його лише мить"
     }
    ],
    "why": {
     "en": "Hands-free only, and no headsets, earphones or similar.",
-    "es": "Solo manos libres y sin cascos, auriculares ni similares."
+    "es": "Solo manos libres y sin cascos, auriculares ni similares.",
+    "uk": "Лише гучний зв’язок без рук, і жодних гарнітур, навушників чи подібного."
    }
   },
   {
@@ -172,25 +204,30 @@ window.DGT_DATA = {
    "tag": "bans",
    "q": {
     "en": "Which screen may be used while the vehicle is moving?",
-    "es": "¿Qué pantalla se puede usar con el vehículo en movimiento?"
+    "es": "¿Qué pantalla se puede usar con el vehículo en movimiento?",
+    "uk": "Яким екраном можна користуватися під час руху?"
    },
    "o": [
     {
      "en": "A rear-view parking camera",
-     "es": "Una cámara de maniobra trasera"
+     "es": "Una cámara de maniobra trasera",
+     "uk": "Камерою заднього огляду для паркування"
     },
     {
      "en": "A DVD player in the driver’s view",
-     "es": "Un reproductor de DVD a la vista del conductor"
+     "es": "Un reproductor de DVD a la vista del conductor",
+     "uk": "DVD-програвачем у полі зору водія"
     },
     {
      "en": "A screen with internet access",
-     "es": "Una pantalla con acceso a internet"
+     "es": "Una pantalla con acceso a internet",
+     "uk": "Екраном з доступом до інтернету"
     }
    ],
    "why": {
     "en": "Parking cameras, GPS and passenger-boarding monitors are the exceptions.",
-    "es": "Las excepciones son las cámaras de maniobra, el GPS y los monitores de subida y bajada de pasajeros."
+    "es": "Las excepciones son las cámaras de maniobra, el GPS y los monitores de subida y bajada de pasajeros.",
+    "uk": "Винятки — камери для паркування, GPS і монітори для посадки пасажирів."
    }
   },
   {
@@ -198,25 +235,30 @@ window.DGT_DATA = {
    "tag": "bans",
    "q": {
     "en": "The GPS navigator…",
-    "es": "El navegador GPS…"
+    "es": "El navegador GPS…",
+    "uk": "GPS-навігатор…"
    },
    "o": [
     {
      "en": "is allowed, but must not be handled while the vehicle is moving",
-     "es": "está permitido, pero no se puede manipular con el vehículo en movimiento"
+     "es": "está permitido, pero no se puede manipular con el vehículo en movimiento",
+     "uk": "дозволений, але ним не можна маніпулювати під час руху"
     },
     {
      "en": "is forbidden",
-     "es": "está prohibido"
+     "es": "está prohibido",
+     "uk": "заборонений"
     },
     {
      "en": "may be handled freely",
-     "es": "se puede manipular libremente"
+     "es": "se puede manipular libremente",
+     "uk": "ним можна вільно користуватися"
     }
    ],
    "why": {
     "en": "GPS is allowed; touching it while moving is not.",
-    "es": "El GPS está permitido; manipularlo en marcha, no."
+    "es": "El GPS está permitido; manipularlo en marcha, no.",
+    "uk": "GPS дозволений; торкатися його під час руху — ні."
    }
   },
   {
@@ -224,25 +266,30 @@ window.DGT_DATA = {
    "tag": "bans",
    "q": {
     "en": "A motorcyclist may ride using…",
-    "es": "Un motorista puede circular usando…"
+    "es": "Un motorista puede circular usando…",
+    "uk": "Мотоцикліст може їхати, користуючись…"
    },
    "o": [
     {
      "en": "a certified wireless intercom built into the helmet, for communication or navigation",
-     "es": "un dispositivo inalámbrico homologado integrado en el casco, para comunicación o navegación"
+     "es": "un dispositivo inalámbrico homologado integrado en el casco, para comunicación o navegación",
+     "uk": "сертифікованим бездротовим інтеркомом, вбудованим у шолом, для зв’язку чи навігації"
     },
     {
      "en": "earphones under the helmet to listen to music",
-     "es": "auriculares bajo el casco para escuchar música"
+     "es": "auriculares bajo el casco para escuchar música",
+     "uk": "навушниками під шоломом, щоб слухати музику"
     },
     {
      "en": "a phone held between the helmet and the shoulder",
-     "es": "el móvil sujeto entre el casco y el hombro"
+     "es": "el móvil sujeto entre el casco y el hombro",
+     "uk": "телефоном, затиснутим між шоломом і плечем"
     }
    ],
    "why": {
     "en": "Certified helmet devices are the one exception to the headphone ban, if they do not affect safety.",
-    "es": "Los dispositivos homologados del casco son la excepción a la prohibición de auriculares, si no afectan a la seguridad."
+    "es": "Los dispositivos homologados del casco son la excepción a la prohibición de auriculares, si no afectan a la seguridad.",
+    "uk": "Сертифіковані пристрої в шоломі — єдиний виняток із заборони навушників, якщо вони не впливають на безпеку."
    }
   },
   {
@@ -250,25 +297,30 @@ window.DGT_DATA = {
    "tag": "bans",
    "q": {
     "en": "Which device is allowed in the vehicle?",
-    "es": "¿Qué dispositivo está permitido en el vehículo?"
+    "es": "¿Qué dispositivo está permitido en el vehículo?",
+    "uk": "Який пристрій дозволений в автомобілі?"
    },
    "o": [
     {
      "en": "One that warns where the traffic surveillance points are",
-     "es": "Uno que avisa de dónde están los sistemas de vigilancia"
+     "es": "Uno que avisa de dónde están los sistemas de vigilancia",
+     "uk": "Той, що попереджає, де пункти контролю руху"
     },
     {
      "en": "A radar detector",
-     "es": "Un detector de radares"
+     "es": "Un detector de radares",
+     "uk": "Радар-детектор"
     },
     {
      "en": "A radar jammer (<i>inhibidor</i>)",
-     "es": "Un inhibidor de radares"
+     "es": "Un inhibidor de radares",
+     "uk": "Глушник радарів (<i>inhibidor</i>)"
     }
    ],
    "why": {
     "en": "Warning devices are legal; detectors and jammers are not.",
-    "es": "Los avisadores son legales; los detectores e inhibidores, no."
+    "es": "Los avisadores son legales; los detectores e inhibidores, no.",
+    "uk": "Попереджувачі законні; детектори й глушники — ні."
    }
   },
   {
@@ -276,25 +328,30 @@ window.DGT_DATA = {
    "tag": "bans",
    "q": {
     "en": "When refuelling you must…",
-    "es": "Al repostar combustible hay que…"
+    "es": "Al repostar combustible hay que…",
+    "uk": "Під час заправки ви мусите…"
    },
    "o": [
     {
      "en": "stop the engine and switch off the lights, the radio and the mobile phone",
-     "es": "parar el motor y apagar las luces, la radio y el móvil"
+     "es": "parar el motor y apagar las luces, la radio y el móvil",
+     "uk": "заглушити двигун і вимкнути світло, радіо й мобільний телефон"
     },
     {
      "en": "keep the engine running if it is cold",
-     "es": "mantener el motor en marcha si está frío"
+     "es": "mantener el motor en marcha si está frío",
+     "uk": "не глушити двигун, якщо він холодний"
     },
     {
      "en": "only switch off the engine",
-     "es": "solo apagar el motor"
+     "es": "solo apagar el motor",
+     "uk": "лише заглушити двигун"
     }
    ],
    "why": {
     "en": "Engine stopped, ignition off, lights off, electrical systems such as the radio off, and phones off.",
-    "es": "Motor parado, contacto cortado, luces apagadas, sistemas eléctricos como la radio y móviles apagados."
+    "es": "Motor parado, contacto cortado, luces apagadas, sistemas eléctricos como la radio y móviles apagados.",
+    "uk": "Двигун зупинений, запалювання вимкнене, світло вимкнене, електричні системи, як-от радіо, вимкнені, телефони вимкнені."
    }
   },
   {
@@ -302,25 +359,30 @@ window.DGT_DATA = {
    "tag": "bans",
    "q": {
     "en": "May you fit approved tinted films on the rear windows?",
-    "es": "¿Se pueden poner láminas adhesivas reglamentarias en las ventanillas posteriores?"
+    "es": "¿Se pueden poner láminas adhesivas reglamentarias en las ventanillas posteriores?",
+    "uk": "Чи можна наклеїти сертифіковану тонувальну плівку на задні вікна?"
    },
    "o": [
     {
      "en": "Yes, if the vehicle has two exterior mirrors",
-     "es": "Sí, si el vehículo lleva dos espejos retrovisores exteriores"
+     "es": "Sí, si el vehículo lleva dos espejos retrovisores exteriores",
+     "uk": "Так, якщо автомобіль має два зовнішні дзеркала"
     },
     {
      "en": "No, never",
-     "es": "No, nunca"
+     "es": "No, nunca",
+     "uk": "Ні, ніколи"
     },
     {
      "en": "Yes, and also on the windscreen",
-     "es": "Sí, y también en el parabrisas"
+     "es": "Sí, y también en el parabrisas",
+     "uk": "Так, і на лобове скло теж"
     }
    ],
    "why": {
     "en": "Films or sun blinds are allowed only on the rear windows, and only with two exterior mirrors.",
-    "es": "Las láminas o cortinillas solo se permiten en las ventanillas posteriores y con dos espejos exteriores."
+    "es": "Las láminas o cortinillas solo se permiten en las ventanillas posteriores y con dos espejos exteriores.",
+    "uk": "Плівки чи сонцезахисні шторки дозволені лише на задніх вікнах і лише з двома зовнішніми дзеркалами."
    }
   },
   {
@@ -328,25 +390,30 @@ window.DGT_DATA = {
    "tag": "parts",
    "q": {
     "en": "The road platform (<i>plataforma</i>) is made up of…",
-    "es": "La plataforma está formada por…"
+    "es": "La plataforma está formada por…",
+    "uk": "Дорожнє полотно (<i>plataforma</i>) складається з…"
    },
    "o": [
     {
      "en": "the carriageway and the hard shoulders",
-     "es": "la calzada y los arcenes"
+     "es": "la calzada y los arcenes",
+     "uk": "проїзної частини й узбіч"
     },
     {
      "en": "the carriageway only",
-     "es": "solo la calzada"
+     "es": "solo la calzada",
+     "uk": "лише проїзної частини"
     },
     {
      "en": "the carriageway, the shoulders and the median",
-     "es": "la calzada, los arcenes y la mediana"
+     "es": "la calzada, los arcenes y la mediana",
+     "uk": "проїзної частини, узбіч і розділювальної смуги"
     }
    ],
    "why": {
     "en": "Plataforma = calzada + arcenes. The median lies between two plataformas.",
-    "es": "Plataforma = calzada + arcenes. La mediana está entre dos plataformas."
+    "es": "Plataforma = calzada + arcenes. La mediana está entre dos plataformas.",
+    "uk": "Plataforma = calzada + arcenes. Розділювальна смуга лежить між двома plataformas."
    }
   },
   {
@@ -354,25 +421,30 @@ window.DGT_DATA = {
    "tag": "parts",
    "q": {
     "en": "The part of the road intended for vehicles is the…",
-    "es": "La parte de la vía destinada a la circulación de vehículos es la…"
+    "es": "La parte de la vía destinada a la circulación de vehículos es la…",
+    "uk": "Частина дороги, призначена для ТЗ, — це…"
    },
    "o": [
     {
      "en": "carriageway (<i>calzada</i>)",
-     "es": "calzada"
+     "es": "calzada",
+     "uk": "проїзна частина (<i>calzada</i>)"
     },
     {
      "en": "road platform (<i>plataforma</i>)",
-     "es": "plataforma"
+     "es": "plataforma",
+     "uk": "дорожнє полотно (<i>plataforma</i>)"
     },
     {
      "en": "hard shoulder (<i>arcén</i>)",
-     "es": "arcén"
+     "es": "arcén",
+     "uk": "узбіччя (<i>arcén</i>)"
     }
    ],
    "why": {
     "en": "The calzada is for vehicles; the arcén is not, except in exceptional cases.",
-    "es": "La calzada es para vehículos; el arcén no, salvo casos excepcionales."
+    "es": "La calzada es para vehículos; el arcén no, salvo casos excepcionales.",
+    "uk": "Calzada — для ТЗ; arcén — ні, крім виняткових випадків."
    }
   },
   {
@@ -380,25 +452,30 @@ window.DGT_DATA = {
    "tag": "parts",
    "q": {
     "en": "A lane (<i>carril</i>) is wide enough for…",
-    "es": "Un carril permite el paso de…"
+    "es": "Un carril permite el paso de…",
+    "uk": "Смуга руху (<i>carril</i>) достатньо широка для…"
    },
    "o": [
     {
      "en": "one line of automobiles that are not motorcycles",
-     "es": "una fila de automóviles que no sean motocicletas"
+     "es": "una fila de automóviles que no sean motocicletas",
+     "uk": "одного ряду automóviles, що не є мотоциклами"
     },
     {
      "en": "one line of motorcycles",
-     "es": "una fila de motocicletas"
+     "es": "una fila de motocicletas",
+     "uk": "одного ряду мотоциклів"
     },
     {
      "en": "two lines of cars",
-     "es": "dos filas de turismos"
+     "es": "dos filas de turismos",
+     "uk": "двох рядів легковиків"
     }
    ],
    "why": {
     "en": "That is the legal definition, whether or not it has lane markings.",
-    "es": "Es la definición legal, esté o no delimitado por marcas longitudinales."
+    "es": "Es la definición legal, esté o no delimitado por marcas longitudinales.",
+    "uk": "Таке законне визначення, з розміткою смуг чи без неї."
    }
   },
   {
@@ -406,25 +483,30 @@ window.DGT_DATA = {
    "tag": "parts",
    "q": {
     "en": "The median (<i>mediana</i>) is a strip…",
-    "es": "La mediana es una franja…"
+    "es": "La mediana es una franja…",
+    "uk": "Розділювальна смуга (<i>mediana</i>) — це смуга…"
    },
    "o": [
     {
      "en": "between two separate plataformas, not for traffic",
-     "es": "entre dos plataformas separadas, no destinada a la circulación"
+     "es": "entre dos plataformas separadas, no destinada a la circulación",
+     "uk": "між двома окремими plataformas, не для руху"
     },
     {
      "en": "between two lanes in the same direction",
-     "es": "entre dos carriles del mismo sentido"
+     "es": "entre dos carriles del mismo sentido",
+     "uk": "між двома смугами одного напрямку"
     },
     {
      "en": "next to the carriageway for broken-down vehicles",
-     "es": "junto a la calzada para vehículos averiados"
+     "es": "junto a la calzada para vehículos averiados",
+     "uk": "поруч із проїзною частиною для зламаних ТЗ"
     }
    ],
    "why": {
     "en": "It separates the two plataformas of a dual road.",
-    "es": "Separa las dos plataformas de una vía desdoblada."
+    "es": "Separa las dos plataformas de una vía desdoblada.",
+    "uk": "Вона розділяє дві plataformas дороги з розділеними проїзними частинами."
    }
   },
   {
@@ -432,25 +514,30 @@ window.DGT_DATA = {
    "tag": "parts",
    "q": {
     "en": "A <i>refugio</i> is…",
-    "es": "Un refugio es…"
+    "es": "Un refugio es…",
+    "uk": "<i>Refugio</i> — це…"
    },
    "o": [
     {
      "en": "a pedestrian zone on the carriageway, protected from traffic",
-     "es": "una zona peatonal situada en la calzada y protegida del tráfico"
+     "es": "una zona peatonal situada en la calzada y protegida del tráfico",
+     "uk": "зона для пішоходів на проїзній частині, захищена від руху"
     },
     {
      "en": "a raised area that channels traffic at a junction",
-     "es": "una zona elevada que canaliza el tráfico en una intersección"
+     "es": "una zona elevada que canaliza el tráfico en una intersección",
+     "uk": "піднесена ділянка, що спрямовує рух на перехресті"
     },
     {
      "en": "a lay-by to stop without blocking traffic",
-     "es": "un ensanchamiento para detenerse sin estorbar"
+     "es": "un ensanchamiento para detenerse sin estorbar",
+     "uk": "кишеня, щоб зупинитися, не заважаючи руху"
     }
    ],
    "why": {
     "en": "Refugio is for pedestrians; isleta channels traffic; apartadero is the lay-by.",
-    "es": "El refugio es para peatones; la isleta canaliza el tráfico; el apartadero es para detenerse."
+    "es": "El refugio es para peatones; la isleta canaliza el tráfico; el apartadero es para detenerse.",
+    "uk": "Refugio — для пішоходів; isleta спрямовує рух; apartadero — кишеня для зупинки."
    }
   },
   {
@@ -458,25 +545,30 @@ window.DGT_DATA = {
    "tag": "parts",
    "q": {
     "en": "A widening of the carriageway where vehicles stop without blocking traffic is a…",
-    "es": "Un ensanchamiento de la calzada para detenerse sin interceptar la circulación es un…"
+    "es": "Un ensanchamiento de la calzada para detenerse sin interceptar la circulación es un…",
+    "uk": "Розширення проїзної частини, де ТЗ зупиняються, не заважаючи руху, — це…"
    },
    "o": [
     {
      "en": "lay-by (<i>apartadero</i>)",
-     "es": "apartadero"
+     "es": "apartadero",
+     "uk": "кишеня для зупинки (<i>apartadero</i>)"
     },
     {
      "en": "emergency escape lane",
-     "es": "zona de frenado de emergencia"
+     "es": "zona de frenado de emergencia",
+     "uk": "аварійна смуга для гальмування"
     },
     {
      "en": "service road",
-     "es": "vía de servicio"
+     "es": "vía de servicio",
+     "uk": "бічний проїзд"
     }
    ],
    "why": {
     "en": "The escape lane is for brake failure; the service road runs parallel to the main road.",
-    "es": "La zona de frenado es para fallos de frenos; la vía de servicio va paralela a la carretera."
+    "es": "La zona de frenado es para fallos de frenos; la vía de servicio va paralela a la carretera.",
+    "uk": "Аварійна смуга — на випадок відмови гальм; бічний проїзд іде паралельно головній дорозі."
    }
   },
   {
@@ -484,25 +576,30 @@ window.DGT_DATA = {
    "tag": "parts",
    "q": {
     "en": "Is a “split roundabout”, where traffic crosses the central island directly, a true <i>glorieta</i>?",
-    "es": "¿Una glorieta partida, en la que el tráfico atraviesa la isleta central, es una glorieta propiamente dicha?"
+    "es": "¿Una glorieta partida, en la que el tráfico atraviesa la isleta central, es una glorieta propiamente dicha?",
+    "uk": "Чи є справжньою <i>glorieta</i> «розділена кільцева розв’язка», де рух проходить прямо через центральний острівець?"
    },
    "o": [
     {
      "en": "No",
-     "es": "No"
+     "es": "No",
+     "uk": "Ні"
     },
     {
      "en": "Yes",
-     "es": "Sí"
+     "es": "Sí",
+     "uk": "Так"
     },
     {
      "en": "Only if it has traffic lights",
-     "es": "Solo si tiene semáforos"
+     "es": "Solo si tiene semáforos",
+     "uk": "Лише якщо там є світлофори"
     }
    ],
    "why": {
     "en": "In a true glorieta traffic goes round the central island.",
-    "es": "En una glorieta el tráfico rodea la isleta central."
+    "es": "En una glorieta el tráfico rodea la isleta central.",
+    "uk": "На справжній glorieta рух іде навколо центрального острівця."
    }
   },
   {
@@ -510,25 +607,30 @@ window.DGT_DATA = {
    "tag": "cycleways",
    "q": {
     "en": "A cycle route marked on the pavement is a…",
-    "es": "Una vía ciclista señalizada sobre la acera es una…"
+    "es": "Una vía ciclista señalizada sobre la acera es una…",
+    "uk": "Велосипедний маршрут, позначений на тротуарі, — це…"
    },
    "o": [
     {
      "en": "<i>acera bici</i>",
-     "es": "acera bici"
+     "es": "acera bici",
+     "uk": "<i>acera bici</i>"
     },
     {
      "en": "<i>pista bici</i>",
-     "es": "pista bici"
+     "es": "pista bici",
+     "uk": "<i>pista bici</i>"
     },
     {
      "en": "<i>carril bici</i>",
-     "es": "carril bici"
+     "es": "carril bici",
+     "uk": "<i>carril bici</i>"
     }
    ],
    "why": {
     "en": "Acera bici = on the pavement.",
-    "es": "Acera bici = sobre la acera."
+    "es": "Acera bici = sobre la acera.",
+    "uk": "Acera bici = на тротуарі."
    }
   },
   {
@@ -536,25 +638,30 @@ window.DGT_DATA = {
    "tag": "cycleways",
    "q": {
     "en": "A <i>pista bici</i> is a cycle route…",
-    "es": "Una pista bici es una vía ciclista…"
+    "es": "Una pista bici es una vía ciclista…",
+    "uk": "<i>Pista bici</i> — це велосипедний маршрут…"
    },
    "o": [
     {
      "en": "segregated from motor traffic, on its own route away from the roads",
-     "es": "segregada del tráfico motorizado, con trazado independiente de las carreteras"
+     "es": "segregada del tráfico motorizado, con trazado independiente de las carreteras",
+     "uk": "відокремлений від механічного руху, власним шляхом подалі від доріг"
     },
     {
      "en": "alongside the carriageway",
-     "es": "adosada a la calzada"
+     "es": "adosada a la calzada",
+     "uk": "уздовж проїзної частини"
     },
     {
      "en": "shared with pedestrians through parks",
-     "es": "compartida con peatones por parques"
+     "es": "compartida con peatones por parques",
+     "uk": "спільний із пішоходами в парках"
     }
    ],
    "why": {
     "en": "The carril bici runs alongside the carriageway; the senda ciclable is shared with pedestrians.",
-    "es": "El carril bici va junto a la calzada; la senda ciclable se comparte con peatones."
+    "es": "El carril bici va junto a la calzada; la senda ciclable se comparte con peatones.",
+    "uk": "Carril bici іде вздовж проїзної частини; senda ciclable — спільна з пішоходами."
    }
   },
   {
@@ -562,25 +669,30 @@ window.DGT_DATA = {
    "tag": "cycleways",
    "q": {
     "en": "A <i>senda ciclable</i> is for…",
-    "es": "Una senda ciclable es para…"
+    "es": "Una senda ciclable es para…",
+    "uk": "<i>Senda ciclable</i> призначена для…"
    },
    "o": [
     {
      "en": "pedestrians and cycles, through parks, gardens or open spaces",
-     "es": "peatones y ciclos, por parques, jardines o espacios abiertos"
+     "es": "peatones y ciclos, por parques, jardines o espacios abiertos",
+     "uk": "пішоходів і циклів, через парки, сади чи відкриті простори"
     },
     {
      "en": "cycles only, alongside the carriageway",
-     "es": "solo ciclos, junto a la calzada"
+     "es": "solo ciclos, junto a la calzada",
+     "uk": "лише циклів, уздовж проїзної частини"
     },
     {
      "en": "cycles and mopeds",
-     "es": "ciclos y ciclomotores"
+     "es": "ciclos y ciclomotores",
+     "uk": "циклів і мопедів"
     }
    ],
    "why": {
     "en": "It is segregated from motor traffic and shared with people on foot.",
-    "es": "Está segregada del tráfico motorizado y se comparte con los peatones."
+    "es": "Está segregada del tráfico motorizado y se comparte con los peatones.",
+    "uk": "Вона відокремлена від механічного руху й спільна з пішоходами."
    }
   },
   {
@@ -588,25 +700,30 @@ window.DGT_DATA = {
    "tag": "cycleways",
    "q": {
     "en": "What makes a <i>carril bici</i> “protegido”?",
-    "es": "¿Qué hace que un carril bici sea «protegido»?"
+    "es": "¿Qué hace que un carril bici sea «protegido»?",
+    "uk": "Що робить <i>carril bici</i> «protegido» (захищеною)?"
    },
    "o": [
     {
      "en": "Side elements that physically separate it from the carriageway and the pavement",
-     "es": "Elementos laterales que lo separan físicamente de la calzada y de la acera"
+     "es": "Elementos laterales que lo separan físicamente de la calzada y de la acera",
+     "uk": "Бічні елементи, що фізично відокремлюють її від проїзної частини й тротуару"
     },
     {
      "en": "Being painted green",
-     "es": "Estar pintado de verde"
+     "es": "Estar pintado de verde",
+     "uk": "Зелене фарбування"
     },
     {
      "en": "Being one-way",
-     "es": "Ser de un solo sentido"
+     "es": "Ser de un solo sentido",
+     "uk": "Односторонній рух"
     }
    ],
    "why": {
     "en": "The protection is physical, not just paint.",
-    "es": "La protección es física, no solo pintura."
+    "es": "La protección es física, no solo pintura.",
+    "uk": "Захист фізичний, а не лише фарба."
    }
   },
   {
@@ -614,25 +731,30 @@ window.DGT_DATA = {
    "tag": "types",
    "q": {
     "en": "A <i>travesía</i> is…",
-    "es": "Una travesía es…"
+    "es": "Una travesía es…",
+    "uk": "<i>Travesía</i> — це…"
    },
    "o": [
     {
      "en": "a stretch of carretera that runs through a town",
-     "es": "un tramo de carretera que discurre por poblado"
+     "es": "un tramo de carretera que discurre por poblado",
+     "uk": "ділянка carretera, що проходить через населений пункт"
     },
     {
      "en": "any street in a town",
-     "es": "cualquier calle de una población"
+     "es": "cualquier calle de una población",
+     "uk": "будь-яка вулиця в місті"
     },
     {
      "en": "a road outside built-up areas",
-     "es": "una vía fuera de poblado"
+     "es": "una vía fuera de poblado",
+     "uk": "дорога поза населеними пунктами"
     }
    ],
    "why": {
     "en": "Urban roads are all the town’s roads except the travesías.",
-    "es": "Las vías urbanas son todas las de la población excepto las travesías."
+    "es": "Las vías urbanas son todas las de la población excepto las travesías.",
+    "uk": "Міські дороги — усі дороги населеного пункту, крім travesías."
    }
   },
   {
@@ -640,25 +762,30 @@ window.DGT_DATA = {
    "tag": "types",
    "q": {
     "en": "What distinguishes an <i>autopista</i> from an <i>autovía</i>?",
-    "es": "¿Qué diferencia una autopista de una autovía?"
+    "es": "¿Qué diferencia una autopista de una autovía?",
+    "uk": "Чим <i>autopista</i> відрізняється від <i>autovía</i>?"
    },
    "o": [
     {
      "en": "The autopista has no access from neighbouring properties; the autovía has limited access",
-     "es": "La autopista no tiene accesos desde las propiedades colindantes; la autovía los tiene limitados"
+     "es": "La autopista no tiene accesos desde las propiedades colindantes; la autovía los tiene limitados",
+     "uk": "На autopista немає виїздів із прилеглих ділянок; на autovía вони обмежені"
     },
     {
      "en": "The autovía has level crossings",
-     "es": "La autovía tiene cruces a nivel"
+     "es": "La autovía tiene cruces a nivel",
+     "uk": "На autovía є перехрестя в одному рівні"
     },
     {
      "en": "Only the autopista has separate carriageways",
-     "es": "Solo la autopista tiene calzadas separadas"
+     "es": "Solo la autopista tiene calzadas separadas",
+     "uk": "Розділені проїзні частини є лише в autopista"
     }
    ],
    "why": {
     "en": "Both have separate carriageways and no level crossings.",
-    "es": "Las dos tienen calzadas separadas y ninguna tiene cruces a nivel."
+    "es": "Las dos tienen calzadas separadas y ninguna tiene cruces a nivel.",
+    "uk": "Обидві мають розділені проїзні частини й не мають перехресть в одному рівні."
    }
   },
   {
@@ -666,25 +793,30 @@ window.DGT_DATA = {
    "tag": "types",
    "q": {
     "en": "To use an autopista or autovía, an automobile must be able to exceed…",
-    "es": "Para circular por autopista o autovía, un automóvil debe poder superar…"
+    "es": "Para circular por autopista o autovía, un automóvil debe poder superar…",
+    "uk": "Щоб їхати autopista чи autovía, automóvil мусить могти перевищити…"
    },
    "o": [
     {
      "en": "60 km/h on the flat",
-     "es": "60 km/h en llano"
+     "es": "60 km/h en llano",
+     "uk": "60 км/год на рівній дорозі"
     },
     {
      "en": "80 km/h on the flat",
-     "es": "80 km/h en llano"
+     "es": "80 km/h en llano",
+     "uk": "80 км/год на рівній дорозі"
     },
     {
      "en": "45 km/h",
-     "es": "45 km/h"
+     "es": "45 km/h",
+     "uk": "45 км/год"
     }
    ],
    "why": {
     "en": "The threshold is 60 km/h on level ground.",
-    "es": "El umbral es 60 km/h en llano."
+    "es": "El umbral es 60 km/h en llano.",
+    "uk": "Межа — 60 км/год на рівній дорозі."
    }
   },
   {
@@ -692,25 +824,30 @@ window.DGT_DATA = {
    "tag": "types",
    "q": {
     "en": "May a 16-year-old cyclist ride on an <i>autovía</i>?",
-    "es": "¿Puede un ciclista de 16 años circular por una autovía?"
+    "es": "¿Puede un ciclista de 16 años circular por una autovía?",
+    "uk": "Чи може 16-річний велосипедист їхати <i>autovía</i>?"
    },
    "o": [
     {
      "en": "Yes, on the hard shoulder, unless signs forbid it",
-     "es": "Sí, por el arcén, salvo prohibición señalizada"
+     "es": "Sí, por el arcén, salvo prohibición señalizada",
+     "uk": "Так, узбіччям, якщо знаки не забороняють"
     },
     {
      "en": "No, cycles are always forbidden",
-     "es": "No, los ciclos están siempre prohibidos"
+     "es": "No, los ciclos están siempre prohibidos",
+     "uk": "Ні, цикли завжди заборонені"
     },
     {
      "en": "Yes, in the right-hand lane",
-     "es": "Sí, por el carril derecho"
+     "es": "Sí, por el carril derecho",
+     "uk": "Так, правою смугою"
     }
    ],
    "why": {
     "en": "Cyclists over 14 may use the shoulder of an autovía, never of an autopista.",
-    "es": "Los ciclistas mayores de 14 años pueden usar el arcén de la autovía, nunca el de la autopista."
+    "es": "Los ciclistas mayores de 14 años pueden usar el arcén de la autovía, nunca el de la autopista.",
+    "uk": "Велосипедисти старші 14 років можуть їхати узбіччям autovía, але ніколи — autopista."
    }
   },
   {
@@ -718,25 +855,30 @@ window.DGT_DATA = {
    "tag": "types",
    "q": {
     "en": "Which of these may never use an autopista?",
-    "es": "¿Cuál de estos no puede circular nunca por autopista?"
+    "es": "¿Cuál de estos no puede circular nunca por autopista?",
+    "uk": "Що з цього ніколи не може їхати autopista?"
    },
    "o": [
     {
      "en": "A moped",
-     "es": "Un ciclomotor"
+     "es": "Un ciclomotor",
+     "uk": "Мопед"
     },
     {
      "en": "A car towing a light trailer",
-     "es": "Un turismo con remolque ligero"
+     "es": "Un turismo con remolque ligero",
+     "uk": "Легковик із легким причепом"
     },
     {
      "en": "A motorcycle",
-     "es": "Una motocicleta"
+     "es": "Una motocicleta",
+     "uk": "Мотоцикл"
     }
    ],
    "why": {
     "en": "Mopeds are on the forbidden list with pedestrians, cycles, VMP and animals.",
-    "es": "Los ciclomotores están en la lista de prohibidos junto a peatones, ciclos, VMP y animales."
+    "es": "Los ciclomotores están en la lista de prohibidos junto a peatones, ciclos, VMP y animales.",
+    "uk": "Мопеди — у списку заборонених разом із пішоходами, циклами, VMP і тваринами."
    }
   },
   {
@@ -744,25 +886,30 @@ window.DGT_DATA = {
    "tag": "types",
    "q": {
     "en": "A road reserved for automobiles, with a single carriageway and no access to neighbouring properties, is a…",
-    "es": "Una vía reservada a automóviles, con una sola calzada y sin accesos a las propiedades colindantes, es una…"
+    "es": "Una vía reservada a automóviles, con una sola calzada y sin accesos a las propiedades colindantes, es una…",
+    "uk": "Дорога лише для automóviles з однією проїзною частиною й без виїздів із прилеглих ділянок — це…"
    },
    "o": [
     {
      "en": "<i>vía para automóviles</i>",
-     "es": "vía para automóviles"
+     "es": "vía para automóviles",
+     "uk": "<i>vía para automóviles</i>"
     },
     {
      "en": "<i>autovía</i>",
-     "es": "autovía"
+     "es": "autovía",
+     "uk": "<i>autovía</i>"
     },
     {
      "en": "<i>carretera convencional</i>",
-     "es": "carretera convencional"
+     "es": "carretera convencional",
+     "uk": "<i>carretera convencional</i>"
     }
    ],
    "why": {
     "en": "Single carriageway is the key: autovías have separate carriageways.",
-    "es": "La clave es la calzada única: las autovías tienen calzadas separadas."
+    "es": "La clave es la calzada única: las autovías tienen calzadas separadas.",
+    "uk": "Головне — одна проїзна частина: autovías мають розділені."
    }
   },
   {
@@ -770,25 +917,30 @@ window.DGT_DATA = {
    "tag": "lanes",
    "q": {
     "en": "On a two-way road with two lanes, you normally drive…",
-    "es": "En una calzada de doble sentido con dos carriles se circula normalmente…"
+    "es": "En una calzada de doble sentido con dos carriles se circula normalmente…",
+    "uk": "На дорозі з двостороннім рухом і двома смугами ви зазвичай їдете…"
    },
    "o": [
     {
      "en": "in the right-hand lane",
-     "es": "por el carril derecho"
+     "es": "por el carril derecho",
+     "uk": "правою смугою"
     },
     {
      "en": "in either lane",
-     "es": "por cualquiera de los dos"
+     "es": "por cualquiera de los dos",
+     "uk": "будь-якою смугою"
     },
     {
      "en": "in the left-hand lane if it is free",
-     "es": "por el izquierdo si está libre"
+     "es": "por el izquierdo si está libre",
+     "uk": "лівою смугою, якщо вона вільна"
     }
    ],
    "why": {
     "en": "Whether or not the lanes are marked, in or out of town.",
-    "es": "Estén o no delimitados, dentro o fuera de poblado."
+    "es": "Estén o no delimitados, dentro o fuera de poblado.",
+    "uk": "З розміткою смуг чи без, у населеному пункті чи поза ним."
    }
   },
   {
@@ -796,25 +948,30 @@ window.DGT_DATA = {
    "tag": "lanes",
    "q": {
     "en": "Two-way road with three lanes separated by broken lines. The centre lane may be used…",
-    "es": "Calzada de doble sentido con tres carriles separados por líneas discontinuas. El carril central se puede usar…"
+    "es": "Calzada de doble sentido con tres carriles separados por líneas discontinuas. El carril central se puede usar…",
+    "uk": "Дорога з двостороннім рухом і трьома смугами, розділеними переривчастими лініями. Середньою смугою можна користуватися…"
    },
    "o": [
     {
      "en": "only to overtake or to turn left",
-     "es": "solo para adelantar o girar a la izquierda"
+     "es": "solo para adelantar o girar a la izquierda",
+     "uk": "лише для обгону чи повороту ліворуч"
     },
     {
      "en": "freely in both directions",
-     "es": "libremente en ambos sentidos"
+     "es": "libremente en ambos sentidos",
+     "uk": "вільно в обох напрямках"
     },
     {
      "en": "never",
-     "es": "nunca"
+     "es": "nunca",
+     "uk": "ніколи"
     }
    ],
    "why": {
     "en": "You drive in the right-hand lane; the centre one is for overtaking or turning left.",
-    "es": "Se circula por el derecho; el central es para adelantar o girar a la izquierda."
+    "es": "Se circula por el derecho; el central es para adelantar o girar a la izquierda.",
+    "uk": "Їдуть правою смугою; середня — для обгону чи повороту ліворуч."
    }
   },
   {
@@ -822,25 +979,30 @@ window.DGT_DATA = {
    "tag": "lanes",
    "q": {
     "en": "On that same road (two-way, three lanes), may you drive in the left-hand lane?",
-    "es": "En esa misma calzada (doble sentido, tres carriles), ¿se puede circular por el carril izquierdo?"
+    "es": "En esa misma calzada (doble sentido, tres carriles), ¿se puede circular por el carril izquierdo?",
+    "uk": "Чи можна на тій самій дорозі (двосторонній рух, три смуги) їхати лівою смугою?"
    },
    "o": [
     {
      "en": "No, never",
-     "es": "No, nunca"
+     "es": "No, nunca",
+     "uk": "Ні, ніколи"
     },
     {
      "en": "Yes, to overtake",
-     "es": "Sí, para adelantar"
+     "es": "Sí, para adelantar",
+     "uk": "Так, для обгону"
     },
     {
      "en": "Yes, if the centre lane is busy",
-     "es": "Sí, si el central está ocupado"
+     "es": "Sí, si el central está ocupado",
+     "uk": "Так, якщо середня зайнята"
     }
    ],
    "why": {
     "en": "The left-hand lane belongs to the opposite direction.",
-    "es": "El carril izquierdo corresponde al sentido contrario."
+    "es": "El carril izquierdo corresponde al sentido contrario.",
+    "uk": "Ліва смуга належить зустрічному напрямку."
    }
   },
   {
@@ -848,25 +1010,30 @@ window.DGT_DATA = {
    "tag": "lanes",
    "q": {
     "en": "Interurban one-way carriageway with three lanes. A truck with an MMA over 3,500 kg uses…",
-    "es": "Calzada interurbana de sentido único con tres carriles. Un camión de más de 3.500 kg de MMA circula por…"
+    "es": "Calzada interurbana de sentido único con tres carriles. Un camión de más de 3.500 kg de MMA circula por…",
+    "uk": "Заміська проїзна частина з одностороннім рухом і трьома смугами. Вантажівка з MMA понад 3 500 кг їде…"
    },
    "o": [
     {
      "en": "the right-hand lane, and exceptionally the next one",
-     "es": "el carril derecho y, excepcionalmente, el inmediato"
+     "es": "el carril derecho y, excepcionalmente, el inmediato",
+     "uk": "правою смугою, а у виняткових випадках — сусідньою"
     },
     {
      "en": "any lane",
-     "es": "cualquier carril"
+     "es": "cualquier carril",
+     "uk": "будь-якою смугою"
     },
     {
      "en": "the left-hand lane to overtake",
-     "es": "el izquierdo para adelantar"
+     "es": "el izquierdo para adelantar",
+     "uk": "лівою смугою для обгону"
     }
    ],
    "why": {
     "en": "Never the remaining lanes.",
-    "es": "Nunca por los restantes."
+    "es": "Nunca por los restantes.",
+    "uk": "Рештою смуг — ніколи."
    }
   },
   {
@@ -874,25 +1041,30 @@ window.DGT_DATA = {
    "tag": "lanes",
    "q": {
     "en": "On an interurban carriageway with three lanes in its direction, which combination is limited to the right lane and the next one?",
-    "es": "En una calzada interurbana con tres carriles en su sentido, ¿qué conjunto está limitado al carril derecho y su contiguo?"
+    "es": "En una calzada interurbana con tres carriles en su sentido, ¿qué conjunto está limitado al carril derecho y su contiguo?",
+    "uk": "На заміській проїзній частині з трьома смугами в одному напрямку який состав обмежений правою й сусідньою смугою?"
    },
    "o": [
     {
      "en": "A combination over 7 m long",
-     "es": "Un conjunto de más de 7 m de longitud"
+     "es": "Un conjunto de más de 7 m de longitud",
+     "uk": "Состав довжиною понад 7 м"
     },
     {
      "en": "Only a combination over 10 m long",
-     "es": "Solo un conjunto de más de 10 m"
+     "es": "Solo un conjunto de más de 10 m",
+     "uk": "Лише состав понад 10 м"
     },
     {
      "en": "Only a combination over 12 m long",
-     "es": "Solo un conjunto de más de 12 m"
+     "es": "Solo un conjunto de más de 12 m",
+     "uk": "Лише состав понад 12 м"
     }
    ],
    "why": {
     "en": "7 m for lane use; 10 m is the threshold for the 50 m safety distance.",
-    "es": "7 m para la utilización de carriles; 10 m es el umbral de la distancia de 50 m."
+    "es": "7 m para la utilización de carriles; 10 m es el umbral de la distancia de 50 m.",
+    "uk": "7 м — для користування смугами; 10 м — межа для безпечної дистанції 50 м."
    }
   },
   {
@@ -900,25 +1072,30 @@ window.DGT_DATA = {
    "tag": "lanes",
    "q": {
     "en": "In town, on a one-way street with marked lanes, a car uses…",
-    "es": "En poblado, en una calzada de sentido único con carriles delimitados, un turismo circula por…"
+    "es": "En poblado, en una calzada de sentido único con carriles delimitados, un turismo circula por…",
+    "uk": "У населеному пункті на вулиці з одностороннім рухом і розміченими смугами легковик їде…"
    },
    "o": [
     {
      "en": "the lane that best suits its destination",
-     "es": "el carril que mejor convenga a su destino"
+     "es": "el carril que mejor convenga a su destino",
+     "uk": "смугою, що найкраще підходить для його напрямку"
     },
     {
      "en": "always the right-hand lane",
-     "es": "siempre el carril derecho"
+     "es": "siempre el carril derecho",
+     "uk": "завжди правою смугою"
     },
     {
      "en": "always the left-hand lane",
-     "es": "siempre el carril izquierdo"
+     "es": "siempre el carril izquierdo",
+     "uk": "завжди лівою смугою"
     }
    ],
    "why": {
     "en": "Without hindering others, and leaving it only to turn, overtake, stop or park.",
-    "es": "Sin estorbar, y abandonándolo solo para girar, adelantar, parar o estacionar."
+    "es": "Sin estorbar, y abandonándolo solo para girar, adelantar, parar o estacionar.",
+    "uk": "Не заважаючи іншим і покидаючи її лише для повороту, обгону, зупинки чи стоянки."
    }
   },
   {
@@ -926,25 +1103,30 @@ window.DGT_DATA = {
    "tag": "lanes",
    "q": {
     "en": "On an autovía that runs through urban land, you normally drive…",
-    "es": "En una autovía que discurre por suelo urbano se circula normalmente…"
+    "es": "En una autovía que discurre por suelo urbano se circula normalmente…",
+    "uk": "На autovía, що проходить міською територією, ви зазвичай їдете…"
    },
    "o": [
     {
      "en": "in the rightmost lane, using the others to overtake",
-     "es": "por el carril de más a la derecha, usando los demás para adelantar"
+     "es": "por el carril de más a la derecha, usando los demás para adelantar",
+     "uk": "крайньою правою смугою, іншими — для обгону"
     },
     {
      "en": "in the lane that best suits your destination",
-     "es": "por el carril que mejor convenga al destino"
+     "es": "por el carril que mejor convenga al destino",
+     "uk": "смугою, що найкраще підходить для вашого напрямку"
     },
     {
      "en": "in any lane",
-     "es": "por cualquier carril"
+     "es": "por cualquier carril",
+     "uk": "будь-якою смугою"
     }
    ],
    "why": {
     "en": "The “best for your destination” rule does not apply on autopistas and autovías.",
-    "es": "La regla del carril que mejor convenga no se aplica en autopistas y autovías."
+    "es": "La regla del carril que mejor convenga no se aplica en autopistas y autovías.",
+    "uk": "Правило «найкраща для вашого напрямку» не діє на autopistas і autovías."
    }
   },
   {
@@ -952,25 +1134,30 @@ window.DGT_DATA = {
    "tag": "position",
    "q": {
     "en": "Islands that separate the two directions of traffic are passed…",
-    "es": "Las isletas que separan los dos sentidos de circulación se rebasan…"
+    "es": "Las isletas que separan los dos sentidos de circulación se rebasan…",
+    "uk": "Острівці, що розділяють два напрямки руху, об’їжджають…"
    },
    "o": [
     {
      "en": "on their right, leaving them on your left",
-     "es": "por su derecha, dejándolas a la izquierda"
+     "es": "por su derecha, dejándolas a la izquierda",
+     "uk": "праворуч від них, лишаючи їх ліворуч"
     },
     {
      "en": "on either side",
-     "es": "por cualquier lado"
+     "es": "por cualquier lado",
+     "uk": "з будь-якого боку"
     },
     {
      "en": "on their left",
-     "es": "por su izquierda"
+     "es": "por su izquierda",
+     "uk": "ліворуч від них"
     }
    ],
    "why": {
     "en": "Passing on their left would put you in the opposite direction.",
-    "es": "Pasar por su izquierda sería invadir el sentido contrario."
+    "es": "Pasar por su izquierda sería invadir el sentido contrario.",
+    "uk": "Об’їзд ліворуч вивів би вас на зустрічний напрямок."
    }
   },
   {
@@ -978,25 +1165,30 @@ window.DGT_DATA = {
    "tag": "position",
    "q": {
     "en": "An island on a one-way road may be passed…",
-    "es": "Una isleta en una vía de sentido único se puede rebasar…"
+    "es": "Una isleta en una vía de sentido único se puede rebasar…",
+    "uk": "Острівець на дорозі з одностороннім рухом можна об’їжджати…"
    },
    "o": [
     {
      "en": "on either side",
-     "es": "por cualquiera de los dos lados"
+     "es": "por cualquiera de los dos lados",
+     "uk": "з будь-якого боку"
     },
     {
      "en": "only on the right",
-     "es": "solo por la derecha"
+     "es": "solo por la derecha",
+     "uk": "лише праворуч"
     },
     {
      "en": "only on the left",
-     "es": "solo por la izquierda"
+     "es": "solo por la izquierda",
+     "uk": "лише ліворуч"
     }
    ],
    "why": {
     "en": "With a single direction, both sides are allowed.",
-    "es": "Con un solo sentido se permiten ambos lados."
+    "es": "Con un solo sentido se permiten ambos lados.",
+    "uk": "Коли напрямок один, дозволено обидва боки."
    }
   },
   {
@@ -1004,25 +1196,30 @@ window.DGT_DATA = {
    "tag": "position",
    "q": {
     "en": "In squares, roundabouts and junctions you go round leaving the centre…",
-    "es": "En plazas, glorietas e intersecciones se circula dejando el centro…"
+    "es": "En plazas, glorietas e intersecciones se circula dejando el centro…",
+    "uk": "Площі, кільцеві розв’язки й перехрестя об’їжджають, лишаючи центр…"
    },
    "o": [
     {
      "en": "on your left",
-     "es": "a la izquierda"
+     "es": "a la izquierda",
+     "uk": "ліворуч від себе"
     },
     {
      "en": "on your right",
-     "es": "a la derecha"
+     "es": "a la derecha",
+     "uk": "праворуч від себе"
     },
     {
      "en": "on either side depending on your exit",
-     "es": "a un lado u otro según la salida"
+     "es": "a un lado u otro según la salida",
+     "uk": "з будь-якого боку залежно від виїзду"
     }
    ],
    "why": {
     "en": "The centre always stays on the left.",
-    "es": "El centro siempre queda a la izquierda."
+    "es": "El centro siempre queda a la izquierda.",
+    "uk": "Центр завжди лишається ліворуч."
    }
   },
   {
@@ -1030,25 +1227,30 @@ window.DGT_DATA = {
    "tag": "position",
    "q": {
     "en": "Roundabout on an interurban road with two marked lanes. Normally you use…",
-    "es": "Glorieta en vía interurbana con dos carriles delimitados. Normalmente se circula por…"
+    "es": "Glorieta en vía interurbana con dos carriles delimitados. Normalmente se circula por…",
+    "uk": "Кільцева розв’язка на заміській дорозі з двома розміченими смугами. Зазвичай ви їдете…"
    },
    "o": [
     {
      "en": "the lane nearest the right (the outer lane)",
-     "es": "el carril más próximo a la derecha (exterior)"
+     "es": "el carril más próximo a la derecha (exterior)",
+     "uk": "смугою, найближчою до правого краю (зовнішньою)"
     },
     {
      "en": "the inner lane",
-     "es": "el carril interior"
+     "es": "el carril interior",
+     "uk": "внутрішньою смугою"
     },
     {
      "en": "whichever suits your exit",
-     "es": "el que convenga a la salida"
+     "es": "el que convenga a la salida",
+     "uk": "тією, що підходить до вашого виїзду"
     }
    ],
    "why": {
     "en": "The others only when traffic or the road advise it, without hindering anyone.",
-    "es": "Los demás solo cuando lo aconsejen el tráfico o la vía, sin estorbar."
+    "es": "Los demás solo cuando lo aconsejen el tráfico o la vía, sin estorbar.",
+    "uk": "Іншими — лише коли цього вимагають рух чи дорога, нікому не заважаючи."
    }
   },
   {
@@ -1056,25 +1258,30 @@ window.DGT_DATA = {
    "tag": "position",
    "q": {
     "en": "Roundabout in town with two marked lanes:",
-    "es": "Glorieta en vía urbana con dos carriles delimitados:"
+    "es": "Glorieta en vía urbana con dos carriles delimitados:",
+    "uk": "Кільцева розв’язка в населеному пункті з двома розміченими смугами:"
    },
    "o": [
     {
      "en": "the lane that best suits your destination, never cutting across a vehicle in an outer lane",
-     "es": "el carril que mejor convenga al destino, sin cortar la trayectoria de quien va por un carril exterior"
+     "es": "el carril que mejor convenga al destino, sin cortar la trayectoria de quien va por un carril exterior",
+     "uk": "смуга, що найкраще підходить для вашого напрямку, ніколи не перетинаючи шлях ТЗ на зовнішній смузі"
     },
     {
      "en": "always the outer lane",
-     "es": "siempre el exterior"
+     "es": "siempre el exterior",
+     "uk": "завжди зовнішня смуга"
     },
     {
      "en": "always the inner lane",
-     "es": "siempre el interior"
+     "es": "siempre el interior",
+     "uk": "завжди внутрішня смуга"
     }
    ],
    "why": {
     "en": "In urban roundabouts you choose by destination.",
-    "es": "En glorietas urbanas se elige según el destino."
+    "es": "En glorietas urbanas se elige según el destino.",
+    "uk": "На міських кільцевих розв’язках смугу обирають за напрямком."
    }
   },
   {
@@ -1082,25 +1289,30 @@ window.DGT_DATA = {
    "tag": "reserved",
    "q": {
     "en": "On an uphill stretch with a minimum-speed lane, who may use the lane carrying the minimum-speed sign?",
-    "es": "En una subida con carril de velocidad mínima, ¿quién puede usar el carril con la señal de velocidad mínima?"
+    "es": "En una subida con carril de velocidad mínima, ¿quién puede usar el carril con la señal de velocidad mínima?",
+    "uk": "Хто може їхати смугою зі знаком мінімальної швидкості на підйомі зі смугою для мінімальної швидкості?"
    },
    "o": [
     {
      "en": "Only vehicles going at or above the signed speed",
-     "es": "Solo los que circulen a esa velocidad o superior"
+     "es": "Solo los que circulen a esa velocidad o superior",
+     "uk": "Лише ТЗ, що їдуть із вказаною швидкістю чи швидше"
     },
     {
      "en": "Only slow vehicles",
-     "es": "Solo los vehículos lentos"
+     "es": "Solo los vehículos lentos",
+     "uk": "Лише повільні ТЗ"
     },
     {
      "en": "Any vehicle",
-     "es": "Cualquier vehículo"
+     "es": "Cualquier vehículo",
+     "uk": "Будь-який ТЗ"
     }
    ],
    "why": {
     "en": "And even they should keep right when circumstances allow.",
-    "es": "Y aun así deben ir por la derecha si las circunstancias lo permiten."
+    "es": "Y aun así deben ir por la derecha si las circunstancias lo permiten.",
+    "uk": "І навіть вони мають триматися правіше, коли дозволяють обставини."
    }
   },
   {
@@ -1108,25 +1320,30 @@ window.DGT_DATA = {
    "tag": "reserved",
    "q": {
     "en": "Do minimum-speed lanes count when counting lanes?",
-    "es": "¿Se computan los carriles de velocidad mínima?"
+    "es": "¿Se computan los carriles de velocidad mínima?",
+    "uk": "Чи враховуються смуги з мінімальною швидкістю, коли рахують смуги?"
    },
    "o": [
     {
      "en": "Yes",
-     "es": "Sí"
+     "es": "Sí",
+     "uk": "Так"
     },
     {
      "en": "No",
-     "es": "No"
+     "es": "No",
+     "uk": "Ні"
     },
     {
      "en": "Only for trucks",
-     "es": "Solo para camiones"
+     "es": "Solo para camiones",
+     "uk": "Лише для вантажівок"
     }
    ],
    "why": {
     "en": "They count; bus, bike, acceleration, deceleration and waiting lanes do not.",
-    "es": "Sí cuentan; los de bus, bici, aceleración, deceleración y espera no."
+    "es": "Sí cuentan; los de bus, bici, aceleración, deceleración y espera no.",
+    "uk": "Враховуються; автобусні, велосипедні смуги, смуги розгону, гальмування й очікування — ні."
    }
   },
   {
@@ -1134,25 +1351,30 @@ window.DGT_DATA = {
    "tag": "reserved",
    "q": {
     "en": "A bus lane whose sign also says TAXI may be used by…",
-    "es": "Un carril bus cuya señal incluye la palabra TAXI lo pueden usar…"
+    "es": "Un carril bus cuya señal incluye la palabra TAXI lo pueden usar…",
+    "uk": "Автобусною смугою, знак якої має ще й напис TAXI, можуть їхати…"
    },
    "o": [
     {
      "en": "buses and taxis",
-     "es": "autobuses y taxis"
+     "es": "autobuses y taxis",
+     "uk": "автобуси й таксі"
     },
     {
      "en": "only taxis",
-     "es": "solo los taxis"
+     "es": "solo los taxis",
+     "uk": "лише таксі"
     },
     {
      "en": "any car with passengers",
-     "es": "cualquier turismo con pasajeros"
+     "es": "cualquier turismo con pasajeros",
+     "uk": "будь-який легковик із пасажирами"
     }
    ],
    "why": {
     "en": "The word TAXI adds taxis to the buses.",
-    "es": "La palabra TAXI añade los taxis a los autobuses."
+    "es": "La palabra TAXI añade los taxis a los autobuses.",
+    "uk": "Слово TAXI додає до автобусів таксі."
    }
   },
   {
@@ -1160,25 +1382,30 @@ window.DGT_DATA = {
    "tag": "reserved",
    "q": {
     "en": "At a broken-line stretch of a bus lane, a car may cross it to…",
-    "es": "En un tramo discontinuo del carril bus, un turismo puede cruzarlo para…"
+    "es": "En un tramo discontinuo del carril bus, un turismo puede cruzarlo para…",
+    "uk": "На ділянці автобусної смуги з переривчастою лінією легковик може перетнути її, щоб…"
    },
    "o": [
     {
      "en": "turn right",
-     "es": "girar a la derecha"
+     "es": "girar a la derecha",
+     "uk": "повернути праворуч"
     },
     {
      "en": "park",
-     "es": "estacionar"
+     "es": "estacionar",
+     "uk": "поставити автомобіль на стоянку"
     },
     {
      "en": "overtake",
-     "es": "adelantar"
+     "es": "adelantar",
+     "uk": "обігнати"
     }
    ],
    "why": {
     "en": "Not to stop, park, turn round or overtake; and giving way to buses and taxis.",
-    "es": "No para parar, estacionar, cambiar de sentido o adelantar; y cediendo el paso a autobuses y taxis."
+    "es": "No para parar, estacionar, cambiar de sentido o adelantar; y cediendo el paso a autobuses y taxis.",
+    "uk": "Не для зупинки, стоянки, розвороту чи обгону; і поступаючись автобусам і таксі."
    }
   },
   {
@@ -1186,25 +1413,30 @@ window.DGT_DATA = {
    "tag": "reserved",
    "q": {
     "en": "As a general rule, the minimum number of occupants in a VAO lane is…",
-    "es": "Como norma general, el número mínimo de ocupantes en un carril VAO es…"
+    "es": "Como norma general, el número mínimo de ocupantes en un carril VAO es…",
+    "uk": "Як правило, мінімальна кількість людей на смузі VAO —"
    },
    "o": [
     {
      "en": "two, driver included",
-     "es": "dos, incluido el conductor"
+     "es": "dos, incluido el conductor",
+     "uk": "двоє, разом із водієм"
     },
     {
      "en": "three, driver included",
-     "es": "tres, incluido el conductor"
+     "es": "tres, incluido el conductor",
+     "uk": "троє, разом із водієм"
     },
     {
      "en": "two besides the driver",
-     "es": "dos además del conductor"
+     "es": "dos además del conductor",
+     "uk": "двоє, крім водія"
     }
    ],
    "why": {
     "en": "Each stretch may set its own number, but the general minimum is two.",
-    "es": "Cada tramo puede fijar el suyo, pero el mínimo general es dos."
+    "es": "Cada tramo puede fijar el suyo, pero el mínimo general es dos.",
+    "uk": "Кожна ділянка може встановити своє число, але загальний мінімум — двоє."
    }
   },
   {
@@ -1212,25 +1444,30 @@ window.DGT_DATA = {
    "tag": "reserved",
    "q": {
     "en": "Which vehicle may use a VAO lane whatever its number of occupants?",
-    "es": "¿Qué vehículo puede usar el carril VAO con independencia de sus ocupantes?"
+    "es": "¿Qué vehículo puede usar el carril VAO con independencia de sus ocupantes?",
+    "uk": "Який ТЗ може їхати смугою VAO за будь-якої кількості людей?"
    },
    "o": [
     {
      "en": "A taxi",
-     "es": "Un taxi"
+     "es": "Un taxi",
+     "uk": "Таксі"
     },
     {
      "en": "A car towing a trailer",
-     "es": "Un turismo con remolque"
+     "es": "Un turismo con remolque",
+     "uk": "Легковик із причепом"
     },
     {
      "en": "A van",
-     "es": "Una furgoneta"
+     "es": "Una furgoneta",
+     "uk": "Фургон"
     }
    ],
    "why": {
     "en": "Taxis and buses over 3.5 t may use it whatever their occupancy; cars with trailers and vans are forbidden.",
-    "es": "Taxis y autobuses de más de 3,5 t pueden usarlo sea cual sea su ocupación; turismos con remolque y furgonetas, no."
+    "es": "Taxis y autobuses de más de 3,5 t pueden usarlo sea cual sea su ocupación; turismos con remolque y furgonetas, no.",
+    "uk": "Таксі й автобуси понад 3,5 т можуть їхати нею за будь-якої кількості людей; легковикам із причепами й фургонам заборонено."
    }
   },
   {
@@ -1238,25 +1475,30 @@ window.DGT_DATA = {
    "tag": "reserved",
    "q": {
     "en": "A car with the ECO label and only the driver on board may use a VAO lane…",
-    "es": "Un turismo con distintivo ECO y solo el conductor puede usar el carril VAO…"
+    "es": "Un turismo con distintivo ECO y solo el conductor puede usar el carril VAO…",
+    "uk": "Легковик із наліпкою ECO, у якому лише водій, може їхати смугою VAO…"
    },
    "o": [
     {
      "en": "only when the variable-message panels allow it",
-     "es": "solo cuando lo indiquen los paneles de mensaje variable"
+     "es": "solo cuando lo indiquen los paneles de mensaje variable",
+     "uk": "лише коли це дозволяють табло зі змінною інформацією"
     },
     {
      "en": "always",
-     "es": "siempre"
+     "es": "siempre",
+     "uk": "завжди"
     },
     {
      "en": "never",
-     "es": "nunca"
+     "es": "nunca",
+     "uk": "ніколи"
     }
    ],
    "why": {
     "en": "Since 2026 cars with environmental labels depend on what the panels say.",
-    "es": "Desde 2026 los turismos con distintivo dependen de lo que indiquen los paneles."
+    "es": "Desde 2026 los turismos con distintivo dependen de lo que indiquen los paneles.",
+    "uk": "З 2026 року легковики з екологічними наліпками залежать від того, що показують табло."
    }
   },
   {
@@ -1264,25 +1506,30 @@ window.DGT_DATA = {
    "tag": "reserved",
    "q": {
     "en": "On an acceleration lane you must…",
-    "es": "En un carril de aceleración hay que…"
+    "es": "En un carril de aceleración hay que…",
+    "uk": "На смузі розгону ви мусите…"
    },
    "o": [
     {
      "en": "check at its start that you can merge safely, stopping if necessary",
-     "es": "cerciorarse al principio de que se puede entrar sin peligro, llegando a detenerse si es necesario"
+     "es": "cerciorarse al principio de que se puede entrar sin peligro, llegando a detenerse si es necesario",
+     "uk": "ще на її початку переконатися, що можете безпечно влитися, і за потреби зупинитися"
     },
     {
      "en": "merge at the start of the lane at any speed",
-     "es": "incorporarse al principio del carril a cualquier velocidad"
+     "es": "incorporarse al principio del carril a cualquier velocidad",
+     "uk": "вливатися на початку смуги з будь-якою швидкістю"
     },
     {
      "en": "take priority over the main carriageway",
-     "es": "tener prioridad sobre la calzada principal"
+     "es": "tener prioridad sobre la calzada principal",
+     "uk": "мати перевагу над основною проїзною частиною"
     }
    ],
    "why": {
     "en": "Those already on the main carriageway have priority.",
-    "es": "La prioridad es de quienes circulan por la calzada principal."
+    "es": "La prioridad es de quienes circulan por la calzada principal.",
+    "uk": "Перевагу мають ті, хто вже на основній проїзній частині."
    }
   },
   {
@@ -1290,25 +1537,30 @@ window.DGT_DATA = {
    "tag": "reserved",
    "q": {
     "en": "To leave a motorway with a deceleration lane, you slow down…",
-    "es": "Para salir de una autopista con carril de deceleración, se reduce la velocidad…"
+    "es": "Para salir de una autopista con carril de deceleración, se reduce la velocidad…",
+    "uk": "Щоб з’їхати з автомагістралі зі смугою гальмування, ви знижуєте швидкість…"
    },
    "o": [
     {
      "en": "inside the deceleration lane, after entering it as soon as possible",
-     "es": "dentro del carril de deceleración, tras entrar en él cuanto antes"
+     "es": "dentro del carril de deceleración, tras entrar en él cuanto antes",
+     "uk": "на смузі гальмування, перестроївшись на неї якомога раніше"
     },
     {
      "en": "on the main carriageway before the exit",
-     "es": "en la calzada principal antes de la salida"
+     "es": "en la calzada principal antes de la salida",
+     "uk": "на основній проїзній частині перед з’їздом"
     },
     {
      "en": "on the hard shoulder",
-     "es": "en el arcén"
+     "es": "en el arcén",
+     "uk": "на узбіччі"
     }
    ],
    "why": {
     "en": "Slowing on the main carriageway would hinder the traffic behind you.",
-    "es": "Frenar en la calzada principal entorpecería a los que vienen detrás."
+    "es": "Frenar en la calzada principal entorpecería a los que vienen detrás.",
+    "uk": "Гальмування на основній проїзній частині заважало б тим, хто позаду."
    }
   },
   {
@@ -1316,25 +1568,30 @@ window.DGT_DATA = {
    "tag": "reserved",
    "q": {
     "en": "Which lane is NOT counted when counting lanes?",
-    "es": "¿Qué carril NO se computa?"
+    "es": "¿Qué carril NO se computa?",
+    "uk": "Яка смуга НЕ враховується, коли рахують смуги?"
    },
    "o": [
     {
      "en": "An acceleration lane",
-     "es": "Un carril de aceleración"
+     "es": "Un carril de aceleración",
+     "uk": "Смуга розгону"
     },
     {
      "en": "A minimum-speed lane",
-     "es": "Un carril de velocidad mínima"
+     "es": "Un carril de velocidad mínima",
+     "uk": "Смуга з мінімальною швидкістю"
     },
     {
      "en": "An ordinary lane",
-     "es": "Un carril normal"
+     "es": "Un carril normal",
+     "uk": "Звичайна смуга"
     }
    ],
    "why": {
     "en": "Lanes reserved for certain vehicles or manoeuvres are left out.",
-    "es": "Se excluyen los reservados a determinados vehículos o maniobras."
+    "es": "Se excluyen los reservados a determinados vehículos o maniobras.",
+    "uk": "Смуги, відведені для окремих ТЗ чи маневрів, не рахують."
    }
   },
   {
@@ -1342,25 +1599,30 @@ window.DGT_DATA = {
    "tag": "flow",
    "q": {
     "en": "A reversible lane is marked by…",
-    "es": "Un carril reversible se identifica por…"
+    "es": "Un carril reversible se identifica por…",
+    "uk": "Реверсивну смугу позначають…"
    },
    "o": [
     {
      "en": "double broken lines on both sides",
-     "es": "dobles líneas discontinuas a ambos lados"
+     "es": "dobles líneas discontinuas a ambos lados",
+     "uk": "подвійні переривчасті лінії з обох боків"
     },
     {
      "en": "a single continuous line",
-     "es": "una línea continua"
+     "es": "una línea continua",
+     "uk": "одна суцільна лінія"
     },
     {
      "en": "traffic cones",
-     "es": "conos"
+     "es": "conos",
+     "uk": "дорожні конуси"
     }
    ],
    "why": {
     "en": "Lane-control lights or other means set its direction.",
-    "es": "Su sentido se regula con semáforos de carril u otros medios."
+    "es": "Su sentido se regula con semáforos de carril u otros medios.",
+    "uk": "Її напрямок задають світлофори над смугами чи інші засоби."
    }
   },
   {
@@ -1368,25 +1630,30 @@ window.DGT_DATA = {
    "tag": "flow",
    "q": {
     "en": "In a reversible lane you must use…",
-    "es": "Por un carril reversible hay que llevar…"
+    "es": "Por un carril reversible hay que llevar…",
+    "uk": "На реверсивній смузі ви мусите вмикати…"
    },
    "o": [
     {
      "en": "dipped headlights, day and night",
-     "es": "la luz de corto alcance o de cruce, de día y de noche"
+     "es": "la luz de corto alcance o de cruce, de día y de noche",
+     "uk": "ближнє світло вдень і вночі"
     },
     {
      "en": "hazard warning lights",
-     "es": "las luces de emergencia"
+     "es": "las luces de emergencia",
+     "uk": "аварійну сигналізацію"
     },
     {
      "en": "no special lights in daytime",
-     "es": "ninguna luz especial de día"
+     "es": "ninguna luz especial de día",
+     "uk": "вдень жодних особливих вогнів"
     }
    ],
    "why": {
     "en": "Dipped beam day and night, and never move into the lane on its left.",
-    "es": "Luz de cruce de día y de noche, sin invadir el carril de su izquierda."
+    "es": "Luz de cruce de día y de noche, sin invadir el carril de su izquierda.",
+    "uk": "Ближнє світло вдень і вночі, і ніколи не перестроюватися на смугу ліворуч від неї."
    }
   },
   {
@@ -1394,25 +1661,30 @@ window.DGT_DATA = {
    "tag": "flow",
    "q": {
     "en": "Speed in a temporary additional lane (<i>carril adicional circunstancial</i>):",
-    "es": "Velocidad en un carril adicional circunstancial:"
+    "es": "Velocidad en un carril adicional circunstancial:",
+    "uk": "Швидкість на тимчасовій додатковій смузі (<i>carril adicional circunstancial</i>):"
    },
    "o": [
     {
      "en": "maximum 80 and minimum 60 km/h, unless lower is signed",
-     "es": "máxima 80 y mínima 60 km/h, salvo que se señalice otra inferior"
+     "es": "máxima 80 y mínima 60 km/h, salvo que se señalice otra inferior",
+     "uk": "максимум 80 і мінімум 60 км/год, якщо не позначено меншу"
     },
     {
      "en": "maximum 100 km/h",
-     "es": "máxima 100 km/h"
+     "es": "máxima 100 km/h",
+     "uk": "максимум 100 км/год"
     },
     {
      "en": "maximum 50 km/h",
-     "es": "máxima 50 km/h"
+     "es": "máxima 50 km/h",
+     "uk": "максимум 50 км/год"
     }
    ],
    "why": {
     "en": "Also with dipped headlights and lane markings between the wheels.",
-    "es": "Además, con luz de cruce y las marcas longitudinales entre las ruedas."
+    "es": "Además, con luz de cruce y las marcas longitudinales entre las ruedas.",
+    "uk": "А також з ближнім світлом і розміткою смуги між колесами."
    }
   },
   {
@@ -1420,25 +1692,30 @@ window.DGT_DATA = {
    "tag": "flow",
    "q": {
     "en": "A contraflow lane opened to improve traffic flow may be used by…",
-    "es": "Un carril en sentido contrario al habitual habilitado por fluidez lo pueden usar…"
+    "es": "Un carril en sentido contrario al habitual habilitado por fluidez lo pueden usar…",
+    "uk": "Смугою зустрічного руху, відкритою для покращення руху, можуть їхати…"
    },
    "o": [
     {
      "en": "motorcycles and cars without trailer",
-     "es": "motocicletas y turismos sin remolque"
+     "es": "motocicletas y turismos sin remolque",
+     "uk": "мотоцикли й легковики без причепа"
     },
     {
      "en": "every vehicle",
-     "es": "todos los vehículos"
+     "es": "todos los vehículos",
+     "uk": "усі ТЗ"
     },
     {
      "en": "trucks only",
-     "es": "solo camiones"
+     "es": "solo camiones",
+     "uk": "лише вантажівки"
     }
    ],
    "why": {
     "en": "When it is opened for roadworks, every vehicle allowed on that road may use it.",
-    "es": "Cuando se habilita por obras, lo pueden usar todos los autorizados en esa vía."
+    "es": "Cuando se habilita por obras, lo pueden usar todos los autorizados en esa vía.",
+    "uk": "Коли її відкривають через дорожні роботи, нею можуть їхати всі ТЗ, дозволені на цій дорозі."
    }
   },
   {
@@ -1446,25 +1723,30 @@ window.DGT_DATA = {
    "tag": "flow",
    "q": {
     "en": "Queue on an autovía with three lanes in your direction. Where does the emergency corridor go?",
-    "es": "Retención en una autovía con tres carriles en su sentido. ¿Dónde se forma el carril de emergencia?"
+    "es": "Retención en una autovía con tres carriles en su sentido. ¿Dónde se forma el carril de emergencia?",
+    "uk": "Затор на autovía з трьома смугами у вашому напрямку. Де утворюють екстрений коридор?"
    },
    "o": [
     {
      "en": "Between the left-hand lane and the next one",
-     "es": "Entre el carril izquierdo y su contiguo"
+     "es": "Entre el carril izquierdo y su contiguo",
+     "uk": "Між лівою смугою і сусідньою"
     },
     {
      "en": "In the centre of the middle lane",
-     "es": "En el centro del carril central"
+     "es": "En el centro del carril central",
+     "uk": "Посередині середньої смуги"
     },
     {
      "en": "On the hard shoulder",
-     "es": "Por el arcén"
+     "es": "Por el arcén",
+     "uk": "На узбіччі"
     }
    ],
    "why": {
     "en": "The left lane moves left; all the others move right.",
-    "es": "Los del carril izquierdo se van a la izquierda; el resto, a la derecha."
+    "es": "Los del carril izquierdo se van a la izquierda; el resto, a la derecha.",
+    "uk": "Ліва смуга зміщується ліворуч; усі інші — праворуч."
    }
   },
   {
@@ -1472,25 +1754,30 @@ window.DGT_DATA = {
    "tag": "flow",
    "q": {
     "en": "Queue on an autopista with two lanes in your direction. Who moves where?",
-    "es": "Retención en una autopista con dos carriles en su sentido. ¿Cómo se colocan?"
+    "es": "Retención en una autopista con dos carriles en su sentido. ¿Cómo se colocan?",
+    "uk": "Затор на autopista з двома смугами у вашому напрямку. Хто куди зміщується?"
    },
    "o": [
     {
      "en": "The left lane moves left and the right lane moves right, leaving the gap in the centre",
-     "es": "Los del carril izquierdo a la izquierda y los del derecho a la derecha, dejando el hueco en el centro"
+     "es": "Los del carril izquierdo a la izquierda y los del derecho a la derecha, dejando el hueco en el centro",
+     "uk": "Ліва смуга — ліворуч, права — праворуч, лишаючи прохід посередині"
     },
     {
      "en": "Everyone moves right",
-     "es": "Todos a la derecha"
+     "es": "Todos a la derecha",
+     "uk": "Усі праворуч"
     },
     {
      "en": "Everyone moves onto the shoulder",
-     "es": "Todos al arcén"
+     "es": "Todos al arcén",
+     "uk": "Усі на узбіччя"
     }
    ],
    "why": {
     "en": "With two lanes the corridor is in the middle.",
-    "es": "Con dos carriles el hueco queda en el centro."
+    "es": "Con dos carriles el hueco queda en el centro.",
+    "uk": "За двох смуг коридор — посередині."
    }
   },
   {
@@ -1498,25 +1785,30 @@ window.DGT_DATA = {
    "tag": "flow",
    "q": {
     "en": "Snow is making driving difficult on a two-lane autovía. You must…",
-    "es": "La nieve dificulta la circulación en una autovía de dos carriles. Hay que…"
+    "es": "La nieve dificulta la circulación en una autovía de dos carriles. Hay que…",
+    "uk": "Сніг ускладнює рух на autovía з двома смугами. Ви мусите…"
    },
    "o": [
     {
      "en": "not overtake and keep to the right-hand lane",
-     "es": "no adelantar y circular por el carril derecho"
+     "es": "no adelantar y circular por el carril derecho",
+     "uk": "не обганяти й триматися правої смуги"
     },
     {
      "en": "use the left-hand lane, which is clearer",
-     "es": "usar el carril izquierdo, que está más limpio"
+     "es": "usar el carril izquierdo, que está más limpio",
+     "uk": "їхати лівою смугою, вона чистіша"
     },
     {
      "en": "overtake only snowploughs",
-     "es": "adelantar solo a los quitanieves"
+     "es": "adelantar solo a los quitanieves",
+     "uk": "обганяти лише снігоприбиральні машини"
     }
    ],
    "why": {
     "en": "The left lanes stay free for emergency vehicles and snowploughs.",
-    "es": "Los carriles de la izquierda quedan libres para emergencias y quitanieves."
+    "es": "Los carriles de la izquierda quedan libres para emergencias y quitanieves.",
+    "uk": "Ліві смуги лишаються вільними для екстрених служб і снігоприбиральних машин."
    }
   },
   {
@@ -1524,25 +1816,30 @@ window.DGT_DATA = {
    "tag": "shoulder",
    "q": {
     "en": "Which of these must use the hard shoulder if it is passable and wide enough?",
-    "es": "¿Cuál de estos debe circular por el arcén si es transitable y suficiente?"
+    "es": "¿Cuál de estos debe circular por el arcén si es transitable y suficiente?",
+    "uk": "Хто з них мусить їхати узбіччям, якщо воно проїзне й достатньо широке?"
    },
    "o": [
     {
      "en": "A moped",
-     "es": "Un ciclomotor"
+     "es": "Un ciclomotor",
+     "uk": "Мопед"
     },
     {
      "en": "A car",
-     "es": "Un turismo"
+     "es": "Un turismo",
+     "uk": "Легковик"
     },
     {
      "en": "A special vehicle with an MMA of 5,000 kg",
-     "es": "Un vehículo especial de 5.000 kg de MMA"
+     "es": "Un vehículo especial de 5.000 kg de MMA",
+     "uk": "Спеціальний ТЗ з MMA 5 000 кг"
     }
    ],
    "why": {
     "en": "Special vehicles go on the shoulder only up to 3,500 kg.",
-    "es": "Los vehículos especiales van por el arcén solo hasta 3.500 kg."
+    "es": "Los vehículos especiales van por el arcén solo hasta 3.500 kg.",
+    "uk": "Спеціальні ТЗ їдуть узбіччям лише до 3 500 кг."
    }
   },
   {
@@ -1550,25 +1847,30 @@ window.DGT_DATA = {
    "tag": "shoulder",
    "q": {
     "en": "Cyclists on the hard shoulder may ride…",
-    "es": "Los ciclistas por el arcén pueden ir…"
+    "es": "Los ciclistas por el arcén pueden ir…",
+    "uk": "Велосипедисти на узбіччі можуть їхати…"
    },
    "o": [
     {
      "en": "two abreast, as far right as possible",
-     "es": "en columna de a dos, lo más a la derecha posible"
+     "es": "en columna de a dos, lo más a la derecha posible",
+     "uk": "по двоє поруч, якомога правіше"
     },
     {
      "en": "three abreast",
-     "es": "de tres en tres"
+     "es": "de tres en tres",
+     "uk": "по троє поруч"
     },
     {
      "en": "only in single file, always",
-     "es": "siempre en fila de a uno"
+     "es": "siempre en fila de a uno",
+     "uk": "лише один за одним, завжди"
     }
    ],
    "why": {
     "en": "Single file without visibility or when they bunch up.",
-    "es": "En hilera en tramos sin visibilidad o con aglomeraciones."
+    "es": "En hilera en tramos sin visibilidad o con aglomeraciones.",
+    "uk": "Один за одним — без видимості або коли скупчуються."
    }
   },
   {
@@ -1576,25 +1878,30 @@ window.DGT_DATA = {
    "tag": "shoulder",
    "q": {
     "en": "Two mopeds on the shoulder. One wants to overtake the other. It is forbidden if they would be side by side for more than…",
-    "es": "Dos ciclomotores por el arcén. Uno quiere adelantar al otro. Está prohibido si la marcha en paralelo supera…"
+    "es": "Dos ciclomotores por el arcén. Uno quiere adelantar al otro. Está prohibido si la marcha en paralelo supera…",
+    "uk": "Два мопеди на узбіччі. Один хоче обігнати іншого. Це заборонено, якщо вони їхатимуть поруч понад…"
    },
    "o": [
     {
      "en": "15 seconds or 200 metres",
-     "es": "15 segundos o 200 metros"
+     "es": "15 segundos o 200 metros",
+     "uk": "15 секунд або 200 метрів"
     },
     {
      "en": "30 seconds or 500 metres",
-     "es": "30 segundos o 500 metros"
+     "es": "30 segundos o 500 metros",
+     "uk": "30 секунд або 500 метрів"
     },
     {
      "en": "10 seconds or 100 metres",
-     "es": "10 segundos o 100 metros"
+     "es": "10 segundos o 100 metros",
+     "uk": "10 секунд або 100 метрів"
     }
    ],
    "why": {
     "en": "Serious offence. Bicycles are exempt from this rule.",
-    "es": "Es infracción grave. Las bicicletas quedan exceptuadas."
+    "es": "Es infracción grave. Las bicicletas quedan exceptuadas.",
+    "uk": "Серйозне порушення. На велосипеди це правило не поширюється."
    }
   },
   {
@@ -1602,25 +1909,30 @@ window.DGT_DATA = {
    "tag": "shoulder",
    "q": {
     "en": "On a long descent with bends, may a cyclist leave the shoulder?",
-    "es": "En un descenso prolongado con curvas, ¿puede un ciclista abandonar el arcén?"
+    "es": "En un descenso prolongado con curvas, ¿puede un ciclista abandonar el arcén?",
+    "uk": "Чи може велосипедист на довгому спуску з поворотами з’їхати з узбіччя?"
    },
    "o": [
     {
      "en": "Yes, if safety allows, but not on an autovía",
-     "es": "Sí, si la seguridad lo permite, pero no en autovía"
+     "es": "Sí, si la seguridad lo permite, pero no en autovía",
+     "uk": "Так, якщо дозволяє безпека, але не на autovía"
     },
     {
      "en": "No, never",
-     "es": "No, nunca"
+     "es": "No, nunca",
+     "uk": "Ні, ніколи"
     },
     {
      "en": "Yes, also on an autovía",
-     "es": "Sí, también en autovía"
+     "es": "Sí, también en autovía",
+     "uk": "Так, і на autovía теж"
     }
    ],
    "why": {
     "en": "On autovías cyclists must stay on the shoulder.",
-    "es": "En autovía los ciclistas no pueden abandonar el arcén."
+    "es": "En autovía los ciclistas no pueden abandonar el arcén.",
+    "uk": "На autovías велосипедисти мусять лишатися на узбіччі."
    }
   },
   {
@@ -1628,25 +1940,30 @@ window.DGT_DATA = {
    "tag": "shoulder",
    "q": {
     "en": "A car breaks down on a motorway but can still move. If it needs assistance it should…",
-    "es": "Un turismo se avería en autopista pero puede moverse. Si necesita auxilio debe…"
+    "es": "Un turismo se avería en autopista pero puede moverse. Si necesita auxilio debe…",
+    "uk": "Легковик зламався на автомагістралі, але ще може рухатися. Якщо йому потрібна допомога, він має…"
    },
    "o": [
     {
      "en": "head for the first exit using the right-hand shoulder",
-     "es": "dirigirse a la primera salida usando el arcén derecho"
+     "es": "dirigirse a la primera salida usando el arcén derecho",
+     "uk": "прямувати до першого з’їзду правим узбіччям"
     },
     {
      "en": "stop in the left-hand lane",
-     "es": "detenerse en el carril izquierdo"
+     "es": "detenerse en el carril izquierdo",
+     "uk": "зупинитися на лівій смузі"
     },
     {
      "en": "reverse to the previous exit",
-     "es": "volver marcha atrás a la salida anterior"
+     "es": "volver marcha atrás a la salida anterior",
+     "uk": "заднім ходом повернутися до попереднього з’їзду"
     }
    ],
    "why": {
     "en": "If that is impossible, stop on the right-hand shoulder or where it obstructs least.",
-    "es": "Si no es posible, detenerse en el arcén derecho o donde menos estorbe."
+    "es": "Si no es posible, detenerse en el arcén derecho o donde menos estorbe.",
+    "uk": "Якщо це неможливо, зупинитися на правому узбіччі чи там, де він найменше заважає."
    }
   },
   {
@@ -1654,25 +1971,30 @@ window.DGT_DATA = {
    "tag": "shoulder",
    "q": {
     "en": "A road maintenance vehicle using the shoulder to reach its work must not exceed…",
-    "es": "Un vehículo de mantenimiento que usa el arcén para ir a su trabajo no puede superar…"
+    "es": "Un vehículo de mantenimiento que usa el arcén para ir a su trabajo no puede superar…",
+    "uk": "ТЗ дорожнього обслуговування, що їде узбіччям до місця робіт, не може перевищувати…"
    },
    "o": [
     {
      "en": "30 km/h",
-     "es": "30 km/h"
+     "es": "30 km/h",
+     "uk": "30 км/год"
     },
     {
      "en": "50 km/h",
-     "es": "50 km/h"
+     "es": "50 km/h",
+     "uk": "50 км/год"
     },
     {
      "en": "60 km/h",
-     "es": "60 km/h"
+     "es": "60 km/h",
+     "uk": "60 км/год"
     }
    ],
    "why": {
     "en": "Only priority vehicles on urgent service are exempt from the 30 km/h limit.",
-    "es": "Solo los prioritarios en servicio de urgencia están exentos del límite de 30 km/h."
+    "es": "Solo los prioritarios en servicio de urgencia están exentos del límite de 30 km/h.",
+    "uk": "Від обмеження 30 км/год звільнені лише ТЗ з перевагою, що виконують термінове завдання."
    }
   },
   {
@@ -1680,25 +2002,30 @@ window.DGT_DATA = {
    "tag": "shoulder",
    "q": {
     "en": "Since 1 October 2026, a motorcycle may ride on the hard shoulder…",
-    "es": "Desde el 1 de octubre de 2026, una motocicleta puede circular por el arcén…"
+    "es": "Desde el 1 de octubre de 2026, una motocicleta puede circular por el arcén…",
+    "uk": "З 1 жовтня 2026 року мотоцикл може їхати узбіччям…"
    },
    "o": [
     {
      "en": "only on signed stretches, when traffic is stopped by congestion, at up to 30 km/h",
-     "es": "solo en tramos señalizados, con el tráfico detenido por congestión y a 30 km/h como máximo"
+     "es": "solo en tramos señalizados, con el tráfico detenido por congestión y a 30 km/h como máximo",
+     "uk": "лише на позначених ділянках, коли рух зупинився через затор, до 30 км/год"
     },
     {
      "en": "on any road when traffic is slow, at up to 50 km/h",
-     "es": "en cualquier vía con tráfico lento, a 50 km/h como máximo"
+     "es": "en cualquier vía con tráfico lento, a 50 km/h como máximo",
+     "uk": "на будь-якій дорозі, коли рух повільний, до 50 км/год"
     },
     {
      "en": "whenever the shoulder is empty",
-     "es": "siempre que el arcén esté libre"
+     "es": "siempre que el arcén esté libre",
+     "uk": "щоразу, коли узбіччя вільне"
     }
    ],
    "why": {
     "en": "In single file and without endangering those who must use the shoulder.",
-    "es": "En columna de a uno y sin poner en riesgo a los obligados a usar el arcén."
+    "es": "En columna de a uno y sin poner en riesgo a los obligados a usar el arcén.",
+    "uk": "Один за одним і не створюючи небезпеки для тих, хто мусить їхати узбіччям."
    }
   },
   {
@@ -1706,25 +2033,30 @@ window.DGT_DATA = {
    "tag": "distance",
    "q": {
     "en": "Following another vehicle without signalling that you will overtake, your distance must also let…",
-    "es": "Detrás de otro vehículo y sin señalizar que se va a adelantar, la separación debe permitir además…"
+    "es": "Detrás de otro vehículo y sin señalizar que se va a adelantar, la separación debe permitir además…",
+    "uk": "Їдучи за іншим ТЗ і не сигналізуючи про обгін, ви маєте тримати дистанцію, яка також дозволяє…"
    },
    "o": [
     {
      "en": "the vehicle behind you overtake you safely",
-     "es": "que el que viene detrás nos adelante con seguridad"
+     "es": "que el que viene detrás nos adelante con seguridad",
+     "uk": "ТЗ позаду вас безпечно вас обігнати"
     },
     {
      "en": "you brake gently",
-     "es": "frenar suavemente"
+     "es": "frenar suavemente",
+     "uk": "вам м’яко гальмувати"
     },
     {
      "en": "a car park between you",
-     "es": "que un turismo estacione entre ambos"
+     "es": "que un turismo estacione entre ambos",
+     "uk": "поставити між вами автомобіль"
     }
    ],
    "why": {
     "en": "Besides room to stop without colliding.",
-    "es": "Además del espacio para detenerse sin colisionar."
+    "es": "Además del espacio para detenerse sin colisionar.",
+    "uk": "Крім місця, щоб зупинитися без зіткнення."
    }
   },
   {
@@ -1732,25 +2064,30 @@ window.DGT_DATA = {
    "tag": "distance",
    "q": {
     "en": "Outside towns, a truck with an MMA over 3,500 kg keeps behind another vehicle at least…",
-    "es": "Fuera de poblado, un camión de más de 3.500 kg de MMA guarda detrás de otro vehículo al menos…"
+    "es": "Fuera de poblado, un camión de más de 3.500 kg de MMA guarda detrás de otro vehículo al menos…",
+    "uk": "Поза населеними пунктами вантажівка з MMA понад 3 500 кг тримається позаду іншого ТЗ щонайменше на…"
    },
    "o": [
     {
      "en": "50 m",
-     "es": "50 m"
+     "es": "50 m",
+     "uk": "50 м"
     },
     {
      "en": "100 m",
-     "es": "100 m"
+     "es": "100 m",
+     "uk": "100 м"
     },
     {
      "en": "25 m",
-     "es": "25 m"
+     "es": "25 m",
+     "uk": "25 м"
     }
    ],
    "why": {
     "en": "Also vehicles and combinations over 10 m long.",
-    "es": "También los vehículos y conjuntos de más de 10 m de longitud."
+    "es": "También los vehículos y conjuntos de más de 10 m de longitud.",
+    "uk": "Так само ТЗ і состави довжиною понад 10 м."
    }
   },
   {
@@ -1758,25 +2095,30 @@ window.DGT_DATA = {
    "tag": "distance",
    "q": {
     "en": "Which of these must keep the 50 m gap outside towns?",
-    "es": "¿Cuál de estos debe guardar la separación de 50 m fuera de poblado?"
+    "es": "¿Cuál de estos debe guardar la separación de 50 m fuera de poblado?",
+    "uk": "Хто з них мусить тримати дистанцію 50 м поза населеними пунктами?"
    },
    "o": [
     {
      "en": "A combination 12 m long",
-     "es": "Un conjunto de 12 m de longitud"
+     "es": "Un conjunto de 12 m de longitud",
+     "uk": "Состав довжиною 12 м"
     },
     {
      "en": "A car towing a caravan, 9 m in total",
-     "es": "Un turismo con caravana de 9 m en total"
+     "es": "Un turismo con caravana de 9 m en total",
+     "uk": "Легковик із житловим причепом, загалом 9 м"
     },
     {
      "en": "A 4.5 m car",
-     "es": "Un turismo de 4,5 m"
+     "es": "Un turismo de 4,5 m",
+     "uk": "Легковик 4,5 м"
     }
    ],
    "why": {
     "en": "The length threshold is over 10 m.",
-    "es": "El umbral de longitud es de más de 10 m."
+    "es": "El umbral de longitud es de más de 10 m.",
+    "uk": "Межа довжини — понад 10 м."
    }
   },
   {
@@ -1784,25 +2126,30 @@ window.DGT_DATA = {
    "tag": "distance",
    "q": {
     "en": "Where is the 50 m gap NOT required?",
-    "es": "¿Dónde NO es obligatoria la separación de 50 m?"
+    "es": "¿Dónde NO es obligatoria la separación de 50 m?",
+    "uk": "Де НЕ потрібна дистанція 50 м?"
    },
    "o": [
     {
      "en": "Where overtaking is forbidden",
-     "es": "Donde esté prohibido adelantar"
+     "es": "Donde esté prohibido adelantar",
+     "uk": "Там, де обгін заборонено"
     },
     {
      "en": "On a two-way road with one lane each way where overtaking is allowed",
-     "es": "En una vía de doble sentido con un carril por sentido donde se puede adelantar"
+     "es": "En una vía de doble sentido con un carril por sentido donde se puede adelantar",
+     "uk": "На дорозі з двостороннім рухом і однією смугою в кожен бік, де обгін дозволено"
     },
     {
      "en": "At night",
-     "es": "De noche"
+     "es": "De noche",
+     "uk": "Уночі"
     }
    ],
    "why": {
     "en": "Also in town, with more than one lane, in saturated traffic and when about to overtake.",
-    "es": "Tampoco en poblado, con más de un carril, con tráfico saturado ni al ir a adelantar."
+    "es": "Tampoco en poblado, con más de un carril, con tráfico saturado ni al ir a adelantar.",
+    "uk": "А також у населеному пункті, на дорогах із кількома смугами, у насиченому русі й коли ви збираєтеся обганяти."
    }
   },
   {
@@ -1810,25 +2157,30 @@ window.DGT_DATA = {
    "tag": "distance",
    "q": {
     "en": "Chevrons are painted on the lane. How many should you keep between you and the vehicle in front?",
-    "es": "En el carril hay galones pintados. ¿Cuántos hay que dejar con el vehículo de delante?"
+    "es": "En el carril hay galones pintados. ¿Cuántos hay que dejar con el vehículo de delante?",
+    "uk": "На смузі намальовано шеврони. Скільки їх має бути між вами й ТЗ попереду?"
    },
    "o": [
     {
      "en": "At least two",
-     "es": "Al menos dos"
+     "es": "Al menos dos",
+     "uk": "Щонайменше два"
     },
     {
      "en": "At least one",
-     "es": "Al menos uno"
+     "es": "Al menos uno",
+     "uk": "Щонайменше один"
     },
     {
      "en": "At least four",
-     "es": "Al menos cuatro"
+     "es": "Al menos cuatro",
+     "uk": "Щонайменше чотири"
     }
    ],
    "why": {
     "en": "Sign R-300 “Minimum distance” marks the start of the stretch.",
-    "es": "La señal R-300 «Separación mínima» marca el inicio del tramo."
+    "es": "La señal R-300 «Separación mínima» marca el inicio del tramo.",
+    "uk": "Знак R-300 «Мінімальна дистанція» позначає початок ділянки."
    }
   },
   {
@@ -1836,25 +2188,30 @@ window.DGT_DATA = {
    "tag": "distance",
    "q": {
     "en": "In a tunnel, a car not intending to overtake keeps at least…",
-    "es": "En un túnel, un turismo que no pretende adelantar mantiene al menos…"
+    "es": "En un túnel, un turismo que no pretende adelantar mantiene al menos…",
+    "uk": "У тунелі легковик, що не збирається обганяти, тримає щонайменше…"
    },
    "o": [
     {
      "en": "100 m or 4 seconds",
-     "es": "100 m o 4 segundos"
+     "es": "100 m o 4 segundos",
+     "uk": "100 м або 4 секунди"
     },
     {
      "en": "50 m or 2 seconds",
-     "es": "50 m o 2 segundos"
+     "es": "50 m o 2 segundos",
+     "uk": "50 м або 2 секунди"
     },
     {
      "en": "150 m or 6 seconds",
-     "es": "150 m o 6 segundos"
+     "es": "150 m o 6 segundos",
+     "uk": "150 м або 6 секунд"
     }
    ],
    "why": {
     "en": "150 m or 6 s is for vehicles over 3,500 kg.",
-    "es": "150 m o 6 s es para los de más de 3.500 kg."
+    "es": "150 m o 6 s es para los de más de 3.500 kg.",
+    "uk": "150 м або 6 с — для ТЗ понад 3 500 кг."
    }
   },
   {
@@ -1862,25 +2219,30 @@ window.DGT_DATA = {
    "tag": "distance",
    "q": {
     "en": "Cyclists riding in a group…",
-    "es": "Los ciclistas que circulan en grupo…"
+    "es": "Los ciclistas que circulan en grupo…",
+    "uk": "Велосипедисти, що їдуть групою…"
    },
    "o": [
     {
      "en": "may ride without the minimum gap, taking extra care",
-     "es": "pueden circular sin esa separación, extremando la atención"
+     "es": "pueden circular sin esa separación, extremando la atención",
+     "uk": "можуть їхати без мінімальної дистанції, будучи особливо уважними"
     },
     {
      "en": "must keep 50 m between them",
-     "es": "deben guardar 50 m entre ellos"
+     "es": "deben guardar 50 m entre ellos",
+     "uk": "мусять тримати між собою 50 м"
     },
     {
      "en": "must ride 10 m apart",
-     "es": "deben ir a 10 m unos de otros"
+     "es": "deben ir a 10 m unos de otros",
+     "uk": "мусять їхати на відстані 10 м"
     }
    ],
    "why": {
     "en": "The law exempts groups of cyclists, asking them to avoid rear-end collisions among themselves.",
-    "es": "La norma exceptúa a los grupos de ciclistas, que deben evitar alcances entre ellos."
+    "es": "La norma exceptúa a los grupos de ciclistas, que deben evitar alcances entre ellos.",
+    "uk": "Закон звільняє групи велосипедистів, вимагаючи уникати наїздів одне на одного."
    }
   },
   {
@@ -1888,25 +2250,30 @@ window.DGT_DATA = {
    "tag": "saturated",
    "q": {
     "en": "Traffic is saturated when…",
-    "es": "La circulación está saturada cuando…"
+    "es": "La circulación está saturada cuando…",
+    "uk": "Рух насичений, коли…"
    },
    "o": [
     {
      "en": "vehicles fill the whole width of the carriageway",
-     "es": "los vehículos ocupan todo el ancho de la calzada"
+     "es": "los vehículos ocupan todo el ancho de la calzada",
+     "uk": "ТЗ займають усю ширину проїзної частини"
     },
     {
      "en": "there is a vehicle every 50 m",
-     "es": "hay un vehículo cada 50 m"
+     "es": "hay un vehículo cada 50 m",
+     "uk": "кожні 50 м є ТЗ"
     },
     {
      "en": "the traffic lights are red",
-     "es": "los semáforos están en rojo"
+     "es": "los semáforos están en rojo",
+     "uk": "світлофори червоні"
     }
    ],
    "why": {
     "en": "Every lane is occupied.",
-    "es": "Todos los carriles están ocupados."
+    "es": "Todos los carriles están ocupados.",
+    "uk": "Зайняті всі смуги."
    }
   },
   {
@@ -1914,25 +2281,30 @@ window.DGT_DATA = {
    "tag": "saturated",
    "q": {
     "en": "In saturated traffic the right-hand lane moves faster than the left. Is that overtaking on the right?",
-    "es": "Con la circulación saturada, el carril derecho avanza más rápido que el izquierdo. ¿Es un adelantamiento por la derecha?"
+    "es": "Con la circulación saturada, el carril derecho avanza más rápido que el izquierdo. ¿Es un adelantamiento por la derecha?",
+    "uk": "У насиченому русі права смуга рухається швидше за ліву. Це обгін праворуч?"
    },
    "o": [
     {
      "en": "No, it is not considered overtaking",
-     "es": "No, no se considera adelantamiento"
+     "es": "No, no se considera adelantamiento",
+     "uk": "Ні, це не вважається обгоном"
     },
     {
      "en": "Yes, and it is forbidden",
-     "es": "Sí, y está prohibido"
+     "es": "Sí, y está prohibido",
+     "uk": "Так, і це заборонено"
     },
     {
      "en": "Yes, but it is allowed",
-     "es": "Sí, pero está permitido"
+     "es": "Sí, pero está permitido",
+     "uk": "Так, але це дозволено"
     }
    ],
    "why": {
     "en": "Different speeds in different lanes are normal when traffic is saturated.",
-    "es": "Distintas velocidades por carril son normales con la circulación saturada."
+    "es": "Distintas velocidades por carril son normales con la circulación saturada.",
+    "uk": "Різна швидкість на різних смугах — нормально в насиченому русі."
    }
   },
   {
@@ -1940,25 +2312,30 @@ window.DGT_DATA = {
    "tag": "saturated",
    "q": {
     "en": "On a saturated road, may you drive on the hard shoulder to reach the next exit?",
-    "es": "En una vía saturada, ¿se puede circular por el arcén para tomar la salida más próxima?"
+    "es": "En una vía saturada, ¿se puede circular por el arcén para tomar la salida más próxima?",
+    "uk": "Чи можна на насиченій дорозі їхати узбіччям до наступного з’їзду?"
    },
    "o": [
     {
      "en": "No",
-     "es": "No"
+     "es": "No",
+     "uk": "Ні"
     },
     {
      "en": "Yes, slowly",
-     "es": "Sí, despacio"
+     "es": "Sí, despacio",
+     "uk": "Так, повільно"
     },
     {
      "en": "Yes, with the hazard lights on",
-     "es": "Sí, con las luces de emergencia"
+     "es": "Sí, con las luces de emergencia",
+     "uk": "Так, з аварійною сигналізацією"
     }
    ],
    "why": {
     "en": "Overtaking on the shoulder or driving on it is forbidden, even for the next exit.",
-    "es": "Se prohíbe adelantar por el arcén o circular por él, ni para la salida más próxima."
+    "es": "Se prohíbe adelantar por el arcén o circular por él, ni para la salida más próxima.",
+    "uk": "Обганяти узбіччям чи їхати ним заборонено, навіть до наступного з’їзду."
    }
   },
   {
@@ -1966,25 +2343,30 @@ window.DGT_DATA = {
    "tag": "saturated",
    "q": {
     "en": "On a saturated road, changing lanes is allowed…",
-    "es": "En una vía saturada se puede cambiar de carril…"
+    "es": "En una vía saturada se puede cambiar de carril…",
+    "uk": "На насиченій дорозі перестроюватися можна…"
    },
    "o": [
     {
      "en": "only to get ready to turn, leave the carriageway or take a particular direction",
-     "es": "solo para prepararse a girar, salir de la calzada o tomar una dirección determinada"
+     "es": "solo para prepararse a girar, salir de la calzada o tomar una dirección determinada",
+     "uk": "лише щоб підготуватися до повороту, з’їзду з проїзної частини чи певного напрямку"
     },
     {
      "en": "whenever the other lane moves faster",
-     "es": "siempre que el otro carril vaya más rápido"
+     "es": "siempre que el otro carril vaya más rápido",
+     "uk": "щоразу, коли інша смуга рухається швидше"
     },
     {
      "en": "never in any case",
-     "es": "nunca, en ningún caso"
+     "es": "nunca, en ningún caso",
+     "uk": "ніколи й ні в якому разі"
     }
    ],
    "why": {
     "en": "Switching lanes to gain a few metres is forbidden.",
-    "es": "Cambiar de carril para ganar unos metros está prohibido."
+    "es": "Cambiar de carril para ganar unos metros está prohibido.",
+    "uk": "Перестроюватися, щоб виграти кілька метрів, заборонено."
    }
   },
   {
@@ -1992,25 +2374,30 @@ window.DGT_DATA = {
    "tag": "saturated",
    "q": {
     "en": "In DGT traffic information, red means…",
-    "es": "En la información de tráfico de la DGT, el rojo significa…"
+    "es": "En la información de tráfico de la DGT, el rojo significa…",
+    "uk": "В інформації DGT про рух червоний колір означає…"
    },
    "o": [
     {
      "en": "saturated traffic, under 25 % of normal speed",
-     "es": "circulación saturada, por debajo del 25 % de la velocidad"
+     "es": "circulación saturada, por debajo del 25 % de la velocidad",
+     "uk": "насичений рух, менше 25 % від звичайної швидкості"
     },
     {
      "en": "road closed",
-     "es": "carretera cortada"
+     "es": "carretera cortada",
+     "uk": "дорогу закрито"
     },
     {
      "en": "heavy traffic, 75–90 %",
-     "es": "circulación intensa, 75–90 %"
+     "es": "circulación intensa, 75–90 %",
+     "uk": "щільний рух, 75–90 %"
     }
    ],
    "why": {
     "en": "White > 90 %, green 75–90 %, yellow 25–75 %, red < 25 %, black = interrupted.",
-    "es": "Blanco > 90 %, verde 75–90 %, amarillo 25–75 %, rojo < 25 %, negro = interrumpida."
+    "es": "Blanco > 90 %, verde 75–90 %, amarillo 25–75 %, rojo < 25 %, negro = interrumpida.",
+    "uk": "Білий > 90 %, зелений 75–90 %, жовтий 25–75 %, червоний < 25 %, чорний — рух перервано."
    }
   },
   {
@@ -2018,25 +2405,30 @@ window.DGT_DATA = {
    "tag": "peds",
    "q": {
     "en": "May any vehicle drive along the pavement (<i>acera</i>)?",
-    "es": "¿Puede algún vehículo circular por la acera?"
+    "es": "¿Puede algún vehículo circular por la acera?",
+    "uk": "Чи може будь-який ТЗ їхати тротуаром (<i>acera</i>)?"
    },
    "o": [
     {
      "en": "No, pavements are reserved for pedestrians",
-     "es": "No, las aceras están reservadas a los peatones"
+     "es": "No, las aceras están reservadas a los peatones",
+     "uk": "Ні, тротуари призначені для пішоходів"
     },
     {
      "en": "Yes, mopeds at walking pace",
-     "es": "Sí, los ciclomotores al paso"
+     "es": "Sí, los ciclomotores al paso",
+     "uk": "Так, мопеди зі швидкістю пішохода"
     },
     {
      "en": "Yes, at night",
-     "es": "Sí, de noche"
+     "es": "Sí, de noche",
+     "uk": "Так, уночі"
     }
    ],
    "why": {
     "en": "Only a municipal bylaw can allow children up to 12 on bicycles, with an adult on foot.",
-    "es": "Solo una ordenanza puede permitir niños de hasta 12 años en bici acompañados de un adulto a pie."
+    "es": "Solo una ordenanza puede permitir niños de hasta 12 años en bici acompañados de un adulto a pie.",
+    "uk": "Лише муніципальна постанова може дозволити дітям до 12 років їздити велосипедом у супроводі дорослого пішки."
    }
   },
   {
@@ -2044,25 +2436,30 @@ window.DGT_DATA = {
    "tag": "peds",
    "q": {
     "en": "With no usable pedestrian zone, a pedestrian walking alone uses…",
-    "es": "Sin zona peatonal practicable, un peatón solo circula…"
+    "es": "Sin zona peatonal practicable, un peatón solo circula…",
+    "uk": "Якщо придатної пішохідної зони немає, пішохід, що йде сам, рухається…"
    },
    "o": [
     {
      "en": "the left-hand shoulder, facing the traffic",
-     "es": "por el arcén izquierdo, de cara al tráfico"
+     "es": "por el arcén izquierdo, de cara al tráfico",
+     "uk": "лівим узбіччям, назустріч руху"
     },
     {
      "en": "the right-hand shoulder, with the traffic",
-     "es": "por el arcén derecho, en el sentido del tráfico"
+     "es": "por el arcén derecho, en el sentido del tráfico",
+     "uk": "правим узбіччям, у напрямку руху"
     },
     {
      "en": "the middle of the carriageway",
-     "es": "por el centro de la calzada"
+     "es": "por el centro de la calzada",
+     "uk": "посередині проїзної частини"
     }
    ],
    "why": {
     "en": "Facing the traffic lets the pedestrian see what is coming.",
-    "es": "De cara al tráfico, el peatón ve lo que se le acerca."
+    "es": "De cara al tráfico, el peatón ve lo que se le acerca.",
+    "uk": "Ідучи назустріч руху, пішохід бачить, що наближається."
    }
   },
   {
@@ -2070,25 +2467,30 @@ window.DGT_DATA = {
    "tag": "peds",
    "q": {
     "en": "Someone pushing a bicycle along a road without a pavement walks…",
-    "es": "Quien empuja una bicicleta por una vía sin acera circula…"
+    "es": "Quien empuja una bicicleta por una vía sin acera circula…",
+    "uk": "Людина, що веде велосипед дорогою без тротуару, іде…"
    },
    "o": [
     {
      "en": "on the right",
-     "es": "por la derecha"
+     "es": "por la derecha",
+     "uk": "праворуч"
     },
     {
      "en": "on the left",
-     "es": "por la izquierda"
+     "es": "por la izquierda",
+     "uk": "ліворуч"
     },
     {
      "en": "on whichever side has less traffic",
-     "es": "por el lado con menos tráfico"
+     "es": "por el lado con menos tráfico",
+     "uk": "тим боком, де менший рух"
     }
    ],
    "why": {
     "en": "Same for a moped or VMP pushed by hand, and for groups led by one person.",
-    "es": "Igual con un ciclomotor o VMP a pie, y los grupos dirigidos por una persona."
+    "es": "Igual con un ciclomotor o VMP a pie, y los grupos dirigidos por una persona.",
+    "uk": "Так само з мопедом чи VMP, які ведуть руками, і з групами, які веде одна особа."
    }
   },
   {
@@ -2096,25 +2498,30 @@ window.DGT_DATA = {
    "tag": "peds",
    "q": {
     "en": "At a zebra crossing without lights, the pedestrian…",
-    "es": "En un paso de peatones sin semáforo, el peatón…"
+    "es": "En un paso de peatones sin semáforo, el peatón…",
+    "uk": "На нерегульованому пішохідному переході «зебра» пішохід…"
    },
    "o": [
     {
      "en": "has preference, but should step out only when it is safe",
-     "es": "tiene preferencia, pero solo debe entrar cuando sea seguro"
+     "es": "tiene preferencia, pero solo debe entrar cuando sea seguro",
+     "uk": "має перевагу, але має ступати на дорогу, лише коли це безпечно"
     },
     {
      "en": "may step out at any moment",
-     "es": "puede entrar en cualquier momento"
+     "es": "puede entrar en cualquier momento",
+     "uk": "може ступити будь-коли"
     },
     {
      "en": "must wait until no vehicle is in sight",
-     "es": "debe esperar a que no se vea ningún vehículo"
+     "es": "debe esperar a que no se vea ningún vehículo",
+     "uk": "мусить чекати, доки не буде видно жодного ТЗ"
     }
    ],
    "why": {
     "en": "Distance and speed of the approaching vehicles must allow it.",
-    "es": "La distancia y velocidad de los vehículos deben permitirlo."
+    "es": "La distancia y velocidad de los vehículos deben permitirlo.",
+    "uk": "Відстань і швидкість ТЗ, що наближаються, мають це дозволяти."
    }
   },
   {
@@ -2122,25 +2529,30 @@ window.DGT_DATA = {
    "tag": "peds",
    "q": {
     "en": "May pedestrians cross the carriageway of a roundabout?",
-    "es": "¿Pueden los peatones atravesar la calzada de una glorieta?"
+    "es": "¿Pueden los peatones atravesar la calzada de una glorieta?",
+    "uk": "Чи можуть пішоходи переходити проїзну частину кільцевої розв’язки?"
    },
    "o": [
     {
      "en": "No, they must walk round it unless there is a crossing",
-     "es": "No, deben rodearla salvo que haya paso para peatones"
+     "es": "No, deben rodearla salvo que haya paso para peatones",
+     "uk": "Ні, вони мусять обходити її, якщо немає переходу"
     },
     {
      "en": "Yes, through the centre",
-     "es": "Sí, por el centro"
+     "es": "Sí, por el centro",
+     "uk": "Так, через центр"
     },
     {
      "en": "Yes, if there is no traffic",
-     "es": "Sí, si no hay tráfico"
+     "es": "Sí, si no hay tráfico",
+     "uk": "Так, якщо немає руху"
     }
    ],
    "why": {
     "en": "Squares and roundabouts are walked round, not across.",
-    "es": "Plazas y glorietas se rodean, no se atraviesan."
+    "es": "Plazas y glorietas se rodean, no se atraviesan.",
+    "uk": "Площі й кільцеві розв’язки обходять, а не перетинають."
    }
   },
   {
@@ -2148,25 +2560,30 @@ window.DGT_DATA = {
    "tag": "peds",
    "q": {
     "en": "Your car breaks down on an autovía and you can get out safely. You should…",
-    "es": "Tu coche se avería en una autovía y puedes salir con seguridad. Debes…"
+    "es": "Tu coche se avería en una autovía y puedes salir con seguridad. Debes…",
+    "uk": "Ваш автомобіль зламався на autovía, і ви можете безпечно вийти. Вам слід…"
    },
    "o": [
     {
      "en": "get out on the side away from the traffic and go to a safe place outside the platform",
-     "es": "salir por el lado contrario al tráfico e ir a un lugar seguro fuera de la plataforma"
+     "es": "salir por el lado contrario al tráfico e ir a un lugar seguro fuera de la plataforma",
+     "uk": "вийти з боку, протилежного руху, і перейти в безпечне місце поза дорожнім полотном"
     },
     {
      "en": "wait on the shoulder behind the car",
-     "es": "esperar en el arcén detrás del coche"
+     "es": "esperar en el arcén detrás del coche",
+     "uk": "чекати на узбіччі позаду автомобіля"
     },
     {
      "en": "walk along the shoulder to the next exit",
-     "es": "caminar por el arcén hasta la salida"
+     "es": "caminar por el arcén hasta la salida",
+     "uk": "іти узбіччям до наступного з’їзду"
     }
    ],
    "why": {
     "en": "If you cannot get out safely, stay inside with your seat belt fastened.",
-    "es": "Si no se puede salir con seguridad, se permanece dentro con el cinturón abrochado."
+    "es": "Si no se puede salir con seguridad, se permanece dentro con el cinturón abrochado.",
+    "uk": "Якщо безпечно вийти не можна, лишайтеся всередині з пристебнутим ременем безпеки."
    }
   },
   {
@@ -2174,25 +2591,30 @@ window.DGT_DATA = {
    "tag": "peds",
    "q": {
     "en": "Hitch-hiking on an autopista or autovía…",
-    "es": "El autostop en autopistas y autovías…"
+    "es": "El autostop en autopistas y autovías…",
+    "uk": "Автостоп на autopista чи autovía…"
    },
    "o": [
     {
      "en": "is forbidden anywhere, including the areas around toll booths",
-     "es": "está prohibido en cualquier tramo, incluidas las explanadas de peaje"
+     "es": "está prohibido en cualquier tramo, incluidas las explanadas de peaje",
+     "uk": "заборонений будь-де, зокрема біля пунктів оплати"
     },
     {
      "en": "is allowed at toll booths",
-     "es": "está permitido en los peajes"
+     "es": "está permitido en los peajes",
+     "uk": "дозволений біля пунктів оплати"
     },
     {
      "en": "is allowed on the hard shoulder",
-     "es": "está permitido en el arcén"
+     "es": "está permitido en el arcén",
+     "uk": "дозволений на узбіччі"
     }
    ],
    "why": {
     "en": "No requests for a lift anywhere on these roads.",
-    "es": "No se puede pedir que te lleven en ningún punto de estas vías."
+    "es": "No se puede pedir que te lleven en ningún punto de estas vías.",
+    "uk": "На цих дорогах ніде не можна просити підвезти."
    }
   },
   {
@@ -2200,25 +2622,30 @@ window.DGT_DATA = {
    "tag": "peds",
    "q": {
     "en": "At night outside towns, a pedestrian on the shoulder must wear an approved reflective item visible from at least…",
-    "es": "De noche fuera de poblado, el peatón que va por el arcén debe llevar un elemento reflectante homologado visible al menos a…"
+    "es": "De noche fuera de poblado, el peatón que va por el arcén debe llevar un elemento reflectante homologado visible al menos a…",
+    "uk": "Уночі поза населеними пунктами пішохід на узбіччі мусить мати сертифікований світловідбивний елемент, видимий щонайменше з…"
    },
    "o": [
     {
      "en": "150 m",
-     "es": "150 m"
+     "es": "150 m",
+     "uk": "150 м"
     },
     {
      "en": "50 m",
-     "es": "50 m"
+     "es": "50 m",
+     "uk": "50 м"
     },
     {
      "en": "300 m",
-     "es": "300 m"
+     "es": "300 m",
+     "uk": "300 м"
     }
    ],
    "why": {
     "en": "Also by day when weather reduces visibility.",
-    "es": "También de día si las condiciones reducen la visibilidad."
+    "es": "También de día si las condiciones reducen la visibilidad.",
+    "uk": "А також удень, коли погода погіршує видимість."
    }
   },
   {
@@ -2226,25 +2653,30 @@ window.DGT_DATA = {
    "tag": "peds",
    "q": {
     "en": "When a priority vehicle with its signals on approaches, pedestrians…",
-    "es": "Ante un vehículo prioritario con sus señales, los peatones…"
+    "es": "Ante un vehículo prioritario con sus señales, los peatones…",
+    "uk": "Коли наближається ТЗ з перевагою з увімкненими сигналами, пішоходи…"
    },
    "o": [
     {
      "en": "clear the carriageway and stay in refuges or pedestrian zones",
-     "es": "despejan la calzada y permanecen en refugios o zonas peatonales"
+     "es": "despejan la calzada y permanecen en refugios o zonas peatonales",
+     "uk": "звільняють проїзну частину й лишаються на острівцях безпеки чи в пішохідних зонах"
     },
     {
      "en": "may finish crossing slowly",
-     "es": "pueden terminar de cruzar despacio"
+     "es": "pueden terminar de cruzar despacio",
+     "uk": "можуть повільно завершити перехід"
     },
     {
      "en": "must stop in the middle of the road",
-     "es": "deben detenerse en medio de la calzada"
+     "es": "deben detenerse en medio de la calzada",
+     "uk": "мусять зупинитися посеред дороги"
     }
    ],
    "why": {
     "en": "If there are none, they move away from the traffic.",
-    "es": "Si no los hay, se alejan de la circulación."
+    "es": "Si no los hay, se alejan de la circulación.",
+    "uk": "Якщо їх немає, вони відходять подалі від руху."
    }
   },
   {
@@ -2252,25 +2684,30 @@ window.DGT_DATA = {
    "tag": "animals",
    "q": {
     "en": "The person leading animals on a public road must be…",
-    "es": "La persona que conduce animales por una vía pública debe ser…"
+    "es": "La persona que conduce animales por una vía pública debe ser…",
+    "uk": "Людина, що веде тварин дорогою загального користування, має бути…"
    },
    "o": [
     {
      "en": "over 18",
-     "es": "mayor de 18 años"
+     "es": "mayor de 18 años",
+     "uk": "старшою 18 років"
     },
     {
      "en": "over 16",
-     "es": "mayor de 16 años"
+     "es": "mayor de 16 años",
+     "uk": "старшою 16 років"
     },
     {
      "en": "over 14",
-     "es": "mayor de 14 años"
+     "es": "mayor de 14 años",
+     "uk": "старшою 14 років"
     }
    ],
    "why": {
     "en": "And able to control them at all times.",
-    "es": "Y capaz de dominarlos en todo momento."
+    "es": "Y capaz de dominarlos en todo momento.",
+    "uk": "І здатною будь-коли їх контролювати."
    }
   },
   {
@@ -2278,25 +2715,30 @@ window.DGT_DATA = {
    "tag": "animals",
    "q": {
     "en": "A flock of sheep on the carriageway may occupy…",
-    "es": "Un rebaño de ovejas en la calzada puede ocupar…"
+    "es": "Un rebaño de ovejas en la calzada puede ocupar…",
+    "uk": "Отара овець на проїзній частині може займати…"
    },
    "o": [
     {
      "en": "never more than the right-hand half",
-     "es": "nunca más de la mitad derecha"
+     "es": "nunca más de la mitad derecha",
+     "uk": "ніколи не більше правої половини"
     },
     {
      "en": "the whole carriageway if there is no traffic",
-     "es": "toda la calzada si no hay tráfico"
+     "es": "toda la calzada si no hay tráfico",
+     "uk": "усю проїзну частину, якщо немає руху"
     },
     {
      "en": "the left-hand half",
-     "es": "la mitad izquierda"
+     "es": "la mitad izquierda",
+     "uk": "ліву половину"
     }
    ],
    "why": {
     "en": "At walking pace, as far right as possible, in moderate groups.",
-    "es": "Al paso, lo más a la derecha posible y en grupos moderados."
+    "es": "Al paso, lo más a la derecha posible y en grupos moderados.",
+    "uk": "Кроком, якомога правіше, помірними групами."
    }
   },
   {
@@ -2304,25 +2746,30 @@ window.DGT_DATA = {
    "tag": "animals",
    "q": {
     "en": "Animals on a road normally go along…",
-    "es": "Los animales en una vía circulan normalmente por…"
+    "es": "Los animales en una vía circulan normalmente por…",
+    "uk": "Тварини на дорозі зазвичай рухаються…"
    },
    "o": [
     {
      "en": "the right-hand shoulder",
-     "es": "el arcén derecho"
+     "es": "el arcén derecho",
+     "uk": "правим узбіччям"
     },
     {
      "en": "the left-hand shoulder",
-     "es": "el arcén izquierdo"
+     "es": "el arcén izquierdo",
+     "uk": "лівим узбіччям"
     },
     {
      "en": "the centre of the carriageway",
-     "es": "el centro de la calzada"
+     "es": "el centro de la calzada",
+     "uk": "посередині проїзної частини"
     }
    ],
    "why": {
     "en": "Exceptionally, one single animal may be led on the left for safety.",
-    "es": "Excepcionalmente, un solo animal puede ir por la izquierda por seguridad."
+    "es": "Excepcionalmente, un solo animal puede ir por la izquierda por seguridad.",
+    "uk": "У виняткових випадках одну тварину можна вести ліворуч заради безпеки."
    }
   },
   {
@@ -2330,25 +2777,30 @@ window.DGT_DATA = {
    "tag": "animals",
    "q": {
     "en": "At a narrow point where the paths of animals and vehicles cross…",
-    "es": "En un estrechamiento donde se cruzan las trayectorias de animales y vehículos…"
+    "es": "En un estrechamiento donde se cruzan las trayectorias de animales y vehículos…",
+    "uk": "У вузькому місці, де перетинаються шляхи тварин і ТЗ…"
    },
    "o": [
     {
      "en": "the animals give way to the vehicles",
-     "es": "los animales ceden el paso a los vehículos"
+     "es": "los animales ceden el paso a los vehículos",
+     "uk": "тварини поступаються ТЗ"
     },
     {
      "en": "the vehicles give way to the animals",
-     "es": "los vehículos ceden el paso a los animales"
+     "es": "los vehículos ceden el paso a los animales",
+     "uk": "ТЗ поступаються тваринам"
     },
     {
      "en": "whoever arrives first goes first",
-     "es": "pasa quien llegue primero"
+     "es": "pasa quien llegue primero",
+     "uk": "хто першим під’їхав, той першим і проїжджає"
     }
    ],
    "why": {
     "en": "Same at junctions.",
-    "es": "Igual en las intersecciones."
+    "es": "Igual en las intersecciones.",
+    "uk": "Так само на перехрестях."
    }
   },
   {
@@ -2356,25 +2808,30 @@ window.DGT_DATA = {
    "tag": "animals",
    "q": {
     "en": "Animals on a poorly lit road at night carry lights on the side nearest the centre:",
-    "es": "Los animales de noche en vía mal iluminada llevan luces en el lado más próximo al centro:"
+    "es": "Los animales de noche en vía mal iluminada llevan luces en el lado más próximo al centro:",
+    "uk": "Уночі на погано освітленій дорозі тварини мають вогні з боку, ближчого до центру:"
    },
    "o": [
     {
      "en": "white or yellow in front, red behind",
-     "es": "blanca o amarilla delante y roja detrás"
+     "es": "blanca o amarilla delante y roja detrás",
+     "uk": "білий чи жовтий спереду, червоний ззаду"
     },
     {
      "en": "red in front, white behind",
-     "es": "roja delante y blanca detrás"
+     "es": "roja delante y blanca detrás",
+     "uk": "червоний спереду, білий ззаду"
     },
     {
      "en": "flashing yellow on both sides",
-     "es": "amarilla intermitente a ambos lados"
+     "es": "amarilla intermitente a ambos lados",
+     "uk": "миготливий жовтий з обох боків"
     }
    ],
    "why": {
     "en": "Same as groups of pedestrians led by one person.",
-    "es": "Igual que los grupos de peatones dirigidos por una persona."
+    "es": "Igual que los grupos de peatones dirigidos por una persona.",
+    "uk": "Як і групи пішоходів, які веде одна особа."
    }
   },
   {
@@ -2382,25 +2839,30 @@ window.DGT_DATA = {
    "tag": "animals",
    "q": {
     "en": "May livestock use an autovía when there is no other route?",
-    "es": "¿Puede el ganado circular por una autovía si no hay otro itinerario?"
+    "es": "¿Puede el ganado circular por una autovía si no hay otro itinerario?",
+    "uk": "Чи може худоба йти autovía, якщо іншого шляху немає?"
    },
    "o": [
     {
      "en": "No, animals are forbidden on autopistas and autovías",
-     "es": "No, los animales tienen prohibidas las autopistas y autovías"
+     "es": "No, los animales tienen prohibidas las autopistas y autovías",
+     "uk": "Ні, тваринам заборонено на autopistas і autovías"
     },
     {
      "en": "Yes, on the shoulder",
-     "es": "Sí, por el arcén"
+     "es": "Sí, por el arcén",
+     "uk": "Так, узбіччям"
     },
     {
      "en": "Yes, at night",
-     "es": "Sí, de noche"
+     "es": "Sí, de noche",
+     "uk": "Так, уночі"
     }
    ],
    "why": {
     "en": "Animal-drawn vehicles are forbidden there too.",
-    "es": "También están prohibidos los vehículos de tracción animal."
+    "es": "También están prohibidos los vehículos de tracción animal.",
+    "uk": "Гужовим ТЗ там теж заборонено."
    }
   }
  ],
@@ -2409,378 +2871,462 @@ window.DGT_DATA = {
    "sec": 1,
    "en": "Principles and driver duties",
    "es": "Principios y obligaciones del conductor",
+   "uk": "Принципи й обов’язки водія",
    "recap": [
     [
      "Four principles: do not annoy, do not surprise, warn, understand. Warning does not give you the right to manoeuvre.",
-     "Cuatro principios: no molestar, no sorprender, advertir y comprender. Advertir no da derecho a realizar la maniobra."
+     "Cuatro principios: no molestar, no sorprender, advertir y comprender. Advertir no da derecho a realizar la maniobra.",
+     "Чотири принципи: не заважати, не заскочити зненацька, попереджати, розуміти. Попередження не дає права на маневр."
     ],
     [
      "Drive with care and caution; negligent or reckless driving is strictly forbidden.",
-     "Conducir con diligencia y precaución; está prohibido conducir de modo negligente o temerario."
+     "Conducir con diligencia y precaución; está prohibido conducir de modo negligente o temerario.",
+     "Керуйте уважно й обережно; недбале чи безрозсудне керування суворо заборонене."
     ],
     [
      "Take extra care near children, elderly people, blind people and people with reduced mobility.",
-     "Extremar la precaución con niños, ancianos, invidentes y personas con movilidad reducida."
+     "Extremar la precaución con niños, ancianos, invidentes y personas con movilidad reducida.",
+     "Будьте особливо обережні біля дітей, літніх людей, незрячих і людей з обмеженою рухливістю."
     ],
     [
      "Keep freedom of movement, field of vision and permanent attention; passengers, objects and animals well placed.",
-     "Mantener libertad de movimientos, campo de visión y atención permanente; pasajeros, objetos y animales bien colocados."
+     "Mantener libertad de movimientos, campo de visión y atención permanente; pasajeros, objetos y animales bien colocados.",
+     "Зберігайте свободу рухів, поле зору й постійну увагу; пасажири, речі й тварини добре розміщені."
     ]
    ],
    "trap": [
     "Believing that once you have signalled, the manoeuvre is yours by right.",
-    "Creer que, una vez señalizada, la maniobra es tuya por derecho."
+    "Creer que, una vez señalizada, la maniobra es tuya por derecho.",
+    "Вважати, що після сигналу маневр ваш за правом."
    ]
   },
   "bans": {
    "sec": 1,
    "en": "Phones, screens and other prohibitions",
    "es": "Móvil, pantallas y otras prohibiciones",
+   "uk": "Телефони, екрани та інші заборони",
    "recap": [
     [
      "Holding a phone while driving is an offence even if you do not use it. Only hands-free, without headphones.",
-     "Sujetar el móvil conduciendo es infracción aunque no se use. Solo manos libres, sin cascos ni auriculares."
+     "Sujetar el móvil conduciendo es infracción aunque no se use. Solo manos libres, sin cascos ni auriculares.",
+     "Тримати телефон під час керування — порушення, навіть якщо ним не користуєтеся. Лише без рук, без навушників."
     ],
     [
      "Headphones are forbidden; certified intercoms built into a motorcycle helmet are allowed.",
-     "Los auriculares están prohibidos; los intercomunicadores homologados integrados en el casco de moto, permitidos."
+     "Los auriculares están prohibidos; los intercomunicadores homologados integrados en el casco de moto, permitidos.",
+     "Навушники заборонені; сертифіковані інтеркоми, вбудовані в мотоциклетний шолом, дозволені."
     ],
     [
      "Allowed screens: parking camera, GPS (not handled while moving), passenger-boarding monitors. Not internet, TV or DVD.",
-     "Pantallas permitidas: cámara de maniobra, GPS (sin manipularlo en marcha) y monitores de subida y bajada. No internet, TV ni DVD."
+     "Pantallas permitidas: cámara de maniobra, GPS (sin manipularlo en marcha) y monitores de subida y bajada. No internet, TV ni DVD.",
+     "Дозволені екрани: камера для паркування, GPS (не чіпати під час руху), монітори посадки пасажирів. Не інтернет, ТБ чи DVD."
     ],
     [
      "Radar jammers and detectors are forbidden; warning devices are allowed. Refuel with engine, lights, radio and phone off.",
-     "Inhibidores y detectores de radar prohibidos; avisadores permitidos. Se reposta con motor, luces, radio y móvil apagados."
+     "Inhibidores y detectores de radar prohibidos; avisadores permitidos. Se reposta con motor, luces, radio y móvil apagados.",
+     "Глушники й детектори радарів заборонені; попереджувачі дозволені. Заправляйтеся з вимкненими двигуном, світлом, радіо й телефоном."
     ]
    ],
    "trap": [
     "Mixing up radar warning devices (legal) with detectors (illegal).",
-    "Confundir los avisadores de radar (legales) con los detectores (ilegales)."
+    "Confundir los avisadores de radar (legales) con los detectores (ilegales).",
+    "Плутати попереджувачі про радари (законні) з детекторами (незаконні)."
    ]
   },
   "parts": {
    "sec": 2,
    "en": "Parts and elements of the road",
    "es": "Partes y elementos de la vía",
+   "uk": "Частини й елементи дороги",
    "recap": [
     [
      "Plataforma = calzada + arcenes. Calzada = the part for vehicles. Carril = room for one line of cars (not motorcycles).",
-     "Plataforma = calzada + arcenes. Calzada = parte para vehículos. Carril = una fila de automóviles que no sean motos."
+     "Plataforma = calzada + arcenes. Calzada = parte para vehículos. Carril = una fila de automóviles que no sean motos.",
+     "Plataforma = calzada + arcenes. Calzada — частина для ТЗ. Carril — місце для одного ряду легковиків (не мотоциклів)."
     ],
     [
      "Mediana = strip between two separate plataformas. Arcén = next to the calzada, not for motor vehicles.",
-     "Mediana = franja entre dos plataformas separadas. Arcén = contiguo a la calzada, no para automóviles."
+     "Mediana = franja entre dos plataformas separadas. Arcén = contiguo a la calzada, no para automóviles.",
+     "Mediana — смуга між двома окремими plataformas. Arcén — поруч із calzada, не для механічних ТЗ."
     ],
     [
      "Refugio = pedestrian zone on the calzada. Isleta = channels traffic. Apartadero = widening to stop.",
-     "Refugio = zona peatonal en la calzada. Isleta = canaliza el tráfico. Apartadero = ensanchamiento para detenerse."
+     "Refugio = zona peatonal en la calzada. Isleta = canaliza el tráfico. Apartadero = ensanchamiento para detenerse.",
+     "Refugio — пішохідна зона на calzada. Isleta — спрямовує рух. Apartadero — розширення для зупинки."
     ],
     [
      "Intersección = paths cross at the same level. Glorieta = ring around a central island.",
-     "Intersección = las trayectorias se cruzan a nivel. Glorieta = anillo alrededor de una isleta central."
+     "Intersección = las trayectorias se cruzan a nivel. Glorieta = anillo alrededor de una isleta central.",
+     "Intersección — шляхи перетинаються в одному рівні. Glorieta — кільце навколо центрального острівця."
     ]
    ],
    "trap": [
     "Swapping plataforma and calzada, or refugio and isleta.",
-    "Intercambiar plataforma y calzada, o refugio e isleta."
+    "Intercambiar plataforma y calzada, o refugio e isleta.",
+    "Плутати plataforma і calzada або refugio і isleta."
    ]
   },
   "cycleways": {
    "sec": 2,
    "en": "Cycle infrastructure",
    "es": "Vías ciclistas",
+   "uk": "Велосипедна інфраструктура",
    "recap": [
     [
      "Carril bici = alongside the carriageway; protegido = physically separated.",
-     "Carril bici = adosado a la calzada; protegido = separado físicamente."
+     "Carril bici = adosado a la calzada; protegido = separado físicamente.",
+     "Carril bici — уздовж проїзної частини; protegido — фізично відокремлена."
     ],
     [
      "Acera bici = on the pavement. Pista bici = segregated, on its own route.",
-     "Acera bici = sobre la acera. Pista bici = segregada, con trazado independiente."
+     "Acera bici = sobre la acera. Pista bici = segregada, con trazado independiente.",
+     "Acera bici — на тротуарі. Pista bici — відокремлена, власним шляхом."
     ],
     [
      "Senda ciclable = shared by pedestrians and cycles through parks and open spaces.",
-     "Senda ciclable = compartida por peatones y ciclos, por parques y espacios abiertos."
+     "Senda ciclable = compartida por peatones y ciclos, por parques y espacios abiertos.",
+     "Senda ciclable — спільна для пішоходів і циклів, через парки й відкриті простори."
     ],
     [
      "Other vehicles need the authority’s permission and signs.",
-     "Otros vehículos necesitan autorización y señalización."
+     "Otros vehículos necesitan autorización y señalización.",
+     "Іншим ТЗ потрібні дозвіл органу влади й знаки."
     ]
    ],
    "trap": [
     "Confusing pista bici (own route) with carril bici (next to the carriageway).",
-    "Confundir pista bici (trazado propio) con carril bici (junto a la calzada)."
+    "Confundir pista bici (trazado propio) con carril bici (junto a la calzada).",
+    "Плутати pista bici (власний шлях) з carril bici (поруч із проїзною частиною)."
    ]
   },
   "types": {
    "sec": 3,
    "en": "Types of road",
    "es": "Tipos de vía",
+   "uk": "Типи доріг",
    "recap": [
     [
      "Carretera = paved public road outside towns, except travesías. Travesía = a carretera through a town.",
-     "Carretera = vía pública pavimentada fuera de poblado, salvo travesías. Travesía = carretera que cruza un poblado."
+     "Carretera = vía pública pavimentada fuera de poblado, salvo travesías. Travesía = carretera que cruza un poblado.",
+     "Carretera — дорога з покриттям поза населеними пунктами, крім travesías. Travesía — carretera через населений пункт."
     ],
     [
      "Autopista: automobiles only, no access, no level crossings. Autovía: limited access, no level crossings.",
-     "Autopista: solo automóviles, sin accesos, sin cruces a nivel. Autovía: accesos limitados, sin cruces a nivel."
+     "Autopista: solo automóviles, sin accesos, sin cruces a nivel. Autovía: accesos limitados, sin cruces a nivel.",
+     "Autopista: лише automóviles, без виїздів із прилеглих ділянок, без перехресть в одному рівні. Autovía: обмежений доступ, без перехресть в одному рівні."
     ],
     [
      "Motorways and dual carriageways: automobiles able to exceed 60 km/h on the flat. No pedestrians, cycles, mopeds, VMP or animals.",
-     "Autopistas y autovías: automóviles que superen 60 km/h en llano. Sin peatones, ciclos, ciclomotores, VMP ni animales."
+     "Autopistas y autovías: automóviles que superen 60 km/h en llano. Sin peatones, ciclos, ciclomotores, VMP ni animales.",
+     "Автомагістралі й дороги з розділеними проїзними частинами: automóviles, здатні перевищити 60 км/год на рівній дорозі. Без пішоходів, циклів, мопедів, VMP і тварин."
     ],
     [
      "Cyclists over 14 may ride on the shoulder of an autovía.",
-     "Los ciclistas mayores de 14 años pueden circular por el arcén de la autovía."
+     "Los ciclistas mayores de 14 años pueden circular por el arcén de la autovía.",
+     "Велосипедисти старші 14 років можуть їхати узбіччям autovía."
     ]
    ],
    "trap": [
     "Autopista vs autovía: “no access” vs “limited access”.",
-    "Autopista frente a autovía: «sin accesos» frente a «accesos limitados»."
+    "Autopista frente a autovía: «sin accesos» frente a «accesos limitados».",
+    "Autopista і autovía: «без доступу» і «обмежений доступ»."
    ]
   },
   "lanes": {
    "sec": 4,
    "en": "Which lane to use",
    "es": "Utilización de carriles",
+   "uk": "Якою смугою їхати",
    "recap": [
     [
      "Two-way, two lanes: right lane. Two-way, three lanes (broken lines): right; centre only to overtake or turn left; left never.",
-     "Doble sentido, dos carriles: el derecho. Tres carriles (discontinuas): el derecho; central solo para adelantar o girar a la izquierda; izquierdo nunca."
+     "Doble sentido, dos carriles: el derecho. Tres carriles (discontinuas): el derecho; central solo para adelantar o girar a la izquierda; izquierdo nunca.",
+     "Двосторонній рух, дві смуги: права. Двосторонній, три смуги (переривчасті лінії): права; середня — лише для обгону чи повороту ліворуч; ліва — ніколи."
     ],
     [
      "One way, out of town: rightmost lane, the rest to overtake.",
-     "Sentido único, interurbana: el de más a la derecha; el resto para adelantar."
+     "Sentido único, interurbana: el de más a la derecha; el resto para adelantar.",
+     "Односторонній, поза населеним пунктом: крайня права, решта — для обгону."
     ],
     [
      "3+ lanes out of town: trucks, vans and specials over 3,500 kg and combinations over 7 m: right lane and, exceptionally, the next one.",
-     "3 o más carriles en interurbana: camiones, furgones y especiales de más de 3.500 kg y conjuntos de más de 7 m: el derecho y excepcionalmente el contiguo."
+     "3 o más carriles en interurbana: camiones, furgones y especiales de más de 3.500 kg y conjuntos de más de 7 m: el derecho y excepcionalmente el contiguo.",
+     "3+ смуги поза населеним пунктом: вантажівки, фургони й спеціальні понад 3 500 кг і состави понад 7 м — права смуга й у виняткових випадках сусідня."
     ],
     [
      "In town: marked lanes → best for your destination; unmarked → right lane. Not on an autopista or autovía through the town.",
-     "En poblado: carriles delimitados → el que convenga al destino; sin delimitar → el derecho. No en autopistas o autovías urbanas."
+     "En poblado: carriles delimitados → el que convenga al destino; sin delimitar → el derecho. No en autopistas o autovías urbanas.",
+     "У населеному пункті: розмічені смуги → найкраща для вашого напрямку; без розмітки → права. Не на autopista чи autovía через місто."
     ]
    ],
    "trap": [
     "Using the left lane on a two-way three-lane road, or 10 m instead of 7 m for combinations.",
-    "Usar el carril izquierdo en doble sentido con tres carriles, o 10 m en lugar de 7 m para los conjuntos."
+    "Usar el carril izquierdo en doble sentido con tres carriles, o 10 m en lugar de 7 m para los conjuntos.",
+    "Їхати лівою смугою на двосторонній дорозі з трьома смугами або брати 10 м замість 7 м для составів."
    ]
   },
   "position": {
    "sec": 5,
    "en": "Islands, roundabouts and carriageways",
    "es": "Isletas, glorietas y calzadas",
+   "uk": "Острівці, кільцеві розв’язки й проїзні частини",
    "recap": [
     [
      "Islands separating two directions: pass on their right. On one-way roads: either side.",
-     "Isletas que separan dos sentidos: por su derecha. En sentido único: por cualquier lado."
+     "Isletas que separan dos sentidos: por su derecha. En sentido único: por cualquier lado.",
+     "Острівці, що розділяють два напрямки: об’їжджати праворуч від них. На односторонніх дорогах — з будь-якого боку."
     ],
     [
      "Squares, roundabouts and junctions: centre on your left.",
-     "Plazas, glorietas e intersecciones: el centro a la izquierda."
+     "Plazas, glorietas e intersecciones: el centro a la izquierda.",
+     "Площі, кільцеві розв’язки й перехрестя: центр ліворуч від вас."
     ],
     [
      "Interurban roundabout with 2+ lanes: the outer (right) lane. Urban: the lane that suits your destination.",
-     "Glorieta interurbana con 2 o más carriles: el más próximo a la derecha. Urbana: el que convenga al destino."
+     "Glorieta interurbana con 2 o más carriles: el más próximo a la derecha. Urbana: el que convenga al destino.",
+     "Заміська кільцева розв’язка з 2+ смугами: зовнішня (права) смуга. Міська — смуга, що підходить до вашого напрямку."
     ],
     [
      "Two carriageways: the right one. Three: centre one or two directions, sides one direction.",
-     "Dos calzadas: la de la derecha. Tres: la central de uno o dos sentidos, las laterales de uno."
+     "Dos calzadas: la de la derecha. Tres: la central de uno o dos sentidos, las laterales de uno.",
+     "Дві проїзні частини — права. Три — середня в одному чи обох напрямках, бічні — в одному."
     ]
    ],
    "trap": [
     "Thinking the inner lane of an interurban roundabout is the normal one.",
-    "Creer que el carril interior de una glorieta interurbana es el normal."
+    "Creer que el carril interior de una glorieta interurbana es el normal.",
+    "Вважати внутрішню смугу заміської кільцевої розв’язки звичайною."
    ]
   },
   "reserved": {
    "sec": 6,
    "en": "Reserved lanes and lane counting",
    "es": "Carriles reservados y cómputo de carriles",
+   "uk": "Відведені смуги й підрахунок смуг",
    "recap": [
     [
      "Minimum-speed lane: only for vehicles at or above the signed speed; it counts as a lane.",
-     "Carril de velocidad mínima: solo para quien circula a esa velocidad o más; sí se computa."
+     "Carril de velocidad mínima: solo para quien circula a esa velocidad o más; sí se computa.",
+     "Смуга з мінімальною швидкістю: лише для ТЗ із вказаною швидкістю чи швидше; вона рахується як смуга."
     ],
     [
      "Bus lane: buses (and taxis if signed). Others cross only at broken stretches, never to stop, park, turn round or overtake.",
-     "Carril bus: autobuses (y taxis si se indica). Los demás lo cruzan solo en tramos discontinuos, nunca para parar, estacionar, cambiar de sentido o adelantar."
+     "Carril bus: autobuses (y taxis si se indica). Los demás lo cruzan solo en tramos discontinuos, nunca para parar, estacionar, cambiar de sentido o adelantar.",
+     "Автобусна смуга: автобуси (і таксі, якщо позначено). Інші перетинають її лише на переривчастих ділянках, ніколи для зупинки, стоянки, розвороту чи обгону."
     ],
     [
      "VAO: MMA ≤ 3,500 kg, usually ≥ 2 occupants incl. driver. Motorcycles, taxis and buses always; labelled cars only when the panels allow it.",
-     "VAO: MMA ≤ 3.500 kg, normalmente ≥ 2 ocupantes con el conductor. Motos, taxis y autobuses siempre; turismos con distintivo solo si lo permiten los paneles."
+     "VAO: MMA ≤ 3.500 kg, normalmente ≥ 2 ocupantes con el conductor. Motos, taxis y autobuses siempre; turismos con distintivo solo si lo permiten los paneles.",
+     "VAO: MMA ≤ 3 500 кг, зазвичай ≥ 2 людей разом із водієм. Мотоцикли, таксі й автобуси — завжди; легковики з наліпками — лише коли дозволяють табло."
     ],
     [
      "Not counted: bus, bike, acceleration, deceleration and waiting lanes.",
-     "No se computan: bus, bici, aceleración, deceleración y espera."
+     "No se computan: bus, bici, aceleración, deceleración y espera.",
+     "Не рахуються: автобусні, велосипедні смуги, смуги розгону, гальмування й очікування."
     ]
    ],
    "trap": [
     "Thinking minimum-speed lanes do not count, or slowing down on the main carriageway before an exit.",
-    "Creer que los carriles de velocidad mínima no cuentan, o frenar en la calzada principal antes de la salida."
+    "Creer que los carriles de velocidad mínima no cuentan, o frenar en la calzada principal antes de la salida.",
+    "Думати, що смуги з мінімальною швидкістю не рахуються, або гальмувати на основній проїзній частині перед з’їздом."
    ]
   },
   "flow": {
    "sec": 6,
    "en": "Flow lanes, emergency corridor and snow",
    "es": "Carriles de fluidez, carril de emergencia y nieve",
+   "uk": "Смуги для руху, екстрений коридор і сніг",
    "recap": [
     [
      "Reversible: double broken lines on both sides; dipped headlights day and night.",
-     "Reversible: dobles líneas discontinuas a ambos lados; luz de cruce de día y de noche."
+     "Reversible: dobles líneas discontinuas a ambos lados; luz de cruce de día y de noche.",
+     "Реверсивна: подвійні переривчасті лінії з обох боків; ближнє світло вдень і вночі."
     ],
     [
      "Additional and contraflow lanes: dipped headlights and 60–80 km/h.",
-     "Adicional circunstancial y sentido contrario: luz de cruce y 60–80 km/h."
+     "Adicional circunstancial y sentido contrario: luz de cruce y 60–80 km/h.",
+     "Додаткові смуги й смуги зустрічного руху: ближнє світло й 60–80 км/год."
     ],
     [
      "Contraflow for traffic flow: only motorcycles and cars without trailer. For roadworks: all vehicles allowed on the road.",
-     "Sentido contrario por fluidez: solo motos y turismos sin remolque. Por obras: todos los autorizados."
+     "Sentido contrario por fluidez: solo motos y turismos sin remolque. Por obras: todos los autorizados.",
+     "Зустрічна смуга для покращення руху: лише мотоцикли й легковики без причепа. Через дорожні роботи — усі ТЗ, дозволені на дорозі."
     ],
     [
      "Emergency corridor: 2 lanes → centre; 3+ → between the left lane and the next. Snow: no overtaking, right lane.",
-     "Carril de emergencia: 2 carriles → centro; 3 o más → entre el izquierdo y su contiguo. Nieve: no adelantar, carril derecho."
+     "Carril de emergencia: 2 carriles → centro; 3 o más → entre el izquierdo y su contiguo. Nieve: no adelantar, carril derecho.",
+     "Екстрений коридор: 2 смуги → посередині; 3+ → між лівою смугою і сусідньою. Сніг: без обгону, права смуга."
     ]
    ],
    "trap": [
     "Putting the emergency corridor in the middle of a three-lane road.",
-    "Abrir el carril de emergencia en el centro de una vía de tres carriles."
+    "Abrir el carril de emergencia en el centro de una vía de tres carriles.",
+    "Утворювати екстрений коридор посередині дороги з трьома смугами."
    ]
   },
   "shoulder": {
    "sec": 7,
    "en": "Driving on the hard shoulder",
    "es": "Circulación por el arcén",
+   "uk": "Рух узбіччям",
    "recap": [
     [
      "Must use the shoulder: cycles, mopeds, reduced-mobility vehicles, animal-drawn vehicles, special vehicles ≤ 3,500 kg, vehicles escorting cyclists.",
-     "Obligados al arcén: ciclos, ciclomotores, vehículos de movilidad reducida, de tracción animal, especiales ≤ 3.500 kg y vehículos que siguen a ciclistas."
+     "Obligados al arcén: ciclos, ciclomotores, vehículos de movilidad reducida, de tracción animal, especiales ≤ 3.500 kg y vehículos que siguen a ciclistas.",
+     "Мусять їхати узбіччям: цикли, мопеди, ТЗ для осіб з обмеженою рухливістю, гужові ТЗ, спеціальні ТЗ ≤ 3 500 кг, ТЗ супроводу велосипедистів."
     ],
     [
      "Bicycles may ride two abreast; single file without visibility or when bunched. On long descents with bends they may use the carriageway, not on autovías.",
-     "Las bicis pueden ir en columna de a dos; en hilera sin visibilidad o con aglomeraciones. En descensos con curvas pueden usar la calzada, salvo en autovía."
+     "Las bicis pueden ir en columna de a dos; en hilera sin visibilidad o con aglomeraciones. En descensos con curvas pueden usar la calzada, salvo en autovía.",
+     "Велосипеди можуть їхати по двоє поруч; один за одним — без видимості чи коли скупчуються. На довгих спусках з поворотами можуть виїжджати на проїзну частину, але не на autovías."
     ],
     [
      "The others may not overtake each other if side by side more than 15 s or 200 m.",
-     "Los demás no pueden adelantarse si la marcha en paralelo supera 15 s o 200 m."
+     "Los demás no pueden adelantarse si la marcha en paralelo supera 15 s o 200 m.",
+     "Інші не можуть обганяти одне одного, якщо їхатимуть поруч понад 15 с або 200 м."
     ],
     [
      "Breakdown (≤ 3,500 kg): to the first exit by the right shoulder. Service vehicles and motorcycles in jams: ≤ 30 km/h.",
-     "Avería (≤ 3.500 kg): a la primera salida por el arcén derecho. Vehículos de servicio y motos en atascos: ≤ 30 km/h."
+     "Avería (≤ 3.500 kg): a la primera salida por el arcén derecho. Vehículos de servicio y motos en atascos: ≤ 30 km/h.",
+     "Поломка (≤ 3 500 кг): до першого з’їзду правим узбіччям. Службові ТЗ і мотоцикли в заторах: ≤ 30 км/год."
     ]
    ],
    "trap": [
     "Applying the 15 s / 200 m rule to bicycles.",
-    "Aplicar la regla de 15 s / 200 m a las bicicletas."
+    "Aplicar la regla de 15 s / 200 m a las bicicletas.",
+    "Застосовувати правило 15 с / 200 м до велосипедів."
    ]
   },
   "distance": {
    "sec": 8,
    "en": "Safety distance",
    "es": "Distancia de seguridad",
+   "uk": "Безпечна дистанція",
    "recap": [
     [
      "Leave room to stop without hitting the vehicle in front; if you are not signalling to overtake, also room to be overtaken.",
-     "Espacio para detenerse sin chocar; si no se señaliza el adelantamiento, también para que nos adelanten."
+     "Espacio para detenerse sin chocar; si no se señaliza el adelantamiento, también para que nos adelanten.",
+     "Лишайте місце, щоб зупинитися, не вдаривши ТЗ попереду; якщо не сигналізуєте про обгін — ще й місце, щоб вас обігнали."
     ],
     [
      "Out of town, MMA over 3,500 kg or over 10 m long: at least 50 m.",
-     "Fuera de poblado, MMA de más de 3.500 kg o más de 10 m: al menos 50 m."
+     "Fuera de poblado, MMA de más de 3.500 kg o más de 10 m: al menos 50 m.",
+     "Поза населеним пунктом, MMA понад 3 500 кг або довжина понад 10 м: щонайменше 50 м."
     ],
     [
      "No 50 m in town, where overtaking is forbidden, with more than one lane, in saturated traffic or when about to overtake.",
-     "No hacen falta 50 m en poblado, donde se prohíbe adelantar, con más de un carril, con tráfico saturado o al ir a adelantar."
+     "No hacen falta 50 m en poblado, donde se prohíbe adelantar, con más de un carril, con tráfico saturado o al ir a adelantar.",
+     "50 м не потрібні в населеному пункті, де обгін заборонено, на дорогах із кількома смугами, у насиченому русі й коли збираєтеся обганяти."
     ],
     [
      "Chevrons: at least two (sign R-300). Tunnels: 100 m or 4 s; over 3,500 kg 150 m or 6 s.",
-     "Galones: al menos dos (señal R-300). Túneles: 100 m o 4 s; más de 3.500 kg, 150 m o 6 s."
+     "Galones: al menos dos (señal R-300). Túneles: 100 m o 4 s; más de 3.500 kg, 150 m o 6 s.",
+     "Шеврони: щонайменше два (знак R-300). Тунелі: 100 м або 4 с; понад 3 500 кг — 150 м або 6 с."
     ]
    ],
    "trap": [
     "Using 7 m for the 50 m rule: it is 10 m.",
-    "Usar 7 m para la regla de los 50 m: son 10 m."
+    "Usar 7 m para la regla de los 50 m: son 10 m.",
+    "Брати 7 м для правила 50 м: там 10 м."
    ]
   },
   "saturated": {
    "sec": 9,
    "en": "Congested roads",
    "es": "Vías saturadas",
+   "uk": "Перевантажені дороги",
    "recap": [
     [
      "Saturated = vehicles fill every lane.",
-     "Saturada = los vehículos ocupan todos los carriles."
+     "Saturada = los vehículos ocupan todos los carriles.",
+     "Насичений рух — ТЗ займають усі смуги."
     ],
     [
      "Going faster in the right lane is not overtaking.",
-     "Ir más rápido por el carril derecho no es adelantar."
+     "Ir más rápido por el carril derecho no es adelantar.",
+     "Їхати швидше правою смугою — не обгін."
     ],
     [
      "No lane changes except to turn, leave or take a direction; never use the shoulder, not even for the next exit.",
-     "No cambiar de carril salvo para girar, salir o tomar una dirección; nunca usar el arcén, ni para la salida más próxima."
+     "No cambiar de carril salvo para girar, salir o tomar una dirección; nunca usar el arcén, ni para la salida más próxima.",
+     "Без перестроювань, крім повороту, з’їзду чи вибору напрямку; ніколи узбіччям, навіть до наступного з’їзду."
     ],
     [
      "Colours: white > 90 %, green 75–90 %, yellow 25–75 %, red < 25 %, black = closed.",
-     "Colores: blanco > 90 %, verde 75–90 %, amarillo 25–75 %, rojo < 25 %, negro = cortada."
+     "Colores: blanco > 90 %, verde 75–90 %, amarillo 25–75 %, rojo < 25 %, negro = cortada.",
+     "Кольори: білий > 90 %, зелений 75–90 %, жовтий 25–75 %, червоний < 25 %, чорний — дорогу закрито."
     ]
    ],
    "trap": [
     "Mixing up green (conditioned) and yellow (discontinuous).",
-    "Confundir verde (condicionada) con amarillo (discontinua)."
+    "Confundir verde (condicionada) con amarillo (discontinua).",
+    "Плутати зелений (ускладнений рух) і жовтий (переривчастий)."
    ]
   },
   "peds": {
    "sec": 10,
    "en": "Pedestrians",
    "es": "Peatones",
+   "uk": "Пішоходи",
    "recap": [
     [
      "No usable pedestrian zone: left shoulder, facing the traffic, in single file.",
-     "Sin zona peatonal practicable: por el arcén izquierdo, de cara al tráfico, en fila."
+     "Sin zona peatonal practicable: por el arcén izquierdo, de cara al tráfico, en fila.",
+     "Немає придатної пішохідної зони: ліве узбіччя, назустріч руху, один за одним."
     ],
     [
      "On the right: pushing a cycle, moped or VMP; groups led by one person; safety reasons.",
-     "Por la derecha: quien empuja un ciclo, ciclomotor o VMP; grupos dirigidos por una persona; razones de seguridad."
+     "Por la derecha: quien empuja un ciclo, ciclomotor o VMP; grupos dirigidos por una persona; razones de seguridad.",
+     "Праворуч: ті, хто веде цикл, мопед чи VMP; групи, які веде одна особа; з міркувань безпеки."
     ],
     [
      "Cross at crossings, at right angles, without stopping. Never across the carriageway of a roundabout.",
-     "Cruzar por los pasos, perpendicularmente y sin detenerse. Nunca por la calzada de una glorieta."
+     "Cruzar por los pasos, perpendicularmente y sin detenerse. Nunca por la calzada de una glorieta.",
+     "Переходьте на переходах, під прямим кутом, не зупиняючись. Ніколи через проїзну частину кільцевої розв’язки."
     ],
     [
      "Motorways: only in emergencies; no hitch-hiking. At night out of town: reflective item visible at 150 m.",
-     "Autopistas: solo en emergencias; prohibido el autostop. De noche fuera de poblado: elemento reflectante visible a 150 m."
+     "Autopistas: solo en emergencias; prohibido el autostop. De noche fuera de poblado: elemento reflectante visible a 150 m.",
+     "Автомагістралі: лише в екстрених випадках; без автостопу. Уночі поза населеним пунктом: світловідбивний елемент, видимий зі 150 м."
     ]
    ],
    "trap": [
     "Forgetting that pushing a bicycle moves you to the right-hand side.",
-    "Olvidar que empujar una bicicleta te lleva al lado derecho."
+    "Olvidar que empujar una bicicleta te lleva al lado derecho.",
+    "Забути, що з велосипедом у руках ви переходите на правий бік."
    ]
   },
   "animals": {
    "sec": 11,
    "en": "Animals on the road",
    "es": "Animales en la vía",
+   "uk": "Тварини на дорозі",
    "recap": [
     [
      "Only when there is no usable livestock track; always with a keeper over 18.",
-     "Solo si no hay vía pecuaria practicable; siempre con un conductor mayor de 18 años."
+     "Solo si no hay vía pecuaria practicable; siempre con un conductor mayor de 18 años.",
+     "Лише коли немає придатного скотопрогону; завжди з погоничем, старшим 18 років."
     ],
     [
      "Right-hand shoulder; one single animal may go on the left for safety.",
-     "Por el arcén derecho; un solo animal puede ir por la izquierda por seguridad."
+     "Por el arcén derecho; un solo animal puede ir por la izquierda por seguridad.",
+     "Праве узбіччя; одну тварину можна вести ліворуч заради безпеки."
     ],
     [
      "Herds at walking pace, never more than the right half of the carriageway.",
-     "Rebaños al paso, nunca más de la mitad derecha de la calzada."
+     "Rebaños al paso, nunca más de la mitad derecha de la calzada.",
+     "Стада — кроком, ніколи не більше правої половини проїзної частини."
     ],
     [
      "Never on motorways or dual carriageways; give way to vehicles at narrow points; at night white or yellow light in front, red behind.",
-     "Nunca por autopistas o autovías; ceden el paso a los vehículos en estrechamientos; de noche, luz blanca o amarilla delante y roja detrás."
+     "Nunca por autopistas o autovías; ceden el paso a los vehículos en estrechamientos; de noche, luz blanca o amarilla delante y roja detrás.",
+     "Ніколи на автомагістралях і дорогах з розділеними проїзними частинами; у вузьких місцях поступаються ТЗ; уночі білий чи жовтий вогонь спереду, червоний ззаду."
     ]
    ],
    "trap": [
     "Thinking a 16-year-old may lead a herd, or that a herd may use the whole road when it is empty.",
-    "Creer que un menor de 16 años puede conducir un rebaño, o que puede ocupar toda la calzada si está vacía."
+    "Creer que un menor de 16 años puede conducir un rebaño, o que puede ocupar toda la calzada si está vacía.",
+    "Думати, що 16-річний може вести стадо або що стадо може займати всю дорогу, коли вона порожня."
    ]
   }
  }

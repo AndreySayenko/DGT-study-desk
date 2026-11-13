@@ -4,11 +4,13 @@ window.DGT_DATA = {
  "category": "b",
  "langs": [
   "en",
-  "es"
+  "es",
+  "uk"
  ],
  "title": {
   "en": "Topic 1 · Definitions and general concepts",
-  "es": "Tema 1 · Definiciones y conceptos generales"
+  "es": "Tema 1 · Definiciones y conceptos generales",
+  "uk": "Тема 1 · Визначення та загальні поняття"
  },
  "bank": [
   {
@@ -16,25 +18,30 @@ window.DGT_DATA = {
    "tag": "roads",
    "q": {
     "en": "A <i>travesía</i> is…",
-    "es": "Una travesía es…"
+    "es": "Una travesía es…",
+    "uk": "<i>Travesía</i> — це…"
    },
    "o": [
     {
      "en": "a stretch of a <i>carretera</i> that runs through a built-up area",
-     "es": "un tramo de carretera que discurre por poblado"
+     "es": "un tramo de carretera que discurre por poblado",
+     "uk": "ділянка <i>carretera</i>, що проходить через населений пункт"
     },
     {
      "en": "any street inside a town",
-     "es": "cualquier calle dentro de un poblado"
+     "es": "cualquier calle dentro de un poblado",
+     "uk": "будь-яка вулиця в місті"
     },
     {
      "en": "a road that joins two motorways",
-     "es": "una vía que une dos autopistas"
+     "es": "una vía que une dos autopistas",
+     "uk": "дорога, що з’єднує дві автомагістралі"
     }
    ],
    "why": {
     "en": "A travesía is the part of a carretera that passes through a built-up area.",
-    "es": "La travesía es el tramo de carretera que discurre por poblado."
+    "es": "La travesía es el tramo de carretera que discurre por poblado.",
+    "uk": "Travesía — частина carretera, що проходить через населений пункт."
    }
   },
   {
@@ -42,25 +49,30 @@ window.DGT_DATA = {
    "tag": "roads",
    "q": {
     "en": "A private car park that any driver may enter. Does the traffic law apply inside?",
-    "es": "Un aparcamiento privado en el que puede entrar cualquier conductor. ¿Se aplica dentro la ley de tráfico?"
+    "es": "Un aparcamiento privado en el que puede entrar cualquier conductor. ¿Se aplica dentro la ley de tráfico?",
+    "uk": "Приватна стоянка, куди може заїхати будь-який водій. Чи діє там закон про дорожній рух?"
    },
    "o": [
     {
      "en": "Yes, because an undetermined group of users uses it",
-     "es": "Sí, porque lo utiliza una colectividad indeterminada de usuarios"
+     "es": "Sí, porque lo utiliza una colectividad indeterminada de usuarios",
+     "uk": "Так, бо нею користується невизначене коло користувачів"
     },
     {
      "en": "No, because it is private property",
-     "es": "No, porque es propiedad privada"
+     "es": "No, porque es propiedad privada",
+     "uk": "Ні, бо це приватна власність"
     },
     {
      "en": "Only if the owner has put up traffic signs",
-     "es": "Solo si el dueño ha colocado señales de tráfico"
+     "es": "Solo si el dueño ha colocado señales de tráfico",
+     "uk": "Лише якщо власник поставив дорожні знаки"
     }
    ],
    "why": {
     "en": "Private roads and terrain used by an undetermined group of users fall under the law when no other rule applies.",
-    "es": "Las vías y terrenos privados utilizados por una colectividad indeterminada de usuarios quedan dentro de la ley si no hay otra norma."
+    "es": "Las vías y terrenos privados utilizados por una colectividad indeterminada de usuarios quedan dentro de la ley si no hay otra norma.",
+    "uk": "Приватні дороги й території, якими користується невизначене коло користувачів, підпадають під закон, якщо немає іншого правила."
    }
   },
   {
@@ -68,25 +80,30 @@ window.DGT_DATA = {
    "tag": "roads",
    "q": {
     "en": "The <i>arcén</i> (hard shoulder) is…",
-    "es": "El arcén es…"
+    "es": "El arcén es…",
+    "uk": "<i>Arcén</i> (узбіччя) — це…"
    },
    "o": [
     {
      "en": "a paved strip beside the carriageway, not meant for cars except in exceptional circumstances",
-     "es": "una franja pavimentada contigua a la calzada, no destinada a automóviles salvo circunstancias excepcionales"
+     "es": "una franja pavimentada contigua a la calzada, no destinada a automóviles salvo circunstancias excepcionales",
+     "uk": "укріплена смуга поруч із проїзною частиною, не для автомобілів, крім виняткових обставин"
     },
     {
      "en": "an extra lane for slow vehicles",
-     "es": "un carril adicional para vehículos lentos"
+     "es": "un carril adicional para vehículos lentos",
+     "uk": "додаткова смуга для повільних ТЗ"
     },
     {
      "en": "the part of the carriageway used for overtaking",
-     "es": "la parte de la calzada que se usa para adelantar"
+     "es": "la parte de la calzada que se usa para adelantar",
+     "uk": "частина проїзної частини для обгону"
     }
    ],
    "why": {
     "en": "The hard shoulder is beside the carriageway, not part of it, and cars use it only exceptionally.",
-    "es": "El arcén está junto a la calzada, no forma parte de ella, y los automóviles solo lo usan excepcionalmente."
+    "es": "El arcén está junto a la calzada, no forma parte de ella, y los automóviles solo lo usan excepcionalmente.",
+    "uk": "Узбіччя — поруч із проїзною частиною, а не її частина, і автомобілі користуються ним лише у виняткових випадках."
    }
   },
   {
@@ -94,25 +111,30 @@ window.DGT_DATA = {
    "tag": "roads",
    "q": {
     "en": "An interurban road (<i>vía interurbana</i>) is…",
-    "es": "Una vía interurbana es…"
+    "es": "Una vía interurbana es…",
+    "uk": "Заміська дорога (<i>vía interurbana</i>) — це…"
    },
    "o": [
     {
      "en": "a public road outside built-up areas",
-     "es": "una vía pública situada fuera de poblado"
+     "es": "una vía pública situada fuera de poblado",
+     "uk": "дорога загального користування поза населеними пунктами"
     },
     {
      "en": "any road with more than one lane each way",
-     "es": "cualquier vía con más de un carril por sentido"
+     "es": "cualquier vía con más de un carril por sentido",
+     "uk": "будь-яка дорога з кількома смугами в кожен бік"
     },
     {
      "en": "a road between two towns, including the stretches inside them",
-     "es": "una vía entre dos poblaciones, incluidos los tramos dentro de ellas"
+     "es": "una vía entre dos poblaciones, incluidos los tramos dentro de ellas",
+     "uk": "дорога між двома містами разом із ділянками всередині них"
     }
    ],
    "why": {
     "en": "Interurban means outside built-up areas; the stretch inside a town is a travesía or an urban road.",
-    "es": "Interurbana significa fuera de poblado; el tramo dentro de una población es travesía o vía urbana."
+    "es": "Interurbana significa fuera de poblado; el tramo dentro de una población es travesía o vía urbana.",
+    "uk": "Заміська — поза населеними пунктами; ділянка в місті — це travesía або міська дорога."
    }
   },
   {
@@ -120,25 +142,30 @@ window.DGT_DATA = {
    "tag": "users",
    "q": {
     "en": "Someone walks beside the bicycle they are pushing. Legally they are a…",
-    "es": "Una persona camina empujando su bicicleta. Legalmente es…"
+    "es": "Una persona camina empujando su bicicleta. Legalmente es…",
+    "uk": "Людина йде поруч із велосипедом, який веде. За законом вона…"
    },
    "o": [
     {
      "en": "pedestrian",
-     "es": "peatón"
+     "es": "peatón",
+     "uk": "пішохід"
     },
     {
      "en": "cyclist (driver)",
-     "es": "ciclista (conductor)"
+     "es": "ciclista (conductor)",
+     "uk": "велосипедист (водій)"
     },
     {
      "en": "passenger",
-     "es": "pasajero"
+     "es": "pasajero",
+     "uk": "пасажир"
     }
    ],
    "why": {
     "en": "People who walk a cycle or a two-wheel moped by hand are treated as pedestrians.",
-    "es": "Quienes conducen a pie un ciclo o ciclomotor de dos ruedas se consideran peatones."
+    "es": "Quienes conducen a pie un ciclo o ciclomotor de dos ruedas se consideran peatones.",
+    "uk": "Ті, хто веде цикл чи двоколісний мопед руками, вважаються пішоходами."
    }
   },
   {
@@ -146,25 +173,30 @@ window.DGT_DATA = {
    "tag": "users",
    "q": {
     "en": "A person leading a herd of animals along the road is legally a…",
-    "es": "La persona que conduce un rebaño por la vía es legalmente…"
+    "es": "La persona que conduce un rebaño por la vía es legalmente…",
+    "uk": "Людина, що жене стадо тварин дорогою, за законом…"
    },
    "o": [
     {
      "en": "driver (<i>conductor</i>)",
-     "es": "conductor"
+     "es": "conductor",
+     "uk": "водій (<i>conductor</i>)"
     },
     {
      "en": "pedestrian",
-     "es": "peatón"
+     "es": "peatón",
+     "uk": "пішохід"
     },
     {
      "en": "neither driver nor pedestrian",
-     "es": "ni conductor ni peatón"
+     "es": "ni conductor ni peatón",
+     "uk": "ні водій, ні пішохід"
     }
    ],
    "why": {
     "en": "The definition of driver includes whoever is in charge of one or more animals.",
-    "es": "La definición de conductor incluye a quien está a cargo de uno o más animales."
+    "es": "La definición de conductor incluye a quien está a cargo de uno o más animales.",
+    "uk": "Визначення водія охоплює того, хто відповідає за одну чи кількох тварин."
    }
   },
   {
@@ -172,25 +204,30 @@ window.DGT_DATA = {
    "tag": "users",
    "q": {
     "en": "During a driving lesson in a driving-school car, who is the driver in law?",
-    "es": "Durante una clase en un coche de autoescuela, ¿quién es el conductor para la ley?"
+    "es": "Durante una clase en un coche de autoescuela, ¿quién es el conductor para la ley?",
+    "uk": "Хто за законом водій під час уроку в навчальному автомобілі автошколи?"
    },
    "o": [
     {
      "en": "The person in charge of the additional controls",
-     "es": "Quien está a cargo de los mandos adicionales"
+     "es": "Quien está a cargo de los mandos adicionales",
+     "uk": "Той, хто відповідає за додаткові органи керування"
     },
     {
      "en": "The learner at the steering wheel",
-     "es": "El alumno que lleva el volante"
+     "es": "El alumno que lleva el volante",
+     "uk": "Учень за кермом"
     },
     {
      "en": "Both, in equal parts",
-     "es": "Los dos a partes iguales"
+     "es": "Los dos a partes iguales",
+     "uk": "Обидва порівну"
     }
    ],
    "why": {
     "en": "In vehicles used for driving instruction, the driver is the person at the additional controls.",
-    "es": "En los vehículos en función de aprendizaje, el conductor es quien va a cargo de los mandos adicionales."
+    "es": "En los vehículos en función de aprendizaje, el conductor es quien va a cargo de los mandos adicionales.",
+    "uk": "У ТЗ для навчання водінню водієм є той, хто біля додаткових органів керування."
    }
   },
   {
@@ -198,25 +235,30 @@ window.DGT_DATA = {
    "tag": "users",
    "q": {
     "en": "A person with reduced mobility moves at walking pace in a motorised wheelchair. They are a…",
-    "es": "Una persona con movilidad reducida circula al paso en una silla de ruedas con motor. Es…"
+    "es": "Una persona con movilidad reducida circula al paso en una silla de ruedas con motor. Es…",
+    "uk": "Людина з обмеженою рухливістю їде в моторизованому інвалідному візку зі швидкістю пішохода. Вона…"
    },
    "o": [
     {
      "en": "pedestrian",
-     "es": "peatón"
+     "es": "peatón",
+     "uk": "пішохід"
     },
     {
      "en": "driver of a VMP",
-     "es": "conductor de un VMP"
+     "es": "conductor de un VMP",
+     "uk": "водій VMP"
     },
     {
      "en": "driver of a motor vehicle",
-     "es": "conductor de un vehículo de motor"
+     "es": "conductor de un vehículo de motor",
+     "uk": "водій механічного ТЗ"
     }
    ],
    "why": {
     "en": "Wheelchair users moving at walking pace are pedestrians, with or without a motor.",
-    "es": "Quien circula al paso en silla de ruedas es peatón, con o sin motor."
+    "es": "Quien circula al paso en silla de ruedas es peatón, con o sin motor.",
+    "uk": "Користувачі інвалідних візків, що рухаються зі швидкістю пішохода, — пішоходи, з двигуном чи без."
    }
   },
   {
@@ -224,25 +266,30 @@ window.DGT_DATA = {
    "tag": "motordef",
    "q": {
     "en": "Which of these is legally a <b>motor vehicle</b>?",
-    "es": "¿Cuál de estos es legalmente un <b>vehículo de motor</b>?"
+    "es": "¿Cuál de estos es legalmente un <b>vehículo de motor</b>?",
+    "uk": "Що з цього за законом є <b>механічним транспортним засобом</b>?"
    },
    "o": [
     {
      "en": "A motorcycle",
-     "es": "Una motocicleta"
+     "es": "Una motocicleta",
+     "uk": "Мотоцикл"
     },
     {
      "en": "A moped",
-     "es": "Un ciclomotor"
+     "es": "Un ciclomotor",
+     "uk": "Мопед"
     },
     {
      "en": "A tram",
-     "es": "Un tranvía"
+     "es": "Un tranvía",
+     "uk": "Трамвай"
     }
    ],
    "why": {
     "en": "Mopeds and trams are excluded by name; the motorcycle is a motor vehicle.",
-    "es": "Ciclomotores y tranvías están excluidos expresamente; la motocicleta es vehículo de motor."
+    "es": "Ciclomotores y tranvías están excluidos expresamente; la motocicleta es vehículo de motor.",
+    "uk": "Мопеди й трамваї виключено прямо; мотоцикл — механічний ТЗ."
    }
   },
   {
@@ -250,25 +297,30 @@ window.DGT_DATA = {
    "tag": "motordef",
    "q": {
     "en": "Which of these is <b>not</b> a motor vehicle in law?",
-    "es": "¿Cuál de estos <b>no</b> es vehículo de motor para la ley?"
+    "es": "¿Cuál de estos <b>no</b> es vehículo de motor para la ley?",
+    "uk": "Що з цього за законом <b>не</b> є механічним ТЗ?"
    },
    "o": [
     {
      "en": "A moped",
-     "es": "Un ciclomotor"
+     "es": "Un ciclomotor",
+     "uk": "Мопед"
     },
     {
      "en": "A car",
-     "es": "Un turismo"
+     "es": "Un turismo",
+     "uk": "Легковий автомобіль"
     },
     {
      "en": "A truck",
-     "es": "Un camión"
+     "es": "Un camión",
+     "uk": "Вантажівка"
     }
    ],
    "why": {
     "en": "The moped has an engine but is on the list of exclusions.",
-    "es": "El ciclomotor tiene motor, pero está en la lista de exclusiones."
+    "es": "El ciclomotor tiene motor, pero está en la lista de exclusiones.",
+    "uk": "Мопед має двигун, але входить до переліку винятків."
    }
   },
   {
@@ -276,25 +328,30 @@ window.DGT_DATA = {
    "tag": "motordef",
    "q": {
     "en": "Which vehicles are left out of the term <i>automóvil</i>?",
-    "es": "¿Qué vehículos quedan fuera del término «automóvil»?"
+    "es": "¿Qué vehículos quedan fuera del término «automóvil»?",
+    "uk": "Які транспортні засоби не охоплює термін <i>automóvil</i>?"
    },
    "o": [
     {
      "en": "Special vehicles",
-     "es": "Los vehículos especiales"
+     "es": "Los vehículos especiales",
+     "uk": "Спеціальні ТЗ"
     },
     {
      "en": "Trucks",
-     "es": "Los camiones"
+     "es": "Los camiones",
+     "uk": "Вантажівки"
     },
     {
      "en": "Motorcycles",
-     "es": "Las motocicletas"
+     "es": "Las motocicletas",
+     "uk": "Мотоцикли"
     }
    ],
    "why": {
     "en": "Special vehicles are motor vehicles but are excluded from the definition of automóvil.",
-    "es": "Los vehículos especiales son vehículos de motor, pero están excluidos de la definición de automóvil."
+    "es": "Los vehículos especiales son vehículos de motor, pero están excluidos de la definición de automóvil.",
+    "uk": "Спеціальні ТЗ — механічні, але виключені з визначення automóvil."
    }
   },
   {
@@ -302,25 +359,30 @@ window.DGT_DATA = {
    "tag": "motordef",
    "q": {
     "en": "A pedal-assist bicycle (EPAC) has an electric motor. In law it is…",
-    "es": "Una bicicleta de pedaleo asistido (EPAC) tiene motor eléctrico. Para la ley es…"
+    "es": "Una bicicleta de pedaleo asistido (EPAC) tiene motor eléctrico. Para la ley es…",
+    "uk": "Велосипед з електродопомогою (EPAC) має електродвигун. За законом він…"
    },
    "o": [
     {
      "en": "not a motor vehicle",
-     "es": "un vehículo que no es de motor"
+     "es": "un vehículo que no es de motor",
+     "uk": "не механічний ТЗ"
     },
     {
      "en": "a motor vehicle, because it has a motor",
-     "es": "un vehículo de motor, porque tiene motor"
+     "es": "un vehículo de motor, porque tiene motor",
+     "uk": "механічний ТЗ, бо має двигун"
     },
     {
      "en": "an <i>automóvil</i>",
-     "es": "un automóvil"
+     "es": "un automóvil",
+     "uk": "<i>automóvil</i>"
     }
    ],
    "why": {
     "en": "Pedal-assist cycles are one of the five groups excluded from the motor-vehicle definition.",
-    "es": "Los ciclos de pedaleo asistido son uno de los cinco grupos excluidos de la definición de vehículo de motor."
+    "es": "Los ciclos de pedaleo asistido son uno de los cinco grupos excluidos de la definición de vehículo de motor.",
+    "uk": "Велосипеди з електродопомогою — одна з п’яти груп, виключених з визначення механічного ТЗ."
    }
   },
   {
@@ -328,25 +390,30 @@ window.DGT_DATA = {
    "tag": "nomotor",
    "q": {
     "en": "A tractor unit coupled to a semi-trailer is…",
-    "es": "Un tractocamión acoplado a un semirremolque es…"
+    "es": "Un tractocamión acoplado a un semirremolque es…",
+    "uk": "Сідловий тягач, зчеплений із напівпричепом, — це…"
    },
    "o": [
     {
      "en": "an articulated vehicle",
-     "es": "un vehículo articulado"
+     "es": "un vehículo articulado",
+     "uk": "зчленований транспортний засіб"
     },
     {
      "en": "a road train",
-     "es": "un tren de carretera"
+     "es": "un tren de carretera",
+     "uk": "автопоїзд"
     },
     {
      "en": "a light trailer",
-     "es": "un remolque ligero"
+     "es": "un remolque ligero",
+     "uk": "легкий причіп"
     }
    ],
    "why": {
     "en": "Tractor unit + semi-trailer = articulated vehicle.",
-    "es": "Tractocamión + semirremolque = vehículo articulado."
+    "es": "Tractocamión + semirremolque = vehículo articulado.",
+    "uk": "Сідловий тягач + напівпричіп = зчленований транспортний засіб."
    }
   },
   {
@@ -354,25 +421,30 @@ window.DGT_DATA = {
    "tag": "nomotor",
    "q": {
     "en": "A road train (<i>tren de carretera</i>) is made of…",
-    "es": "Un tren de carretera está formado por…"
+    "es": "Un tren de carretera está formado por…",
+    "uk": "Автопоїзд (<i>tren de carretera</i>) складається з…"
    },
    "o": [
     {
      "en": "a motor vehicle hitched to a trailer",
-     "es": "un vehículo de motor enganchado a un remolque"
+     "es": "un vehículo de motor enganchado a un remolque",
+     "uk": "механічного ТЗ, зчепленого з причепом"
     },
     {
      "en": "a tractor unit coupled to a semi-trailer",
-     "es": "un tractocamión acoplado a un semirremolque"
+     "es": "un tractocamión acoplado a un semirremolque",
+     "uk": "сідлового тягача, зчепленого з напівпричепом"
     },
     {
      "en": "two semi-trailers",
-     "es": "dos semirremolques"
+     "es": "dos semirremolques",
+     "uk": "двох напівпричепів"
     }
    ],
    "why": {
     "en": "Motor vehicle + trailer = road train.",
-    "es": "Vehículo de motor + remolque = tren de carretera."
+    "es": "Vehículo de motor + remolque = tren de carretera.",
+    "uk": "Механічний ТЗ + причіп = автопоїзд."
    }
   },
   {
@@ -380,25 +452,30 @@ window.DGT_DATA = {
    "tag": "nomotor",
    "q": {
     "en": "What sets a semi-trailer apart from a trailer?",
-    "es": "¿Qué distingue a un semirremolque de un remolque?"
+    "es": "¿Qué distingue a un semirremolque de un remolque?",
+    "uk": "Чим напівпричіп відрізняється від причепа?"
    },
    "o": [
     {
      "en": "Part of its weight rests on the towing vehicle",
-     "es": "Parte de su peso descansa sobre el vehículo tractor"
+     "es": "Parte de su peso descansa sobre el vehículo tractor",
+     "uk": "Частина його маси спирається на тягач"
     },
     {
      "en": "It has its own engine",
-     "es": "Tiene motor propio"
+     "es": "Tiene motor propio",
+     "uk": "Має власний двигун"
     },
     {
      "en": "Its MMA never exceeds 750 kg",
-     "es": "Su MMA nunca supera los 750 kg"
+     "es": "Su MMA nunca supera los 750 kg",
+     "uk": "Його MMA ніколи не перевищує 750 кг"
     }
    ],
    "why": {
     "en": "The semi-trailer's coupling passes vertical forces to the tractor unit, so the tractor carries part of its weight.",
-    "es": "El acoplamiento del semirremolque transmite esfuerzos verticales al tractocamión, que soporta parte de su peso."
+    "es": "El acoplamiento del semirremolque transmite esfuerzos verticales al tractocamión, que soporta parte de su peso.",
+    "uk": "Зчіпний пристрій напівпричепа передає вертикальні сили на тягач, тож тягач несе частину його маси."
    }
   },
   {
@@ -406,25 +483,30 @@ window.DGT_DATA = {
    "tag": "nomotor",
    "q": {
     "en": "A light trailer (<i>remolque ligero</i>) has an MMA…",
-    "es": "Un remolque ligero tiene una MMA…"
+    "es": "Un remolque ligero tiene una MMA…",
+    "uk": "Легкий причіп (<i>remolque ligero</i>) має MMA…"
    },
    "o": [
     {
      "en": "of up to 750 kg",
-     "es": "de hasta 750 kg"
+     "es": "de hasta 750 kg",
+     "uk": "до 750 кг"
     },
     {
      "en": "of up to 3,500 kg",
-     "es": "de hasta 3.500 kg"
+     "es": "de hasta 3.500 kg",
+     "uk": "до 3 500 кг"
     },
     {
      "en": "above 750 kg",
-     "es": "superior a 750 kg"
+     "es": "superior a 750 kg",
+     "uk": "понад 750 кг"
     }
    ],
    "why": {
     "en": "Light trailer: MMA not over 750 kg.",
-    "es": "Remolque ligero: MMA no superior a 750 kg."
+    "es": "Remolque ligero: MMA no superior a 750 kg.",
+    "uk": "Легкий причіп: MMA не більше 750 кг."
    }
   },
   {
@@ -432,25 +514,30 @@ window.DGT_DATA = {
    "tag": "nomotor",
    "q": {
     "en": "A cycle (<i>ciclo</i>) is propelled…",
-    "es": "Un ciclo se propulsa…"
+    "es": "Un ciclo se propulsa…",
+    "uk": "Цикл (<i>ciclo</i>) рухається…"
    },
    "o": [
     {
      "en": "only by the muscular effort of the people on it",
-     "es": "solo con el esfuerzo muscular de quienes lo ocupan"
+     "es": "solo con el esfuerzo muscular de quienes lo ocupan",
+     "uk": "лише м’язовою силою тих, хто на ньому"
     },
     {
      "en": "by muscle power or by a motor of up to 250 W",
-     "es": "con esfuerzo muscular o con un motor de hasta 250 W"
+     "es": "con esfuerzo muscular o con un motor de hasta 250 W",
+     "uk": "м’язовою силою чи двигуном до 250 Вт"
     },
     {
      "en": "by any motor that cuts off at 25 km/h",
-     "es": "con cualquier motor que se corte a 25 km/h"
+     "es": "con cualquier motor que se corte a 25 km/h",
+     "uk": "будь-яким двигуном, що вимикається на 25 км/год"
     }
    ],
    "why": {
     "en": "A plain cycle has no motor at all; with an auxiliary motor it becomes an EPAC or a ciclo de motor.",
-    "es": "Un ciclo no lleva motor; con motor auxiliar pasa a ser EPAC o ciclo de motor."
+    "es": "Un ciclo no lleva motor; con motor auxiliar pasa a ser EPAC o ciclo de motor.",
+    "uk": "Звичайний цикл не має двигуна взагалі; з допоміжним двигуном він стає EPAC чи ciclo de motor."
    }
   },
   {
@@ -458,25 +545,30 @@ window.DGT_DATA = {
    "tag": "light25",
    "q": {
     "en": "A VMP is…",
-    "es": "Un VMP es…"
+    "es": "Un VMP es…",
+    "uk": "VMP — це…"
    },
    "o": [
     {
      "en": "single-place, electric, 6–25 km/h",
-     "es": "monoplaza, eléctrico, de 6 a 25 km/h"
+     "es": "monoplaza, eléctrico, de 6 a 25 km/h",
+     "uk": "одномісний, електричний, 6–25 км/год"
     },
     {
      "en": "two-place, petrol, up to 45 km/h",
-     "es": "biplaza, de gasolina, hasta 45 km/h"
+     "es": "biplaza, de gasolina, hasta 45 km/h",
+     "uk": "двомісний, бензиновий, до 45 км/год"
     },
     {
      "en": "any scooter up to 40 km/h",
-     "es": "cualquier patinete de hasta 40 km/h"
+     "es": "cualquier patinete de hasta 40 km/h",
+     "uk": "будь-який самокат до 40 км/год"
     }
    ],
    "why": {
     "en": "One place, electric motors only, design speed between 6 and 25 km/h.",
-    "es": "Una plaza, solo motores eléctricos, velocidad de diseño entre 6 y 25 km/h."
+    "es": "Una plaza, solo motores eléctricos, velocidad de diseño entre 6 y 25 km/h.",
+    "uk": "Одне місце, лише електродвигуни, конструктивна швидкість від 6 до 25 км/год."
    }
   },
   {
@@ -484,25 +576,30 @@ window.DGT_DATA = {
    "tag": "light25",
    "q": {
     "en": "An EPAC's electric assistance must cut off…",
-    "es": "La asistencia eléctrica de una EPAC debe cortarse…"
+    "es": "La asistencia eléctrica de una EPAC debe cortarse…",
+    "uk": "Електродопомога EPAC має вимикатися…"
    },
    "o": [
     {
      "en": "before 25 km/h",
-     "es": "antes de 25 km/h"
+     "es": "antes de 25 km/h",
+     "uk": "до 25 км/год"
     },
     {
      "en": "at 45 km/h",
-     "es": "a 45 km/h"
+     "es": "a 45 km/h",
+     "uk": "на 45 км/год"
     },
     {
      "en": "at 40 km/h",
-     "es": "a 40 km/h"
+     "es": "a 40 km/h",
+     "uk": "на 40 км/год"
     }
    ],
    "why": {
     "en": "The assistance fades out and stops before 25 km/h, or when the rider stops pedalling.",
-    "es": "La ayuda disminuye y se corta antes de 25 km/h, o cuando se deja de pedalear."
+    "es": "La ayuda disminuye y se corta antes de 25 km/h, o cuando se deja de pedalear.",
+    "uk": "Допомога слабшає й вимикається до 25 км/год або коли водій перестає крутити педалі."
    }
   },
   {
@@ -510,25 +607,30 @@ window.DGT_DATA = {
    "tag": "light25",
    "q": {
     "en": "The maximum continuous rated power of an EPAC motor is…",
-    "es": "La potencia nominal continua máxima del motor de una EPAC es…"
+    "es": "La potencia nominal continua máxima del motor de una EPAC es…",
+    "uk": "Максимальна номінальна тривала потужність двигуна EPAC —"
    },
    "o": [
     {
      "en": "250 W",
-     "es": "250 W"
+     "es": "250 W",
+     "uk": "250 Вт"
     },
     {
      "en": "500 W",
-     "es": "500 W"
+     "es": "500 W",
+     "uk": "500 Вт"
     },
     {
      "en": "1,000 W",
-     "es": "1.000 W"
+     "es": "1.000 W",
+     "uk": "1 000 Вт"
     }
    ],
    "why": {
     "en": "EPAC: 250 W at most. Up to 1,000 W it is a ciclo de motor.",
-    "es": "EPAC: 250 W como máximo. Hasta 1.000 W es un ciclo de motor."
+    "es": "EPAC: 250 W como máximo. Hasta 1.000 W es un ciclo de motor.",
+    "uk": "EPAC: щонайбільше 250 Вт. До 1 000 Вт — це ciclo de motor."
    }
   },
   {
@@ -536,25 +638,30 @@ window.DGT_DATA = {
    "tag": "light25",
    "q": {
     "en": "A <i>ciclo de motor</i> (L1e-A) may have a continuous power of up to…",
-    "es": "Un ciclo de motor (L1e-A) puede tener una potencia continua de hasta…"
+    "es": "Un ciclo de motor (L1e-A) puede tener una potencia continua de hasta…",
+    "uk": "<i>Ciclo de motor</i> (L1e-A) може мати тривалу потужність до…"
    },
    "o": [
     {
      "en": "1,000 W",
-     "es": "1.000 W"
+     "es": "1.000 W",
+     "uk": "1 000 Вт"
     },
     {
      "en": "250 W",
-     "es": "250 W"
+     "es": "250 W",
+     "uk": "250 Вт"
     },
     {
      "en": "4 kW",
-     "es": "4 kW"
+     "es": "4 kW",
+     "uk": "4 кВт"
     }
    ],
    "why": {
     "en": "L1e-A: up to 1,000 W, with assistance cutting off at 25 km/h or less.",
-    "es": "L1e-A: hasta 1.000 W, con asistencia que se corta a 25 km/h o menos."
+    "es": "L1e-A: hasta 1.000 W, con asistencia que se corta a 25 km/h o menos.",
+    "uk": "L1e-A: до 1 000 Вт, допомога вимикається на 25 км/год або раніше."
    }
   },
   {
@@ -562,25 +669,30 @@ window.DGT_DATA = {
    "tag": "light25",
    "q": {
     "en": "An electric scooter designed to reach 35 km/h is…",
-    "es": "Un patinete eléctrico diseñado para alcanzar 35 km/h es…"
+    "es": "Un patinete eléctrico diseñado para alcanzar 35 km/h es…",
+    "uk": "Електросамокат, сконструйований для 35 км/год, —"
    },
    "o": [
     {
      "en": "not a VMP",
-     "es": "un vehículo que no es VMP"
+     "es": "un vehículo que no es VMP",
+     "uk": "не VMP"
     },
     {
      "en": "a VMP",
-     "es": "un VMP"
+     "es": "un VMP",
+     "uk": "VMP"
     },
     {
      "en": "an EPAC",
-     "es": "una EPAC"
+     "es": "una EPAC",
+     "uk": "EPAC"
     }
    ],
    "why": {
     "en": "The VMP design speed must stay between 6 and 25 km/h.",
-    "es": "La velocidad de diseño de un VMP debe estar entre 6 y 25 km/h."
+    "es": "La velocidad de diseño de un VMP debe estar entre 6 y 25 km/h.",
+    "uk": "Конструктивна швидкість VMP має бути від 6 до 25 км/год."
    }
   },
   {
@@ -588,25 +700,30 @@ window.DGT_DATA = {
    "tag": "light25",
    "q": {
     "en": "Can a vehicle for people with reduced mobility be a VMP?",
-    "es": "¿Puede un vehículo para personas de movilidad reducida ser un VMP?"
+    "es": "¿Puede un vehículo para personas de movilidad reducida ser un VMP?",
+    "uk": "Чи може ТЗ для осіб з обмеженою рухливістю бути VMP?"
    },
    "o": [
     {
      "en": "No, the VMP definition excludes it",
-     "es": "No, la definición de VMP lo excluye"
+     "es": "No, la definición de VMP lo excluye",
+     "uk": "Ні, визначення VMP його виключає"
     },
     {
      "en": "Yes, if it is electric",
-     "es": "Sí, si es eléctrico"
+     "es": "Sí, si es eléctrico",
+     "uk": "Так, якщо він електричний"
     },
     {
      "en": "Yes, if it stays under 25 km/h",
-     "es": "Sí, si no pasa de 25 km/h"
+     "es": "Sí, si no pasa de 25 km/h",
+     "uk": "Так, якщо швидкість менше 25 км/год"
     }
    ],
    "why": {
     "en": "Vehicles for people with reduced mobility are expressly left out of the VMP category.",
-    "es": "Los vehículos para personas con movilidad reducida están expresamente fuera de la categoría de VMP."
+    "es": "Los vehículos para personas con movilidad reducida están expresamente fuera de la categoría de VMP.",
+    "uk": "ТЗ для осіб з обмеженою рухливістю прямо виключено з категорії VMP."
    }
   },
   {
@@ -614,25 +731,30 @@ window.DGT_DATA = {
    "tag": "moped",
    "q": {
     "en": "Which one is a two-wheel <b>moped</b>?",
-    "es": "¿Cuál es un <b>ciclomotor</b> de dos ruedas?"
+    "es": "¿Cuál es un <b>ciclomotor</b> de dos ruedas?",
+    "uk": "Що з цього двоколісний <b>мопед</b>?"
    },
    "o": [
     {
      "en": "50 cm³ and 45 km/h",
-     "es": "50 cm³ y 45 km/h"
+     "es": "50 cm³ y 45 km/h",
+     "uk": "50 см³ і 45 км/год"
     },
     {
      "en": "60 cm³ and 50 km/h",
-     "es": "60 cm³ y 50 km/h"
+     "es": "60 cm³ y 50 km/h",
+     "uk": "60 см³ і 50 км/год"
     },
     {
      "en": "125 cm³ and 90 km/h",
-     "es": "125 cm³ y 90 km/h"
+     "es": "125 cm³ y 90 km/h",
+     "uk": "125 см³ і 90 км/год"
     }
    ],
    "why": {
     "en": "Moped: up to 50 cm³ and up to 45 km/h by construction.",
-    "es": "Ciclomotor: hasta 50 cm³ y hasta 45 km/h por construcción."
+    "es": "Ciclomotor: hasta 50 cm³ y hasta 45 km/h por construcción.",
+    "uk": "Мопед: до 50 см³ і до 45 км/год за конструкцією."
    }
   },
   {
@@ -640,25 +762,30 @@ window.DGT_DATA = {
    "tag": "moped",
    "q": {
     "en": "The maximum mass in running order of a four-wheel moped is…",
-    "es": "La masa en orden de marcha máxima de un ciclomotor de cuatro ruedas es…"
+    "es": "La masa en orden de marcha máxima de un ciclomotor de cuatro ruedas es…",
+    "uk": "Максимальна маса чотириколісного мопеда в спорядженому стані —"
    },
    "o": [
     {
      "en": "425 kg",
-     "es": "425 kg"
+     "es": "425 kg",
+     "uk": "425 кг"
     },
     {
      "en": "350 kg",
-     "es": "350 kg"
+     "es": "350 kg",
+     "uk": "350 кг"
     },
     {
      "en": "600 kg",
-     "es": "600 kg"
+     "es": "600 kg",
+     "uk": "600 кг"
     }
    ],
    "why": {
     "en": "425 kg, batteries of electric vehicles not counted. The old 350 kg tara is out of date.",
-    "es": "425 kg, sin contar las baterías de los eléctricos. Los antiguos 350 kg de tara están desfasados."
+    "es": "425 kg, sin contar las baterías de los eléctricos. Los antiguos 350 kg de tara están desfasados.",
+    "uk": "425 кг, без урахування акумуляторів електричних ТЗ. Стара тара 350 кг застаріла."
    }
   },
   {
@@ -666,25 +793,30 @@ window.DGT_DATA = {
    "tag": "moped",
    "q": {
     "en": "How many seats may a four-wheel moped have?",
-    "es": "¿Cuántas plazas puede tener un ciclomotor de cuatro ruedas?"
+    "es": "¿Cuántas plazas puede tener un ciclomotor de cuatro ruedas?",
+    "uk": "Скільки місць може мати чотириколісний мопед?"
    },
    "o": [
     {
      "en": "At most two, driver included",
-     "es": "Dos como máximo, incluida la del conductor"
+     "es": "Dos como máximo, incluida la del conductor",
+     "uk": "Щонайбільше два, разом із водійським"
     },
     {
      "en": "At most four, driver included",
-     "es": "Cuatro como máximo, incluida la del conductor"
+     "es": "Cuatro como máximo, incluida la del conductor",
+     "uk": "Щонайбільше чотири, разом із водійським"
     },
     {
      "en": "Only one",
-     "es": "Solo una"
+     "es": "Solo una",
+     "uk": "Лише одне"
     }
    ],
    "why": {
     "en": "Maximum two seats including the driver's.",
-    "es": "Máximo dos plazas incluida la del conductor."
+    "es": "Máximo dos plazas incluida la del conductor.",
+    "uk": "Щонайбільше два місця разом із місцем водія."
    }
   },
   {
@@ -692,25 +824,30 @@ window.DGT_DATA = {
    "tag": "moped",
    "q": {
     "en": "A vehicle for people with reduced mobility has…",
-    "es": "Un vehículo para personas de movilidad reducida tiene…"
+    "es": "Un vehículo para personas de movilidad reducida tiene…",
+    "uk": "ТЗ для осіб з обмеженою рухливістю має…"
    },
    "o": [
     {
      "en": "tara up to 350 kg and a top speed of 45 km/h",
-     "es": "tara de hasta 350 kg y velocidad máxima de 45 km/h"
+     "es": "tara de hasta 350 kg y velocidad máxima de 45 km/h",
+     "uk": "тару до 350 кг і максимальну швидкість 45 км/год"
     },
     {
      "en": "tara up to 425 kg and a top speed of 25 km/h",
-     "es": "tara de hasta 425 kg y velocidad máxima de 25 km/h"
+     "es": "tara de hasta 425 kg y velocidad máxima de 25 km/h",
+     "uk": "тару до 425 кг і максимальну швидкість 25 км/год"
     },
     {
      "en": "tara up to 750 kg and a top speed of 45 km/h",
-     "es": "tara de hasta 750 kg y velocidad máxima de 45 km/h"
+     "es": "tara de hasta 750 kg y velocidad máxima de 45 km/h",
+     "uk": "тару до 750 кг і максимальну швидкість 45 км/год"
     }
    ],
    "why": {
     "en": "Tara not over 350 kg, not over 45 km/h on level ground, and built specially for the purpose.",
-    "es": "Tara no superior a 350 kg, no más de 45 km/h en llano y construido especialmente para ese uso."
+    "es": "Tara no superior a 350 kg, no más de 45 km/h en llano y construido especialmente para ese uso.",
+    "uk": "Тара не більше 350 кг, не більше 45 км/год на рівній дорозі, і збудований спеціально для цього."
    }
   },
   {
@@ -718,25 +855,30 @@ window.DGT_DATA = {
    "tag": "moped",
    "q": {
     "en": "A two-wheeler with a 49 cm³ engine that reaches 60 km/h is a…",
-    "es": "Un vehículo de dos ruedas con motor de 49 cm³ que alcanza 60 km/h es…"
+    "es": "Un vehículo de dos ruedas con motor de 49 cm³ que alcanza 60 km/h es…",
+    "uk": "Двоколісний ТЗ із двигуном 49 см³, що розвиває 60 км/год, — це…"
    },
    "o": [
     {
      "en": "motorcycle",
-     "es": "una motocicleta"
+     "es": "una motocicleta",
+     "uk": "мотоцикл"
     },
     {
      "en": "moped",
-     "es": "un ciclomotor"
+     "es": "un ciclomotor",
+     "uk": "мопед"
     },
     {
      "en": "<i>ciclo de motor</i>",
-     "es": "un ciclo de motor"
+     "es": "un ciclo de motor",
+     "uk": "<i>ciclo de motor</i>"
     }
    ],
    "why": {
     "en": "Breaking either limit is enough: over 45 km/h makes it a motorcycle even under 50 cm³.",
-    "es": "Basta superar uno de los límites: más de 45 km/h lo convierte en motocicleta aunque tenga menos de 50 cm³."
+    "es": "Basta superar uno de los límites: más de 45 km/h lo convierte en motocicleta aunque tenga menos de 50 cm³.",
+    "uk": "Досить перевищити будь-яку межу: понад 45 км/год — це мотоцикл, навіть якщо менше 50 см³."
    }
   },
   {
@@ -744,25 +886,30 @@ window.DGT_DATA = {
    "tag": "motos",
    "q": {
     "en": "A motorcycle is a two-wheeled motor vehicle with…",
-    "es": "Una motocicleta es un automóvil de dos ruedas con…"
+    "es": "Una motocicleta es un automóvil de dos ruedas con…",
+    "uk": "Мотоцикл — двоколісний механічний ТЗ, що має…"
    },
    "o": [
     {
      "en": "more than 50 cm³ and/or more than 45 km/h",
-     "es": "más de 50 cm³ y/o más de 45 km/h"
+     "es": "más de 50 cm³ y/o más de 45 km/h",
+     "uk": "понад 50 см³ та/або понад 45 км/год"
     },
     {
      "en": "more than 50 cm³ and also more than 45 km/h, both together",
-     "es": "más de 50 cm³ y además más de 45 km/h, las dos cosas"
+     "es": "más de 50 cm³ y además más de 45 km/h, las dos cosas",
+     "uk": "понад 50 см³ і водночас понад 45 км/год"
     },
     {
      "en": "more than 125 cm³",
-     "es": "más de 125 cm³"
+     "es": "más de 125 cm³",
+     "uk": "понад 125 см³"
     }
    ],
    "why": {
     "en": "“And/or”: one of the two is enough.",
-    "es": "«Y/o»: basta una de las dos condiciones."
+    "es": "«Y/o»: basta una de las dos condiciones.",
+    "uk": "«Та/або»: досить однієї з двох умов."
    }
   },
   {
@@ -770,25 +917,30 @@ window.DGT_DATA = {
    "tag": "motos",
    "q": {
     "en": "The maximum power of a heavy quadricycle is…",
-    "es": "La potencia máxima de un cuatriciclo pesado es…"
+    "es": "La potencia máxima de un cuatriciclo pesado es…",
+    "uk": "Максимальна потужність важкого квадрицикла —"
    },
    "o": [
     {
      "en": "15 kW",
-     "es": "15 kW"
+     "es": "15 kW",
+     "uk": "15 кВт"
     },
     {
      "en": "6 kW",
-     "es": "6 kW"
+     "es": "6 kW",
+     "uk": "6 кВт"
     },
     {
      "en": "4 kW",
-     "es": "4 kW"
+     "es": "4 kW",
+     "uk": "4 кВт"
     }
    ],
    "why": {
     "en": "Heavy quadricycle: up to 15 kW. The 4 or 6 kW figures belong to the light one.",
-    "es": "Cuatriciclo pesado: hasta 15 kW. Los 4 o 6 kW son del ligero."
+    "es": "Cuatriciclo pesado: hasta 15 kW. Los 4 o 6 kW son del ligero.",
+    "uk": "Важкий квадрицикл: до 15 кВт. 4 чи 6 кВт — цифри легкого."
    }
   },
   {
@@ -796,25 +948,30 @@ window.DGT_DATA = {
    "tag": "motos",
    "q": {
     "en": "The empty mass limit of a heavy quadricycle for carrying people is…",
-    "es": "El límite de masa en vacío de un cuatriciclo pesado para personas es…"
+    "es": "El límite de masa en vacío de un cuatriciclo pesado para personas es…",
+    "uk": "Межа маси без навантаження для пасажирського важкого квадрицикла —"
    },
    "o": [
     {
      "en": "450 kg",
-     "es": "450 kg"
+     "es": "450 kg",
+     "uk": "450 кг"
     },
     {
      "en": "425 kg",
-     "es": "425 kg"
+     "es": "425 kg",
+     "uk": "425 кг"
     },
     {
      "en": "600 kg",
-     "es": "600 kg"
+     "es": "600 kg",
+     "uk": "600 кг"
     }
    ],
    "why": {
     "en": "450 kg for people, 600 kg for goods, batteries excluded.",
-    "es": "450 kg para personas y 600 kg para mercancías, sin contar baterías."
+    "es": "450 kg para personas y 600 kg para mercancías, sin contar baterías.",
+    "uk": "450 кг для людей, 600 кг для вантажів, без акумуляторів."
    }
   },
   {
@@ -822,25 +979,30 @@ window.DGT_DATA = {
    "tag": "motos",
    "q": {
     "en": "A two-wheeled motorcycle fitted with a sidecar is…",
-    "es": "Una motocicleta de dos ruedas a la que se acopla un sidecar es…"
+    "es": "Una motocicleta de dos ruedas a la que se acopla un sidecar es…",
+    "uk": "Двоколісний мотоцикл із коляскою — це…"
    },
    "o": [
     {
      "en": "still a motorcycle",
-     "es": "sigue siendo una motocicleta"
+     "es": "sigue siendo una motocicleta",
+     "uk": "все одно мотоцикл"
     },
     {
      "en": "a three-wheeled vehicle",
-     "es": "un vehículo de tres ruedas"
+     "es": "un vehículo de tres ruedas",
+     "uk": "триколісний ТЗ"
     },
     {
      "en": "a car",
-     "es": "un turismo"
+     "es": "un turismo",
+     "uk": "легковий автомобіль"
     }
    ],
    "why": {
     "en": "The motorcycle definition says “with or without sidecar”.",
-    "es": "La definición de motocicleta dice «con o sin sidecar»."
+    "es": "La definición de motocicleta dice «con o sin sidecar».",
+    "uk": "Визначення мотоцикла каже «з коляскою чи без»."
    }
   },
   {
@@ -848,25 +1010,30 @@ window.DGT_DATA = {
    "tag": "carbus",
    "q": {
     "en": "A vehicle for people has nine seats including the driver. It is a…",
-    "es": "Un vehículo para personas tiene nueve plazas incluida la del conductor. Es…"
+    "es": "Un vehículo para personas tiene nueve plazas incluida la del conductor. Es…",
+    "uk": "ТЗ для людей має дев’ять місць разом із водійським. Це…"
    },
    "o": [
     {
      "en": "car (<i>turismo</i>)",
-     "es": "un turismo"
+     "es": "un turismo",
+     "uk": "легковий автомобіль (<i>turismo</i>)"
     },
     {
      "en": "bus",
-     "es": "un autobús"
+     "es": "un autobús",
+     "uk": "автобус"
     },
     {
      "en": "truck",
-     "es": "un camión"
+     "es": "un camión",
+     "uk": "вантажівка"
     }
    ],
    "why": {
     "en": "Turismo: up to nine seats, driver included.",
-    "es": "Turismo: hasta nueve plazas, incluida la del conductor."
+    "es": "Turismo: hasta nueve plazas, incluida la del conductor.",
+    "uk": "Turismo: до дев’яти місць разом із водійським."
    }
   },
   {
@@ -874,25 +1041,30 @@ window.DGT_DATA = {
    "tag": "carbus",
    "q": {
     "en": "A vehicle for people has ten seats including the driver. It is a…",
-    "es": "Un vehículo para personas tiene diez plazas incluida la del conductor. Es…"
+    "es": "Un vehículo para personas tiene diez plazas incluida la del conductor. Es…",
+    "uk": "ТЗ для людей має десять місць разом із водійським. Це…"
    },
    "o": [
     {
      "en": "bus",
-     "es": "un autobús"
+     "es": "un autobús",
+     "uk": "автобус"
     },
     {
      "en": "car (<i>turismo</i>)",
-     "es": "un turismo"
+     "es": "un turismo",
+     "uk": "легковий автомобіль (<i>turismo</i>)"
     },
     {
      "en": "adaptable mixed vehicle",
-     "es": "un vehículo mixto adaptable"
+     "es": "un vehículo mixto adaptable",
+     "uk": "змішаний адаптований ТЗ"
     }
    ],
    "why": {
     "en": "More than nine seats with the driver makes it a bus.",
-    "es": "Más de nueve plazas con el conductor lo convierte en autobús."
+    "es": "Más de nueve plazas con el conductor lo convierte en autobús.",
+    "uk": "Понад дев’ять місць разом із водійським — це автобус."
    }
   },
   {
@@ -900,25 +1072,30 @@ window.DGT_DATA = {
    "tag": "carbus",
    "q": {
     "en": "In an adaptable mixed vehicle (<i>mixto adaptable</i>)…",
-    "es": "En un vehículo mixto adaptable…"
+    "es": "En un vehículo mixto adaptable…",
+    "uk": "У змішаному адаптованому ТЗ (<i>mixto adaptable</i>)…"
    },
    "o": [
     {
      "en": "the load can be replaced by people by adding seats",
-     "es": "la carga puede sustituirse por personas añadiendo asientos"
+     "es": "la carga puede sustituirse por personas añadiendo asientos",
+     "uk": "вантаж можна замінити людьми, додавши сидіння"
     },
     {
      "en": "only goods may be carried",
-     "es": "solo se pueden transportar mercancías"
+     "es": "solo se pueden transportar mercancías",
+     "uk": "можна перевозити лише вантажі"
     },
     {
      "en": "there are always more than nine seats",
-     "es": "siempre hay más de nueve plazas"
+     "es": "siempre hay más de nueve plazas",
+     "uk": "завжди понад дев’ять місць"
     }
    ],
    "why": {
     "en": "It carries people and goods, and seats can be added in place of load.",
-    "es": "Transporta personas y mercancías, y se pueden añadir asientos en lugar de carga."
+    "es": "Transporta personas y mercancías, y se pueden añadir asientos en lugar de carga.",
+    "uk": "Він перевозить людей і вантажі, і замість вантажу можна додати сидіння."
    }
   },
   {
@@ -926,25 +1103,30 @@ window.DGT_DATA = {
    "tag": "carbus",
    "q": {
     "en": "A <i>turismo</i> is intended for carrying…",
-    "es": "Un turismo está destinado al transporte de…"
+    "es": "Un turismo está destinado al transporte de…",
+    "uk": "<i>Turismo</i> призначений для перевезення…"
    },
    "o": [
     {
      "en": "people",
-     "es": "personas"
+     "es": "personas",
+     "uk": "людей"
     },
     {
      "en": "goods",
-     "es": "mercancías"
+     "es": "mercancías",
+     "uk": "вантажів"
     },
     {
      "en": "people and goods at the same time",
-     "es": "personas y mercancías a la vez"
+     "es": "personas y mercancías a la vez",
+     "uk": "людей і вантажів водночас"
     }
    ],
    "why": {
     "en": "A turismo is a motor vehicle for carrying people, with at most nine seats.",
-    "es": "El turismo es un automóvil destinado al transporte de personas, con un máximo de nueve plazas."
+    "es": "El turismo es un automóvil destinado al transporte de personas, con un máximo de nueve plazas.",
+    "uk": "Turismo — механічний ТЗ для перевезення людей, щонайбільше на дев’ять місць."
    }
   },
   {
@@ -952,25 +1134,30 @@ window.DGT_DATA = {
    "tag": "goods",
    "q": {
     "en": "A pick-up is treated as a car for traffic rules if…",
-    "es": "Un pick-up se trata como turismo a efectos de circulación si…"
+    "es": "Un pick-up se trata como turismo a efectos de circulación si…",
+    "uk": "За правилами руху пікап прирівнюється до легковика, якщо…"
    },
    "o": [
     {
      "en": "MMA ≤ 3,500 kg, height ≤ 2 m and cargo area separate from the seats",
-     "es": "MMA ≤ 3.500 kg, altura ≤ 2 m y zona de carga separada de los asientos"
+     "es": "MMA ≤ 3.500 kg, altura ≤ 2 m y zona de carga separada de los asientos",
+     "uk": "MMA ≤ 3 500 кг, висота ≤ 2 м і вантажний відсік відокремлений від сидінь"
     },
     {
      "en": "it has a tow bar",
-     "es": "lleva bola de remolque"
+     "es": "lleva bola de remolque",
+     "uk": "має фаркоп"
     },
     {
      "en": "its engine is under 2 litres",
-     "es": "su motor es de menos de 2 litros"
+     "es": "su motor es de menos de 2 litros",
+     "uk": "об’єм двигуна менше 2 літрів"
     }
    ],
    "why": {
     "en": "Three conditions together: mass up to 3,500 kg, seats and cargo not in one compartment, total height up to 2 m.",
-    "es": "Tres condiciones a la vez: masa de hasta 3.500 kg, asientos y carga no en un único compartimento y altura total de hasta 2 m."
+    "es": "Tres condiciones a la vez: masa de hasta 3.500 kg, asientos y carga no en un único compartimento y altura total de hasta 2 m.",
+    "uk": "Три умови разом: маса до 3 500 кг, сидіння й вантаж не в одному відсіку, загальна висота до 2 м."
    }
   },
   {
@@ -978,25 +1165,30 @@ window.DGT_DATA = {
    "tag": "goods",
    "q": {
     "en": "A <i>furgoneta</i> (van) is a goods vehicle with…",
-    "es": "Una furgoneta es un vehículo de mercancías con…"
+    "es": "Una furgoneta es un vehículo de mercancías con…",
+    "uk": "<i>Furgoneta</i> (фургон) — вантажний ТЗ, що має…"
    },
    "o": [
     {
      "en": "the cab integrated in the bodywork and MMA up to 3,500 kg",
-     "es": "la cabina integrada en la carrocería y MMA de hasta 3.500 kg"
+     "es": "la cabina integrada en la carrocería y MMA de hasta 3.500 kg",
+     "uk": "кабіну, інтегровану в кузов, і MMA до 3 500 кг"
     },
     {
      "en": "the cab separate from the bodywork and MMA over 3,500 kg",
-     "es": "la cabina separada de la carrocería y MMA superior a 3.500 kg"
+     "es": "la cabina separada de la carrocería y MMA superior a 3.500 kg",
+     "uk": "кабіну, відокремлену від кузова, і MMA понад 3 500 кг"
     },
     {
      "en": "more than nine seats",
-     "es": "más de nueve plazas"
+     "es": "más de nueve plazas",
+     "uk": "понад дев’ять місць"
     }
    ],
    "why": {
     "en": "Integrated cab and not over 3,500 kg. Separate cab and over 3,500 kg is a camión.",
-    "es": "Cabina integrada y no más de 3.500 kg. Cabina no integrada y más de 3.500 kg es un camión."
+    "es": "Cabina integrada y no más de 3.500 kg. Cabina no integrada y más de 3.500 kg es un camión.",
+    "uk": "Інтегрована кабіна й не більше 3 500 кг. Окрема кабіна й понад 3 500 кг — це camión."
    }
   },
   {
@@ -1004,25 +1196,30 @@ window.DGT_DATA = {
    "tag": "goods",
    "q": {
     "en": "A <i>camión</i> (truck) has a maximum authorised mass…",
-    "es": "Un camión tiene una masa máxima autorizada…"
+    "es": "Un camión tiene una masa máxima autorizada…",
+    "uk": "<i>Camión</i> (вантажівка) має максимальну дозволену масу…"
    },
    "o": [
     {
      "en": "above 3,500 kg",
-     "es": "superior a 3.500 kg"
+     "es": "superior a 3.500 kg",
+     "uk": "понад 3 500 кг"
     },
     {
      "en": "of up to 3,500 kg",
-     "es": "de hasta 3.500 kg"
+     "es": "de hasta 3.500 kg",
+     "uk": "до 3 500 кг"
     },
     {
      "en": "above 12,000 kg only",
-     "es": "solo superior a 12.000 kg"
+     "es": "solo superior a 12.000 kg",
+     "uk": "лише понад 12 000 кг"
     }
    ],
    "why": {
     "en": "Camión: goods vehicle, cab not integrated, MMA over 3,500 kg.",
-    "es": "Camión: vehículo de mercancías, cabina no integrada, MMA superior a 3.500 kg."
+    "es": "Camión: vehículo de mercancías, cabina no integrada, MMA superior a 3.500 kg.",
+    "uk": "Camión: вантажний ТЗ, кабіна не інтегрована, MMA понад 3 500 кг."
    }
   },
   {
@@ -1030,25 +1227,30 @@ window.DGT_DATA = {
    "tag": "goods",
    "q": {
     "en": "An agricultural tractor is…",
-    "es": "Un tractor agrícola es…"
+    "es": "Un tractor agrícola es…",
+    "uk": "Сільськогосподарський трактор — це…"
    },
    "o": [
     {
      "en": "a special vehicle",
-     "es": "un vehículo especial"
+     "es": "un vehículo especial",
+     "uk": "спеціальний ТЗ"
     },
     {
      "en": "an <i>automóvil</i>",
-     "es": "un automóvil"
+     "es": "un automóvil",
+     "uk": "<i>automóvil</i>"
     },
     {
      "en": "a vehicle that is not a motor vehicle",
-     "es": "un vehículo que no es de motor"
+     "es": "un vehículo que no es de motor",
+     "uk": "ТЗ, що не є механічним"
     }
    ],
    "why": {
     "en": "Special vehicles are built for specific works or services. They are motor vehicles but not automóviles.",
-    "es": "Los vehículos especiales se construyen para obras o servicios determinados. Son vehículos de motor, pero no automóviles."
+    "es": "Los vehículos especiales se construyen para obras o servicios determinados. Son vehículos de motor, pero no automóviles.",
+    "uk": "Спеціальні ТЗ збудовані для певних робіт чи послуг. Вони механічні, але не automóviles."
    }
   },
   {
@@ -1056,25 +1258,30 @@ window.DGT_DATA = {
    "tag": "goods",
    "q": {
     "en": "A pick-up that meets the three conditions follows the traffic rules of a…",
-    "es": "Un pick-up que cumple las tres condiciones sigue las normas de circulación de…"
+    "es": "Un pick-up que cumple las tres condiciones sigue las normas de circulación de…",
+    "uk": "Пікап, що відповідає трьом умовам, виконує правила руху для…"
    },
    "o": [
     {
      "en": "car (<i>turismo</i>)",
-     "es": "un turismo"
+     "es": "un turismo",
+     "uk": "легкового автомобіля (<i>turismo</i>)"
     },
     {
      "en": "truck",
-     "es": "un camión"
+     "es": "un camión",
+     "uk": "вантажівки"
     },
     {
      "en": "bus",
-     "es": "un autobús"
+     "es": "un autobús",
+     "uk": "автобуса"
     }
    ],
    "why": {
     "en": "For traffic rules such as speed limits it is treated like a car, not a truck.",
-    "es": "A efectos de normas de circulación, como los límites de velocidad, se trata como un turismo y no como un camión."
+    "es": "A efectos de normas de circulación, como los límites de velocidad, se trata como un turismo y no como un camión.",
+    "uk": "Щодо правил руху, як-от обмеження швидкості, він прирівнюється до легковика, а не вантажівки."
    }
   },
   {
@@ -1082,25 +1289,30 @@ window.DGT_DATA = {
    "tag": "masses",
    "q": {
     "en": "Mass in running order =",
-    "es": "Masa en orden de marcha ="
+    "es": "Masa en orden de marcha =",
+    "uk": "Маса в спорядженому стані ="
    },
    "o": [
     {
      "en": "tara + 75 kg",
-     "es": "tara + 75 kg"
+     "es": "tara + 75 kg",
+     "uk": "тара + 75 кг"
     },
     {
      "en": "tara + passengers",
-     "es": "tara + pasajeros"
+     "es": "tara + pasajeros",
+     "uk": "тара + пасажири"
     },
     {
      "en": "MMA − load",
-     "es": "MMA − carga"
+     "es": "MMA − carga",
+     "uk": "MMA − вантаж"
     }
    ],
    "why": {
     "en": "Tara plus the standard 75 kg driver.",
-    "es": "Tara más el conductor estándar de 75 kg."
+    "es": "Tara más el conductor estándar de 75 kg.",
+    "uk": "Тара плюс стандартні 75 кг на водія."
    }
   },
   {
@@ -1108,25 +1320,30 @@ window.DGT_DATA = {
    "tag": "masses",
    "q": {
     "en": "The maximum authorised mass (MMA) is…",
-    "es": "La masa máxima autorizada (MMA) es…"
+    "es": "La masa máxima autorizada (MMA) es…",
+    "uk": "Максимальна дозволена маса (MMA) — це…"
    },
    "o": [
     {
      "en": "the most a loaded vehicle may weigh on public roads",
-     "es": "la masa máxima con la que puede circular cargado por las vías públicas"
+     "es": "la masa máxima con la que puede circular cargado por las vías públicas",
+     "uk": "найбільша маса навантаженого ТЗ, дозволена на дорогах загального користування"
     },
     {
      "en": "what the vehicle weighs empty",
-     "es": "lo que pesa el vehículo vacío"
+     "es": "lo que pesa el vehículo vacío",
+     "uk": "маса порожнього ТЗ"
     },
     {
      "en": "what the vehicle weighs at this moment",
-     "es": "lo que pesa el vehículo en este momento"
+     "es": "lo que pesa el vehículo en este momento",
+     "uk": "скільки ТЗ важить зараз"
     }
    ],
    "why": {
     "en": "MMA is a ceiling. The empty weight is the tara and the current weight is the laden mass.",
-    "es": "La MMA es un techo. El peso en vacío es la tara y el peso actual es la masa en carga."
+    "es": "La MMA es un techo. El peso en vacío es la tara y el peso actual es la masa en carga.",
+    "uk": "MMA — межа. Маса порожнього ТЗ — тара, поточна — маса з навантаженням."
    }
   },
   {
@@ -1134,25 +1351,30 @@ window.DGT_DATA = {
    "tag": "masses",
    "q": {
     "en": "The <i>tara</i> of a vehicle…",
-    "es": "La tara de un vehículo…"
+    "es": "La tara de un vehículo…",
+    "uk": "<i>Тара</i> транспортного засобу…"
    },
    "o": [
     {
      "en": "includes neither driver, passengers nor load",
-     "es": "no incluye conductor, pasajeros ni carga"
+     "es": "no incluye conductor, pasajeros ni carga",
+     "uk": "не включає ні водія, ні пасажирів, ні вантажу"
     },
     {
      "en": "includes the driver",
-     "es": "incluye al conductor"
+     "es": "incluye al conductor",
+     "uk": "включає водія"
     },
     {
      "en": "includes the driver and the passengers",
-     "es": "incluye al conductor y a los pasajeros"
+     "es": "incluye al conductor y a los pasajeros",
+     "uk": "включає водія й пасажирів"
     }
    ],
    "why": {
     "en": "Tara is the empty vehicle with its fixed equipment. The driver first appears in the mass in running order.",
-    "es": "La tara es el vehículo vacío con su equipo fijo. El conductor aparece en la masa en orden de marcha."
+    "es": "La tara es el vehículo vacío con su equipo fijo. El conductor aparece en la masa en orden de marcha.",
+    "uk": "Тара — порожній ТЗ зі стаціонарним обладнанням. Водій з’являється лише в масі в спорядженому стані."
    }
   },
   {
@@ -1160,25 +1382,30 @@ window.DGT_DATA = {
    "tag": "masses",
    "q": {
     "en": "May the laden mass exceed the MMA?",
-    "es": "¿Puede la masa en carga superar la MMA?"
+    "es": "¿Puede la masa en carga superar la MMA?",
+    "uk": "Чи може маса з навантаженням перевищувати MMA?"
    },
    "o": [
     {
      "en": "Never",
-     "es": "Nunca"
+     "es": "Nunca",
+     "uk": "Ніколи"
     },
     {
      "en": "By up to 10 %",
-     "es": "Hasta un 10 %"
+     "es": "Hasta un 10 %",
+     "uk": "Не більше ніж на 10 %"
     },
     {
      "en": "Only on motorways",
-     "es": "Solo en autopista"
+     "es": "Solo en autopista",
+     "uk": "Лише на автомагістралях"
     }
    ],
    "why": {
     "en": "The MMA is the limit for the loaded vehicle.",
-    "es": "La MMA es el límite del vehículo cargado."
+    "es": "La MMA es el límite del vehículo cargado.",
+    "uk": "MMA — межа для навантаженого ТЗ."
    }
   },
   {
@@ -1186,25 +1413,30 @@ window.DGT_DATA = {
    "tag": "masses",
    "q": {
     "en": "A coach carries a crew member. Its mass in running order is tara +",
-    "es": "Un autocar lleva acompañante. Su masa en orden de marcha es la tara +"
+    "es": "Un autocar lleva acompañante. Su masa en orden de marcha es la tara +",
+    "uk": "Туристичний автобус везе члена екіпажу. Його маса в спорядженому стані — тара +"
    },
    "o": [
     {
      "en": "150 kg",
-     "es": "150 kg"
+     "es": "150 kg",
+     "uk": "150 кг"
     },
     {
      "en": "75 kg",
-     "es": "75 kg"
+     "es": "75 kg",
+     "uk": "75 кг"
     },
     {
      "en": "225 kg",
-     "es": "225 kg"
+     "es": "225 kg",
+     "uk": "225 кг"
     }
    ],
    "why": {
     "en": "75 kg for the driver plus 75 kg for the crew member.",
-    "es": "75 kg del conductor más 75 kg del acompañante."
+    "es": "75 kg del conductor más 75 kg del acompañante.",
+    "uk": "75 кг на водія плюс 75 кг на члена екіпажу."
    }
   },
   {
@@ -1212,25 +1444,30 @@ window.DGT_DATA = {
    "tag": "cats",
    "q": {
     "en": "Category N2 covers goods vehicles with an MMA…",
-    "es": "La categoría N2 abarca vehículos de mercancías con una MMA…"
+    "es": "La categoría N2 abarca vehículos de mercancías con una MMA…",
+    "uk": "Категорія N2 охоплює вантажні ТЗ з MMA…"
    },
    "o": [
     {
      "en": "above 3.5 t and up to 12 t",
-     "es": "superior a 3,5 t y de hasta 12 t"
+     "es": "superior a 3,5 t y de hasta 12 t",
+     "uk": "понад 3,5 т і до 12 т"
     },
     {
      "en": "above 12 t",
-     "es": "superior a 12 t"
+     "es": "superior a 12 t",
+     "uk": "понад 12 т"
     },
     {
      "en": "of up to 3.5 t",
-     "es": "de hasta 3,5 t"
+     "es": "de hasta 3,5 t",
+     "uk": "до 3,5 т"
     }
    ],
    "why": {
     "en": "N1 up to 3.5 t, N2 above 3.5 t up to 12 t, N3 above 12 t.",
-    "es": "N1 hasta 3,5 t, N2 más de 3,5 t y hasta 12 t, N3 más de 12 t."
+    "es": "N1 hasta 3,5 t, N2 más de 3,5 t y hasta 12 t, N3 más de 12 t.",
+    "uk": "N1 до 3,5 т, N2 понад 3,5 т до 12 т, N3 понад 12 т."
    }
   },
   {
@@ -1238,25 +1475,30 @@ window.DGT_DATA = {
    "tag": "cats",
    "q": {
     "en": "A goods vehicle with an MMA of 3,000 kg is category…",
-    "es": "Un vehículo de mercancías con una MMA de 3.000 kg es de la categoría…"
+    "es": "Un vehículo de mercancías con una MMA de 3.000 kg es de la categoría…",
+    "uk": "Вантажний ТЗ з MMA 3 000 кг належить до категорії…"
    },
    "o": [
     {
      "en": "N1",
-     "es": "N1"
+     "es": "N1",
+     "uk": "N1"
     },
     {
      "en": "N2",
-     "es": "N2"
+     "es": "N2",
+     "uk": "N2"
     },
     {
      "en": "M1",
-     "es": "M1"
+     "es": "M1",
+     "uk": "M1"
     }
    ],
    "why": {
     "en": "N is goods; N1 goes up to 3.5 t.",
-    "es": "N es mercancías; N1 llega hasta 3,5 t."
+    "es": "N es mercancías; N1 llega hasta 3,5 t.",
+    "uk": "N — вантажі; N1 — до 3,5 т."
    }
   },
   {
@@ -1264,25 +1506,30 @@ window.DGT_DATA = {
    "tag": "cats",
    "q": {
     "en": "Category O1 covers trailers with an MMA of up to…",
-    "es": "La categoría O1 abarca remolques con una MMA de hasta…"
+    "es": "La categoría O1 abarca remolques con una MMA de hasta…",
+    "uk": "Категорія O1 охоплює причепи з MMA до…"
    },
    "o": [
     {
      "en": "0.75 t",
-     "es": "0,75 t"
+     "es": "0,75 t",
+     "uk": "0,75 т"
     },
     {
      "en": "3.5 t",
-     "es": "3,5 t"
+     "es": "3,5 t",
+     "uk": "3,5 т"
     },
     {
      "en": "10 t",
-     "es": "10 t"
+     "es": "10 t",
+     "uk": "10 т"
     }
    ],
    "why": {
     "en": "O1 up to 0.75 t, O2 up to 3.5 t, O3 up to 10 t, O4 above 10 t.",
-    "es": "O1 hasta 0,75 t, O2 hasta 3,5 t, O3 hasta 10 t, O4 más de 10 t."
+    "es": "O1 hasta 0,75 t, O2 hasta 3,5 t, O3 hasta 10 t, O4 más de 10 t.",
+    "uk": "O1 до 0,75 т, O2 до 3,5 т, O3 до 10 т, O4 понад 10 т."
    }
   },
   {
@@ -1290,25 +1537,30 @@ window.DGT_DATA = {
    "tag": "cats",
    "q": {
     "en": "A passenger vehicle with 20 seats and an MMA of 4.5 t is category…",
-    "es": "Un vehículo de personas con 20 plazas y una MMA de 4,5 t es de la categoría…"
+    "es": "Un vehículo de personas con 20 plazas y una MMA de 4,5 t es de la categoría…",
+    "uk": "Пасажирський ТЗ на 20 місць з MMA 4,5 т належить до категорії…"
    },
    "o": [
     {
      "en": "M2",
-     "es": "M2"
+     "es": "M2",
+     "uk": "M2"
     },
     {
      "en": "M1",
-     "es": "M1"
+     "es": "M1",
+     "uk": "M1"
     },
     {
      "en": "M3",
-     "es": "M3"
+     "es": "M3",
+     "uk": "M3"
     }
    ],
    "why": {
     "en": "More than 8 seats besides the driver's and not over 5 t is M2.",
-    "es": "Más de 8 plazas además de la del conductor y no más de 5 t es M2."
+    "es": "Más de 8 plazas además de la del conductor y no más de 5 t es M2.",
+    "uk": "Понад 8 місць, крім водійського, і не більше 5 т — це M2."
    }
   },
   {
@@ -1316,25 +1568,30 @@ window.DGT_DATA = {
    "tag": "cats",
    "q": {
     "en": "EU class L6e is the…",
-    "es": "La clase europea L6e es…"
+    "es": "La clase europea L6e es…",
+    "uk": "Клас ЄС L6e — це…"
    },
    "o": [
     {
      "en": "light quadricycle",
-     "es": "el cuatriciclo ligero"
+     "es": "el cuatriciclo ligero",
+     "uk": "легкий квадрицикл"
     },
     {
      "en": "heavy quadricycle",
-     "es": "el cuatriciclo pesado"
+     "es": "el cuatriciclo pesado",
+     "uk": "важкий квадрицикл"
     },
     {
      "en": "two-wheel moped",
-     "es": "el ciclomotor de dos ruedas"
+     "es": "el ciclomotor de dos ruedas",
+     "uk": "двоколісний мопед"
     }
    ],
    "why": {
     "en": "L6e light quadricycle, L7e heavy quadricycle, L1e-B two-wheel moped.",
-    "es": "L6e cuatriciclo ligero, L7e cuatriciclo pesado, L1e-B ciclomotor de dos ruedas."
+    "es": "L6e cuatriciclo ligero, L7e cuatriciclo pesado, L1e-B ciclomotor de dos ruedas.",
+    "uk": "L6e — легкий квадрицикл, L7e — важкий квадрицикл, L1e-B — двоколісний мопед."
    }
   },
   {
@@ -1342,25 +1599,30 @@ window.DGT_DATA = {
    "tag": "cats",
    "q": {
     "en": "Category M1 allows, besides the driver's seat, up to…",
-    "es": "La categoría M1 admite, además de la plaza del conductor, hasta…"
+    "es": "La categoría M1 admite, además de la plaza del conductor, hasta…",
+    "uk": "Категорія M1 дозволяє, крім місця водія, до…"
    },
    "o": [
     {
      "en": "8 seats",
-     "es": "8 plazas"
+     "es": "8 plazas",
+     "uk": "8 місць"
     },
     {
      "en": "9 seats",
-     "es": "9 plazas"
+     "es": "9 plazas",
+     "uk": "9 місць"
     },
     {
      "en": "5 seats",
-     "es": "5 plazas"
+     "es": "5 plazas",
+     "uk": "5 місць"
     }
    ],
    "why": {
     "en": "Eight besides the driver, which is the same border as the turismo's nine in total.",
-    "es": "Ocho además del conductor, la misma frontera que las nueve en total del turismo."
+    "es": "Ocho además del conductor, la misma frontera que las nueve en total del turismo.",
+    "uk": "Вісім, крім водійського, — це та сама межа, що й дев’ять місць загалом у turismo."
    }
   },
   {
@@ -1368,25 +1630,30 @@ window.DGT_DATA = {
    "tag": "eco",
    "q": {
     "en": "A battery electric vehicle (BEV) gets the label…",
-    "es": "Un vehículo eléctrico de batería (BEV) recibe el distintivo…"
+    "es": "Un vehículo eléctrico de batería (BEV) recibe el distintivo…",
+    "uk": "Електромобіль на акумуляторах (BEV) отримує наліпку…"
    },
    "o": [
     {
      "en": "0 emisiones",
-     "es": "0 emisiones"
+     "es": "0 emisiones",
+     "uk": "0 emisiones"
     },
     {
      "en": "ECO",
-     "es": "ECO"
+     "es": "ECO",
+     "uk": "ECO"
     },
     {
      "en": "C",
-     "es": "C"
+     "es": "C",
+     "uk": "C"
     }
    ],
    "why": {
     "en": "BEV, REEV, fuel-cell vehicles and PHEV with at least 40 km get 0 emisiones.",
-    "es": "BEV, REEV, pila de combustible y PHEV con al menos 40 km reciben 0 emisiones."
+    "es": "BEV, REEV, pila de combustible y PHEV con al menos 40 km reciben 0 emisiones.",
+    "uk": "BEV, REEV, ТЗ на паливних елементах і PHEV щонайменше з 40 км отримують 0 emisiones."
    }
   },
   {
@@ -1394,25 +1661,30 @@ window.DGT_DATA = {
    "tag": "eco",
    "q": {
     "en": "A plug-in hybrid with 50 km of electric range gets the label…",
-    "es": "Un híbrido enchufable con 50 km de autonomía eléctrica recibe el distintivo…"
+    "es": "Un híbrido enchufable con 50 km de autonomía eléctrica recibe el distintivo…",
+    "uk": "Гібрид із зарядкою від мережі й запасом ходу на електриці 50 км отримує наліпку…"
    },
    "o": [
     {
      "en": "0 emisiones",
-     "es": "0 emisiones"
+     "es": "0 emisiones",
+     "uk": "0 emisiones"
     },
     {
      "en": "ECO",
-     "es": "ECO"
+     "es": "ECO",
+     "uk": "ECO"
     },
     {
      "en": "B",
-     "es": "B"
+     "es": "B",
+     "uk": "B"
     }
    ],
    "why": {
     "en": "The line is 40 km: at or above it 0 emisiones, below it ECO.",
-    "es": "La frontera son 40 km: con 40 o más 0 emisiones, con menos ECO."
+    "es": "La frontera son 40 km: con 40 o más 0 emisiones, con menos ECO.",
+    "uk": "Межа — 40 км: від неї й більше — 0 emisiones, менше — ECO."
    }
   },
   {
@@ -1420,25 +1692,30 @@ window.DGT_DATA = {
    "tag": "eco",
    "q": {
     "en": "A hybrid that cannot be plugged in (HEV) gets the label…",
-    "es": "Un híbrido no enchufable (HEV) recibe el distintivo…"
+    "es": "Un híbrido no enchufable (HEV) recibe el distintivo…",
+    "uk": "Гібрид без зарядки від мережі (HEV) отримує наліпку…"
    },
    "o": [
     {
      "en": "ECO",
-     "es": "ECO"
+     "es": "ECO",
+     "uk": "ECO"
     },
     {
      "en": "0 emisiones",
-     "es": "0 emisiones"
+     "es": "0 emisiones",
+     "uk": "0 emisiones"
     },
     {
      "en": "none",
-     "es": "ninguno"
+     "es": "ninguno",
+     "uk": "жодної"
     }
    ],
    "why": {
     "en": "Non-plug-in hybrids are ECO.",
-    "es": "Los híbridos no enchufables son ECO."
+    "es": "Los híbridos no enchufables son ECO.",
+    "uk": "Гібриди без зарядки від мережі — ECO."
    }
   },
   {
@@ -1446,25 +1723,30 @@ window.DGT_DATA = {
    "tag": "eco",
    "q": {
     "en": "Vehicle sign V-26 identifies…",
-    "es": "La señal V-26 en un vehículo identifica…"
+    "es": "La señal V-26 en un vehículo identifica…",
+    "uk": "Знак на ТЗ V-26 позначає…"
    },
    "o": [
     {
      "en": "a shared-use vehicle",
-     "es": "un vehículo de uso compartido"
+     "es": "un vehículo de uso compartido",
+     "uk": "ТЗ спільного використання"
     },
     {
      "en": "the environmental label",
-     "es": "el distintivo ambiental"
+     "es": "el distintivo ambiental",
+     "uk": "екологічну наліпку"
     },
     {
      "en": "a novice driver",
-     "es": "a un conductor novel"
+     "es": "a un conductor novel",
+     "uk": "водія-початківця"
     }
    ],
    "why": {
     "en": "V-26 is the shared-use sticker; V-25 is the environmental label.",
-    "es": "La V-26 es el distintivo de uso compartido; la V-25 es el distintivo ambiental."
+    "es": "La V-26 es el distintivo de uso compartido; la V-25 es el distintivo ambiental.",
+    "uk": "V-26 — наліпка спільного використання; V-25 — екологічна наліпка."
    }
   },
   {
@@ -1472,25 +1754,30 @@ window.DGT_DATA = {
    "tag": "eco",
    "q": {
     "en": "Vehicle sign V-25 is…",
-    "es": "La señal V-25 en un vehículo es…"
+    "es": "La señal V-25 en un vehículo es…",
+    "uk": "Знак на ТЗ V-25 — це…"
    },
    "o": [
     {
      "en": "the environmental label",
-     "es": "el distintivo ambiental"
+     "es": "el distintivo ambiental",
+     "uk": "екологічна наліпка"
     },
     {
      "en": "the shared-use sticker",
-     "es": "el distintivo de uso compartido"
+     "es": "el distintivo de uso compartido",
+     "uk": "наліпка спільного використання"
     },
     {
      "en": "the registration plate",
-     "es": "la placa de matrícula"
+     "es": "la placa de matrícula",
+     "uk": "номерний знак"
     }
    ],
    "why": {
     "en": "V-25 = environmental label.",
-    "es": "V-25 = distintivo ambiental."
+    "es": "V-25 = distintivo ambiental.",
+    "uk": "V-25 = екологічна наліпка."
    }
   },
   {
@@ -1498,25 +1785,30 @@ window.DGT_DATA = {
    "tag": "eco",
    "q": {
     "en": "In a range-extended electric vehicle (REEV), the combustion engine…",
-    "es": "En un eléctrico de autonomía extendida (REEV), el motor de combustión…"
+    "es": "En un eléctrico de autonomía extendida (REEV), el motor de combustión…",
+    "uk": "В електромобілі з подовжувачем запасу ходу (REEV) двигун внутрішнього згоряння…"
    },
    "o": [
     {
      "en": "only generates electricity",
-     "es": "solo genera electricidad"
+     "es": "solo genera electricidad",
+     "uk": "лише виробляє електрику"
     },
     {
      "en": "drives the wheels on the motorway",
-     "es": "mueve las ruedas en autopista"
+     "es": "mueve las ruedas en autopista",
+     "uk": "приводить колеса на автомагістралі"
     },
     {
      "en": "does not exist",
-     "es": "no existe"
+     "es": "no existe",
+     "uk": "відсутній"
     }
    ],
    "why": {
     "en": "The wheels are always driven by the electric motor.",
-    "es": "Las ruedas las mueve siempre el motor eléctrico."
+    "es": "Las ruedas las mueve siempre el motor eléctrico.",
+    "uk": "Колеса завжди приводить електродвигун."
    }
   }
  ],
@@ -1525,304 +1817,371 @@ window.DGT_DATA = {
    "sec": 1,
    "en": "Roads and where the law applies",
    "es": "Vías y ámbito de la ley",
+   "uk": "Дороги і де діє закон",
    "recap": [
     [
      "The law covers public roads, roads in common use, and private roads used by an undetermined group of users.",
-     "La ley se aplica a vías públicas, vías de uso común y vías privadas usadas por una colectividad indeterminada."
+     "La ley se aplica a vías públicas, vías de uso común y vías privadas usadas por una colectividad indeterminada.",
+     "Закон діє на дорогах загального користування, дорогах спільного користування та приватних дорогах, якими користується невизначене коло користувачів."
     ],
     [
      "Vía urbana = inside a built-up area (except travesías). Vía interurbana = outside it.",
-     "Vía urbana = dentro de poblado (excepto travesías). Vía interurbana = fuera de poblado."
+     "Vía urbana = dentro de poblado (excepto travesías). Vía interurbana = fuera de poblado.",
+     "Vía urbana — у межах населеного пункту (крім travesías). Vía interurbana — поза ним."
     ],
     [
      "Travesía = stretch of a carretera that runs through a built-up area.",
-     "Travesía = tramo de carretera que discurre por poblado."
+     "Travesía = tramo de carretera que discurre por poblado.",
+     "Travesía — ділянка carretera, що проходить через населений пункт."
     ],
     [
      "Arcén = paved strip beside the carriageway, not for cars except in exceptional circumstances.",
-     "Arcén = franja pavimentada junto a la calzada, no destinada a automóviles salvo circunstancias excepcionales."
+     "Arcén = franja pavimentada junto a la calzada, no destinada a automóviles salvo circunstancias excepcionales.",
+     "Arcén (узбіччя) — укріплена смуга поруч із проїзною частиною, не для автомобілів, крім виняткових обставин."
     ]
    ],
    "trap": [
     "Mixing up travesía with an ordinary street, and assuming private always means outside the law.",
-    "Confundir travesía con una calle cualquiera y creer que lo privado siempre queda fuera de la ley."
+    "Confundir travesía con una calle cualquiera y creer que lo privado siempre queda fuera de la ley.",
+    "Плутати travesía зі звичайною вулицею і вважати, що «приватне» завжди означає «поза дією закону»."
    ]
   },
   "users": {
    "sec": 2,
    "en": "Drivers, pedestrians and animals",
    "es": "Conductores, peatones y animales",
+   "uk": "Водії, пішоходи і тварини",
    "recap": [
     [
      "Driver = whoever steers a vehicle or is in charge of animals.",
-     "Conductor = quien maneja un vehículo o está a cargo de animales."
+     "Conductor = quien maneja un vehículo o está a cargo de animales.",
+     "Водій — той, хто керує транспортним засобом або відповідає за тварин."
     ],
     [
      "In a driving lesson the legal driver is the person at the additional controls.",
-     "En el aprendizaje, el conductor legal es quien va a cargo de los mandos adicionales."
+     "En el aprendizaje, el conductor legal es quien va a cargo de los mandos adicionales.",
+     "Під час уроку водіння водієм за законом є той, хто біля додаткових органів керування."
     ],
     [
      "Pedestrian = on foot, pushing a pram or small unpowered vehicle, walking a cycle or two-wheel moped, or in a wheelchair at walking pace.",
-     "Peatón = a pie, empujando un cochecito o vehículo pequeño sin motor, llevando a pie un ciclo o ciclomotor de dos ruedas, o en silla de ruedas al paso."
+     "Peatón = a pie, empujando un cochecito o vehículo pequeño sin motor, llevando a pie un ciclo o ciclomotor de dos ruedas, o en silla de ruedas al paso.",
+     "Пішохід — іде пішки, штовхає дитячий візок чи невеликий ТЗ без двигуна, веде поруч цикл чи двоколісний мопед або їде в інвалідному візку зі швидкістю пішохода."
     ]
    ],
    "trap": [
     "Forgetting that the same person changes category: riding a bike is driving, pushing it is walking.",
-    "Olvidar que la misma persona cambia de categoría: montar en bici es conducir, empujarla es caminar."
+    "Olvidar que la misma persona cambia de categoría: montar en bici es conducir, empujarla es caminar.",
+    "Забути, що та сама людина змінює категорію: їде на велосипеді — водій, веде його — пішохід."
    ]
   },
   "motordef": {
    "sec": 3,
    "en": "What counts as a motor vehicle",
    "es": "Qué es un vehículo de motor",
+   "uk": "Що вважається механічним транспортним засобом",
    "recap": [
     [
      "Motor vehicle = vehicle with an engine for propulsion, EXCEPT mopeds, trams, vehicles for people with reduced mobility, EPAC and VMP.",
-     "Vehículo de motor = vehículo con motor para su propulsión, EXCEPTO ciclomotores, tranvías, vehículos para personas de movilidad reducida, EPAC y VMP."
+     "Vehículo de motor = vehículo con motor para su propulsión, EXCEPTO ciclomotores, tranvías, vehículos para personas de movilidad reducida, EPAC y VMP.",
+     "Механічний ТЗ — транспортний засіб із двигуном для руху, КРІМ мопедів, трамваїв, ТЗ для осіб з обмеженою рухливістю, EPAC і VMP."
     ],
     [
      "Automóvil = motor vehicle for carrying people or goods or towing. Special vehicles are not automóviles.",
-     "Automóvil = vehículo de motor para transportar personas o cosas o para la tracción. Los vehículos especiales no son automóviles."
+     "Automóvil = vehículo de motor para transportar personas o cosas o para la tracción. Los vehículos especiales no son automóviles.",
+     "Automóvil — механічний ТЗ для перевезення людей чи вантажів або для буксирування. Спеціальні ТЗ — не automóviles."
     ]
    ],
    "trap": [
     "Thinking “it has a motor, so it is a motor vehicle”. The law lists five exceptions.",
-    "Pensar «tiene motor, luego es vehículo de motor». La ley enumera cinco excepciones."
+    "Pensar «tiene motor, luego es vehículo de motor». La ley enumera cinco excepciones.",
+    "Думати «має двигун — отже, механічний ТЗ». Закон перелічує п’ять винятків."
    ]
   },
   "nomotor": {
    "sec": 4,
    "en": "Cycles, trailers and combinations",
    "es": "Ciclos, remolques y conjuntos",
+   "uk": "Цикли, причепи та состави",
    "recap": [
     [
      "Cycle = at least two wheels, moved only by the riders' muscle power.",
-     "Ciclo = al menos dos ruedas, movido solo por la fuerza muscular de sus ocupantes."
+     "Ciclo = al menos dos ruedas, movido solo por la fuerza muscular de sus ocupantes.",
+     "Цикл — щонайменше два колеса, рухається лише м’язовою силою тих, хто на ньому."
     ],
     [
      "Light trailer = MMA up to 750 kg.",
-     "Remolque ligero = MMA de hasta 750 kg."
+     "Remolque ligero = MMA de hasta 750 kg.",
+     "Легкий причіп — MMA до 750 кг."
     ],
     [
      "Semi-trailer = part of its weight rests on the towing vehicle.",
-     "Semirremolque = parte de su peso descansa sobre el vehículo tractor."
+     "Semirremolque = parte de su peso descansa sobre el vehículo tractor.",
+     "Напівпричіп — частина його маси спирається на тягач."
     ],
     [
      "Road train = motor vehicle + trailer. Articulated vehicle = tractor unit + semi-trailer.",
-     "Tren de carretera = automóvil + remolque. Vehículo articulado = tractocamión + semirremolque."
+     "Tren de carretera = automóvil + remolque. Vehículo articulado = tractocamión + semirremolque.",
+     "Автопоїзд — механічний ТЗ + причіп. Зчленований ТЗ — сідловий тягач + напівпричіп."
     ]
    ],
    "trap": [
     "Swapping road train and articulated vehicle.",
-    "Intercambiar tren de carretera y vehículo articulado."
+    "Intercambiar tren de carretera y vehículo articulado.",
+    "Плутати автопоїзд і зчленований транспортний засіб."
    ]
   },
   "light25": {
    "sec": 5,
    "en": "VMP, EPAC and ciclo de motor (25 km/h group)",
    "es": "VMP, EPAC y ciclo de motor (grupo de 25 km/h)",
+   "uk": "VMP, EPAC і ciclo de motor (група 25 км/год)",
    "recap": [
     [
      "VMP = one place, electric only, design speed 6–25 km/h. Not a motor vehicle.",
-     "VMP = una plaza, solo eléctrico, velocidad de diseño de 6 a 25 km/h. No es vehículo de motor."
+     "VMP = una plaza, solo eléctrico, velocidad de diseño de 6 a 25 km/h. No es vehículo de motor.",
+     "VMP — одне місце, лише електричний, конструктивна швидкість 6–25 км/год. Не механічний ТЗ."
     ],
     [
      "EPAC = up to 250 W, assistance cuts off before 25 km/h or when you stop pedalling. Not a motor vehicle.",
-     "EPAC = hasta 250 W, la ayuda se corta antes de 25 km/h o al dejar de pedalear. No es vehículo de motor."
+     "EPAC = hasta 250 W, la ayuda se corta antes de 25 km/h o al dejar de pedalear. No es vehículo de motor.",
+     "EPAC — до 250 Вт, допомога вимикається до 25 км/год або коли ви перестаєте крутити педалі. Не механічний ТЗ."
     ],
     [
      "Ciclo de motor (L1e-A) = up to 1,000 W, assistance cuts off at 25 km/h or less, must be registered (code 07).",
-     "Ciclo de motor (L1e-A) = hasta 1.000 W, la ayuda se corta a 25 km/h o menos, hay que matricularlo (código 07)."
+     "Ciclo de motor (L1e-A) = hasta 1.000 W, la ayuda se corta a 25 km/h o menos, hay que matricularlo (código 07).",
+     "Ciclo de motor (L1e-A) — до 1 000 Вт, допомога вимикається на 25 км/год або раніше, обов’язкова реєстрація (код 07)."
     ],
     [
      "A vehicle for people with reduced mobility is never a VMP.",
-     "Un vehículo para personas de movilidad reducida nunca es un VMP."
+     "Un vehículo para personas de movilidad reducida nunca es un VMP.",
+     "ТЗ для осіб з обмеженою рухливістю ніколи не є VMP."
     ]
    ],
    "trap": [
     "Mixing the three power figures (250 W, 1,000 W) and using 45 km/h where the limit is 25.",
-    "Mezclar las potencias (250 W, 1.000 W) y usar 45 km/h donde el límite es 25."
+    "Mezclar las potencias (250 W, 1.000 W) y usar 45 km/h donde el límite es 25.",
+    "Плутати дві цифри потужності (250 Вт, 1 000 Вт) і брати 45 км/год там, де межа 25."
    ]
   },
   "moped": {
    "sec": 5,
    "en": "Mopeds and light quadricycles (45 km/h group)",
    "es": "Ciclomotores y cuatriciclos ligeros (grupo de 45 km/h)",
+   "uk": "Мопеди й легкі квадрицикли (група 45 км/год)",
    "recap": [
     [
      "Moped, 2 or 3 wheels = up to 45 km/h and up to 50 cm³ (4 kW if electric).",
-     "Ciclomotor de 2 o 3 ruedas = hasta 45 km/h y hasta 50 cm³ (4 kW si es eléctrico)."
+     "Ciclomotor de 2 o 3 ruedas = hasta 45 km/h y hasta 50 cm³ (4 kW si es eléctrico).",
+     "Мопед на 2 чи 3 колесах — до 45 км/год і до 50 см³ (4 кВт, якщо електричний)."
     ],
     [
      "Four-wheel moped = at most 2 seats with the driver, up to 425 kg in running order, up to 45 km/h.",
-     "Ciclomotor de 4 ruedas = máximo 2 plazas con el conductor, hasta 425 kg en orden de marcha, hasta 45 km/h."
+     "Ciclomotor de 4 ruedas = máximo 2 plazas con el conductor, hasta 425 kg en orden de marcha, hasta 45 km/h.",
+     "Чотириколісний мопед — не більше 2 місць разом із водієм, до 425 кг у спорядженому стані, до 45 км/год."
     ],
     [
      "Vehicle for people with reduced mobility = tara up to 350 kg, up to 45 km/h, purpose-built.",
-     "Vehículo para personas de movilidad reducida = tara de hasta 350 kg, hasta 45 km/h, construido a propósito."
+     "Vehículo para personas de movilidad reducida = tara de hasta 350 kg, hasta 45 km/h, construido a propósito.",
+     "ТЗ для осіб з обмеженою рухливістю — тара до 350 кг, до 45 км/год, збудований спеціально."
     ],
     [
      "Break either moped limit (speed or engine size) and it is a motorcycle.",
-     "Si supera cualquiera de los dos límites (velocidad o cilindrada) es una motocicleta."
+     "Si supera cualquiera de los dos límites (velocidad o cilindrada) es una motocicleta.",
+     "Перевищено будь-яку межу мопеда (швидкість чи об’єм двигуна) — це мотоцикл."
     ]
    ],
    "trap": [
     "Using the old 350 kg figure for the four-wheel moped; 350 kg now belongs only to the reduced-mobility vehicle.",
-    "Usar los antiguos 350 kg para el ciclomotor de cuatro ruedas; los 350 kg son ahora solo del vehículo para movilidad reducida."
+    "Usar los antiguos 350 kg para el ciclomotor de cuatro ruedas; los 350 kg son ahora solo del vehículo para movilidad reducida.",
+    "Брати стару цифру 350 кг для чотириколісного мопеда; 350 кг тепер стосується лише ТЗ для осіб з обмеженою рухливістю."
    ]
   },
   "motos": {
    "sec": 6,
    "en": "Motorcycles and heavy quadricycles",
    "es": "Motocicletas y cuatriciclos pesados",
+   "uk": "Мотоцикли й важкі квадрицикли",
    "recap": [
     [
      "Motorcycle = two wheels, with or without sidecar, over 50 cm³ and/or over 45 km/h.",
-     "Motocicleta = dos ruedas, con o sin sidecar, más de 50 cm³ y/o más de 45 km/h."
+     "Motocicleta = dos ruedas, con o sin sidecar, más de 50 cm³ y/o más de 45 km/h.",
+     "Мотоцикл — два колеса, з коляскою чи без, понад 50 см³ та/або понад 45 км/год."
     ],
     [
      "Three-wheeled vehicle = three symmetrical wheels, over 50 cm³ and/or over 45 km/h.",
-     "Vehículo de tres ruedas = tres ruedas simétricas, más de 50 cm³ y/o más de 45 km/h."
+     "Vehículo de tres ruedas = tres ruedas simétricas, más de 50 cm³ y/o más de 45 km/h.",
+     "Триколісний ТЗ — три симетричні колеса, понад 50 см³ та/або понад 45 км/год."
     ],
     [
      "Heavy quadricycle = empty mass up to 450 kg (people) or 600 kg (goods), up to 15 kW.",
-     "Cuatriciclo pesado = masa en vacío de hasta 450 kg (personas) o 600 kg (mercancías), hasta 15 kW."
+     "Cuatriciclo pesado = masa en vacío de hasta 450 kg (personas) o 600 kg (mercancías), hasta 15 kW.",
+     "Важкий квадрицикл — маса без навантаження до 450 кг (пасажирський) чи 600 кг (вантажний), до 15 кВт."
     ]
    ],
    "trap": [
     "Confusing the light quadricycle numbers (425 kg, 4 or 6 kW) with the heavy ones (450/600 kg, 15 kW).",
-    "Confundir las cifras del cuatriciclo ligero (425 kg, 4 o 6 kW) con las del pesado (450/600 kg, 15 kW)."
+    "Confundir las cifras del cuatriciclo ligero (425 kg, 4 o 6 kW) con las del pesado (450/600 kg, 15 kW).",
+    "Плутати цифри легкого квадрицикла (425 кг, 4 чи 6 кВт) з цифрами важкого (450/600 кг, 15 кВт)."
    ]
   },
   "carbus": {
    "sec": 6,
    "en": "Cars, buses and mixed vehicles",
    "es": "Turismos, autobuses y vehículos mixtos",
+   "uk": "Легкові автомобілі, автобуси та змішані ТЗ",
    "recap": [
     [
      "Turismo = for people, at most 9 seats including the driver.",
-     "Turismo = para personas, máximo 9 plazas incluida la del conductor."
+     "Turismo = para personas, máximo 9 plazas incluida la del conductor.",
+     "Turismo — для людей, щонайбільше 9 місць разом із водієм."
     ],
     [
      "Autobús = for people, more than 9 seats including the driver.",
-     "Autobús = para personas, más de 9 plazas incluida la del conductor."
+     "Autobús = para personas, más de 9 plazas incluida la del conductor.",
+     "Autobús — для людей, понад 9 місць разом із водієм."
     ],
     [
      "Mixto adaptable = people and goods; load can be replaced by people by adding seats.",
-     "Mixto adaptable = personas y mercancías; la carga puede sustituirse por personas añadiendo asientos."
+     "Mixto adaptable = personas y mercancías; la carga puede sustituirse por personas añadiendo asientos.",
+     "Mixto adaptable — люди й вантаж; вантаж можна замінити людьми, додавши сидіння."
     ]
    ],
    "trap": [
     "Counting the driver wrongly: 9 with the driver is a car, 10 is a bus.",
-    "Contar mal al conductor: 9 con conductor es turismo, 10 es autobús."
+    "Contar mal al conductor: 9 con conductor es turismo, 10 es autobús.",
+    "Неправильно рахувати водія: 9 разом із водієм — легковик, 10 — автобус."
    ]
   },
   "goods": {
    "sec": 6,
    "en": "Trucks, vans, pick-ups and special vehicles",
    "es": "Camiones, furgonetas, pick-up y vehículos especiales",
+   "uk": "Вантажівки, фургони, пікапи та спеціальні ТЗ",
    "recap": [
     [
      "Camión = goods, cab not integrated, MMA over 3,500 kg.",
-     "Camión = mercancías, cabina no integrada, MMA superior a 3.500 kg."
+     "Camión = mercancías, cabina no integrada, MMA superior a 3.500 kg.",
+     "Camión — вантажний, кабіна не інтегрована, MMA понад 3 500 кг."
     ],
     [
      "Furgoneta = goods, cab integrated, MMA up to 3,500 kg.",
-     "Furgoneta = mercancías, cabina integrada, MMA de hasta 3.500 kg."
+     "Furgoneta = mercancías, cabina integrada, MMA de hasta 3.500 kg.",
+     "Furgoneta — вантажний, кабіна інтегрована в кузов, MMA до 3 500 кг."
     ],
     [
      "Pick-up = up to 3,500 kg, seats and cargo not in one compartment, height up to 2 m. Follows car rules.",
-     "Pick-up = hasta 3.500 kg, asientos y carga no en un único compartimento, altura de hasta 2 m. Sigue las normas del turismo."
+     "Pick-up = hasta 3.500 kg, asientos y carga no en un único compartimento, altura de hasta 2 m. Sigue las normas del turismo.",
+     "Пікап — до 3 500 кг, сидіння й вантаж не в одному відсіку, висота до 2 м. Діють правила для легковиків."
     ],
     [
      "Special vehicle = built for specific works or services (tractor, crane). Motor vehicle, but not an automóvil.",
-     "Vehículo especial = construido para obras o servicios determinados (tractor, grúa). Es vehículo de motor, pero no automóvil."
+     "Vehículo especial = construido para obras o servicios determinados (tractor, grúa). Es vehículo de motor, pero no automóvil.",
+     "Спеціальний ТЗ — збудований для певних робіт чи послуг (трактор, кран). Механічний ТЗ, але не automóvil."
     ]
    ],
    "trap": [
     "Forgetting one of the three pick-up conditions, or which side of 3,500 kg each vehicle sits on.",
-    "Olvidar una de las tres condiciones del pick-up o a qué lado de los 3.500 kg queda cada vehículo."
+    "Olvidar una de las tres condiciones del pick-up o a qué lado de los 3.500 kg queda cada vehículo.",
+    "Забути одну з трьох умов для пікапа або те, з якого боку від 3 500 кг стоїть кожен ТЗ."
    ]
   },
   "masses": {
    "sec": 7,
    "en": "Masses and weights",
    "es": "Masas y pesos",
+   "uk": "Маси",
    "recap": [
     [
      "Tara = empty vehicle with fixed equipment; no driver, passengers or load.",
-     "Tara = vehículo vacío con su equipo fijo; sin conductor, pasajeros ni carga."
+     "Tara = vehículo vacío con su equipo fijo; sin conductor, pasajeros ni carga.",
+     "Тара — порожній ТЗ зі стаціонарним обладнанням; без водія, пасажирів і вантажу."
     ],
     [
      "Mass in running order = tara + 75 kg driver (+ 75 kg crew member on buses).",
-     "Masa en orden de marcha = tara + 75 kg del conductor (+ 75 kg del acompañante en autobuses)."
+     "Masa en orden de marcha = tara + 75 kg del conductor (+ 75 kg del acompañante en autobuses).",
+     "Маса в спорядженому стані — тара + 75 кг на водія (+ 75 кг на члена екіпажу в автобусах)."
     ],
     [
      "Laden mass = what the vehicle really weighs right now.",
-     "Masa en carga = lo que pesa realmente el vehículo en ese momento."
+     "Masa en carga = lo que pesa realmente el vehículo en ese momento.",
+     "Маса з навантаженням — скільки ТЗ справді важить зараз."
     ],
     [
      "MMA = the ceiling for a loaded vehicle on public roads. Never exceeded.",
-     "MMA = el techo para circular cargado por las vías públicas. Nunca se supera."
+     "MMA = el techo para circular cargado por las vías públicas. Nunca se supera.",
+     "MMA — межа для навантаженого ТЗ на дорогах загального користування. Ніколи не перевищується."
     ]
    ],
    "trap": [
     "Treating MMA as the real weight, or forgetting the 75 kg driver in running order.",
-    "Tomar la MMA por el peso real u olvidar los 75 kg del conductor en la masa en orden de marcha."
+    "Tomar la MMA por el peso real u olvidar los 75 kg del conductor en la masa en orden de marcha.",
+    "Вважати MMA фактичною масою або забувати 75 кг на водія в спорядженому стані."
    ]
   },
   "cats": {
    "sec": 8,
    "en": "EU categories M, N, O and L",
    "es": "Categorías europeas M, N, O y L",
+   "uk": "Категорії ЄС: M, N, O і L",
    "recap": [
     [
      "M = people. M1 up to 8 seats besides the driver; M2 more, MMA up to 5 t; M3 more, MMA over 5 t.",
-     "M = personas. M1 hasta 8 plazas además del conductor; M2 más, MMA de hasta 5 t; M3 más, MMA superior a 5 t."
+     "M = personas. M1 hasta 8 plazas además del conductor; M2 más, MMA de hasta 5 t; M3 más, MMA superior a 5 t.",
+     "M — люди. M1 — до 8 місць, крім водійського; M2 — більше, MMA до 5 т; M3 — більше, MMA понад 5 т."
     ],
     [
      "N = goods. N1 up to 3.5 t; N2 over 3.5 t up to 12 t; N3 over 12 t.",
-     "N = mercancías. N1 hasta 3,5 t; N2 más de 3,5 t y hasta 12 t; N3 más de 12 t."
+     "N = mercancías. N1 hasta 3,5 t; N2 más de 3,5 t y hasta 12 t; N3 más de 12 t.",
+     "N — вантажі. N1 — до 3,5 т; N2 — понад 3,5 т до 12 т; N3 — понад 12 т."
     ],
     [
      "O = trailers. O1 up to 0.75 t; O2 up to 3.5 t; O3 up to 10 t; O4 over 10 t.",
-     "O = remolques. O1 hasta 0,75 t; O2 hasta 3,5 t; O3 hasta 10 t; O4 más de 10 t."
+     "O = remolques. O1 hasta 0,75 t; O2 hasta 3,5 t; O3 hasta 10 t; O4 más de 10 t.",
+     "O — причепи. O1 — до 0,75 т; O2 — до 3,5 т; O3 — до 10 т; O4 — понад 10 т."
     ],
     [
      "L = light. L1e-A ciclo de motor, L1e-B moped, L3e motorcycle, L6e light quadricycle, L7e heavy quadricycle.",
-     "L = ligeros. L1e-A ciclo de motor, L1e-B ciclomotor, L3e motocicleta, L6e cuatriciclo ligero, L7e cuatriciclo pesado."
+     "L = ligeros. L1e-A ciclo de motor, L1e-B ciclomotor, L3e motocicleta, L6e cuatriciclo ligero, L7e cuatriciclo pesado.",
+     "L — легкі. L1e-A ciclo de motor, L1e-B мопед, L3e мотоцикл, L6e легкий квадрицикл, L7e важкий квадрицикл."
     ]
    ],
    "trap": [
     "Mixing the borders: 5 t belongs to M, 12 t to N, 10 t to O.",
-    "Mezclar las fronteras: 5 t es de M, 12 t de N y 10 t de O."
+    "Mezclar las fronteras: 5 t es de M, 12 t de N y 10 t de O.",
+    "Плутати межі: 5 т стосується M, 12 т — N, 10 т — O."
    ]
   },
   "eco": {
    "sec": 9,
    "en": "Propulsion, environmental labels and shared use",
    "es": "Propulsión, distintivos ambientales y uso compartido",
+   "uk": "Тип приводу, екологічні наліпки та спільне використання",
    "recap": [
     [
      "0 emisiones = BEV, REEV, fuel cell, and PHEV with at least 40 km electric range.",
-     "0 emisiones = BEV, REEV, pila de combustible y PHEV con al menos 40 km de autonomía eléctrica."
+     "0 emisiones = BEV, REEV, pila de combustible y PHEV con al menos 40 km de autonomía eléctrica.",
+     "0 emisiones — BEV, REEV, на паливних елементах, а також PHEV із запасом ходу на електриці щонайменше 40 км."
     ],
     [
      "ECO = PHEV under 40 km, non-plug-in hybrids, gas vehicles that meet label C.",
-     "ECO = PHEV con menos de 40 km, híbridos no enchufables y vehículos de gas que cumplan los criterios del C."
+     "ECO = PHEV con menos de 40 km, híbridos no enchufables y vehículos de gas que cumplan los criterios del C.",
+     "ECO — PHEV із запасом ходу менше 40 км, гібриди без зарядки від мережі, газові ТЗ, що відповідають наліпці C."
     ],
     [
      "V-25 = environmental label. V-26 = shared-use vehicle sticker.",
-     "V-25 = distintivo ambiental. V-26 = distintivo de vehículo de uso compartido."
+     "V-25 = distintivo ambiental. V-26 = distintivo de vehículo de uso compartido.",
+     "V-25 — екологічна наліпка. V-26 — наліпка ТЗ спільного використання."
     ],
     [
      "REEV = wheels driven electrically; the small combustion engine only generates electricity.",
-     "REEV = las ruedas las mueve el motor eléctrico; el pequeño motor de combustión solo genera electricidad."
+     "REEV = las ruedas las mueve el motor eléctrico; el pequeño motor de combustión solo genera electricidad.",
+     "REEV — колеса приводить електродвигун; невеликий двигун внутрішнього згоряння лише виробляє електрику."
     ]
    ],
    "trap": [
     "Forgetting that the 40 km line splits plug-in hybrids between 0 emisiones and ECO.",
-    "Olvidar que los 40 km reparten a los híbridos enchufables entre 0 emisiones y ECO."
+    "Olvidar que los 40 km reparten a los híbridos enchufables entre 0 emisiones y ECO.",
+    "Забути, що межа 40 км розділяє гібриди з зарядкою від мережі між 0 emisiones і ECO."
    ]
   }
  }

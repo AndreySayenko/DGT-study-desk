@@ -4,10 +4,10 @@ Study notes and tests for the Spanish DGT theory exam, for category B (cars) and
 
 The main screen lets you choose a category, then one of its 13 topics. Category B is complete, with all 13 topics written: Topic 1, definitions and general concepts; Topic 2, use of the road; Topic 3, speed; Topic 4, priority; Topic 5, manoeuvres; Topic 6, carrying people and goods; Topic 7, lights; Topic 8, signs and signals; Topic 9, documentation; Topic 10, accidents and their factors; Topic 11, first aid; Topic 12, driving techniques; and Topic 13, vehicle maintenance and accessories. Category A1/A2 is complete too, with all 13 topics written: Topic 1, definitions and general concepts; Topic 2, use of the road; Topic 3, speed; Topic 4, priority; Topic 5, manoeuvres; Topic 6, carrying people and goods; Topic 7, lights; Topic 8, signs and signals; Topic 9, documentation; Topic 10, accidents and their factors; Topic 11, first aid; Topic 12, riding techniques; and Topic 13, maintenance and accessories. A topic that is listed in the catalogue but not yet written shows as "Coming soon".
 
-- English and Spanish, chosen from a language menu at the top of every page; category A1/A2 also in Ukrainian
+- English, Spanish and Ukrainian, chosen from a language menu at the top of every page
 - Light and dark theme
 - Questions per topic (58 in Topic 1, 92 in Topic 2, 88 in Topic 3, 91 in Topic 4, 137 in Topic 5, 95 in Topic 6, 77 in Topic 7, 196 in Topic 8, 116 in Topic 9, 259 in Topic 10, 107 in Topic 11, 99 in Topic 12, 77 in Topic 13; 60 in A1/A2 Topic 1, 89 in A1/A2 Topic 2, 70 in A1/A2 Topic 3, 60 in A1/A2 Topic 4, 93 in A1/A2 Topic 5, 60 in A1/A2 Topic 6, 62 in A1/A2 Topic 7, 120 in A1/A2 Topic 8, 88 in A1/A2 Topic 9, 89 in A1/A2 Topic 10, 79 in A1/A2 Topic 11, 81 in A1/A2 Topic 12, 63 in A1/A2 Topic 13): exam simulation (30 questions, pass with 3 mistakes or fewer), all questions by section, and practice of your own mistakes
-- Printable PDFs of each topic in English and Spanish (A1/A2 also in Ukrainian), with a self-test
+- Printable PDFs of each topic in English, Spanish and Ukrainian, with a self-test
 - Progress, mistakes, error analysis and a generated study task
 
 ## Open it
@@ -42,27 +42,28 @@ Both save your progress to a file in the project folder (see below). **Live Serv
 | `js/topics/b-01.js` … `b-13.js`, `a-01.js` … `a-13.js` | Each topic's question bank and section recaps | No, generated |
 | `tools/catalog.py` | Categories, the 13 topics in each, and their titles | Yes |
 | `tools/topics/__init__.py` | The list of written topics (`BUILT`) | Yes |
-| `tools/topics/b01/`, `b02/` | One folder per topic: `content.py` (study text as English/Spanish pairs), `diagrams.py` (SVG figures), `bank.py` (questions; the first option is always the correct one), `__init__.py` (titles and intro); A1/A2 folders also have `uk.py` (the Ukrainian text, see below) | Yes |
+| `tools/topics/b01/`, `b02/` | One folder per topic: `content.py` (study text as English/Spanish pairs), `diagrams.py` (SVG figures), `bank.py` (questions; the first option is always the correct one), `__init__.py` (titles and intro), `uk.py` (the Ukrainian text, see below) | Yes |
 | `tools/i18n.py` | Puts the Ukrainian text into a topic for the build; `todo` and `check` show what is left to translate | Yes |
 | `tools/blocks.py`, `tools/svgkit.py` | Building blocks for the study text and the figures, shared by all topics | Yes |
 | `tools/build_site.py` | Regenerates the topic pages, their data and `js/catalog.js` | |
 | `tools/build_pdf.py` | Regenerates the PDFs in `pdf/` (needs Google Chrome) | |
-| `pdf/` | Printable topics in English and Spanish, and A1/A2 in Ukrainian (`…_UK_v1.pdf`) | |
+| `pdf/` | Printable topics in English, Spanish and Ukrainian (`…_UK_v1.pdf`) | |
 
 After changing anything in `tools/`, run `npm run build` (needs Python 3, no packages).
 `npm run build:pdf` rebuilds every topic's PDFs. `python3 tools/build_pdf.py v1 a-13` rebuilds just one topic, in each of its languages.
 
 ## Ukrainian
 
-All 13 A1/A2 topics are also in Ukrainian: study text, figures, questions, section recaps, the glossary (Spanish → Ukrainian) and the PDFs. Category B is in English and Spanish only. The language menu on a B page offers English and Spanish only. If you chose Українська elsewhere and open a B page, it shows in English with a note saying so (the menu still shows Українська until you pick another language), and the main screen marks category B as English and Spanish only. Your choice is kept, so A1/A2 pages stay in Ukrainian.
+All 26 topics, in both categories, are also in Ukrainian: study text, figures, questions, section recaps, the glossary (Spanish → Ukrainian) and the PDFs. Choose Українська from the language menu on any page; the choice is kept for every page.
 
-- Each A1/A2 topic folder has a `uk.py`. `UK.meta(...)` holds the titles and intro, `Q(id, question, [correct, wrong, wrong], why)` the questions, and `TAG(tag, name, [recaps], trap)` the section recaps. Every other text is `X("key", "…")`, where the key is a short hash of the English text.
+- Each topic folder has a `uk.py`. `UK.meta(...)` holds the titles and intro, `Q(id, question, [correct, wrong, wrong], why)` the questions, and `TAG(tag, name, [recaps], trap)` the section recaps. Every other text is `X("key", "…")`, where the key is a short hash of the English text.
+- An A1/A2 topic builds on the B topic with the same number, so its `uk.py` uses that B file as a base (`UK.use(B08)`) and holds only its own questions, recaps and the texts that differ. A text the two pages share is translated once, in the B file, and a correction there reaches both pages.
 - Figures are the English drawing with each label swapped. Where a label must read differently in one figure, use `X("figure_name:English label", "…")`.
 - Text that is the same in English and Spanish (numbers, sign codes, MIN/MAX) needs no entry. It gets Ukrainian units and number format only (km/h → км/год, 1.5 → 1,5, 3,500 → 3 500), and drawings are never touched.
-- `python3 tools/i18n.py todo a-05` lists what is left to translate in a topic, with the Spanish shown next to each figure's labels. `python3 tools/i18n.py check` reports missing, unused and unknown entries for every translated topic.
+- `python3 tools/i18n.py todo b-05` lists what is left to translate in a topic, with the Spanish shown next to each figure's labels. `python3 tools/i18n.py check` reports missing, unused and unknown entries for every translated topic.
 - When you change an English text, its key changes. Until the new text is translated, the page and the PDF show it in English and the build prints a warning. `check` then lists the old entry as unused.
 - Spanish exam terms stay in Spanish and in *italics*, as in the English text.
-- To translate a B topic, add a `uk.py` to its folder and the Ukrainian title to `tools/catalog.py`, then run the build. Ukrainian appears in that page's language menu, and once every topic in a category has one, the main screen stops marking that category as English and Spanish only. Also update the note shown on untranslated pages (`NOT_HERE` in `js/shared.js`), which says that only A1/A2 is in Ukrainian.
+- A new topic without a `uk.py` offers only English and Spanish in its language menu. If Українська was chosen, the page shows in English with a note saying it is not translated yet (`NOT_HERE` in `js/shared.js`), and the main screen marks its category as English and Spanish only. To translate it, add a `uk.py` to its folder and the Ukrainian title to `tools/catalog.py`, then run the build.
 
 ## Where progress is stored
 

@@ -4,11 +4,13 @@ window.DGT_DATA = {
  "category": "b",
  "langs": [
   "en",
-  "es"
+  "es",
+  "uk"
  ],
  "title": {
   "en": "Topic 8 · Signs and signals",
-  "es": "Tema 8 · Las señales"
+  "es": "Tema 8 · Las señales",
+  "uk": "Тема 8 · Знаки та сигнали"
  },
  "bank": [
   {
@@ -16,25 +18,30 @@ window.DGT_DATA = {
    "tag": "order",
    "q": {
     "en": "A traffic light is green but an agent signals you to stop. You…",
-    "es": "Un semáforo está en verde pero un agente te ordena detenerte. Tú…"
+    "es": "Un semáforo está en verde pero un agente te ordena detenerte. Tú…",
+    "uk": "Світлофор зелений, але регулювальник показує зупинитися. Ви…"
    },
    "o": [
     {
      "en": "stop: agents come first",
-     "es": "te detienes: el agente es prioritario"
+     "es": "te detienes: el agente es prioritario",
+     "uk": "зупиняєтеся: регулювальники мають перевагу"
     },
     {
      "en": "go on: the light is green",
-     "es": "sigues: el semáforo está en verde"
+     "es": "sigues: el semáforo está en verde",
+     "uk": "їдете: світлофор зелений"
     },
     {
      "en": "go on carefully",
-     "es": "sigues con precaución"
+     "es": "sigues con precaución",
+     "uk": "обережно їдете"
     }
    ],
    "why": {
     "en": "Agents’ orders prevail over every other signal.",
-    "es": "Las órdenes de los agentes prevalecen sobre las demás señales."
+    "es": "Las órdenes de los agentes prevalecen sobre las demás señales.",
+    "uk": "Накази регулювальників мають перевагу над будь-якими іншими сигналами."
    }
   },
   {
@@ -42,25 +49,30 @@ window.DGT_DATA = {
    "tag": "order",
    "q": {
     "en": "Which comes first in the order of priority?",
-    "es": "¿Qué va antes en el orden de prioridad?"
+    "es": "¿Qué va antes en el orden de prioridad?",
+    "uk": "Що стоїть вище в черговості?"
    },
    "o": [
     {
      "en": "Traffic lights",
-     "es": "Los semáforos"
+     "es": "Los semáforos",
+     "uk": "Світлофори"
     },
     {
      "en": "Vertical signs",
-     "es": "Las señales verticales"
+     "es": "Las señales verticales",
+     "uk": "Вертикальні знаки"
     },
     {
      "en": "Road markings",
-     "es": "Las marcas viales"
+     "es": "Las marcas viales",
+     "uk": "Дорожня розмітка"
     }
    ],
    "why": {
     "en": "Agents, temporary signs, lights, vertical signs, markings.",
-    "es": "Agentes, circunstancial, semáforos, verticales, marcas."
+    "es": "Agentes, circunstancial, semáforos, verticales, marcas.",
+    "uk": "Регулювальники, тимчасові знаки, світлофори, вертикальні знаки, розмітка."
    }
   },
   {
@@ -68,25 +80,30 @@ window.DGT_DATA = {
    "tag": "order",
    "q": {
     "en": "A road marking and a vertical sign contradict each other. You obey…",
-    "es": "Una marca vial y una señal vertical se contradicen. Obedeces…"
+    "es": "Una marca vial y una señal vertical se contradicen. Obedeces…",
+    "uk": "Дорожня розмітка й вертикальний знак суперечать одне одному. Ви виконуєте…"
    },
    "o": [
     {
      "en": "the vertical sign",
-     "es": "la señal vertical"
+     "es": "la señal vertical",
+     "uk": "вертикальний знак"
     },
     {
      "en": "the road marking",
-     "es": "la marca vial"
+     "es": "la marca vial",
+     "uk": "розмітку"
     },
     {
      "en": "the less restrictive",
-     "es": "la menos restrictiva"
+     "es": "la menos restrictiva",
+     "uk": "менш суворий"
     }
    ],
    "why": {
     "en": "Markings are last in the order.",
-    "es": "Las marcas van en último lugar."
+    "es": "Las marcas van en último lugar.",
+    "uk": "Розмітка — остання в черговості."
    }
   },
   {
@@ -94,25 +111,30 @@ window.DGT_DATA = {
    "tag": "order",
    "q": {
     "en": "Two vertical signs contradict each other. You obey…",
-    "es": "Dos señales verticales se contradicen. Obedeces…"
+    "es": "Dos señales verticales se contradicen. Obedeces…",
+    "uk": "Два вертикальні знаки суперечать один одному. Ви виконуєте…"
    },
    "o": [
     {
      "en": "the most restrictive",
-     "es": "la más restrictiva"
+     "es": "la más restrictiva",
+     "uk": "найсуворіший"
     },
     {
      "en": "the nearer one",
-     "es": "la más cercana"
+     "es": "la más cercana",
+     "uk": "ближчий"
     },
     {
      "en": "the one on the right",
-     "es": "la de la derecha"
+     "es": "la de la derecha",
+     "uk": "той, що праворуч"
     }
    ],
    "why": {
     "en": "Same group: the most restrictive.",
-    "es": "Mismo grupo: la más restrictiva."
+    "es": "Mismo grupo: la más restrictiva.",
+    "uk": "Однакова група — найсуворіший."
    }
   },
   {
@@ -120,25 +142,30 @@ window.DGT_DATA = {
    "tag": "order",
    "q": {
     "en": "A sign contradicts a general traffic rule. You obey…",
-    "es": "Una señal contradice una norma de circulación. Obedeces…"
+    "es": "Una señal contradice una norma de circulación. Obedeces…",
+    "uk": "Знак суперечить загальному правилу руху. Ви виконуєте…"
    },
    "o": [
     {
      "en": "the sign, unless special circumstances justify otherwise",
-     "es": "la señal, salvo circunstancias especiales que lo justifiquen"
+     "es": "la señal, salvo circunstancias especiales que lo justifiquen",
+     "uk": "знак, якщо особливі обставини не виправдовують іншого"
     },
     {
      "en": "the rule",
-     "es": "la norma"
+     "es": "la norma",
+     "uk": "правило"
     },
     {
      "en": "whichever you prefer",
-     "es": "la que prefieras"
+     "es": "la que prefieras",
+     "uk": "що вам більше до вподоби"
     }
    ],
    "why": {
     "en": "Signs prevail over the general rules.",
-    "es": "La señal prevalece sobre la norma."
+    "es": "La señal prevalece sobre la norma.",
+    "uk": "Знаки мають перевагу над загальними правилами."
    }
   },
   {
@@ -146,25 +173,30 @@ window.DGT_DATA = {
    "tag": "order",
    "q": {
     "en": "Temporary signs and traffic lights disagree. Which prevails?",
-    "es": "La señalización circunstancial y un semáforo no coinciden. ¿Qué prevalece?"
+    "es": "La señalización circunstancial y un semáforo no coinciden. ¿Qué prevalece?",
+    "uk": "Тимчасові знаки й світлофори суперечать. Що має перевагу?"
    },
    "o": [
     {
      "en": "The temporary signs",
-     "es": "La señalización circunstancial"
+     "es": "La señalización circunstancial",
+     "uk": "Тимчасові знаки"
     },
     {
      "en": "The traffic light",
-     "es": "El semáforo"
+     "es": "El semáforo",
+     "uk": "Світлофор"
     },
     {
      "en": "Neither: stop",
-     "es": "Ninguno: detenerse"
+     "es": "Ninguno: detenerse",
+     "uk": "Ні те, ні те: зупиніться"
     }
    ],
    "why": {
     "en": "They are second, lights are third.",
-    "es": "Va segunda; los semáforos, terceros."
+    "es": "Va segunda; los semáforos, terceros.",
+    "uk": "Вони другі, світлофори — треті."
    }
   },
   {
@@ -172,25 +204,30 @@ window.DGT_DATA = {
    "tag": "order",
    "q": {
     "en": "May a shop put a poster next to a traffic sign?",
-    "es": "¿Puede una tienda poner un cartel junto a una señal?"
+    "es": "¿Puede una tienda poner un cartel junto a una señal?",
+    "uk": "Чи може крамниця повісити плакат поруч із дорожнім знаком?"
    },
    "o": [
     {
      "en": "No, if it can confuse, reduce visibility or distract",
-     "es": "No, si puede confundir, reducir su visibilidad o distraer"
+     "es": "No, si puede confundir, reducir su visibilidad o distraer",
+     "uk": "Ні, якщо він може заплутати, погіршити видимість чи відволікти"
     },
     {
      "en": "Yes, if it is small",
-     "es": "Sí, si es pequeño"
+     "es": "Sí, si es pequeño",
+     "uk": "Так, якщо маленький"
     },
     {
      "en": "Yes, in town",
-     "es": "Sí, en poblado"
+     "es": "Sí, en poblado",
+     "uk": "Так, у місті"
     }
    ],
    "why": {
     "en": "Nothing may be placed on or near signs that harms their effect.",
-    "es": "No se pueden poner objetos que perjudiquen su eficacia."
+    "es": "No se pueden poner objetos que perjudiquen su eficacia.",
+    "uk": "Ніщо, що шкодить дії знаків, не можна розміщувати на них чи поруч."
    }
   },
   {
@@ -198,25 +235,30 @@ window.DGT_DATA = {
    "tag": "order",
    "q": {
     "en": "Who must obey traffic signs?",
-    "es": "¿Quién debe obedecer las señales?"
+    "es": "¿Quién debe obedecer las señales?",
+    "uk": "Хто мусить виконувати дорожні знаки?"
    },
    "o": [
     {
      "en": "All road users",
-     "es": "Todos los usuarios"
+     "es": "Todos los usuarios",
+     "uk": "Усі учасники руху"
     },
     {
      "en": "Only drivers",
-     "es": "Solo los conductores"
+     "es": "Solo los conductores",
+     "uk": "Лише водії"
     },
     {
      "en": "Only motor vehicles",
-     "es": "Solo los vehículos de motor"
+     "es": "Solo los vehículos de motor",
+     "uk": "Лише механічні ТЗ"
     }
    ],
    "why": {
     "en": "Pedestrians and cyclists included.",
-    "es": "Incluidos peatones y ciclistas."
+    "es": "Incluidos peatones y ciclistas.",
+    "uk": "Зокрема пішоходи й велосипедисти."
    }
   },
   {
@@ -224,25 +266,30 @@ window.DGT_DATA = {
    "tag": "place",
    "q": {
     "en": "A STOP sign stands only on the left of the road. It binds…",
-    "es": "Una señal de STOP está solo a la izquierda. Obliga a…"
+    "es": "Una señal de STOP está solo a la izquierda. Obliga a…",
+    "uk": "Знак STOP стоїть лише ліворуч від дороги. Він зобов’язує…"
    },
    "o": [
     {
      "en": "those going straight on or turning left",
-     "es": "los que siguen de frente o giran a la izquierda"
+     "es": "los que siguen de frente o giran a la izquierda",
+     "uk": "тих, хто їде прямо чи повертає ліворуч"
     },
     {
      "en": "everyone",
-     "es": "todos"
+     "es": "todos",
+     "uk": "усіх"
     },
     {
      "en": "only those turning right",
-     "es": "solo a los que giran a la derecha"
+     "es": "solo a los que giran a la derecha",
+     "uk": "лише тих, хто повертає праворуч"
     }
    ],
    "why": {
     "en": "Left-hand signs: straight on or left.",
-    "es": "Señales a la izquierda: de frente o a la izquierda."
+    "es": "Señales a la izquierda: de frente o a la izquierda.",
+    "uk": "Знаки ліворуч: прямо чи ліворуч."
    }
   },
   {
@@ -250,25 +297,30 @@ window.DGT_DATA = {
    "tag": "place",
    "q": {
     "en": "A sign placed on the right of the road applies to…",
-    "es": "Una señal colocada a la derecha afecta a…"
+    "es": "Una señal colocada a la derecha afecta a…",
+    "uk": "Знак, розміщений праворуч від дороги, стосується…"
    },
    "o": [
     {
      "en": "everyone, straight on or turning",
-     "es": "todos, sigan de frente o giren"
+     "es": "todos, sigan de frente o giren",
+     "uk": "усіх, хто їде прямо чи повертає"
     },
     {
      "en": "only those turning right",
-     "es": "solo a los que giran a la derecha"
+     "es": "solo a los que giran a la derecha",
+     "uk": "лише тих, хто повертає праворуч"
     },
     {
      "en": "only those going straight on",
-     "es": "solo a los que siguen de frente"
+     "es": "solo a los que siguen de frente",
+     "uk": "лише тих, хто їде прямо"
     }
    ],
    "why": {
     "en": "Right-hand signs bind everyone.",
-    "es": "Las de la derecha obligan a todos."
+    "es": "Las de la derecha obligan a todos.",
+    "uk": "Знаки праворуч зобов’язують усіх."
    }
   },
   {
@@ -276,25 +328,30 @@ window.DGT_DATA = {
    "tag": "place",
    "q": {
     "en": "There is a STOP on the left and a give-way sign on the right. You want to turn right. You obey…",
-    "es": "Hay un STOP a la izquierda y un ceda el paso a la derecha. Vas a girar a la derecha. Obedeces…"
+    "es": "Hay un STOP a la izquierda y un ceda el paso a la derecha. Vas a girar a la derecha. Obedeces…",
+    "uk": "Ліворуч STOP, праворуч знак «Дати дорогу». Ви хочете повернути праворуч. Ви виконуєте…"
    },
    "o": [
     {
      "en": "the give-way sign",
-     "es": "el ceda el paso"
+     "es": "el ceda el paso",
+     "uk": "знак «Дати дорогу»"
     },
     {
      "en": "the STOP",
-     "es": "el STOP"
+     "es": "el STOP",
+     "uk": "STOP"
     },
     {
      "en": "both",
-     "es": "las dos"
+     "es": "las dos",
+     "uk": "обидва"
     }
    ],
    "why": {
     "en": "The right-hand sign is for right turns.",
-    "es": "La de la derecha es para el giro a la derecha."
+    "es": "La de la derecha es para el giro a la derecha.",
+    "uk": "Знак праворуч — для поворотів праворуч."
    }
   },
   {
@@ -302,25 +359,30 @@ window.DGT_DATA = {
    "tag": "place",
    "q": {
     "en": "A sign hangs over one lane. It applies to…",
-    "es": "Una señal está sobre un carril. Afecta a…"
+    "es": "Una señal está sobre un carril. Afecta a…",
+    "uk": "Знак висить над однією смугою. Він стосується…"
    },
    "o": [
     {
      "en": "that lane only",
-     "es": "solo ese carril"
+     "es": "solo ese carril",
+     "uk": "лише цієї смуги"
     },
     {
      "en": "the whole carriageway",
-     "es": "toda la calzada"
+     "es": "toda la calzada",
+     "uk": "усієї проїзної частини"
     },
     {
      "en": "the right lane",
-     "es": "el carril derecho"
+     "es": "el carril derecho",
+     "uk": "правої смуги"
     }
    ],
    "why": {
     "en": "Over the carriageway it would apply to all of it.",
-    "es": "Sobre la calzada afectaría a toda ella."
+    "es": "Sobre la calzada afectaría a toda ella.",
+    "uk": "Над проїзною частиною він стосувався б усієї."
    }
   },
   {
@@ -328,25 +390,30 @@ window.DGT_DATA = {
    "tag": "place",
    "q": {
     "en": "A “30” is painted inside your lane. It applies to…",
-    "es": "Hay un «30» pintado dentro de tu carril. Afecta a…"
+    "es": "Hay un «30» pintado dentro de tu carril. Afecta a…",
+    "uk": "На вашій смузі намальовано «30». Це стосується…"
    },
    "o": [
     {
      "en": "vehicles in that lane",
-     "es": "los vehículos de ese carril"
+     "es": "los vehículos de ese carril",
+     "uk": "ТЗ на цій смузі"
     },
     {
      "en": "the whole carriageway",
-     "es": "toda la calzada"
+     "es": "toda la calzada",
+     "uk": "усієї проїзної частини"
     },
     {
      "en": "only lorries",
-     "es": "solo a camiones"
+     "es": "solo a camiones",
+     "uk": "лише вантажівок"
     }
    ],
    "why": {
     "en": "A sign inside a lane is limited to it.",
-    "es": "Dentro de un carril solo afecta a ese carril."
+    "es": "Dentro de un carril solo afecta a ese carril.",
+    "uk": "Знак на смузі обмежується нею."
    }
   },
   {
@@ -354,25 +421,30 @@ window.DGT_DATA = {
    "tag": "place",
    "q": {
     "en": "In roadworks, what colour are the road markings?",
-    "es": "En las obras, ¿de qué color son las marcas viales?"
+    "es": "En las obras, ¿de qué color son las marcas viales?",
+    "uk": "Якого кольору розмітка на дорожніх роботах?"
    },
    "o": [
     {
      "en": "Yellow",
-     "es": "Amarillas"
+     "es": "Amarillas",
+     "uk": "Жовтого"
     },
     {
      "en": "Orange",
-     "es": "Naranjas"
+     "es": "Naranjas",
+     "uk": "Помаранчевого"
     },
     {
      "en": "White",
-     "es": "Blancas"
+     "es": "Blancas",
+     "uk": "Білого"
     }
    ],
    "why": {
     "en": "Some signs also get a yellow background.",
-    "es": "Algunas señales llevan también fondo amarillo."
+    "es": "Algunas señales llevan también fondo amarillo.",
+    "uk": "Деякі знаки також отримують жовтий фон."
    }
   },
   {
@@ -380,25 +452,30 @@ window.DGT_DATA = {
    "tag": "place",
    "q": {
     "en": "A warning sign with a yellow background means…",
-    "es": "Una señal de peligro con fondo amarillo significa…"
+    "es": "Una señal de peligro con fondo amarillo significa…",
+    "uk": "Попереджувальний знак на жовтому фоні означає…"
    },
    "o": [
     {
      "en": "the same as usual, in roadworks",
-     "es": "lo mismo que la normal, en obras"
+     "es": "lo mismo que la normal, en obras",
+     "uk": "те саме, що зазвичай, на дорожніх роботах"
     },
     {
      "en": "a recommendation",
-     "es": "una recomendación"
+     "es": "una recomendación",
+     "uk": "рекомендацію"
     },
     {
      "en": "a more serious danger",
-     "es": "un peligro más grave"
+     "es": "un peligro más grave",
+     "uk": "серйознішу небезпеку"
     }
    ],
    "why": {
     "en": "Its meaning does not change.",
-    "es": "Su significado no cambia."
+    "es": "Su significado no cambia.",
+    "uk": "Його значення не змінюється."
    }
   },
   {
@@ -406,25 +483,30 @@ window.DGT_DATA = {
    "tag": "place",
    "q": {
     "en": "Works that hinder traffic must be signed…",
-    "es": "Las obras que dificultan la circulación deben señalizarse…"
+    "es": "Las obras que dificultan la circulación deben señalizarse…",
+    "uk": "Роботи, що заважають руху, треба позначати…"
    },
    "o": [
     {
      "en": "by day and by night, and lit at night",
-     "es": "de día y de noche, con balizamiento luminoso de noche"
+     "es": "de día y de noche, con balizamiento luminoso de noche",
+     "uk": "вдень і вночі, а вночі освітлювати"
     },
     {
      "en": "only by day",
-     "es": "solo de día"
+     "es": "solo de día",
+     "uk": "лише вдень"
     },
     {
      "en": "only on motorways",
-     "es": "solo en autopistas"
+     "es": "solo en autopistas",
+     "uk": "лише на автомагістралях"
     }
    ],
    "why": {
     "en": "Also lit when weather requires it.",
-    "es": "También si el tiempo lo exige."
+    "es": "También si el tiempo lo exige.",
+    "uk": "Також освітлювати, коли цього вимагає погода."
    }
   },
   {
@@ -432,25 +514,30 @@ window.DGT_DATA = {
    "tag": "arms",
    "q": {
     "en": "An agent raises one arm vertically. Who must stop?",
-    "es": "Un agente levanta un brazo verticalmente. ¿Quién debe detenerse?"
+    "es": "Un agente levanta un brazo verticalmente. ¿Quién debe detenerse?",
+    "uk": "Регулювальник піднімає руку вертикально. Хто мусить зупинитися?"
    },
    "o": [
     {
      "en": "Everyone approaching the agent",
-     "es": "Todos los que se acerquen al agente"
+     "es": "Todos los que se acerquen al agente",
+     "uk": "Усі, хто наближається до регулювальника"
     },
     {
      "en": "Only those in front of the agent",
-     "es": "Solo los que están de frente"
+     "es": "Solo los que están de frente",
+     "uk": "Лише ті, хто перед ним"
     },
     {
      "en": "Only pedestrians",
-     "es": "Solo los peatones"
+     "es": "Solo los peatones",
+     "uk": "Лише пішоходи"
     }
    ],
    "why": {
     "en": "Except drivers who cannot stop safely.",
-    "es": "Salvo los que no puedan hacerlo con seguridad."
+    "es": "Salvo los que no puedan hacerlo con seguridad.",
+    "uk": "Крім водіїв, які не можуть безпечно зупинитися."
    }
   },
   {
@@ -458,25 +545,30 @@ window.DGT_DATA = {
    "tag": "arms",
    "q": {
     "en": "You are already inside a junction when the agent raises an arm. You…",
-    "es": "Ya estás dentro de la intersección cuando el agente levanta el brazo. Tú…"
+    "es": "Ya estás dentro de la intersección cuando el agente levanta el brazo. Tú…",
+    "uk": "Ви вже на перехресті, коли регулювальник піднімає руку. Ви…"
    },
    "o": [
     {
      "en": "may carry on and clear the junction",
-     "es": "puedes seguir y dejar libre la intersección"
+     "es": "puedes seguir y dejar libre la intersección",
+     "uk": "можете їхати далі й звільнити перехрестя"
     },
     {
      "en": "must stop where you are",
-     "es": "debes detenerte donde estás"
+     "es": "debes detenerte donde estás",
+     "uk": "мусите зупинитися на місці"
     },
     {
      "en": "must reverse",
-     "es": "debes dar marcha atrás"
+     "es": "debes dar marcha atrás",
+     "uk": "мусите їхати заднім ходом"
     }
    ],
    "why": {
     "en": "Those already inside need not stop.",
-    "es": "Los que ya están dentro no están obligados a detenerse."
+    "es": "Los que ya están dentro no están obligados a detenerse.",
+    "uk": "Тим, хто вже на перехресті, зупинятися не треба."
    }
   },
   {
@@ -484,25 +576,30 @@ window.DGT_DATA = {
    "tag": "arms",
    "q": {
     "en": "With an arm raised and no stop line, you stop…",
-    "es": "Con el brazo levantado y sin línea de detención, te detienes…"
+    "es": "Con el brazo levantado y sin línea de detención, te detienes…",
+    "uk": "Коли рука піднята й стоп-лінії немає, ви зупиняєтеся…"
    },
    "o": [
     {
      "en": "before the agent",
-     "es": "antes del agente"
+     "es": "antes del agente",
+     "uk": "перед регулювальником"
     },
     {
      "en": "beside the agent",
-     "es": "a la altura del agente"
+     "es": "a la altura del agente",
+     "uk": "поруч із регулювальником"
     },
     {
      "en": "after the agent",
-     "es": "pasado el agente"
+     "es": "pasado el agente",
+     "uk": "за регулювальником"
     }
    ],
    "why": {
     "en": "At a junction, before entering it.",
-    "es": "En una intersección, antes de entrar en ella."
+    "es": "En una intersección, antes de entrar en ella.",
+    "uk": "На перехресті — перед в’їздом на нього."
    }
   },
   {
@@ -510,25 +607,30 @@ window.DGT_DATA = {
    "tag": "arms",
    "q": {
     "en": "An agent holds both arms out sideways. Who must stop?",
-    "es": "Un agente tiene los brazos extendidos horizontalmente. ¿Quién se detiene?"
+    "es": "Un agente tiene los brazos extendidos horizontalmente. ¿Quién se detiene?",
+    "uk": "Регулювальник тримає обидві руки витягнутими в боки. Хто мусить зупинитися?"
    },
    "o": [
     {
      "en": "Those coming from directions that cross the line of the arms",
-     "es": "Los que vengan de direcciones que corten la de los brazos"
+     "es": "Los que vengan de direcciones que corten la de los brazos",
+     "uk": "Ті, хто наближається з напрямків, що перетинають лінію рук"
     },
     {
      "en": "Those moving parallel to the arms",
-     "es": "Los que circulan paralelos a los brazos"
+     "es": "Los que circulan paralelos a los brazos",
+     "uk": "Ті, хто рухається паралельно рукам"
     },
     {
      "en": "Nobody",
-     "es": "Nadie"
+     "es": "Nadie",
+     "uk": "Ніхто"
     }
    ],
    "why": {
     "en": "Those facing the agent’s front or back.",
-    "es": "Los que vienen de frente o por la espalda del agente."
+    "es": "Los que vienen de frente o por la espalda del agente.",
+    "uk": "Ті, хто перед регулювальником чи позаду нього."
    }
   },
   {
@@ -536,25 +638,30 @@ window.DGT_DATA = {
    "tag": "arms",
    "q": {
     "en": "An agent moves an outstretched arm up and down. It means…",
-    "es": "Un agente mueve el brazo extendido arriba y abajo. Significa…"
+    "es": "Un agente mueve el brazo extendido arriba y abajo. Significa…",
+    "uk": "Регулювальник рухає витягнутою рукою вгору-вниз. Це означає…"
    },
    "o": [
     {
      "en": "slow down, for drivers coming at right angles to the arm",
-     "es": "reducir la velocidad, para los que vienen perpendiculares al brazo"
+     "es": "reducir la velocidad, para los que vienen perpendiculares al brazo",
+     "uk": "сповільніться, для водіїв, що їдуть під прямим кутом до руки"
     },
     {
      "en": "stop",
-     "es": "detenerse"
+     "es": "detenerse",
+     "uk": "зупиніться"
     },
     {
      "en": "speed up",
-     "es": "acelerar"
+     "es": "acelerar",
+     "uk": "прискоріться"
     }
    ],
    "why": {
     "en": "It is the only arm signal that does not mean stop.",
-    "es": "Es la única de brazo que no obliga a parar."
+    "es": "Es la única de brazo que no obliga a parar.",
+    "uk": "Це єдиний сигнал рукою, що не означає «стоп»."
    }
   },
   {
@@ -562,25 +669,30 @@ window.DGT_DATA = {
    "tag": "arms",
    "q": {
     "en": "The agent stopped you with arms out sideways and then lowers them without moving. You…",
-    "es": "El agente te detuvo con los brazos extendidos y los baja sin cambiar de posición. Tú…"
+    "es": "El agente te detuvo con los brazos extendidos y los baja sin cambiar de posición. Tú…",
+    "uk": "Регулювальник зупинив вас руками в боки, а потім опускає їх, не рухаючись. Ви…"
    },
    "o": [
     {
      "en": "stay stopped",
-     "es": "sigues detenido"
+     "es": "sigues detenido",
+     "uk": "лишаєтеся на місці"
     },
     {
      "en": "move off",
-     "es": "reanudas la marcha"
+     "es": "reanudas la marcha",
+     "uk": "рушаєте"
     },
     {
      "en": "turn right",
-     "es": "giras a la derecha"
+     "es": "giras a la derecha",
+     "uk": "повертаєте праворуч"
     }
    ],
    "why": {
     "en": "The order stays in force until it changes position or signal.",
-    "es": "La orden sigue mientras no cambie de posición o de señal."
+    "es": "La orden sigue mientras no cambie de posición o de señal.",
+    "uk": "Наказ діє, доки він не змінить положення чи сигнал."
    }
   },
   {
@@ -588,25 +700,30 @@ window.DGT_DATA = {
    "tag": "arms",
    "q": {
     "en": "At night an agent swings a red light towards you. You…",
-    "es": "De noche un agente balancea una luz roja hacia ti. Tú…"
+    "es": "De noche un agente balancea una luz roja hacia ti. Tú…",
+    "uk": "Уночі регулювальник хитає червоним ліхтарем у ваш бік. Ви…"
    },
    "o": [
     {
      "en": "stop",
-     "es": "te detienes"
+     "es": "te detienes",
+     "uk": "зупиняєтеся"
     },
     {
      "en": "slow down",
-     "es": "reduces"
+     "es": "reduces",
+     "uk": "сповільнюєтеся"
     },
     {
      "en": "flash your lights",
-     "es": "haces ráfagas"
+     "es": "haces ráfagas",
+     "uk": "блимаєте фарами"
     }
    ],
    "why": {
     "en": "Those the light is aimed at must stop.",
-    "es": "Se detienen aquellos hacia los que dirige la luz."
+    "es": "Se detienen aquellos hacia los que dirige la luz.",
+    "uk": "Ті, на кого спрямований ліхтар, мусять зупинитися."
    }
   },
   {
@@ -614,25 +731,30 @@ window.DGT_DATA = {
    "tag": "arms",
    "q": {
     "en": "Do agents’ orders prevail over a STOP sign?",
-    "es": "¿Prevalecen las órdenes del agente sobre un STOP?"
+    "es": "¿Prevalecen las órdenes del agente sobre un STOP?",
+    "uk": "Чи мають накази регулювальників перевагу над знаком STOP?"
    },
    "o": [
     {
      "en": "Yes, over all signs and rules",
-     "es": "Sí, sobre todas las señales y normas"
+     "es": "Sí, sobre todas las señales y normas",
+     "uk": "Так, над усіма знаками й правилами"
     },
     {
      "en": "No",
-     "es": "No"
+     "es": "No",
+     "uk": "Ні"
     },
     {
      "en": "Only in town",
-     "es": "Solo en poblado"
+     "es": "Solo en poblado",
+     "uk": "Лише в місті"
     }
    ],
    "why": {
     "en": "Even when they contradict them.",
-    "es": "Aunque estén en contradicción."
+    "es": "Aunque estén en contradicción.",
+    "uk": "Навіть коли суперечать їм."
    }
   },
   {
@@ -640,25 +762,30 @@ window.DGT_DATA = {
    "tag": "agveh",
    "q": {
     "en": "An agent blows a series of short, frequent whistle blasts. It means…",
-    "es": "Un agente da una serie de toques cortos y frecuentes de silbato. Significa…"
+    "es": "Un agente da una serie de toques cortos y frecuentes de silbato. Significa…",
+    "uk": "Регулювальник подає серію коротких частих свистків. Це означає…"
    },
    "o": [
     {
      "en": "stop",
-     "es": "detenerse"
+     "es": "detenerse",
+     "uk": "зупиніться"
     },
     {
      "en": "move off",
-     "es": "reanudar la marcha"
+     "es": "reanudar la marcha",
+     "uk": "рушайте"
     },
     {
      "en": "slow down",
-     "es": "reducir"
+     "es": "reducir",
+     "uk": "сповільніться"
     }
    ],
    "why": {
     "en": "One long blast means move off.",
-    "es": "Un toque largo: reanudar."
+    "es": "Un toque largo: reanudar.",
+    "uk": "Один довгий свисток — рушайте."
    }
   },
   {
@@ -666,25 +793,30 @@ window.DGT_DATA = {
    "tag": "agveh",
    "q": {
     "en": "One long whistle blast means…",
-    "es": "Un toque largo de silbato significa…"
+    "es": "Un toque largo de silbato significa…",
+    "uk": "Один довгий свисток означає…"
    },
    "o": [
     {
      "en": "move off again",
-     "es": "reanudar la marcha"
+     "es": "reanudar la marcha",
+     "uk": "рушайте знову"
     },
     {
      "en": "stop",
-     "es": "detenerse"
+     "es": "detenerse",
+     "uk": "зупиніться"
     },
     {
      "en": "pull over",
-     "es": "apartarse"
+     "es": "apartarse",
+     "uk": "з’їдьте вбік"
     }
    ],
    "why": {
     "en": "Short frequent blasts mean stop.",
-    "es": "Los cortos y frecuentes: detenerse."
+    "es": "Los cortos y frecuentes: detenerse.",
+    "uk": "Короткі часті — зупиніться."
    }
   },
   {
@@ -692,25 +824,30 @@ window.DGT_DATA = {
    "tag": "agveh",
    "q": {
     "en": "A vehicle with a red flag goes past you. From then on the road is…",
-    "es": "Pasa un vehículo con bandera roja. Desde ese momento la calzada…"
+    "es": "Pasa un vehículo con bandera roja. Desde ese momento la calzada…",
+    "uk": "Повз вас проїжджає ТЗ із червоним прапорцем. Відтоді дорога…"
    },
    "o": [
     {
      "en": "temporarily closed, except for those escorted by agents",
-     "es": "queda cerrada temporalmente, salvo los escoltados por agentes"
+     "es": "queda cerrada temporalmente, salvo los escoltados por agentes",
+     "uk": "тимчасово закрита, крім тих, кого супроводжують регулювальники"
     },
     {
      "en": "open again",
-     "es": "queda abierta de nuevo"
+     "es": "queda abierta de nuevo",
+     "uk": "знову відкрита"
     },
     {
      "en": "one-way",
-     "es": "es de sentido único"
+     "es": "es de sentido único",
+     "uk": "з одностороннім рухом"
     }
    ],
    "why": {
     "en": "The green flag reopens it.",
-    "es": "La bandera verde la reabre."
+    "es": "La bandera verde la reabre.",
+    "uk": "Зелений прапорець відкриває її знову."
    }
   },
   {
@@ -718,25 +855,30 @@ window.DGT_DATA = {
    "tag": "agveh",
    "q": {
     "en": "A yellow flag means…",
-    "es": "Una bandera amarilla significa…"
+    "es": "Una bandera amarilla significa…",
+    "uk": "Жовтий прапорець означає…"
    },
    "o": [
     {
      "en": "take extreme care, a danger is near",
-     "es": "extremar la atención, peligro próximo"
+     "es": "extremar la atención, peligro próximo",
+     "uk": "будьте надзвичайно обережні, поруч небезпека"
     },
     {
      "en": "road closed",
-     "es": "calzada cerrada"
+     "es": "calzada cerrada",
+     "uk": "дорогу закрито"
     },
     {
      "en": "road open",
-     "es": "calzada abierta"
+     "es": "calzada abierta",
+     "uk": "дорогу відкрито"
     }
    ],
    "why": {
     "en": "Also used by staff at cycle marches.",
-    "es": "También la usa el personal de marchas ciclistas."
+    "es": "También la usa el personal de marchas ciclistas.",
+    "uk": "Ним користується й персонал велопробігів."
    }
   },
   {
@@ -744,25 +886,30 @@ window.DGT_DATA = {
    "tag": "agveh",
    "q": {
     "en": "A green flag carried by a vehicle means…",
-    "es": "Una bandera verde en un vehículo significa…"
+    "es": "Una bandera verde en un vehículo significa…",
+    "uk": "Зелений прапорець на ТЗ означає…"
    },
    "o": [
     {
      "en": "the road is open again after it passes",
-     "es": "tras su paso, la calzada queda de nuevo abierta"
+     "es": "tras su paso, la calzada queda de nuevo abierta",
+     "uk": "після його проїзду дорога знову відкрита"
     },
     {
      "en": "speed up",
-     "es": "acelerar"
+     "es": "acelerar",
+     "uk": "прискоріться"
     },
     {
      "en": "pull over",
-     "es": "apartarse"
+     "es": "apartarse",
+     "uk": "з’їдьте вбік"
     }
    ],
    "why": {
     "en": "Red closed it.",
-    "es": "La roja la cerró."
+    "es": "La roja la cerró.",
+    "uk": "Червоний її закривав."
    }
   },
   {
@@ -770,25 +917,30 @@ window.DGT_DATA = {
    "tag": "agveh",
    "q": {
     "en": "A motorcycle agent holds an arm down, slanted and still, towards you. You must…",
-    "es": "Un agente en moto extiende el brazo hacia abajo, inclinado y fijo, hacia ti. Debes…"
+    "es": "Un agente en moto extiende el brazo hacia abajo, inclinado y fijo, hacia ti. Debes…",
+    "uk": "Регулювальник на мотоциклі тримає руку вниз, похило й нерухомо, у ваш бік. Ви мусите…"
    },
    "o": [
     {
      "en": "stop on the right",
-     "es": "detenerte en el lado derecho"
+     "es": "detenerte en el lado derecho",
+     "uk": "зупинитися праворуч"
     },
     {
      "en": "overtake him",
-     "es": "adelantarle"
+     "es": "adelantarle",
+     "uk": "обігнати його"
     },
     {
      "en": "slow down only",
-     "es": "solo reducir"
+     "es": "solo reducir",
+     "uk": "лише сповільнитися"
     }
    ],
    "why": {
     "en": "It is a stop order from a vehicle.",
-    "es": "Es una orden de detención desde un vehículo."
+    "es": "Es una orden de detención desde un vehículo.",
+    "uk": "Це наказ зупинитися з ТЗ."
    }
   },
   {
@@ -796,25 +948,30 @@ window.DGT_DATA = {
    "tag": "agveh",
    "q": {
     "en": "The police car behind you flashes a red light forwards. You must stop…",
-    "es": "El coche policial detrás de ti emite una luz roja intermitente hacia delante. Debes detenerte…"
+    "es": "El coche policial detrás de ti emite una luz roja intermitente hacia delante. Debes detenerte…",
+    "uk": "Поліцейський автомобіль позаду вас блимає червоним вогнем уперед. Ви мусите зупинитися…"
    },
    "o": [
     {
      "en": "on the right, ahead of the police car",
-     "es": "a la derecha, delante del vehículo policial"
+     "es": "a la derecha, delante del vehículo policial",
+     "uk": "праворуч, попереду поліцейського автомобіля"
     },
     {
      "en": "behind the police car",
-     "es": "detrás del vehículo policial"
+     "es": "detrás del vehículo policial",
+     "uk": "позаду поліцейського автомобіля"
     },
     {
      "en": "in the left lane",
-     "es": "en el carril izquierdo"
+     "es": "en el carril izquierdo",
+     "uk": "на лівій смузі"
     }
    ],
    "why": {
     "en": "Somewhere safe, and obey the loudspeaker.",
-    "es": "En un lugar seguro, y obedecer la megafonía."
+    "es": "En un lugar seguro, y obedecer la megafonía.",
+    "uk": "У безпечному місці, і виконувати вказівки з гучномовця."
    }
   },
   {
@@ -822,25 +979,30 @@ window.DGT_DATA = {
    "tag": "agveh",
    "q": {
     "en": "Agents may also use…",
-    "es": "Los agentes también pueden usar…"
+    "es": "Los agentes también pueden usar…",
+    "uk": "Регулювальники також можуть використовувати…"
    },
    "o": [
     {
      "en": "any other clear indication when needed",
-     "es": "cualquier otra indicación clara si es necesario"
+     "es": "cualquier otra indicación clara si es necesario",
+     "uk": "будь-які інші зрозумілі вказівки за потреби"
     },
     {
      "en": "only arms and whistle",
-     "es": "solo brazos y silbato"
+     "es": "solo brazos y silbato",
+     "uk": "лише руки й свисток"
     },
     {
      "en": "only the V-1 light",
-     "es": "solo la luz V-1"
+     "es": "solo la luz V-1",
+     "uk": "лише маячок V-1"
     }
    ],
    "why": {
     "en": "As long as it is clear.",
-    "es": "Siempre que sea clara."
+    "es": "Siempre que sea clara.",
+    "uk": "Якщо вони зрозумілі."
    }
   },
   {
@@ -848,25 +1010,30 @@ window.DGT_DATA = {
    "tag": "helpers",
    "q": {
     "en": "On roadworks a worker shows you a STOP paddle. You…",
-    "es": "En unas obras un operario te muestra una paleta de STOP. Tú…"
+    "es": "En unas obras un operario te muestra una paleta de STOP. Tú…",
+    "uk": "На дорожніх роботах працівник показує вам табличку STOP на держаку. Ви…"
    },
    "o": [
     {
      "en": "must stop",
-     "es": "debes detenerte"
+     "es": "debes detenerte",
+     "uk": "мусите зупинитися"
     },
     {
      "en": "may ignore it",
-     "es": "puedes ignorarla"
+     "es": "puedes ignorarla",
+     "uk": "можете ігнорувати"
     },
     {
      "en": "stop only if an agent is there",
-     "es": "solo paras si hay un agente"
+     "es": "solo paras si hay un agente",
+     "uk": "зупиняєтеся, лише якщо поруч регулювальник"
     }
    ],
    "why": {
     "en": "Drivers must obey their indications.",
-    "es": "Hay que obedecer sus indicaciones."
+    "es": "Hay que obedecer sus indicaciones.",
+    "uk": "Водії мусять виконувати їхні вказівки."
    }
   },
   {
@@ -874,25 +1041,30 @@ window.DGT_DATA = {
    "tag": "helpers",
    "q": {
     "en": "A school patrol may…",
-    "es": "Una patrulla escolar puede…"
+    "es": "Una patrulla escolar puede…",
+    "uk": "Шкільний патруль може…"
    },
    "o": [
     {
      "en": "“invite” users to stop with a paddle",
-     "es": "«invitar» a detenerse con una paleta"
+     "es": "«invitar» a detenerse con una paleta",
+     "uk": "«запропонувати» учасникам руху зупинитися табличкою на держаку"
     },
     {
      "en": "fine drivers",
-     "es": "multar"
+     "es": "multar",
+     "uk": "штрафувати водіїв"
     },
     {
      "en": "direct traffic with a whistle",
-     "es": "dirigir el tráfico con silbato"
+     "es": "dirigir el tráfico con silbato",
+     "uk": "регулювати рух свистком"
     }
    ],
    "why": {
     "en": "Course wording: they “invite”.",
-    "es": "Expresión del curso: «invitar»."
+    "es": "Expresión del curso: «invitar».",
+    "uk": "Формулювання курсу: вони «пропонують»."
    }
   },
   {
@@ -900,25 +1072,30 @@ window.DGT_DATA = {
    "tag": "helpers",
    "q": {
     "en": "From how far must helpers be visible thanks to their clothing?",
-    "es": "¿A qué distancia deben ser visibles los auxiliares por su ropa?"
+    "es": "¿A qué distancia deben ser visibles los auxiliares por su ropa?",
+    "uk": "З якої відстані помічників має бути видно завдяки одягу?"
    },
    "o": [
     {
      "en": "At least 150 m",
-     "es": "Al menos 150 m"
+     "es": "Al menos 150 m",
+     "uk": "Щонайменше зі 150 м"
     },
     {
      "en": "At least 50 m",
-     "es": "Al menos 50 m"
+     "es": "Al menos 50 m",
+     "uk": "Щонайменше з 50 м"
     },
     {
      "en": "At least 300 m",
-     "es": "Al menos 300 m"
+     "es": "Al menos 300 m",
+     "uk": "Щонайменше з 300 м"
     }
    ],
    "why": {
     "en": "Bright colours and retroreflective elements.",
-    "es": "Colores llamativos y elementos retrorreflectantes."
+    "es": "Colores llamativos y elementos retrorreflectantes.",
+    "uk": "Яскраві кольори й світлоповертальні елементи."
    }
   },
   {
@@ -926,25 +1103,30 @@ window.DGT_DATA = {
    "tag": "helpers",
    "q": {
     "en": "Who else may regulate traffic?",
-    "es": "¿Quién más puede regular la circulación?"
+    "es": "¿Quién más puede regular la circulación?",
+    "uk": "Хто ще може регулювати рух?"
    },
    "o": [
     {
      "en": "The Military Police",
-     "es": "La Policía Militar"
+     "es": "La Policía Militar",
+     "uk": "Військова поліція"
     },
     {
      "en": "Any driver",
-     "es": "Cualquier conductor"
+     "es": "Cualquier conductor",
+     "uk": "Будь-який водій"
     },
     {
      "en": "Taxi drivers",
-     "es": "Los taxistas"
+     "es": "Los taxistas",
+     "uk": "Таксисти"
     }
    ],
    "why": {
     "en": "And enabled civil-protection or organisers’ staff at events.",
-    "es": "Y protección civil u organización habilitados en eventos."
+    "es": "Y protección civil u organización habilitados en eventos.",
+    "uk": "А також уповноважений персонал цивільного захисту чи організаторів на заходах."
    }
   },
   {
@@ -952,25 +1134,30 @@ window.DGT_DATA = {
    "tag": "helpers",
    "q": {
     "en": "Who may regulate traffic with a paddle where there are no agents?",
-    "es": "¿Quién puede regular con paleta si no hay agentes?"
+    "es": "¿Quién puede regular con paleta si no hay agentes?",
+    "uk": "Хто може регулювати рух табличкою на держаку там, де немає регулювальників?"
    },
    "o": [
     {
      "en": "Roadworks staff and special-transport escorts",
-     "es": "El personal de obras y de acompañamiento de transportes especiales"
+     "es": "El personal de obras y de acompañamiento de transportes especiales",
+     "uk": "Дорожні робітники й супровід спецперевезень"
     },
     {
      "en": "Any pedestrian",
-     "es": "Cualquier peatón"
+     "es": "Cualquier peatón",
+     "uk": "Будь-який пішохід"
     },
     {
      "en": "Petrol station staff",
-     "es": "El personal de gasolineras"
+     "es": "El personal de gasolineras",
+     "uk": "Працівники АЗС"
     }
    ],
    "why": {
     "en": "Drivers must obey them.",
-    "es": "Los conductores deben obedecerles."
+    "es": "Los conductores deben obedecerles.",
+    "uk": "Водії мусять їх слухатися."
    }
   },
   {
@@ -978,25 +1165,30 @@ window.DGT_DATA = {
    "tag": "beacon",
    "q": {
     "en": "A variable message sign may show at most…",
-    "es": "Un panel de mensaje variable puede mostrar como máximo…"
+    "es": "Un panel de mensaje variable puede mostrar como máximo…",
+    "uk": "Табло зі змінною інформацією може показувати щонайбільше…"
    },
    "o": [
     {
      "en": "two alternating messages",
-     "es": "dos mensajes alternados"
+     "es": "dos mensajes alternados",
+     "uk": "два повідомлення, що чергуються"
     },
     {
      "en": "three messages",
-     "es": "tres mensajes"
+     "es": "tres mensajes",
+     "uk": "три повідомлення"
     },
     {
      "en": "one fixed message",
-     "es": "un mensaje fijo"
+     "es": "un mensaje fijo",
+     "uk": "одне незмінне повідомлення"
     }
    ],
    "why": {
     "en": "Never more than two.",
-    "es": "Nunca más de dos."
+    "es": "Nunca más de dos.",
+    "uk": "Ніколи більше двох."
    }
   },
   {
@@ -1004,25 +1196,30 @@ window.DGT_DATA = {
    "tag": "beacon",
    "q": {
     "en": "Can a variable message sign give compulsory instructions?",
-    "es": "¿Puede un panel de mensaje variable dar instrucciones obligatorias?"
+    "es": "¿Puede un panel de mensaje variable dar instrucciones obligatorias?",
+    "uk": "Чи може табло зі змінною інформацією давати обов’язкові вказівки?"
    },
    "o": [
     {
      "en": "Yes",
-     "es": "Sí"
+     "es": "Sí",
+     "uk": "Так"
     },
     {
      "en": "No, only advice",
-     "es": "No, solo recomendaciones"
+     "es": "No, solo recomendaciones",
+     "uk": "Ні, лише поради"
     },
     {
      "en": "Only about weather",
-     "es": "Solo sobre el tiempo"
+     "es": "Solo sobre el tiempo",
+     "uk": "Лише щодо погоди"
     }
    ],
    "why": {
     "en": "It informs, warns, recommends or orders.",
-    "es": "Informa, advierte, recomienda u ordena."
+    "es": "Informa, advierte, recomienda u ordena.",
+    "uk": "Воно інформує, попереджає, рекомендує чи наказує."
    }
   },
   {
@@ -1030,25 +1227,30 @@ window.DGT_DATA = {
    "tag": "beacon",
    "q": {
     "en": "A line of cones narrows the carriageway. You may…",
-    "es": "Una hilera de conos estrecha la calzada. Puedes…"
+    "es": "Una hilera de conos estrecha la calzada. Puedes…",
+    "uk": "Ряд конусів звужує проїзну частину. Ви можете…"
    },
    "o": [
     {
      "en": "not cross the line joining them",
-     "es": "no atravesar la línea que los une"
+     "es": "no atravesar la línea que los une",
+     "uk": "не перетинати лінію, що їх з’єднує"
     },
     {
      "en": "pass between them carefully",
-     "es": "pasar entre ellos con cuidado"
+     "es": "pasar entre ellos con cuidado",
+     "uk": "обережно проїхати між ними"
     },
     {
      "en": "cross only at night",
-     "es": "cruzarla solo de noche"
+     "es": "cruzarla solo de noche",
+     "uk": "перетинати лише вночі"
     }
    ],
    "why": {
     "en": "The line can be real or imaginary.",
-    "es": "La línea puede ser real o imaginaria."
+    "es": "La línea puede ser real o imaginaria.",
+    "uk": "Лінія може бути реальною чи уявною."
    }
   },
   {
@@ -1056,25 +1258,30 @@ window.DGT_DATA = {
    "tag": "beacon",
    "q": {
     "en": "A steady red light on a barrier means…",
-    "es": "Una luz roja fija sobre una barrera significa…"
+    "es": "Una luz roja fija sobre una barrera significa…",
+    "uk": "Постійний червоний вогонь на бар’єрі означає…"
    },
    "o": [
     {
      "en": "the carriageway is completely closed",
-     "es": "la calzada está totalmente cerrada"
+     "es": "la calzada está totalmente cerrada",
+     "uk": "проїзну частину повністю закрито"
     },
     {
      "en": "slow down",
-     "es": "reducir la velocidad"
+     "es": "reducir la velocidad",
+     "uk": "сповільніться"
     },
     {
      "en": "roadworks ahead",
-     "es": "obras más adelante"
+     "es": "obras más adelante",
+     "uk": "попереду дорожні роботи"
     }
    ],
    "why": {
     "en": "Yellow lights forbid crossing the line between them.",
-    "es": "Las amarillas prohíben cruzar la línea entre ellas."
+    "es": "Las amarillas prohíben cruzar la línea entre ellas.",
+    "uk": "Жовті вогні забороняють перетинати лінію між ними."
    }
   },
   {
@@ -1082,25 +1289,30 @@ window.DGT_DATA = {
    "tag": "beacon",
    "q": {
     "en": "The level-crossing barrier is moving. You…",
-    "es": "La barrera del paso a nivel está en movimiento. Tú…"
+    "es": "La barrera del paso a nivel está en movimiento. Tú…",
+    "uk": "Шлагбаум переїзду рухається. Ви…"
    },
    "o": [
     {
      "en": "stop in your lane, one behind another",
-     "es": "te detienes en tu carril, uno detrás de otro"
+     "es": "te detienes en tu carril, uno detrás de otro",
+     "uk": "зупиняєтеся на своїй смузі, один за одним"
     },
     {
      "en": "cross quickly",
-     "es": "cruzas rápido"
+     "es": "cruzas rápido",
+     "uk": "швидко проїжджаєте"
     },
     {
      "en": "overtake the queue",
-     "es": "adelantas a la fila"
+     "es": "adelantas a la fila",
+     "uk": "обганяєте колону"
     }
    ],
    "why": {
     "en": "Wait until the way is clear.",
-    "es": "Hasta tener paso libre."
+    "es": "Hasta tener paso libre.",
+    "uk": "Чекайте, доки шлях не звільниться."
    }
   },
   {
@@ -1108,25 +1320,30 @@ window.DGT_DATA = {
    "tag": "beacon",
    "q": {
     "en": "A temporary panel with red and white chevrons…",
-    "es": "Un panel provisional con chevrones rojos y blancos…"
+    "es": "Un panel provisional con chevrones rojos y blancos…",
+    "uk": "Тимчасова табличка з червоно-білими шевронами…"
    },
    "o": [
     {
      "en": "forbids passing and shows the direction",
-     "es": "prohíbe el paso e indica el sentido"
+     "es": "prohíbe el paso e indica el sentido",
+     "uk": "забороняє проїзд і показує напрямок"
     },
     {
      "en": "only warns of a bend",
-     "es": "solo advierte de una curva"
+     "es": "solo advierte de una curva",
+     "uk": "лише попереджає про поворот"
     },
     {
      "en": "marks a parking area",
-     "es": "marca un aparcamiento"
+     "es": "marca un aparcamiento",
+     "uk": "позначає місце для стоянки"
     }
    ],
    "why": {
     "en": "It is a delimiting device.",
-    "es": "Es un dispositivo delimitador."
+    "es": "Es un dispositivo delimitador.",
+    "uk": "Це обмежувальний пристрій."
    }
   },
   {
@@ -1134,25 +1351,30 @@ window.DGT_DATA = {
    "tag": "beacon",
    "q": {
     "en": "Variable message changes end…",
-    "es": "Las modificaciones de un panel variable terminan…"
+    "es": "Las modificaciones de un panel variable terminan…",
+    "uk": "Зміни на табло зі змінною інформацією діють…"
    },
    "o": [
     {
      "en": "when the panel says so or the causes end",
-     "es": "cuando lo diga el panel o cesen sus causas"
+     "es": "cuando lo diga el panel o cesen sus causas",
+     "uk": "доки табло не скаже інше чи не зникнуть причини"
     },
     {
      "en": "after 1 km",
-     "es": "tras 1 km"
+     "es": "tras 1 km",
+     "uk": "1 км"
     },
     {
      "en": "at the next junction",
-     "es": "en la próxima intersección"
+     "es": "en la próxima intersección",
+     "uk": "до наступного перехрестя"
     }
    ],
    "why": {
     "en": "Until then they apply.",
-    "es": "Hasta entonces rigen."
+    "es": "Hasta entonces rigen.",
+    "uk": "До того вони діють."
    }
   },
   {
@@ -1160,25 +1382,30 @@ window.DGT_DATA = {
    "tag": "guide",
    "q": {
     "en": "What does a gore marker (hito de vértice) show?",
-    "es": "¿Qué indica un hito de vértice?"
+    "es": "¿Qué indica un hito de vértice?",
+    "uk": "Що показує стовпчик розгалуження (hito de vértice)?"
    },
    "o": [
     {
      "en": "Where two traffic streams separate",
-     "es": "Dónde se separan dos corrientes de tráfico"
+     "es": "Dónde se separan dos corrientes de tráfico",
+     "uk": "Де розходяться два потоки руху"
     },
     {
      "en": "The kilometre point",
-     "es": "El punto kilométrico"
+     "es": "El punto kilométrico",
+     "uk": "Кілометрову позначку"
     },
     {
      "en": "A bus stop",
-     "es": "Una parada de autobús"
+     "es": "Una parada de autobús",
+     "uk": "Автобусну зупинку"
     }
    ],
    "why": {
     "en": "Half-cylinder with two opposed triangles.",
-    "es": "Semicilíndrico con dos triángulos opuestos."
+    "es": "Semicilíndrico con dos triángulos opuestos.",
+    "uk": "Напівциліндр із двома протилежними трикутниками."
    }
   },
   {
@@ -1186,25 +1413,30 @@ window.DGT_DATA = {
    "tag": "guide",
    "q": {
     "en": "A triple permanent direction panel means a danger that is…",
-    "es": "Un panel direccional permanente triple indica un peligro…"
+    "es": "Un panel direccional permanente triple indica un peligro…",
+    "uk": "Потрійна постійна напрямна табличка означає небезпеку…"
    },
    "o": [
     {
      "en": "high",
-     "es": "elevado"
+     "es": "elevado",
+     "uk": "високу"
     },
     {
      "en": "moderate",
-     "es": "moderado"
+     "es": "moderado",
+     "uk": "помірну"
     },
     {
      "en": "medium",
-     "es": "medio"
+     "es": "medio",
+     "uk": "середню"
     }
    ],
    "why": {
     "en": "Single moderate, double medium, triple high.",
-    "es": "Sencillo moderado, doble medio, triple elevado."
+    "es": "Sencillo moderado, doble medio, triple elevado.",
+    "uk": "Одинарна — помірна, подвійна — середня, потрійна — висока."
    }
   },
   {
@@ -1212,25 +1444,30 @@ window.DGT_DATA = {
    "tag": "guide",
    "q": {
     "en": "Edge posts and reflectors on the LEFT of the road are…",
-    "es": "Los hitos de arista y captafaros a la IZQUIERDA son…"
+    "es": "Los hitos de arista y captafaros a la IZQUIERDA son…",
+    "uk": "Сигнальні стовпчики й світлоповертачі ЛІВОРУЧ від дороги —"
    },
    "o": [
     {
      "en": "white",
-     "es": "blancos"
+     "es": "blancos",
+     "uk": "білі"
     },
     {
      "en": "yellow",
-     "es": "amarillos"
+     "es": "amarillos",
+     "uk": "жовті"
     },
     {
      "en": "red",
-     "es": "rojos"
+     "es": "rojos",
+     "uk": "червоні"
     }
    ],
    "why": {
     "en": "On the right: white or yellow.",
-    "es": "A la derecha: blancos o amarillos."
+    "es": "A la derecha: blancos o amarillos.",
+    "uk": "Праворуч — білі чи жовті."
    }
   },
   {
@@ -1238,25 +1475,30 @@ window.DGT_DATA = {
    "tag": "guide",
    "q": {
     "en": "Luminous road studs may be crossed when they are…",
-    "es": "Los captafaros horizontales luminosos se pueden franquear cuando están en…"
+    "es": "Los captafaros horizontales luminosos se pueden franquear cuando están en…",
+    "uk": "Світлові дорожні катафоти можна перетинати, коли вони…"
    },
    "o": [
     {
      "en": "green",
-     "es": "verde"
+     "es": "verde",
+     "uk": "зелені"
     },
     {
      "en": "orange",
-     "es": "naranja"
+     "es": "naranja",
+     "uk": "помаранчеві"
     },
     {
      "en": "red",
-     "es": "rojo"
+     "es": "rojo",
+     "uk": "червоні"
     }
    ],
    "why": {
     "en": "They can be green, orange or red.",
-    "es": "Pueden ser verdes, naranjas o rojos."
+    "es": "Pueden ser verdes, naranjas o rojos.",
+    "uk": "Вони можуть бути зеленими, помаранчевими чи червоними."
    }
   },
   {
@@ -1264,25 +1506,30 @@ window.DGT_DATA = {
    "tag": "guide",
    "q": {
     "en": "You may cross the line joining cylindrical bollards…",
-    "es": "Se puede atravesar la línea que une las balizas cilíndricas…"
+    "es": "Se puede atravesar la línea que une las balizas cilíndricas…",
+    "uk": "Лінію, що з’єднує циліндричні стовпчики, можна перетинати…"
    },
    "o": [
     {
      "en": "never",
-     "es": "nunca"
+     "es": "nunca",
+     "uk": "ніколи"
     },
     {
      "en": "if it is imaginary",
-     "es": "si es imaginaria"
+     "es": "si es imaginaria",
+     "uk": "якщо вона уявна"
     },
     {
      "en": "to overtake",
-     "es": "para adelantar"
+     "es": "para adelantar",
+     "uk": "для обгону"
     }
    ],
    "why": {
     "en": "Imaginary or not, it is forbidden.",
-    "es": "Imaginaria o no, está prohibido."
+    "es": "Imaginaria o no, está prohibido.",
+    "uk": "Уявна чи ні — заборонено."
    }
   },
   {
@@ -1290,25 +1537,30 @@ window.DGT_DATA = {
    "tag": "guide",
    "q": {
     "en": "In fog-beacon systems, a steady red light shows…",
-    "es": "En el balizamiento luminoso de niebla, la luz roja fija indica…"
+    "es": "En el balizamiento luminoso de niebla, la luz roja fija indica…",
+    "uk": "У системах протитуманних маячків постійний червоний вогонь показує…"
    },
    "o": [
     {
      "en": "a vehicle passing",
-     "es": "el paso de un vehículo"
+     "es": "el paso de un vehículo",
+     "uk": "що проїжджає ТЗ"
     },
     {
      "en": "the road edge",
-     "es": "el borde de la vía"
+     "es": "el borde de la vía",
+     "uk": "край дороги"
     },
     {
      "en": "an exit",
-     "es": "una salida"
+     "es": "una salida",
+     "uk": "з’їзд"
     }
    ],
    "why": {
     "en": "Amber shows the direction and the edge.",
-    "es": "El ámbar indica sentido y borde."
+    "es": "El ámbar indica sentido y borde.",
+    "uk": "Жовтий показує напрямок і край."
    }
   },
   {
@@ -1316,25 +1568,30 @@ window.DGT_DATA = {
    "tag": "guide",
    "q": {
     "en": "Rumble strips warn you of…",
-    "es": "Las guías sonoras longitudinales avisan de…"
+    "es": "Las guías sonoras longitudinales avisan de…",
+    "uk": "Шумові смуги попереджають вас про…"
    },
    "o": [
     {
      "en": "drifting off course",
-     "es": "desvíos involuntarios de la trayectoria"
+     "es": "desvíos involuntarios de la trayectoria",
+     "uk": "відхилення з курсу"
     },
     {
      "en": "a speed camera",
-     "es": "un radar"
+     "es": "un radar",
+     "uk": "камеру контролю швидкості"
     },
     {
      "en": "a junction",
-     "es": "una intersección"
+     "es": "una intersección",
+     "uk": "перехрестя"
     }
    ],
    "why": {
     "en": "Through vibration and/or noise.",
-    "es": "Mediante vibración y/o sonido."
+    "es": "Mediante vibración y/o sonido.",
+    "uk": "Вібрацією та/або шумом."
    }
   },
   {
@@ -1342,25 +1599,30 @@ window.DGT_DATA = {
    "tag": "guide",
    "q": {
     "en": "Parapets (pretiles) protect against…",
-    "es": "Los pretiles protegen frente a…"
+    "es": "Los pretiles protegen frente a…",
+    "uk": "Парапети (pretiles) захищають від…"
    },
    "o": [
     {
      "en": "falling off bridges and walls",
-     "es": "salidas de la vía con caída en puentes y muros"
+     "es": "salidas de la vía con caída en puentes y muros",
+     "uk": "падіння з мостів і стін"
     },
     {
      "en": "rear-end crashes",
-     "es": "alcances"
+     "es": "alcances",
+     "uk": "наїздів ззаду"
     },
     {
      "en": "wild animals",
-     "es": "animales"
+     "es": "animales",
+     "uk": "диких тварин"
     }
    ],
    "why": {
     "en": "Crash cushions are used at forks.",
-    "es": "Los atenuadores se usan en bifurcaciones."
+    "es": "Los atenuadores se usan en bifurcaciones.",
+    "uk": "На розгалуженнях використовують амортизатори удару."
    }
   },
   {
@@ -1368,25 +1630,30 @@ window.DGT_DATA = {
    "tag": "guide",
    "q": {
     "en": "A height-control gantry…",
-    "es": "Un pórtico de control de gálibo…"
+    "es": "Un pórtico de control de gálibo…",
+    "uk": "Рамка контролю висоти…"
    },
    "o": [
     {
      "en": "warns or stops vehicles too tall for the structure ahead",
-     "es": "advierte o impide el paso a vehículos que superan la altura de la estructura siguiente"
+     "es": "advierte o impide el paso a vehículos que superan la altura de la estructura siguiente",
+     "uk": "попереджає чи зупиняє ТЗ, надто високі для споруди попереду"
     },
     {
      "en": "checks speed",
-     "es": "controla la velocidad"
+     "es": "controla la velocidad",
+     "uk": "перевіряє швидкість"
     },
     {
      "en": "marks a toll",
-     "es": "señala un peaje"
+     "es": "señala un peaje",
+     "uk": "позначає пункт оплати"
     }
    ],
    "why": {
     "en": "Bridge, overpass or tunnel.",
-    "es": "Puente, paso superior o túnel."
+    "es": "Puente, paso superior o túnel.",
+    "uk": "Міст, естакада чи тунель."
    }
   },
   {
@@ -1394,25 +1661,30 @@ window.DGT_DATA = {
    "tag": "guide",
    "q": {
     "en": "A windsock beside the road…",
-    "es": "Una manga de viento junto a la vía…"
+    "es": "Una manga de viento junto a la vía…",
+    "uk": "Вітровий конус біля дороги…"
    },
    "o": [
     {
      "en": "adds to the crosswind sign: shows wind direction and strength",
-     "es": "complementa la señal de viento transversal: sentido e intensidad"
+     "es": "complementa la señal de viento transversal: sentido e intensidad",
+     "uk": "доповнює знак бокового вітру: показує напрямок і силу вітру"
     },
     {
      "en": "replaces the crosswind sign",
-     "es": "sustituye a la señal de viento transversal"
+     "es": "sustituye a la señal de viento transversal",
+     "uk": "замінює знак бокового вітру"
     },
     {
      "en": "marks an airport",
-     "es": "indica un aeropuerto"
+     "es": "indica un aeropuerto",
+     "uk": "позначає аеропорт"
     }
    ],
    "why": {
     "en": "Steady or gusty wind.",
-    "es": "Viento continuo o racheado."
+    "es": "Viento continuo o racheado.",
+    "uk": "Постійний чи поривчастий вітер."
    }
   },
   {
@@ -1420,25 +1692,30 @@ window.DGT_DATA = {
    "tag": "tlights",
    "q": {
     "en": "The pedestrian green figure starts flashing. It means…",
-    "es": "La figura verde de peatones empieza a parpadear. Significa…"
+    "es": "La figura verde de peatones empieza a parpadear. Significa…",
+    "uk": "Зелений пішохідний силует починає блимати. Це означає…"
    },
    "o": [
     {
      "en": "time to finish crossing is running out",
-     "es": "se acaba el tiempo para terminar de cruzar"
+     "es": "se acaba el tiempo para terminar de cruzar",
+     "uk": "час, щоб завершити перехід, спливає"
     },
     {
      "en": "start crossing now",
-     "es": "empezar a cruzar ya"
+     "es": "empezar a cruzar ya",
+     "uk": "починайте переходити зараз"
     },
     {
      "en": "vehicles may go",
-     "es": "pueden pasar los vehículos"
+     "es": "pueden pasar los vehículos",
+     "uk": "ТЗ можуть їхати"
     }
    ],
    "why": {
     "en": "Red will come on next.",
-    "es": "Después se encenderá la roja."
+    "es": "Después se encenderá la roja.",
+    "uk": "Далі загориться червоний."
    }
   },
   {
@@ -1446,25 +1723,30 @@ window.DGT_DATA = {
    "tag": "tlights",
    "q": {
     "en": "A steady red standing figure tells pedestrians…",
-    "es": "Una figura roja fija de peatón inmóvil indica a los peatones…"
+    "es": "Una figura roja fija de peatón inmóvil indica a los peatones…",
+    "uk": "Постійний червоний силует, що стоїть, каже пішоходам…"
    },
    "o": [
     {
      "en": "not to start crossing",
-     "es": "que no deben comenzar a cruzar"
+     "es": "que no deben comenzar a cruzar",
+     "uk": "не починати перехід"
     },
     {
      "en": "to run",
-     "es": "que corran"
+     "es": "que corran",
+     "uk": "бігти"
     },
     {
      "en": "to cross with care",
-     "es": "que crucen con precaución"
+     "es": "que crucen con precaución",
+     "uk": "переходити обережно"
     }
    ],
    "why": {
     "en": "Those already crossing finish.",
-    "es": "Quien ya está cruzando termina."
+    "es": "Quien ya está cruzando termina.",
+    "uk": "Ті, хто вже переходить, завершують."
    }
   },
   {
@@ -1472,25 +1754,30 @@ window.DGT_DATA = {
    "tag": "tlights",
    "q": {
     "en": "Your light is green but the junction ahead is jammed. You…",
-    "es": "Tu semáforo está verde, pero la intersección está atascada. Tú…"
+    "es": "Tu semáforo está verde, pero la intersección está atascada. Tú…",
+    "uk": "Вам зелений, але перехрестя попереду забите. Ви…"
    },
    "o": [
     {
      "en": "wait, so as not to block it",
-     "es": "esperas para no bloquearla"
+     "es": "esperas para no bloquearla",
+     "uk": "чекаєте, щоб його не заблокувати"
     },
     {
      "en": "enter: green gives priority",
-     "es": "entras: el verde da prioridad"
+     "es": "entras: el verde da prioridad",
+     "uk": "в’їжджаєте: зелений дає перевагу"
     },
     {
      "en": "sound the horn",
-     "es": "tocas el claxon"
+     "es": "tocas el claxon",
+     "uk": "сигналите"
     }
    ],
    "why": {
     "en": "Green does not allow blocking cross traffic.",
-    "es": "El verde no permite obstruir la circulación transversal."
+    "es": "El verde no permite obstruir la circulación transversal.",
+    "uk": "Зелений не дозволяє блокувати поперечний рух."
    }
   },
   {
@@ -1498,25 +1785,30 @@ window.DGT_DATA = {
    "tag": "tlights",
    "q": {
     "en": "The light turns amber when you are so close you cannot stop safely. You…",
-    "es": "El semáforo pasa a amarillo cuando estás tan cerca que no puedes parar con seguridad. Tú…"
+    "es": "El semáforo pasa a amarillo cuando estás tan cerca que no puedes parar con seguridad. Tú…",
+    "uk": "Загорівся жовтий, коли ви так близько, що не можете безпечно зупинитися. Ви…"
    },
    "o": [
     {
      "en": "may continue",
-     "es": "puedes continuar"
+     "es": "puedes continuar",
+     "uk": "можете їхати далі"
     },
     {
      "en": "must brake hard anyway",
-     "es": "debes frenar en seco igualmente"
+     "es": "debes frenar en seco igualmente",
+     "uk": "однаково мусите різко гальмувати"
     },
     {
      "en": "must reverse",
-     "es": "debes dar marcha atrás"
+     "es": "debes dar marcha atrás",
+     "uk": "мусите їхати заднім ходом"
     }
    ],
    "why": {
     "en": "Otherwise steady amber means stop.",
-    "es": "Si no, el amarillo fijo obliga a detenerse."
+    "es": "Si no, el amarillo fijo obliga a detenerse.",
+    "uk": "Інакше постійний жовтий означає «стоп»."
    }
   },
   {
@@ -1524,25 +1816,30 @@ window.DGT_DATA = {
    "tag": "tlights",
    "q": {
     "en": "The red light is on the far side of the junction. Where do you stop?",
-    "es": "El semáforo rojo está al otro lado de la intersección. ¿Dónde te detienes?"
+    "es": "El semáforo rojo está al otro lado de la intersección. ¿Dónde te detienes?",
+    "uk": "Червоний світлофор стоїть з протилежного боку перехрестя. Де зупинятися?"
    },
    "o": [
     {
      "en": "Before entering the junction",
-     "es": "Antes de entrar en la intersección"
+     "es": "Antes de entrar en la intersección",
+     "uk": "Перед в’їздом на перехрестя"
     },
     {
      "en": "Right under the light",
-     "es": "Justo debajo del semáforo"
+     "es": "Justo debajo del semáforo",
+     "uk": "Просто під світлофором"
     },
     {
      "en": "In the middle of the junction",
-     "es": "En medio de la intersección"
+     "es": "En medio de la intersección",
+     "uk": "Посеред перехрестя"
     }
    ],
    "why": {
     "en": "Do not cross the stop line before it.",
-    "es": "Sin rebasar la línea de detención anterior."
+    "es": "Sin rebasar la línea de detención anterior.",
+    "uk": "Не перетинайте стоп-лінію перед ним."
    }
   },
   {
@@ -1550,25 +1847,30 @@ window.DGT_DATA = {
    "tag": "tlights",
    "q": {
     "en": "A steady amber light means…",
-    "es": "Una luz amarilla fija significa…"
+    "es": "Una luz amarilla fija significa…",
+    "uk": "Постійний жовтий сигнал означає…"
    },
    "o": [
     {
      "en": "stop as for red, unless you cannot do so safely",
-     "es": "detenerse como en rojo, salvo que no puedas con seguridad"
+     "es": "detenerse como en rojo, salvo que no puedas con seguridad",
+     "uk": "зупиніться, як на червоний, якщо не можете зробити це безпечно"
     },
     {
      "en": "speed up",
-     "es": "acelerar"
+     "es": "acelerar",
+     "uk": "прискоріться"
     },
     {
      "en": "take care and give way",
-     "es": "precaución y ceder el paso"
+     "es": "precaución y ceder el paso",
+     "uk": "будьте обережні й поступіться"
     }
    ],
    "why": {
     "en": "That last one is the flashing amber.",
-    "es": "Eso último es el ámbar intermitente."
+    "es": "Eso último es el ámbar intermitente.",
+    "uk": "Останнє — це миготливий жовтий."
    }
   },
   {
@@ -1576,25 +1878,30 @@ window.DGT_DATA = {
    "tag": "tlights",
    "q": {
     "en": "What is the main job of traffic lights?",
-    "es": "¿Cuál es la misión principal de los semáforos?"
+    "es": "¿Cuál es la misión principal de los semáforos?",
+    "uk": "Яке головне завдання світлофорів?"
    },
    "o": [
     {
      "en": "To regulate who goes first",
-     "es": "Regular la prioridad de paso"
+     "es": "Regular la prioridad de paso",
+     "uk": "Визначати, хто проїжджає першим"
     },
     {
      "en": "To limit speed",
-     "es": "Limitar la velocidad"
+     "es": "Limitar la velocidad",
+     "uk": "Обмежувати швидкість"
     },
     {
      "en": "To light junctions",
-     "es": "Iluminar los cruces"
+     "es": "Iluminar los cruces",
+     "uk": "Освітлювати перехрестя"
     }
    ],
    "why": {
     "en": "They allocate priority.",
-    "es": "Asignan la prioridad."
+    "es": "Asignan la prioridad.",
+    "uk": "Вони розподіляють перевагу."
    }
   },
   {
@@ -1602,25 +1909,30 @@ window.DGT_DATA = {
    "tag": "tlights",
    "q": {
     "en": "With a steady red light you must stop…",
-    "es": "Con luz roja fija debes detenerte…"
+    "es": "Con luz roja fija debes detenerte…",
+    "uk": "За постійного червоного треба зупинитися…"
    },
    "o": [
     {
      "en": "without passing the light or the nearest stop line before it",
-     "es": "sin rebasar el semáforo ni la línea de detención más próxima"
+     "es": "sin rebasar el semáforo ni la línea de detención más próxima",
+     "uk": "не проїжджаючи світлофор чи найближчу стоп-лінію перед ним"
     },
     {
      "en": "10 m before the light",
-     "es": "10 m antes del semáforo"
+     "es": "10 m antes del semáforo",
+     "uk": "за 10 м до світлофора"
     },
     {
      "en": "after the light",
-     "es": "pasado el semáforo"
+     "es": "pasado el semáforo",
+     "uk": "за світлофором"
     }
    ],
    "why": {
     "en": "Red forbids passing.",
-    "es": "La roja prohíbe el paso."
+    "es": "La roja prohíbe el paso.",
+    "uk": "Червоний забороняє проїзд."
    }
   },
   {
@@ -1628,25 +1940,30 @@ window.DGT_DATA = {
    "tag": "tlflash",
    "q": {
     "en": "Two red lights flash alternately before a level crossing. They mean…",
-    "es": "Dos luces rojas intermitentes alternas antes de un paso a nivel significan…"
+    "es": "Dos luces rojas intermitentes alternas antes de un paso a nivel significan…",
+    "uk": "Перед залізничним переїздом по черзі блимають два червоні вогні. Вони означають…"
    },
    "o": [
     {
      "en": "no passing for now",
-     "es": "prohibido temporalmente el paso"
+     "es": "prohibido temporalmente el paso",
+     "uk": "поки що проїзд заборонено"
     },
     {
      "en": "cross with care",
-     "es": "cruzar con precaución"
+     "es": "cruzar con precaución",
+     "uk": "переїжджайте обережно"
     },
     {
      "en": "the train has gone",
-     "es": "el tren ya pasó"
+     "es": "el tren ya pasó",
+     "uk": "потяг пройшов"
     }
    ],
    "why": {
     "en": "Also at fire-engine exits and low aircraft.",
-    "es": "También en salidas de bomberos y aeronaves."
+    "es": "También en salidas de bomberos y aeronaves.",
+    "uk": "Також біля виїздів пожежних машин і низьких літаків."
    }
   },
   {
@@ -1654,25 +1971,30 @@ window.DGT_DATA = {
    "tag": "tlflash",
    "q": {
     "en": "A flashing amber light means…",
-    "es": "Una luz amarilla intermitente significa…"
+    "es": "Una luz amarilla intermitente significa…",
+    "uk": "Миготливий жовтий сигнал означає…"
    },
    "o": [
     {
      "en": "take extreme care and give way if appropriate",
-     "es": "extremar la precaución y, en su caso, ceder el paso"
+     "es": "extremar la precaución y, en su caso, ceder el paso",
+     "uk": "будьте надзвичайно обережні й поступіться, якщо треба"
     },
     {
      "en": "stop",
-     "es": "detenerse"
+     "es": "detenerse",
+     "uk": "зупиніться"
     },
     {
      "en": "no passing",
-     "es": "prohibido el paso"
+     "es": "prohibido el paso",
+     "uk": "проїзд заборонено"
     }
    ],
    "why": {
     "en": "It does not cancel other stop signs.",
-    "es": "No exime de otras señales de detención."
+    "es": "No exime de otras señales de detención.",
+    "uk": "Він не скасовує інших знаків зупинки."
    }
   },
   {
@@ -1680,25 +2002,30 @@ window.DGT_DATA = {
    "tag": "tlflash",
    "q": {
     "en": "A flashing amber light hangs above a STOP sign. You…",
-    "es": "Hay un ámbar intermitente sobre una señal de STOP. Tú…"
+    "es": "Hay un ámbar intermitente sobre una señal de STOP. Tú…",
+    "uk": "Миготливий жовтий висить над знаком STOP. Ви…"
    },
    "o": [
     {
      "en": "stop at the STOP",
-     "es": "te detienes en el STOP"
+     "es": "te detienes en el STOP",
+     "uk": "зупиняєтеся біля STOP"
     },
     {
      "en": "only slow down",
-     "es": "solo reduces"
+     "es": "solo reduces",
+     "uk": "лише сповільнюєтеся"
     },
     {
      "en": "go: the light comes first",
-     "es": "pasas: el semáforo es prioritario"
+     "es": "pasas: el semáforo es prioritario",
+     "uk": "їдете: світлофор має перевагу"
     }
    ],
    "why": {
     "en": "Flashing amber does not exempt you from other stop signs.",
-    "es": "El ámbar intermitente no exime de otras señales de detención."
+    "es": "El ámbar intermitente no exime de otras señales de detención.",
+    "uk": "Миготливий жовтий не звільняє від інших знаків зупинки."
    }
   },
   {
@@ -1706,25 +2033,30 @@ window.DGT_DATA = {
    "tag": "tlflash",
    "q": {
     "en": "A green arrow is lit beside a red light. You may go that way…",
-    "es": "Una flecha verde está encendida junto a la luz roja. Puedes ir en esa dirección…"
+    "es": "Una flecha verde está encendida junto a la luz roja. Puedes ir en esa dirección…",
+    "uk": "Біля червоного сигналу світиться зелена стрілка. Туди можна їхати…"
    },
    "o": [
     {
      "en": "with care, giving way to the lane you join and to pedestrians",
-     "es": "con precaución, cediendo al carril al que te incorporas y a los peatones"
+     "es": "con precaución, cediendo al carril al que te incorporas y a los peatones",
+     "uk": "обережно, поступаючись смузі, на яку виїжджаєте, і пішоходам"
     },
     {
      "en": "with priority over everyone",
-     "es": "con prioridad sobre todos"
+     "es": "con prioridad sobre todos",
+     "uk": "з перевагою над усіма"
     },
     {
      "en": "only when red goes off",
-     "es": "solo cuando se apague la roja"
+     "es": "solo cuando se apague la roja",
+     "uk": "лише коли червоний згасне"
     }
    ],
    "why": {
     "en": "Whatever else is lit.",
-    "es": "Cualquiera que sea la otra luz."
+    "es": "Cualquiera que sea la otra luz.",
+    "uk": "Хоч що ще світиться."
    }
   },
   {
@@ -1732,25 +2064,30 @@ window.DGT_DATA = {
    "tag": "tlflash",
    "q": {
     "en": "You are in the lane others need for the green arrow, and it lights up. You…",
-    "es": "Estás en el carril que necesitan otros para la flecha verde y se enciende. Tú…"
+    "es": "Estás en el carril que necesitan otros para la flecha verde y se enciende. Tú…",
+    "uk": "Ви на смузі, яка потрібна іншим для зеленої стрілки, і вона загоряється. Ви…"
    },
    "o": [
     {
      "en": "must move off in the arrow’s direction if yours is not possible",
-     "es": "debes avanzar en el sentido de la flecha si el tuyo no es posible"
+     "es": "debes avanzar en el sentido de la flecha si el tuyo no es posible",
+     "uk": "мусите рушити в напрямку стрілки, якщо ваш напрямок неможливий"
     },
     {
      "en": "stay put",
-     "es": "te quedas quieto"
+     "es": "te quedas quieto",
+     "uk": "стоїте на місці"
     },
     {
      "en": "reverse",
-     "es": "das marcha atrás"
+     "es": "das marcha atrás",
+     "uk": "їдете заднім ходом"
     }
    ],
    "why": {
     "en": "Even if it was not your intended direction.",
-    "es": "Aunque no fuera la dirección deseada."
+    "es": "Aunque no fuera la dirección deseada.",
+    "uk": "Навіть якщо це не ваш запланований напрямок."
    }
   },
   {
@@ -1758,25 +2095,30 @@ window.DGT_DATA = {
    "tag": "tlflash",
    "q": {
     "en": "A black arrow on a red light…",
-    "es": "Una flecha negra sobre una luz roja…"
+    "es": "Una flecha negra sobre una luz roja…",
+    "uk": "Чорна стрілка на червоному сигналі…"
    },
    "o": [
     {
      "en": "limits the red to the movement of the arrow",
-     "es": "limita la roja al movimiento de la flecha"
+     "es": "limita la roja al movimiento de la flecha",
+     "uk": "обмежує червоний рухом за стрілкою"
     },
     {
      "en": "lets you go that way",
-     "es": "permite ir en esa dirección"
+     "es": "permite ir en esa dirección",
+     "uk": "дозволяє їхати туди"
     },
     {
      "en": "means the light is broken",
-     "es": "indica que está averiado"
+     "es": "indica que está averiado",
+     "uk": "означає, що світлофор зламаний"
     }
    ],
    "why": {
     "en": "Steady or flashing.",
-    "es": "Fija o intermitente."
+    "es": "Fija o intermitente.",
+    "uk": "Постійний чи миготливий."
    }
   },
   {
@@ -1784,25 +2126,30 @@ window.DGT_DATA = {
    "tag": "tlflash",
    "q": {
     "en": "Where are flashing red lights typically found?",
-    "es": "¿Dónde suelen estar las luces rojas intermitentes?"
+    "es": "¿Dónde suelen estar las luces rojas intermitentes?",
+    "uk": "Де зазвичай стоять миготливі червоні сигнали?"
    },
    "o": [
     {
      "en": "Before level crossings and near fire-station exits",
-     "es": "Antes de pasos a nivel y cerca de salidas de bomberos"
+     "es": "Antes de pasos a nivel y cerca de salidas de bomberos",
+     "uk": "Перед залізничними переїздами й біля виїздів пожежних частин"
     },
     {
      "en": "At every junction",
-     "es": "En todos los cruces"
+     "es": "En todos los cruces",
+     "uk": "На кожному перехресті"
     },
     {
      "en": "At school gates",
-     "es": "En las puertas de colegios"
+     "es": "En las puertas de colegios",
+     "uk": "Біля шкільних воріт"
     }
    ],
    "why": {
     "en": "Also movable bridges, ferries, low aircraft.",
-    "es": "También puentes móviles, transbordadores, aeronaves."
+    "es": "También puentes móviles, transbordadores, aeronaves.",
+    "uk": "А також розвідні мости, пороми, низькі літаки."
    }
   },
   {
@@ -1810,25 +2157,30 @@ window.DGT_DATA = {
    "tag": "tllane",
    "q": {
     "en": "A green arrow pointing down over your lane means…",
-    "es": "Una flecha verde hacia abajo sobre tu carril significa…"
+    "es": "Una flecha verde hacia abajo sobre tu carril significa…",
+    "uk": "Зелена стрілка вниз над вашою смугою означає…"
    },
    "o": [
     {
      "en": "you may use that lane",
-     "es": "puedes circular por ese carril"
+     "es": "puedes circular por ese carril",
+     "uk": "можна їхати цією смугою"
     },
     {
      "en": "the lane ends",
-     "es": "el carril termina"
+     "es": "el carril termina",
+     "uk": "смуга закінчується"
     },
     {
      "en": "you have priority at every junction",
-     "es": "tienes prioridad en todos los cruces"
+     "es": "tienes prioridad en todos los cruces",
+     "uk": "у вас перевага на кожному перехресті"
     }
    ],
    "why": {
     "en": "It does not exempt you from red lights or stop signs.",
-    "es": "No exime de luces rojas ni señales de detención."
+    "es": "No exime de luces rojas ni señales de detención.",
+    "uk": "Вона не звільняє від червоних сигналів чи знаків зупинки."
    }
   },
   {
@@ -1836,25 +2188,30 @@ window.DGT_DATA = {
    "tag": "tllane",
    "q": {
     "en": "A red cross lights over your lane. You must…",
-    "es": "Se enciende un aspa roja sobre tu carril. Debes…"
+    "es": "Se enciende un aspa roja sobre tu carril. Debes…",
+    "uk": "Над вашою смугою загорівся червоний хрест. Ви мусите…"
    },
    "o": [
     {
      "en": "leave the lane as soon as possible",
-     "es": "abandonarlo en el tiempo más breve posible"
+     "es": "abandonarlo en el tiempo más breve posible",
+     "uk": "якнайшвидше покинути смугу"
     },
     {
      "en": "stop at once",
-     "es": "detenerte inmediatamente"
+     "es": "detenerte inmediatamente",
+     "uk": "одразу зупинитися"
     },
     {
      "en": "speed up",
-     "es": "acelerar"
+     "es": "acelerar",
+     "uk": "прискоритися"
     }
    ],
    "why": {
     "en": "Occupying it is forbidden.",
-    "es": "Está prohibido ocuparlo."
+    "es": "Está prohibido ocuparlo.",
+    "uk": "Займати її заборонено."
    }
   },
   {
@@ -1862,25 +2219,30 @@ window.DGT_DATA = {
    "tag": "tllane",
    "q": {
     "en": "A yellow arrow pointing down at an angle over your lane means…",
-    "es": "Una flecha amarilla oblicua hacia abajo sobre tu carril significa…"
+    "es": "Una flecha amarilla oblicua hacia abajo sobre tu carril significa…",
+    "uk": "Жовта стрілка, похило спрямована вниз над вашою смугою, означає…"
    },
    "o": [
     {
      "en": "move safely into the lane it points to: yours is closing",
-     "es": "incorporarse con seguridad al carril que señala: el tuyo se cierra"
+     "es": "incorporarse con seguridad al carril que señala: el tuyo se cierra",
+     "uk": "безпечно перестройтеся на смугу, на яку вона вказує: ваша закривається"
     },
     {
      "en": "turn off at the next exit",
-     "es": "salir en la próxima salida"
+     "es": "salir en la próxima salida",
+     "uk": "з’їжджайте на наступному з’їзді"
     },
     {
      "en": "overtake",
-     "es": "adelantar"
+     "es": "adelantar",
+     "uk": "обганяйте"
     }
    ],
    "why": {
     "en": "Steady or flashing; white or yellow.",
-    "es": "Fija o intermitente; blanca o amarilla."
+    "es": "Fija o intermitente; blanca o amarilla.",
+    "uk": "Постійна чи миготлива; біла чи жовта."
    }
   },
   {
@@ -1888,25 +2250,30 @@ window.DGT_DATA = {
    "tag": "tllane",
    "q": {
     "en": "Lights with a white bar on a black lens apply to…",
-    "es": "Los semáforos con franja blanca sobre fondo negro afectan a…"
+    "es": "Los semáforos con franja blanca sobre fondo negro afectan a…",
+    "uk": "Світлофори з білою смугою на чорному тлі стосуються…"
    },
    "o": [
     {
      "en": "trams and regular-line buses (or all users of a reserved lane)",
-     "es": "tranvías y autobuses de líneas regulares (o a todos los del carril reservado)"
+     "es": "tranvías y autobuses de líneas regulares (o a todos los del carril reservado)",
+     "uk": "трамваїв і рейсових автобусів (чи всіх на відведеній смузі)"
     },
     {
      "en": "all vehicles",
-     "es": "todos los vehículos"
+     "es": "todos los vehículos",
+     "uk": "усіх ТЗ"
     },
     {
      "en": "cyclists",
-     "es": "ciclistas"
+     "es": "ciclistas",
+     "uk": "велосипедистів"
     }
    ],
    "why": {
     "en": "Cars outside the bus lane ignore them.",
-    "es": "Los turismos fuera del carril bus no."
+    "es": "Los turismos fuera del carril bus no.",
+    "uk": "Легковики поза автобусною смугою їх не виконують."
    }
   },
   {
@@ -1914,25 +2281,30 @@ window.DGT_DATA = {
    "tag": "tllane",
    "q": {
     "en": "On a bus light, a horizontal white bar means…",
-    "es": "En un semáforo de autobús, una franja blanca horizontal significa…"
+    "es": "En un semáforo de autobús, una franja blanca horizontal significa…",
+    "uk": "На автобусному світлофорі горизонтальна біла смуга означає…"
    },
    "o": [
     {
      "en": "no passing",
-     "es": "prohibido el paso"
+     "es": "prohibido el paso",
+     "uk": "проїзд заборонено"
     },
     {
      "en": "straight on",
-     "es": "paso de frente"
+     "es": "paso de frente",
+     "uk": "прямо"
     },
     {
      "en": "turn left",
-     "es": "girar a la izquierda"
+     "es": "girar a la izquierda",
+     "uk": "поворот ліворуч"
     }
    ],
    "why": {
     "en": "Vertical = straight on; slanted = turn.",
-    "es": "Vertical = de frente; inclinada = giro."
+    "es": "Vertical = de frente; inclinada = giro.",
+    "uk": "Вертикальна = прямо; похила = поворот."
    }
   },
   {
@@ -1940,25 +2312,30 @@ window.DGT_DATA = {
    "tag": "tllane",
    "q": {
     "en": "If the white bar flashes, the bus must…",
-    "es": "Si la franja blanca es intermitente, el autobús debe…"
+    "es": "Si la franja blanca es intermitente, el autobús debe…",
+    "uk": "Якщо біла смуга блимає, автобус мусить…"
    },
    "o": [
     {
      "en": "stop as for a steady amber",
-     "es": "detenerse como ante un ámbar fijo"
+     "es": "detenerse como ante un ámbar fijo",
+     "uk": "зупинитися, як за постійного жовтого"
     },
     {
      "en": "go on with priority",
-     "es": "seguir con prioridad"
+     "es": "seguir con prioridad",
+     "uk": "їхати з перевагою"
     },
     {
      "en": "stop always",
-     "es": "detenerse siempre"
+     "es": "detenerse siempre",
+     "uk": "завжди зупинитися"
     }
    ],
    "why": {
     "en": "Same conditions as steady amber.",
-    "es": "Mismas condiciones que el amarillo fijo."
+    "es": "Mismas condiciones que el amarillo fijo.",
+    "uk": "Ті самі умови, що й за постійного жовтого."
    }
   },
   {
@@ -1966,25 +2343,30 @@ window.DGT_DATA = {
    "tag": "tllane",
    "q": {
     "en": "Lights showing a bicycle apply to…",
-    "es": "Los semáforos con silueta de bicicleta afectan a…"
+    "es": "Los semáforos con silueta de bicicleta afectan a…",
+    "uk": "Світлофори із зображенням велосипеда стосуються…"
    },
    "o": [
     {
      "en": "cycles only",
-     "es": "solo a los ciclos"
+     "es": "solo a los ciclos",
+     "uk": "лише циклів"
     },
     {
      "en": "cycles and mopeds",
-     "es": "ciclos y ciclomotores"
+     "es": "ciclos y ciclomotores",
+     "uk": "циклів і мопедів"
     },
     {
      "en": "everyone",
-     "es": "todos"
+     "es": "todos",
+     "uk": "усіх"
     }
    ],
    "why": {
     "en": "Exclusively cycles.",
-    "es": "Exclusivamente a los ciclos."
+    "es": "Exclusivamente a los ciclos.",
+    "uk": "Виключно циклів."
    }
   },
   {
@@ -1992,25 +2374,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "What do red-bordered triangles warn of?",
-    "es": "¿De qué avisan los triángulos con borde rojo?"
+    "es": "¿De qué avisan los triángulos con borde rojo?",
+    "uk": "Про що попереджають трикутники з червоною облямівкою?"
    },
    "o": [
     {
      "en": "A danger that is hard to see in time",
-     "es": "De un peligro difícil de percibir a tiempo"
+     "es": "De un peligro difícil de percibir a tiempo",
+     "uk": "Про небезпеку, яку важко вчасно помітити"
     },
     {
      "en": "A prohibition",
-     "es": "De una prohibición"
+     "es": "De una prohibición",
+     "uk": "Про заборону"
     },
     {
      "en": "A service",
-     "es": "De un servicio"
+     "es": "De un servicio",
+     "uk": "Про послугу"
     }
    ],
    "why": {
     "en": "A panel can add the distance or the length.",
-    "es": "Un panel puede añadir distancia o longitud."
+    "es": "Un panel puede añadir distancia o longitud.",
+    "uk": "Табличка може додати відстань чи протяжність."
    }
   },
   {
@@ -2018,25 +2405,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "Sign P-1 (thick vertical bar crossed by a thin one) means…",
-    "es": "La señal P-1 (barra vertical gruesa cruzada por otra fina) indica…"
+    "es": "La señal P-1 (barra vertical gruesa cruzada por otra fina) indica…",
+    "uk": "Знак P-1 (товста вертикальна смуга, перетнута тонкою) означає…"
    },
    "o": [
     {
      "en": "a junction where the side road gives way to you",
-     "es": "una intersección donde la vía lateral te cede el paso"
+     "es": "una intersección donde la vía lateral te cede el paso",
+     "uk": "перехрестя, де бічна дорога поступається вам"
     },
     {
      "en": "a junction with priority to the right",
-     "es": "una intersección con prioridad de la derecha"
+     "es": "una intersección con prioridad de la derecha",
+     "uk": "перехрестя з перевагою правої сторони"
     },
     {
      "en": "a crossroads with lights",
-     "es": "un cruce con semáforos"
+     "es": "un cruce con semáforos",
+     "uk": "регульоване перехрестя"
     }
    ],
    "why": {
     "en": "The thick bar is your road.",
-    "es": "La barra gruesa es tu vía."
+    "es": "La barra gruesa es tu vía.",
+    "uk": "Товста смуга — ваша дорога."
    }
   },
   {
@@ -2044,25 +2436,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "Sign P-2 (an X in a triangle) means…",
-    "es": "La señal P-2 (una X en un triángulo) indica…"
+    "es": "La señal P-2 (una X en un triángulo) indica…",
+    "uk": "Знак P-2 (X у трикутнику) означає…"
    },
    "o": [
     {
      "en": "a junction where the priority-to-the-right rule applies",
-     "es": "una intersección donde rige la prioridad de la derecha"
+     "es": "una intersección donde rige la prioridad de la derecha",
+     "uk": "перехрестя, де діє правило переваги правої сторони"
     },
     {
      "en": "a level crossing",
-     "es": "un paso a nivel"
+     "es": "un paso a nivel",
+     "uk": "залізничний переїзд"
     },
     {
      "en": "no entry",
-     "es": "entrada prohibida"
+     "es": "entrada prohibida",
+     "uk": "в’їзд заборонено"
     }
    ],
    "why": {
     "en": "The general priority rule.",
-    "es": "La regla general de prioridad."
+    "es": "La regla general de prioridad.",
+    "uk": "Загальне правило переваги."
    }
   },
   {
@@ -2070,25 +2467,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "On P-1c (merge from the right with priority), you should…",
-    "es": "Con la P-1c (incorporación por la derecha con prioridad) debes…"
+    "es": "Con la P-1c (incorporación por la derecha con prioridad) debes…",
+    "uk": "На P-1c (примикання праворуч, у вас перевага) вам слід…"
    },
    "o": [
     {
      "en": "keep priority but make the merge easier where possible",
-     "es": "mantener la prioridad pero facilitar la incorporación si es posible"
+     "es": "mantener la prioridad pero facilitar la incorporación si es posible",
+     "uk": "зберігати перевагу, але за можливості полегшувати вливання"
     },
     {
      "en": "give way to the merging traffic",
-     "es": "ceder el paso a los que se incorporan"
+     "es": "ceder el paso a los que se incorporan",
+     "uk": "поступитися тим, хто вливається"
     },
     {
      "en": "stop",
-     "es": "detenerte"
+     "es": "detenerte",
+     "uk": "зупинитися"
     }
    ],
    "why": {
     "en": "They give way, you help.",
-    "es": "Ellos ceden, tú facilitas."
+    "es": "Ellos ceden, tú facilitas.",
+    "uk": "Вони поступаються, ви допомагаєте."
    }
   },
   {
@@ -2096,25 +2498,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "A pair of posts with two red stripes each before a level crossing means it is about…",
-    "es": "Un par de balizas con dos franjas rojas cada una antes de un paso a nivel indica que está a unos…"
+    "es": "Un par de balizas con dos franjas rojas cada una antes de un paso a nivel indica que está a unos…",
+    "uk": "Пара стовпчиків із двома червоними смугами кожен перед залізничним переїздом означає, що він приблизно за…"
    },
    "o": [
     {
      "en": "150 m away",
-     "es": "150 m"
+     "es": "150 m",
+     "uk": "150 м"
     },
     {
      "en": "200 m away",
-     "es": "200 m"
+     "es": "200 m",
+     "uk": "200 м"
     },
     {
      "en": "100 m away",
-     "es": "100 m"
+     "es": "100 m",
+     "uk": "100 м"
     }
    ],
    "why": {
     "en": "3 stripes 200 m, 2 = 150 m, 1 = 100 m.",
-    "es": "3 franjas 200 m, 2 = 150 m, 1 = 100 m."
+    "es": "3 franjas 200 m, 2 = 150 m, 1 = 100 m.",
+    "uk": "3 смуги — 200 м, 2 — 150 м, 1 — 100 м."
    }
   },
   {
@@ -2122,25 +2529,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "Countdown posts (P-9/P-10) always go with sign…",
-    "es": "Las balizas P-9/P-10 van siempre acompañadas de la señal…"
+    "es": "Las balizas P-9/P-10 van siempre acompañadas de la señal…",
+    "uk": "Стовпчики зворотного відліку (P-9/P-10) завжди стоять зі знаком…"
    },
    "o": [
     {
      "en": "P-5, P-7, P-8 or P-27",
-     "es": "P-5, P-7, P-8 o P-27"
+     "es": "P-5, P-7, P-8 o P-27",
+     "uk": "P-5, P-7, P-8 чи P-27"
     },
     {
      "en": "R-2",
-     "es": "R-2"
+     "es": "R-2",
+     "uk": "R-2"
     },
     {
      "en": "P-50",
-     "es": "P-50"
+     "es": "P-50",
+     "uk": "P-50"
     }
    ],
    "why": {
     "en": "Movable bridge, level crossings or quay.",
-    "es": "Puente móvil, pasos a nivel o muelle."
+    "es": "Puente móvil, pasos a nivel o muelle.",
+    "uk": "Розвідний міст, залізничні переїзди чи причал."
    }
   },
   {
@@ -2148,25 +2560,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "Sign P-14a warns of…",
-    "es": "La señal P-14a advierte de…"
+    "es": "La señal P-14a advierte de…",
+    "uk": "Знак P-14a попереджає про…"
    },
    "o": [
     {
      "en": "a series of bends, the first to the right",
-     "es": "curvas peligrosas, la primera hacia la derecha"
+     "es": "curvas peligrosas, la primera hacia la derecha",
+     "uk": "кілька поворотів, перший праворуч"
     },
     {
      "en": "a single bend to the right",
-     "es": "una curva a la derecha"
+     "es": "una curva a la derecha",
+     "uk": "один поворот праворуч"
     },
     {
      "en": "a series of bends, the first to the left",
-     "es": "curvas, la primera a la izquierda"
+     "es": "curvas, la primera a la izquierda",
+     "uk": "кілька поворотів, перший ліворуч"
     }
    ],
    "why": {
     "en": "P-13: a single bend.",
-    "es": "P-13: una sola curva."
+    "es": "P-13: una sola curva.",
+    "uk": "P-13: один поворот."
    }
   },
   {
@@ -2174,25 +2591,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "The crosswind sign (P-29) tells you…",
-    "es": "La señal de viento transversal (P-29) te indica…"
+    "es": "La señal de viento transversal (P-29) te indica…",
+    "uk": "Знак бокового вітру (P-29) повідомляє…"
    },
    "o": [
     {
      "en": "that strong crosswinds are frequent, not from which side",
-     "es": "que sopla con frecuencia viento fuerte, pero no de qué lado"
+     "es": "que sopla con frecuencia viento fuerte, pero no de qué lado",
+     "uk": "що часто дме сильний боковий вітер, але не з якого боку"
     },
     {
      "en": "the wind comes from the right",
-     "es": "que el viento viene de la derecha"
+     "es": "que el viento viene de la derecha",
+     "uk": "що вітер дме праворуч"
     },
     {
      "en": "the wind speed",
-     "es": "la velocidad del viento"
+     "es": "la velocidad del viento",
+     "uk": "швидкість вітру"
     }
    ],
    "why": {
     "en": "It does not show the side.",
-    "es": "No indica el lado."
+    "es": "No indica el lado.",
+    "uk": "Він не показує бік."
    }
   },
   {
@@ -2200,25 +2622,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "Sign P-17 (road narrows) is NOT used when…",
-    "es": "La señal P-17 (estrechamiento) NO se usa cuando…"
+    "es": "La señal P-17 (estrechamiento) NO se usa cuando…",
+    "uk": "Знак P-17 (звуження дороги) НЕ ставлять, коли…"
    },
    "o": [
     {
      "en": "after losing a lane, the other lanes and shoulders keep their width",
-     "es": "tras perder un carril, los demás y los arcenes no varían su anchura"
+     "es": "tras perder un carril, los demás y los arcenes no varían su anchura",
+     "uk": "після втрати смуги інші смуги й узбіччя зберігають ширину"
     },
     {
      "en": "the shoulders get narrower",
-     "es": "los arcenes se estrechan"
+     "es": "los arcenes se estrechan",
+     "uk": "узбіччя звужуються"
     },
     {
      "en": "the carriageway narrows",
-     "es": "la calzada se estrecha"
+     "es": "la calzada se estrecha",
+     "uk": "звужується проїзна частина"
     }
    ],
    "why": {
     "en": "It can also be used for narrower shoulders.",
-    "es": "Puede usarse para arcenes más estrechos."
+    "es": "Puede usarse para arcenes más estrechos.",
+    "uk": "Його можна ставити й для вужчих узбіч."
    }
   },
   {
@@ -2226,25 +2653,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "Sign P-35 “Trenzado” warns of…",
-    "es": "La señal P-35 «Trenzado» advierte de…"
+    "es": "La señal P-35 «Trenzado» advierte de…",
+    "uk": "Знак P-35 «Trenzado» попереджає про…"
    },
    "o": [
     {
      "en": "a stretch between a merge and a fork where paths cross",
-     "es": "un tramo entre confluencia y bifurcación con trayectorias cruzadas"
+     "es": "un tramo entre confluencia y bifurcación con trayectorias cruzadas",
+     "uk": "ділянку між вливанням і розгалуженням, де траєкторії перетинаються"
     },
     {
      "en": "a narrow bridge",
-     "es": "un puente estrecho"
+     "es": "un puente estrecho",
+     "uk": "вузький міст"
     },
     {
      "en": "cyclists",
-     "es": "ciclistas"
+     "es": "ciclistas",
+     "uk": "велосипедистів"
     }
    ],
    "why": {
     "en": "Lane changes cross each other: collision risk.",
-    "es": "Cambios de carril cruzados: riesgo de colisión."
+    "es": "Cambios de carril cruzados: riesgo de colisión.",
+    "uk": "Перестроювання перетинаються: ризик зіткнення."
    }
   },
   {
@@ -2252,25 +2684,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "On sign P-16a the figure “10%” is…",
-    "es": "En la señal P-16a la cifra «10%» indica…"
+    "es": "En la señal P-16a la cifra «10%» indica…",
+    "uk": "На знаку P-16a цифра «10%» —"
    },
    "o": [
     {
      "en": "the gradient of the descent",
-     "es": "la inclinación de la bajada"
+     "es": "la inclinación de la bajada",
+     "uk": "це ухил спуску"
     },
     {
      "en": "the speed reduction",
-     "es": "la reducción de velocidad"
+     "es": "la reducción de velocidad",
+     "uk": "зниження швидкості"
     },
     {
      "en": "the length in km",
-     "es": "la longitud en km"
+     "es": "la longitud en km",
+     "uk": "протяжність у км"
     }
    ],
    "why": {
     "en": "P-16b is the ascent.",
-    "es": "La P-16b es la subida."
+    "es": "La P-16b es la subida.",
+    "uk": "P-16b — підйом."
    }
   },
   {
@@ -2278,25 +2715,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "Sign P-6 (tram) warns of a tram crossing where…",
-    "es": "La señal P-6 (tranvía) avisa de un cruce donde…"
+    "es": "La señal P-6 (tranvía) avisa de un cruce donde…",
+    "uk": "Знак P-6 (трамвай) попереджає про перетин із трамваєм, де…"
    },
    "o": [
     {
      "en": "the tram has priority",
-     "es": "el tranvía tiene prioridad"
+     "es": "el tranvía tiene prioridad",
+     "uk": "трамвай має перевагу"
     },
     {
      "en": "you have priority",
-     "es": "tú tienes prioridad"
+     "es": "tú tienes prioridad",
+     "uk": "ви маєте перевагу"
     },
     {
      "en": "the priority-to-the-right rule applies",
-     "es": "rige la prioridad de la derecha"
+     "es": "rige la prioridad de la derecha",
+     "uk": "діє правило правої руки"
     }
    ],
    "why": {
     "en": "It is also a priority sign.",
-    "es": "También es señal de prioridad."
+    "es": "También es señal de prioridad.",
+    "uk": "Це також знак переваги."
    }
   },
   {
@@ -2304,25 +2746,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "Sign P-15 (uneven road) warns of…",
-    "es": "La señal P-15 (perfil irregular) advierte de…"
+    "es": "La señal P-15 (perfil irregular) advierte de…",
+    "uk": "Знак P-15 (нерівна дорога) попереджає про…"
    },
    "o": [
     {
      "en": "a bump or dip or a road in poor condition",
-     "es": "un resalte, un badén o pavimento en mal estado"
+     "es": "un resalte, un badén o pavimento en mal estado",
+     "uk": "горб чи вибоїну або дорогу в поганому стані"
     },
     {
      "en": "a steep slope",
-     "es": "una fuerte pendiente"
+     "es": "una fuerte pendiente",
+     "uk": "крутий схил"
     },
     {
      "en": "falling rocks",
-     "es": "desprendimientos"
+     "es": "desprendimientos",
+     "uk": "падіння каміння"
     }
    ],
    "why": {
     "en": "P-15a bump, P-15b dip.",
-    "es": "P-15a resalte, P-15b badén."
+    "es": "P-15a resalte, P-15b badén.",
+    "uk": "P-15a — горб, P-15b — вибоїна."
    }
   },
   {
@@ -2330,25 +2777,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "Which warning sign has a yellow background?",
-    "es": "¿Qué señal de peligro tiene fondo amarillo?"
+    "es": "¿Qué señal de peligro tiene fondo amarillo?",
+    "uk": "Який попереджувальний знак має жовтий фон?"
    },
    "o": [
     {
      "en": "P-18 roadworks",
-     "es": "P-18 obras"
+     "es": "P-18 obras",
+     "uk": "P-18 дорожні роботи"
     },
     {
      "en": "P-50 other dangers",
-     "es": "P-50 otros peligros"
+     "es": "P-50 otros peligros",
+     "uk": "P-50 інші небезпеки"
     },
     {
      "en": "P-19 slippery road",
-     "es": "P-19 pavimento deslizante"
+     "es": "P-19 pavimento deslizante",
+     "uk": "P-19 слизька дорога"
     }
    ],
    "why": {
     "en": "Roadworks.",
-    "es": "Obras."
+    "es": "Obras.",
+    "uk": "Дорожні роботи."
    }
   },
   {
@@ -2356,25 +2808,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "Sign P-24a shows a wild boar. It warns of…",
-    "es": "La señal P-24a muestra un jabalí. Advierte de…"
+    "es": "La señal P-24a muestra un jabalí. Advierte de…",
+    "uk": "Знак P-24a показує дикого кабана. Він попереджає про…"
    },
    "o": [
     {
      "en": "wild animals crossing, many of them wild boar",
-     "es": "paso de animales en libertad, en gran parte jabalíes"
+     "es": "paso de animales en libertad, en gran parte jabalíes",
+     "uk": "перехід диких тварин, серед них багато кабанів"
     },
     {
      "en": "a hunting reserve",
-     "es": "un coto de caza"
+     "es": "un coto de caza",
+     "uk": "мисливський заказник"
     },
     {
      "en": "farm animals",
-     "es": "ganado doméstico"
+     "es": "ganado doméstico",
+     "uk": "свійських тварин"
     }
    ],
    "why": {
     "en": "P-23 is for domestic animals.",
-    "es": "La P-23 es para animales domésticos."
+    "es": "La P-23 es para animales domésticos.",
+    "uk": "P-23 — для свійських тварин."
    }
   },
   {
@@ -2382,25 +2839,30 @@ window.DGT_DATA = {
    "tag": "warn",
    "q": {
     "en": "Sign P-11 (red and white cross) shows…",
-    "es": "La señal P-11 (aspa roja y blanca) indica…"
+    "es": "La señal P-11 (aspa roja y blanca) indica…",
+    "uk": "Знак P-11 (червоно-білий хрест) показує…"
    },
    "o": [
     {
      "en": "an unbarriered level crossing right there",
-     "es": "la presencia inmediata de un paso a nivel sin barreras"
+     "es": "la presencia inmediata de un paso a nivel sin barreras",
+     "uk": "нерегульований переїзд просто тут"
     },
     {
      "en": "a level crossing 200 m ahead",
-     "es": "un paso a nivel a 200 m"
+     "es": "un paso a nivel a 200 m",
+     "uk": "залізничний переїзд за 200 м"
     },
     {
      "en": "a junction",
-     "es": "una intersección"
+     "es": "una intersección",
+     "uk": "перехрестя"
     }
    ],
    "why": {
     "en": "P-11a: more than one track.",
-    "es": "P-11a: más de una vía."
+    "es": "P-11a: más de una vía.",
+    "uk": "P-11a — кілька колій."
    }
   },
   {
@@ -2408,25 +2870,30 @@ window.DGT_DATA = {
    "tag": "prio",
    "q": {
     "en": "With a STOP sign and no stop line, you stop…",
-    "es": "Con STOP y sin línea de detención, te detienes…"
+    "es": "Con STOP y sin línea de detención, te detienes…",
+    "uk": "Біля знака STOP без стоп-лінії ви зупиняєтеся…"
    },
    "o": [
     {
      "en": "immediately before the junction",
-     "es": "inmediatamente antes de la intersección"
+     "es": "inmediatamente antes de la intersección",
+     "uk": "безпосередньо перед перехрестям"
     },
     {
      "en": "next to the sign",
-     "es": "junto a la señal"
+     "es": "junto a la señal",
+     "uk": "біля знака"
     },
     {
      "en": "in the middle of the junction",
-     "es": "en mitad de la intersección"
+     "es": "en mitad de la intersección",
+     "uk": "посеред перехрестя"
     }
    ],
    "why": {
     "en": "Then give way.",
-    "es": "Y cedes el paso."
+    "es": "Y cedes el paso.",
+    "uk": "Потім поступаєтеся."
    }
   },
   {
@@ -2434,25 +2901,30 @@ window.DGT_DATA = {
    "tag": "prio",
    "q": {
     "en": "You stopped at the STOP line but still cannot see. You…",
-    "es": "Te detuviste en la línea del STOP pero no ves bien. Tú…"
+    "es": "Te detuviste en la línea del STOP pero no ves bien. Tú…",
+    "uk": "Ви зупинилися на стоп-лінії біля STOP, але досі не бачите. Ви…"
    },
    "o": [
     {
      "en": "move forward and stop again where you can see",
-     "es": "avanzas y te detienes de nuevo donde haya visibilidad"
+     "es": "avanzas y te detienes de nuevo donde haya visibilidad",
+     "uk": "проїжджаєте вперед і зупиняєтеся ще раз там, де видно"
     },
     {
      "en": "go on: you already stopped",
-     "es": "sigues: ya paraste"
+     "es": "sigues: ya paraste",
+     "uk": "їдете: ви вже зупинялися"
     },
     {
      "en": "sound the horn and go",
-     "es": "pitas y pasas"
+     "es": "pitas y pasas",
+     "uk": "сигналите й їдете"
     }
    ],
    "why": {
     "en": "Without endangering anyone.",
-    "es": "Sin poner en peligro a nadie."
+    "es": "Sin poner en peligro a nadie.",
+    "uk": "Нікому не створюючи небезпеки."
    }
   },
   {
@@ -2460,25 +2932,30 @@ window.DGT_DATA = {
    "tag": "prio",
    "q": {
     "en": "A round sign with a red border shows a black arrow down and a red arrow up. You must…",
-    "es": "Una señal redonda con borde rojo muestra una flecha negra hacia abajo y una roja hacia arriba. Debes…"
+    "es": "Una señal redonda con borde rojo muestra una flecha negra hacia abajo y una roja hacia arriba. Debes…",
+    "uk": "Круглий знак із червоною облямівкою показує чорну стрілку вниз і червону вгору. Ви мусите…"
    },
    "o": [
     {
      "en": "give way to oncoming traffic in the narrow passage",
-     "es": "ceder el paso a los que vienen en sentido contrario en el paso estrecho"
+     "es": "ceder el paso a los que vienen en sentido contrario en el paso estrecho",
+     "uk": "поступитися зустрічному руху у вузькому місці"
     },
     {
      "en": "go first",
-     "es": "pasar primero"
+     "es": "pasar primero",
+     "uk": "проїхати першим"
     },
     {
      "en": "turn round",
-     "es": "dar la vuelta"
+     "es": "dar la vuelta",
+     "uk": "розвернутися"
     }
    ],
    "why": {
     "en": "That is R-5; R-6 (blue square) gives you priority.",
-    "es": "Es la R-5; la R-6 (azul) te da prioridad."
+    "es": "Es la R-5; la R-6 (azul) te da prioridad.",
+    "uk": "Це R-5; R-6 (синій квадрат) дає вам перевагу."
    }
   },
   {
@@ -2486,25 +2963,30 @@ window.DGT_DATA = {
    "tag": "prio",
    "q": {
     "en": "Sign R-6 (blue square, white arrow up) tells you…",
-    "es": "La señal R-6 (cuadrado azul, flecha blanca arriba) te indica…"
+    "es": "La señal R-6 (cuadrado azul, flecha blanca arriba) te indica…",
+    "uk": "Знак R-6 (синій квадрат, біла стрілка вгору) каже…"
    },
    "o": [
     {
      "en": "you have priority over oncoming traffic in the narrow passage",
-     "es": "tienes prioridad sobre los que vienen en el paso estrecho"
+     "es": "tienes prioridad sobre los que vienen en el paso estrecho",
+     "uk": "у вас перевага над зустрічним рухом у вузькому місці"
     },
     {
      "en": "give way to oncoming traffic",
-     "es": "cede el paso a los que vienen"
+     "es": "cede el paso a los que vienen",
+     "uk": "поступіться зустрічному руху"
     },
     {
      "en": "one-way road",
-     "es": "calzada de sentido único"
+     "es": "calzada de sentido único",
+     "uk": "дорога з одностороннім рухом"
     }
    ],
    "why": {
     "en": "Your arrow is the big white one.",
-    "es": "Tu flecha es la blanca grande."
+    "es": "Tu flecha es la blanca grande.",
+    "uk": "Ваша стрілка — велика біла."
    }
   },
   {
@@ -2512,25 +2994,30 @@ window.DGT_DATA = {
    "tag": "prio",
    "q": {
     "en": "Sign R-4 (yellow diamond with a black band) means…",
-    "es": "La señal R-4 (rombo amarillo con franja negra) significa…"
+    "es": "La señal R-4 (rombo amarillo con franja negra) significa…",
+    "uk": "Знак R-4 (жовтий ромб із чорною смугою) означає…"
    },
    "o": [
     {
      "en": "end of priority",
-     "es": "fin de prioridad"
+     "es": "fin de prioridad",
+     "uk": "кінець переваги"
     },
     {
      "en": "priority road",
-     "es": "calzada con prioridad"
+     "es": "calzada con prioridad",
+     "uk": "головна дорога"
     },
     {
      "en": "give way",
-     "es": "ceda el paso"
+     "es": "ceda el paso",
+     "uk": "дати дорогу"
     }
    ],
    "why": {
     "en": "R-3 is the priority road.",
-    "es": "La R-3 es calzada con prioridad."
+    "es": "La R-3 es calzada con prioridad.",
+    "uk": "R-3 — головна дорога."
    }
   },
   {
@@ -2538,25 +3025,30 @@ window.DGT_DATA = {
    "tag": "prio",
    "q": {
     "en": "Which of these warning signs is also a priority sign?",
-    "es": "¿Cuál de estas señales de peligro es también de prioridad?"
+    "es": "¿Cuál de estas señales de peligro es también de prioridad?",
+    "uk": "Який із цих попереджувальних знаків є ще й знаком переваги?"
    },
    "o": [
     {
      "en": "P-8 level crossing without barriers",
-     "es": "P-8 paso a nivel sin barreras"
+     "es": "P-8 paso a nivel sin barreras",
+     "uk": "P-8 переїзд без шлагбаума"
     },
     {
      "en": "P-13a bend",
-     "es": "P-13a curva"
+     "es": "P-13a curva",
+     "uk": "P-13a поворот"
     },
     {
      "en": "P-19 slippery",
-     "es": "P-19 deslizante"
+     "es": "P-19 deslizante",
+     "uk": "P-19 слизька дорога"
     }
    ],
    "why": {
     "en": "P-1 to P-1e, P-2, P-6, P-7, P-8.",
-    "es": "P-1 a P-1e, P-2, P-6, P-7, P-8."
+    "es": "P-1 a P-1e, P-2, P-6, P-7, P-8.",
+    "uk": "P-1–P-1e, P-2, P-6, P-7, P-8."
    }
   },
   {
@@ -2564,25 +3056,30 @@ window.DGT_DATA = {
    "tag": "prio",
    "q": {
     "en": "From where does a regulatory sign apply?",
-    "es": "¿Desde dónde rige una señal de reglamentación?"
+    "es": "¿Desde dónde rige una señal de reglamentación?",
+    "uk": "Звідки діє регулювальний знак?"
    },
    "o": [
     {
      "en": "From the point where it stands, unless a panel gives a distance",
-     "es": "Desde donde está, salvo que un panel indique distancia"
+     "es": "Desde donde está, salvo que un panel indique distancia",
+     "uk": "З місця, де він стоїть, якщо табличка не вказує відстань"
     },
     {
      "en": "100 m after it",
-     "es": "100 m después"
+     "es": "100 m después",
+     "uk": "За 100 м після нього"
     },
     {
      "en": "From the next junction",
-     "es": "Desde la próxima intersección"
+     "es": "Desde la próxima intersección",
+     "uk": "З наступного перехрестя"
     }
    ],
    "why": {
     "en": "The panel goes below the sign.",
-    "es": "El panel va debajo de la señal."
+    "es": "El panel va debajo de la señal.",
+    "uk": "Табличку ставлять під знаком."
    }
   },
   {
@@ -2590,25 +3087,30 @@ window.DGT_DATA = {
    "tag": "prio",
    "q": {
     "en": "A 40 km/h sign stands on the same post as the town-name sign. It applies…",
-    "es": "Una señal de 40 km/h está en el mismo poste que la de nombre del poblado. Rige…"
+    "es": "Una señal de 40 km/h está en el mismo poste que la de nombre del poblado. Rige…",
+    "uk": "Знак 40 км/год стоїть на одному стовпі зі знаком назви населеного пункту. Він діє…"
    },
    "o": [
     {
      "en": "in the whole town, unless other signs say otherwise",
-     "es": "en todo el poblado, salvo otras señales"
+     "es": "en todo el poblado, salvo otras señales",
+     "uk": "у всьому населеному пункті, якщо інші знаки не кажуть іншого"
     },
     {
      "en": "only for 100 m",
-     "es": "solo 100 m"
+     "es": "solo 100 m",
+     "uk": "лише 100 м"
     },
     {
      "en": "only on the travesía",
-     "es": "solo en la travesía"
+     "es": "solo en la travesía",
+     "uk": "лише на travesía"
     }
    ],
    "why": {
     "en": "Before or after the town sign: only the travesía.",
-    "es": "Antes o después de la de poblado: solo la travesía."
+    "es": "Antes o después de la de poblado: solo la travesía.",
+    "uk": "Перед знаком населеного пункту чи після нього — лише на travesía."
    }
   },
   {
@@ -2616,25 +3118,30 @@ window.DGT_DATA = {
    "tag": "prio",
    "q": {
     "en": "The give-way sign (R-1) obliges you to give way…",
-    "es": "La señal de ceda el paso (R-1) obliga a ceder…"
+    "es": "La señal de ceda el paso (R-1) obliga a ceder…",
+    "uk": "Знак «Дати дорогу» (R-1) зобов’язує поступитися…"
    },
    "o": [
     {
      "en": "at the next junction to vehicles on the road you approach",
-     "es": "en la próxima intersección a los vehículos de la vía a la que te aproximas"
+     "es": "en la próxima intersección a los vehículos de la vía a la que te aproximas",
+     "uk": "на наступному перехресті ТЗ на дорозі, до якої ви під’їжджаєте"
     },
     {
      "en": "to everyone for 1 km",
-     "es": "a todos durante 1 km"
+     "es": "a todos durante 1 km",
+     "uk": "усім на 1 км"
     },
     {
      "en": "only to pedestrians",
-     "es": "solo a peatones"
+     "es": "solo a peatones",
+     "uk": "лише пішоходам"
     }
    ],
    "why": {
     "en": "Or to the lane you want to join.",
-    "es": "O al carril al que te incorporas."
+    "es": "O al carril al que te incorporas.",
+    "uk": "Або смузі, на яку хочете влитися."
    }
   },
   {
@@ -2642,25 +3149,30 @@ window.DGT_DATA = {
    "tag": "noentry",
    "q": {
     "en": "Sign R-100 (red ring, white centre) forbids…",
-    "es": "La señal R-100 (borde rojo, centro blanco) prohíbe…"
+    "es": "La señal R-100 (borde rojo, centro blanco) prohíbe…",
+    "uk": "Знак R-100 (червоне кільце, білий центр) забороняє…"
    },
    "o": [
     {
      "en": "all vehicles in both directions",
-     "es": "la circulación de todo vehículo en ambos sentidos"
+     "es": "la circulación de todo vehículo en ambos sentidos",
+     "uk": "усім ТЗ в обох напрямках"
     },
     {
      "en": "entry in your direction only",
-     "es": "la entrada solo en tu sentido"
+     "es": "la entrada solo en tu sentido",
+     "uk": "в’їзд лише у вашому напрямку"
     },
     {
      "en": "parking",
-     "es": "estacionar"
+     "es": "estacionar",
+     "uk": "стоянку"
     }
    ],
    "why": {
     "en": "R-101 is no entry for your direction.",
-    "es": "R-101 es entrada prohibida."
+    "es": "R-101 es entrada prohibida.",
+    "uk": "R-101 — в’їзд заборонено для вашого напрямку."
    }
   },
   {
@@ -2668,25 +3180,30 @@ window.DGT_DATA = {
    "tag": "noentry",
    "q": {
     "en": "Sign R-103 (car in a red ring) lets in…",
-    "es": "La señal R-103 (turismo en borde rojo) permite la entrada a…"
+    "es": "La señal R-103 (turismo en borde rojo) permite la entrada a…",
+    "uk": "Знак R-103 (автомобіль у червоному кільці) пропускає…"
    },
    "o": [
     {
      "en": "two-wheeled motorcycles",
-     "es": "motocicletas de dos ruedas"
+     "es": "motocicletas de dos ruedas",
+     "uk": "двоколісні мотоцикли"
     },
     {
      "en": "cars with trailers",
-     "es": "turismos con remolque"
+     "es": "turismos con remolque",
+     "uk": "легковики з причепами"
     },
     {
      "en": "no motor vehicle",
-     "es": "ningún vehículo de motor"
+     "es": "ningún vehículo de motor",
+     "uk": "жоден механічний ТЗ"
     }
    ],
    "why": {
     "en": "R-102 bans all motor vehicles.",
-    "es": "La R-102 prohíbe todos los de motor."
+    "es": "La R-102 prohíbe todos los de motor.",
+    "uk": "R-102 забороняє всі механічні ТЗ."
    }
   },
   {
@@ -2694,25 +3211,30 @@ window.DGT_DATA = {
    "tag": "noentry",
    "q": {
     "en": "Sign R-105 (moped) also forbids…",
-    "es": "La señal R-105 (ciclomotor) prohíbe también…"
+    "es": "La señal R-105 (ciclomotor) prohíbe también…",
+    "uk": "Знак R-105 (мопед) також забороняє…"
    },
    "o": [
     {
      "en": "vehicles for people with reduced mobility",
-     "es": "los vehículos para personas de movilidad reducida"
+     "es": "los vehículos para personas de movilidad reducida",
+     "uk": "ТЗ для осіб з обмеженою рухливістю"
     },
     {
      "en": "bicycles",
-     "es": "las bicicletas"
+     "es": "las bicicletas",
+     "uk": "велосипеди"
     },
     {
      "en": "motorcycles",
-     "es": "las motocicletas"
+     "es": "las motocicletas",
+     "uk": "мотоцикли"
     }
    ],
    "why": {
     "en": "As the course says.",
-    "es": "Según el curso."
+    "es": "Según el curso.",
+    "uk": "Як каже курс."
    }
   },
   {
@@ -2720,25 +3242,30 @@ window.DGT_DATA = {
    "tag": "noentry",
    "q": {
     "en": "An empty lorry of 12 t MMA meets an R-107 sign showing 5.5 t. It…",
-    "es": "Un camión vacío de 12 t de MMA encuentra una R-107 de 5,5 t. Él…"
+    "es": "Un camión vacío de 12 t de MMA encuentra una R-107 de 5,5 t. Él…",
+    "uk": "Порожня вантажівка з MMA 12 т під’їжджає до знака R-107 з цифрою 5,5 т. Вона…"
    },
    "o": [
     {
      "en": "may not enter, even empty",
-     "es": "no puede entrar, aunque vaya vacío"
+     "es": "no puede entrar, aunque vaya vacío",
+     "uk": "не може в’їхати, навіть порожня"
     },
     {
      "en": "may enter: it is empty",
-     "es": "puede entrar: va vacío"
+     "es": "puede entrar: va vacío",
+     "uk": "може в’їхати: вона порожня"
     },
     {
      "en": "may enter at 30 km/h",
-     "es": "puede entrar a 30 km/h"
+     "es": "puede entrar a 30 km/h",
+     "uk": "може в’їхати на 30 км/год"
     }
    ],
    "why": {
     "en": "R-107 looks at the maximum authorised mass.",
-    "es": "La R-107 se fija en la masa máxima autorizada."
+    "es": "La R-107 se fija en la masa máxima autorizada.",
+    "uk": "R-107 дивиться на максимальну дозволену масу."
    }
   },
   {
@@ -2746,25 +3273,30 @@ window.DGT_DATA = {
    "tag": "noentry",
    "q": {
     "en": "Sign R-201 “5,5t” forbids vehicles whose…",
-    "es": "La señal R-201 «5,5t» prohíbe el paso a vehículos cuya…"
+    "es": "La señal R-201 «5,5t» prohíbe el paso a vehículos cuya…",
+    "uk": "Знак R-201 «5,5t» забороняє ТЗ, у яких…"
    },
    "o": [
     {
      "en": "actual laden mass is over 5.5 t",
-     "es": "masa en carga supere 5,5 t"
+     "es": "masa en carga supere 5,5 t",
+     "uk": "фактична маса з навантаженням понад 5,5 т"
     },
     {
      "en": "MMA is over 5.5 t even empty",
-     "es": "MMA supere 5,5 t aunque vayan vacíos"
+     "es": "MMA supere 5,5 t aunque vayan vacíos",
+     "uk": "MMA понад 5,5 т навіть порожніх"
     },
     {
      "en": "axle mass is over 5.5 t",
-     "es": "masa por eje supere 5,5 t"
+     "es": "masa por eje supere 5,5 t",
+     "uk": "навантаження на вісь понад 5,5 т"
     }
    ],
    "why": {
     "en": "R-202 is per axle.",
-    "es": "La R-202 es por eje."
+    "es": "La R-202 es por eje.",
+    "uk": "R-202 — на вісь."
    }
   },
   {
@@ -2772,25 +3304,30 @@ window.DGT_DATA = {
    "tag": "noentry",
    "q": {
     "en": "Height limit R-205 counts…",
-    "es": "La limitación de altura R-205 cuenta…"
+    "es": "La limitación de altura R-205 cuenta…",
+    "uk": "Обмеження висоти R-205 враховує…"
    },
    "o": [
     {
      "en": "the vehicle with its load",
-     "es": "el vehículo incluida la carga"
+     "es": "el vehículo incluida la carga",
+     "uk": "ТЗ разом із вантажем"
     },
     {
      "en": "the vehicle without load",
-     "es": "el vehículo sin carga"
+     "es": "el vehículo sin carga",
+     "uk": "ТЗ без вантажу"
     },
     {
      "en": "only the cab",
-     "es": "solo la cabina"
+     "es": "solo la cabina",
+     "uk": "лише кабіну"
     }
    ],
    "why": {
     "en": "Same for length and width.",
-    "es": "Igual longitud y anchura."
+    "es": "Igual longitud y anchura.",
+    "uk": "Так само довжину й ширину."
    }
   },
   {
@@ -2798,25 +3335,30 @@ window.DGT_DATA = {
    "tag": "noentry",
    "q": {
     "en": "Sign R-200 (red ring, black bar) means…",
-    "es": "La señal R-200 (borde rojo, barra negra) significa…"
+    "es": "La señal R-200 (borde rojo, barra negra) significa…",
+    "uk": "Знак R-200 (червоне кільце, чорна смуга) означає…"
    },
    "o": [
     {
      "en": "no passing without stopping (customs, police, toll…)",
-     "es": "prohibido pasar sin detenerse (aduana, policía, peaje…)"
+     "es": "prohibido pasar sin detenerse (aduana, policía, peaje…)",
+     "uk": "проїзд без зупинки заборонено (митниця, поліція, пункт оплати…)"
     },
     {
      "en": "no entry",
-     "es": "entrada prohibida"
+     "es": "entrada prohibida",
+     "uk": "в’їзд заборонено"
     },
     {
      "en": "end of prohibitions",
-     "es": "fin de prohibiciones"
+     "es": "fin de prohibiciones",
+     "uk": "кінець заборон"
     }
    ],
    "why": {
     "en": "You go on only after doing what it requires.",
-    "es": "Solo se reanuda tras cumplir lo que establece."
+    "es": "Solo se reanuda tras cumplir lo que establece.",
+    "uk": "Їхати далі можна, лише виконавши те, чого він вимагає."
    }
   },
   {
@@ -2824,25 +3366,30 @@ window.DGT_DATA = {
    "tag": "noentry",
    "q": {
     "en": "Sign R-110 bans vehicles carrying water pollutants of…",
-    "es": "La señal R-110 prohíbe vehículos con contaminantes del agua de…"
+    "es": "La señal R-110 prohíbe vehículos con contaminantes del agua de…",
+    "uk": "Знак R-110 забороняє ТЗ, що везуть речовини, які забруднюють воду, у кількості…"
    },
    "o": [
     {
      "en": "more than 1,000 litres",
-     "es": "más de 1.000 litros"
+     "es": "más de 1.000 litros",
+     "uk": "понад 1 000 літрів"
     },
     {
      "en": "any amount",
-     "es": "cualquier cantidad"
+     "es": "cualquier cantidad",
+     "uk": "будь-якій"
     },
     {
      "en": "more than 500 litres",
-     "es": "más de 500 litros"
+     "es": "más de 500 litros",
+     "uk": "понад 500 літрів"
     }
    ],
    "why": {
     "en": "R-415 is the matching obligation.",
-    "es": "La R-415 es la obligación equivalente."
+    "es": "La R-415 es la obligación equivalente.",
+    "uk": "R-415 — відповідний обов’язок."
    }
   },
   {
@@ -2850,25 +3397,30 @@ window.DGT_DATA = {
    "tag": "noentry",
    "q": {
     "en": "Sign R-120 restricts entry according to…",
-    "es": "La señal R-120 restringe la entrada según…"
+    "es": "La señal R-120 restringe la entrada según…",
+    "uk": "Знак R-120 обмежує в’їзд залежно від…"
    },
    "o": [
     {
      "en": "the vehicle’s environmental label",
-     "es": "el distintivo ambiental del vehículo"
+     "es": "el distintivo ambiental del vehículo",
+     "uk": "екологічної наліпки ТЗ"
     },
     {
      "en": "the vehicle’s age only",
-     "es": "solo la antigüedad"
+     "es": "solo la antigüedad",
+     "uk": "лише віку ТЗ"
     },
     {
      "en": "the number of passengers",
-     "es": "el número de ocupantes"
+     "es": "el número de ocupantes",
+     "uk": "кількості пасажирів"
     }
    ],
    "why": {
     "en": "Conditions on an S-860 panel or placard.",
-    "es": "Condiciones en un panel S-860 o cartel."
+    "es": "Condiciones en un panel S-860 o cartel.",
+    "uk": "Умови — на табличці S-860 чи щиті."
    }
   },
   {
@@ -2876,25 +3428,30 @@ window.DGT_DATA = {
    "tag": "noentry",
    "q": {
     "en": "No-entry signs bind the users who…",
-    "es": "Las señales de prohibición de entrada afectan a los usuarios que…"
+    "es": "Las señales de prohibición de entrada afectan a los usuarios que…",
+    "uk": "Знаки заборони в’їзду зобов’язують тих учасників руху, які…"
    },
    "o": [
     {
      "en": "meet them head-on in their direction of travel",
-     "es": "se las encuentren de frente en el sentido de su marcha"
+     "es": "se las encuentren de frente en el sentido de su marcha",
+     "uk": "бачать їх перед собою у своєму напрямку руху"
     },
     {
      "en": "see them in the mirror",
-     "es": "las vean por el retrovisor"
+     "es": "las vean por el retrovisor",
+     "uk": "бачать їх у дзеркалі"
     },
     {
      "en": "live in the street",
-     "es": "residan en la calle"
+     "es": "residan en la calle",
+     "uk": "живуть на вулиці"
     }
    ],
    "why": {
     "en": "From where they stand.",
-    "es": "Desde donde estén."
+    "es": "Desde donde estén.",
+    "uk": "З того місця, де вони стоять."
    }
   },
   {
@@ -2902,25 +3459,30 @@ window.DGT_DATA = {
    "tag": "noentry",
    "q": {
     "en": "Sign R-112 with “2t” on the trailer bans…",
-    "es": "La señal R-112 con «2t» en el remolque prohíbe…"
+    "es": "La señal R-112 con «2t» en el remolque prohíbe…",
+    "uk": "Знак R-112 з «2t» на причепі забороняє…"
    },
    "o": [
     {
      "en": "vehicles towing a trailer whose maximum mass is over 2 t (except single-axle)",
-     "es": "vehículos con remolque de MMA superior a 2 t (salvo de un eje)"
+     "es": "vehículos con remolque de MMA superior a 2 t (salvo de un eje)",
+     "uk": "ТЗ із причепом, максимальна маса якого понад 2 т (крім одновісних)"
     },
     {
      "en": "all trailers",
-     "es": "todos los remolques"
+     "es": "todos los remolques",
+     "uk": "усі причепи"
     },
     {
      "en": "vehicles over 2 t",
-     "es": "vehículos de más de 2 t"
+     "es": "vehículos de más de 2 t",
+     "uk": "ТЗ понад 2 т"
     }
    ],
    "why": {
     "en": "Single-axle trailers are excepted.",
-    "es": "Se exceptúan los de un solo eje."
+    "es": "Se exceptúan los de un solo eje.",
+    "uk": "Одновісні причепи — виняток."
    }
   },
   {
@@ -2928,25 +3490,30 @@ window.DGT_DATA = {
    "tag": "other",
    "q": {
     "en": "Sign R-300 “70 m” obliges you to…",
-    "es": "La señal R-300 «70 m» obliga a…"
+    "es": "La señal R-300 «70 m» obliga a…",
+    "uk": "Знак R-300 «70 m» зобов’язує вас…"
    },
    "o": [
     {
      "en": "keep at least 70 m from the vehicle ahead, except to overtake",
-     "es": "mantener al menos 70 m con el precedente, salvo para adelantar"
+     "es": "mantener al menos 70 m con el precedente, salvo para adelantar",
+     "uk": "тримати щонайменше 70 м від ТЗ попереду, крім обгону"
     },
     {
      "en": "drive at 70 km/h",
-     "es": "circular a 70 km/h"
+     "es": "circular a 70 km/h",
+     "uk": "їхати 70 км/год"
     },
     {
      "en": "stop in 70 m",
-     "es": "detenerse en 70 m"
+     "es": "detenerse en 70 m",
+     "uk": "зупинитися за 70 м"
     }
    ],
    "why": {
     "en": "Without a figure it is a general reminder.",
-    "es": "Sin cifra es un recordatorio genérico."
+    "es": "Sin cifra es un recordatorio genérico.",
+    "uk": "Без цифри — загальне нагадування."
    }
   },
   {
@@ -2954,25 +3521,30 @@ window.DGT_DATA = {
    "tag": "other",
    "q": {
     "en": "A speed limit sign is on the same post as a bend warning. The limit ends…",
-    "es": "Una limitación de velocidad está en el mismo poste que una señal de curva. La limitación termina…"
+    "es": "Una limitación de velocidad está en el mismo poste que una señal de curva. La limitación termina…",
+    "uk": "Знак обмеження швидкості стоїть на одному стовпі з попередженням про поворот. Обмеження закінчується…"
    },
    "o": [
     {
      "en": "when the danger ends",
-     "es": "cuando termina el peligro"
+     "es": "cuando termina el peligro",
+     "uk": "коли закінчується небезпека"
     },
     {
      "en": "at the next junction",
-     "es": "en la próxima intersección"
+     "es": "en la próxima intersección",
+     "uk": "на наступному перехресті"
     },
     {
      "en": "only with an end sign",
-     "es": "solo con una señal de fin"
+     "es": "solo con una señal de fin",
+     "uk": "лише знаком кінця"
     }
    ],
    "why": {
     "en": "Otherwise it lasts until an end sign or another limit.",
-    "es": "Si no, hasta su fin u otra limitación."
+    "es": "Si no, hasta su fin u otra limitación.",
+    "uk": "Інакше діє до знака кінця чи іншого обмеження."
    }
   },
   {
@@ -2980,25 +3552,30 @@ window.DGT_DATA = {
    "tag": "other",
    "q": {
     "en": "A speed limit on a road without priority stops applying…",
-    "es": "Una limitación en una vía sin prioridad deja de regir…"
+    "es": "Una limitación en una vía sin prioridad deja de regir…",
+    "uk": "Обмеження швидкості на другорядній дорозі перестає діяти…"
    },
    "o": [
     {
      "en": "after a junction with a priority road",
-     "es": "al salir de una intersección con una vía con prioridad"
+     "es": "al salir de una intersección con una vía con prioridad",
+     "uk": "після перехрестя з головною дорогою"
     },
     {
      "en": "after 1 km",
-     "es": "tras 1 km"
+     "es": "tras 1 km",
+     "uk": "через 1 км"
     },
     {
      "en": "never",
-     "es": "nunca"
+     "es": "nunca",
+     "uk": "ніколи"
     }
    ],
    "why": {
     "en": "Unless repeated.",
-    "es": "Salvo que se repita."
+    "es": "Salvo que se repita.",
+    "uk": "Якщо його не повторено."
    }
   },
   {
@@ -3006,25 +3583,30 @@ window.DGT_DATA = {
    "tag": "other",
    "q": {
     "en": "Sign R-303 (no left turn) also forbids…",
-    "es": "La señal R-303 (giro a la izquierda prohibido) prohíbe también…"
+    "es": "La señal R-303 (giro a la izquierda prohibido) prohíbe también…",
+    "uk": "Знак R-303 (поворот ліворуч заборонено) також забороняє…"
    },
    "o": [
     {
      "en": "U-turns",
-     "es": "el cambio de sentido"
+     "es": "el cambio de sentido",
+     "uk": "розвороти"
     },
     {
      "en": "overtaking",
-     "es": "adelantar"
+     "es": "adelantar",
+     "uk": "обгін"
     },
     {
      "en": "parking",
-     "es": "estacionar"
+     "es": "estacionar",
+     "uk": "стоянку"
     }
    ],
    "why": {
     "en": "R-304 (no U-turn) still allows turning.",
-    "es": "La R-304 (media vuelta) permite girar."
+    "es": "La R-304 (media vuelta) permite girar.",
+    "uk": "R-304 (розворот заборонено) поворот однаково дозволяє."
    }
   },
   {
@@ -3032,25 +3614,30 @@ window.DGT_DATA = {
    "tag": "other",
    "q": {
     "en": "Sign R-304 (no U-turn)…",
-    "es": "La señal R-304 (media vuelta prohibida)…"
+    "es": "La señal R-304 (media vuelta prohibida)…",
+    "uk": "Знак R-304 (розворот заборонено)…"
    },
    "o": [
     {
      "en": "allows you to turn left",
-     "es": "permite girar a la izquierda"
+     "es": "permite girar a la izquierda",
+     "uk": "дозволяє повернути ліворуч"
     },
     {
      "en": "forbids turning left",
-     "es": "prohíbe girar a la izquierda"
+     "es": "prohíbe girar a la izquierda",
+     "uk": "забороняє повертати ліворуч"
     },
     {
      "en": "forbids all turns",
-     "es": "prohíbe todos los giros"
+     "es": "prohíbe todos los giros",
+     "uk": "забороняє всі повороти"
     }
    ],
    "why": {
     "en": "Only the change of direction of travel is banned.",
-    "es": "Solo prohíbe el cambio de sentido."
+    "es": "Solo prohíbe el cambio de sentido.",
+    "uk": "Заборонено лише зміну напрямку руху на протилежний."
    }
   },
   {
@@ -3058,25 +3645,30 @@ window.DGT_DATA = {
    "tag": "other",
    "q": {
     "en": "Sign R-305 forbids overtaking motor vehicles…",
-    "es": "La señal R-305 prohíbe adelantar a vehículos de motor…"
+    "es": "La señal R-305 prohíbe adelantar a vehículos de motor…",
+    "uk": "Знак R-305 забороняє обганяти механічні ТЗ…"
    },
    "o": [
     {
      "en": "when it means using the oncoming side",
-     "es": "cuando implique invadir el sentido contrario"
+     "es": "cuando implique invadir el sentido contrario",
+     "uk": "коли для цього треба виїжджати на зустрічний бік"
     },
     {
      "en": "always",
-     "es": "siempre"
+     "es": "siempre",
+     "uk": "завжди"
     },
     {
      "en": "only at night",
-     "es": "solo de noche"
+     "es": "solo de noche",
+     "uk": "лише вночі"
     }
    ],
    "why": {
     "en": "Until “end of no overtaking” or “end of prohibitions”.",
-    "es": "Hasta su fin o «Fin de prohibiciones»."
+    "es": "Hasta su fin o «Fin de prohibiciones».",
+    "uk": "До «кінець заборони обгону» чи «кінець заборон»."
    }
   },
   {
@@ -3084,25 +3676,30 @@ window.DGT_DATA = {
    "tag": "other",
    "q": {
     "en": "Sign R-306 applies to lorries with an MMA over…",
-    "es": "La señal R-306 afecta a camiones de MMA superior a…"
+    "es": "La señal R-306 afecta a camiones de MMA superior a…",
+    "uk": "Знак R-306 стосується вантажівок з MMA понад…"
    },
    "o": [
     {
      "en": "3,500 kg",
-     "es": "3.500 kg"
+     "es": "3.500 kg",
+     "uk": "3 500 кг"
     },
     {
      "en": "7,500 kg",
-     "es": "7.500 kg"
+     "es": "7.500 kg",
+     "uk": "7 500 кг"
     },
     {
      "en": "12,000 kg",
-     "es": "12.000 kg"
+     "es": "12.000 kg",
+     "uk": "12 000 кг"
     }
    ],
    "why": {
     "en": "Even if overtaking does not invade the oncoming side.",
-    "es": "Aunque no invadan el sentido contrario."
+    "es": "Aunque no invadan el sentido contrario.",
+    "uk": "Навіть якщо обгін не потребує виїзду на зустрічний бік."
    }
   },
   {
@@ -3110,25 +3707,30 @@ window.DGT_DATA = {
    "tag": "other",
    "q": {
     "en": "Sign R-308 (blue disc, one red diagonal) means…",
-    "es": "La señal R-308 (fondo azul, una diagonal roja) significa…"
+    "es": "La señal R-308 (fondo azul, una diagonal roja) significa…",
+    "uk": "Знак R-308 (синій диск, одна червона діагональ) означає…"
    },
    "o": [
     {
      "en": "no parking, stopping allowed",
-     "es": "estacionamiento prohibido, parada permitida"
+     "es": "estacionamiento prohibido, parada permitida",
+     "uk": "стоянку заборонено, зупинку дозволено"
     },
     {
      "en": "no stopping or parking",
-     "es": "parada y estacionamiento prohibidos"
+     "es": "parada y estacionamiento prohibidos",
+     "uk": "зупинку й стоянку заборонено"
     },
     {
      "en": "parking for residents",
-     "es": "estacionamiento para residentes"
+     "es": "estacionamiento para residentes",
+     "uk": "стоянка для мешканців"
     }
    ],
    "why": {
     "en": "R-307 (red X) bans stopping too.",
-    "es": "La R-307 (aspa) prohíbe también parar."
+    "es": "La R-307 (aspa) prohíbe también parar.",
+    "uk": "R-307 (червоний X) забороняє й зупинку."
    }
   },
   {
@@ -3136,25 +3738,30 @@ window.DGT_DATA = {
    "tag": "other",
    "q": {
     "en": "Sign R-308c (“1-15”) forbids parking…",
-    "es": "La señal R-308c («1-15») prohíbe estacionar…"
+    "es": "La señal R-308c («1-15») prohíbe estacionar…",
+    "uk": "Знак R-308c («1-15») забороняє стоянку…"
    },
    "o": [
     {
      "en": "from 9:00 on day 1 to 9:00 on day 16",
-     "es": "desde las 9 h del día 1 hasta las 9 h del día 16"
+     "es": "desde las 9 h del día 1 hasta las 9 h del día 16",
+     "uk": "з 9:00 1-го числа до 9:00 16-го"
     },
     {
      "en": "from 0:00 day 1 to 24:00 day 15",
-     "es": "de las 0 h del día 1 a las 24 h del día 15"
+     "es": "de las 0 h del día 1 a las 24 h del día 15",
+     "uk": "з 0:00 1-го до 24:00 15-го"
     },
     {
      "en": "on odd days",
-     "es": "los días impares"
+     "es": "los días impares",
+     "uk": "у непарні дні"
     }
    ],
    "why": {
     "en": "R-308d: from 9:00 day 16 to 9:00 day 1.",
-    "es": "R-308d: de las 9 h del día 16 a las 9 h del día 1."
+    "es": "R-308d: de las 9 h del día 16 a las 9 h del día 1.",
+    "uk": "R-308d: з 9:00 16-го до 9:00 1-го."
    }
   },
   {
@@ -3162,25 +3769,30 @@ window.DGT_DATA = {
    "tag": "other",
    "q": {
     "en": "Unless shown otherwise, a no-parking sign applies…",
-    "es": "Salvo indicación, una señal de estacionamiento prohibido rige…"
+    "es": "Salvo indicación, una señal de estacionamiento prohibido rige…",
+    "uk": "Якщо не вказано інше, знак заборони стоянки діє…"
    },
    "o": [
     {
      "en": "on its side of the road, from the sign to the next junction",
-     "es": "en su lado de la calzada, desde la señal hasta la intersección más próxima"
+     "es": "en su lado de la calzada, desde la señal hasta la intersección más próxima",
+     "uk": "з його боку дороги, від знака до наступного перехрестя"
     },
     {
      "en": "on both sides for 100 m",
-     "es": "en ambos lados 100 m"
+     "es": "en ambos lados 100 m",
+     "uk": "з обох боків на 100 м"
     },
     {
      "en": "in the whole street",
-     "es": "en toda la calle"
+     "es": "en toda la calle",
+     "uk": "на всій вулиці"
     }
    ],
    "why": {
     "en": "Panels S-820/S-830 can change it.",
-    "es": "Los paneles S-820/S-830 pueden variarlo."
+    "es": "Los paneles S-820/S-830 pueden variarlo.",
+    "uk": "Таблички S-820/S-830 можуть це змінити."
    }
   },
   {
@@ -3188,25 +3800,30 @@ window.DGT_DATA = {
    "tag": "other",
    "q": {
     "en": "In a zone signed R-309 (limited parking) you must…",
-    "es": "En una zona R-309 (estacionamiento limitado) debes…"
+    "es": "En una zona R-309 (estacionamiento limitado) debes…",
+    "uk": "У зоні зі знаком R-309 (обмежена стоянка) ви мусите…"
    },
    "o": [
     {
      "en": "show the time you parked as required",
-     "es": "indicar de forma reglamentaria la hora de comienzo"
+     "es": "indicar de forma reglamentaria la hora de comienzo",
+     "uk": "показувати час, коли ви стали, як вимагається"
     },
     {
      "en": "leave the engine running",
-     "es": "dejar el motor en marcha"
+     "es": "dejar el motor en marcha",
+     "uk": "лишати двигун працювати"
     },
     {
      "en": "park only on even days",
-     "es": "estacionar solo días pares"
+     "es": "estacionar solo días pares",
+     "uk": "ставати лише в парні дні"
     }
    ],
    "why": {
     "en": "It may also say whether you pay.",
-    "es": "Puede indicar si es de pago."
+    "es": "Puede indicar si es de pago.",
+    "uk": "Він також може казати, чи стоянка платна."
    }
   },
   {
@@ -3214,25 +3831,30 @@ window.DGT_DATA = {
    "tag": "other",
    "q": {
     "en": "Sign R-310 (no horn) allows the horn…",
-    "es": "La señal R-310 (advertencias acústicas prohibidas) permite el claxon…"
+    "es": "La señal R-310 (advertencias acústicas prohibidas) permite el claxon…",
+    "uk": "Знак R-310 (звукові сигнали заборонено) дозволяє сигналити…"
    },
    "o": [
     {
      "en": "only to avoid an accident",
-     "es": "solo para evitar un accidente"
+     "es": "solo para evitar un accidente",
+     "uk": "лише щоб уникнути ДТП"
     },
     {
      "en": "to greet people",
-     "es": "para saludar"
+     "es": "para saludar",
+     "uk": "щоб привітатися"
     },
     {
      "en": "before overtaking",
-     "es": "antes de adelantar"
+     "es": "antes de adelantar",
+     "uk": "перед обгоном"
     }
    ],
    "why": {
     "en": "It reminds the general prohibition.",
-    "es": "Recuerda la prohibición general."
+    "es": "Recuerda la prohibición general.",
+    "uk": "Він нагадує загальну заборону."
    }
   },
   {
@@ -3240,25 +3862,30 @@ window.DGT_DATA = {
    "tag": "oblig",
    "q": {
     "en": "Sign R-403 (only directions allowed)…",
-    "es": "La señal R-403 (únicas direcciones permitidas)…"
+    "es": "La señal R-403 (únicas direcciones permitidas)…",
+    "uk": "Знак R-403 (дозволені лише ці напрямки)…"
    },
    "o": [
     {
      "en": "does not allow U-turns",
-     "es": "no permite cambiar de sentido"
+     "es": "no permite cambiar de sentido",
+     "uk": "не дозволяє розворотів"
     },
     {
      "en": "allows U-turns",
-     "es": "permite cambiar de sentido"
+     "es": "permite cambiar de sentido",
+     "uk": "дозволяє розвороти"
     },
     {
      "en": "is only advice",
-     "es": "es solo una recomendación"
+     "es": "es solo una recomendación",
+     "uk": "лише порада"
     }
    ],
    "why": {
     "en": "Only the arrows shown.",
-    "es": "Solo las flechas indicadas."
+    "es": "Solo las flechas indicadas.",
+    "uk": "Лише показані стрілки."
    }
   },
   {
@@ -3266,25 +3893,30 @@ window.DGT_DATA = {
    "tag": "oblig",
    "q": {
     "en": "A blue round sign with a bicycle (R-407a) means…",
-    "es": "Una señal azul redonda con bicicleta (R-407a) significa…"
+    "es": "Una señal azul redonda con bicicleta (R-407a) significa…",
+    "uk": "Синій круглий знак із велосипедом (R-407a) означає…"
    },
    "o": [
     {
      "en": "compulsory for cycles and forbidden for others",
-     "es": "obligatoria para ciclos y prohibida para los demás"
+     "es": "obligatoria para ciclos y prohibida para los demás",
+     "uk": "обов’язковий для циклів і заборонений для інших"
     },
     {
      "en": "cycles may use it",
-     "es": "los ciclos pueden usarla"
+     "es": "los ciclos pueden usarla",
+     "uk": "цикли можуть ним користуватися"
     },
     {
      "en": "no cycles",
-     "es": "prohibido a ciclos"
+     "es": "prohibido a ciclos",
+     "uk": "циклам заборонено"
     }
    ],
    "why": {
     "en": "R-114 (red ring) bans cycles.",
-    "es": "La R-114 (borde rojo) prohíbe los ciclos."
+    "es": "La R-114 (borde rojo) prohíbe los ciclos.",
+    "uk": "R-114 (червоне кільце) забороняє цикли."
    }
   },
   {
@@ -3292,25 +3924,30 @@ window.DGT_DATA = {
    "tag": "oblig",
    "q": {
     "en": "Sign R-411 “40” (blue) obliges you to…",
-    "es": "La señal R-411 «40» (azul) obliga a…"
+    "es": "La señal R-411 «40» (azul) obliga a…",
+    "uk": "Знак R-411 «40» (синій) зобов’язує вас…"
    },
    "o": [
     {
      "en": "drive at least at 40 km/h",
-     "es": "circular al menos a 40 km/h"
+     "es": "circular al menos a 40 km/h",
+     "uk": "їхати щонайменше 40 км/год"
     },
     {
      "en": "not exceed 40 km/h",
-     "es": "no superar 40 km/h"
+     "es": "no superar 40 km/h",
+     "uk": "не перевищувати 40 км/год"
     },
     {
      "en": "keep 40 m",
-     "es": "guardar 40 m"
+     "es": "guardar 40 m",
+     "uk": "тримати 40 м"
     }
    ],
    "why": {
     "en": "Until an end sign or a lower or equal maximum.",
-    "es": "Hasta su fin o una velocidad máxima igual o inferior."
+    "es": "Hasta su fin o una velocidad máxima igual o inferior.",
+    "uk": "До знака кінця чи меншого або рівного максимуму."
    }
   },
   {
@@ -3318,25 +3955,30 @@ window.DGT_DATA = {
    "tag": "oblig",
    "q": {
     "en": "With sign R-412 (chains) you need chains on…",
-    "es": "Con la señal R-412 (cadenas) necesitas cadenas en…"
+    "es": "Con la señal R-412 (cadenas) necesitas cadenas en…",
+    "uk": "Зі знаком R-412 (ланцюги) вам потрібні ланцюги щонайменше…"
    },
    "o": [
     {
      "en": "at least one wheel on each side of the same drive axle",
-     "es": "al menos una rueda a cada lado del mismo eje motor"
+     "es": "al menos una rueda a cada lado del mismo eje motor",
+     "uk": "на одному колесі з кожного боку тієї самої ведучої осі"
     },
     {
      "en": "all four wheels",
-     "es": "las cuatro ruedas"
+     "es": "las cuatro ruedas",
+     "uk": "на всіх чотирьох колесах"
     },
     {
      "en": "the front wheels only",
-     "es": "solo las delanteras"
+     "es": "solo las delanteras",
+     "uk": "лише на передніх колесах"
     }
    ],
    "why": {
     "en": "Or special snow tyres.",
-    "es": "O neumáticos especiales de nieve."
+    "es": "O neumáticos especiales de nieve.",
+    "uk": "Або спеціальні зимові шини."
    }
   },
   {
@@ -3344,25 +3986,30 @@ window.DGT_DATA = {
    "tag": "oblig",
    "q": {
     "en": "Sign R-413 obliges you to…",
-    "es": "La señal R-413 obliga a…"
+    "es": "La señal R-413 obliga a…",
+    "uk": "Знак R-413 зобов’язує вас…"
    },
    "o": [
     {
      "en": "use at least dipped headlights",
-     "es": "llevar al menos la luz de corto alcance"
+     "es": "llevar al menos la luz de corto alcance",
+     "uk": "вмикати щонайменше ближнє світло"
     },
     {
      "en": "use fog lights",
-     "es": "llevar la antiniebla"
+     "es": "llevar la antiniebla",
+     "uk": "вмикати протитуманні фари"
     },
     {
      "en": "switch lights off",
-     "es": "apagar las luces"
+     "es": "apagar las luces",
+     "uk": "вимкнути світло"
     }
    ],
    "why": {
     "en": "Whatever the visibility.",
-    "es": "Con independencia de la visibilidad."
+    "es": "Con independencia de la visibilidad.",
+    "uk": "Незалежно від видимості."
    }
   },
   {
@@ -3370,25 +4017,30 @@ window.DGT_DATA = {
    "tag": "oblig",
    "q": {
     "en": "Sign R-500 (white disc, black diagonal stripes) means…",
-    "es": "La señal R-500 (disco blanco con franjas negras) significa…"
+    "es": "La señal R-500 (disco blanco con franjas negras) significa…",
+    "uk": "Знак R-500 (білий диск, чорні діагональні смуги) означає…"
    },
    "o": [
     {
      "en": "end of all specific prohibitions for moving vehicles",
-     "es": "fin de todas las prohibiciones específicas para vehículos en movimiento"
+     "es": "fin de todas las prohibiciones específicas para vehículos en movimiento",
+     "uk": "кінець усіх окремих заборон для ТЗ у русі"
     },
     {
      "en": "no entry",
-     "es": "entrada prohibida"
+     "es": "entrada prohibida",
+     "uk": "в’їзд заборонено"
     },
     {
      "en": "end of motorway",
-     "es": "fin de autopista"
+     "es": "fin de autopista",
+     "uk": "кінець автомагістралі"
     }
    ],
    "why": {
     "en": "End of speed limits, overtaking bans…",
-    "es": "Fin de limitaciones, prohibición de adelantar…"
+    "es": "Fin de limitaciones, prohibición de adelantar…",
+    "uk": "Кінець обмежень швидкості, заборон обгону…"
    }
   },
   {
@@ -3396,25 +4048,30 @@ window.DGT_DATA = {
    "tag": "oblig",
    "q": {
     "en": "Sign R-422 obliges cyclists to…",
-    "es": "La señal R-422 obliga a los ciclistas a…"
+    "es": "La señal R-422 obliga a los ciclistas a…",
+    "uk": "Знак R-422 зобов’язує велосипедистів…"
    },
    "o": [
     {
      "en": "dismount and continue on foot",
-     "es": "desmontar y continuar a pie"
+     "es": "desmontar y continuar a pie",
+     "uk": "спішитися й іти далі пішки"
     },
     {
      "en": "use the cycle lane",
-     "es": "usar el carril bici"
+     "es": "usar el carril bici",
+     "uk": "їхати велосмугою"
     },
     {
      "en": "ride single file",
-     "es": "ir en fila de uno"
+     "es": "ir en fila de uno",
+     "uk": "їхати один за одним"
     }
    ],
    "why": {
     "en": "A panel may limit it to certain times.",
-    "es": "Un panel puede limitarla a ciertos periodos."
+    "es": "Un panel puede limitarla a ciertos periodos.",
+    "uk": "Табличка може обмежувати його певними годинами."
    }
   },
   {
@@ -3422,25 +4079,30 @@ window.DGT_DATA = {
    "tag": "oblig",
    "q": {
     "en": "Sign R-406 (blue, lorry) without a tonnage applies to goods vehicles…",
-    "es": "La señal R-406 (azul, camión) sin tonelaje afecta a vehículos de mercancías…"
+    "es": "La señal R-406 (azul, camión) sin tonelaje afecta a vehículos de mercancías…",
+    "uk": "Знак R-406 (синій, вантажівка) без зазначеної маси стосується вантажних ТЗ…"
    },
    "o": [
     {
      "en": "whatever their mass",
-     "es": "independientemente de su masa"
+     "es": "independientemente de su masa",
+     "uk": "будь-якої маси"
     },
     {
      "en": "over 3,500 kg",
-     "es": "de más de 3.500 kg"
+     "es": "de más de 3.500 kg",
+     "uk": "понад 3 500 кг"
     },
     {
      "en": "only when loaded",
-     "es": "solo cargados"
+     "es": "solo cargados",
+     "uk": "лише навантажених"
     }
    ],
    "why": {
     "en": "With a tonnage, only those whose MMA is over it.",
-    "es": "Con tonelaje, solo si su MMA lo supera."
+    "es": "Con tonelaje, solo si su MMA lo supera.",
+    "uk": "Із зазначеною масою — лише тих, у кого MMA більша."
    }
   },
   {
@@ -3448,25 +4110,30 @@ window.DGT_DATA = {
    "tag": "oblig",
    "q": {
     "en": "A blue round sign with a red diagonal bar means…",
-    "es": "Una señal azul redonda con barra roja diagonal significa…"
+    "es": "Una señal azul redonda con barra roja diagonal significa…",
+    "uk": "Синій круглий знак із червоною діагональною смугою означає…"
    },
    "o": [
     {
      "en": "the end of an obligation",
-     "es": "el fin de una obligación"
+     "es": "el fin de una obligación",
+     "uk": "кінець обов’язку"
     },
     {
      "en": "a prohibition",
-     "es": "una prohibición"
+     "es": "una prohibición",
+     "uk": "заборону"
     },
     {
      "en": "a warning",
-     "es": "un peligro"
+     "es": "un peligro",
+     "uk": "попередження"
     }
    ],
    "why": {
     "en": "R-505 to R-516.",
-    "es": "R-505 a R-516."
+    "es": "R-505 a R-516.",
+    "uk": "R-505–R-516."
    }
   },
   {
@@ -3474,25 +4141,30 @@ window.DGT_DATA = {
    "tag": "oblig",
    "q": {
     "en": "Sign R-418 (blue with a “TT” symbol) means…",
-    "es": "La señal R-418 (azul con símbolo de telepeaje) significa…"
+    "es": "La señal R-418 (azul con símbolo de telepeaje) significa…",
+    "uk": "Знак R-418 (синій із символом «TT») означає…"
    },
    "o": [
     {
      "en": "electronic toll compulsory in that lane",
-     "es": "telepeaje obligatorio en ese carril"
+     "es": "telepeaje obligatorio en ese carril",
+     "uk": "електронна оплата проїзду на цій смузі обов’язкова"
     },
     {
      "en": "tunnel ahead",
-     "es": "túnel próximo"
+     "es": "túnel próximo",
+     "uk": "попереду тунель"
     },
     {
      "en": "taxi rank",
-     "es": "parada de taxis"
+     "es": "parada de taxis",
+     "uk": "стоянка таксі"
     }
    ],
    "why": {
     "en": "S-32 only says you may pay by electronic toll.",
-    "es": "La S-32 solo indica que se puede pagar con telepeaje."
+    "es": "La S-32 solo indica que se puede pagar con telepeaje.",
+    "uk": "S-32 лише каже, що можна платити електронно."
    }
   },
   {
@@ -3500,25 +4172,30 @@ window.DGT_DATA = {
    "tag": "zones",
    "q": {
     "en": "A blue square sign showing “70” means…",
-    "es": "Una señal cuadrada azul con «70» significa…"
+    "es": "Una señal cuadrada azul con «70» significa…",
+    "uk": "Синій квадратний знак із «70» означає…"
    },
    "o": [
     {
      "en": "recommended maximum speed",
-     "es": "velocidad máxima aconsejable"
+     "es": "velocidad máxima aconsejable",
+     "uk": "рекомендовану максимальну швидкість"
     },
     {
      "en": "compulsory maximum speed",
-     "es": "velocidad máxima obligatoria"
+     "es": "velocidad máxima obligatoria",
+     "uk": "обов’язкову максимальну швидкість"
     },
     {
      "en": "minimum speed",
-     "es": "velocidad mínima"
+     "es": "velocidad mínima",
+     "uk": "мінімальну швидкість"
     }
    ],
    "why": {
     "en": "S-7 only advises.",
-    "es": "La S-7 solo aconseja."
+    "es": "La S-7 solo aconseja.",
+    "uk": "S-7 лише радить."
    }
   },
   {
@@ -3526,25 +4203,30 @@ window.DGT_DATA = {
    "tag": "zones",
    "q": {
     "en": "In a residential play zone (S-28), the maximum speed is…",
-    "es": "En una zona de estancia y juego (S-28), la velocidad máxima es…"
+    "es": "En una zona de estancia y juego (S-28), la velocidad máxima es…",
+    "uk": "У житловій зоні з іграми (S-28) максимальна швидкість —"
    },
    "o": [
     {
      "en": "10 km/h",
-     "es": "10 km/h"
+     "es": "10 km/h",
+     "uk": "10 км/год"
     },
     {
      "en": "20 km/h",
-     "es": "20 km/h"
+     "es": "20 km/h",
+     "uk": "20 км/год"
     },
     {
      "en": "30 km/h",
-     "es": "30 km/h"
+     "es": "30 km/h",
+     "uk": "30 км/год"
     }
    ],
    "why": {
     "en": "Coexistence zone S-47: 20 km/h.",
-    "es": "Zona de coexistencia S-47: 20 km/h."
+    "es": "Zona de coexistencia S-47: 20 km/h.",
+    "uk": "Зона спільного користування S-47: 20 км/год."
    }
   },
   {
@@ -3552,25 +4234,30 @@ window.DGT_DATA = {
    "tag": "zones",
    "q": {
     "en": "In a coexistence zone (S-47)…",
-    "es": "En una zona de coexistencia (S-47)…"
+    "es": "En una zona de coexistencia (S-47)…",
+    "uk": "У зоні спільного користування (S-47)…"
    },
    "o": [
     {
      "en": "games and sports are not allowed",
-     "es": "no se autorizan juegos ni deportes"
+     "es": "no se autorizan juegos ni deportes",
+     "uk": "ігри й спорт не дозволені"
     },
     {
      "en": "you may park anywhere",
-     "es": "se puede estacionar en cualquier sitio"
+     "es": "se puede estacionar en cualquier sitio",
+     "uk": "можна ставати на стоянку будь-де"
     },
     {
      "en": "the limit is 10 km/h",
-     "es": "el límite es 10 km/h"
+     "es": "el límite es 10 km/h",
+     "uk": "обмеження 10 км/год"
     }
    ],
    "why": {
     "en": "20 km/h; pedestrians may use the whole area.",
-    "es": "20 km/h; los peatones usan toda la zona."
+    "es": "20 km/h; los peatones usan toda la zona.",
+    "uk": "20 км/год; пішоходи можуть користуватися всією зоною."
    }
   },
   {
@@ -3578,25 +4265,30 @@ window.DGT_DATA = {
    "tag": "zones",
    "q": {
     "en": "On a 2+1 road (S-1c), the middle lane is…",
-    "es": "En una carretera 2+1 (S-1c), el carril central…"
+    "es": "En una carretera 2+1 (S-1c), el carril central…",
+    "uk": "На дорозі 2+1 (S-1c) середня смуга —"
    },
    "o": [
     {
      "en": "for overtaking, given to each direction in turn",
-     "es": "es para adelantar, reservado de forma alterna a cada sentido"
+     "es": "es para adelantar, reservado de forma alterna a cada sentido",
+     "uk": "для обгону, по черзі для кожного напрямку"
     },
     {
      "en": "for slow vehicles",
-     "es": "es para vehículos lentos"
+     "es": "es para vehículos lentos",
+     "uk": "для повільних ТЗ"
     },
     {
      "en": "a bus lane",
-     "es": "es un carril bus"
+     "es": "es un carril bus",
+     "uk": "автобусна смуга"
     }
    ],
    "why": {
     "en": "Three lanes, both directions.",
-    "es": "Tres carriles, ambos sentidos."
+    "es": "Tres carriles, ambos sentidos.",
+    "uk": "Три смуги, обидва напрямки."
    }
   },
   {
@@ -3604,25 +4296,30 @@ window.DGT_DATA = {
    "tag": "zones",
    "q": {
     "en": "Exit countdown panels (S-26) with one diagonal bar mean the exit is about…",
-    "es": "Los paneles S-26 con una sola diagonal indican que la salida está a unos…"
+    "es": "Los paneles S-26 con una sola diagonal indican que la salida está a unos…",
+    "uk": "Таблички зворотного відліку до з’їзду (S-26) з однією діагональною смугою означають, що з’їзд приблизно за…"
    },
    "o": [
     {
      "en": "100 m away",
-     "es": "100 m"
+     "es": "100 m",
+     "uk": "100 м"
     },
     {
      "en": "300 m away",
-     "es": "300 m"
+     "es": "300 m",
+     "uk": "300 м"
     },
     {
      "en": "1 km away",
-     "es": "1 km"
+     "es": "1 km",
+     "uk": "1 км"
     }
    ],
    "why": {
     "en": "Three bars 300 m, two 200 m.",
-    "es": "Tres barras 300 m, dos 200 m."
+    "es": "Tres barras 300 m, dos 200 m.",
+    "uk": "Три смуги — 300 м, дві — 200 м."
    }
   },
   {
@@ -3630,25 +4327,30 @@ window.DGT_DATA = {
    "tag": "zones",
    "q": {
     "en": "Sign S-17a (parking for a specific need) is for…",
-    "es": "La señal S-17a (estacionamiento de necesidad) es para…"
+    "es": "La señal S-17a (estacionamiento de necesidad) es para…",
+    "uk": "Знак S-17a (стоянка для певної потреби) призначений для…"
    },
    "o": [
     {
      "en": "a specific purpose shown by a pictogram, for a limited time",
-     "es": "un fin concreto indicado por pictograma, durante un tiempo limitado"
+     "es": "un fin concreto indicado por pictograma, durante un tiempo limitado",
+     "uk": "певної мети, показаної піктограмою, на обмежений час"
     },
     {
      "en": "residents",
-     "es": "residentes"
+     "es": "residentes",
+     "uk": "мешканців"
     },
     {
      "en": "lorries at night",
-     "es": "camiones de noche"
+     "es": "camiones de noche",
+     "uk": "вантажівок уночі"
     }
    ],
    "why": {
     "en": "E.g. pharmacy or hospital.",
-    "es": "Por ejemplo, farmacia u hospital."
+    "es": "Por ejemplo, farmacia u hospital.",
+    "uk": "Наприклад, аптека чи лікарня."
    }
   },
   {
@@ -3656,25 +4358,30 @@ window.DGT_DATA = {
    "tag": "zones",
    "q": {
     "en": "Sign S-49 (motorcycle and bicycle over a line) shows…",
-    "es": "La señal S-49 (moto y bici sobre una línea) indica…"
+    "es": "La señal S-49 (moto y bici sobre una línea) indica…",
+    "uk": "Знак S-49 (мотоцикл і велосипед над лінією) показує…"
    },
    "o": [
     {
      "en": "an advanced waiting area before the stop line for those vehicles",
-     "es": "una zona de espera previa a la línea de detención para esos vehículos"
+     "es": "una zona de espera previa a la línea de detención para esos vehículos",
+     "uk": "зону очікування перед стоп-лінією для цих ТЗ"
     },
     {
      "en": "a motorcycle lane",
-     "es": "un carril para motos"
+     "es": "un carril para motos",
+     "uk": "смугу для мотоциклів"
     },
     {
      "en": "no motorcycles",
-     "es": "prohibido motos"
+     "es": "prohibido motos",
+     "uk": "мотоциклам заборонено"
     }
    ],
    "why": {
     "en": "At junctions with traffic lights.",
-    "es": "En intersecciones con semáforos."
+    "es": "En intersecciones con semáforos.",
+    "uk": "На регульованих перехрестях."
    }
   },
   {
@@ -3682,25 +4389,30 @@ window.DGT_DATA = {
    "tag": "zones",
    "q": {
     "en": "Sign S-16 shows…",
-    "es": "La señal S-16 indica…"
+    "es": "La señal S-16 indica…",
+    "uk": "Знак S-16 показує…"
    },
    "o": [
     {
      "en": "an emergency escape lane for brake failure",
-     "es": "una zona de frenado de emergencia"
+     "es": "una zona de frenado de emergencia",
+     "uk": "аварійну смугу на випадок відмови гальм"
     },
     {
      "en": "a lay-by",
-     "es": "un apartadero"
+     "es": "un apartadero",
+     "uk": "кишеню для зупинки"
     },
     {
      "en": "a steep descent",
-     "es": "una bajada fuerte"
+     "es": "una bajada fuerte",
+     "uk": "крутий спуск"
     }
    ],
    "why": {
     "en": "Red-white chequerboard marks where it starts.",
-    "es": "El damero rojo y blanco marca su inicio."
+    "es": "El damero rojo y blanco marca su inicio.",
+    "uk": "Червоно-біла шахівниця позначає її початок."
    }
   },
   {
@@ -3708,25 +4420,30 @@ window.DGT_DATA = {
    "tag": "zones",
    "q": {
     "en": "In a residential play zone, cycles and VMP may go…",
-    "es": "En una zona de estancia y juego, ciclos y VMP pueden circular…"
+    "es": "En una zona de estancia y juego, ciclos y VMP pueden circular…",
+    "uk": "У житловій зоні з іграми цикли й VMP можуть їхати…"
    },
    "o": [
     {
      "en": "both ways, unless signed otherwise",
-     "es": "en ambos sentidos, salvo indicación"
+     "es": "en ambos sentidos, salvo indicación",
+     "uk": "в обидва боки, якщо не позначено інше"
     },
     {
      "en": "never",
-     "es": "nunca"
+     "es": "nunca",
+     "uk": "ніколи"
     },
     {
      "en": "only one way",
-     "es": "solo en un sentido"
+     "es": "solo en un sentido",
+     "uk": "лише в один бік"
     }
    ],
    "why": {
     "en": "Same in coexistence zones.",
-    "es": "Igual en zonas de coexistencia."
+    "es": "Igual en zonas de coexistencia.",
+    "uk": "Так само в зонах спільного користування."
    }
   },
   {
@@ -3734,25 +4451,30 @@ window.DGT_DATA = {
    "tag": "zones",
    "q": {
     "en": "Sign S-33 (green, pedestrians and bicycle) is a…",
-    "es": "La señal S-33 (verde, peatones y bicicleta) es una…"
+    "es": "La señal S-33 (verde, peatones y bicicleta) es una…",
+    "uk": "Знак S-33 (зелений, пішоходи й велосипед) — це…"
    },
    "o": [
     {
      "en": "shared foot and cycle path away from motor traffic",
-     "es": "senda ciclopeatonal segregada del tráfico motorizado"
+     "es": "senda ciclopeatonal segregada del tráfico motorizado",
+     "uk": "спільна пішохідно-велосипедна доріжка подалі від механічного руху"
     },
     {
      "en": "cycle lane on the road",
-     "es": "carril bici en calzada"
+     "es": "carril bici en calzada",
+     "uk": "велосмуга на дорозі"
     },
     {
      "en": "park entrance",
-     "es": "entrada a un parque"
+     "es": "entrada a un parque",
+     "uk": "в’їзд у парк"
     }
    ],
    "why": {
     "en": "Cycles slow down near pedestrians.",
-    "es": "Los ciclos reducen ante peatones."
+    "es": "Los ciclos reducen ante peatones.",
+    "uk": "Цикли сповільнюються біля пішоходів."
    }
   },
   {
@@ -3760,25 +4482,30 @@ window.DGT_DATA = {
    "tag": "zones",
    "q": {
     "en": "Sign S-24 (headlamp with “?”) reminds you that…",
-    "es": "La señal S-24 (faro con «?») recuerda que…"
+    "es": "La señal S-24 (faro con «?») recuerda que…",
+    "uk": "Знак S-24 (фара зі «?») нагадує, що…"
    },
    "o": [
     {
      "en": "the dipped-beam obligation ends, use it if conditions require",
-     "es": "termina la obligación de luz de cruce; úsala si las condiciones lo exigen"
+     "es": "termina la obligación de luz de cruce; úsala si las condiciones lo exigen",
+     "uk": "обов’язок ближнього світла закінчується, вмикайте його, якщо цього вимагають умови"
     },
     {
      "en": "your lights are faulty",
-     "es": "tus luces fallan"
+     "es": "tus luces fallan",
+     "uk": "ваше світло несправне"
     },
     {
      "en": "fog lights are allowed",
-     "es": "se permiten antinieblas"
+     "es": "se permiten antinieblas",
+     "uk": "протитуманні фари дозволені"
     }
    ],
    "why": {
     "en": "End of R-413.",
-    "es": "Fin de la R-413."
+    "es": "Fin de la R-413.",
+    "uk": "Кінець R-413."
    }
   },
   {
@@ -3786,25 +4513,30 @@ window.DGT_DATA = {
    "tag": "lanes",
    "q": {
     "en": "In a bus lane with a dashed line, may a car overtake through it?",
-    "es": "En un carril bus con línea discontinua, ¿puede un turismo adelantar por él?"
+    "es": "En un carril bus con línea discontinua, ¿puede un turismo adelantar por él?",
+    "uk": "Чи може легковик обганяти через автобусну смугу з переривчастою лінією?"
    },
    "o": [
     {
      "en": "No",
-     "es": "No"
+     "es": "No",
+     "uk": "Ні"
     },
     {
      "en": "Yes, if it is free",
-     "es": "Sí, si está libre"
+     "es": "Sí, si está libre",
+     "uk": "Так, якщо вона вільна"
     },
     {
      "en": "Yes, at night",
-     "es": "Sí, de noche"
+     "es": "Sí, de noche",
+     "uk": "Так, уночі"
     }
    ],
    "why": {
     "en": "Other users may only make manoeuvres other than stopping, parking, U-turns or overtaking.",
-    "es": "Solo maniobras que no sean parar, estacionar, cambiar de sentido o adelantar."
+    "es": "Solo maniobras que no sean parar, estacionar, cambiar de sentido o adelantar.",
+    "uk": "Інші учасники можуть виконувати лише маневри, що не є зупинкою, стоянкою, розворотом чи обгоном."
    }
   },
   {
@@ -3812,25 +4544,30 @@ window.DGT_DATA = {
    "tag": "lanes",
    "q": {
     "en": "A lane signed with a minimum speed (S-50) may be used by…",
-    "es": "Un carril con velocidad mínima (S-50) pueden usarlo…"
+    "es": "Un carril con velocidad mínima (S-50) pueden usarlo…",
+    "uk": "Смугою зі знаком мінімальної швидкості (S-50) можуть їхати…"
    },
    "o": [
     {
      "en": "vehicles at or above that speed",
-     "es": "los que circulen a esa velocidad o superior"
+     "es": "los que circulen a esa velocidad o superior",
+     "uk": "ТЗ із цією швидкістю чи швидше"
     },
     {
      "en": "any vehicle",
-     "es": "cualquier vehículo"
+     "es": "cualquier vehículo",
+     "uk": "будь-які ТЗ"
     },
     {
      "en": "only lorries",
-     "es": "solo camiones"
+     "es": "solo camiones",
+     "uk": "лише вантажівки"
     }
    ],
    "why": {
     "en": "Keep to the right lane when you can.",
-    "es": "Si se puede, ir por la derecha."
+    "es": "Si se puede, ir por la derecha.",
+    "uk": "Коли можете, тримайтеся правої смуги."
    }
   },
   {
@@ -3838,25 +4575,30 @@ window.DGT_DATA = {
    "tag": "lanes",
    "q": {
     "en": "Sign S-51b “2+” marks a lane for…",
-    "es": "La señal S-51b «2+» indica un carril para…"
+    "es": "La señal S-51b «2+» indica un carril para…",
+    "uk": "Знак S-51b «2+» позначає смугу для…"
    },
    "o": [
     {
      "en": "vehicles with at least 2 occupants",
-     "es": "vehículos con al menos 2 ocupantes"
+     "es": "vehículos con al menos 2 ocupantes",
+     "uk": "ТЗ щонайменше з 2 людьми"
     },
     {
      "en": "two-wheelers",
-     "es": "vehículos de dos ruedas"
+     "es": "vehículos de dos ruedas",
+     "uk": "двоколісних ТЗ"
     },
     {
      "en": "two lanes",
-     "es": "dos carriles"
+     "es": "dos carriles",
+     "uk": "двох смуг"
     }
    ],
    "why": {
     "en": "High-occupancy (VAO) lane.",
-    "es": "Carril VAO."
+    "es": "Carril VAO.",
+    "uk": "Смуга VAO."
    }
   },
   {
@@ -3864,25 +4606,30 @@ window.DGT_DATA = {
    "tag": "lanes",
    "q": {
     "en": "On a lane sign, a dashed arrow joining the others means…",
-    "es": "En una señal de carriles, una flecha discontinua que se une a las demás indica…"
+    "es": "En una señal de carriles, una flecha discontinua que se une a las demás indica…",
+    "uk": "На знаку смуг переривчаста стрілка, що приєднується до інших, означає…"
    },
    "o": [
     {
      "en": "a lane merging from that side",
-     "es": "la confluencia de un carril por ese lado"
+     "es": "la confluencia de un carril por ese lado",
+     "uk": "смугу, що вливається з цього боку"
     },
     {
      "en": "a closed lane",
-     "es": "un carril cerrado"
+     "es": "un carril cerrado",
+     "uk": "закриту смугу"
     },
     {
      "en": "a bus lane",
-     "es": "un carril bus"
+     "es": "un carril bus",
+     "uk": "автобусну смугу"
     }
    ],
    "why": {
     "en": "S-70 to S-73.",
-    "es": "S-70 a S-73."
+    "es": "S-70 a S-73.",
+    "uk": "S-70–S-73."
    }
   },
   {
@@ -3890,25 +4637,30 @@ window.DGT_DATA = {
    "tag": "lanes",
    "q": {
     "en": "Sign S-52 shows one lane line bending into the next. It means…",
-    "es": "La señal S-52 muestra una línea de carril que se une a la de al lado. Indica…"
+    "es": "La señal S-52 muestra una línea de carril que se une a la de al lado. Indica…",
+    "uk": "Знак S-52 показує лінію смуги, що заходить у сусідню. Це означає…"
    },
    "o": [
     {
      "en": "that lane ends: change lane",
-     "es": "que ese carril termina: hay que cambiar de carril"
+     "es": "que ese carril termina: hay que cambiar de carril",
+     "uk": "ця смуга закінчується: перестройтеся"
     },
     {
      "en": "a new lane opens",
-     "es": "que se abre un carril"
+     "es": "que se abre un carril",
+     "uk": "відкривається нова смуга"
     },
     {
      "en": "a fork",
-     "es": "una bifurcación"
+     "es": "una bifurcación",
+     "uk": "розгалуження"
     }
    ],
    "why": {
     "en": "S-53 is the opposite: one lane becomes two.",
-    "es": "La S-53 es al revés: de uno a dos."
+    "es": "La S-53 es al revés: de uno a dos.",
+    "uk": "S-53 — навпаки: одна смуга стає двома."
    }
   },
   {
@@ -3916,25 +4668,30 @@ window.DGT_DATA = {
    "tag": "lanes",
    "q": {
     "en": "Sign S-64 (cycle in a circle over one lane) means that lane is…",
-    "es": "La señal S-64 (bici en un círculo sobre un carril) indica que ese carril es…"
+    "es": "La señal S-64 (bici en un círculo sobre un carril) indica que ese carril es…",
+    "uk": "Знак S-64 (цикл у колі над однією смугою) означає, що ця смуга…"
    },
    "o": [
     {
      "en": "compulsory for cycles and forbidden for others",
-     "es": "obligatorio para ciclos y prohibido a los demás"
+     "es": "obligatorio para ciclos y prohibido a los demás",
+     "uk": "обов’язкова для циклів і заборонена для інших"
     },
     {
      "en": "forbidden for cycles",
-     "es": "prohibido a ciclos"
+     "es": "prohibido a ciclos",
+     "uk": "заборонена для циклів"
     },
     {
      "en": "shared with buses",
-     "es": "compartido con autobuses"
+     "es": "compartido con autobuses",
+     "uk": "спільна з автобусами"
     }
    ],
    "why": {
     "en": "S-65: reserved, not compulsory.",
-    "es": "S-65: reservado, no obligatorio."
+    "es": "S-65: reservado, no obligatorio.",
+    "uk": "S-65: відведена, але не обов’язкова."
    }
   },
   {
@@ -3942,25 +4699,30 @@ window.DGT_DATA = {
    "tag": "orient",
    "q": {
     "en": "Signs on motorways and autovías have…",
-    "es": "Las señales de orientación en autopistas y autovías tienen…"
+    "es": "Las señales de orientación en autopistas y autovías tienen…",
+    "uk": "Знаки на автомагістралях і autovías мають…"
    },
    "o": [
     {
      "en": "a blue background and white letters",
-     "es": "fondo azul y letras blancas"
+     "es": "fondo azul y letras blancas",
+     "uk": "синій фон і білі літери"
     },
     {
      "en": "a white background and black letters",
-     "es": "fondo blanco y letras negras"
+     "es": "fondo blanco y letras negras",
+     "uk": "білий фон і чорні літери"
     },
     {
      "en": "a green background",
-     "es": "fondo verde"
+     "es": "fondo verde",
+     "uk": "зелений фон"
     }
    ],
    "why": {
     "en": "Conventional roads: white background.",
-    "es": "Convencionales: fondo blanco."
+    "es": "Convencionales: fondo blanco.",
+    "uk": "На звичайних дорогах — білий фон."
    }
   },
   {
@@ -3968,25 +4730,30 @@ window.DGT_DATA = {
    "tag": "orient",
    "q": {
     "en": "Confirmation signs always have the colour of…",
-    "es": "Los carteles de confirmación tienen siempre el color de…"
+    "es": "Los carteles de confirmación tienen siempre el color de…",
+    "uk": "Знаки підтвердження завжди мають колір…"
    },
    "o": [
     {
      "en": "the road you are on",
-     "es": "la vía por la que circulas"
+     "es": "la vía por la que circulas",
+     "uk": "дороги, якою ви їдете"
     },
     {
      "en": "the road you will reach",
-     "es": "la vía a la que llegarás"
+     "es": "la vía a la que llegarás",
+     "uk": "дороги, на яку ви виїдете"
     },
     {
      "en": "the province",
-     "es": "la provincia"
+     "es": "la provincia",
+     "uk": "провінції"
     }
    ],
    "why": {
     "en": "Only pre-signposting changes colour.",
-    "es": "Solo la preseñalización cambia de color."
+    "es": "Solo la preseñalización cambia de color.",
+    "uk": "Колір змінюють лише знаки попереднього вказування."
    }
   },
   {
@@ -3994,25 +4761,30 @@ window.DGT_DATA = {
    "tag": "orient",
    "q": {
     "en": "On a motorway, the immediate exit sign for an exit to a conventional road is…",
-    "es": "En autopista, el cartel de salida inmediata hacia una carretera convencional es…"
+    "es": "En autopista, el cartel de salida inmediata hacia una carretera convencional es…",
+    "uk": "На автомагістралі знак безпосереднього з’їзду на звичайну дорогу —"
    },
    "o": [
     {
      "en": "white",
-     "es": "blanco"
+     "es": "blanco",
+     "uk": "білий"
     },
     {
      "en": "blue",
-     "es": "azul"
+     "es": "azul",
+     "uk": "синій"
     },
     {
      "en": "green",
-     "es": "verde"
+     "es": "verde",
+     "uk": "зелений"
     }
    ],
    "why": {
     "en": "Immediate exit signs take the destination road’s colour.",
-    "es": "Toma el color de la vía de destino."
+    "es": "Toma el color de la vía de destino.",
+    "uk": "Знаки безпосереднього з’їзду мають колір дороги призначення."
    }
   },
   {
@@ -4020,25 +4792,30 @@ window.DGT_DATA = {
    "tag": "orient",
    "q": {
     "en": "Pre-signposting to an exit leading to a lower-category road keeps…",
-    "es": "La preseñalización de una salida hacia una vía de inferior categoría mantiene…"
+    "es": "La preseñalización de una salida hacia una vía de inferior categoría mantiene…",
+    "uk": "Попереднє вказування з’їзду на дорогу нижчої категорії зберігає…"
    },
    "o": [
     {
      "en": "the colour of the road you are on",
-     "es": "el color de la vía por la que circulas"
+     "es": "el color de la vía por la que circulas",
+     "uk": "колір дороги, якою ви їдете"
     },
     {
      "en": "the colour of the destination road",
-     "es": "el color de la vía de destino"
+     "es": "el color de la vía de destino",
+     "uk": "колір дороги призначення"
     },
     {
      "en": "a yellow colour",
-     "es": "el color amarillo"
+     "es": "el color amarillo",
+     "uk": "жовтий колір"
     }
    ],
    "why": {
     "en": "To avoid drivers slowing before the deceleration lane.",
-    "es": "Para evitar reducciones antes del carril de deceleración."
+    "es": "Para evitar reducciones antes del carril de deceleración.",
+    "uk": "Щоб водії не сповільнювалися до смуги гальмування."
    }
   },
   {
@@ -4046,25 +4823,30 @@ window.DGT_DATA = {
    "tag": "orient",
    "q": {
     "en": "On a motorway, the exit number…",
-    "es": "En autopista, el número de salida…"
+    "es": "En autopista, el número de salida…",
+    "uk": "На автомагістралі номер з’їзду…"
    },
    "o": [
     {
      "en": "matches the kilometre point",
-     "es": "coincide con el punto kilométrico"
+     "es": "coincide con el punto kilométrico",
+     "uk": "збігається з кілометровою позначкою"
     },
     {
      "en": "counts exits from the start",
-     "es": "cuenta las salidas desde el inicio"
+     "es": "cuenta las salidas desde el inicio",
+     "uk": "рахує з’їзди від початку"
     },
     {
      "en": "is the road number",
-     "es": "es el número de la carretera"
+     "es": "es el número de la carretera",
+     "uk": "є номером дороги"
     }
    ],
    "why": {
     "en": "S-341/S-342.",
-    "es": "S-341/S-342."
+    "es": "S-341/S-342.",
+    "uk": "S-341/S-342."
    }
   },
   {
@@ -4072,25 +4854,30 @@ window.DGT_DATA = {
    "tag": "orient",
    "q": {
     "en": "A road number on a red plate (e.g. N-401) belongs to…",
-    "es": "Una matrícula sobre fondo rojo (p. ej., N-401) es…"
+    "es": "Una matrícula sobre fondo rojo (p. ej., N-401) es…",
+    "uk": "Номер дороги на червоній табличці (напр., N-401) належить до…"
    },
    "o": [
     {
      "en": "the State network, not a motorway",
-     "es": "de la red del Estado, no autopista"
+     "es": "de la red del Estado, no autopista",
+     "uk": "державної мережі, не автомагістралі"
     },
     {
      "en": "a regional first-level road",
-     "es": "autonómica de primer nivel"
+     "es": "autonómica de primer nivel",
+     "uk": "регіональної дороги першого рівня"
     },
     {
      "en": "a European route",
-     "es": "un itinerario europeo"
+     "es": "un itinerario europeo",
+     "uk": "європейського маршруту"
     }
    ],
    "why": {
     "en": "E green; A/AP blue; regional orange, brown, yellow.",
-    "es": "E verde; A/AP azul; autonómicas naranja, marrón, amarillo."
+    "es": "E verde; A/AP azul; autonómicas naranja, marrón, amarillo.",
+    "uk": "E — зелений; A/AP — синій; регіональні — помаранчевий, коричневий, жовтий."
    }
   },
   {
@@ -4098,25 +4885,30 @@ window.DGT_DATA = {
    "tag": "orient",
    "q": {
     "en": "May a road that is not a motorway or autovía use the letter A?",
-    "es": "¿Puede llevar la letra A una carretera que no sea autopista o autovía?"
+    "es": "¿Puede llevar la letra A una carretera que no sea autopista o autovía?",
+    "uk": "Чи може дорога, що не є автомагістраллю чи autovía, мати літеру A?"
    },
    "o": [
     {
      "en": "No",
-     "es": "No"
+     "es": "No",
+     "uk": "Ні"
     },
     {
      "en": "Yes, if it is regional",
-     "es": "Sí, si es autonómica"
+     "es": "Sí, si es autonómica",
+     "uk": "Так, якщо регіональна"
     },
     {
      "en": "Yes, ring roads",
-     "es": "Sí, las rondas"
+     "es": "Sí, las rondas",
+     "uk": "Так, кільцеві дороги"
     }
    ],
    "why": {
     "en": "Ring roads may swap the A for the city’s letters.",
-    "es": "Las rondas pueden sustituir la A por letras de la ciudad."
+    "es": "Las rondas pueden sustituir la A por letras de la ciudad.",
+    "uk": "Кільцеві можуть замінювати A літерами міста."
    }
   },
   {
@@ -4124,25 +4916,30 @@ window.DGT_DATA = {
    "tag": "orient",
    "q": {
     "en": "Panel S-840 “STOP 150 m” under a give-way sign means…",
-    "es": "El panel S-840 «STOP 150 m» bajo un ceda el paso indica…"
+    "es": "El panel S-840 «STOP 150 m» bajo un ceda el paso indica…",
+    "uk": "Табличка S-840 «STOP 150 m» під знаком «Дати дорогу» означає…"
    },
    "o": [
     {
      "en": "a STOP sign 150 m ahead at the next junction",
-     "es": "un STOP a 150 m en la próxima intersección"
+     "es": "un STOP a 150 m en la próxima intersección",
+     "uk": "знак STOP за 150 м на наступному перехресті"
     },
     {
      "en": "stop for 150 seconds",
-     "es": "detenerse 150 segundos"
+     "es": "detenerse 150 segundos",
+     "uk": "зупиніться на 150 секунд"
     },
     {
      "en": "no stopping for 150 m",
-     "es": "prohibido parar 150 m"
+     "es": "prohibido parar 150 m",
+     "uk": "зупинку заборонено на 150 м"
     }
    ],
    "why": {
     "en": "It pre-signals the STOP.",
-    "es": "Preseñaliza el STOP."
+    "es": "Preseñaliza el STOP.",
+    "uk": "Вона заздалегідь попереджає про STOP."
    }
   },
   {
@@ -4150,25 +4947,30 @@ window.DGT_DATA = {
    "tag": "orient",
    "q": {
     "en": "Panel S-810 “800 m” with arrows shows…",
-    "es": "El panel S-810 «800 m» con flechas indica…"
+    "es": "El panel S-810 «800 m» con flechas indica…",
+    "uk": "Табличка S-810 «800 m» зі стрілками показує…"
    },
    "o": [
     {
      "en": "the length of the stretch affected",
-     "es": "la longitud del tramo afectado"
+     "es": "la longitud del tramo afectado",
+     "uk": "протяжність ділянки, якої стосується знак"
     },
     {
      "en": "the distance to the danger",
-     "es": "la distancia al peligro"
+     "es": "la distancia al peligro",
+     "uk": "відстань до небезпеки"
     },
     {
      "en": "the free width",
-     "es": "la anchura libre"
+     "es": "la anchura libre",
+     "uk": "вільну ширину"
     }
    ],
    "why": {
     "en": "S-800 gives the distance to the start.",
-    "es": "El S-800 da la distancia al comienzo."
+    "es": "El S-800 da la distancia al comienzo.",
+    "uk": "S-800 дає відстань до початку."
    }
   },
   {
@@ -4176,25 +4978,30 @@ window.DGT_DATA = {
    "tag": "orient",
    "q": {
     "en": "Panel S-892 (camera) under a sign means…",
-    "es": "El panel S-892 (cámara) bajo una señal indica…"
+    "es": "El panel S-892 (cámara) bajo una señal indica…",
+    "uk": "Табличка S-892 (камера) під знаком означає…"
    },
    "o": [
     {
      "en": "compliance is checked by automatic means",
-     "es": "su cumplimiento se vigila con medios automáticos"
+     "es": "su cumplimiento se vigila con medios automáticos",
+     "uk": "дотримання перевіряють автоматичні засоби"
     },
     {
      "en": "a tourist viewpoint",
-     "es": "un mirador turístico"
+     "es": "un mirador turístico",
+     "uk": "туристичний оглядовий майданчик"
     },
     {
      "en": "a police station",
-     "es": "una comisaría"
+     "es": "una comisaría",
+     "uk": "поліцейську дільницю"
     }
    ],
    "why": {
     "en": "Automatic capture and fines.",
-    "es": "Captación y denuncia automáticas."
+    "es": "Captación y denuncia automáticas.",
+    "uk": "Автоматична фіксація й штрафи."
    }
   },
   {
@@ -4202,25 +5009,30 @@ window.DGT_DATA = {
    "tag": "orient",
    "q": {
     "en": "Panel S-891 reminds you of the side gap when overtaking cycles or mopeds:",
-    "es": "El panel S-891 recuerda la separación lateral al adelantar a ciclos o ciclomotores:"
+    "es": "El panel S-891 recuerda la separación lateral al adelantar a ciclos o ciclomotores:",
+    "uk": "Табличка S-891 нагадує про бічний інтервал під час обгону циклів чи мопедів:"
    },
    "o": [
     {
      "en": "1.5 m",
-     "es": "1,5 m"
+     "es": "1,5 m",
+     "uk": "1,5 м"
     },
     {
      "en": "1 m",
-     "es": "1 m"
+     "es": "1 m",
+     "uk": "1 м"
     },
     {
      "en": "2 m",
-     "es": "2 m"
+     "es": "2 m",
+     "uk": "2 м"
     }
    ],
    "why": {
     "en": "With a group, measured from the one furthest left.",
-    "es": "En grupo, desde el más escorado a la izquierda."
+    "es": "En grupo, desde el más escorado a la izquierda.",
+    "uk": "Для групи — від крайнього лівого."
    }
   },
   {
@@ -4228,25 +5040,30 @@ window.DGT_DATA = {
    "tag": "orient",
    "q": {
     "en": "Sign S-500 (town entry) marks…",
-    "es": "La señal S-500 (entrada a poblado) indica…"
+    "es": "La señal S-500 (entrada a poblado) indica…",
+    "uk": "Знак S-500 (в’їзд у населений пункт) позначає…"
    },
    "o": [
     {
      "en": "where the town’s traffic rules begin",
-     "es": "dónde empiezan a regir las normas de poblado"
+     "es": "dónde empiezan a regir las normas de poblado",
+     "uk": "де починаються правила руху населеного пункту"
     },
     {
      "en": "the town hall",
-     "es": "el ayuntamiento"
+     "es": "el ayuntamiento",
+     "uk": "мерію"
     },
     {
      "en": "a 30 km/h zone",
-     "es": "una zona 30"
+     "es": "una zona 30",
+     "uk": "зону 30 км/год"
     }
    ],
    "why": {
     "en": "S-510 ends them.",
-    "es": "La S-510 las termina."
+    "es": "La S-510 las termina.",
+    "uk": "S-510 їх завершує."
    }
   },
   {
@@ -4254,25 +5071,30 @@ window.DGT_DATA = {
    "tag": "orient",
    "q": {
     "en": "Sign S-991g (yellow, helicopter and drone) warns that…",
-    "es": "La señal S-991g (amarilla, helicóptero y dron) advierte de que…"
+    "es": "La señal S-991g (amarilla, helicóptero y dron) advierte de que…",
+    "uk": "Знак S-991g (жовтий, гелікоптер і дрон) попереджає, що…"
    },
    "o": [
     {
      "en": "speed may be checked from the air",
-     "es": "puede haber control de velocidad desde el aire"
+     "es": "puede haber control de velocidad desde el aire",
+     "uk": "швидкість можуть перевіряти з повітря"
     },
     {
      "en": "an airport is near",
-     "es": "hay un aeropuerto"
+     "es": "hay un aeropuerto",
+     "uk": "поруч аеропорт"
     },
     {
      "en": "drones are forbidden",
-     "es": "están prohibidos los drones"
+     "es": "están prohibidos los drones",
+     "uk": "дрони заборонені"
     }
    ],
    "why": {
     "en": "Helicopter or drone.",
-    "es": "Helicóptero o dron."
+    "es": "Helicóptero o dron.",
+    "uk": "Гелікоптер чи дрон."
    }
   },
   {
@@ -4280,25 +5102,30 @@ window.DGT_DATA = {
    "tag": "orient",
    "q": {
     "en": "In town, a yellow S-710 module points to…",
-    "es": "En poblado, un módulo amarillo S-710 indica…"
+    "es": "En poblado, un módulo amarillo S-710 indica…",
+    "uk": "У місті жовтий модуль S-710 вказує на…"
    },
    "o": [
     {
      "en": "places of interest for travellers (stations, airports, hotels)",
-     "es": "lugares de interés para viajeros (estaciones, aeropuertos, hoteles)"
+     "es": "lugares de interés para viajeros (estaciones, aeropuertos, hoteles)",
+     "uk": "місця, цікаві мандрівникам (вокзали, аеропорти, готелі)"
     },
     {
      "en": "streets and squares",
-     "es": "calles y plazas"
+     "es": "calles y plazas",
+     "uk": "вулиці й площі"
     },
     {
      "en": "industrial zones",
-     "es": "zonas industriales"
+     "es": "zonas industriales",
+     "uk": "промислові зони"
     }
    ],
    "why": {
     "en": "Green S-700 streets; brown S-730 monuments.",
-    "es": "Verde S-700 calles; marrón S-730 monumentos."
+    "es": "Verde S-700 calles; marrón S-730 monumentos.",
+    "uk": "Зелений S-700 — вулиці; коричневий S-730 — пам’ятки."
    }
   },
   {
@@ -4306,25 +5133,30 @@ window.DGT_DATA = {
    "tag": "orient",
    "q": {
     "en": "Sign S-122 (blue with an empty white square) is for…",
-    "es": "La señal S-122 (azul con recuadro blanco vacío) es para…"
+    "es": "La señal S-122 (azul con recuadro blanco vacío) es para…",
+    "uk": "Знак S-122 (синій із порожнім білим квадратом) — для…"
    },
    "o": [
     {
      "en": "other services, written in the square",
-     "es": "otros servicios, inscritos en el recuadro"
+     "es": "otros servicios, inscritos en el recuadro",
+     "uk": "інших послуг, написаних у квадраті"
     },
     {
      "en": "a closed service",
-     "es": "un servicio cerrado"
+     "es": "un servicio cerrado",
+     "uk": "закритої послуги"
     },
     {
      "en": "free parking",
-     "es": "estacionamiento libre"
+     "es": "estacionamiento libre",
+     "uk": "безкоштовної стоянки"
     }
    ],
    "why": {
     "en": "Generic service sign.",
-    "es": "Señal genérica de servicio."
+    "es": "Señal genérica de servicio.",
+    "uk": "Загальний знак послуги."
    }
   },
   {
@@ -4332,25 +5164,30 @@ window.DGT_DATA = {
    "tag": "mklong",
    "q": {
     "en": "A continuous white line separating directions means…",
-    "es": "Una línea continua que separa sentidos significa…"
+    "es": "Una línea continua que separa sentidos significa…",
+    "uk": "Суцільна біла лінія, що розділяє напрямки, означає…"
    },
    "o": [
     {
      "en": "do not cross it, drive on it or drive to its left",
-     "es": "no atravesarla, no circular sobre ella ni por su izquierda"
+     "es": "no atravesarla, no circular sobre ella ni por su izquierda",
+     "uk": "не перетинайте її, не їдьте нею й ліворуч від неї"
     },
     {
      "en": "cross it only to overtake",
-     "es": "cruzarla solo para adelantar"
+     "es": "cruzarla solo para adelantar",
+     "uk": "перетинайте лише для обгону"
     },
     {
      "en": "cross it with care",
-     "es": "cruzarla con precaución"
+     "es": "cruzarla con precaución",
+     "uk": "перетинайте обережно"
     }
    ],
    "why": {
     "en": "Two continuous lines mean the same.",
-    "es": "Dos continuas adosadas, lo mismo."
+    "es": "Dos continuas adosadas, lo mismo.",
+    "uk": "Дві суцільні лінії означають те саме."
    }
   },
   {
@@ -4358,25 +5195,30 @@ window.DGT_DATA = {
    "tag": "mklong",
    "q": {
     "en": "A noticeably wider continuous line marks…",
-    "es": "Una línea continua sensiblemente más ancha indica…"
+    "es": "Una línea continua sensiblemente más ancha indica…",
+    "uk": "Помітно ширша суцільна лінія позначає…"
    },
    "o": [
     {
      "en": "a special lane: only its users may cross it to leave",
-     "es": "un carril especial: solo sus usuarios la cruzan para salir"
+     "es": "un carril especial: solo sus usuarios la cruzan para salir",
+     "uk": "спеціальну смугу: перетинати її можуть лише її користувачі, щоб з’їхати"
     },
     {
      "en": "a stronger ban for everyone",
-     "es": "una prohibición más fuerte para todos"
+     "es": "una prohibición más fuerte para todos",
+     "uk": "суворішу заборону для всіх"
     },
     {
      "en": "the road edge",
-     "es": "el borde de la calzada"
+     "es": "el borde de la calzada",
+     "uk": "край дороги"
     }
    ],
    "why": {
     "en": "When the manoeuvre or destination requires it.",
-    "es": "Cuando lo exija la maniobra o el destino."
+    "es": "Cuando lo exija la maniobra o el destino.",
+    "uk": "Коли цього вимагають маневр чи напрямок."
    }
   },
   {
@@ -4384,25 +5226,30 @@ window.DGT_DATA = {
    "tag": "mklong",
    "q": {
     "en": "May you drive on a broken lane line?",
-    "es": "¿Se puede circular sobre una línea discontinua?"
+    "es": "¿Se puede circular sobre una línea discontinua?",
+    "uk": "Чи можна їхати по переривчастій лінії смуги?"
    },
    "o": [
     {
      "en": "Only if lanes are narrow and it is safe",
-     "es": "Solo si los carriles son estrechos y es seguro"
+     "es": "Solo si los carriles son estrechos y es seguro",
+     "uk": "Лише якщо смуги вузькі й це безпечно"
     },
     {
      "en": "Yes, always",
-     "es": "Sí, siempre"
+     "es": "Sí, siempre",
+     "uk": "Так, завжди"
     },
     {
      "en": "Never",
-     "es": "Nunca"
+     "es": "Nunca",
+     "uk": "Ніколи"
     }
    ],
    "why": {
     "en": "It guides traffic.",
-    "es": "Sirve para guiar."
+    "es": "Sirve para guiar.",
+    "uk": "Вона спрямовує рух."
    }
   },
   {
@@ -4410,25 +5257,30 @@ window.DGT_DATA = {
    "tag": "mklong",
    "q": {
     "en": "Broken lines with noticeably shorter gaps announce…",
-    "es": "Las discontinuas con trazos más juntos anuncian…"
+    "es": "Las discontinuas con trazos más juntos anuncian…",
+    "uk": "Переривчасті лінії з помітно коротшими проміжками попереджають про…"
    },
    "o": [
     {
      "en": "a continuous line or a stretch of special risk",
-     "es": "una línea continua o un tramo de riesgo especial"
+     "es": "una línea continua o un tramo de riesgo especial",
+     "uk": "суцільну лінію чи ділянку особливого ризику"
     },
     {
      "en": "a bus lane",
-     "es": "un carril bus"
+     "es": "un carril bus",
+     "uk": "автобусну смугу"
     },
     {
      "en": "the end of the road",
-     "es": "el final de la vía"
+     "es": "el final de la vía",
+     "uk": "кінець дороги"
     }
    ],
    "why": {
     "en": "Broken lines also announce forks and merges.",
-    "es": "También anuncian bifurcaciones y confluencias."
+    "es": "También anuncian bifurcaciones y confluencias.",
+    "uk": "Переривчасті лінії попереджають також про розгалуження й вливання."
    }
   },
   {
@@ -4436,25 +5288,30 @@ window.DGT_DATA = {
    "tag": "mklong",
    "q": {
     "en": "A continuous line is next to a broken line. You heed…",
-    "es": "Una línea continua va adosada a una discontinua. Atiendes a…"
+    "es": "Una línea continua va adosada a una discontinua. Atiendes a…",
+    "uk": "Суцільна лінія поруч із переривчастою. Ви виконуєте…"
    },
    "o": [
     {
      "en": "the line on your side",
-     "es": "la línea de tu lado"
+     "es": "la línea de tu lado",
+     "uk": "лінію зі свого боку"
     },
     {
      "en": "the continuous one always",
-     "es": "siempre la continua"
+     "es": "siempre la continua",
+     "uk": "завжди суцільну"
     },
     {
      "en": "the broken one always",
-     "es": "siempre la discontinua"
+     "es": "siempre la discontinua",
+     "uk": "завжди переривчасту"
     }
    ],
    "why": {
     "en": "Each driver obeys the one on their side.",
-    "es": "Cada uno, la de su lado."
+    "es": "Cada uno, la de su lado.",
+    "uk": "Кожен водій виконує ту, що з його боку."
    }
   },
   {
@@ -4462,25 +5319,30 @@ window.DGT_DATA = {
    "tag": "mklong",
    "q": {
     "en": "You have just overtaken; the line between directions is now continuous on your side and broken on the other. You…",
-    "es": "Acabas de adelantar; la línea entre sentidos es continua por tu lado y discontinua por el otro. Tú…"
+    "es": "Acabas de adelantar; la línea entre sentidos es continua por tu lado y discontinua por el otro. Tú…",
+    "uk": "Ви щойно обігнали; лінія між напрямками тепер суцільна з вашого боку й переривчаста з іншого. Ви…"
    },
    "o": [
     {
      "en": "may return to your side",
-     "es": "puedes volver a tu lado"
+     "es": "puedes volver a tu lado",
+     "uk": "можете повернутися на свій бік"
     },
     {
      "en": "must stay on the left",
-     "es": "debes seguir por la izquierda"
+     "es": "debes seguir por la izquierda",
+     "uk": "мусите лишатися ліворуч"
     },
     {
      "en": "must stop",
-     "es": "debes detenerte"
+     "es": "debes detenerte",
+     "uk": "мусите зупинитися"
     }
    ],
    "why": {
     "en": "Between directions it does not stop you returning.",
-    "es": "Si separa sentidos, no impide volver."
+    "es": "Si separa sentidos, no impide volver.",
+    "uk": "Між напрямками вона не заважає повернутися."
    }
   },
   {
@@ -4488,25 +5350,30 @@ window.DGT_DATA = {
    "tag": "mklong",
    "q": {
     "en": "A lane bounded on both sides by double broken lines is…",
-    "es": "Un carril delimitado por líneas dobles discontinuas a ambos lados es…"
+    "es": "Un carril delimitado por líneas dobles discontinuas a ambos lados es…",
+    "uk": "Смуга, обмежена з обох боків подвійними переривчастими лініями, —"
    },
    "o": [
     {
      "en": "a reversible lane",
-     "es": "un carril reversible"
+     "es": "un carril reversible",
+     "uk": "реверсивна смуга"
     },
     {
      "en": "a bus lane",
-     "es": "un carril bus"
+     "es": "un carril bus",
+     "uk": "автобусна смуга"
     },
     {
      "en": "a hard shoulder",
-     "es": "un arcén"
+     "es": "un arcén",
+     "uk": "узбіччя"
     }
    ],
    "why": {
     "en": "Its direction is set by lane lights or other means.",
-    "es": "Se regula con semáforos de carril u otros medios."
+    "es": "Se regula con semáforos de carril u otros medios.",
+    "uk": "Її напрямок задають світлофори над смугами чи інші засоби."
    }
   },
   {
@@ -4514,25 +5381,30 @@ window.DGT_DATA = {
    "tag": "mklong",
    "q": {
     "en": "Are edge lines or parking-bay lines longitudinal white markings for these rules?",
-    "es": "¿Las líneas de borde o de estacionamiento cuentan como marcas longitudinales?"
+    "es": "¿Las líneas de borde o de estacionamiento cuentan como marcas longitudinales?",
+    "uk": "Чи є крайові лінії чи лінії місць стоянки поздовжньою білою розміткою для цих правил?"
    },
    "o": [
     {
      "en": "No",
-     "es": "No"
+     "es": "No",
+     "uk": "Ні"
     },
     {
      "en": "Yes",
-     "es": "Sí"
+     "es": "Sí",
+     "uk": "Так"
     },
     {
      "en": "Only if continuous",
-     "es": "Solo si son continuas"
+     "es": "Solo si son continuas",
+     "uk": "Лише суцільні"
     }
    ],
    "why": {
     "en": "They just make the edges more visible.",
-    "es": "Solo hacen más visibles los bordes."
+    "es": "Solo hacen más visibles los bordes.",
+    "uk": "Вони лише роблять краї помітнішими."
    }
   },
   {
@@ -4540,25 +5412,30 @@ window.DGT_DATA = {
    "tag": "mktrans",
    "q": {
     "en": "A continuous line across your lane is…",
-    "es": "Una línea continua transversal en tu carril es…"
+    "es": "Una línea continua transversal en tu carril es…",
+    "uk": "Суцільна лінія поперек вашої смуги —"
    },
    "o": [
     {
      "en": "a stop line",
-     "es": "una línea de detención"
+     "es": "una línea de detención",
+     "uk": "стоп-лінія"
     },
     {
      "en": "a give-way line",
-     "es": "una línea de ceda el paso"
+     "es": "una línea de ceda el paso",
+     "uk": "лінія «Дати дорогу»"
     },
     {
      "en": "a pedestrian crossing",
-     "es": "un paso de peatones"
+     "es": "un paso de peatones",
+     "uk": "пішохідний перехід"
     }
    ],
    "why": {
     "en": "Don’t cross it when you must stop.",
-    "es": "No rebasarla cuando debas detenerte."
+    "es": "No rebasarla cuando debas detenerte.",
+    "uk": "Не перетинайте її, коли мусите зупинитися."
    }
   },
   {
@@ -4566,25 +5443,30 @@ window.DGT_DATA = {
    "tag": "mktrans",
    "q": {
     "en": "At a give-way line you cannot see the road. You…",
-    "es": "En una línea de ceda el paso no ves la vía. Tú…"
+    "es": "En una línea de ceda el paso no ves la vía. Tú…",
+    "uk": "Біля лінії «Дати дорогу» вам не видно дороги. Ви…"
    },
    "o": [
     {
      "en": "may move forward until you can see, without having to stop",
-     "es": "puedes avanzar hasta conseguir visibilidad, sin necesidad de detenerte"
+     "es": "puedes avanzar hasta conseguir visibilidad, sin necesidad de detenerte",
+     "uk": "можете проїхати вперед, доки не побачите, без обов’язкової зупинки"
     },
     {
      "en": "must stop at the line first",
-     "es": "debes detenerte primero en la línea"
+     "es": "debes detenerte primero en la línea",
+     "uk": "мусите спершу зупинитися на лінії"
     },
     {
      "en": "must turn back",
-     "es": "debes volver"
+     "es": "debes volver",
+     "uk": "мусите повернутися"
     }
    ],
    "why": {
     "en": "At a stop line you would stop and then stop again.",
-    "es": "En una de detención pararías y volverías a parar."
+    "es": "En una de detención pararías y volverías a parar.",
+    "uk": "Біля стоп-лінії ви зупинилися б, а потім ще раз."
    }
   },
   {
@@ -4592,25 +5474,30 @@ window.DGT_DATA = {
    "tag": "mktrans",
    "q": {
     "en": "Pedestrian crossing bands are…",
-    "es": "Las bandas de un paso de peatones son…"
+    "es": "Las bandas de un paso de peatones son…",
+    "uk": "Смуги пішохідного переходу —"
    },
    "o": [
     {
      "en": "parallel to the road’s axis, with no other colours alternating",
-     "es": "paralelas al eje de la calzada, sin alternar otros colores"
+     "es": "paralelas al eje de la calzada, sin alternar otros colores",
+     "uk": "паралельні осі дороги, без чергування інших кольорів"
     },
     {
      "en": "across the road, red and white",
-     "es": "transversales, rojas y blancas"
+     "es": "transversales, rojas y blancas",
+     "uk": "поперек дороги, червоні й білі"
     },
     {
      "en": "diagonal",
-     "es": "diagonales"
+     "es": "diagonales",
+     "uk": "діагональні"
     }
    ],
    "why": {
     "en": "They form a set across the road.",
-    "es": "Forman un conjunto transversal."
+    "es": "Forman un conjunto transversal.",
+    "uk": "Вони утворюють набір поперек дороги."
    }
   },
   {
@@ -4618,25 +5505,30 @@ window.DGT_DATA = {
    "tag": "mktrans",
    "q": {
     "en": "A cycle crossing is marked by…",
-    "es": "Un paso para ciclistas se marca con…"
+    "es": "Un paso para ciclistas se marca con…",
+    "uk": "Велосипедний переїзд позначають…"
    },
    "o": [
     {
      "en": "two parallel broken lines across the road",
-     "es": "dos líneas transversales discontinuas y paralelas"
+     "es": "dos líneas transversales discontinuas y paralelas",
+     "uk": "дві паралельні переривчасті лінії поперек дороги"
     },
     {
      "en": "a zebra",
-     "es": "una cebra"
+     "es": "una cebra",
+     "uk": "«зебра»"
     },
     {
      "en": "a yellow grid",
-     "es": "una cuadrícula amarilla"
+     "es": "una cuadrícula amarilla",
+     "uk": "жовта сітка"
     }
    ],
    "why": {
     "en": "Cyclists have priority; may be painted red.",
-    "es": "Preferencia ciclista; puede pintarse de rojo."
+    "es": "Preferencia ciclista; puede pintarse de rojo.",
+    "uk": "Велосипедисти мають перевагу; може бути пофарбований червоним."
    }
   },
   {
@@ -4644,25 +5536,30 @@ window.DGT_DATA = {
    "tag": "mktrans",
    "q": {
     "en": "Three white triangles on a hump (“lomo de asno”) mean…",
-    "es": "Tres triángulos blancos sobre un resalto («lomo de asno») indican…"
+    "es": "Tres triángulos blancos sobre un resalto («lomo de asno») indican…",
+    "uk": "Три білі трикутники на горбі («lomo de asno») означають…"
    },
    "o": [
     {
      "en": "a speed hump: slow down",
-     "es": "un reductor de velocidad: hay que reducir"
+     "es": "un reductor de velocidad: hay que reducir",
+     "uk": "штучна нерівність: сповільніться"
     },
     {
      "en": "give way",
-     "es": "ceda el paso"
+     "es": "ceda el paso",
+     "uk": "дати дорогу"
     },
     {
      "en": "a level crossing",
-     "es": "un paso a nivel"
+     "es": "un paso a nivel",
+     "uk": "залізничний переїзд"
     }
    ],
    "why": {
     "en": "Near crossings, schools, hospitals…",
-    "es": "Cerca de pasos, colegios, hospitales…"
+    "es": "Cerca de pasos, colegios, hospitales…",
+    "uk": "Біля переходів, шкіл, лікарень…"
    }
   },
   {
@@ -4670,25 +5567,30 @@ window.DGT_DATA = {
    "tag": "mktrans",
    "q": {
     "en": "A STOP painted in a lane bounded by lines applies to…",
-    "es": "Un STOP pintado en un carril delimitado por líneas afecta a…"
+    "es": "Un STOP pintado en un carril delimitado por líneas afecta a…",
+    "uk": "STOP, намальований на смузі, обмеженій лініями, стосується…"
    },
    "o": [
     {
      "en": "vehicles in that lane only",
-     "es": "solo a los vehículos de ese carril"
+     "es": "solo a los vehículos de ese carril",
+     "uk": "лише ТЗ на цій смузі"
     },
     {
      "en": "all lanes",
-     "es": "todos los carriles"
+     "es": "todos los carriles",
+     "uk": "усіх смуг"
     },
     {
      "en": "pedestrians",
-     "es": "los peatones"
+     "es": "los peatones",
+     "uk": "пішоходів"
     }
    ],
    "why": {
     "en": "All painted signs in a lane work like that.",
-    "es": "Así funcionan las señales pintadas en un carril."
+    "es": "Así funcionan las señales pintadas en un carril.",
+    "uk": "Так діють усі знаки, намальовані на смузі."
    }
   },
   {
@@ -4696,25 +5598,30 @@ window.DGT_DATA = {
    "tag": "mktrans",
    "q": {
     "en": "A return arrow near the centre of a two-way road pointing right means…",
-    "es": "Una flecha de retorno en el eje de una calzada de doble sentido, apuntando a la derecha, indica…"
+    "es": "Una flecha de retorno en el eje de una calzada de doble sentido, apuntando a la derecha, indica…",
+    "uk": "Стрілка повернення біля центру двосторонньої дороги, спрямована праворуч, означає…"
    },
    "o": [
     {
      "en": "a continuous line is coming: move right as soon as possible",
-     "es": "se acerca una línea continua: pasar a la derecha cuanto antes"
+     "es": "se acerca una línea continua: pasar a la derecha cuanto antes",
+     "uk": "попереду суцільна лінія: якнайшвидше перестройтеся праворуч"
     },
     {
      "en": "turn right at the next junction",
-     "es": "girar a la derecha en el próximo cruce"
+     "es": "girar a la derecha en el próximo cruce",
+     "uk": "поверніть праворуч на наступному перехресті"
     },
     {
      "en": "the lane ends",
-     "es": "el carril termina"
+     "es": "el carril termina",
+     "uk": "смуга закінчується"
     }
    ],
    "why": {
     "en": "Driving to the left of that line will be forbidden.",
-    "es": "Estará prohibido circular por su izquierda."
+    "es": "Estará prohibido circular por su izquierda.",
+    "uk": "Їхати ліворуч від цієї лінії буде заборонено."
    }
   },
   {
@@ -4722,25 +5629,30 @@ window.DGT_DATA = {
    "tag": "mktrans",
    "q": {
     "en": "A mini-roundabout’s central island measures…",
-    "es": "La isleta central de una minirrotonda mide…"
+    "es": "La isleta central de una minirrotonda mide…",
+    "uk": "Центральний острівець міні-кільцевої розв’язки має діаметр…"
    },
    "o": [
     {
      "en": "4 m or less across",
-     "es": "4 m o menos de diámetro"
+     "es": "4 m o menos de diámetro",
+     "uk": "4 м чи менше"
     },
     {
      "en": "at least 10 m",
-     "es": "al menos 10 m"
+     "es": "al menos 10 m",
+     "uk": "щонайменше 10 м"
     },
     {
      "en": "exactly 6 m",
-     "es": "exactamente 6 m"
+     "es": "exactamente 6 m",
+     "uk": "рівно 6 м"
     }
    ],
    "why": {
     "en": "The arrows show the way round.",
-    "es": "Las flechas indican el sentido."
+    "es": "Las flechas indican el sentido.",
+    "uk": "Стрілки показують напрямок об’їзду."
    }
   },
   {
@@ -4748,25 +5660,30 @@ window.DGT_DATA = {
    "tag": "mktrans",
    "q": {
     "en": "A painted triangle with its point towards you means…",
-    "es": "Un triángulo pintado con el vértice hacia ti significa…"
+    "es": "Un triángulo pintado con el vértice hacia ti significa…",
+    "uk": "Намальований трикутник вершиною до вас означає…"
    },
    "o": [
     {
      "en": "give way at the next junction",
-     "es": "ceder el paso en la próxima intersección"
+     "es": "ceder el paso en la próxima intersección",
+     "uk": "дати дорогу на наступному перехресті"
     },
     {
      "en": "road narrows",
-     "es": "estrechamiento"
+     "es": "estrechamiento",
+     "uk": "звуження дороги"
     },
     {
      "en": "danger",
-     "es": "peligro"
+     "es": "peligro",
+     "uk": "небезпека"
     }
    ],
    "why": {
     "en": "Horizontal give-way sign.",
-    "es": "Señal horizontal de ceda el paso."
+    "es": "Señal horizontal de ceda el paso.",
+    "uk": "Горизонтальний знак «Дати дорогу»."
    }
   },
   {
@@ -4774,25 +5691,30 @@ window.DGT_DATA = {
    "tag": "mkother",
    "q": {
     "en": "May a car enter a hatched area (cebreado)?",
-    "es": "¿Puede un turismo entrar en un cebreado?"
+    "es": "¿Puede un turismo entrar en un cebreado?",
+    "uk": "Чи може легковик заїжджати на зону з косою штриховкою (cebreado)?"
    },
    "o": [
     {
      "en": "No; only those who must use the shoulder may",
-     "es": "No; solo los obligados a circular por el arcén"
+     "es": "No; solo los obligados a circular por el arcén",
+     "uk": "Ні; лише ті, хто мусить їхати узбіччям"
     },
     {
      "en": "Yes, to overtake",
-     "es": "Sí, para adelantar"
+     "es": "Sí, para adelantar",
+     "uk": "Так, для обгону"
     },
     {
      "en": "Yes, to stop",
-     "es": "Sí, para parar"
+     "es": "Sí, para parar",
+     "uk": "Так, щоб зупинитися"
     }
    ],
    "why": {
     "en": "Oblique stripes framed by a continuous line.",
-    "es": "Franjas oblicuas enmarcadas por una continua."
+    "es": "Franjas oblicuas enmarcadas por una continua.",
+    "uk": "Косі смуги в рамці суцільної лінії."
    }
   },
   {
@@ -4800,25 +5722,30 @@ window.DGT_DATA = {
    "tag": "mkother",
    "q": {
     "en": "Distance chevrons (galones): keep at least…",
-    "es": "Galones: hay que dejar al menos…"
+    "es": "Galones: hay que dejar al menos…",
+    "uk": "Шеврони дистанції (galones): тримайте щонайменше…"
    },
    "o": [
     {
      "en": "2 chevrons",
-     "es": "2 galones"
+     "es": "2 galones",
+     "uk": "2 шеврони"
     },
     {
      "en": "1 chevron",
-     "es": "1 galón"
+     "es": "1 galón",
+     "uk": "1 шеврон"
     },
     {
      "en": "3 chevrons",
-     "es": "3 galones"
+     "es": "3 galones",
+     "uk": "3 шеврони"
     }
    ],
    "why": {
     "en": "On any road; R-300 at the start.",
-    "es": "En cualquier vía; R-300 al inicio."
+    "es": "En cualquier vía; R-300 al inicio.",
+    "uk": "На будь-якій дорозі; R-300 на початку."
    }
   },
   {
@@ -4826,25 +5753,30 @@ window.DGT_DATA = {
    "tag": "mkother",
    "q": {
     "en": "The two lines of an avanza-motos box are…",
-    "es": "Las dos líneas de un avanza-motos están separadas…"
+    "es": "Las dos líneas de un avanza-motos están separadas…",
+    "uk": "Дві лінії зони avanza-motos стоять на відстані…"
    },
    "o": [
     {
      "en": "4 m apart",
-     "es": "4 m"
+     "es": "4 m",
+     "uk": "4 м"
     },
     {
      "en": "2 m apart",
-     "es": "2 m"
+     "es": "2 m",
+     "uk": "2 м"
     },
     {
      "en": "10 m apart",
-     "es": "10 m"
+     "es": "10 m",
+     "uk": "10 м"
     }
    ],
    "why": {
     "en": "Only the vehicles shown may wait there on red.",
-    "es": "Con rojo solo pueden ocuparlo los del pictograma."
+    "es": "Con rojo solo pueden ocuparlo los del pictograma.",
+    "uk": "Лише показані ТЗ можуть чекати там на червоний."
    }
   },
   {
@@ -4852,25 +5784,30 @@ window.DGT_DATA = {
    "tag": "mkother",
    "q": {
     "en": "Dragon’s teeth at the edges of the road warn you to…",
-    "es": "Los dientes de dragón en los bordes avisan de que debes…"
+    "es": "Los dientes de dragón en los bordes avisan de que debes…",
+    "uk": "«Зуби дракона» на краях дороги попереджають…"
    },
    "o": [
     {
      "en": "slow down noticeably as you enter a town",
-     "es": "reducir sensiblemente la velocidad al llegar a una travesía o vía urbana"
+     "es": "reducir sensiblemente la velocidad al llegar a una travesía o vía urbana",
+     "uk": "помітно сповільніться при в’їзді в населений пункт"
     },
     {
      "en": "give way",
-     "es": "ceder el paso"
+     "es": "ceder el paso",
+     "uk": "дати дорогу"
     },
     {
      "en": "overtake",
-     "es": "adelantar"
+     "es": "adelantar",
+     "uk": "обганяйте"
     }
    ],
    "why": {
     "en": "Vulnerable users may be present.",
-    "es": "Posibles usuarios vulnerables."
+    "es": "Posibles usuarios vulnerables.",
+    "uk": "Можуть бути вразливі учасники руху."
    }
   },
   {
@@ -4878,25 +5815,30 @@ window.DGT_DATA = {
    "tag": "mkother",
    "q": {
     "en": "Zig-zag edge lines warn of…",
-    "es": "Las líneas de borde quebradas avisan de…"
+    "es": "Las líneas de borde quebradas avisan de…",
+    "uk": "Зигзагоподібні крайові лінії попереджають про…"
    },
    "o": [
     {
      "en": "a pedestrian or cycle crossing ahead",
-     "es": "un paso para peatones o ciclistas próximo"
+     "es": "un paso para peatones o ciclistas próximo",
+     "uk": "пішохідний чи велосипедний перехід попереду"
     },
     {
      "en": "a bend",
-     "es": "una curva"
+     "es": "una curva",
+     "uk": "поворот"
     },
     {
      "en": "a toll",
-     "es": "un peaje"
+     "es": "un peaje",
+     "uk": "пункт оплати"
     }
    ],
    "why": {
     "en": "Slow down and pay attention.",
-    "es": "Reducir y aumentar la atención."
+    "es": "Reducir y aumentar la atención.",
+    "uk": "Сповільніться й будьте уважні."
    }
   },
   {
@@ -4904,25 +5846,30 @@ window.DGT_DATA = {
    "tag": "mkother",
    "q": {
     "en": "A broken yellow line along the kerb means…",
-    "es": "Una línea amarilla discontinua junto al bordillo significa…"
+    "es": "Una línea amarilla discontinua junto al bordillo significa…",
+    "uk": "Переривчаста жовта лінія вздовж бордюру означає…"
    },
    "o": [
     {
      "en": "no parking (stopping allowed)",
-     "es": "estacionamiento prohibido (parada permitida)"
+     "es": "estacionamiento prohibido (parada permitida)",
+     "uk": "стоянку заборонено (зупинку дозволено)"
     },
     {
      "en": "no stopping or parking",
-     "es": "parada y estacionamiento prohibidos"
+     "es": "parada y estacionamiento prohibidos",
+     "uk": "зупинку й стоянку заборонено"
     },
     {
      "en": "loading only",
-     "es": "solo carga y descarga"
+     "es": "solo carga y descarga",
+     "uk": "лише навантаження"
     }
    ],
    "why": {
     "en": "Continuous yellow: no stopping or parking.",
-    "es": "Continua amarilla: ni parar ni estacionar."
+    "es": "Continua amarilla: ni parar ni estacionar.",
+    "uk": "Суцільна жовта: зупинку й стоянку заборонено."
    }
   },
   {
@@ -4930,25 +5877,30 @@ window.DGT_DATA = {
    "tag": "mkother",
    "q": {
     "en": "A yellow criss-cross grid in a junction means…",
-    "es": "Una cuadrícula amarilla en una intersección significa…"
+    "es": "Una cuadrícula amarilla en una intersección significa…",
+    "uk": "Жовта сітка на перехресті означає…"
    },
    "o": [
     {
      "en": "do not enter if you may be left stopped there",
-     "es": "no entrar si previsiblemente quedarás detenido"
+     "es": "no entrar si previsiblemente quedarás detenido",
+     "uk": "не в’їжджайте, якщо можете там зупинитися"
     },
     {
      "en": "no entry at all",
-     "es": "prohibido entrar siempre"
+     "es": "prohibido entrar siempre",
+     "uk": "в’їзд заборонено взагалі"
     },
     {
      "en": "parking area",
-     "es": "zona de estacionamiento"
+     "es": "zona de estacionamiento",
+     "uk": "зона стоянки"
     }
    ],
    "why": {
     "en": "So as not to block cross traffic.",
-    "es": "Para no obstruir la circulación transversal."
+    "es": "Para no obstruir la circulación transversal.",
+    "uk": "Щоб не блокувати поперечний рух."
    }
   },
   {
@@ -4956,25 +5908,30 @@ window.DGT_DATA = {
    "tag": "mkother",
    "q": {
     "en": "A red and white chequerboard marks…",
-    "es": "Un damero rojo y blanco marca…"
+    "es": "Un damero rojo y blanco marca…",
+    "uk": "Червоно-біла шахівниця позначає…"
    },
    "o": [
     {
      "en": "the start of an emergency escape lane",
-     "es": "el comienzo de una zona de frenado de emergencia"
+     "es": "el comienzo de una zona de frenado de emergencia",
+     "uk": "початок аварійної смуги"
     },
     {
      "en": "a level crossing",
-     "es": "un paso a nivel"
+     "es": "un paso a nivel",
+     "uk": "залізничний переїзд"
     },
     {
      "en": "a cycle lane",
-     "es": "un carril bici"
+     "es": "un carril bici",
+     "uk": "велосмугу"
     }
    ],
    "why": {
     "en": "No stopping, parking or other use.",
-    "es": "Prohibida la parada, el estacionamiento y otros usos."
+    "es": "Prohibida la parada, el estacionamiento y otros usos.",
+    "uk": "Без зупинки, стоянки чи іншого використання."
    }
   },
   {
@@ -4982,25 +5939,30 @@ window.DGT_DATA = {
    "tag": "mkother",
    "q": {
     "en": "Blue lines marking parking spaces mean…",
-    "es": "Las marcas azules de estacionamiento significan…"
+    "es": "Las marcas azules de estacionamiento significan…",
+    "uk": "Сині лінії місць стоянки означають…"
    },
    "o": [
     {
      "en": "parking time is limited at certain times",
-     "es": "duración del estacionamiento limitada en ciertos periodos"
+     "es": "duración del estacionamiento limitada en ciertos periodos",
+     "uk": "стоянка в певні години обмежена в часі"
     },
     {
      "en": "reserved for disabled people",
-     "es": "reservado a personas con discapacidad"
+     "es": "reservado a personas con discapacidad",
+     "uk": "місця для людей з інвалідністю"
     },
     {
      "en": "no parking",
-     "es": "prohibido estacionar"
+     "es": "prohibido estacionar",
+     "uk": "стоянку заборонено"
     }
    ],
    "why": {
     "en": "Instead of the usual white.",
-    "es": "En lugar del blanco habitual."
+    "es": "En lugar del blanco habitual.",
+    "uk": "Замість звичайних білих."
    }
   },
   {
@@ -5008,25 +5970,30 @@ window.DGT_DATA = {
    "tag": "mkother",
    "q": {
     "en": "A yellow zig-zag marking means…",
-    "es": "Una marca amarilla en zigzag significa…"
+    "es": "Una marca amarilla en zigzag significa…",
+    "uk": "Жовта зигзагоподібна розмітка означає…"
    },
    "o": [
     {
      "en": "no parking: reserved for a special short-stay use",
-     "es": "prohibido estacionar: reservado a un uso especial sin larga permanencia"
+     "es": "prohibido estacionar: reservado a un uso especial sin larga permanencia",
+     "uk": "стоянку заборонено: місце для особливого короткочасного використання"
     },
     {
      "en": "no overtaking",
-     "es": "prohibido adelantar"
+     "es": "prohibido adelantar",
+     "uk": "обгін заборонено"
     },
     {
      "en": "roadworks",
-     "es": "obras"
+     "es": "obras",
+     "uk": "дорожні роботи"
     }
    ],
    "why": {
     "en": "Bus stops, loading zones.",
-    "es": "Paradas de bus, carga y descarga."
+    "es": "Paradas de bus, carga y descarga.",
+    "uk": "Автобусні зупинки, зони навантаження."
    }
   },
   {
@@ -5034,25 +6001,30 @@ window.DGT_DATA = {
    "tag": "mkother",
    "q": {
     "en": "An edge line can be continuous or broken. The difference is…",
-    "es": "Una línea de borde puede ser continua o discontinua. La diferencia es…"
+    "es": "Una línea de borde puede ser continua o discontinua. La diferencia es…",
+    "uk": "Крайова лінія може бути суцільною чи переривчастою. Різниця…"
    },
    "o": [
     {
      "en": "none, it makes no difference",
-     "es": "ninguna, es indiferente"
+     "es": "ninguna, es indiferente",
+     "uk": "жодна, різниці немає"
     },
     {
      "en": "you may cross the broken one to overtake",
-     "es": "la discontinua se puede cruzar para adelantar"
+     "es": "la discontinua se puede cruzar para adelantar",
+     "uk": "переривчасту можна перетинати для обгону"
     },
     {
      "en": "the continuous one bans stopping",
-     "es": "la continua prohíbe parar"
+     "es": "la continua prohíbe parar",
+     "uk": "суцільна забороняє зупинку"
     }
    ],
    "why": {
     "en": "It only makes the edge more visible.",
-    "es": "Solo hace más visible el borde."
+    "es": "Solo hace más visible el borde.",
+    "uk": "Вона лише робить край помітнішим."
    }
   },
   {
@@ -5060,25 +6032,30 @@ window.DGT_DATA = {
    "tag": "mkother",
    "q": {
     "en": "A chequerboard of white squares across the road warns of…",
-    "es": "Un damero de cuadros blancos en la calzada avisa de…"
+    "es": "Un damero de cuadros blancos en la calzada avisa de…",
+    "uk": "Шахівниця з білих квадратів поперек дороги попереджає про…"
    },
    "o": [
     {
      "en": "a risk greater than it looks: slow down",
-     "es": "un riesgo mayor del percibido: reducir"
+     "es": "un riesgo mayor del percibido: reducir",
+     "uk": "ризик, більший, ніж здається: сповільніться"
     },
     {
      "en": "a pedestrian crossing",
-     "es": "un paso de peatones"
+     "es": "un paso de peatones",
+     "uk": "пішохідний перехід"
     },
     {
      "en": "a parking area",
-     "es": "un aparcamiento"
+     "es": "un aparcamiento",
+     "uk": "зону стоянки"
     }
    ],
    "why": {
     "en": "Before roundabouts, tolls…",
-    "es": "Antes de glorietas, peajes…"
+    "es": "Antes de glorietas, peajes…",
+    "uk": "Перед кільцевими розв’язками, пунктами оплати…"
    }
   },
   {
@@ -5086,25 +6063,30 @@ window.DGT_DATA = {
    "tag": "mkother",
    "q": {
     "en": "Yellow kerb markings can mean a temporary prohibition when…",
-    "es": "Las marcas amarillas pueden indicar una prohibición temporal cuando…"
+    "es": "Las marcas amarillas pueden indicar una prohibición temporal cuando…",
+    "uk": "Жовта розмітка бордюру може означати тимчасову заборону, коли…"
    },
    "o": [
     {
      "en": "a vertical sign at the start of the stretch says so",
-     "es": "una señal vertical al principio del tramo lo especifica"
+     "es": "una señal vertical al principio del tramo lo especifica",
+     "uk": "про це каже вертикальний знак на початку ділянки"
     },
     {
      "en": "it is raining",
-     "es": "llueve"
+     "es": "llueve",
+     "uk": "іде дощ"
     },
     {
      "en": "it is night",
-     "es": "es de noche"
+     "es": "es de noche",
+     "uk": "ніч"
     }
    ],
    "why": {
     "en": "Zig-zag, continuous and broken yellow lines.",
-    "es": "Zigzag, continua y discontinua amarillas."
+    "es": "Zigzag, continua y discontinua amarillas.",
+    "uk": "Зигзаг, суцільна й переривчаста жовті лінії."
    }
   }
  ],
@@ -5113,567 +6095,693 @@ window.DGT_DATA = {
    "sec": 1,
    "en": "Order of priority",
    "es": "Orden de prioridad",
+   "uk": "Черговість сигналів",
    "recap": [
     [
      "Agents → temporary signs and beaconing → traffic lights → vertical signs → road markings.",
-     "Agentes → señalización circunstancial y balizamiento → semáforos → señales verticales → marcas viales."
+     "Agentes → señalización circunstancial y balizamiento → semáforos → señales verticales → marcas viales.",
+     "Регулювальники → тимчасові знаки й огородження → світлофори → вертикальні знаки → розмітка."
     ],
     [
      "Different groups: obey the one higher in that order. Same group: the most restrictive.",
-     "Grupos distintos: la prioritaria según ese orden. Mismo grupo: la más restrictiva."
+     "Grupos distintos: la prioritaria según ese orden. Mismo grupo: la más restrictiva.",
+     "Різні групи: виконуйте вищий у цій черговості. Однакова група: найсуворіший."
     ],
     [
      "Sign against a traffic rule: obey the sign, unless special circumstances justify otherwise.",
-     "Señal contra norma de circulación: la señal, salvo circunstancias especiales."
+     "Señal contra norma de circulación: la señal, salvo circunstancias especiales.",
+     "Знак суперечить правилу руху: виконуйте знак, якщо особливі обставини не виправдовують іншого."
     ],
     [
      "Everyone must obey signs; nobody may install, move, hide or alter them, or put objects that confuse, dazzle or distract.",
-     "Todos deben obedecer; nadie puede instalar, trasladar, ocultar o modificar señales ni poner objetos que confundan, deslumbren o distraigan."
+     "Todos deben obedecer; nadie puede instalar, trasladar, ocultar o modificar señales ni poner objetos que confundan, deslumbren o distraigan.",
+     "Усі мусять виконувати знаки; ніхто не може встановлювати, переносити, закривати чи змінювати їх або ставити предмети, що заплутують, засліплюють чи відволікають."
     ]
    ],
    "trap": [
     "Thinking a road marking beats a vertical sign.",
-    "Pensar que una marca vial prevalece sobre una señal vertical."
+    "Pensar que una marca vial prevalece sobre una señal vertical.",
+    "Думати, що розмітка має перевагу над вертикальним знаком."
    ]
   },
   "place": {
    "sec": 1,
    "en": "Where signs apply",
    "es": "Colocación y aplicación",
+   "uk": "Де діють знаки",
    "recap": [
     [
      "Right-hand sign: everyone. Left-hand sign: straight on or left. Different signs: left for straight/left, right for right turns.",
-     "Derecha: todos. Izquierda: de frente o a la izquierda. Distintas: izquierda de frente/izquierda; derecha, giro derecha."
+     "Derecha: todos. Izquierda: de frente o a la izquierda. Distintas: izquierda de frente/izquierda; derecha, giro derecha.",
+     "Знак праворуч: для всіх. Знак ліворуч: прямо чи ліворуч. Різні знаки: лівий — прямо/ліворуч, правий — для поворотів праворуч."
     ],
     [
      "Above the carriageway: whole carriageway. Above a lane: that lane only.",
-     "Encima de la calzada: toda la calzada. Encima de un carril: solo ese carril."
+     "Encima de la calzada: toda la calzada. Encima de un carril: solo ese carril.",
+     "Над проїзною частиною: уся проїзна частина. Над смугою: лише ця смуга."
     ],
     [
      "Signs apply to the whole usable width unless painted in a lane or limited by a panel.",
-     "Se aplican a toda la anchura utilizable, salvo dentro de un carril o limitadas por un panel."
+     "Se aplican a toda la anchura utilizable, salvo dentro de un carril o limitadas por un panel.",
+     "Знаки діють на всю придатну ширину, якщо їх не намальовано на смузі чи не обмежено табличкою."
     ],
     [
      "Roadworks: yellow markings and yellow-background signs, same meaning; signed day and night, lit at night.",
-     "Obras: marcas amarillas y señales con fondo amarillo, mismo significado; señalizadas de día y de noche, balizadas de noche."
+     "Obras: marcas amarillas y señales con fondo amarillo, mismo significado; señalizadas de día y de noche, balizadas de noche.",
+     "Дорожні роботи: жовта розмітка й знаки на жовтому фоні, значення те саме; позначені вдень і вночі, освітлені вночі."
     ]
    ],
    "trap": [
     "Thinking a sign on the left also binds those turning right.",
-    "Pensar que la señal de la izquierda obliga también a los que giran a la derecha."
+    "Pensar que la señal de la izquierda obliga también a los que giran a la derecha.",
+    "Думати, що знак ліворуч зобов’язує й тих, хто повертає праворуч."
    ]
   },
   "arms": {
    "sec": 2,
    "en": "Agents’ arm signals",
    "es": "Señales de los agentes con los brazos",
+   "uk": "Сигнали регулювальника руками",
    "recap": [
     [
      "Agents’ orders prevail over every other sign and rule, even if they contradict them.",
-     "Las órdenes de los agentes prevalecen sobre las demás señales y normas, aunque las contradigan."
+     "Las órdenes de los agentes prevalecen sobre las demás señales y normas, aunque las contradigan.",
+     "Накази регулювальників мають перевагу над усіма іншими знаками й правилами, навіть коли суперечать їм."
     ],
     [
      "Arm raised: everyone approaching stops (at the stop line, before the agent, or before the junction); those already inside carry on.",
-     "Brazo levantado: todos los que se acercan se detienen (línea de detención, antes del agente o antes de la intersección); los que ya están dentro siguen."
+     "Brazo levantado: todos los que se acercan se detienen (línea de detención, antes del agente o antes de la intersección); los que ya están dentro siguen.",
+     "Рука піднята: усі, хто наближається, зупиняються (біля стоп-лінії, перед регулювальником чи перед перехрестям); ті, хто вже на перехресті, їдуть далі."
     ],
     [
      "Arms out sideways: traffic crossing the arms’ line stops; the order stays while the agent keeps position.",
-     "Brazos extendidos: se detienen los que cortan la dirección de los brazos; la orden sigue mientras no cambie de posición."
+     "Brazos extendidos: se detienen los que cortan la dirección de los brazos; la orden sigue mientras no cambie de posición.",
+     "Руки в боки: рух, що перетинає лінію рук, зупиняється; наказ діє, доки регулювальник зберігає положення."
     ],
     [
      "Swinging red/amber light: those it is aimed at stop. Arm moving up and down: slow down.",
-     "Luz roja/amarilla en balanceo: se detienen aquellos a los que se dirige. Brazo arriba y abajo: reducir velocidad."
+     "Luz roja/amarilla en balanceo: se detienen aquellos a los que se dirige. Brazo arriba y abajo: reducir velocidad.",
+     "Хитання червоним/жовтим ліхтарем: ті, на кого він спрямований, зупиняються. Рука рухається вгору-вниз: сповільніться."
     ]
    ],
    "trap": [
     "Taking the up-and-down arm as an order to stop.",
-    "Tomar el brazo arriba y abajo como orden de detenerse."
+    "Tomar el brazo arriba y abajo como orden de detenerse.",
+    "Сприймати рух руки вгору-вниз як наказ зупинитися."
    ]
   },
   "agveh": {
    "sec": 2,
    "en": "Whistle and agents’ vehicles",
    "es": "Silbato y señales desde el vehículo",
+   "uk": "Свисток і ТЗ регулювальників",
    "recap": [
     [
      "Whistle: short frequent blasts = stop; one long blast = move off.",
-     "Silbato: toques cortos y frecuentes = detención; un toque largo = reanudar."
+     "Silbato: toques cortos y frecuentes = detención; un toque largo = reanudar.",
+     "Свисток: короткі часті — стоп; один довгий — рушайте."
     ],
     [
      "Red flag: road closed after the vehicle; yellow: extreme care / danger; green: road open again.",
-     "Bandera roja: calzada cerrada tras el vehículo; amarilla: extremar la atención / peligro; verde: de nuevo abierta."
+     "Bandera roja: calzada cerrada tras el vehículo; amarilla: extremar la atención / peligro; verde: de nuevo abierta.",
+     "Червоний прапорець: дорогу закрито після ТЗ; жовтий — надзвичайна обережність / небезпека; зелений — дорогу знову відкрито."
     ],
     [
      "Arm held down, slanted and still, from a vehicle: stop on the right.",
-     "Brazo extendido hacia abajo, inclinado y fijo, desde un vehículo: detenerse a la derecha."
+     "Brazo extendido hacia abajo, inclinado y fijo, desde un vehículo: detenerse a la derecha.",
+     "Рука вниз, похило й нерухомо, з ТЗ: зупиніться праворуч."
     ],
     [
      "Flashing red light forwards: stop on the right ahead of the police car and obey the loudspeaker.",
-     "Luz roja intermitente hacia delante: detenerse a la derecha delante del vehículo policial y obedecer la megafonía."
+     "Luz roja intermitente hacia delante: detenerse a la derecha delante del vehículo policial y obedecer la megafonía.",
+     "Червоний вогонь, що блимає вперед: зупиніться праворуч попереду поліцейського автомобіля й виконуйте вказівки з гучномовця."
     ]
    ],
    "trap": [
     "Stopping behind the police car instead of in front of it.",
-    "Detenerse detrás del coche policial en vez de delante."
+    "Detenerse detrás del coche policial en vez de delante.",
+    "Зупинятися позаду поліцейського автомобіля, а не попереду нього."
    ]
   },
   "helpers": {
    "sec": 2,
    "en": "Agents’ helpers",
    "es": "Auxiliares de los agentes",
+   "uk": "Помічники регулювальників",
    "recap": [
     [
      "Roadworks staff and special-transport escorts regulate with paddle signs: obey them.",
-     "Personal de obras y de acompañamiento de transportes especiales regulan con paleta: hay que obedecerles."
+     "Personal de obras y de acompañamiento de transportes especiales regulan con paleta: hay que obedecerles.",
+     "Дорожні робітники й супровід спецперевезень регулюють рух табличками на держаку: виконуйте їх."
     ],
     [
      "School patrols may “invite” users to stop with a paddle.",
-     "Las patrullas escolares pueden «invitar» a detenerse con una paleta."
+     "Las patrullas escolares pueden «invitar» a detenerse con una paleta.",
+     "Шкільні патрулі можуть «запропонувати» учасникам руху зупинитися табличкою на держаку."
     ],
     [
      "Military Police may regulate traffic; civil-protection or organisers’ staff may close routes for authorised events.",
-     "La Policía Militar puede regular; protección civil o la organización pueden cerrar el paso en actos autorizados."
+     "La Policía Militar puede regular; protección civil o la organización pueden cerrar el paso en actos autorizados.",
+     "Військова поліція може регулювати рух; персонал цивільного захисту чи організаторів може закривати маршрути на дозволених заходах."
     ],
     [
      "All wear bright clothing and retroreflective elements visible from at least 150 m.",
-     "Todos llevan prendas llamativas y elementos retrorreflectantes visibles a 150 m como mínimo."
+     "Todos llevan prendas llamativas y elementos retrorreflectantes visibles a 150 m como mínimo.",
+     "Усі в яскравому одязі зі світлоповертальними елементами, видимими щонайменше зі 150 м."
     ]
    ],
    "trap": [
     "Mixing up 150 m with other distances.",
-    "Confundir 150 m con otras distancias."
+    "Confundir 150 m con otras distancias.",
+    "Плутати 150 м з іншими відстанями."
    ]
   },
   "beacon": {
    "sec": 3,
    "en": "Variable messages and delimiting devices",
    "es": "Paneles variables y dispositivos delimitadores",
+   "uk": "Змінна інформація й обмежувальні пристрої",
    "recap": [
     [
      "Variable message signs adapt traffic to circumstances: inform, warn, recommend or give compulsory orders; never more than 2 alternating messages.",
-     "Los paneles de mensaje variable adaptan la circulación: informan, advierten, recomiendan u ordenan; nunca más de 2 mensajes alternados."
+     "Los paneles de mensaje variable adaptan la circulación: informan, advierten, recomiendan u ordenan; nunca más de 2 mensajes alternados.",
+     "Табло зі змінною інформацією пристосовують рух до обставин: інформують, попереджають, рекомендують чи дають обов’язкові вказівки; ніколи не більше 2 повідомлень, що чергуються."
     ],
     [
      "Fixed barrier: no passing. Moving barrier: no passing while moving or across; queue one behind another.",
-     "Barrera fija: prohíbe el paso. Móvil: lo prohíbe mientras se mueve o está transversal; esperar uno detrás de otro."
+     "Barrera fija: prohíbe el paso. Móvil: lo prohíbe mientras se mueve o está transversal; esperar uno detrás de otro.",
+     "Нерухомий бар’єр: проїзд заборонено. Рухомий бар’єр: проїзд заборонено, доки рухається чи перекриває; чекайте один за одним."
     ],
     [
      "Cones, edge beacons and yellow lights: do not cross the real or imaginary line joining them.",
-     "Conos, balizas de borde y luces amarillas: no atravesar la línea real o imaginaria que los une."
+     "Conos, balizas de borde y luces amarillas: no atravesar la línea real o imaginaria que los une.",
+     "Конуси, крайові маячки й жовті вогні: не перетинайте реальну чи уявну лінію, що їх з’єднує."
     ],
     [
      "Steady red light: carriageway completely closed. Temporary direction panel: no passing, shows the direction.",
-     "Luz roja fija: calzada totalmente cerrada. Panel direccional provisional: prohíbe el paso e indica el sentido."
+     "Luz roja fija: calzada totalmente cerrada. Panel direccional provisional: prohíbe el paso e indica el sentido.",
+     "Постійний червоний вогонь: проїзну частину повністю закрито. Тимчасова напрямна табличка: проїзд заборонено, показує напрямок."
     ]
    ],
    "trap": [
     "Thinking a variable message is only a recommendation.",
-    "Pensar que un panel variable solo recomienda."
+    "Pensar que un panel variable solo recomienda.",
+    "Думати, що змінне повідомлення — лише рекомендація."
    ]
   },
   "guide": {
    "sec": 3,
    "en": "Guide devices and barriers",
    "es": "Dispositivos de guía y contención",
+   "uk": "Напрямні пристрої й огородження",
    "recap": [
     [
      "Gore marker: where two streams separate. Edge posts: the road’s edges at night.",
-     "Hito de vértice: donde se separan dos corrientes. Hito de arista: bordes de la vía de noche."
+     "Hito de vértice: donde se separan dos corrientes. Hito de arista: bordes de la vía de noche.",
+     "Стовпчик розгалуження: де розходяться два потоки. Сигнальні стовпчики: краї дороги вночі."
     ],
     [
      "Permanent direction panels: single, double or triple = moderate, medium, high danger.",
-     "Paneles direccionales permanentes: sencillo, doble o triple = peligro moderado, medio o elevado."
+     "Paneles direccionales permanentes: sencillo, doble o triple = peligro moderado, medio o elevado.",
+     "Постійні напрямні таблички: одинарна, подвійна чи потрійна = помірна, середня, висока небезпека."
     ],
     [
      "Edge posts and reflectors: white on the left, white or yellow on the right. Luminous studs: cross only when green.",
-     "Hitos y captafaros: blancos a la izquierda; blancos o amarillos a la derecha. Captafaro luminoso: solo se pasa en verde."
+     "Hitos y captafaros: blancos a la izquierda; blancos o amarillos a la derecha. Captafaro luminoso: solo se pasa en verde.",
+     "Сигнальні стовпчики й світлоповертачі: білі ліворуч, білі чи жовті праворуч. Світлові катафоти: перетинати лише зелені."
     ],
     [
      "Fog lights: amber = direction/edge, red = a vehicle passing. Parapets protect on bridges; crash cushions at forks.",
-     "Balizamiento en niebla: ámbar = sentido/borde, rojo = paso de un vehículo. Pretiles en puentes; atenuadores en bifurcaciones."
+     "Balizamiento en niebla: ámbar = sentido/borde, rojo = paso de un vehículo. Pretiles en puentes; atenuadores en bifurcaciones.",
+     "Протитуманні маячки: жовтий = напрямок/край, червоний = проїжджає ТЗ. Парапети захищають на мостах; амортизатори удару — на розгалуженнях."
     ]
    ],
    "trap": [
     "Thinking a windsock replaces the crosswind warning sign.",
-    "Pensar que la manga de viento sustituye a la señal de viento transversal."
+    "Pensar que la manga de viento sustituye a la señal de viento transversal.",
+    "Думати, що вітровий конус замінює знак бокового вітру."
    ]
   },
   "tlights": {
    "sec": 4,
    "en": "Steady traffic lights",
    "es": "Semáforos de luz fija",
+   "uk": "Постійні сигнали світлофора",
    "recap": [
     [
      "Pedestrians: steady green = start crossing; flashing green = time running out; red = do not start.",
-     "Peatones: verde fijo = comenzar a cruzar; verde intermitente = se acaba el tiempo; rojo = no comenzar."
+     "Peatones: verde fijo = comenzar a cruzar; verde intermitente = se acaba el tiempo; rojo = no comenzar.",
+     "Пішоходи: постійний зелений — починайте перехід; миготливий зелений — час спливає; червоний — не починайте."
     ],
     [
      "Green: go with priority, unless you would be left stopped blocking a junction or crossing.",
-     "Verde: paso con prioridad, salvo que fueras a quedar detenido obstruyendo un cruce."
+     "Verde: paso con prioridad, salvo que fueras a quedar detenido obstruyendo un cruce.",
+     "Зелений: їдьте з перевагою, якщо не застрягнете, блокуючи перехрестя чи перехід."
     ],
     [
      "Steady amber: stop as for red unless too close to stop safely.",
-     "Amarillo fijo: detenerse como en rojo salvo que estés tan cerca que no puedas hacerlo con seguridad."
+     "Amarillo fijo: detenerse como en rojo salvo que estés tan cerca que no puedas hacerlo con seguridad.",
+     "Постійний жовтий: зупиніться, як на червоний, якщо не надто близько, щоб безпечно зупинитися."
     ],
     [
      "Red: stop before the light or the stop line; a light inside or beyond a junction means do not enter it.",
-     "Rojo: detenerse antes del semáforo o de la línea; si está dentro o al otro lado de la intersección, no entrar."
+     "Rojo: detenerse antes del semáforo o de la línea; si está dentro o al otro lado de la intersección, no entrar.",
+     "Червоний: зупиніться перед світлофором чи стоп-лінією; світлофор на перехресті чи за ним означає — не в’їжджайте на нього."
     ]
    ],
    "trap": [
     "Entering a junction on green although you will be stuck inside it.",
-    "Entrar con verde en un cruce donde vas a quedar detenido."
+    "Entrar con verde en un cruce donde vas a quedar detenido.",
+    "В’їжджати на перехрестя на зелений, хоча застрягнете на ньому."
    ]
   },
   "tlflash": {
    "sec": 4,
    "en": "Flashing lights and arrows",
    "es": "Luces intermitentes y flechas",
+   "uk": "Миготливі сигнали й стрілки",
    "recap": [
     [
      "Flashing red (one, or two alternating): temporarily no passing — level crossings, bridges, fire stations, low aircraft.",
-     "Roja intermitente (una o dos alternas): prohibido temporalmente el paso — pasos a nivel, puentes, bomberos, aeronaves."
+     "Roja intermitente (una o dos alternas): prohibido temporalmente el paso — pasos a nivel, puentes, bomberos, aeronaves.",
+     "Миготливий червоний (один чи два по черзі): тимчасово проїзд заборонено — залізничні переїзди, мости, пожежні частини, низькі літаки."
     ],
     [
      "Flashing amber: extreme care and give way if needed; other stop signs still apply.",
-     "Ámbar intermitente: extremar la precaución y ceder si procede; las demás señales de detención siguen rigiendo."
+     "Ámbar intermitente: extremar la precaución y ceder si procede; las demás señales de detención siguen rigiendo.",
+     "Миготливий жовтий: надзвичайна обережність, за потреби поступіться; інші знаки зупинки однаково діють."
     ],
     [
      "Green arrow: go that way whatever else is lit, with care, giving way to the lane you join and to pedestrians.",
-     "Flecha verde: se puede ir en esa dirección con cualquier otra luz, con precaución, cediendo al carril de destino y a peatones."
+     "Flecha verde: se puede ir en esa dirección con cualquier otra luz, con precaución, cediendo al carril de destino y a peatones.",
+     "Зелена стрілка: їдьте туди, хоч що ще світиться, обережно, поступаючись смузі, на яку виїжджаєте, і пішоходам."
     ],
     [
      "Black arrow on red or amber: the light applies only to that movement.",
-     "Flecha negra sobre roja o amarilla: la luz solo afecta a ese movimiento."
+     "Flecha negra sobre roja o amarilla: la luz solo afecta a ese movimiento.",
+     "Чорна стрілка на червоному чи жовтому: сигнал стосується лише цього руху."
     ]
    ],
    "trap": [
     "Thinking a flashing amber cancels a STOP sign.",
-    "Pensar que el ámbar intermitente anula un STOP."
+    "Pensar que el ámbar intermitente anula un STOP.",
+    "Думати, що миготливий жовтий скасовує знак STOP."
    ]
   },
   "tllane": {
    "sec": 4,
    "en": "Lane lights and special lights",
    "es": "Semáforos de carril y reservados",
+   "uk": "Світлофори над смугами й особливі світлофори",
    "recap": [
     [
      "Square lane lights apply only to the lane beneath; also at motorway tolls.",
-     "Los cuadrados afectan solo al carril sobre el que están; también en peajes."
+     "Los cuadrados afectan solo al carril sobre el que están; también en peajes.",
+     "Квадратні світлофори над смугами стосуються лише смуги під ними; також на пунктах оплати автомагістралей."
     ],
     [
      "Green down arrow: use the lane (still obey red lights and stop signs). Oblique arrow: move over, the lane closes. Red cross: leave the lane asap.",
-     "Flecha verde abajo: usar el carril (sin eximir de rojos ni stops). Flecha oblicua: cambiarse, el carril se cierra. Aspa roja: abandonarlo cuanto antes."
+     "Flecha verde abajo: usar el carril (sin eximir de rojos ni stops). Flecha oblicua: cambiarse, el carril se cierra. Aspa roja: abandonarlo cuanto antes.",
+     "Зелена стрілка вниз: можна їхати смугою (червоні сигнали й знаки зупинки однаково діють). Похила стрілка: перестройтеся, смуга закривається. Червоний хрест: якнайшвидше покиньте смугу."
     ],
     [
      "White bar lights: trams and regular buses (or all users of a reserved lane). Horizontal = stop, vertical = straight, slanted = turn.",
-     "Franja blanca: tranvías y autobuses regulares (o todos los del carril reservado). Horizontal = parar, vertical = de frente, inclinada = giro."
+     "Franja blanca: tranvías y autobuses regulares (o todos los del carril reservado). Horizontal = parar, vertical = de frente, inclinada = giro.",
+     "Світлофори з білою смугою: трамваї й рейсові автобуси (чи всі на відведеній смузі). Горизонтальна = стоп, вертикальна = прямо, похила = поворот."
     ],
     [
      "Flashing white bar: stop as for steady amber. Bicycle lights: cycles only.",
-     "Franja intermitente: detenerse como ante ámbar fijo. Semáforo con bici: solo ciclos."
+     "Franja intermitente: detenerse como ante ámbar fijo. Semáforo con bici: solo ciclos.",
+     "Миготлива біла смуга: зупиніться, як за постійного жовтого. Світлофори з велосипедом: лише цикли."
     ]
    ],
    "trap": [
     "Thinking bus lights bind cars outside the bus lane.",
-    "Pensar que los semáforos de bus afectan a turismos fuera del carril bus."
+    "Pensar que los semáforos de bus afectan a turismos fuera del carril bus.",
+    "Думати, що автобусні світлофори зобов’язують легковики поза автобусною смугою."
    ]
   },
   "warn": {
    "sec": 5,
    "en": "Warning signs",
    "es": "Señales de advertencia de peligro",
+   "uk": "Попереджувальні знаки",
    "recap": [
     [
      "Red-bordered triangles: a danger hard to see in time; a panel may give the distance or the length.",
-     "Triángulos con borde rojo: peligro difícil de percibir a tiempo; un panel puede dar la distancia o la longitud."
+     "Triángulos con borde rojo: peligro difícil de percibir a tiempo; un panel puede dar la distancia o la longitud.",
+     "Трикутники з червоною облямівкою: небезпека, яку важко вчасно помітити; табличка може давати відстань чи протяжність."
     ],
     [
      "P-1 family: you have priority over the side road; on P-1c/d still make the merge easier. P-2: priority to the right.",
-     "Familia P-1: tienes prioridad sobre la vía lateral; en P-1c/d facilita la incorporación. P-2: prioridad de la derecha."
+     "Familia P-1: tienes prioridad sobre la vía lateral; en P-1c/d facilita la incorporación. P-2: prioridad de la derecha.",
+     "Родина P-1: у вас перевага над бічною дорогою; на P-1c/d однаково полегшуйте вливання. P-2: перевага правої сторони."
     ],
     [
      "P-9/P-10 posts: 3 stripes 200 m, 2 = 150 m, 1 = 100 m, always with P-5, P-7, P-8 or P-27.",
-     "Balizas P-9/P-10: 3 franjas 200 m, 2 = 150 m, 1 = 100 m, siempre con P-5, P-7, P-8 o P-27."
+     "Balizas P-9/P-10: 3 franjas 200 m, 2 = 150 m, 1 = 100 m, siempre con P-5, P-7, P-8 o P-27.",
+     "Стовпчики P-9/P-10: 3 смуги — 200 м, 2 — 150 м, 1 — 100 м, завжди з P-5, P-7, P-8 чи P-27."
     ],
     [
      "P-29 crosswind does not say the side. P-35 weaving: paths cross between a merge and a fork.",
-     "P-29 viento transversal no indica el lado. P-35 trenzado: trayectorias cruzadas entre confluencia y bifurcación."
+     "P-29 viento transversal no indica el lado. P-35 trenzado: trayectorias cruzadas entre confluencia y bifurcación.",
+     "P-29 боковий вітер не каже бік. P-35 trenzado: траєкторії перетинаються між вливанням і розгалуженням."
     ]
    ],
    "trap": [
     "Mixing up P-14a (first bend right) and P-14b.",
-    "Confundir P-14a (primera curva a la derecha) y P-14b."
+    "Confundir P-14a (primera curva a la derecha) y P-14b.",
+    "Плутати P-14a (перший поворот праворуч) і P-14b."
    ]
   },
   "prio": {
    "sec": 6,
    "en": "Priority signs and how R signs apply",
    "es": "Señales de prioridad y aplicación",
+   "uk": "Знаки переваги й дія знаків R",
    "recap": [
     [
      "R-1 give way at the next junction; R-2 STOP at the line or before the junction, stop again if you cannot see.",
-     "R-1 ceder en la próxima intersección; R-2 STOP en la línea o antes del cruce, y otra vez si no hay visibilidad."
+     "R-1 ceder en la próxima intersección; R-2 STOP en la línea o antes del cruce, y otra vez si no hay visibilidad.",
+     "R-1 — дати дорогу на наступному перехресті; R-2 — STOP біля лінії чи перед перехрестям, зупиніться ще раз, якщо не видно."
     ],
     [
      "R-3 priority road; R-4 end of priority. R-5: give way to oncoming; R-6: you have priority in the narrow passage.",
-     "R-3 calzada con prioridad; R-4 fin. R-5: cede al que viene; R-6: tienes prioridad en el paso estrecho."
+     "R-3 calzada con prioridad; R-4 fin. R-5: cede al que viene; R-6: tienes prioridad en el paso estrecho.",
+     "R-3 — головна дорога; R-4 — кінець переваги. R-5: поступіться зустрічним; R-6: у вас перевага у вузькому місці."
     ],
     [
      "P-1 to P-1e, P-2, P-6, P-7 and P-8 are also priority signs.",
-     "P-1 a P-1e, P-2, P-6, P-7 y P-8 también son señales de prioridad."
+     "P-1 a P-1e, P-2, P-6, P-7 y P-8 también son señales de prioridad.",
+     "P-1–P-1e, P-2, P-6, P-7 і P-8 — теж знаки переваги."
     ],
     [
      "R signs apply from where they stand unless a panel gives a distance; beside the town sign they apply to the whole town.",
-     "Las R rigen desde donde están salvo panel de distancia; junto a la de poblado, a todo el poblado."
+     "Las R rigen desde donde están salvo panel de distancia; junto a la de poblado, a todo el poblado.",
+     "Знаки R діють з місця, де стоять, якщо табличка не дає відстані; поруч зі знаком населеного пункту — на весь населений пункт."
     ]
    ],
    "trap": [
     "Confusing R-5 (red ring) with R-6 (blue square).",
-    "Confundir R-5 (borde rojo) con R-6 (cuadrado azul)."
+    "Confundir R-5 (borde rojo) con R-6 (cuadrado azul).",
+    "Плутати R-5 (червоне кільце) з R-6 (синій квадрат)."
    ]
   },
   "noentry": {
    "sec": 6,
    "en": "No-entry and restriction signs",
    "es": "Prohibición de entrada y restricción",
+   "uk": "Знаки заборони в’їзду й обмежень",
    "recap": [
     [
      "R-100 no vehicles both ways; R-101 no entry. They bind those meeting them head-on.",
-     "R-100 circulación prohibida en ambos sentidos; R-101 entrada prohibida. Afectan a quien se las encuentra de frente."
+     "R-100 circulación prohibida en ambos sentidos; R-101 entrada prohibida. Afectan a quien se las encuentra de frente.",
+     "R-100 — жодних ТЗ в обох напрямках; R-101 — в’їзд заборонено. Вони зобов’язують тих, хто бачить їх перед собою."
     ],
     [
      "R-103 lets two-wheeled motorcycles in; R-105 also bans reduced-mobility vehicles; R-107 applies even empty.",
-     "R-103 deja pasar motos de dos ruedas; R-105 prohíbe también vehículos de movilidad reducida; R-107 aunque vayan vacíos."
+     "R-103 deja pasar motos de dos ruedas; R-105 prohíbe también vehículos de movilidad reducida; R-107 aunque vayan vacíos.",
+     "R-103 пропускає двоколісні мотоцикли; R-105 забороняє ще й ТЗ для осіб з обмеженою рухливістю; R-107 діє навіть для порожніх."
     ],
     [
      "R-110: more than 1,000 l of water pollutants. R-120: by environmental label (S-860 panel).",
-     "R-110: más de 1.000 l de contaminantes del agua. R-120: según distintivo ambiental (panel S-860)."
+     "R-110: más de 1.000 l de contaminantes del agua. R-120: según distintivo ambiental (panel S-860).",
+     "R-110: понад 1 000 л речовин, що забруднюють воду. R-120: за екологічною наліпкою (табличка S-860)."
     ],
     [
      "R-200 stop at customs/police/toll; R-201 actual mass; R-203–R-205 length, width, height with the load.",
-     "R-200 detenerse en aduana/policía/peaje; R-201 masa en carga; R-203 a R-205 longitud, anchura y altura con la carga."
+     "R-200 detenerse en aduana/policía/peaje; R-201 masa en carga; R-203 a R-205 longitud, anchura y altura con la carga.",
+     "R-200 — зупинка на митниці/поліції/пункті оплати; R-201 — фактична маса; R-203–R-205 — довжина, ширина, висота з вантажем."
     ]
    ],
    "trap": [
     "Thinking R-107 lets an empty heavy lorry through.",
-    "Pensar que la R-107 deja pasar a un camión pesado vacío."
+    "Pensar que la R-107 deja pasar a un camión pesado vacío.",
+    "Думати, що R-107 пропускає порожню важку вантажівку."
    ]
   },
   "other": {
    "sec": 6,
    "en": "Other prohibitions",
    "es": "Otras prohibiciones",
+   "uk": "Інші заборони",
    "recap": [
     [
      "R-301 lasts until an end sign or another limit; with a danger sign, until the danger ends; on a minor road, until a junction with a priority road.",
-     "R-301 rige hasta su fin u otra limitación; con señal de peligro, hasta que acaba el peligro; en vía sin prioridad, hasta el cruce con una con prioridad."
+     "R-301 rige hasta su fin u otra limitación; con señal de peligro, hasta que acaba el peligro; en vía sin prioridad, hasta el cruce con una con prioridad.",
+     "R-301 діє до знака кінця чи іншого обмеження; зі знаком небезпеки — доки небезпека не скінчиться; на другорядній дорозі — до перехрестя з головною."
     ],
     [
      "R-303 no left turn includes U-turns; R-304 no U-turn still allows turning.",
-     "R-303 giro a la izquierda prohibido incluye el cambio de sentido; R-304 media vuelta prohibida permite girar."
+     "R-303 giro a la izquierda prohibido incluye el cambio de sentido; R-304 media vuelta prohibida permite girar.",
+     "R-303 — поворот ліворуч заборонено, і розвороти теж; R-304 — розворот заборонено, але повернути можна."
     ],
     [
      "R-305 no overtaking motor vehicles if you invade the other side; R-306 lorries over 3,500 kg even without invading.",
-     "R-305 prohibido adelantar a vehículos de motor invadiendo el contrario; R-306 camiones de más de 3.500 kg aunque no invadan."
+     "R-305 prohibido adelantar a vehículos de motor invadiendo el contrario; R-306 camiones de más de 3.500 kg aunque no invadan.",
+     "R-305 — заборонено обганяти механічні ТЗ, якщо виїжджаєте на інший бік; R-306 — вантажівкам понад 3 500 кг навіть без виїзду."
     ],
     [
      "R-307 no stopping or parking; R-308 no parking (stopping OK) on that side to the next junction; R-308c/d fortnights from 9:00.",
-     "R-307 parada y estacionamiento prohibidos; R-308 solo estacionamiento, en ese lado hasta la intersección; R-308c/d quincenas desde las 9 h."
+     "R-307 parada y estacionamiento prohibidos; R-308 solo estacionamiento, en ese lado hasta la intersección; R-308c/d quincenas desde las 9 h.",
+     "R-307 — зупинку й стоянку заборонено; R-308 — стоянку заборонено (зупинка можна) з цього боку до наступного перехрестя; R-308c/d — півмісяці з 9:00."
     ]
    ],
    "trap": [
     "Thinking R-308 also forbids stopping.",
-    "Pensar que la R-308 prohíbe también la parada."
+    "Pensar que la R-308 prohíbe también la parada.",
+    "Думати, що R-308 забороняє й зупинку."
    ]
   },
   "oblig": {
    "sec": 6,
    "en": "Obligation and end signs",
    "es": "Obligación y fin de prohibición",
+   "uk": "Знаки обов’язку й кінця",
    "recap": [
     [
      "Blue circles order: direction, passing side, roundabout, only directions (no U-turn on R-403).",
-     "Círculos azules obligan: sentido, paso obligatorio, glorieta, únicas direcciones (R-403 no permite cambio de sentido)."
+     "Círculos azules obligan: sentido, paso obligatorio, glorieta, únicas direcciones (R-403 no permite cambio de sentido).",
+     "Сині кола наказують: напрямок, бік об’їзду, кільцеву розв’язку, лише дозволені напрямки (на R-403 без розвороту)."
     ],
     [
      "Reserved tracks (cycles, mopeds, riders, pedestrians, VMP): compulsory for them and forbidden for others.",
-     "Vías reservadas (ciclos, ciclomotores, jinetes, peatones, VMP): obligatorias para ellos y prohibidas para los demás."
+     "Vías reservadas (ciclos, ciclomotores, jinetes, peatones, VMP): obligatorias para ellos y prohibidas para los demás.",
+     "Відведені доріжки (цикли, мопеди, вершники, пішоходи, VMP): обов’язкові для них і заборонені для інших."
     ],
     [
      "R-411 minimum speed; R-412 chains on at least one wheel each side of a drive axle, or snow tyres; R-413 dipped beam.",
-     "R-411 velocidad mínima; R-412 cadenas en al menos una rueda a cada lado del eje motor, o neumáticos de nieve; R-413 luz de cruce."
+     "R-411 velocidad mínima; R-412 cadenas en al menos una rueda a cada lado del eje motor, o neumáticos de nieve; R-413 luz de cruce.",
+     "R-411 — мінімальна швидкість; R-412 — ланцюги щонайменше на одному колесі з кожного боку ведучої осі чи зимові шини; R-413 — ближнє світло."
     ],
     [
      "R-500 ends all specific prohibitions for moving vehicles; blue signs with a red bar end an obligation.",
-     "R-500 termina todas las prohibiciones específicas para vehículos en movimiento; las azules con barra roja terminan una obligación."
+     "R-500 termina todas las prohibiciones específicas para vehículos en movimiento; las azules con barra roja terminan una obligación.",
+     "R-500 скасовує всі окремі заборони для ТЗ у русі; сині знаки з червоною смугою завершують обов’язок."
     ]
    ],
    "trap": [
     "Thinking R-500 also ends a limited parking zone.",
-    "Pensar que la R-500 termina también la zona de estacionamiento limitado."
+    "Pensar que la R-500 termina también la zona de estacionamiento limitado.",
+    "Думати, що R-500 скасовує й зону обмеженої стоянки."
    ]
   },
   "zones": {
    "sec": 7,
    "en": "General indication signs",
    "es": "Indicaciones generales",
+   "uk": "Загальні інформаційні знаки",
    "recap": [
     [
      "S-1 motorway, S-1a autovía, S-1b multi-lane road, S-1c 2+1 road (middle lane for overtaking, alternating); red bar = end.",
-     "S-1 autopista, S-1a autovía, S-1b multicarril, S-1c 2+1 (carril central para adelantar, alterno); barra roja = fin."
+     "S-1 autopista, S-1a autovía, S-1b multicarril, S-1c 2+1 (carril central para adelantar, alterno); barra roja = fin.",
+     "S-1 — автомагістраль, S-1a — autovía, S-1b — багатосмугова дорога, S-1c — дорога 2+1 (середня смуга для обгону, по черзі); червона смуга = кінець."
     ],
     [
      "S-7 and S-9 only recommend a speed; under a warning sign they refer to that danger.",
-     "S-7 y S-9 solo recomiendan; bajo una señal de peligro se refieren a ese tramo."
+     "S-7 y S-9 solo recomiendan; bajo una señal de peligro se refieren a ese tramo.",
+     "S-7 і S-9 лише рекомендують швидкість; під попереджувальним знаком вони стосуються цієї небезпеки."
     ],
     [
      "S-28 play zone 10 km/h, games allowed; S-47 coexistence 20 km/h, games not allowed; parking only where marked.",
-     "S-28 estancia y juego 10 km/h, juegos permitidos; S-47 coexistencia 20 km/h, juegos no; estacionar solo en lugares designados."
+     "S-28 estancia y juego 10 km/h, juegos permitidos; S-47 coexistencia 20 km/h, juegos no; estacionar solo en lugares designados.",
+     "S-28 — зона ігор 10 км/год, ігри дозволені; S-47 — зона спільного користування 20 км/год, ігри не дозволені; стоянка лише там, де позначено."
     ],
     [
      "S-26 exit at 300/200/100 m; S-49 advanced stop box; S-17a parking for a specific need.",
-     "S-26 salida a 300/200/100 m; S-49 avanza moto o bici; S-17a estacionamiento de necesidad."
+     "S-26 salida a 300/200/100 m; S-49 avanza moto o bici; S-17a estacionamiento de necesidad.",
+     "S-26 — з’їзд за 300/200/100 м; S-49 — зона очікування попереду; S-17a — стоянка для певної потреби."
     ]
    ],
    "trap": [
     "Taking a blue square speed sign as a compulsory limit.",
-    "Tomar la velocidad del cuadrado azul como límite obligatorio."
+    "Tomar la velocidad del cuadrado azul como límite obligatorio.",
+    "Сприймати синій квадратний знак швидкості як обов’язкове обмеження."
    ]
   },
   "lanes": {
    "sec": 7,
    "en": "Lane signs",
    "es": "Señales de carriles",
+   "uk": "Знаки смуг",
    "recap": [
     [
      "S-50: lanes with a minimum speed only for vehicles at or above it; keep right when you can.",
-     "S-50: carriles con velocidad mínima solo para quien la alcance; si se puede, por la derecha."
+     "S-50: carriles con velocidad mínima solo para quien la alcance; si se puede, por la derecha.",
+     "S-50: смуги з мінімальною швидкістю — лише для ТЗ із цією швидкістю чи швидше; коли можете, тримайтеся правіше."
     ],
     [
      "S-51a bus lane: where its line is dashed, others may use it only for manoeuvres other than stop, park, U-turn or overtake.",
-     "S-51a carril bus: con línea discontinua, los demás solo para maniobras que no sean parar, estacionar, cambiar de sentido o adelantar."
+     "S-51a carril bus: con línea discontinua, los demás solo para maniobras que no sean parar, estacionar, cambiar de sentido o adelantar.",
+     "S-51a — автобусна смуга: де її лінія переривчаста, інші можуть користуватися нею лише для маневрів, що не є зупинкою, стоянкою, розворотом чи обгоном."
     ],
     [
      "S-51b VAO: minimum number of occupants shown.",
-     "S-51b VAO: número mínimo de ocupantes indicado."
+     "S-51b VAO: número mínimo de ocupantes indicado.",
+     "S-51b — VAO: показано мінімальну кількість людей."
     ],
     [
      "S-52 lane ends; S-53 one lane becomes two; S-60–S-63 forks; S-70–S-73 merges (dashed arrow = the joining lane).",
-     "S-52 fin de carril; S-53 de uno a dos; S-60 a S-63 bifurcaciones; S-70 a S-73 confluencias (flecha discontinua = carril que se une)."
+     "S-52 fin de carril; S-53 de uno a dos; S-60 a S-63 bifurcaciones; S-70 a S-73 confluencias (flecha discontinua = carril que se une).",
+     "S-52 — смуга закінчується; S-53 — одна смуга стає двома; S-60–S-63 — розгалуження; S-70–S-73 — вливання (переривчаста стрілка = смуга, що приєднується)."
     ]
    ],
    "trap": [
     "Thinking you may overtake in a bus lane with a dashed line.",
-    "Pensar que se puede adelantar por un carril bus con línea discontinua."
+    "Pensar que se puede adelantar por un carril bus con línea discontinua.",
+    "Думати, що можна обганяти автобусною смугою з переривчастою лінією."
    ]
   },
   "orient": {
    "sec": 7,
    "en": "Services, orientation, panels and others",
    "es": "Servicio, orientación, paneles y otras",
+   "uk": "Послуги, орієнтування, таблички й інше",
    "recap": [
     [
      "Orientation colours: white for conventional and multi-lane roads, blue for motorways; confirmation keeps the current road’s colour.",
-     "Colores: blanco en convencional y multicarril, azul en autopistas; la confirmación mantiene el color de la vía actual."
+     "Colores: blanco en convencional y multicarril, azul en autopistas; la confirmación mantiene el color de la vía actual.",
+     "Кольори орієнтування: білий — звичайні й багатосмугові дороги, синій — автомагістралі; знак підтвердження зберігає колір поточної дороги."
     ],
     [
      "Pre-signposting takes the destination road’s colour except to a lower category; the immediate exit sign always does.",
-     "La preseñalización toma el color de la vía de destino salvo si es de inferior categoría; la de salida inmediata siempre."
+     "La preseñalización toma el color de la vía de destino salvo si es de inferior categoría; la de salida inmediata siempre.",
+     "Попереднє вказування має колір дороги призначення, крім з’їзду на нижчу категорію; знак безпосереднього з’їзду — завжди."
     ],
     [
      "Road numbers: E green, A/AP blue, State red, regional orange/brown/yellow. Exit numbers = kilometre point.",
-     "Matrículas: E verde, A/AP azul, Estado rojo, autonómicas naranja/marrón/amarillo. Número de salida = punto kilométrico."
+     "Matrículas: E verde, A/AP azul, Estado rojo, autonómicas naranja/marrón/amarillo. Número de salida = punto kilométrico.",
+     "Номери доріг: E — зелений, A/AP — синій, державні — червоний, регіональні — помаранчевий/коричневий/жовтий. Номери з’їздів = кілометрова позначка."
     ],
     [
      "Panels: S-800 distance, S-810 length, S-840 STOP ahead, S-860 generic, S-891 1.5 m, S-892 automatic cameras.",
-     "Paneles: S-800 distancia, S-810 longitud, S-840 STOP a…, S-860 genérico, S-891 1,5 m, S-892 medios automáticos."
+     "Paneles: S-800 distancia, S-810 longitud, S-840 STOP a…, S-860 genérico, S-891 1,5 m, S-892 medios automáticos.",
+     "Таблички: S-800 — відстань, S-810 — протяжність, S-840 — STOP попереду, S-860 — загальна, S-891 — 1,5 м, S-892 — автоматичні камери."
     ]
    ],
    "trap": [
     "Thinking an exit panel always keeps the motorway blue.",
-    "Pensar que el cartel de salida mantiene siempre el azul de la autopista."
+    "Pensar que el cartel de salida mantiene siempre el azul de la autopista.",
+    "Думати, що табличка з’їзду завжди зберігає синій колір автомагістралі."
    ]
   },
   "mklong": {
    "sec": 8,
    "en": "Longitudinal markings",
    "es": "Marcas longitudinales",
+   "uk": "Поздовжня розмітка",
    "recap": [
     [
      "Continuous: do not cross or drive on it, nor to its left when it separates directions; two lines mean the same.",
-     "Continua: no atravesarla ni circular sobre ella, ni por su izquierda si separa sentidos; dos líneas igual."
+     "Continua: no atravesarla ni circular sobre ella, ni por su izquierda si separa sentidos; dos líneas igual.",
+     "Суцільна: не перетинайте її й не їдьте нею, а коли вона розділяє напрямки — і ліворуч від неї; дві лінії означають те саме."
     ],
     [
      "Wider continuous = special lane: only its users may cross it to leave. Broken: guides; drive on it only if lanes are narrow.",
-     "Continua más ancha = carril especial: solo sus usuarios la cruzan para salir. Discontinua: guía; pisarla solo si los carriles son estrechos."
+     "Continua más ancha = carril especial: solo sus usuarios la cruzan para salir. Discontinua: guía; pisarla solo si los carriles son estrechos.",
+     "Ширша суцільна = спеціальна смуга: перетинати її можуть лише її користувачі, щоб з’їхати. Переривчаста: спрямовує; їхати нею — лише якщо смуги вузькі."
     ],
     [
      "Shorter gaps: a continuous line or special risk is coming; broken lines also announce forks and merges.",
-     "Trazos más juntos: se acerca una continua o un riesgo especial; también anuncia bifurcaciones y confluencias."
+     "Trazos más juntos: se acerca una continua o un riesgo especial; también anuncia bifurcaciones y confluencias.",
+     "Коротші проміжки: попереду суцільна лінія чи особливий ризик; переривчасті лінії також попереджають про розгалуження й вливання."
     ],
     [
      "Continuous + broken: obey your side’s line; double broken lines = reversible lane. Edge and parking lines are not counted.",
-     "Continua + discontinua: atender a la de tu lado; dobles discontinuas = carril reversible. Bordes y estacionamientos no cuentan."
+     "Continua + discontinua: atender a la de tu lado; dobles discontinuas = carril reversible. Bordes y estacionamientos no cuentan.",
+     "Суцільна + переривчаста: виконуйте лінію зі свого боку; подвійні переривчасті = реверсивна смуга. Крайові лінії й лінії стоянки не рахуються."
     ]
    ],
    "trap": [
     "Thinking an overtaking driver cannot return across a continuous line beside a broken one.",
-    "Pensar que quien ha adelantado no puede volver por una continua adosada a discontinua."
+    "Pensar que quien ha adelantado no puede volver por una continua adosada a discontinua.",
+    "Думати, що водій після обгону не може повернутися через суцільну лінію поруч із переривчастою."
    ]
   },
   "mktrans": {
    "sec": 8,
    "en": "Transverse markings and painted signs",
    "es": "Marcas transversales y señales horizontales",
+   "uk": "Поперечна розмітка й намальовані знаки",
    "recap": [
     [
      "Stop line: do not cross when you must stop (STOP, R-200, crossing, light, agent, level crossing); stop again if you cannot see.",
-     "Línea de detención: no rebasarla si hay que parar (STOP, R-200, paso, semáforo, agente, paso a nivel); volver a parar si no hay visibilidad."
+     "Línea de detención: no rebasarla si hay que parar (STOP, R-200, paso, semáforo, agente, paso a nivel); volver a parar si no hay visibilidad.",
+     "Стоп-лінія: не перетинайте, коли мусите зупинитися (STOP, R-200, перехід, світлофор, регулювальник, залізничний переїзд); зупиніться ще раз, якщо не видно."
     ],
     [
      "Give-way line: do not cross when you must give way; if you cannot see, edge forward without stopping.",
-     "Línea de ceda: no rebasarla si hay que ceder; sin visibilidad, avanzar hasta conseguirla sin detenerse."
+     "Línea de ceda: no rebasarla si hay que ceder; sin visibilidad, avanzar hasta conseguirla sin detenerse.",
+     "Лінія «Дати дорогу»: не перетинайте, коли мусите поступитися; якщо не видно — проїжджайте вперед, не зупиняючись."
     ],
     [
      "Zebra: wide bands parallel to the axis, no other colours; give way to pedestrians. Cycle crossing: two dashed lines, cyclists first.",
-     "Paso de peatones: bandas paralelas al eje, sin otros colores; ceder el paso. Paso ciclista: dos discontinuas, preferencia ciclista."
+     "Paso de peatones: bandas paralelas al eje, sin otros colores; ceder el paso. Paso ciclista: dos discontinuas, preferencia ciclista.",
+     "«Зебра»: широкі смуги паралельно осі, без інших кольорів; поступіться пішоходам. Велосипедний переїзд: дві переривчасті лінії, велосипедисти першими."
     ],
     [
      "Painted signs in a lane bind that lane only; return arrow = a continuous line ahead, move right.",
-     "Las señales pintadas en un carril solo afectan a ese carril; flecha de retorno = se acerca una continua, volver a la derecha."
+     "Las señales pintadas en un carril solo afectan a ese carril; flecha de retorno = se acerca una continua, volver a la derecha.",
+     "Намальовані знаки на смузі зобов’язують лише цю смугу; стрілка повернення = попереду суцільна лінія, перестройтеся праворуч."
     ]
    ],
    "trap": [
     "Thinking you must stop at a give-way line.",
-    "Pensar que hay que detenerse siempre en la línea de ceda el paso."
+    "Pensar que hay que detenerse siempre en la línea de ceda el paso.",
+    "Думати, що біля лінії «Дати дорогу» треба зупинятися."
    ]
   },
   "mkother": {
    "sec": 8,
    "en": "Other markings and colours",
    "es": "Otras marcas y colores",
+   "uk": "Інша розмітка й кольори",
    "recap": [
     [
      "Hatched area: no entry except for those who must use the shoulder. Edge line: continuous or broken, same thing.",
-     "Cebreado: no entrar salvo los obligados a circular por el arcén. Borde: continua o discontinua, igual."
+     "Cebreado: no entrar salvo los obligados a circular por el arcén. Borde: continua o discontinua, igual.",
+     "Зона з косою штриховкою: в’їзд заборонено, крім тих, хто мусить їхати узбіччям. Крайова лінія: суцільна чи переривчаста — однаково."
     ],
     [
      "Chevrons: keep at least 2; R-300 at the start. Avanza-motos: two lines 4 m apart, for the vehicles shown on red.",
-     "Galones: al menos 2; R-300 al inicio. Avanza-motos: dos líneas a 4 m, para los vehículos del pictograma con rojo."
+     "Galones: al menos 2; R-300 al inicio. Avanza-motos: dos líneas a 4 m, para los vehículos del pictograma con rojo.",
+     "Шеврони: тримайте щонайменше 2; R-300 на початку. Avanza-motos: дві лінії за 4 м одна від одної, для показаних ТЗ на червоний."
     ],
     [
      "Dragon’s teeth: entering a town. Zig-zag edges: crossing ahead. Chequerboard: hidden risk ahead.",
-     "Dientes de dragón: llegada a travesía. Bordes quebrados: paso cercano. Damero: riesgo mayor del percibido."
+     "Dientes de dragón: llegada a travesía. Bordes quebrados: paso cercano. Damero: riesgo mayor del percibido.",
+     "«Зуби дракона»: в’їзд у населений пункт. Зигзагоподібні краї: попереду перехід. Шахівниця: прихований ризик попереду."
     ],
     [
      "Yellow zig-zag and broken kerb line: no parking; continuous yellow: no stopping or parking; yellow box: don’t block; red-white: escape lane; blue: limited parking.",
-     "Zigzag y discontinua amarillas: no estacionar; continua amarilla: ni parar ni estacionar; cuadrícula: no bloquear; rojo-blanco: frenado de emergencia; azul: estacionamiento limitado."
+     "Zigzag y discontinua amarillas: no estacionar; continua amarilla: ni parar ni estacionar; cuadrícula: no bloquear; rojo-blanco: frenado de emergencia; azul: estacionamiento limitado.",
+     "Жовтий зигзаг і переривчаста лінія бордюру: стоянку заборонено; суцільна жовта: зупинку й стоянку заборонено; жовта сітка: не блокуйте; червоно-біла: аварійна смуга; синя: обмежена стоянка."
     ]
    ],
    "trap": [
     "Thinking the broken yellow kerb line also forbids stopping.",
-    "Pensar que la amarilla discontinua prohíbe también la parada."
+    "Pensar que la amarilla discontinua prohíbe también la parada.",
+    "Думати, що переривчаста жовта лінія бордюру забороняє й зупинку."
    ]
   }
  }

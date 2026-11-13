@@ -4,11 +4,13 @@ window.DGT_DATA = {
  "category": "b",
  "langs": [
   "en",
-  "es"
+  "es",
+  "uk"
  ],
  "title": {
   "en": "Topic 3 · Speed",
-  "es": "Tema 3 · La velocidad"
+  "es": "Tema 3 · La velocidad",
+  "uk": "Тема 3 · Швидкість"
  },
  "bank": [
   {
@@ -16,25 +18,30 @@ window.DGT_DATA = {
    "tag": "concepts",
    "q": {
     "en": "The maximum speed (velocidad máxima) is…",
-    "es": "La velocidad máxima es…"
+    "es": "La velocidad máxima es…",
+    "uk": "Максимальна швидкість (velocidad máxima) — це…"
    },
    "o": [
     {
      "en": "the upper limit allowed for your vehicle on the road you are on",
-     "es": "el límite superior permitido para tu vehículo en la vía por la que circulas"
+     "es": "el límite superior permitido para tu vehículo en la vía por la que circulas",
+     "uk": "верхня межа, дозволена для вашого ТЗ на дорозі, якою ви їдете"
     },
     {
      "en": "the highest speed your vehicle can reach",
-     "es": "la mayor velocidad que puede alcanzar tu vehículo"
+     "es": "la mayor velocidad que puede alcanzar tu vehículo",
+     "uk": "найбільша швидкість, яку може розвинути ваш ТЗ"
     },
     {
      "en": "the speed the road was designed for",
-     "es": "la velocidad para la que se diseñó la vía"
+     "es": "la velocidad para la que se diseñó la vía",
+     "uk": "швидкість, на яку розрахована дорога"
     }
    ],
    "why": {
     "en": "Going above it is exceso de velocidad.",
-    "es": "Superarla es circular con exceso de velocidad."
+    "es": "Superarla es circular con exceso de velocidad.",
+    "uk": "Їхати швидше — це exceso de velocidad."
    }
   },
   {
@@ -42,25 +49,30 @@ window.DGT_DATA = {
    "tag": "concepts",
    "q": {
     "en": "Driving below the minimum speed allowed is called…",
-    "es": "Circular por debajo de la velocidad mínima permitida se llama…"
+    "es": "Circular por debajo de la velocidad mínima permitida se llama…",
+    "uk": "Їзда повільніше від дозволеного мінімуму називається…"
    },
    "o": [
     {
      "en": "abnormally low speed (velocidad anormalmente reducida)",
-     "es": "velocidad anormalmente reducida"
+     "es": "velocidad anormalmente reducida",
+     "uk": "аномально низькою швидкістю (velocidad anormalmente reducida)"
     },
     {
      "en": "adequate speed",
-     "es": "velocidad adecuada"
+     "es": "velocidad adecuada",
+     "uk": "належною швидкістю"
     },
     {
      "en": "moderate speed",
-     "es": "velocidad moderada"
+     "es": "velocidad moderada",
+     "uk": "помірною швидкістю"
     }
    ],
    "why": {
     "en": "It can hold up the traffic and cause accidents.",
-    "es": "Puede entorpecer la circulación y causar accidentes."
+    "es": "Puede entorpecer la circulación y causar accidentes.",
+    "uk": "Вона може затримувати рух і спричиняти ДТП."
    }
   },
   {
@@ -68,25 +80,30 @@ window.DGT_DATA = {
    "tag": "concepts",
    "q": {
     "en": "The adequate speed (velocidad adecuada) is the one that…",
-    "es": "La velocidad adecuada es la que…"
+    "es": "La velocidad adecuada es la que…",
+    "uk": "Належна швидкість (velocidad adecuada) — та, що…"
    },
    "o": [
     {
      "en": "suits the circumstances of each moment and lets you control the vehicle in any unforeseen event",
-     "es": "se adapta a las circunstancias de cada momento y permite controlar el vehículo ante cualquier imprevisto"
+     "es": "se adapta a las circunstancias de cada momento y permite controlar el vehículo ante cualquier imprevisto",
+     "uk": "відповідає обставинам кожної миті й дає змогу контролювати ТЗ у будь-якій непередбаченій ситуації"
     },
     {
      "en": "matches exactly the maximum on the signs",
-     "es": "coincide exactamente con la máxima señalizada"
+     "es": "coincide exactamente con la máxima señalizada",
+     "uk": "точно дорівнює максимуму на знаках"
     },
     {
      "en": "is halfway between the minimum and the maximum",
-     "es": "está a medio camino entre la mínima y la máxima"
+     "es": "está a medio camino entre la mínima y la máxima",
+     "uk": "лежить посередині між мінімумом і максимумом"
     }
    ],
    "why": {
     "en": "Limits, weather and the driver’s state all count.",
-    "es": "Cuentan los límites, la meteorología y el estado del conductor."
+    "es": "Cuentan los límites, la meteorología y el estado del conductor.",
+    "uk": "Враховуються обмеження, погода й стан водія."
    }
   },
   {
@@ -94,25 +111,30 @@ window.DGT_DATA = {
    "tag": "concepts",
    "q": {
     "en": "You drive at an inadequate speed (velocidad inadecuada) when…",
-    "es": "Se circula a velocidad inadecuada cuando…"
+    "es": "Se circula a velocidad inadecuada cuando…",
+    "uk": "Ви їдете з неналежною швидкістю (velocidad inadecuada), коли…"
    },
    "o": [
     {
      "en": "you do not take into account all the factors that affect driving",
-     "es": "no se tienen en cuenta todos los factores que afectan a la conducción"
+     "es": "no se tienen en cuenta todos los factores que afectan a la conducción",
+     "uk": "не враховуєте всіх чинників, що впливають на керування"
     },
     {
      "en": "only when you exceed the signed limit",
-     "es": "solo cuando se supera el límite señalizado"
+     "es": "solo cuando se supera el límite señalizado",
+     "uk": "лише коли перевищуєте позначене обмеження"
     },
     {
      "en": "you drive below the minimum",
-     "es": "se circula por debajo de la mínima"
+     "es": "se circula por debajo de la mínima",
+     "uk": "їдете повільніше від мінімуму"
     }
    ],
    "why": {
     "en": "It raises the risk of an accident, even within the limits.",
-    "es": "Aumenta el riesgo de accidente, incluso dentro de los límites."
+    "es": "Aumenta el riesgo de accidente, incluso dentro de los límites.",
+    "uk": "Вона підвищує ризик ДТП навіть у межах обмежень."
    }
   },
   {
@@ -120,25 +142,30 @@ window.DGT_DATA = {
    "tag": "concepts",
    "q": {
     "en": "You drive a car at 100 km/h on a motorway in heavy snow. Your speed is…",
-    "es": "Conduces un turismo a 100 km/h por una autopista con mucha nieve. Tu velocidad es…"
+    "es": "Conduces un turismo a 100 km/h por una autopista con mucha nieve. Tu velocidad es…",
+    "uk": "Ви їдете легковиком 100 км/год автомагістраллю в сильний снігопад. Ваша швидкість…"
    },
    "o": [
     {
      "en": "within the limit, but excessive for the conditions",
-     "es": "dentro del límite, pero excesiva para las circunstancias"
+     "es": "dentro del límite, pero excesiva para las circunstancias",
+     "uk": "у межах обмеження, але надмірна для умов"
     },
     {
      "en": "correct, because the limit is 120 km/h",
-     "es": "correcta, porque el límite es 120 km/h"
+     "es": "correcta, porque el límite es 120 km/h",
+     "uk": "правильна, бо обмеження 120 км/год"
     },
     {
      "en": "abnormally low",
-     "es": "anormalmente reducida"
+     "es": "anormalmente reducida",
+     "uk": "аномально низька"
     }
    ],
    "why": {
     "en": "Respecting the limit is not enough: the speed must fit the conditions.",
-    "es": "Respetar el límite no basta: la velocidad debe ajustarse a las circunstancias."
+    "es": "Respetar el límite no basta: la velocidad debe ajustarse a las circunstancias.",
+    "uk": "Дотримуватися обмеження недостатньо: швидкість має відповідати умовам."
    }
   },
   {
@@ -146,25 +173,30 @@ window.DGT_DATA = {
    "tag": "concepts",
    "q": {
     "en": "What is the difference between exceso de velocidad and velocidad excesiva?",
-    "es": "¿Qué diferencia hay entre exceso de velocidad y velocidad excesiva?"
+    "es": "¿Qué diferencia hay entre exceso de velocidad y velocidad excesiva?",
+    "uk": "Чим відрізняються exceso de velocidad і velocidad excesiva?"
    },
    "o": [
     {
      "en": "The first is going over the limit; the second is going too fast for the conditions, even within the limit",
-     "es": "La primera es superar el límite; la segunda, ir demasiado rápido para las circunstancias, aunque sea dentro del límite"
+     "es": "La primera es superar el límite; la segunda, ir demasiado rápido para las circunstancias, aunque sea dentro del límite",
+     "uk": "Перше — перевищення обмеження; друге — надто швидка їзда для умов, навіть у межах обмеження"
     },
     {
      "en": "None, they mean the same",
-     "es": "Ninguna, significan lo mismo"
+     "es": "Ninguna, significan lo mismo",
+     "uk": "Нічим, це одне й те саме"
     },
     {
      "en": "The first applies only in town, the second only out of town",
-     "es": "La primera solo rige en poblado y la segunda fuera de poblado"
+     "es": "La primera solo rige en poblado y la segunda fuera de poblado",
+     "uk": "Перше — лише в населених пунктах, друге — лише поза ними"
     }
    ],
    "why": {
     "en": "You can drive at a velocidad excesiva without any exceso de velocidad.",
-    "es": "Se puede circular a velocidad excesiva sin exceso de velocidad."
+    "es": "Se puede circular a velocidad excesiva sin exceso de velocidad.",
+    "uk": "Можна їхати з velocidad excesiva без жодного exceso de velocidad."
    }
   },
   {
@@ -172,25 +204,30 @@ window.DGT_DATA = {
    "tag": "generic",
    "q": {
     "en": "What is the generic maximum speed for a car on an autopista or autovía?",
-    "es": "¿Cuál es la velocidad máxima genérica de un turismo en autopista o autovía?"
+    "es": "¿Cuál es la velocidad máxima genérica de un turismo en autopista o autovía?",
+    "uk": "Яка загальна максимальна швидкість легковика на autopista чи autovía?"
    },
    "o": [
     {
      "en": "120 km/h",
-     "es": "120 km/h"
+     "es": "120 km/h",
+     "uk": "120 км/год"
     },
     {
      "en": "100 km/h",
-     "es": "100 km/h"
+     "es": "100 km/h",
+     "uk": "100 км/год"
     },
     {
      "en": "130 km/h",
-     "es": "130 km/h"
+     "es": "130 km/h",
+     "uk": "130 км/год"
     }
    ],
    "why": {
     "en": "Also motorcycles, motorhomes up to 3,500 kg and pick-ups.",
-    "es": "También motos, autocaravanas hasta 3.500 kg y pick-up."
+    "es": "También motos, autocaravanas hasta 3.500 kg y pick-up.",
+    "uk": "Так само мотоцикли, автобудинки до 3 500 кг і пікапи."
    }
   },
   {
@@ -198,25 +235,30 @@ window.DGT_DATA = {
    "tag": "generic",
    "q": {
     "en": "What is the generic maximum speed for a car on a carretera convencional?",
-    "es": "¿Cuál es la velocidad máxima genérica de un turismo en carretera convencional?"
+    "es": "¿Cuál es la velocidad máxima genérica de un turismo en carretera convencional?",
+    "uk": "Яка загальна максимальна швидкість легковика на carretera convencional?"
    },
    "o": [
     {
      "en": "90 km/h",
-     "es": "90 km/h"
+     "es": "90 km/h",
+     "uk": "90 км/год"
     },
     {
      "en": "100 km/h",
-     "es": "100 km/h"
+     "es": "100 km/h",
+     "uk": "100 км/год"
     },
     {
      "en": "80 km/h",
-     "es": "80 km/h"
+     "es": "80 km/h",
+     "uk": "80 км/год"
     }
    ],
    "why": {
     "en": "Up to 100 only where the directions are physically separated and the road owner sets it.",
-    "es": "Hasta 100 solo con separación física de sentidos y si lo fija el titular."
+    "es": "Hasta 100 solo con separación física de sentidos y si lo fija el titular.",
+    "uk": "До 100 — лише там, де напрямки фізично розділені й це встановив власник дороги."
    }
   },
   {
@@ -224,25 +266,30 @@ window.DGT_DATA = {
    "tag": "generic",
    "q": {
     "en": "What is the generic maximum speed for a bus on an autovía?",
-    "es": "¿Cuál es la velocidad máxima genérica de un autobús en autovía?"
+    "es": "¿Cuál es la velocidad máxima genérica de un autobús en autovía?",
+    "uk": "Яка загальна максимальна швидкість автобуса на autovía?"
    },
    "o": [
     {
      "en": "100 km/h",
-     "es": "100 km/h"
+     "es": "100 km/h",
+     "uk": "100 км/год"
     },
     {
      "en": "90 km/h",
-     "es": "90 km/h"
+     "es": "90 km/h",
+     "uk": "90 км/год"
     },
     {
      "en": "120 km/h",
-     "es": "120 km/h"
+     "es": "120 km/h",
+     "uk": "120 км/год"
     }
    ],
    "why": {
     "en": "Buses, car-derived vans and adaptable mixed vehicles: 100 on motorways, 90 on other roads.",
-    "es": "Autobuses, derivados de turismo y mixtos adaptables: 100 en autopista y autovía, 90 en las demás."
+    "es": "Autobuses, derivados de turismo y mixtos adaptables: 100 en autopista y autovía, 90 en las demás.",
+    "uk": "Автобуси, фургони на базі легковика й змішані адаптовані ТЗ: 100 на автомагістралях, 90 на інших дорогах."
    }
   },
   {
@@ -250,25 +297,30 @@ window.DGT_DATA = {
    "tag": "generic",
    "q": {
     "en": "A lorry on a carretera convencional may drive at most at…",
-    "es": "Un camión por una carretera convencional puede circular como máximo a…"
+    "es": "Un camión por una carretera convencional puede circular como máximo a…",
+    "uk": "Вантажівка на carretera convencional може їхати щонайбільше…"
    },
    "o": [
     {
      "en": "80 km/h",
-     "es": "80 km/h"
+     "es": "80 km/h",
+     "uk": "80 км/год"
     },
     {
      "en": "90 km/h",
-     "es": "90 km/h"
+     "es": "90 km/h",
+     "uk": "90 км/год"
     },
     {
      "en": "70 km/h",
-     "es": "70 km/h"
+     "es": "70 km/h",
+     "uk": "70 км/год"
     }
    ],
    "why": {
     "en": "Lorries: 90 on motorways, 80 on other roads.",
-    "es": "Camiones: 90 en autopista y autovía, 80 en las demás."
+    "es": "Camiones: 90 en autopista y autovía, 80 en las demás.",
+    "uk": "Вантажівки: 90 на автомагістралях, 80 на інших дорогах."
    }
   },
   {
@@ -276,25 +328,30 @@ window.DGT_DATA = {
    "tag": "generic",
    "q": {
     "en": "A car-derived van (vehículo derivado de turismo) on a motorway: what is its maximum?",
-    "es": "Un vehículo derivado de turismo en autopista: ¿cuál es su máxima?"
+    "es": "Un vehículo derivado de turismo en autopista: ¿cuál es su máxima?",
+    "uk": "Фургон на базі легковика (vehículo derivado de turismo) на автомагістралі: який його максимум?"
    },
    "o": [
     {
      "en": "100 km/h",
-     "es": "100 km/h"
+     "es": "100 km/h",
+     "uk": "100 км/год"
     },
     {
      "en": "120 km/h",
-     "es": "120 km/h"
+     "es": "120 km/h",
+     "uk": "120 км/год"
     },
     {
      "en": "90 km/h",
-     "es": "90 km/h"
+     "es": "90 km/h",
+     "uk": "90 км/год"
     }
    ],
    "why": {
     "en": "It goes with buses and adaptable mixed vehicles. A furgoneta goes with lorries (90).",
-    "es": "Va con autobuses y mixtos adaptables. La furgoneta va con los camiones (90)."
+    "es": "Va con autobuses y mixtos adaptables. La furgoneta va con los camiones (90).",
+    "uk": "Він у групі з автобусами й змішаними адаптованими ТЗ. Furgoneta — у групі з вантажівками (90)."
    }
   },
   {
@@ -302,25 +359,30 @@ window.DGT_DATA = {
    "tag": "generic",
    "q": {
     "en": "A motorhome with an MMA of 3,500 kg on an autopista may drive at most at…",
-    "es": "Una autocaravana de 3.500 kg de MMA por autopista puede circular como máximo a…"
+    "es": "Una autocaravana de 3.500 kg de MMA por autopista puede circular como máximo a…",
+    "uk": "Автобудинок з MMA 3 500 кг на autopista може їхати щонайбільше…"
    },
    "o": [
     {
      "en": "120 km/h",
-     "es": "120 km/h"
+     "es": "120 km/h",
+     "uk": "120 км/год"
     },
     {
      "en": "100 km/h",
-     "es": "100 km/h"
+     "es": "100 km/h",
+     "uk": "100 км/год"
     },
     {
      "en": "90 km/h",
-     "es": "90 km/h"
+     "es": "90 km/h",
+     "uk": "90 км/год"
     }
    ],
    "why": {
     "en": "Up to 3,500 kg it has the car limits; above, the lorry limits.",
-    "es": "Hasta 3.500 kg tiene los límites del turismo; por encima, los del camión."
+    "es": "Hasta 3.500 kg tiene los límites del turismo; por encima, los del camión.",
+    "uk": "До 3 500 кг для нього діють обмеження легковиків; понад — вантажівок."
    }
   },
   {
@@ -328,25 +390,30 @@ window.DGT_DATA = {
    "tag": "generic",
    "q": {
     "en": "A car towing a trailer on an autopista may drive at most at…",
-    "es": "Un turismo con remolque por autopista puede circular como máximo a…"
+    "es": "Un turismo con remolque por autopista puede circular como máximo a…",
+    "uk": "Легковик із причепом на autopista може їхати щонайбільше…"
    },
    "o": [
     {
      "en": "90 km/h",
-     "es": "90 km/h"
+     "es": "90 km/h",
+     "uk": "90 км/год"
     },
     {
      "en": "120 km/h",
-     "es": "120 km/h"
+     "es": "120 km/h",
+     "uk": "120 км/год"
     },
     {
      "en": "100 km/h",
-     "es": "100 km/h"
+     "es": "100 km/h",
+     "uk": "100 км/год"
     }
    ],
    "why": {
     "en": "Vehicles with a trailer go in the lorry group: 90 on motorways, 80 on other roads.",
-    "es": "Los vehículos con remolque van en el grupo de los camiones: 90 en autopista, 80 en las demás."
+    "es": "Los vehículos con remolque van en el grupo de los camiones: 90 en autopista, 80 en las demás.",
+    "uk": "ТЗ із причепом — у групі вантажівок: 90 на автомагістралях, 80 на інших дорогах."
    }
   },
   {
@@ -354,25 +421,30 @@ window.DGT_DATA = {
    "tag": "generic",
    "q": {
     "en": "On a carretera convencional with the two directions physically separated, the road owner may set a maximum for cars of…",
-    "es": "En una carretera convencional con separación física de los dos sentidos, el titular puede fijar para turismos una máxima de…"
+    "es": "En una carretera convencional con separación física de los dos sentidos, el titular puede fijar para turismos una máxima de…",
+    "uk": "На carretera convencional з фізично розділеними напрямками власник дороги може встановити для легковиків максимум…"
    },
    "o": [
     {
      "en": "100 km/h",
-     "es": "100 km/h"
+     "es": "100 km/h",
+     "uk": "100 км/год"
     },
     {
      "en": "110 km/h",
-     "es": "110 km/h"
+     "es": "110 km/h",
+     "uk": "110 км/год"
     },
     {
      "en": "120 km/h",
-     "es": "120 km/h"
+     "es": "120 km/h",
+     "uk": "120 км/год"
     }
    ],
    "why": {
     "en": "Only for cars, motorcycles and motorhomes up to 3,500 kg.",
-    "es": "Solo para turismos, motos y autocaravanas de hasta 3.500 kg."
+    "es": "Solo para turismos, motos y autocaravanas de hasta 3.500 kg.",
+    "uk": "Лише для легковиків, мотоциклів і автобудинків до 3 500 кг."
    }
   },
   {
@@ -380,25 +452,30 @@ window.DGT_DATA = {
    "tag": "generic",
    "q": {
     "en": "What is the maximum speed on an unpaved road?",
-    "es": "¿Cuál es la velocidad máxima en una vía sin pavimentar?"
+    "es": "¿Cuál es la velocidad máxima en una vía sin pavimentar?",
+    "uk": "Яка максимальна швидкість на дорозі без покриття?"
    },
    "o": [
     {
      "en": "30 km/h",
-     "es": "30 km/h"
+     "es": "30 km/h",
+     "uk": "30 км/год"
     },
     {
      "en": "40 km/h",
-     "es": "40 km/h"
+     "es": "40 km/h",
+     "uk": "40 км/год"
     },
     {
      "en": "50 km/h",
-     "es": "50 km/h"
+     "es": "50 km/h",
+     "uk": "50 км/год"
     }
    ],
    "why": {
     "en": "Whatever the vehicle.",
-    "es": "Sea cual sea el vehículo."
+    "es": "Sea cual sea el vehículo.",
+    "uk": "Для будь-якого ТЗ."
    }
   },
   {
@@ -406,25 +483,30 @@ window.DGT_DATA = {
    "tag": "generic",
    "q": {
     "en": "A pick-up on an autovía may drive at most at…",
-    "es": "Un pick-up por autovía puede circular como máximo a…"
+    "es": "Un pick-up por autovía puede circular como máximo a…",
+    "uk": "Пікап на autovía може їхати щонайбільше…"
    },
    "o": [
     {
      "en": "120 km/h",
-     "es": "120 km/h"
+     "es": "120 km/h",
+     "uk": "120 км/год"
     },
     {
      "en": "100 km/h",
-     "es": "100 km/h"
+     "es": "100 km/h",
+     "uk": "100 км/год"
     },
     {
      "en": "90 km/h",
-     "es": "90 km/h"
+     "es": "90 km/h",
+     "uk": "90 км/год"
     }
    ],
    "why": {
     "en": "Pick-ups share the car limits.",
-    "es": "Los pick-up comparten los límites del turismo."
+    "es": "Los pick-up comparten los límites del turismo.",
+    "uk": "Для пікапів діють обмеження легковиків."
    }
   },
   {
@@ -432,25 +514,30 @@ window.DGT_DATA = {
    "tag": "urban",
    "q": {
     "en": "What is the generic limit on a street where road and pavement are at the same level (plataforma única)?",
-    "es": "¿Cuál es el límite genérico en una vía de plataforma única de calzada y acera?"
+    "es": "¿Cuál es el límite genérico en una vía de plataforma única de calzada y acera?",
+    "uk": "Яке загальне обмеження на вулиці, де проїзна частина й тротуар на одному рівні (plataforma única)?"
    },
    "o": [
     {
      "en": "20 km/h",
-     "es": "20 km/h"
+     "es": "20 km/h",
+     "uk": "20 км/год"
     },
     {
      "en": "30 km/h",
-     "es": "30 km/h"
+     "es": "30 km/h",
+     "uk": "30 км/год"
     },
     {
      "en": "10 km/h",
-     "es": "10 km/h"
+     "es": "10 km/h",
+     "uk": "10 км/год"
     }
    ],
    "why": {
     "en": "Pedestrians and vehicles share the same surface.",
-    "es": "Peatones y vehículos comparten la misma superficie."
+    "es": "Peatones y vehículos comparten la misma superficie.",
+    "uk": "Пішоходи й ТЗ ділять одну поверхню."
    }
   },
   {
@@ -458,25 +545,30 @@ window.DGT_DATA = {
    "tag": "urban",
    "q": {
     "en": "What is the generic limit on an urban street with a single lane per direction?",
-    "es": "¿Cuál es el límite genérico en una vía urbana de único carril por sentido?"
+    "es": "¿Cuál es el límite genérico en una vía urbana de único carril por sentido?",
+    "uk": "Яке загальне обмеження на міській вулиці з однією смугою в кожному напрямку?"
    },
    "o": [
     {
      "en": "30 km/h",
-     "es": "30 km/h"
+     "es": "30 km/h",
+     "uk": "30 км/год"
     },
     {
      "en": "50 km/h",
-     "es": "50 km/h"
+     "es": "50 km/h",
+     "uk": "50 км/год"
     },
     {
      "en": "40 km/h",
-     "es": "40 km/h"
+     "es": "40 km/h",
+     "uk": "40 км/год"
     }
    ],
    "why": {
     "en": "With two or more lanes per direction it is 50.",
-    "es": "Con dos o más carriles por sentido es 50."
+    "es": "Con dos o más carriles por sentido es 50.",
+    "uk": "З двома чи більше смугами в кожному напрямку — 50."
    }
   },
   {
@@ -484,25 +576,30 @@ window.DGT_DATA = {
    "tag": "urban",
    "q": {
     "en": "What is the generic limit on an urban road with two or more lanes per direction?",
-    "es": "¿Cuál es el límite genérico en una vía urbana con dos o más carriles por sentido?"
+    "es": "¿Cuál es el límite genérico en una vía urbana con dos o más carriles por sentido?",
+    "uk": "Яке загальне обмеження на міській дорозі з двома чи більше смугами в кожному напрямку?"
    },
    "o": [
     {
      "en": "50 km/h",
-     "es": "50 km/h"
+     "es": "50 km/h",
+     "uk": "50 км/год"
     },
     {
      "en": "30 km/h",
-     "es": "30 km/h"
+     "es": "30 km/h",
+     "uk": "30 км/год"
     },
     {
      "en": "60 km/h",
-     "es": "60 km/h"
+     "es": "60 km/h",
+     "uk": "60 км/год"
     }
    ],
    "why": {
     "en": "One lane per direction: 30.",
-    "es": "Un carril por sentido: 30."
+    "es": "Un carril por sentido: 30.",
+    "uk": "Одна смуга в кожному напрямку — 30."
    }
   },
   {
@@ -510,25 +607,30 @@ window.DGT_DATA = {
    "tag": "urban",
    "q": {
     "en": "What is the generic limit in a travesía?",
-    "es": "¿Cuál es el límite genérico en una travesía?"
+    "es": "¿Cuál es el límite genérico en una travesía?",
+    "uk": "Яке загальне обмеження на travesía?"
    },
    "o": [
     {
      "en": "50 km/h",
-     "es": "50 km/h"
+     "es": "50 km/h",
+     "uk": "50 км/год"
     },
     {
      "en": "30 km/h",
-     "es": "30 km/h"
+     "es": "30 km/h",
+     "uk": "30 км/год"
     },
     {
      "en": "90 km/h",
-     "es": "90 km/h"
+     "es": "90 km/h",
+     "uk": "90 км/год"
     }
    ],
    "why": {
     "en": "Signs may lower it or raise it, never above the road’s out-of-town limit.",
-    "es": "Las señales pueden rebajarlo o ampliarlo, nunca por encima del límite de esa vía fuera de poblado."
+    "es": "Las señales pueden rebajarlo o ampliarlo, nunca por encima del límite de esa vía fuera de poblado.",
+    "uk": "Знаки можуть знижувати чи підвищувати його, але ніколи не вище за заміське обмеження цієї дороги."
    }
   },
   {
@@ -536,25 +638,30 @@ window.DGT_DATA = {
    "tag": "urban",
    "q": {
     "en": "On an autopista or autovía inside a built-up area, the generic limits are…",
-    "es": "En una autopista o autovía dentro de poblado, los límites genéricos son…"
+    "es": "En una autopista o autovía dentro de poblado, los límites genéricos son…",
+    "uk": "На autopista чи autovía в межах населеного пункту загальні обмеження —"
    },
    "o": [
     {
      "en": "80 maximum and 60 minimum",
-     "es": "80 de máxima y 60 de mínima"
+     "es": "80 de máxima y 60 de mínima",
+     "uk": "максимум 80 і мінімум 60"
     },
     {
      "en": "120 maximum and 60 minimum",
-     "es": "120 de máxima y 60 de mínima"
+     "es": "120 de máxima y 60 de mínima",
+     "uk": "максимум 120 і мінімум 60"
     },
     {
      "en": "50 maximum and 25 minimum",
-     "es": "50 de máxima y 25 de mínima"
+     "es": "50 de máxima y 25 de mínima",
+     "uk": "максимум 50 і мінімум 25"
     }
    ],
    "why": {
     "en": "They may be raised by signs, never above the out-of-town generic limit.",
-    "es": "Pueden ampliarse con señales, nunca por encima del genérico fuera de poblado."
+    "es": "Pueden ampliarse con señales, nunca por encima del genérico fuera de poblado.",
+    "uk": "Знаки можуть їх підвищувати, але ніколи не вище за загальне заміське обмеження."
    }
   },
   {
@@ -562,25 +669,30 @@ window.DGT_DATA = {
    "tag": "urban",
    "q": {
     "en": "Exceptionally, the authority may raise the limit of a one-lane-per-direction urban street, with specific signs, to at most…",
-    "es": "Excepcionalmente, la autoridad puede subir el límite de una vía urbana de único carril por sentido, con señalización específica, hasta…"
+    "es": "Excepcionalmente, la autoridad puede subir el límite de una vía urbana de único carril por sentido, con señalización específica, hasta…",
+    "uk": "У виняткових випадках орган влади може підвищити обмеження на міській вулиці з однією смугою в кожному напрямку спеціальними знаками щонайбільше до…"
    },
    "o": [
     {
      "en": "50 km/h",
-     "es": "50 km/h"
+     "es": "50 km/h",
+     "uk": "50 км/год"
     },
     {
      "en": "60 km/h",
-     "es": "60 km/h"
+     "es": "60 km/h",
+     "uk": "60 км/год"
     },
     {
      "en": "40 km/h",
-     "es": "40 km/h"
+     "es": "40 km/h",
+     "uk": "40 км/год"
     }
    ],
    "why": {
     "en": "Never above 50.",
-    "es": "Nunca por encima de 50."
+    "es": "Nunca por encima de 50.",
+    "uk": "Ніколи не вище 50."
    }
   },
   {
@@ -588,25 +700,30 @@ window.DGT_DATA = {
    "tag": "urban",
    "q": {
     "en": "The limit of an urban autopista or autovía may be raised by signs, but never…",
-    "es": "El límite de una autopista o autovía urbana puede ampliarse con señales, pero nunca…"
+    "es": "El límite de una autopista o autovía urbana puede ampliarse con señales, pero nunca…",
+    "uk": "Обмеження на міській autopista чи autovía можна підвищити знаками, але ніколи…"
    },
    "o": [
     {
      "en": "above the generic limit for that kind of road out of town",
-     "es": "por encima del límite genérico de esa vía fuera de poblado"
+     "es": "por encima del límite genérico de esa vía fuera de poblado",
+     "uk": "понад загальне обмеження для такого типу дороги поза населеним пунктом"
     },
     {
      "en": "above 50 km/h",
-     "es": "por encima de 50 km/h"
+     "es": "por encima de 50 km/h",
+     "uk": "понад 50 км/год"
     },
     {
      "en": "at night",
-     "es": "de noche"
+     "es": "de noche",
+     "uk": "уночі"
     }
    ],
    "why": {
     "en": "The travesía limit can only be lowered.",
-    "es": "El límite de las travesías solo puede rebajarse."
+    "es": "El límite de las travesías solo puede rebajarse.",
+    "uk": "Обмеження на travesía можна лише знижувати."
    }
   },
   {
@@ -614,25 +731,30 @@ window.DGT_DATA = {
    "tag": "others",
    "q": {
     "en": "Out of town, a vehicle carrying dangerous goods has a maximum speed of…",
-    "es": "Fuera de poblado, un vehículo que transporta mercancías peligrosas tiene una velocidad máxima de…"
+    "es": "Fuera de poblado, un vehículo que transporta mercancías peligrosas tiene una velocidad máxima de…",
+    "uk": "Поза населеним пунктом ТЗ, що перевозить небезпечні вантажі, має максимальну швидкість…"
    },
    "o": [
     {
      "en": "10 km/h less than the generic one for its type and road",
-     "es": "10 km/h menos que la genérica de su tipo y vía"
+     "es": "10 km/h menos que la genérica de su tipo y vía",
+     "uk": "на 10 км/год меншу за загальну для його типу й дороги"
     },
     {
      "en": "the same as other vehicles of its type",
-     "es": "la misma que los demás vehículos de su tipo"
+     "es": "la misma que los demás vehículos de su tipo",
+     "uk": "таку саму, як інші ТЗ його типу"
     },
     {
      "en": "60 km/h on any road",
-     "es": "60 km/h en cualquier vía"
+     "es": "60 km/h en cualquier vía",
+     "uk": "60 км/год на будь-якій дорозі"
     }
    ],
    "why": {
     "en": "Its minimum stays the general one. In town: 40.",
-    "es": "Su mínima sigue siendo la general. En poblado: 40."
+    "es": "Su mínima sigue siendo la general. En poblado: 40.",
+    "uk": "Його мінімум лишається загальним. У населеному пункті — 40."
    }
   },
   {
@@ -640,25 +762,30 @@ window.DGT_DATA = {
    "tag": "others",
    "q": {
     "en": "In town, the maximum for a vehicle carrying dangerous goods is…",
-    "es": "En poblado, la máxima de un vehículo de mercancías peligrosas es…"
+    "es": "En poblado, la máxima de un vehículo de mercancías peligrosas es…",
+    "uk": "У населеному пункті максимум для ТЗ, що перевозить небезпечні вантажі, —"
    },
    "o": [
     {
      "en": "40 km/h",
-     "es": "40 km/h"
+     "es": "40 km/h",
+     "uk": "40 км/год"
     },
     {
      "en": "50 km/h",
-     "es": "50 km/h"
+     "es": "50 km/h",
+     "uk": "50 км/год"
     },
     {
      "en": "30 km/h",
-     "es": "30 km/h"
+     "es": "30 km/h",
+     "uk": "30 км/год"
     }
    ],
    "why": {
     "en": "School transport in town: 50.",
-    "es": "Transporte escolar en poblado: 50."
+    "es": "Transporte escolar en poblado: 50.",
+    "uk": "Шкільні перевезення в населеному пункті — 50."
    }
   },
   {
@@ -666,25 +793,30 @@ window.DGT_DATA = {
    "tag": "others",
    "q": {
     "en": "In town, the maximum for school transport is…",
-    "es": "En poblado, la máxima del transporte escolar es…"
+    "es": "En poblado, la máxima del transporte escolar es…",
+    "uk": "У населеному пункті максимум для шкільних перевезень —"
    },
    "o": [
     {
      "en": "50 km/h",
-     "es": "50 km/h"
+     "es": "50 km/h",
+     "uk": "50 км/год"
     },
     {
      "en": "40 km/h",
-     "es": "40 km/h"
+     "es": "40 km/h",
+     "uk": "40 км/год"
     },
     {
      "en": "30 km/h",
-     "es": "30 km/h"
+     "es": "30 km/h",
+     "uk": "30 км/год"
     }
    ],
    "why": {
     "en": "Out of town: 10 km/h less than the generic limit.",
-    "es": "Fuera de poblado: 10 km/h menos que la genérica."
+    "es": "Fuera de poblado: 10 km/h menos que la genérica.",
+    "uk": "Поза населеним пунктом — на 10 км/год менше за загальне обмеження."
    }
   },
   {
@@ -692,25 +824,30 @@ window.DGT_DATA = {
    "tag": "others",
    "q": {
     "en": "Out of town, school and minors transport may drive…",
-    "es": "Fuera de poblado, el transporte escolar y de menores puede circular…"
+    "es": "Fuera de poblado, el transporte escolar y de menores puede circular…",
+    "uk": "Поза населеним пунктом шкільні перевезення й перевезення неповнолітніх можуть їхати…"
    },
    "o": [
     {
      "en": "10 km/h below the generic maximum for that vehicle and road",
-     "es": "10 km/h por debajo de la máxima genérica para ese vehículo y vía"
+     "es": "10 km/h por debajo de la máxima genérica para ese vehículo y vía",
+     "uk": "на 10 км/год повільніше від загального максимуму для цього ТЗ і дороги"
     },
     {
      "en": "at 80 km/h on any road",
-     "es": "a 80 km/h en cualquier vía"
+     "es": "a 80 km/h en cualquier vía",
+     "uk": "80 км/год на будь-якій дорозі"
     },
     {
      "en": "at the same speed as other buses",
-     "es": "a la misma velocidad que los demás autobuses"
+     "es": "a la misma velocidad que los demás autobuses",
+     "uk": "з тією самою швидкістю, що й інші автобуси"
     }
    ],
    "why": {
     "en": "The minimum is the general one for each class of vehicle and road.",
-    "es": "La mínima es la general para cada clase de vehículo y vía."
+    "es": "La mínima es la general para cada clase de vehículo y vía.",
+    "uk": "Мінімум — загальний для кожного класу ТЗ і дороги."
    }
   },
   {
@@ -718,25 +855,30 @@ window.DGT_DATA = {
    "tag": "others",
    "q": {
     "en": "What is the generic maximum speed of a moped?",
-    "es": "¿Cuál es la velocidad máxima genérica de un ciclomotor?"
+    "es": "¿Cuál es la velocidad máxima genérica de un ciclomotor?",
+    "uk": "Яка загальна максимальна швидкість мопеда?"
    },
    "o": [
     {
      "en": "45 km/h",
-     "es": "45 km/h"
+     "es": "45 km/h",
+     "uk": "45 км/год"
     },
     {
      "en": "50 km/h",
-     "es": "50 km/h"
+     "es": "50 km/h",
+     "uk": "50 км/год"
     },
     {
      "en": "25 km/h",
-     "es": "25 km/h"
+     "es": "25 km/h",
+     "uk": "25 км/год"
     }
    ],
    "why": {
     "en": "Same for cycles and vehicles for people with reduced mobility.",
-    "es": "Igual para ciclos y vehículos para personas de movilidad reducida."
+    "es": "Igual para ciclos y vehículos para personas de movilidad reducida.",
+    "uk": "Так само цикли й ТЗ для осіб з обмеженою рухливістю."
    }
   },
   {
@@ -744,25 +886,30 @@ window.DGT_DATA = {
    "tag": "others",
    "q": {
     "en": "Which of these may NOT drive on a vía para automóviles?",
-    "es": "¿Cuál de estos NO puede circular por una vía para automóviles?"
+    "es": "¿Cuál de estos NO puede circular por una vía para automóviles?",
+    "uk": "Хто з них НЕ може їхати vía para automóviles?"
    },
    "o": [
     {
      "en": "A moped",
-     "es": "Un ciclomotor"
+     "es": "Un ciclomotor",
+     "uk": "Мопед"
     },
     {
      "en": "A car",
-     "es": "Un turismo"
+     "es": "Un turismo",
+     "uk": "Легковик"
     },
     {
      "en": "A bus",
-     "es": "Un autobús"
+     "es": "Un autobús",
+     "uk": "Автобус"
     }
    ],
    "why": {
     "en": "Cycles, mopeds, reduced-mobility vehicles and slow special vehicles: conventional roads only.",
-    "es": "Ciclos, ciclomotores, vehículos de movilidad reducida y especiales lentos: solo carreteras convencionales."
+    "es": "Ciclos, ciclomotores, vehículos de movilidad reducida y especiales lentos: solo carreteras convencionales.",
+    "uk": "Цикли, мопеди, ТЗ для осіб з обмеженою рухливістю й повільні спеціальні ТЗ — лише звичайними дорогами."
    }
   },
   {
@@ -770,25 +917,30 @@ window.DGT_DATA = {
    "tag": "others",
    "q": {
     "en": "What is the maximum for a three-wheeled vehicle on a carretera convencional?",
-    "es": "¿Cuál es la máxima de un vehículo de tres ruedas en carretera convencional?"
+    "es": "¿Cuál es la máxima de un vehículo de tres ruedas en carretera convencional?",
+    "uk": "Який максимум для триколісного ТЗ на carretera convencional?"
    },
    "o": [
     {
      "en": "70 km/h",
-     "es": "70 km/h"
+     "es": "70 km/h",
+     "uk": "70 км/год"
     },
     {
      "en": "90 km/h",
-     "es": "90 km/h"
+     "es": "90 km/h",
+     "uk": "90 км/год"
     },
     {
      "en": "45 km/h",
-     "es": "45 km/h"
+     "es": "45 km/h",
+     "uk": "45 км/год"
     }
    ],
    "why": {
     "en": "Also heavy quadricycles. In town: 50.",
-    "es": "También los cuadriciclos pesados. En poblado: 50."
+    "es": "También los cuadriciclos pesados. En poblado: 50.",
+    "uk": "Так само важкі квадрицикли. У населеному пункті — 50."
    }
   },
   {
@@ -796,25 +948,30 @@ window.DGT_DATA = {
    "tag": "others",
    "q": {
     "en": "A special vehicle without brake lights, or towing a trailer, on a conventional road may drive at most at…",
-    "es": "Un vehículo especial sin señalización de frenado, o con remolque, por una carretera convencional puede circular como máximo a…"
+    "es": "Un vehículo especial sin señalización de frenado, o con remolque, por una carretera convencional puede circular como máximo a…",
+    "uk": "Спеціальний ТЗ без стоп-сигналів або з причепом на звичайній дорозі може їхати щонайбільше…"
    },
    "o": [
     {
      "en": "25 km/h",
-     "es": "25 km/h"
+     "es": "25 km/h",
+     "uk": "25 км/год"
     },
     {
      "en": "40 km/h",
-     "es": "40 km/h"
+     "es": "40 km/h",
+     "uk": "40 км/год"
     },
     {
      "en": "45 km/h",
-     "es": "45 km/h"
+     "es": "45 km/h",
+     "uk": "45 км/год"
     }
    ],
    "why": {
     "en": "Same for motocultores. They may not use autopistas or autovías.",
-    "es": "Igual los motocultores. No pueden circular por autopistas ni autovías."
+    "es": "Igual los motocultores. No pueden circular por autopistas ni autovías.",
+    "uk": "Так само мотоблоки (motocultores). На autopistas і autovías їм не можна."
    }
   },
   {
@@ -822,25 +979,30 @@ window.DGT_DATA = {
    "tag": "others",
    "q": {
     "en": "Special vehicles that cannot exceed 60 km/h on the flat (and have brake lights and no trailer) may drive on a conventional road at most at…",
-    "es": "Los vehículos especiales que no superan 60 km/h en llano (con señal de frenado y sin remolque) pueden circular por carretera convencional como máximo a…"
+    "es": "Los vehículos especiales que no superan 60 km/h en llano (con señal de frenado y sin remolque) pueden circular por carretera convencional como máximo a…",
+    "uk": "Спеціальні ТЗ, що не можуть перевищити 60 км/год на рівній дорозі (зі стоп-сигналами й без причепа), можуть їхати звичайною дорогою щонайбільше…"
    },
    "o": [
     {
      "en": "40 km/h",
-     "es": "40 km/h"
+     "es": "40 km/h",
+     "uk": "40 км/год"
     },
     {
      "en": "25 km/h",
-     "es": "25 km/h"
+     "es": "25 km/h",
+     "uk": "25 км/год"
     },
     {
      "en": "70 km/h",
-     "es": "70 km/h"
+     "es": "70 km/h",
+     "uk": "70 км/год"
     }
    ],
    "why": {
     "en": "They may not use autopistas or autovías.",
-    "es": "No pueden circular por autopistas ni autovías."
+    "es": "No pueden circular por autopistas ni autovías.",
+    "uk": "На autopistas і autovías їм не можна."
    }
   },
   {
@@ -848,25 +1010,30 @@ window.DGT_DATA = {
    "tag": "others",
    "q": {
     "en": "A special vehicle able to exceed 60 km/h on the flat that meets the vehicle regulations may drive on an autovía at most at…",
-    "es": "Un vehículo especial que supera 60 km/h en llano y cumple las normas reguladoras de los vehículos puede circular por autovía como máximo a…"
+    "es": "Un vehículo especial que supera 60 km/h en llano y cumple las normas reguladoras de los vehículos puede circular por autovía como máximo a…",
+    "uk": "Спеціальний ТЗ, здатний перевищити 60 км/год на рівній дорозі, що відповідає правилам для ТЗ, може їхати autovía щонайбільше…"
    },
    "o": [
     {
      "en": "70 km/h",
-     "es": "70 km/h"
+     "es": "70 km/h",
+     "uk": "70 км/год"
     },
     {
      "en": "60 km/h",
-     "es": "60 km/h"
+     "es": "60 km/h",
+     "uk": "60 км/год"
     },
     {
      "en": "90 km/h",
-     "es": "90 km/h"
+     "es": "90 km/h",
+     "uk": "90 км/год"
     }
    ],
    "why": {
     "en": "In town: 50.",
-    "es": "En poblado: 50."
+    "es": "En poblado: 50.",
+    "uk": "У населеному пункті — 50."
    }
   },
   {
@@ -874,25 +1041,30 @@ window.DGT_DATA = {
    "tag": "others",
    "q": {
     "en": "On autovías, the 45 km/h limit for cycles applies to…",
-    "es": "En las autovías, el límite de 45 km/h de los ciclos se aplica a…"
+    "es": "En las autovías, el límite de 45 km/h de los ciclos se aplica a…",
+    "uk": "На autovías обмеження 45 км/год для циклів стосується…"
    },
    "o": [
     {
      "en": "bicycles only (mopeds may not use autovías)",
-     "es": "solo bicicletas (los ciclomotores no pueden circular por autovías)"
+     "es": "solo bicicletas (los ciclomotores no pueden circular por autovías)",
+     "uk": "лише велосипедів (мопедам на autovías не можна)"
     },
     {
      "en": "bicycles and mopeds",
-     "es": "bicicletas y ciclomotores"
+     "es": "bicicletas y ciclomotores",
+     "uk": "велосипедів і мопедів"
     },
     {
      "en": "all cycles, on autopistas too",
-     "es": "todos los ciclos, también en autopistas"
+     "es": "todos los ciclos, también en autopistas",
+     "uk": "усіх циклів, і на autopistas теж"
     }
    ],
    "why": {
     "en": "Cyclists over 14 may use the shoulder of an autovía, never of an autopista.",
-    "es": "Los ciclistas mayores de 14 años pueden ir por el arcén de la autovía, nunca de la autopista."
+    "es": "Los ciclistas mayores de 14 años pueden ir por el arcén de la autovía, nunca de la autopista.",
+    "uk": "Велосипедисти старші 14 років можуть їхати узбіччям autovía, ніколи — autopista."
    }
   },
   {
@@ -900,25 +1072,30 @@ window.DGT_DATA = {
    "tag": "extra",
    "q": {
     "en": "A motorcycle towing a trailer must…",
-    "es": "Una motocicleta que arrastra un remolque debe…"
+    "es": "Una motocicleta que arrastra un remolque debe…",
+    "uk": "Мотоцикл із причепом мусить…"
    },
    "o": [
     {
      "en": "reduce its maximum speed by 10 %",
-     "es": "reducir un 10 % su velocidad máxima"
+     "es": "reducir un 10 % su velocidad máxima",
+     "uk": "знизити свою максимальну швидкість на 10 %"
     },
     {
      "en": "reduce its maximum by 10 km/h",
-     "es": "reducir 10 km/h su velocidad máxima"
+     "es": "reducir 10 km/h su velocidad máxima",
+     "uk": "знизити свій максимум на 10 км/год"
     },
     {
      "en": "keep the same maximum",
-     "es": "mantener la misma velocidad máxima"
+     "es": "mantener la misma velocidad máxima",
+     "uk": "зберегти той самий максимум"
     }
    ],
    "why": {
     "en": "Also three-wheeled vehicles and mopeds towing a trailer or semitrailer.",
-    "es": "También vehículos de tres ruedas y ciclomotores con remolque o semirremolque."
+    "es": "También vehículos de tres ruedas y ciclomotores con remolque o semirremolque.",
+    "uk": "Так само триколісні ТЗ і мопеди з причепом чи напівпричепом."
    }
   },
   {
@@ -926,25 +1103,30 @@ window.DGT_DATA = {
    "tag": "extra",
    "q": {
     "en": "A bus carrying authorised standing passengers may drive out of town at most at…",
-    "es": "Un autobús con pasajeros de pie autorizados puede circular fuera de poblado como máximo a…"
+    "es": "Un autobús con pasajeros de pie autorizados puede circular fuera de poblado como máximo a…",
+    "uk": "Автобус із дозволеними стоячими пасажирами може їхати поза населеним пунктом щонайбільше…"
    },
    "o": [
     {
      "en": "80 km/h",
-     "es": "80 km/h"
+     "es": "80 km/h",
+     "uk": "80 км/год"
     },
     {
      "en": "90 km/h",
-     "es": "90 km/h"
+     "es": "90 km/h",
+     "uk": "90 км/год"
     },
     {
      "en": "100 km/h",
-     "es": "100 km/h"
+     "es": "100 km/h",
+     "uk": "100 км/год"
     }
    ],
    "why": {
     "en": "On any type of road out of town.",
-    "es": "En cualquier tipo de vía fuera de poblado."
+    "es": "En cualquier tipo de vía fuera de poblado.",
+    "uk": "На будь-якому типі дороги поза населеним пунктом."
    }
   },
   {
@@ -952,25 +1134,30 @@ window.DGT_DATA = {
    "tag": "extra",
    "q": {
     "en": "A bus without seat belts on an autopista may drive at most at…",
-    "es": "Un autobús sin cinturones de seguridad por autopista puede circular como máximo a…"
+    "es": "Un autobús sin cinturones de seguridad por autopista puede circular como máximo a…",
+    "uk": "Автобус без ременів безпеки на autopista може їхати щонайбільше…"
    },
    "o": [
     {
      "en": "80 km/h",
-     "es": "80 km/h"
+     "es": "80 km/h",
+     "uk": "80 км/год"
     },
     {
      "en": "100 km/h",
-     "es": "100 km/h"
+     "es": "100 km/h",
+     "uk": "100 км/год"
     },
     {
      "en": "90 km/h",
-     "es": "90 km/h"
+     "es": "90 km/h",
+     "uk": "90 км/год"
     }
    ],
    "why": {
     "en": "Same as with standing passengers.",
-    "es": "Igual que con pasajeros de pie."
+    "es": "Igual que con pasajeros de pie.",
+    "uk": "Як і зі стоячими пасажирами."
    }
   },
   {
@@ -978,25 +1165,30 @@ window.DGT_DATA = {
    "tag": "extra",
    "q": {
     "en": "May a cyclist go faster than the generic maximum for bicycles?",
-    "es": "¿Puede un ciclista superar la velocidad máxima genérica de las bicicletas?"
+    "es": "¿Puede un ciclista superar la velocidad máxima genérica de las bicicletas?",
+    "uk": "Чи може велосипедист їхати швидше за загальний максимум для велосипедів?"
    },
    "o": [
     {
      "en": "Yes, on stretches where the road allows a higher speed",
-     "es": "Sí, en los tramos en que las circunstancias de la vía permitan una velocidad superior"
+     "es": "Sí, en los tramos en que las circunstancias de la vía permitan una velocidad superior",
+     "uk": "Так, на ділянках, де дорога дозволяє вищу швидкість"
     },
     {
      "en": "No, never",
-     "es": "No, nunca"
+     "es": "No, nunca",
+     "uk": "Ні, ніколи"
     },
     {
      "en": "Only when overtaking",
-     "es": "Solo al adelantar"
+     "es": "Solo al adelantar",
+     "uk": "Лише під час обгону"
     }
    ],
    "why": {
     "en": "It depends on the road, not on overtaking.",
-    "es": "Depende de la vía, no del adelantamiento."
+    "es": "Depende de la vía, no del adelantamiento.",
+    "uk": "Це залежить від дороги, а не від обгону."
    }
   },
   {
@@ -1004,25 +1196,30 @@ window.DGT_DATA = {
    "tag": "extra",
    "q": {
     "en": "Since 1 October 2026, when you overtake a cyclist on an interurban road you must drive…",
-    "es": "Desde el 1 de octubre de 2026, al adelantar a un ciclista en vía interurbana debes circular…"
+    "es": "Desde el 1 de octubre de 2026, al adelantar a un ciclista en vía interurbana debes circular…",
+    "uk": "З 1 жовтня 2026 року, обганяючи велосипедиста на заміській дорозі, ви мусите їхати…"
    },
    "o": [
     {
      "en": "at least 20 km/h below the road’s limit",
-     "es": "al menos 20 km/h por debajo del límite de la vía"
+     "es": "al menos 20 km/h por debajo del límite de la vía",
+     "uk": "щонайменше на 20 км/год повільніше від обмеження дороги"
     },
     {
      "en": "up to 20 km/h above the limit, to overtake quickly",
-     "es": "hasta 20 km/h por encima del límite, para adelantar rápido"
+     "es": "hasta 20 km/h por encima del límite, para adelantar rápido",
+     "uk": "до 20 км/год понад обмеження, щоб обігнати швидко"
     },
     {
      "en": "at the road’s limit, never less",
-     "es": "al límite de la vía, nunca menos"
+     "es": "al límite de la vía, nunca menos",
+     "uk": "з обмеженням дороги, не менше"
     }
    ],
    "why": {
     "en": "The overtaking topic covers the side gap and the lane change.",
-    "es": "El tema de adelantamientos trata la separación lateral y el cambio de carril."
+    "es": "El tema de adelantamientos trata la separación lateral y el cambio de carril.",
+    "uk": "Бічний інтервал і перестроювання розглядає тема про обгін."
    }
   },
   {
@@ -1030,25 +1227,30 @@ window.DGT_DATA = {
    "tag": "extra",
    "q": {
     "en": "When overtaking on a carretera convencional, may you exceed the limit by 20 km/h?",
-    "es": "Al adelantar en una carretera convencional, ¿puedes superar el límite en 20 km/h?"
+    "es": "Al adelantar en una carretera convencional, ¿puedes superar el límite en 20 km/h?",
+    "uk": "Обганяючи на carretera convencional, чи можна перевищити обмеження на 20 км/год?"
    },
    "o": [
     {
      "en": "No, that allowance was removed in 2022",
-     "es": "No, esa posibilidad se suprimió en 2022"
+     "es": "No, esa posibilidad se suprimió en 2022",
+     "uk": "Ні, цю надбавку скасовано у 2022 році"
     },
     {
      "en": "Yes, cars and motorcycles",
-     "es": "Sí, turismos y motocicletas"
+     "es": "Sí, turismos y motocicletas",
+     "uk": "Так, легковикам і мотоциклам"
     },
     {
      "en": "Yes, if the overtaken vehicle is below the limit",
-     "es": "Sí, si el adelantado va por debajo del límite"
+     "es": "Sí, si el adelantado va por debajo del límite",
+     "uk": "Так, якщо ТЗ, який обганяють, їде повільніше від обмеження"
     }
    ],
    "why": {
     "en": "The limit is the same while overtaking.",
-    "es": "El límite es el mismo durante el adelantamiento."
+    "es": "El límite es el mismo durante el adelantamiento.",
+    "uk": "Під час обгону обмеження те саме."
    }
   },
   {
@@ -1056,25 +1258,30 @@ window.DGT_DATA = {
    "tag": "why",
    "q": {
     "en": "The design speed of a road is…",
-    "es": "La velocidad de diseño de una vía es…"
+    "es": "La velocidad de diseño de una vía es…",
+    "uk": "Розрахункова швидкість дороги — це…"
    },
    "o": [
     {
      "en": "the highest speed that can be kept safely on a stretch in good conditions",
-     "es": "la máxima velocidad que puede mantenerse con seguridad en un tramo en condiciones favorables"
+     "es": "la máxima velocidad que puede mantenerse con seguridad en un tramo en condiciones favorables",
+     "uk": "найбільша швидкість, яку можна безпечно тримати на ділянці за добрих умов"
     },
     {
      "en": "the minimum speed for that road",
-     "es": "la velocidad mínima de esa vía"
+     "es": "la velocidad mínima de esa vía",
+     "uk": "мінімальна швидкість для цієї дороги"
     },
     {
      "en": "the speed most drivers actually use",
-     "es": "la velocidad a la que circula la mayoría"
+     "es": "la velocidad a la que circula la mayoría",
+     "uk": "швидкість, з якою насправді їде більшість водіїв"
     }
    ],
    "why": {
     "en": "Never exceed it: the road’s safety was calculated for it.",
-    "es": "No debe superarse nunca: la seguridad de la vía se calculó para ella."
+    "es": "No debe superarse nunca: la seguridad de la vía se calculó para ella.",
+    "uk": "Ніколи її не перевищуйте: безпеку дороги розраховано на неї."
    }
   },
   {
@@ -1082,25 +1289,30 @@ window.DGT_DATA = {
    "tag": "why",
    "q": {
     "en": "The generic speed limits are based on…",
-    "es": "Los límites genéricos de velocidad se basan en…"
+    "es": "Los límites genéricos de velocidad se basan en…",
+    "uk": "Загальні обмеження швидкості ґрунтуються на…"
    },
    "o": [
     {
      "en": "technical criteria such as design speed, congestion, traffic demand and environmental impact",
-     "es": "criterios técnicos como la velocidad de diseño, la congestión, la demanda de tráfico y el impacto ambiental"
+     "es": "criterios técnicos como la velocidad de diseño, la congestión, la demanda de tráfico y el impacto ambiental",
+     "uk": "технічних критеріях, як-от розрахункова швидкість, завантаженість, інтенсивність руху й вплив на довкілля"
     },
     {
      "en": "the power of the vehicles",
-     "es": "la potencia de los vehículos"
+     "es": "la potencia de los vehículos",
+     "uk": "потужності ТЗ"
     },
     {
      "en": "only the previous year’s accidents",
-     "es": "solo los accidentes del año anterior"
+     "es": "solo los accidentes del año anterior",
+     "uk": "лише ДТП попереднього року"
     }
    ],
    "why": {
     "en": "Their aim: safety and traffic flow.",
-    "es": "Su objetivo: seguridad y fluidez."
+    "es": "Su objetivo: seguridad y fluidez.",
+    "uk": "Їхня мета — безпека й плавність руху."
    }
   },
   {
@@ -1108,25 +1320,30 @@ window.DGT_DATA = {
    "tag": "why",
    "q": {
     "en": "At a higher speed…",
-    "es": "A mayor velocidad…"
+    "es": "A mayor velocidad…",
+    "uk": "На вищій швидкості…"
    },
    "o": [
     {
      "en": "the vehicle is harder to control and needs more metres to stop",
-     "es": "es más difícil controlar el vehículo y se recorren más metros antes de detenerse"
+     "es": "es más difícil controlar el vehículo y se recorren más metros antes de detenerse",
+     "uk": "ТЗ важче контролювати, і йому потрібно більше метрів, щоб зупинитися"
     },
     {
      "en": "the stopping distance stays the same",
-     "es": "la distancia de detención no cambia"
+     "es": "la distancia de detención no cambia",
+     "uk": "зупинний шлях лишається тим самим"
     },
     {
      "en": "injuries are less serious thanks to modern cars",
-     "es": "las lesiones son menos graves gracias a los coches modernos"
+     "es": "las lesiones son menos graves gracias a los coches modernos",
+     "uk": "травми легші завдяки сучасним автомобілям"
     }
    ],
    "why": {
     "en": "Injuries are also more serious: above 120 km/h crashes are usually fatal.",
-    "es": "Las lesiones también son más graves: a más de 120 km/h los accidentes suelen ser mortales."
+    "es": "Las lesiones también son más graves: a más de 120 km/h los accidentes suelen ser mortales.",
+    "uk": "Травми теж важчі: понад 120 км/год зіткнення зазвичай смертельні."
    }
   },
   {
@@ -1134,25 +1351,30 @@ window.DGT_DATA = {
    "tag": "why",
    "q": {
     "en": "Why are conventional roads more dangerous than autopistas and autovías?",
-    "es": "¿Por qué las carreteras convencionales son más peligrosas que las autopistas y autovías?"
+    "es": "¿Por qué las carreteras convencionales son más peligrosas que las autopistas y autovías?",
+    "uk": "Чому звичайні дороги небезпечніші за autopistas і autovías?"
    },
    "o": [
     {
      "en": "Both directions share the road, there are junctions and they are not fenced",
-     "es": "Los dos sentidos van juntos, hay intersecciones y no están valladas"
+     "es": "Los dos sentidos van juntos, hay intersecciones y no están valladas",
+     "uk": "Обидва напрямки ділять дорогу, є перехрестя, і вони не огороджені"
     },
     {
      "en": "Their limits are higher",
-     "es": "Sus límites son más altos"
+     "es": "Sus límites son más altos",
+     "uk": "Їхні обмеження вищі"
     },
     {
      "en": "They have more lanes",
-     "es": "Tienen más carriles"
+     "es": "Tienen más carriles",
+     "uk": "Вони мають більше смуг"
     }
    ],
    "why": {
     "en": "So you can meet oncoming vehicles, crossing traffic, pedestrians and animals.",
-    "es": "Por eso puede haber vehículos de frente, cruces, peatones y animales."
+    "es": "Por eso puede haber vehículos de frente, cruces, peatones y animales.",
+    "uk": "Тож можна зустріти зустрічні ТЗ, поперечний рух, пішоходів і тварин."
    }
   },
   {
@@ -1160,25 +1382,30 @@ window.DGT_DATA = {
    "tag": "why",
    "q": {
     "en": "A pedestrian hit by a car at 80 km/h…",
-    "es": "Un peatón atropellado a 80 km/h…"
+    "es": "Un peatón atropellado a 80 km/h…",
+    "uk": "Пішохід, якого збив легковик на 80 км/год…"
    },
    "o": [
     {
      "en": "will almost certainly die",
-     "es": "morirá casi con seguridad"
+     "es": "morirá casi con seguridad",
+     "uk": "майже напевно загине"
     },
     {
      "en": "has about a 15 % chance of dying",
-     "es": "tiene alrededor de un 15 % de probabilidades de morir"
+     "es": "tiene alrededor de un 15 % de probabilidades de morir",
+     "uk": "має близько 15 % імовірності загинути"
     },
     {
      "en": "will usually survive",
-     "es": "normalmente sobrevivirá"
+     "es": "normalmente sobrevivirá",
+     "uk": "зазвичай виживе"
     }
    ],
    "why": {
     "en": "At 30 km/h most pedestrians survive.",
-    "es": "A 30 km/h la mayoría de los peatones sobrevive."
+    "es": "A 30 km/h la mayoría de los peatones sobrevive.",
+    "uk": "На 30 км/год більшість пішоходів виживає."
    }
   },
   {
@@ -1186,25 +1413,30 @@ window.DGT_DATA = {
    "tag": "why",
    "q": {
     "en": "Lowering speed in town from 50 to 30 km/h…",
-    "es": "Bajar la velocidad en ciudad de 50 a 30 km/h…"
+    "es": "Bajar la velocidad en ciudad de 50 a 30 km/h…",
+    "uk": "Зниження швидкості в населеному пункті з 50 до 30 км/год…"
    },
    "o": [
     {
      "en": "greatly reduces the chance that a pedestrian who is hit dies",
-     "es": "reduce mucho la probabilidad de que muera un peatón atropellado"
+     "es": "reduce mucho la probabilidad de que muera un peatón atropellado",
+     "uk": "значно зменшує ймовірність, що збитий пішохід загине"
     },
     {
      "en": "makes no difference to pedestrians",
-     "es": "no cambia nada para los peatones"
+     "es": "no cambia nada para los peatones",
+     "uk": "для пішоходів нічого не змінює"
     },
     {
      "en": "only reduces noise",
-     "es": "solo reduce el ruido"
+     "es": "solo reduce el ruido",
+     "uk": "лише зменшує шум"
     }
    ],
    "why": {
     "en": "From roughly half or more at 50 km/h to 10–15 % at 30 km/h.",
-    "es": "De la mitad o más a 50 km/h a un 10–15 % a 30 km/h."
+    "es": "De la mitad o más a 50 km/h a un 10–15 % a 30 km/h.",
+    "uk": "Приблизно з половини чи більше на 50 км/год до 10–15 % на 30 км/год."
    }
   },
   {
@@ -1212,25 +1444,30 @@ window.DGT_DATA = {
    "tag": "why",
    "q": {
     "en": "According to your course, above which speed are crashes usually fatal?",
-    "es": "Según tu curso, ¿a partir de qué velocidad los accidentes suelen ser mortales?"
+    "es": "Según tu curso, ¿a partir de qué velocidad los accidentes suelen ser mortales?",
+    "uk": "За вашим курсом, понад яку швидкість зіткнення зазвичай смертельні?"
    },
    "o": [
     {
      "en": "120 km/h",
-     "es": "120 km/h"
+     "es": "120 km/h",
+     "uk": "120 км/год"
     },
     {
      "en": "60 km/h",
-     "es": "60 km/h"
+     "es": "60 km/h",
+     "uk": "60 км/год"
     },
     {
      "en": "200 km/h",
-     "es": "200 km/h"
+     "es": "200 km/h",
+     "uk": "200 км/год"
     }
    ],
    "why": {
     "en": "Higher speed means more serious injuries.",
-    "es": "A mayor velocidad, lesiones más graves."
+    "es": "A mayor velocidad, lesiones más graves.",
+    "uk": "Вища швидкість — важчі травми."
    }
   },
   {
@@ -1238,25 +1475,30 @@ window.DGT_DATA = {
    "tag": "prevail",
    "q": {
     "en": "Which speeds prevail over the generic maximums?",
-    "es": "¿Qué velocidades prevalecen sobre las máximas genéricas?"
+    "es": "¿Qué velocidades prevalecen sobre las máximas genéricas?",
+    "uk": "Які швидкості мають перевагу над загальними максимумами?"
    },
    "o": [
     {
      "en": "those set by signs, for certain drivers and for certain vehicles",
-     "es": "las fijadas por señales, a determinados conductores y a determinados vehículos"
+     "es": "las fijadas por señales, a determinados conductores y a determinados vehículos",
+     "uk": "встановлені знаками, для окремих водіїв і для окремих ТЗ"
     },
     {
      "en": "those the driver chooses",
-     "es": "las que elija el conductor"
+     "es": "las que elija el conductor",
+     "uk": "ті, які обирає водій"
     },
     {
      "en": "those the speedometer shows",
-     "es": "las que marque el velocímetro"
+     "es": "las que marque el velocímetro",
+     "uk": "ті, які показує спідометр"
     }
    ],
    "why": {
     "en": "Drivers for personal circumstances; vehicles for their features or load.",
-    "es": "Conductores por circunstancias personales; vehículos por sus características o su carga."
+    "es": "Conductores por circunstancias personales; vehículos por sus características o su carga.",
+    "uk": "Для водіїв — через особисті обставини; для ТЗ — через їхні особливості чи вантаж."
    }
   },
   {
@@ -1264,25 +1506,30 @@ window.DGT_DATA = {
    "tag": "prevail",
    "q": {
     "en": "A sign shows 70 on a carretera convencional, where the generic limit for cars is 90. In a car you may drive at most at…",
-    "es": "Una señal marca 70 en una carretera convencional donde el genérico para turismos es 90. Con un turismo puedes circular como máximo a…"
+    "es": "Una señal marca 70 en una carretera convencional donde el genérico para turismos es 90. Con un turismo puedes circular como máximo a…",
+    "uk": "Знак показує 70 на carretera convencional, де загальне обмеження для легковиків — 90. Легковиком можна їхати щонайбільше…"
    },
    "o": [
     {
      "en": "70 km/h",
-     "es": "70 km/h"
+     "es": "70 km/h",
+     "uk": "70 км/год"
     },
     {
      "en": "90 km/h",
-     "es": "90 km/h"
+     "es": "90 km/h",
+     "uk": "90 км/год"
     },
     {
      "en": "80 km/h",
-     "es": "80 km/h"
+     "es": "80 km/h",
+     "uk": "80 км/год"
     }
    ],
    "why": {
     "en": "Signed limits prevail.",
-    "es": "Prevalecen los límites señalizados."
+    "es": "Prevalecen los límites señalizados.",
+    "uk": "Позначені обмеження мають перевагу."
    }
   },
   {
@@ -1290,25 +1537,30 @@ window.DGT_DATA = {
    "tag": "prevail",
    "q": {
     "en": "The V-4 plate shows…",
-    "es": "La señal V-4 indica…"
+    "es": "La señal V-4 indica…",
+    "uk": "Табличка V-4 показує…"
    },
    "o": [
     {
      "en": "the speed the vehicle must not exceed",
-     "es": "la velocidad que el vehículo no debe rebasar"
+     "es": "la velocidad que el vehículo no debe rebasar",
+     "uk": "швидкість, яку ТЗ не повинен перевищувати"
     },
     {
      "en": "the vehicle’s minimum speed",
-     "es": "la velocidad mínima del vehículo"
+     "es": "la velocidad mínima del vehículo",
+     "uk": "мінімальну швидкість ТЗ"
     },
     {
      "en": "the recommended speed for the road",
-     "es": "la velocidad recomendada en la vía"
+     "es": "la velocidad recomendada en la vía",
+     "uk": "рекомендовану швидкість для дороги"
     }
    ],
    "why": {
     "en": "It is a speed-limitation plate.",
-    "es": "Es una señal de limitación de velocidad."
+    "es": "Es una señal de limitación de velocidad.",
+    "uk": "Це табличка обмеження швидкості."
    }
   },
   {
@@ -1316,25 +1568,30 @@ window.DGT_DATA = {
    "tag": "prevail",
    "q": {
     "en": "Where does the V-4 plate go?",
-    "es": "¿Dónde se coloca la señal V-4?"
+    "es": "¿Dónde se coloca la señal V-4?",
+    "uk": "Де розміщують табличку V-4?"
    },
    "o": [
     {
      "en": "At the rear of the vehicle, always visible",
-     "es": "En la parte posterior del vehículo, siempre visible"
+     "es": "En la parte posterior del vehículo, siempre visible",
+     "uk": "Ззаду ТЗ, завжди видимою"
     },
     {
      "en": "On the windscreen",
-     "es": "En el parabrisas"
+     "es": "En el parabrisas",
+     "uk": "На лобовому склі"
     },
     {
      "en": "On the dashboard",
-     "es": "En el salpicadero"
+     "es": "En el salpicadero",
+     "uk": "На панелі приладів"
     }
    ],
    "why": {
     "en": "Drivers behind need to see it.",
-    "es": "Deben verla los que circulan detrás."
+    "es": "Deben verla los que circulan detrás.",
+    "uk": "Водії позаду мають її бачити."
    }
   },
   {
@@ -1342,25 +1599,30 @@ window.DGT_DATA = {
    "tag": "prevail",
    "q": {
     "en": "Which vehicles carry the V-4 plate?",
-    "es": "¿Qué vehículos llevan la señal V-4?"
+    "es": "¿Qué vehículos llevan la señal V-4?",
+    "uk": "Які ТЗ мають табличку V-4?"
    },
    "o": [
     {
      "en": "those limited because of the driver’s personal circumstances or the vehicle’s features or load",
-     "es": "los limitados por circunstancias personales del conductor o por las características o la carga del vehículo"
+     "es": "los limitados por circunstancias personales del conductor o por las características o la carga del vehículo",
+     "uk": "ті, швидкість яких обмежена через особисті обставини водія чи особливості або вантаж ТЗ"
     },
     {
      "en": "every heavy vehicle",
-     "es": "todos los vehículos pesados"
+     "es": "todos los vehículos pesados",
+     "uk": "усі важкі ТЗ"
     },
     {
      "en": "every vehicle on a motorway",
-     "es": "todos los que circulan por autopista"
+     "es": "todos los que circulan por autopista",
+     "uk": "усі ТЗ на автомагістралі"
     }
    ],
    "why": {
     "en": "The plate shows their own maximum.",
-    "es": "La señal indica su propia máxima."
+    "es": "La señal indica su propia máxima.",
+    "uk": "Табличка показує їхній власний максимум."
    }
   },
   {
@@ -1368,25 +1630,30 @@ window.DGT_DATA = {
    "tag": "prevail",
    "q": {
     "en": "On an autovía signed at 100 km/h, your vehicle carries a V-4 plate showing 80. You may drive at most at…",
-    "es": "En una autovía señalizada a 100 km/h, tu vehículo lleva una señal V-4 de 80. Puedes circular como máximo a…"
+    "es": "En una autovía señalizada a 100 km/h, tu vehículo lleva una señal V-4 de 80. Puedes circular como máximo a…",
+    "uk": "На autovía з позначеним обмеженням 100 км/год ваш ТЗ має табличку V-4 з цифрою 80. Можна їхати щонайбільше…"
    },
    "o": [
     {
      "en": "80 km/h",
-     "es": "80 km/h"
+     "es": "80 km/h",
+     "uk": "80 км/год"
     },
     {
      "en": "100 km/h",
-     "es": "100 km/h"
+     "es": "100 km/h",
+     "uk": "100 км/год"
     },
     {
      "en": "90 km/h",
-     "es": "90 km/h"
+     "es": "90 km/h",
+     "uk": "90 км/год"
     }
    ],
    "why": {
     "en": "The lowest applicable limit wins.",
-    "es": "Rige el límite aplicable más bajo."
+    "es": "Rige el límite aplicable más bajo.",
+    "uk": "Діє найнижче застосовне обмеження."
    }
   },
   {
@@ -1394,25 +1661,30 @@ window.DGT_DATA = {
    "tag": "adapt",
    "q": {
     "en": "Besides respecting the limits, every driver must take into account…",
-    "es": "Además de respetar los límites, todo conductor debe tener en cuenta…"
+    "es": "Además de respetar los límites, todo conductor debe tener en cuenta…",
+    "uk": "Крім дотримання обмежень, кожен водій мусить враховувати…"
    },
    "o": [
     {
      "en": "their physical and mental condition, the road, the vehicle, its load, the weather and the traffic",
-     "es": "sus condiciones físicas y psíquicas, la vía, el vehículo, su carga, la meteorología y la circulación"
+     "es": "sus condiciones físicas y psíquicas, la vía, el vehículo, su carga, la meteorología y la circulación",
+     "uk": "свій фізичний і психічний стан, дорогу, ТЗ, його вантаж, погоду й рух"
     },
     {
      "en": "only the signs",
-     "es": "solo las señales"
+     "es": "solo las señales",
+     "uk": "лише знаки"
     },
     {
      "en": "only the weather",
-     "es": "solo la meteorología"
+     "es": "solo la meteorología",
+     "uk": "лише погоду"
     }
    ],
    "why": {
     "en": "The more circumstances there are at once, the more you adapt.",
-    "es": "Cuantas más circunstancias concurran, más hay que adaptarse."
+    "es": "Cuantas más circunstancias concurran, más hay que adaptarse.",
+    "uk": "Що більше обставин одночасно, то більше треба пристосовуватися."
    }
   },
   {
@@ -1420,25 +1692,30 @@ window.DGT_DATA = {
    "tag": "adapt",
    "q": {
     "en": "Adapting your speed means you can always stop…",
-    "es": "Adecuar la velocidad significa poder detenerse siempre…"
+    "es": "Adecuar la velocidad significa poder detenerse siempre…",
+    "uk": "Пристосувати швидкість — означає завжди могти зупинитися…"
    },
    "o": [
     {
      "en": "within your field of vision and before any obstacle",
-     "es": "dentro de los límites de tu campo de visión y ante cualquier obstáculo"
+     "es": "dentro de los límites de tu campo de visión y ante cualquier obstáculo",
+     "uk": "у межах поля зору й перед будь-якою перешкодою"
     },
     {
      "en": "within 100 metres",
-     "es": "en 100 metros"
+     "es": "en 100 metros",
+     "uk": "у межах 100 метрів"
     },
     {
      "en": "before the next sign",
-     "es": "antes de la siguiente señal"
+     "es": "antes de la siguiente señal",
+     "uk": "перед наступним знаком"
     }
    ],
    "why": {
     "en": "If you cannot see far, you must be able to stop in less.",
-    "es": "Si ves poco, tienes que poder parar en menos."
+    "es": "Si ves poco, tienes que poder parar en menos.",
+    "uk": "Якщо ви бачите недалеко, мусите могти зупинитися на меншій відстані."
    }
   },
   {
@@ -1446,25 +1723,30 @@ window.DGT_DATA = {
    "tag": "adapt",
    "q": {
     "en": "Velocidad excesiva is…",
-    "es": "La velocidad excesiva es…"
+    "es": "La velocidad excesiva es…",
+    "uk": "Velocidad excesiva — це…"
    },
    "o": [
     {
      "en": "a speed higher than the circumstances require",
-     "es": "una velocidad superior a la que requieren las circunstancias"
+     "es": "una velocidad superior a la que requieren las circunstancias",
+     "uk": "швидкість, вища, ніж вимагають обставини"
     },
     {
      "en": "only a speed above the signed limit",
-     "es": "solo una velocidad superior al límite señalizado"
+     "es": "solo una velocidad superior al límite señalizado",
+     "uk": "лише швидкість, вища за позначене обмеження"
     },
     {
      "en": "a speed below the minimum",
-     "es": "una velocidad inferior a la mínima"
+     "es": "una velocidad inferior a la mínima",
+     "uk": "швидкість, нижча за мінімум"
     }
    ],
    "why": {
     "en": "It is one of the main causes of accidents.",
-    "es": "Es una de las principales causas de accidente."
+    "es": "Es una de las principales causas de accidente.",
+    "uk": "Це одна з головних причин ДТП."
    }
   },
   {
@@ -1472,25 +1754,30 @@ window.DGT_DATA = {
    "tag": "adapt",
    "q": {
     "en": "Velocidad excesiva makes an accident…",
-    "es": "La velocidad excesiva hace que un accidente sea…"
+    "es": "La velocidad excesiva hace que un accidente sea…",
+    "uk": "Velocidad excesiva робить ДТП…"
    },
    "o": [
     {
      "en": "more likely, and more likely to be fatal",
-     "es": "más probable, y con más probabilidad de ser mortal"
+     "es": "más probable, y con más probabilidad de ser mortal",
+     "uk": "імовірнішою й частіше смертельною"
     },
     {
      "en": "less likely if the road is good",
-     "es": "menos probable si la vía es buena"
+     "es": "menos probable si la vía es buena",
+     "uk": "менш імовірною, якщо дорога добра"
     },
     {
      "en": "no more serious",
-     "es": "igual de grave"
+     "es": "igual de grave",
+     "uk": "не серйознішою"
     }
    ],
    "why": {
     "en": "It is a kind of inadequate speed.",
-    "es": "Es una forma de velocidad inadecuada."
+    "es": "Es una forma de velocidad inadecuada.",
+    "uk": "Це один із видів неналежної швидкості."
    }
   },
   {
@@ -1498,25 +1785,30 @@ window.DGT_DATA = {
    "tag": "adapt",
    "q": {
     "en": "If you do not adapt your speed to the circumstances, you are driving at…",
-    "es": "Si no adaptas la velocidad a las circunstancias, circulas a…"
+    "es": "Si no adaptas la velocidad a las circunstancias, circulas a…",
+    "uk": "Якщо ви не пристосовуєте швидкість до обставин, ви їдете з…"
    },
    "o": [
     {
      "en": "an inadequate speed",
-     "es": "velocidad inadecuada"
+     "es": "velocidad inadecuada",
+     "uk": "неналежною швидкістю"
     },
     {
      "en": "an abnormally low speed",
-     "es": "velocidad anormalmente reducida"
+     "es": "velocidad anormalmente reducida",
+     "uk": "аномально низькою швидкістю"
     },
     {
      "en": "the design speed",
-     "es": "velocidad de diseño"
+     "es": "velocidad de diseño",
+     "uk": "розрахунковою швидкістю"
     }
    ],
    "why": {
     "en": "It can happen even within the limits.",
-    "es": "Puede ocurrir incluso dentro de los límites."
+    "es": "Puede ocurrir incluso dentro de los límites.",
+    "uk": "Це може статися навіть у межах обмежень."
    }
   },
   {
@@ -1524,25 +1816,30 @@ window.DGT_DATA = {
    "tag": "moderate",
    "q": {
     "en": "You must drive at a moderate speed, and stop if necessary, when…",
-    "es": "Debes circular a velocidad moderada, y detenerte si es preciso, cuando…"
+    "es": "Debes circular a velocidad moderada, y detenerte si es preciso, cuando…",
+    "uk": "Ви мусите їхати з помірною швидкістю, а за потреби зупинитися, коли…"
    },
    "o": [
     {
      "en": "children may step onto the road near a school",
-     "es": "pueden irrumpir niños en la vía cerca de un colegio"
+     "es": "pueden irrumpir niños en la vía cerca de un colegio",
+     "uk": "біля школи діти можуть вибігти на дорогу"
     },
     {
      "en": "the road is wide and empty",
-     "es": "la vía es ancha y está despejada"
+     "es": "la vía es ancha y está despejada",
+     "uk": "дорога широка й порожня"
     },
     {
      "en": "you are on a motorway with good visibility",
-     "es": "vas por una autopista con buena visibilidad"
+     "es": "vas por una autopista con buena visibilidad",
+     "uk": "ви на автомагістралі з доброю видимістю"
     }
    ],
    "why": {
     "en": "Also near markets and other places where children are likely.",
-    "es": "También cerca de mercados y otros lugares con presencia previsible de niños."
+    "es": "También cerca de mercados y otros lugares con presencia previsible de niños.",
+    "uk": "А також біля ринків та інших місць, де ймовірні діти."
    }
   },
   {
@@ -1550,25 +1847,30 @@ window.DGT_DATA = {
    "tag": "moderate",
    "q": {
     "en": "At a properly signed junction where visibility is practically nil, the speed may not exceed…",
-    "es": "En una intersección debidamente señalizada con visibilidad prácticamente nula, la velocidad no deberá exceder de…"
+    "es": "En una intersección debidamente señalizada con visibilidad prácticamente nula, la velocidad no deberá exceder de…",
+    "uk": "На належно позначеному перехресті, де видимість практично нульова, швидкість не може перевищувати…"
    },
    "o": [
     {
      "en": "50 km/h",
-     "es": "50 km/h"
+     "es": "50 km/h",
+     "uk": "50 км/год"
     },
     {
      "en": "30 km/h",
-     "es": "30 km/h"
+     "es": "30 km/h",
+     "uk": "30 км/год"
     },
     {
      "en": "40 km/h",
-     "es": "40 km/h"
+     "es": "40 km/h",
+     "uk": "40 км/год"
     }
    ],
    "why": {
     "en": "Even if you have priority.",
-    "es": "Aunque se tenga prioridad."
+    "es": "Aunque se tenga prioridad.",
+    "uk": "Навіть якщо у вас перевага."
    }
   },
   {
@@ -1576,25 +1878,30 @@ window.DGT_DATA = {
    "tag": "moderate",
    "q": {
     "en": "Approaching a stopped bus, especially a school bus, you must…",
-    "es": "Al aproximarte a un autobús en situación de parada, sobre todo escolar, debes…"
+    "es": "Al aproximarte a un autobús en situación de parada, sobre todo escolar, debes…",
+    "uk": "Наближаючись до автобуса, що стоїть, особливо шкільного, ви мусите…"
    },
    "o": [
     {
      "en": "moderate your speed",
-     "es": "moderar la velocidad"
+     "es": "moderar la velocidad",
+     "uk": "знизити швидкість до помірної"
     },
     {
      "en": "sound the horn and keep your speed",
-     "es": "tocar el claxon y mantener la velocidad"
+     "es": "tocar el claxon y mantener la velocidad",
+     "uk": "посигналити й не змінювати швидкості"
     },
     {
      "en": "overtake it quickly",
-     "es": "adelantarlo rápidamente"
+     "es": "adelantarlo rápidamente",
+     "uk": "швидко його обігнати"
     }
    ],
    "why": {
     "en": "Passengers, often children, may cross in front of or behind it.",
-    "es": "Los pasajeros, a menudo niños, pueden cruzar por delante o por detrás."
+    "es": "Los pasajeros, a menudo niños, pueden cruzar por delante o por detrás.",
+    "uk": "Пасажири, часто діти, можуть переходити перед ним чи позаду нього."
    }
   },
   {
@@ -1602,25 +1909,30 @@ window.DGT_DATA = {
    "tag": "moderate",
    "q": {
     "en": "Out of town, approaching a vehicle immobilised on the carriageway or a recovery vehicle at work, you must…",
-    "es": "Fuera de poblado, al acercarte a un vehículo inmovilizado en la calzada o a un vehículo de auxilio prestando servicio, debes…"
+    "es": "Fuera de poblado, al acercarte a un vehículo inmovilizado en la calzada o a un vehículo de auxilio prestando servicio, debes…",
+    "uk": "Поза населеним пунктом, наближаючись до ТЗ, знерухомленого на проїзній частині, чи евакуатора за роботою, ви мусите…"
    },
    "o": [
     {
      "en": "moderate your speed",
-     "es": "moderar la velocidad"
+     "es": "moderar la velocidad",
+     "uk": "знизити швидкість до помірної"
     },
     {
      "en": "flash your headlights and keep going",
-     "es": "dar ráfagas y seguir"
+     "es": "dar ráfagas y seguir",
+     "uk": "блимнути фарами й їхати далі"
     },
     {
      "en": "always stop",
-     "es": "detenerte siempre"
+     "es": "detenerte siempre",
+     "uk": "завжди зупинитися"
     }
    ],
    "why": {
     "en": "Same for cycles on the carriageway or its shoulder.",
-    "es": "Igual con los ciclos que circulan por la calzada o su arcén."
+    "es": "Igual con los ciclos que circulan por la calzada o su arcén.",
+    "uk": "Так само біля циклів на проїзній частині чи її узбіччі."
    }
   },
   {
@@ -1628,25 +1940,30 @@ window.DGT_DATA = {
    "tag": "moderate",
    "q": {
     "en": "At which pedestrian crossings must you moderate your speed?",
-    "es": "¿En qué pasos de peatones debes moderar la velocidad?"
+    "es": "¿En qué pasos de peatones debes moderar la velocidad?",
+    "uk": "На яких пішохідних переходах треба знижувати швидкість до помірної?"
    },
    "o": [
     {
      "en": "Those not controlled by traffic lights or agents",
-     "es": "En los no regulados por semáforo o agentes"
+     "es": "En los no regulados por semáforo o agentes",
+     "uk": "Тих, що не регулюються світлофорами чи регулювальниками"
     },
     {
      "en": "Only those with traffic lights",
-     "es": "Solo en los regulados por semáforo"
+     "es": "Solo en los regulados por semáforo",
+     "uk": "Лише тих, що зі світлофорами"
     },
     {
      "en": "None: pedestrians must wait",
-     "es": "En ninguno: los peatones deben esperar"
+     "es": "En ninguno: los peatones deben esperar",
+     "uk": "На жодних: пішоходи мусять чекати"
     }
    ],
    "why": {
     "en": "Nothing stops pedestrians there, so you must be ready.",
-    "es": "Allí nada detiene a los peatones, así que hay que estar preparado."
+    "es": "Allí nada detiene a los peatones, así que hay que estar preparado.",
+    "uk": "Там ніщо не зупиняє пішоходів, тож ви мусите бути готові."
    }
   },
   {
@@ -1654,25 +1971,30 @@ window.DGT_DATA = {
    "tag": "moderate",
    "q": {
     "en": "On a wet road where you could splash pedestrians, you must…",
-    "es": "En una vía mojada donde podrías salpicar a los peatones, debes…"
+    "es": "En una vía mojada donde podrías salpicar a los peatones, debes…",
+    "uk": "На мокрій дорозі, де ви можете забризкати пішоходів, ви мусите…"
    },
    "o": [
     {
      "en": "moderate your speed",
-     "es": "moderar la velocidad"
+     "es": "moderar la velocidad",
+     "uk": "знизити швидкість до помірної"
     },
     {
      "en": "sound the horn to warn them",
-     "es": "tocar el claxon para avisarles"
+     "es": "tocar el claxon para avisarles",
+     "uk": "посигналити, щоб їх попередити"
     },
     {
      "en": "move to the left lane",
-     "es": "pasarte al carril izquierdo"
+     "es": "pasarte al carril izquierdo",
+     "uk": "перестроїтися на ліву смугу"
     }
    ],
    "why": {
     "en": "Same with gravel or other material that could be thrown up.",
-    "es": "Igual con gravilla u otras materias que puedan proyectarse."
+    "es": "Igual con gravilla u otras materias que puedan proyectarse.",
+    "uk": "Так само з гравієм чи іншим матеріалом, що може вилітати з-під коліс."
    }
   },
   {
@@ -1680,25 +2002,30 @@ window.DGT_DATA = {
    "tag": "moderate",
    "q": {
     "en": "If you are dazzled, you must…",
-    "es": "Si sufres un deslumbramiento, debes…"
+    "es": "Si sufres un deslumbramiento, debes…",
+    "uk": "Якщо вас засліпило, ви мусите…"
    },
    "o": [
     {
      "en": "reduce your speed, stopping if necessary, so as not to hit vehicles or pedestrians",
-     "es": "reducir la velocidad, e incluso detenerte, para no alcanzar a vehículos o peatones"
+     "es": "reducir la velocidad, e incluso detenerte, para no alcanzar a vehículos o peatones",
+     "uk": "знизити швидкість, за потреби зупинитися, щоб не наїхати на ТЗ чи пішоходів"
     },
     {
      "en": "switch on your main beam",
-     "es": "encender la luz de carretera"
+     "es": "encender la luz de carretera",
+     "uk": "увімкнути дальнє світло"
     },
     {
      "en": "keep your speed and look at the centre line",
-     "es": "mantener la velocidad y mirar a la línea central"
+     "es": "mantener la velocidad y mirar a la línea central",
+     "uk": "не змінювати швидкості й дивитися на осьову лінію"
     }
    ],
    "why": {
     "en": "You cannot see what is ahead, so you must be able to stop.",
-    "es": "No ves lo que hay delante, así que debes poder detenerte."
+    "es": "No ves lo que hay delante, así que debes poder detenerte.",
+    "uk": "Ви не бачите, що попереду, тож мусите могти зупинитися."
    }
   },
   {
@@ -1706,25 +2033,30 @@ window.DGT_DATA = {
    "tag": "moderate",
    "q": {
     "en": "Which of these is NOT one of the listed reasons to moderate speed?",
-    "es": "¿Cuál de estas NO es una de las situaciones en las que hay que moderar la velocidad?"
+    "es": "¿Cuál de estas NO es una de las situaciones en las que hay que moderar la velocidad?",
+    "uk": "Що з цього НЕ входить до переліку причин знижувати швидкість?"
    },
    "o": [
     {
      "en": "A straight, dry autovía with light traffic",
-     "es": "Una autovía recta, seca y con poco tráfico"
+     "es": "Una autovía recta, seca y con poco tráfico",
+     "uk": "Пряма суха autovía з невеликим рухом"
     },
     {
      "en": "Approaching a roundabout",
-     "es": "Acercarse a una glorieta"
+     "es": "Acercarse a una glorieta",
+     "uk": "Наближення до кільцевої розв’язки"
     },
     {
      "en": "Approaching a level crossing",
-     "es": "Acercarse a un paso a nivel"
+     "es": "Acercarse a un paso a nivel",
+     "uk": "Наближення до залізничного переїзду"
     }
    ],
    "why": {
     "en": "Roundabouts, level crossings and movable bridges are on the list.",
-    "es": "Glorietas, pasos a nivel y puentes móviles están en la lista."
+    "es": "Glorietas, pasos a nivel y puentes móviles están en la lista.",
+    "uk": "Кільцеві розв’язки, залізничні переїзди й розвідні мости — у переліку."
    }
   },
   {
@@ -1732,25 +2064,30 @@ window.DGT_DATA = {
    "tag": "moderate",
    "q": {
     "en": "You must moderate your speed on stretches with buildings that…",
-    "es": "Hay que moderar la velocidad en tramos con edificios que…"
+    "es": "Hay que moderar la velocidad en tramos con edificios que…",
+    "uk": "Ви мусите знижувати швидкість на ділянках із будівлями, що…"
    },
    "o": [
     {
      "en": "open directly onto the road",
-     "es": "tienen acceso inmediato a la vía"
+     "es": "tienen acceso inmediato a la vía",
+     "uk": "виходять безпосередньо на дорогу"
     },
     {
      "en": "are more than three storeys high",
-     "es": "tienen más de tres plantas"
+     "es": "tienen más de tres plantas",
+     "uk": "вищі за три поверхи"
     },
     {
      "en": "are industrial",
-     "es": "son industriales"
+     "es": "son industriales",
+     "uk": "промислові"
     }
    ],
    "why": {
     "en": "People and vehicles may come out suddenly.",
-    "es": "Pueden salir personas o vehículos de repente."
+    "es": "Pueden salir personas o vehículos de repente.",
+    "uk": "Звідти раптово можуть вийти люди чи виїхати ТЗ."
    }
   },
   {
@@ -1758,25 +2095,30 @@ window.DGT_DATA = {
    "tag": "races",
    "q": {
     "en": "Speed competitions on public roads are…",
-    "es": "Las competiciones de velocidad en vías públicas están…"
+    "es": "Las competiciones de velocidad en vías públicas están…",
+    "uk": "Змагання на швидкість на дорогах загального користування…"
    },
    "o": [
     {
      "en": "forbidden unless authorised and the area is prepared",
-     "es": "prohibidas salvo autorización y acondicionamiento de la zona"
+     "es": "prohibidas salvo autorización y acondicionamiento de la zona",
+     "uk": "заборонені, якщо їх не дозволено й ділянку не підготовлено"
     },
     {
      "en": "allowed at night",
-     "es": "permitidas de noche"
+     "es": "permitidas de noche",
+     "uk": "дозволені вночі"
     },
     {
      "en": "allowed on autopistas",
-     "es": "permitidas en autopistas"
+     "es": "permitidas en autopistas",
+     "uk": "дозволені на autopistas"
     }
    ],
    "why": {
     "en": "The competent authority must authorise them.",
-    "es": "Debe autorizarlas la autoridad competente."
+    "es": "Debe autorizarlas la autoridad competente.",
+    "uk": "Їх має дозволити компетентний орган."
    }
   },
   {
@@ -1784,25 +2126,30 @@ window.DGT_DATA = {
    "tag": "races",
    "q": {
     "en": "An organised cycling event on public roads needs prior authorisation when it has more than…",
-    "es": "Una marcha ciclista organizada por vías públicas necesita autorización previa cuando tiene más de…"
+    "es": "Una marcha ciclista organizada por vías públicas necesita autorización previa cuando tiene más de…",
+    "uk": "Організованому велозаходу на дорогах загального користування потрібен попередній дозвіл, коли в ньому понад…"
    },
    "o": [
     {
      "en": "50 cyclists",
-     "es": "50 ciclistas"
+     "es": "50 ciclistas",
+     "uk": "50 велосипедистів"
     },
     {
      "en": "20 cyclists",
-     "es": "20 ciclistas"
+     "es": "20 ciclistas",
+     "uk": "20 велосипедистів"
     },
     {
      "en": "100 cyclists",
-     "es": "100 ciclistas"
+     "es": "100 ciclistas",
+     "uk": "100 велосипедистів"
     }
    ],
    "why": {
     "en": "Holiday or not, urban or interurban.",
-    "es": "Sea festivo o no, en vía urbana o interurbana."
+    "es": "Sea festivo o no, en vía urbana o interurbana.",
+    "uk": "У свято чи ні, на міській чи заміській дорозі."
    }
   },
   {
@@ -1810,25 +2157,30 @@ window.DGT_DATA = {
    "tag": "races",
    "q": {
     "en": "Does a cycling event with 80 cyclists on an urban road on a public holiday need authorisation?",
-    "es": "¿Necesita autorización una marcha de 80 ciclistas por vía urbana en día festivo?"
+    "es": "¿Necesita autorización una marcha de 80 ciclistas por vía urbana en día festivo?",
+    "uk": "Чи потрібен дозвіл велозаходу на 80 велосипедистів міською дорогою у святковий день?"
    },
    "o": [
     {
      "en": "Yes, whatever the day or the type of road",
-     "es": "Sí, sea festivo o no y en vía urbana o interurbana"
+     "es": "Sí, sea festivo o no y en vía urbana o interurbana",
+     "uk": "Так, незалежно від дня й типу дороги"
     },
     {
      "en": "No, not on holidays",
-     "es": "No, en festivos no"
+     "es": "No, en festivos no",
+     "uk": "Ні, у свята не потрібен"
     },
     {
      "en": "Only on interurban roads",
-     "es": "Solo en vías interurbanas"
+     "es": "Solo en vías interurbanas",
+     "uk": "Лише на заміських дорогах"
     }
    ],
    "why": {
     "en": "The threshold is more than 50 cyclists.",
-    "es": "El umbral es de más de 50 ciclistas."
+    "es": "El umbral es de más de 50 ciclistas.",
+    "uk": "Межа — понад 50 велосипедистів."
    }
   },
   {
@@ -1836,25 +2188,30 @@ window.DGT_DATA = {
    "tag": "races",
    "q": {
     "en": "Who keeps control and order during a cycling event?",
-    "es": "¿Quién se encarga del control y orden de una marcha ciclista?"
+    "es": "¿Quién se encarga del control y orden de una marcha ciclista?",
+    "uk": "Хто забезпечує контроль і порядок під час велозаходу?"
    },
    "o": [
     {
      "en": "Traffic agents or the organisation’s authorised staff",
-     "es": "Los agentes de la autoridad o el personal habilitado de la organización"
+     "es": "Los agentes de la autoridad o el personal habilitado de la organización",
+     "uk": "Регулювальники або уповноважений персонал організатора"
     },
     {
      "en": "The cyclist at the front",
-     "es": "El ciclista que va en cabeza"
+     "es": "El ciclista que va en cabeza",
+     "uk": "Велосипедист попереду"
     },
     {
      "en": "Any volunteer",
-     "es": "Cualquier voluntario"
+     "es": "Cualquier voluntario",
+     "uk": "Будь-який волонтер"
     }
    ],
    "why": {
     "en": "Both for the participants and for the other road users.",
-    "es": "Tanto respecto a los participantes como al resto de usuarios."
+    "es": "Tanto respecto a los participantes como al resto de usuarios.",
+    "uk": "І для учасників, і для інших учасників руху."
    }
   },
   {
@@ -1862,25 +2219,30 @@ window.DGT_DATA = {
    "tag": "races",
    "q": {
     "en": "Instructions given by the authorised staff of a cycling event…",
-    "es": "Las órdenes del personal habilitado de una marcha ciclista…"
+    "es": "Las órdenes del personal habilitado de una marcha ciclista…",
+    "uk": "Вказівки уповноваженого персоналу велозаходу…"
    },
    "o": [
     {
      "en": "must be obeyed like those of traffic agents",
-     "es": "se obedecen como las de los agentes"
+     "es": "se obedecen como las de los agentes",
+     "uk": "треба виконувати, як вказівки регулювальників"
     },
     {
      "en": "are only recommendations",
-     "es": "son solo recomendaciones"
+     "es": "son solo recomendaciones",
+     "uk": "лише рекомендації"
     },
     {
      "en": "apply only to the cyclists",
-     "es": "solo afectan a los ciclistas"
+     "es": "solo afectan a los ciclistas",
+     "uk": "стосуються лише велосипедистів"
     }
    ],
    "why": {
     "en": "They act as the agents’ auxiliaries, following their guidelines.",
-    "es": "Actúan como auxiliares de los agentes, siguiendo sus directrices."
+    "es": "Actúan como auxiliares de los agentes, siguiendo sus directrices.",
+    "uk": "Вони діють як помічники регулювальників за їхніми настановами."
    }
   },
   {
@@ -1888,25 +2250,30 @@ window.DGT_DATA = {
    "tag": "minimum",
    "q": {
     "en": "What is the minimum speed for motor vehicles on autopistas and autovías?",
-    "es": "¿Cuál es la velocidad mínima de los vehículos a motor en autopistas y autovías?"
+    "es": "¿Cuál es la velocidad mínima de los vehículos a motor en autopistas y autovías?",
+    "uk": "Яка мінімальна швидкість механічних ТЗ на autopistas і autovías?"
    },
    "o": [
     {
      "en": "60 km/h",
-     "es": "60 km/h"
+     "es": "60 km/h",
+     "uk": "60 км/год"
     },
     {
      "en": "50 km/h",
-     "es": "50 km/h"
+     "es": "50 km/h",
+     "uk": "50 км/год"
     },
     {
      "en": "70 km/h",
-     "es": "70 km/h"
+     "es": "70 km/h",
+     "uk": "70 км/год"
     }
    ],
    "why": {
     "en": "On other roads: half the generic maximum.",
-    "es": "En las demás vías: la mitad de la máxima genérica."
+    "es": "En las demás vías: la mitad de la máxima genérica.",
+    "uk": "На інших дорогах — половина загального максимуму."
    }
   },
   {
@@ -1914,25 +2281,30 @@ window.DGT_DATA = {
    "tag": "minimum",
    "q": {
     "en": "On a carretera convencional, the minimum speed is…",
-    "es": "En una carretera convencional, la velocidad mínima es…"
+    "es": "En una carretera convencional, la velocidad mínima es…",
+    "uk": "На carretera convencional мінімальна швидкість —"
    },
    "o": [
     {
      "en": "half the generic maximum for that vehicle",
-     "es": "la mitad de la máxima genérica para ese vehículo"
+     "es": "la mitad de la máxima genérica para ese vehículo",
+     "uk": "половина загального максимуму для цього ТЗ"
     },
     {
      "en": "60 km/h for everyone",
-     "es": "60 km/h para todos"
+     "es": "60 km/h para todos",
+     "uk": "60 км/год для всіх"
     },
     {
      "en": "there is no minimum",
-     "es": "no hay mínima"
+     "es": "no hay mínima",
+     "uk": "мінімуму немає"
     }
    ],
    "why": {
     "en": "Car 45, lorry 40.",
-    "es": "Turismo 45, camión 40."
+    "es": "Turismo 45, camión 40.",
+    "uk": "Легковик — 45, вантажівка — 40."
    }
   },
   {
@@ -1940,25 +2312,30 @@ window.DGT_DATA = {
    "tag": "minimum",
    "q": {
     "en": "What is the minimum speed for a car on a carretera convencional?",
-    "es": "¿Cuál es la velocidad mínima de un turismo en carretera convencional?"
+    "es": "¿Cuál es la velocidad mínima de un turismo en carretera convencional?",
+    "uk": "Яка мінімальна швидкість легковика на carretera convencional?"
    },
    "o": [
     {
      "en": "45 km/h",
-     "es": "45 km/h"
+     "es": "45 km/h",
+     "uk": "45 км/год"
     },
     {
      "en": "60 km/h",
-     "es": "60 km/h"
+     "es": "60 km/h",
+     "uk": "60 км/год"
     },
     {
      "en": "40 km/h",
-     "es": "40 km/h"
+     "es": "40 km/h",
+     "uk": "40 км/год"
     }
    ],
    "why": {
     "en": "Half of 90.",
-    "es": "La mitad de 90."
+    "es": "La mitad de 90.",
+    "uk": "Половина від 90."
    }
   },
   {
@@ -1966,25 +2343,30 @@ window.DGT_DATA = {
    "tag": "minimum",
    "q": {
     "en": "What is the minimum speed for a lorry on a carretera convencional?",
-    "es": "¿Cuál es la velocidad mínima de un camión en carretera convencional?"
+    "es": "¿Cuál es la velocidad mínima de un camión en carretera convencional?",
+    "uk": "Яка мінімальна швидкість вантажівки на carretera convencional?"
    },
    "o": [
     {
      "en": "40 km/h",
-     "es": "40 km/h"
+     "es": "40 km/h",
+     "uk": "40 км/год"
     },
     {
      "en": "45 km/h",
-     "es": "45 km/h"
+     "es": "45 km/h",
+     "uk": "45 км/год"
     },
     {
      "en": "60 km/h",
-     "es": "60 km/h"
+     "es": "60 km/h",
+     "uk": "60 км/год"
     }
    ],
    "why": {
     "en": "Half of 80.",
-    "es": "La mitad de 80."
+    "es": "La mitad de 80.",
+    "uk": "Половина від 80."
    }
   },
   {
@@ -1992,25 +2374,30 @@ window.DGT_DATA = {
    "tag": "minimum",
    "q": {
     "en": "Does the minimum speed apply when there is no other traffic?",
-    "es": "¿Rige la velocidad mínima cuando no circulan otros vehículos?"
+    "es": "¿Rige la velocidad mínima cuando no circulan otros vehículos?",
+    "uk": "Чи діє мінімальна швидкість, коли іншого руху немає?"
    },
    "o": [
     {
      "en": "Yes, even with no other vehicles",
-     "es": "Sí, aunque no circulen otros vehículos"
+     "es": "Sí, aunque no circulen otros vehículos",
+     "uk": "Так, навіть без інших ТЗ"
     },
     {
      "en": "No, only when someone is behind",
-     "es": "No, solo si hay alguien detrás"
+     "es": "No, solo si hay alguien detrás",
+     "uk": "Ні, лише коли хтось позаду"
     },
     {
      "en": "Only on motorways",
-     "es": "Solo en autopistas"
+     "es": "Solo en autopistas",
+     "uk": "Лише на автомагістралях"
     }
    ],
    "why": {
     "en": "Without a justified cause you may not drive below it.",
-    "es": "Sin causa justificada no se puede circular por debajo."
+    "es": "Sin causa justificada no se puede circular por debajo.",
+    "uk": "Без обґрунтованої причини їхати повільніше не можна."
    }
   },
   {
@@ -2018,25 +2405,30 @@ window.DGT_DATA = {
    "tag": "minimum",
    "q": {
     "en": "Which of these may drive below the minimum speed?",
-    "es": "¿Cuál de estos puede circular por debajo de la velocidad mínima?"
+    "es": "¿Cuál de estos puede circular por debajo de la velocidad mínima?",
+    "uk": "Хто з них може їхати повільніше від мінімальної швидкості?"
    },
    "o": [
     {
      "en": "An escort vehicle matching the speed of the vehicle it accompanies",
-     "es": "Un vehículo de acompañamiento que adecua su velocidad a la del acompañado"
+     "es": "Un vehículo de acompañamiento que adecua su velocidad a la del acompañado",
+     "uk": "ТЗ супроводу, що пристосовує швидкість до ТЗ, який супроводжує"
     },
     {
      "en": "A car whose driver is in no hurry",
-     "es": "Un turismo cuyo conductor no tiene prisa"
+     "es": "Un turismo cuyo conductor no tiene prisa",
+     "uk": "Легковик, водій якого не поспішає"
     },
     {
      "en": "A lorry trying to save fuel",
-     "es": "Un camión que quiere ahorrar combustible"
+     "es": "Un camión que quiere ahorrar combustible",
+     "uk": "Вантажівка, що економить пальне"
     }
    ],
    "why": {
     "en": "Also cycles, animal-drawn vehicles, special vehicles and special transport.",
-    "es": "También ciclos, tracción animal, vehículos especiales y transporte especial."
+    "es": "También ciclos, tracción animal, vehículos especiales y transporte especial.",
+    "uk": "А також цикли, гужові ТЗ, спеціальні ТЗ і спеціальні перевезення."
    }
   },
   {
@@ -2044,25 +2436,30 @@ window.DGT_DATA = {
    "tag": "minimum",
    "q": {
     "en": "A vehicle that cannot reach the minimum speed, with a risk of being hit from behind, must…",
-    "es": "Un vehículo que no puede alcanzar la velocidad mínima, con peligro de alcance, debe…"
+    "es": "Un vehículo que no puede alcanzar la velocidad mínima, con peligro de alcance, debe…",
+    "uk": "ТЗ, що не може розвинути мінімальну швидкість і ризикує, що в нього вріжуться ззаду, мусить…"
    },
    "o": [
     {
      "en": "drive with its hazard warning lights on",
-     "es": "circular con la luz de emergencia"
+     "es": "circular con la luz de emergencia",
+     "uk": "їхати з увімкненою аварійною сигналізацією"
     },
     {
      "en": "drive with its main beam on",
-     "es": "circular con la luz de carretera"
+     "es": "circular con la luz de carretera",
+     "uk": "їхати з дальнім світлом"
     },
     {
      "en": "sound the horn from time to time",
-     "es": "tocar el claxon de vez en cuando"
+     "es": "tocar el claxon de vez en cuando",
+     "uk": "час від часу сигналити"
     }
    ],
    "why": {
     "en": "The hazard lights warn those coming from behind.",
-    "es": "La luz de emergencia avisa a los que vienen detrás."
+    "es": "La luz de emergencia avisa a los que vienen detrás.",
+    "uk": "Аварійна сигналізація попереджає тих, хто наближається ззаду."
    }
   },
   {
@@ -2070,25 +2467,30 @@ window.DGT_DATA = {
    "tag": "minimum",
    "q": {
     "en": "If an emergency forces you to drive on an autovía at an abnormally low speed, you must…",
-    "es": "Si por una emergencia tienes que circular por una autovía a velocidad anormalmente reducida, debes…"
+    "es": "Si por una emergencia tienes que circular por una autovía a velocidad anormalmente reducida, debes…",
+    "uk": "Якщо надзвичайна ситуація змушує вас їхати autovía з аномально низькою швидкістю, ви мусите…"
    },
    "o": [
     {
      "en": "leave it at the first exit",
-     "es": "abandonarla por la primera salida"
+     "es": "abandonarla por la primera salida",
+     "uk": "з’їхати з неї на першому з’їзді"
     },
     {
      "en": "stop on the shoulder and wait",
-     "es": "detenerte en el arcén y esperar"
+     "es": "detenerte en el arcén y esperar",
+     "uk": "зупинитися на узбіччі й чекати"
     },
     {
      "en": "carry on in the left lane",
-     "es": "seguir por el carril izquierdo"
+     "es": "seguir por el carril izquierdo",
+     "uk": "їхати далі лівою смугою"
     }
    ],
    "why": {
     "en": "Same on autopistas.",
-    "es": "Igual en autopistas."
+    "es": "Igual en autopistas.",
+    "uk": "Так само на autopistas."
    }
   },
   {
@@ -2096,25 +2498,30 @@ window.DGT_DATA = {
    "tag": "minimum",
    "q": {
     "en": "Dense traffic only lets you drive at 40 km/h on an autovía. Are you breaking the minimum-speed rule?",
-    "es": "Un tráfico denso solo te permite ir a 40 km/h por una autovía. ¿Incumples la velocidad mínima?"
+    "es": "Un tráfico denso solo te permite ir a 40 km/h por una autovía. ¿Incumples la velocidad mínima?",
+    "uk": "Щільний рух дозволяє їхати autovía лише 40 км/год. Чи порушуєте ви правило мінімальної швидкості?"
    },
    "o": [
     {
      "en": "No: the traffic conditions justify it",
-     "es": "No: lo justifican las circunstancias del tráfico"
+     "es": "No: lo justifican las circunstancias del tráfico",
+     "uk": "Ні: умови руху це виправдовують"
     },
     {
      "en": "Yes, 60 km/h is always compulsory",
-     "es": "Sí, 60 km/h es siempre obligatorio"
+     "es": "Sí, 60 km/h es siempre obligatorio",
+     "uk": "Так, 60 км/год обов’язкові завжди"
     },
     {
      "en": "Yes, unless you switch on the hazard lights",
-     "es": "Sí, salvo que lleves la luz de emergencia"
+     "es": "Sí, salvo que lleves la luz de emergencia",
+     "uk": "Так, якщо не ввімкнете аварійну сигналізацію"
     }
    ],
    "why": {
     "en": "Traffic, vehicle or road conditions can justify going slower.",
-    "es": "Las circunstancias del tráfico, del vehículo o de la vía pueden justificar ir más despacio."
+    "es": "Las circunstancias del tráfico, del vehículo o de la vía pueden justificar ir más despacio.",
+    "uk": "Умови руху, ТЗ чи дороги можуть виправдати повільнішу їзду."
    }
   },
   {
@@ -2122,25 +2529,30 @@ window.DGT_DATA = {
    "tag": "minimum",
    "q": {
     "en": "Which of these may also drive below the minimum?",
-    "es": "¿Cuáles de estos también pueden circular por debajo de la mínima?"
+    "es": "¿Cuáles de estos también pueden circular por debajo de la mínima?",
+    "uk": "Хто з них теж може їхати повільніше від мінімуму?"
    },
    "o": [
     {
      "en": "Special vehicles and vehicles under special-transport rules",
-     "es": "Los vehículos especiales y los vehículos en régimen de transporte especial"
+     "es": "Los vehículos especiales y los vehículos en régimen de transporte especial",
+     "uk": "Спеціальні ТЗ і ТЗ, що діють за правилами спеціальних перевезень"
     },
     {
      "en": "Taxis",
-     "es": "Los taxis"
+     "es": "Los taxis",
+     "uk": "Таксі"
     },
     {
      "en": "Any vehicle carrying a V-4 plate",
-     "es": "Cualquier vehículo con señal V-4"
+     "es": "Cualquier vehículo con señal V-4",
+     "uk": "Будь-який ТЗ із табличкою V-4"
     }
    ],
    "why": {
     "en": "Also cycles and animal-drawn vehicles.",
-    "es": "También los ciclos y los vehículos de tracción animal."
+    "es": "También los ciclos y los vehículos de tracción animal.",
+    "uk": "А також цикли й гужові ТЗ."
    }
   },
   {
@@ -2148,25 +2560,30 @@ window.DGT_DATA = {
    "tag": "slowing",
    "q": {
     "en": "Before reducing speed considerably (with no imminent danger), you must first…",
-    "es": "Antes de reducir considerablemente la velocidad (sin peligro inminente), primero debes…"
+    "es": "Antes de reducir considerablemente la velocidad (sin peligro inminente), primero debes…",
+    "uk": "Перед значним зниженням швидкості (без неминучої небезпеки) ви спершу мусите…"
    },
    "o": [
     {
      "en": "make sure it is safe for those behind, checking the mirrors",
-     "es": "cerciorarte de que no hay riesgo para los de detrás, mirando los espejos"
+     "es": "cerciorarte de que no hay riesgo para los de detrás, mirando los espejos",
+     "uk": "переконатися, що це безпечно для тих, хто позаду, перевіривши дзеркала"
     },
     {
      "en": "switch on the hazard lights",
-     "es": "encender la luz de emergencia"
+     "es": "encender la luz de emergencia",
+     "uk": "увімкнути аварійну сигналізацію"
     },
     {
      "en": "sound the horn",
-     "es": "tocar el claxon"
+     "es": "tocar el claxon",
+     "uk": "посигналити"
     }
    ],
    "why": {
     "en": "Look at the distance and speed of the vehicles behind.",
-    "es": "Hay que observar la distancia y velocidad de los que vienen detrás."
+    "es": "Hay que observar la distancia y velocidad de los que vienen detrás.",
+    "uk": "Дивіться на відстань і швидкість ТЗ позаду."
    }
   },
   {
@@ -2174,25 +2591,30 @@ window.DGT_DATA = {
    "tag": "slowing",
    "q": {
     "en": "How do you warn that you are going to slow down considerably?",
-    "es": "¿Cómo se advierte que se va a reducir considerablemente la velocidad?"
+    "es": "¿Cómo se advierte que se va a reducir considerablemente la velocidad?",
+    "uk": "Як попередити, що ви збираєтеся значно знизити швидкість?"
    },
    "o": [
     {
      "en": "With repeated use of the brake lights, or moving the arm up and down",
-     "es": "Con el empleo reiterado de las luces de frenado o moviendo el brazo de arriba abajo"
+     "es": "Con el empleo reiterado de las luces de frenado o moviendo el brazo de arriba abajo",
+     "uk": "Повторним вмиканням стоп-сигналів або рухом руки вгору-вниз"
     },
     {
      "en": "With the left indicator",
-     "es": "Con el intermitente izquierdo"
+     "es": "Con el intermitente izquierdo",
+     "uk": "Лівим покажчиком повороту"
     },
     {
      "en": "By flashing the headlights",
-     "es": "Con ráfagas de luz"
+     "es": "Con ráfagas de luz",
+     "uk": "Блиманням фар"
     }
    ],
    "why": {
     "en": "Whenever possible, in advance.",
-    "es": "Siempre que sea posible, con antelación."
+    "es": "Siempre que sea posible, con antelación.",
+    "uk": "Коли можливо — завчасно."
    }
   },
   {
@@ -2200,25 +2622,30 @@ window.DGT_DATA = {
    "tag": "slowing",
    "q": {
     "en": "The arm signal for slowing down is…",
-    "es": "La señal con el brazo para reducir la velocidad es…"
+    "es": "La señal con el brazo para reducir la velocidad es…",
+    "uk": "Сигнал рукою про зниження швидкості —"
    },
    "o": [
     {
      "en": "the arm out, moved up and down in short, quick movements",
-     "es": "el brazo extendido, movido de arriba abajo con movimientos cortos y rápidos"
+     "es": "el brazo extendido, movido de arriba abajo con movimientos cortos y rápidos",
+     "uk": "рука вбік, рухається вгору-вниз короткими швидкими рухами"
     },
     {
      "en": "the arm raised vertically and held still",
-     "es": "el brazo levantado en vertical y quieto"
+     "es": "el brazo levantado en vertical y quieto",
+     "uk": "рука піднята вертикально й нерухома"
     },
     {
      "en": "the arm pointing to the right",
-     "es": "el brazo señalando a la derecha"
+     "es": "el brazo señalando a la derecha",
+     "uk": "рука вказує праворуч"
     }
    ],
    "why": {
     "en": "It replaces or adds to the brake lights.",
-    "es": "Sustituye o complementa a las luces de frenado."
+    "es": "Sustituye o complementa a las luces de frenado.",
+    "uk": "Він замінює чи доповнює стоп-сигнали."
    }
   },
   {
@@ -2226,25 +2653,30 @@ window.DGT_DATA = {
    "tag": "slowing",
    "q": {
     "en": "Do you have to warn before braking hard because of an imminent danger?",
-    "es": "¿Hay que advertir antes de frenar fuerte por un peligro inminente?"
+    "es": "¿Hay que advertir antes de frenar fuerte por un peligro inminente?",
+    "uk": "Чи треба попереджати перед різким гальмуванням через неминучу небезпеку?"
    },
    "o": [
     {
      "en": "No: you warn whenever possible, and imminent danger is the exception",
-     "es": "No: se advierte siempre que sea posible, y el peligro inminente es la excepción"
+     "es": "No: se advierte siempre que sea posible, y el peligro inminente es la excepción",
+     "uk": "Ні: попереджають, коли можливо, а неминуча небезпека — виняток"
     },
     {
      "en": "Yes, always",
-     "es": "Sí, siempre"
+     "es": "Sí, siempre",
+     "uk": "Так, завжди"
     },
     {
      "en": "Only on motorways",
-     "es": "Solo en autopistas"
+     "es": "Solo en autopistas",
+     "uk": "Лише на автомагістралях"
     }
    ],
    "why": {
     "en": "In an imminent danger there is no time to check and warn.",
-    "es": "Ante un peligro inminente no hay tiempo para comprobar y avisar."
+    "es": "Ante un peligro inminente no hay tiempo para comprobar y avisar.",
+    "uk": "За неминучої небезпеки немає часу перевіряти й попереджати."
    }
   },
   {
@@ -2252,25 +2684,30 @@ window.DGT_DATA = {
    "tag": "slowing",
    "q": {
     "en": "How must you reduce speed?",
-    "es": "¿Cómo se debe reducir la velocidad?"
+    "es": "¿Cómo se debe reducir la velocidad?",
+    "uk": "Як треба знижувати швидкість?"
    },
    "o": [
     {
      "en": "Smoothly, avoiding sudden braking that could make someone hit you",
-     "es": "Sin brusquedades, para no provocar que te alcancen"
+     "es": "Sin brusquedades, para no provocar que te alcancen",
+     "uk": "Плавно, уникаючи різкого гальмування, через яке хтось може у вас врізатися"
     },
     {
      "en": "As quickly as possible",
-     "es": "Lo más rápido posible"
+     "es": "Lo más rápido posible",
+     "uk": "Якомога швидше"
     },
     {
      "en": "By switching off the engine",
-     "es": "Apagando el motor"
+     "es": "Apagando el motor",
+     "uk": "Вимкнувши двигун"
     }
    ],
    "why": {
     "en": "The goal is no risk of collision with the vehicles behind.",
-    "es": "El objetivo es que no haya riesgo de colisión con los de detrás."
+    "es": "El objetivo es que no haya riesgo de colisión con los de detrás.",
+    "uk": "Мета — жодного ризику зіткнення з ТЗ позаду."
    }
   },
   {
@@ -2278,25 +2715,30 @@ window.DGT_DATA = {
    "tag": "slowing",
    "q": {
     "en": "When you check before slowing down, you look at…",
-    "es": "Al comprobar antes de reducir la velocidad, miras…"
+    "es": "Al comprobar antes de reducir la velocidad, miras…",
+    "uk": "Перевіряючи перед зниженням швидкості, ви дивитеся на…"
    },
    "o": [
     {
      "en": "the distance and speed of the vehicles behind",
-     "es": "la distancia y velocidad de los vehículos que vienen detrás"
+     "es": "la distancia y velocidad de los vehículos que vienen detrás",
+     "uk": "відстань і швидкість ТЗ позаду"
     },
     {
      "en": "the oncoming vehicles",
-     "es": "los vehículos que vienen de frente"
+     "es": "los vehículos que vienen de frente",
+     "uk": "зустрічні ТЗ"
     },
     {
      "en": "only your speedometer",
-     "es": "solo el velocímetro"
+     "es": "solo el velocímetro",
+     "uk": "лише свій спідометр"
     }
    ],
    "why": {
     "en": "Using the rear-view mirrors.",
-    "es": "Por los espejos retrovisores."
+    "es": "Por los espejos retrovisores.",
+    "uk": "У дзеркала заднього огляду."
    }
   }
  ],
@@ -2305,324 +2747,396 @@ window.DGT_DATA = {
    "sec": 1,
    "en": "Speed concepts",
    "es": "Conceptos de velocidad",
+   "uk": "Поняття швидкості",
    "recap": [
     [
      "Maximum = upper limit for that vehicle on that road; going above it is exceso de velocidad.",
-     "Máxima = límite superior para ese vehículo en esa vía; superarla es exceso de velocidad."
+     "Máxima = límite superior para ese vehículo en esa vía; superarla es exceso de velocidad.",
+     "Максимальна — верхня межа для цього ТЗ на цій дорозі; їхати швидше — exceso de velocidad."
     ],
     [
      "Minimum = lower limit; below it the speed is abnormally low (anormalmente reducida).",
-     "Mínima = límite inferior; por debajo, la velocidad es anormalmente reducida."
+     "Mínima = límite inferior; por debajo, la velocidad es anormalmente reducida.",
+     "Мінімальна — нижня межа; повільніше — аномально низька швидкість (anormalmente reducida)."
     ],
     [
      "Adequate = adapted to the circumstances, so you control the vehicle in any unforeseen event.",
-     "Adecuada = adaptada a las circunstancias, para controlar el vehículo ante cualquier imprevisto."
+     "Adecuada = adaptada a las circunstancias, para controlar el vehículo ante cualquier imprevisto.",
+     "Належна — пристосована до обставин, щоб ви контролювали ТЗ у будь-якій непередбаченій ситуації."
     ],
     [
      "Inadequate = not taking all the factors into account; excessive = faster than the circumstances allow, even inside the limit.",
-     "Inadecuada = no tener en cuenta todos los factores; excesiva = más rápida de lo que permiten las circunstancias, aunque sea dentro del límite."
+     "Inadecuada = no tener en cuenta todos los factores; excesiva = más rápida de lo que permiten las circunstancias, aunque sea dentro del límite.",
+     "Неналежна — не враховує всіх чинників; надмірна — швидша, ніж дозволяють обставини, навіть у межах обмеження."
     ]
    ],
    "trap": [
     "Treating exceso de velocidad (over the limit) and velocidad excesiva (too fast for the conditions) as the same thing.",
-    "Tratar como lo mismo el exceso de velocidad (sobre el límite) y la velocidad excesiva (demasiado rápida para las circunstancias)."
+    "Tratar como lo mismo el exceso de velocidad (sobre el límite) y la velocidad excesiva (demasiado rápida para las circunstancias).",
+    "Вважати exceso de velocidad (понад обмеження) і velocidad excesiva (надто швидко для умов) одним і тим самим."
    ]
   },
   "generic": {
    "sec": 2,
    "en": "Generic limits out of town",
    "es": "Límites genéricos fuera de poblado",
+   "uk": "Загальні обмеження поза населеними пунктами",
    "recap": [
     [
      "Cars, motorcycles, motorhomes up to 3,500 kg and pick-ups: 120 on motorways, 90 on other roads.",
-     "Turismos, motos, autocaravanas hasta 3.500 kg y pick-up: 120 en autopista y autovía, 90 en las demás."
+     "Turismos, motos, autocaravanas hasta 3.500 kg y pick-up: 120 en autopista y autovía, 90 en las demás.",
+     "Легковики, мотоцикли, автобудинки до 3 500 кг і пікапи: 120 на автомагістралях, 90 на інших дорогах."
     ],
     [
      "Buses, car-derived vans and adaptable mixed vehicles: 100 and 90.",
-     "Autobuses, derivados de turismo y mixtos adaptables: 100 y 90."
+     "Autobuses, derivados de turismo y mixtos adaptables: 100 y 90.",
+     "Автобуси, фургони на базі легковика й змішані адаптовані ТЗ: 100 і 90."
     ],
     [
      "Lorries, vans, motorhomes over 3,500 kg, vehicles with a trailer and the rest: 90 and 80.",
-     "Camiones, furgonetas, autocaravanas de más de 3.500 kg, vehículos con remolque y resto: 90 y 80."
+     "Camiones, furgonetas, autocaravanas de más de 3.500 kg, vehículos con remolque y resto: 90 y 80.",
+     "Вантажівки, фургони, автобудинки понад 3 500 кг, ТЗ із причепом та інші: 90 і 80."
     ],
     [
      "Up to 100 on conventional roads with physical separation if the road owner sets it; 30 on unpaved roads.",
-     "Hasta 100 en convencionales con separación física si lo fija el titular; 30 en vías sin pavimentar."
+     "Hasta 100 en convencionales con separación física si lo fija el titular; 30 en vías sin pavimentar.",
+     "До 100 на звичайних дорогах із фізичним розділенням, якщо так встановив власник дороги; 30 на дорогах без покриття."
     ]
    ],
    "trap": [
     "Giving a car towing a trailer, or a heavy motorhome, the car limits.",
-    "Aplicar a un turismo con remolque, o a una autocaravana pesada, los límites del turismo."
+    "Aplicar a un turismo con remolque, o a una autocaravana pesada, los límites del turismo.",
+    "Застосовувати до легковика з причепом чи важкого автобудинка обмеження легковиків."
    ]
   },
   "urban": {
    "sec": 2,
    "en": "Limits in built-up areas",
    "es": "Límites en poblado",
+   "uk": "Обмеження в населених пунктах",
    "recap": [
     [
      "Single platform (road and pavement level): 20. One lane per direction: 30.",
-     "Plataforma única de calzada y acera: 20. Único carril por sentido: 30."
+     "Plataforma única de calzada y acera: 20. Único carril por sentido: 30.",
+     "Plataforma única (проїзна частина й тротуар на одному рівні): 20. Одна смуга в кожному напрямку: 30."
     ],
     [
      "Two or more lanes per direction: 50. Travesía: 50.",
-     "Dos o más carriles por sentido: 50. Travesía: 50."
+     "Dos o más carriles por sentido: 50. Travesía: 50.",
+     "Дві чи більше смуг у кожному напрямку: 50. Travesía: 50."
     ],
     [
      "Urban autopista or autovía: 80 maximum, 60 minimum.",
-     "Autopista o autovía urbana: 80 de máxima y 60 de mínima."
+     "Autopista o autovía urbana: 80 de máxima y 60 de mínima.",
+     "Міська autopista чи autovía: максимум 80, мінімум 60."
     ],
     [
      "Signs may lower them, or raise them on urban motorways, never above the out-of-town generic limit; travesías only lower; a one-lane street up to 50 at most.",
-     "Las señales pueden rebajarlos, o ampliarlos en autopistas urbanas, nunca por encima del genérico fuera de poblado; travesías solo a la baja; una vía de un carril, hasta 50 como máximo."
+     "Las señales pueden rebajarlos, o ampliarlos en autopistas urbanas, nunca por encima del genérico fuera de poblado; travesías solo a la baja; una vía de un carril, hasta 50 como máximo.",
+     "Знаки можуть їх знижувати чи підвищувати на міських автомагістралях, але не вище за загальне заміське обмеження; на travesías — лише знижувати; на вулиці з однією смугою — щонайбільше до 50."
     ]
    ],
    "trap": [
     "Thinking every urban street is 50, or that a one-lane street can be raised above 50.",
-    "Pensar que toda calle es de 50, o que una vía de un carril puede subir por encima de 50."
+    "Pensar que toda calle es de 50, o que una vía de un carril puede subir por encima de 50.",
+    "Думати, що на кожній міській вулиці 50, або що на вулиці з однією смугою можна підвищити понад 50."
    ]
   },
   "others": {
    "sec": 2,
    "en": "Limits for other vehicles",
    "es": "Velocidades de otros vehículos",
+   "uk": "Обмеження для інших ТЗ",
    "recap": [
     [
      "Dangerous goods and school transport: 10 km/h less out of town; 40 and 50 in town. The minimum does not change.",
-     "Mercancías peligrosas y transporte escolar: 10 km/h menos fuera de poblado; 40 y 50 en poblado. La mínima no cambia."
+     "Mercancías peligrosas y transporte escolar: 10 km/h menos fuera de poblado; 40 y 50 en poblado. La mínima no cambia.",
+     "Небезпечні вантажі й шкільні перевезення: на 10 км/год менше поза населеним пунктом; 40 і 50 у населеному пункті. Мінімум не змінюється."
     ],
     [
      "Cycles, mopeds and reduced-mobility vehicles: 45 (on autovías, bicycles only).",
-     "Ciclos, ciclomotores y vehículos de movilidad reducida: 45 (en autovías, solo bicicletas)."
+     "Ciclos, ciclomotores y vehículos de movilidad reducida: 45 (en autovías, solo bicicletas).",
+     "Цикли, мопеди й ТЗ для осіб з обмеженою рухливістю: 45 (на autovías — лише велосипеди)."
     ],
     [
      "Three-wheeled vehicles and heavy quadricycles: 70, 70 and 50 in town.",
-     "Vehículos de tres ruedas y cuadriciclos pesados: 70, 70 y 50 en poblado."
+     "Vehículos de tres ruedas y cuadriciclos pesados: 70, 70 y 50 en poblado.",
+     "Триколісні ТЗ і важкі квадрицикли: 70, 70 і 50 у населеному пункті."
     ],
     [
      "Special vehicles: 25 (no brake lights, trailer, motocultor), 40 (the rest), 70 if they can exceed 60 km/h on the flat.",
-     "Especiales: 25 (sin señal de frenado, con remolque, motocultores), 40 (resto), 70 si superan 60 km/h en llano."
+     "Especiales: 25 (sin señal de frenado, con remolque, motocultores), 40 (resto), 70 si superan 60 km/h en llano.",
+     "Спеціальні ТЗ: 25 (без стоп-сигналів, з причепом, мотоблок), 40 (решта), 70, якщо можуть перевищити 60 км/год на рівній дорозі."
     ]
    ],
    "trap": [
     "Mixing up − 10 km/h (dangerous goods, school transport) with − 10 % (vehicles towing a trailer).",
-    "Confundir − 10 km/h (mercancías peligrosas, escolar) con − 10 % (vehículos con remolque)."
+    "Confundir − 10 km/h (mercancías peligrosas, escolar) con − 10 % (vehículos con remolque).",
+    "Плутати − 10 км/год (небезпечні вантажі, шкільні перевезення) з − 10 % (ТЗ із причепом)."
    ]
   },
   "extra": {
    "sec": 2,
    "en": "Trailers, buses, bicycles and overtaking",
    "es": "Remolques, autobuses, bicicletas y adelantamiento",
+   "uk": "Причепи, автобуси, велосипеди й обгін",
    "recap": [
     [
      "Motorcycles, three-wheelers and mopeds towing a trailer: − 10 % of their maximum.",
-     "Motos, tres ruedas y ciclomotores con remolque: − 10 % de su máxima."
+     "Motos, tres ruedas y ciclomotores con remolque: − 10 % de su máxima.",
+     "Мотоцикли, триколісні ТЗ і мопеди з причепом: − 10 % від їхнього максимуму."
     ],
     [
      "Bus with standing passengers or without seat belts: 80 on any road out of town.",
-     "Autobús con pasajeros de pie o sin cinturones: 80 en cualquier vía fuera de poblado."
+     "Autobús con pasajeros de pie o sin cinturones: 80 en cualquier vía fuera de poblado.",
+     "Автобус зі стоячими пасажирами чи без ременів безпеки: 80 на будь-якій дорозі поза населеним пунктом."
     ],
     [
      "Cyclists may exceed their generic maximum where the road allows a higher speed.",
-     "Los ciclistas pueden superar su máxima genérica donde la vía permita una velocidad superior."
+     "Los ciclistas pueden superar su máxima genérica donde la vía permita una velocidad superior.",
+     "Велосипедисти можуть перевищувати свій загальний максимум там, де дорога дозволяє вищу швидкість."
     ],
     [
      "No extra 20 km/h for overtaking (since March 2022). Since October 2026, overtaking cyclists out of town: at least 20 km/h below the limit.",
-     "No hay 20 km/h extra para adelantar (desde marzo de 2022). Desde octubre de 2026, al adelantar ciclistas en interurbana: al menos 20 km/h por debajo del límite."
+     "No hay 20 km/h extra para adelantar (desde marzo de 2022). Desde octubre de 2026, al adelantar ciclistas en interurbana: al menos 20 km/h por debajo del límite.",
+     "Без додаткових 20 км/год для обгону (з березня 2022 року). З жовтня 2026 року обгін велосипедистів поза населеним пунктом — щонайменше на 20 км/год нижче від обмеження."
     ]
    ],
    "trap": [
     "Remembering the old +20 km/h for overtaking, which no longer exists.",
-    "Recordar el antiguo +20 km/h para adelantar, que ya no existe."
+    "Recordar el antiguo +20 km/h para adelantar, que ya no existe.",
+    "Пам’ятати стару надбавку +20 км/год для обгону, якої вже немає."
    ]
   },
   "why": {
    "sec": 2,
    "en": "Why the limits matter",
    "es": "Por qué respetar los límites",
+   "uk": "Чому обмеження важливі",
    "recap": [
     [
      "Limits rest on technical criteria: design speed, congestion, traffic demand, environmental impact.",
-     "Los límites se basan en criterios técnicos: velocidad de diseño, congestión, demanda de tráfico, impacto ambiental."
+     "Los límites se basan en criterios técnicos: velocidad de diseño, congestión, demanda de tráfico, impacto ambiental.",
+     "Обмеження ґрунтуються на технічних критеріях: розрахункова швидкість, завантаженість, інтенсивність руху, вплив на довкілля."
     ],
     [
      "Design speed = the highest speed that can be kept safely on a stretch in good conditions; never exceed it.",
-     "Velocidad de diseño = la máxima que puede mantenerse con seguridad en un tramo en condiciones favorables; nunca se supera."
+     "Velocidad de diseño = la máxima que puede mantenerse con seguridad en un tramo en condiciones favorables; nunca se supera.",
+     "Розрахункова швидкість — найбільша швидкість, яку можна безпечно тримати на ділянці за добрих умов; ніколи її не перевищуйте."
     ],
     [
      "Faster = harder to control, longer to stop, worse injuries (above 120 km/h usually fatal).",
-     "Más rápido = más difícil de controlar, más metros para parar, lesiones más graves (a más de 120 km/h suelen ser mortales)."
+     "Más rápido = más difícil de controlar, más metros para parar, lesiones más graves (a más de 120 km/h suelen ser mortales).",
+     "Швидше — важче контролювати, довше зупинятися, важчі травми (понад 120 км/год зазвичай смертельні)."
     ],
     [
      "Conventional roads: oncoming traffic, junctions, no fences. Pedestrian hit at 80 km/h: almost certain death.",
-     "Convencionales: tráfico de frente, intersecciones, sin vallas. Peatón atropellado a 80 km/h: muerte casi segura."
+     "Convencionales: tráfico de frente, intersecciones, sin vallas. Peatón atropellado a 80 km/h: muerte casi segura.",
+     "Звичайні дороги: зустрічний рух, перехрестя, без огорож. Пішохід, збитий на 80 км/год, майже напевно гине."
     ]
    ],
    "trap": [
     "Thinking motorways are the most dangerous roads because they are the fastest.",
-    "Pensar que las autopistas son las vías más peligrosas por ser las más rápidas."
+    "Pensar que las autopistas son las vías más peligrosas por ser las más rápidas.",
+    "Думати, що автомагістралі найнебезпечніші, бо там найшвидше."
    ]
   },
   "prevail": {
    "sec": 3,
    "en": "Speeds that take precedence",
    "es": "Velocidades prevalentes",
+   "uk": "Швидкості, що мають перевагу",
    "recap": [
     [
      "Signed limits, limits for certain drivers and limits for certain vehicles prevail over the generic maximums.",
-     "Prevalecen sobre las máximas genéricas las fijadas por señales, a determinados conductores y a determinados vehículos."
+     "Prevalecen sobre las máximas genéricas las fijadas por señales, a determinados conductores y a determinados vehículos.",
+     "Позначені обмеження, обмеження для окремих водіїв і для окремих ТЗ мають перевагу над загальними максимумами."
     ],
     [
      "Driver limits (personal circumstances) and vehicle limits (features or load) are shown with the V-4 plate.",
-     "Los límites del conductor (circunstancias personales) y del vehículo (características o carga) se indican con la señal V-4."
+     "Los límites del conductor (circunstancias personales) y del vehículo (características o carga) se indican con la señal V-4.",
+     "Обмеження для водіїв (особисті обставини) і для ТЗ (особливості чи вантаж) показує табличка V-4."
     ],
     [
      "The V-4 goes at the rear, always visible, and shows the speed the vehicle must not exceed.",
-     "La V-4 va en la parte posterior, siempre visible, e indica la velocidad que el vehículo no debe rebasar."
+     "La V-4 va en la parte posterior, siempre visible, e indica la velocidad que el vehículo no debe rebasar.",
+     "V-4 розміщують ззаду, завжди видимою; вона показує швидкість, яку ТЗ не повинен перевищувати."
     ],
     [
      "The lowest applicable limit always wins.",
-     "Siempre rige el límite aplicable más bajo."
+     "Siempre rige el límite aplicable más bajo.",
+     "Завжди діє найнижче застосовне обмеження."
     ]
    ],
    "trap": [
     "Following the road’s higher limit when the vehicle carries a lower V-4.",
-    "Seguir el límite más alto de la vía cuando el vehículo lleva una V-4 más baja."
+    "Seguir el límite más alto de la vía cuando el vehículo lleva una V-4 más baja.",
+    "Їхати за вищим обмеженням дороги, коли ТЗ має нижчу V-4."
    ]
   },
   "adapt": {
    "sec": 4,
    "en": "Speed suited to the circumstances",
    "es": "Velocidad adecuada a las circunstancias",
+   "uk": "Швидкість, пристосована до обставин",
    "recap": [
     [
      "Respect the limits and also adapt to your own state, the road, the vehicle, the load, the weather and the traffic.",
-     "Respetar los límites y además adaptarse al propio estado, la vía, el vehículo, la carga, la meteorología y la circulación."
+     "Respetar los límites y además adaptarse al propio estado, la vía, el vehículo, la carga, la meteorología y la circulación.",
+     "Дотримуйтеся обмежень і також пристосовуйтеся до власного стану, дороги, ТЗ, вантажу, погоди й руху."
     ],
     [
      "Always be able to stop within your field of vision and before any obstacle.",
-     "Poder detenerse siempre dentro del campo de visión y ante cualquier obstáculo."
+     "Poder detenerse siempre dentro del campo de visión y ante cualquier obstáculo.",
+     "Завжди майте змогу зупинитися в межах поля зору й перед будь-якою перешкодою."
     ],
     [
      "Not adapting = inadequate speed; faster than the circumstances require = excessive speed.",
-     "No adaptarse = velocidad inadecuada; más rápida de lo que requieren las circunstancias = velocidad excesiva."
+     "No adaptarse = velocidad inadecuada; más rápida de lo que requieren las circunstancias = velocidad excesiva.",
+     "Не пристосовуватися — неналежна швидкість; швидше, ніж вимагають обставини, — надмірна швидкість."
     ],
     [
      "Excessive speed is one of the main causes of accidents and makes them more often fatal.",
-     "La velocidad excesiva es una de las principales causas de accidente y los hace más a menudo mortales."
+     "La velocidad excesiva es una de las principales causas de accidente y los hace más a menudo mortales.",
+     "Надмірна швидкість — одна з головних причин ДТП і робить їх частіше смертельними."
     ]
    ],
    "trap": [
     "Believing that staying under the signed limit is always enough.",
-    "Creer que ir por debajo del límite señalizado siempre basta."
+    "Creer que ir por debajo del límite señalizado siempre basta.",
+    "Вважати, що їзда в межах позначеного обмеження завжди достатня."
    ]
   },
   "moderate": {
    "sec": 4,
    "en": "When to slow down",
    "es": "Cuándo moderar la velocidad",
+   "uk": "Коли знижувати швидкість",
    "recap": [
     [
      "People: pedestrians and animals, children, elderly and blind people; schools and markets; cycles; uncontrolled crossings; buildings opening onto the road.",
-     "Personas: peatones y animales, niños, ancianos e invidentes; colegios y mercados; ciclos; pasos no regulados; edificios con acceso a la vía."
+     "Personas: peatones y animales, niños, ancianos e invidentes; colegios y mercados; ciclos; pasos no regulados; edificios con acceso a la vía.",
+     "Люди: пішоходи й тварини, діти, літні й незрячі люди; школи й ринки; цикли; нерегульовані переходи; будівлі, що виходять на дорогу."
     ],
     [
      "Vehicles: stopped bus (above all school buses); out of town, immobilised vehicles, assistance vehicles and cycles.",
-     "Vehículos: autobús parado (sobre todo escolar); fuera de poblado, vehículos inmovilizados, de auxilio y ciclos."
+     "Vehículos: autobús parado (sobre todo escolar); fuera de poblado, vehículos inmovilizados, de auxilio y ciclos.",
+     "ТЗ: автобус, що стоїть (передусім шкільний); поза населеним пунктом — знерухомлені ТЗ, ТЗ допомоги й цикли."
     ],
     [
      "Road: slippery or splashing, level crossings, movable bridges, roundabouts, junctions without priority, poor visibility, narrowings, danger signs.",
-     "Vía: deslizante o con salpicaduras, pasos a nivel, puentes móviles, glorietas, intersecciones sin prioridad, poca visibilidad, estrechamientos, señales de peligro."
+     "Vía: deslizante o con salpicaduras, pasos a nivel, puentes móviles, glorietas, intersecciones sin prioridad, poca visibilidad, estrechamientos, señales de peligro.",
+     "Дорога: слизька чи з бризками, залізничні переїзди, розвідні мости, кільцеві розв’язки, перехрестя без переваги, погана видимість, звуження, попереджувальні знаки."
     ],
     [
      "Visibility: dazzle, dense fog, heavy rain, snow, dust or smoke. Signed junction with nil visibility: 50 km/h at most.",
-     "Visibilidad: deslumbramiento, niebla densa, lluvia intensa, nevada, polvo o humo. Intersección señalizada con visibilidad nula: 50 km/h como máximo."
+     "Visibilidad: deslumbramiento, niebla densa, lluvia intensa, nevada, polvo o humo. Intersección señalizada con visibilidad nula: 50 km/h como máximo.",
+     "Видимість: засліплення, густий туман, сильний дощ, сніг, пил чи дим. Позначене перехрестя з нульовою видимістю: щонайбільше 50 км/год."
     ]
    ],
    "trap": [
     "Moderating only at crossings with traffic lights, when the rule targets the ones without.",
-    "Moderar solo en los pasos con semáforo, cuando la norma se refiere a los que no lo tienen."
+    "Moderar solo en los pasos con semáforo, cuando la norma se refiere a los que no lo tienen.",
+    "Знижувати швидкість лише на переходах зі світлофорами, хоча правило стосується тих, що без них."
    ]
   },
   "races": {
    "sec": 4,
    "en": "Races and cycling events",
    "es": "Competiciones y marchas ciclistas",
+   "uk": "Перегони й велозаходи",
    "recap": [
     [
      "Speed competitions on public roads are forbidden unless authorised and the area is prepared.",
-     "Las competiciones de velocidad en vías públicas están prohibidas salvo autorización y acondicionamiento de la zona."
+     "Las competiciones de velocidad en vías públicas están prohibidas salvo autorización y acondicionamiento de la zona.",
+     "Змагання на швидкість на дорогах загального користування заборонені, якщо їх не дозволено й ділянку не підготовлено."
     ],
     [
      "Cycling events with more than 50 cyclists need prior authorisation.",
-     "Las marchas ciclistas de más de 50 ciclistas necesitan autorización previa."
+     "Las marchas ciclistas de más de 50 ciclistas necesitan autorización previa.",
+     "Велозаходам із понад 50 велосипедистами потрібен попередній дозвіл."
     ],
     [
      "Holiday or not, urban or interurban: the rule is the same.",
-     "Sea festivo o no, urbana o interurbana: la norma es la misma."
+     "Sea festivo o no, urbana o interurbana: la norma es la misma.",
+     "У свято чи ні, на міській чи заміській дорозі — правило те саме."
     ],
     [
      "Agents or authorised staff keep order; the staff’s instructions count as an agent’s.",
-     "El orden lo mantienen agentes o personal habilitado; las órdenes de ese personal valen como las de los agentes."
+     "El orden lo mantienen agentes o personal habilitado; las órdenes de ese personal valen como las de los agentes.",
+     "Порядок забезпечують регулювальники чи уповноважений персонал; вказівки персоналу важать як вказівки регулювальника."
     ]
    ],
    "trap": [
     "Thinking that a holiday or an urban route removes the need for authorisation.",
-    "Pensar que un festivo o un recorrido urbano evitan la autorización."
+    "Pensar que un festivo o un recorrido urbano evitan la autorización.",
+    "Думати, що свято чи міський маршрут скасовують потребу в дозволі."
    ]
   },
   "minimum": {
    "sec": 5,
    "en": "Minimum speed",
    "es": "Velocidad mínima",
+   "uk": "Мінімальна швидкість",
    "recap": [
     [
      "Autopistas and autovías: 60 km/h minimum for motor vehicles. Other roads: half the generic maximum.",
-     "Autopistas y autovías: 60 km/h de mínima para vehículos a motor. Demás vías: la mitad de la genérica."
+     "Autopistas y autovías: 60 km/h de mínima para vehículos a motor. Demás vías: la mitad de la genérica.",
+     "Autopistas і autovías: мінімум 60 км/год для механічних ТЗ. Інші дороги: половина загального максимуму."
     ],
     [
      "It applies even when there is no other traffic.",
-     "Se aplica aunque no circulen otros vehículos."
+     "Se aplica aunque no circulen otros vehículos.",
+     "Вона діє навіть тоді, коли іншого руху немає."
     ],
     [
      "Exempt: cycles, animal-drawn vehicles, special vehicles and special transport, escort vehicles, and anyone when conditions make a higher speed unsafe.",
-     "Exentos: ciclos, tracción animal, especiales y transporte especial, vehículos de acompañamiento y cualquiera cuando las circunstancias impidan ir más rápido sin riesgo."
+     "Exentos: ciclos, tracción animal, especiales y transporte especial, vehículos de acompañamiento y cualquiera cuando las circunstancias impidan ir más rápido sin riesgo.",
+     "Звільнені: цикли, гужові ТЗ, спеціальні ТЗ і спеціальні перевезення, ТЗ супроводу та будь-хто, коли умови роблять вищу швидкість небезпечною."
     ],
     [
      "Cannot reach the minimum and risk being hit: hazard lights. Emergency on a motorway: leave at the first exit.",
-     "Sin alcanzar la mínima y con peligro de alcance: luz de emergencia. Emergencia en autopista: salir por la primera salida."
+     "Sin alcanzar la mínima y con peligro de alcance: luz de emergencia. Emergencia en autopista: salir por la primera salida.",
+     "Не можете розвинути мінімум і ризикуєте, що в вас вріжуться: аварійна сигналізація. Надзвичайна ситуація на автомагістралі: з’їжджайте на першому з’їзді."
     ]
    ],
    "trap": [
     "Using 60 km/h as the minimum on every road, or thinking the minimum lapses when the road is empty.",
-    "Usar 60 km/h como mínima en todas las vías, o pensar que la mínima no rige si la vía está vacía."
+    "Usar 60 km/h como mínima en todas las vías, o pensar que la mínima no rige si la vía está vacía.",
+    "Брати 60 км/год як мінімум на кожній дорозі або думати, що мінімум не діє, коли дорога порожня."
    ]
   },
   "slowing": {
    "sec": 5,
    "en": "Slowing down",
    "es": "Reducción de la velocidad",
+   "uk": "Зниження швидкості",
    "recap": [
     [
      "Except in imminent danger, before slowing down sharply check the mirrors: distance and speed of those behind.",
-     "Salvo peligro inminente, antes de reducir mucho la velocidad hay que mirar los espejos: distancia y velocidad de los de detrás."
+     "Salvo peligro inminente, antes de reducir mucho la velocidad hay que mirar los espejos: distancia y velocidad de los de detrás.",
+     "Крім неминучої небезпеки, перед різким зниженням швидкості перевірте дзеркала: відстань і швидкість тих, хто позаду."
     ],
     [
      "Warn whenever possible: repeated brake lights, or the arm moved up and down in short, quick movements.",
-     "Avisar siempre que sea posible: luces de freno reiteradas o el brazo de arriba abajo con movimientos cortos y rápidos."
+     "Avisar siempre que sea posible: luces de freno reiteradas o el brazo de arriba abajo con movimientos cortos y rápidos.",
+     "Попереджайте, коли можливо: повторне вмикання стоп-сигналів або рух руки вгору-вниз короткими швидкими рухами."
     ],
     [
      "Reduce smoothly, never abruptly, so nobody runs into you.",
-     "Reducir sin brusquedades para que nadie te alcance."
+     "Reducir sin brusquedades para que nadie te alcance.",
+     "Знижуйте плавно, ніколи різко, щоб ніхто у вас не врізався."
     ],
     [
      "The hazard lights are for when you cannot reach the minimum, not the usual way to warn of braking.",
-     "La luz de emergencia es para cuando no se alcanza la mínima, no la forma habitual de avisar de una frenada."
+     "La luz de emergencia es para cuando no se alcanza la mínima, no la forma habitual de avisar de una frenada.",
+     "Аварійна сигналізація — для випадку, коли ви не можете розвинути мінімум, а не звичайний спосіб попередити про гальмування."
     ]
    ],
    "trap": [
     "Answering “hazard lights” or “indicator” when the rule is brake lights or the arm.",
-    "Responder «luz de emergencia» o «intermitente» cuando la norma dice luces de freno o el brazo."
+    "Responder «luz de emergencia» o «intermitente» cuando la norma dice luces de freno o el brazo.",
+    "Відповідати «аварійна сигналізація» чи «покажчик повороту», хоча правило — стоп-сигнали чи рука."
    ]
   }
  }

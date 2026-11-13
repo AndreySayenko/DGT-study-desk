@@ -24,6 +24,12 @@ a label its own translation in one figure only (figure function name, a colon, t
 wording used on the page is too long for the drawing. Texts that are the same in English and Spanish (sign codes,
 "45 km/h", MIN/MAX) are optional: they only get Ukrainian units (км/год, кг, см³…) unless uk.py gives a translation.
 
+Each A1/A2 topic builds on the B topic with the same number (shared figures, sections, glossary terms), so its uk.py
+uses that topic's uk.py as a base and only holds what differs:
+
+    from ..b08.uk import UK as B08
+    UK.use(B08)             texts not given in this file are looked up there; an entry here wins
+
     python3 tools/i18n.py todo a-05     list the English that has no Ukrainian yet, with the key to use
     python3 tools/i18n.py check         count missing and unused Ukrainian entries in every translated topic
 
@@ -47,8 +53,8 @@ WORD = re.compile(r"[A-Za-z]{2,}")
 HOLE = "⟦svg⟧"
 MARKUP = re.compile(r"(<svg\b.*?</svg>|<[^>]*>)", re.S)
 # Numbers and units in texts that need no other translation ("45 km/h", "≤ 1.5 m" → "≤ 1,5 м", "3,500" → "3 500").
-UNITS = {"uk": [(re.compile(r"(\d),(\d{3})(?!\d)"), "\\1\u00a0\\2"), (re.compile(r"(\d)\.(\d)"), r"\1,\2"), (re.compile(r"km/h\b"), "км/год"), (re.compile(r"\bcm³"), "см³"), (re.compile(r"(\d)\s?kg\b"), r"\1 кг"),
-                (re.compile(r"(\d)\s?kW\b"), r"\1 кВт"), (re.compile(r"(\d)\s?W\b"), r"\1 Вт"), (re.compile(r"(\d)\s?mm\b"), r"\1 мм"),
+UNITS = {"uk": [(re.compile(r"(\d),(\d{3})(?!\d)"), "\\1\u00a0\\2"), (re.compile(r"(\d)\.(\d)"), r"\1,\2"), (re.compile(r"km/h\b"), "км/год"), (re.compile(r"\bcm³"), "см³"), (re.compile(r"(\d)\s?kg\b"), r"\1 кг"), (re.compile(r"(\d)\s?t\b"), r"\1 т"),
+                (re.compile(r"(\d)\s?kW\b"), r"\1 кВт"), (re.compile(r"(\d)\s?W\b(?!-\d)"), r"\1 Вт"), (re.compile(r"(\d)\s?mm\b"), r"\1 мм"),
                 (re.compile(r"(\d)\s?cm\b"), r"\1 см"), (re.compile(r"(\d)\s?km\b"), r"\1 км"), (re.compile(r"(\d)\s?m\b"), r"\1 м"),
                 (re.compile(r"(\d)\s?mg/l\b"), r"\1 мг/л"), (re.compile(r"(\d)\s?g/l\b"), r"\1 г/л"), (re.compile(r"(\d)\s?s\b"), r"\1 с"),
                 (re.compile(r"(\d)\s?h\b"), r"\1 год"), (re.compile(r"(\d)\s?min\b"), r"\1 хв"), (re.compile(r"(\d)\s?l\b"), r"\1 л")]}
@@ -68,9 +74,25 @@ class Book:
 
     def __init__(self):
         self.META, self.TEXT, self.TAGS, self.BANK = {}, {}, {}, {}
+        self.bases = []
 
     def meta(self, **kw):
         self.META.update(kw)
+
+    def use(self, *books):
+        """Look up texts this file does not give in these books (the uk.py of the topics this one builds on)."""
+        self.bases.extend(books)
+
+    def find(self, keys):
+        """(book, key, text) for the first of `keys` given here, else in the books from use(); or None."""
+        for k in keys:
+            if k in self.TEXT:
+                return self, k, self.TEXT[k]
+        for b in self.bases:
+            hit = b.find(keys)
+            if hit:
+                return hit
+        return None
 
     def X(self, k, uk):
         if k in self.TEXT and self.TEXT[k] != uk:
@@ -136,12 +158,11 @@ class Translator:
         holes = SVG.findall(en)
         tmpl = SVG.sub(HOLE, en)
         k = key(tmpl)
-        if fig and f"{fig}:{tmpl}" in self.b.TEXT:
-            self.used.add(f"{fig}:{tmpl}")
-            out = self.b.TEXT[f"{fig}:{tmpl}"]
-        elif k in self.b.TEXT:
-            self.used.add(k)
-            out = self.b.TEXT[k]
+        hit = self.b.find(([f"{fig}:{tmpl}"] if fig else []) + [k])
+        if hit:
+            owner, used, out = hit
+            if owner is self.b:
+                self.used.add(used)
         elif tmpl in self.rev:
             out = self.rev[tmpl]
         else:

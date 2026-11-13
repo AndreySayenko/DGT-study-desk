@@ -4,11 +4,13 @@ window.DGT_DATA = {
  "category": "b",
  "langs": [
   "en",
-  "es"
+  "es",
+  "uk"
  ],
  "title": {
   "en": "Topic 9 · Documentation",
-  "es": "Tema 9 · Documentación"
+  "es": "Tema 9 · Documentación",
+  "uk": "Тема 9 · Документи"
  },
  "bank": [
   {
@@ -16,25 +18,30 @@ window.DGT_DATA = {
    "tag": "docs",
    "q": {
     "en": "You show your licence on the miDGT app to a police officer in France. Is it valid?",
-    "es": "Muestras el permiso en la app miDGT a un policía en Francia. ¿Es válido?"
+    "es": "Muestras el permiso en la app miDGT a un policía en Francia. ¿Es válido?",
+    "uk": "Ви показуєте поліцейському у Франції посвідчення в застосунку miDGT. Чи воно дійсне?"
    },
    "o": [
     {
      "en": "No: the app is valid only in Spain",
-     "es": "No: la app solo vale en territorio nacional"
+     "es": "No: la app solo vale en territorio nacional",
+     "uk": "Ні: застосунок дійсний лише в Іспанії"
     },
     {
      "en": "Yes, in the whole EU",
-     "es": "Sí, en toda la UE"
+     "es": "Sí, en toda la UE",
+     "uk": "Так, у всьому ЄС"
     },
     {
      "en": "Yes, if it is up to date",
-     "es": "Sí, si está actualizada"
+     "es": "Sí, si está actualizada",
+     "uk": "Так, якщо воно чинне"
     }
    ],
    "why": {
     "en": "Abroad you need the physical documents.",
-    "es": "En el extranjero hacen falta los documentos físicos."
+    "es": "En el extranjero hacen falta los documentos físicos.",
+    "uk": "За кордоном потрібні фізичні документи."
    }
   },
   {
@@ -42,25 +49,30 @@ window.DGT_DATA = {
    "tag": "docs",
    "q": {
     "en": "Which format of the licence does the DGT recommend most?",
-    "es": "¿Qué formato del permiso recomienda más la DGT?"
+    "es": "¿Qué formato del permiso recomienda más la DGT?",
+    "uk": "Який формат посвідчення DGT рекомендує найбільше?"
    },
    "o": [
     {
      "en": "The physical original",
-     "es": "El formato físico original"
+     "es": "El formato físico original",
+     "uk": "Фізичний оригінал"
     },
     {
      "en": "A photo on your phone",
-     "es": "Una foto en el móvil"
+     "es": "Una foto en el móvil",
+     "uk": "Фото в телефоні"
     },
     {
      "en": "A plain photocopy",
-     "es": "Una fotocopia simple"
+     "es": "Una fotocopia simple",
+     "uk": "Звичайну ксерокопію"
     }
    ],
    "why": {
     "en": "It can be checked in any situation.",
-    "es": "Permite su verificación en cualquier situación."
+    "es": "Permite su verificación en cualquier situación.",
+    "uk": "Його можна перевірити в будь-якій ситуації."
    }
   },
   {
@@ -68,25 +80,30 @@ window.DGT_DATA = {
    "tag": "docs",
    "q": {
     "en": "May a person hold two driving licences from two EU countries?",
-    "es": "¿Puede una persona tener dos permisos de dos países de la UE?"
+    "es": "¿Puede una persona tener dos permisos de dos países de la UE?",
+    "uk": "Чи може людина мати два посвідчення водія з двох країн ЄС?"
    },
    "o": [
     {
      "en": "No; one of them will be withdrawn",
-     "es": "No; se le retirará el que proceda"
+     "es": "No; se le retirará el que proceda",
+     "uk": "Ні; одне з них вилучать"
     },
     {
      "en": "Yes",
-     "es": "Sí"
+     "es": "Sí",
+     "uk": "Так"
     },
     {
      "en": "Yes, if they are different classes",
-     "es": "Sí, si son de clases distintas"
+     "es": "Sí, si son de clases distintas",
+     "uk": "Так, якщо різних категорій"
     }
    ],
    "why": {
     "en": "Only one EU licence per person.",
-    "es": "Solo un permiso de la UE por persona."
+    "es": "Solo un permiso de la UE por persona.",
+    "uk": "Лише одне посвідчення ЄС на людину."
    }
   },
   {
@@ -94,25 +111,30 @@ window.DGT_DATA = {
    "tag": "docs",
    "q": {
     "en": "Having to wear glasses to drive makes your licence…",
-    "es": "Tener que llevar gafas para conducir hace que tu permiso sea…"
+    "es": "Tener que llevar gafas para conducir hace que tu permiso sea…",
+    "uk": "Якщо для керування треба носити окуляри, ваше посвідчення…"
    },
    "o": [
     {
      "en": "still ordinary",
-     "es": "ordinario igualmente"
+     "es": "ordinario igualmente",
+     "uk": "лишається звичайним"
     },
     {
      "en": "extraordinary",
-     "es": "extraordinario"
+     "es": "extraordinario",
+     "uk": "стає особливим"
     },
     {
      "en": "temporary",
-     "es": "temporal"
+     "es": "temporal",
+     "uk": "стає тимчасовим"
     }
    ],
    "why": {
     "en": "Glasses or hearing aids do not make it extraordinary.",
-    "es": "Las gafas o audífonos no lo convierten en extraordinario."
+    "es": "Las gafas o audífonos no lo convierten en extraordinario.",
+    "uk": "Окуляри чи слухові апарати не роблять його особливим."
    }
   },
   {
@@ -120,25 +142,30 @@ window.DGT_DATA = {
    "tag": "docs",
    "q": {
     "en": "Someone is caught using a hidden earpiece in the driving test. Apart from the fine…",
-    "es": "Pillan a alguien con un pinganillo en el examen. Además de la multa…"
+    "es": "Pillan a alguien con un pinganillo en el examen. Además de la multa…",
+    "uk": "Людину спіймали на іспиті з водіння з прихованим навушником. Крім штрафу…"
    },
    "o": [
     {
      "en": "they cannot take tests for six months",
-     "es": "no puede presentarse a las pruebas durante seis meses"
+     "es": "no puede presentarse a las pruebas durante seis meses",
+     "uk": "вона не може складати іспити шість місяців"
     },
     {
      "en": "they lose 6 points",
-     "es": "pierde 6 puntos"
+     "es": "pierde 6 puntos",
+     "uk": "вона втрачає 6 балів"
     },
     {
      "en": "nothing else",
-     "es": "nada más"
+     "es": "nada más",
+     "uk": "більше нічого"
     }
    ],
    "why": {
     "en": "It is a very serious offence.",
-    "es": "Es una infracción muy grave."
+    "es": "Es una infracción muy grave.",
+    "uk": "Це дуже серйозне порушення."
    }
   },
   {
@@ -146,25 +173,30 @@ window.DGT_DATA = {
    "tag": "docs",
    "q": {
     "en": "Who declares you fit (apto) in the licence tests?",
-    "es": "¿Quién te declara apto en las pruebas del permiso?"
+    "es": "¿Quién te declara apto en las pruebas del permiso?",
+    "uk": "Хто визнає вас придатним (apto) за іспитами на посвідчення?"
    },
    "o": [
     {
      "en": "The Provincial Traffic Office",
-     "es": "La Jefatura Provincial de Tráfico"
+     "es": "La Jefatura Provincial de Tráfico",
+     "uk": "Провінційне управління дорожнього руху"
     },
     {
      "en": "The driving school",
-     "es": "La autoescuela"
+     "es": "La autoescuela",
+     "uk": "Автошкола"
     },
     {
      "en": "The town hall",
-     "es": "El ayuntamiento"
+     "es": "El ayuntamiento",
+     "uk": "Мерія"
     }
    ],
    "why": {
     "en": "It also issues the licences.",
-    "es": "También expide los permisos."
+    "es": "También expide los permisos.",
+    "uk": "Воно ж і видає посвідчення."
    }
   },
   {
@@ -172,25 +204,30 @@ window.DGT_DATA = {
    "tag": "docs",
    "q": {
     "en": "After an injury you lose the fitness to drive, but your licence is still in force. You…",
-    "es": "Tras una lesión pierdes las aptitudes, pero tu permiso sigue vigente. Tú…"
+    "es": "Tras una lesión pierdes las aptitudes, pero tu permiso sigue vigente. Tú…",
+    "uk": "Після травми ви втратили придатність до керування, але посвідчення ще чинне. Ви…"
    },
    "o": [
     {
      "en": "may not drive until you recover",
-     "es": "no puedes conducir hasta recuperarlas"
+     "es": "no puedes conducir hasta recuperarlas",
+     "uk": "не можете керувати, доки не одужаєте"
     },
     {
      "en": "may drive until it expires",
-     "es": "puedes conducir hasta que caduque"
+     "es": "puedes conducir hasta que caduque",
+     "uk": "можете керувати, доки воно не скінчиться"
     },
     {
      "en": "may drive in town only",
-     "es": "puedes conducir solo en poblado"
+     "es": "puedes conducir solo en poblado",
+     "uk": "можете керувати лише в місті"
     }
    ],
    "why": {
     "en": "If the car must be adapted, tell the Traffic Office.",
-    "es": "Si hay que adaptar el vehículo, se comunica a la Jefatura."
+    "es": "Si hay que adaptar el vehículo, se comunica a la Jefatura.",
+    "uk": "Якщо автомобіль треба пристосувати — повідомте Управління дорожнього руху."
    }
   },
   {
@@ -198,25 +235,30 @@ window.DGT_DATA = {
    "tag": "docs",
    "q": {
     "en": "Which tests must you pass for a licence?",
-    "es": "¿Qué pruebas hay que superar para el permiso?"
+    "es": "¿Qué pruebas hay que superar para el permiso?",
+    "uk": "Які іспити треба скласти, щоб отримати посвідчення?"
    },
    "o": [
     {
      "en": "Knowledge, skills, aptitudes and behaviour",
-     "es": "Conocimientos, habilidades, aptitudes y comportamientos"
+     "es": "Conocimientos, habilidades, aptitudes y comportamientos",
+     "uk": "Знання, навички, здібності й поведінка"
     },
     {
      "en": "Only a theory test",
-     "es": "Solo un examen teórico"
+     "es": "Solo un examen teórico",
+     "uk": "Лише теоретичний іспит"
     },
     {
      "en": "A medical test only",
-     "es": "Solo un reconocimiento médico"
+     "es": "Solo un reconocimiento médico",
+     "uk": "Лише медичний огляд"
     }
    ],
    "why": {
     "en": "Plus the physical and mental fitness.",
-    "es": "Además de las aptitudes psicofísicas."
+    "es": "Además de las aptitudes psicofísicas.",
+    "uk": "Плюс фізична й психічна придатність."
    }
   },
   {
@@ -224,25 +266,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "The LCM licence (reduced-mobility vehicles) can be obtained from age…",
-    "es": "La licencia LCM (vehículos de movilidad reducida) se puede obtener desde los…"
+    "es": "La licencia LCM (vehículos de movilidad reducida) se puede obtener desde los…",
+    "uk": "Посвідчення LCM (ТЗ для осіб з обмеженою рухливістю) можна отримати з…"
    },
    "o": [
     {
      "en": "14",
-     "es": "14 años"
+     "es": "14 años",
+     "uk": "14 років"
     },
     {
      "en": "15",
-     "es": "15 años"
+     "es": "15 años",
+     "uk": "15 років"
     },
     {
      "en": "16",
-     "es": "16 años"
+     "es": "16 años",
+     "uk": "16 років"
     }
    ],
    "why": {
     "en": "LVA from 16.",
-    "es": "La LVA, desde los 16."
+    "es": "La LVA, desde los 16.",
+    "uk": "LVA — з 16."
    }
   },
   {
@@ -250,25 +297,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "The LVA licence allows…",
-    "es": "La licencia LVA permite conducir…"
+    "es": "La licencia LVA permite conducir…",
+    "uk": "Посвідчення LVA дозволяє…"
    },
    "o": [
     {
      "en": "self-propelled agricultural special vehicles within ordinary limits or ≤ 45 km/h",
-     "es": "vehículos especiales agrícolas autopropulsados dentro de los límites ordinarios o ≤ 45 km/h"
+     "es": "vehículos especiales agrícolas autopropulsados dentro de los límites ordinarios o ≤ 45 km/h",
+     "uk": "самохідні сільськогосподарські спеціальні ТЗ у звичайних межах чи ≤ 45 км/год"
     },
     {
      "en": "mopeds",
-     "es": "ciclomotores"
+     "es": "ciclomotores",
+     "uk": "мопеди"
     },
     {
      "en": "tractors of any size",
-     "es": "tractores de cualquier tamaño"
+     "es": "tractores de cualquier tamaño",
+     "uk": "трактори будь-яких розмірів"
     }
    ],
    "why": {
     "en": "From age 16.",
-    "es": "Desde los 16 años."
+    "es": "Desde los 16 años.",
+    "uk": "З 16 років."
    }
   },
   {
@@ -276,25 +328,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "The minimum age for the AM licence is…",
-    "es": "La edad mínima para el permiso AM es…"
+    "es": "La edad mínima para el permiso AM es…",
+    "uk": "Мінімальний вік для посвідчення AM —"
    },
    "o": [
     {
      "en": "15",
-     "es": "15 años"
+     "es": "15 años",
+     "uk": "15"
     },
     {
      "en": "14",
-     "es": "14 años"
+     "es": "14 años",
+     "uk": "14"
     },
     {
      "en": "16",
-     "es": "16 años"
+     "es": "16 años",
+     "uk": "16"
     }
    ],
    "why": {
     "en": "Mopeds and light quadricycles.",
-    "es": "Ciclomotores y cuadriciclos ligeros."
+    "es": "Ciclomotores y cuadriciclos ligeros.",
+    "uk": "Мопеди й легкі квадрицикли."
    }
   },
   {
@@ -302,25 +359,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "An A1 lets you ride motorcycles of at most…",
-    "es": "El A1 permite conducir motos de como máximo…"
+    "es": "El A1 permite conducir motos de como máximo…",
+    "uk": "A1 дозволяє мотоцикли щонайбільше…"
    },
    "o": [
     {
      "en": "125 cc and 11 kW",
-     "es": "125 c.c. y 11 kW"
+     "es": "125 c.c. y 11 kW",
+     "uk": "125 см³ і 11 кВт"
     },
     {
      "en": "250 cc and 25 kW",
-     "es": "250 c.c. y 25 kW"
+     "es": "250 c.c. y 25 kW",
+     "uk": "250 см³ і 25 кВт"
     },
     {
      "en": "35 kW",
-     "es": "35 kW"
+     "es": "35 kW",
+     "uk": "35 кВт"
     }
    ],
    "why": {
     "en": "And 0.1 kW/kg.",
-    "es": "Y 0,1 kW/kg."
+    "es": "Y 0,1 kW/kg.",
+    "uk": "І 0,1 кВт/кг."
    }
   },
   {
@@ -328,25 +390,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "An A1 also lets you drive motor tricycles of up to…",
-    "es": "El A1 permite también triciclos de motor de hasta…"
+    "es": "El A1 permite también triciclos de motor de hasta…",
+    "uk": "A1 також дозволяє моторизовані трицикли до…"
    },
    "o": [
     {
      "en": "15 kW",
-     "es": "15 kW"
+     "es": "15 kW",
+     "uk": "15 кВт"
     },
     {
      "en": "11 kW",
-     "es": "11 kW"
+     "es": "11 kW",
+     "uk": "11 кВт"
     },
     {
      "en": "any power",
-     "es": "cualquier potencia"
+     "es": "cualquier potencia",
+     "uk": "будь-якої потужності"
     }
    ],
    "why": {
     "en": "Over 15 kW you need A or B and age 21.",
-    "es": "Por encima, A o B y 21 años."
+    "es": "Por encima, A o B y 21 años.",
+    "uk": "Понад 15 кВт потрібні A чи B і вік 21 рік."
    }
   },
   {
@@ -354,25 +421,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "An A2 allows motorcycles up to…",
-    "es": "El A2 permite motocicletas de hasta…"
+    "es": "El A2 permite motocicletas de hasta…",
+    "uk": "A2 дозволяє мотоцикли до…"
    },
    "o": [
     {
      "en": "35 kW and 0.2 kW/kg, not derived from over double the power",
-     "es": "35 kW y 0,2 kW/kg, no derivadas de más del doble de potencia"
+     "es": "35 kW y 0,2 kW/kg, no derivadas de más del doble de potencia",
+     "uk": "35 кВт і 0,2 кВт/кг, не отримані з моделі понад удвічі потужнішої"
     },
     {
      "en": "125 cc",
-     "es": "125 c.c."
+     "es": "125 c.c.",
+     "uk": "125 см³"
     },
     {
      "en": "any power",
-     "es": "cualquier potencia"
+     "es": "cualquier potencia",
+     "uk": "будь-якої потужності"
     }
    ],
    "why": {
     "en": "From age 18.",
-    "es": "Desde los 18 años."
+    "es": "Desde los 18 años.",
+    "uk": "З 18 років."
    }
   },
   {
@@ -380,25 +452,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "To get the A licence you must…",
-    "es": "Para obtener el permiso A hay que…"
+    "es": "Para obtener el permiso A hay que…",
+    "uk": "Щоб отримати посвідчення A, треба…"
    },
    "o": [
     {
      "en": "have held an A2 for at least 2 years and pass a training course",
-     "es": "tener el A2 con al menos 2 años y superar una formación"
+     "es": "tener el A2 con al menos 2 años y superar una formación",
+     "uk": "мати A2 щонайменше 2 роки й пройти навчальний курс"
     },
     {
      "en": "be 18",
-     "es": "tener 18 años"
+     "es": "tener 18 años",
+     "uk": "мати 18 років"
     },
     {
      "en": "have held a B for 3 years",
-     "es": "tener el B con 3 años"
+     "es": "tener el B con 3 años",
+     "uk": "мати B 3 роки"
     }
    ],
    "why": {
     "en": "Minimum age 20.",
-    "es": "Edad mínima 20 años."
+    "es": "Edad mínima 20 años.",
+    "uk": "Мінімальний вік — 20 років."
    }
   },
   {
@@ -406,25 +483,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "To drive a motor tricycle of more than 15 kW you must be at least…",
-    "es": "Para conducir un triciclo de motor de más de 15 kW hay que tener al menos…"
+    "es": "Para conducir un triciclo de motor de más de 15 kW hay que tener al menos…",
+    "uk": "Щоб керувати моторизованим трициклом понад 15 кВт, треба мати щонайменше…"
    },
    "o": [
     {
      "en": "21",
-     "es": "21 años"
+     "es": "21 años",
+     "uk": "21 рік"
     },
     {
      "en": "18",
-     "es": "18 años"
+     "es": "18 años",
+     "uk": "18 років"
     },
     {
      "en": "20",
-     "es": "20 años"
+     "es": "20 años",
+     "uk": "20 років"
     }
    ],
    "why": {
     "en": "With an A or a B.",
-    "es": "Con permiso A o B."
+    "es": "Con permiso A o B.",
+    "uk": "З посвідченням A чи B."
    }
   },
   {
@@ -432,25 +514,30 @@ window.DGT_DATA = {
    "tag": "classes",
    "q": {
     "en": "Which licence lets a 15-year-old drive a light quadricycle?",
-    "es": "¿Qué permiso permite a alguien de 15 años conducir un cuadriciclo ligero?"
+    "es": "¿Qué permiso permite a alguien de 15 años conducir un cuadriciclo ligero?",
+    "uk": "Яке посвідчення дозволяє 15-річному керувати легким квадрициклом?"
    },
    "o": [
     {
      "en": "AM",
-     "es": "AM"
+     "es": "AM",
+     "uk": "AM"
     },
     {
      "en": "A1",
-     "es": "A1"
+     "es": "A1",
+     "uk": "A1"
     },
     {
      "en": "B",
-     "es": "B"
+     "es": "B",
+     "uk": "B"
     }
    ],
    "why": {
     "en": "AM: mopeds and light quadricycles.",
-    "es": "AM: ciclomotores y cuadriciclos ligeros."
+    "es": "AM: ciclomotores y cuadriciclos ligeros.",
+    "uk": "AM: мопеди й легкі квадрицикли."
    }
   },
   {
@@ -458,25 +545,30 @@ window.DGT_DATA = {
    "tag": "permb",
    "q": {
     "en": "A B licence lets you drive a car with at most…",
-    "es": "El permiso B permite conducir un automóvil de como máximo…"
+    "es": "El permiso B permite conducir un automóvil de como máximo…",
+    "uk": "Посвідчення B дозволяє керувати легковиком щонайбільше…"
    },
    "o": [
     {
      "en": "3,500 kg MMA and 8 passengers plus the driver",
-     "es": "3.500 kg de MMA y 8 pasajeros además del conductor"
+     "es": "3.500 kg de MMA y 8 pasajeros además del conductor",
+     "uk": "3 500 кг MMA і 8 пасажирів плюс водій"
     },
     {
      "en": "3,500 kg and 9 passengers plus the driver",
-     "es": "3.500 kg y 9 pasajeros además del conductor"
+     "es": "3.500 kg y 9 pasajeros además del conductor",
+     "uk": "3 500 кг і 9 пасажирів плюс водій"
     },
     {
      "en": "4,250 kg and 8 passengers",
-     "es": "4.250 kg y 8 pasajeros"
+     "es": "4.250 kg y 8 pasajeros",
+     "uk": "4 250 кг і 8 пасажирів"
     }
    ],
    "why": {
     "en": "More than 9 seats needs a D licence.",
-    "es": "Más de 9 plazas exige el D."
+    "es": "Más de 9 plazas exige el D.",
+    "uk": "Понад 9 місць потрібне посвідчення D."
    }
   },
   {
@@ -484,25 +576,30 @@ window.DGT_DATA = {
    "tag": "permb",
    "q": {
     "en": "With a B licence held for more than 3 years you may ride in Spain…",
-    "es": "Con el B de más de 3 años puedes conducir en España…"
+    "es": "Con el B de más de 3 años puedes conducir en España…",
+    "uk": "З посвідченням B понад 3 роки в Іспанії можна їздити…"
    },
    "o": [
     {
      "en": "A1 motorcycles (up to 125 cc)",
-     "es": "motos del A1 (hasta 125 c.c.)"
+     "es": "motos del A1 (hasta 125 c.c.)",
+     "uk": "мотоциклами A1 (до 125 см³)"
     },
     {
      "en": "any motorcycle",
-     "es": "cualquier moto"
+     "es": "cualquier moto",
+     "uk": "будь-яким мотоциклом"
     },
     {
      "en": "no motorcycle",
-     "es": "ninguna moto"
+     "es": "ninguna moto",
+     "uk": "жодним мотоциклом"
     }
    ],
    "why": {
     "en": "Only in Spain.",
-    "es": "Solo en territorio nacional."
+    "es": "Solo en territorio nacional.",
+    "uk": "Лише в Іспанії."
    }
   },
   {
@@ -510,25 +607,30 @@ window.DGT_DATA = {
    "tag": "permb",
    "q": {
     "en": "A B licence lets you tow a light trailer of MMA up to…",
-    "es": "El B permite arrastrar un remolque ligero de MMA hasta…"
+    "es": "El B permite arrastrar un remolque ligero de MMA hasta…",
+    "uk": "Посвідчення B дозволяє буксирувати легкий причіп з MMA до…"
    },
    "o": [
     {
      "en": "750 kg",
-     "es": "750 kg"
+     "es": "750 kg",
+     "uk": "750 кг"
     },
     {
      "en": "1,000 kg",
-     "es": "1.000 kg"
+     "es": "1.000 kg",
+     "uk": "1 000 кг"
     },
     {
      "en": "3,500 kg",
-     "es": "3.500 kg"
+     "es": "3.500 kg",
+     "uk": "3 500 кг"
     }
    ],
    "why": {
     "en": "Heavier ones if the combination is ≤ 4,250 kg.",
-    "es": "Más pesados si el conjunto ≤ 4.250 kg."
+    "es": "Más pesados si el conjunto ≤ 4.250 kg.",
+    "uk": "Важчі — якщо состав ≤ 4 250 кг."
    }
   },
   {
@@ -536,25 +638,30 @@ window.DGT_DATA = {
    "tag": "permb",
    "q": {
     "en": "With B, a car and heavier trailer weigh 4,000 kg together. You need…",
-    "es": "Con el B, un turismo y un remolque no ligero suman 4.000 kg. Necesitas…"
+    "es": "Con el B, un turismo y un remolque no ligero suman 4.000 kg. Necesitas…",
+    "uk": "З B легковик і важчий причіп разом важать 4 000 кг. Вам потрібен…"
    },
    "o": [
     {
      "en": "the B96 authorisation",
-     "es": "la autorización B96"
+     "es": "la autorización B96",
+     "uk": "дозвіл B96"
     },
     {
      "en": "nothing more",
-     "es": "nada más"
+     "es": "nada más",
+     "uk": "більше нічого"
     },
     {
      "en": "a C1 licence",
-     "es": "el permiso C1"
+     "es": "el permiso C1",
+     "uk": "посвідчення C1"
     }
    ],
    "why": {
     "en": "Combination over 3,500 kg and up to 4,250 kg.",
-    "es": "Conjunto de más de 3.500 kg y hasta 4.250 kg."
+    "es": "Conjunto de más de 3.500 kg y hasta 4.250 kg.",
+    "uk": "Состав понад 3 500 кг і до 4 250 кг."
    }
   },
   {
@@ -562,25 +669,30 @@ window.DGT_DATA = {
    "tag": "permb",
    "q": {
     "en": "With B for more than 2 years you may drive in Spain alternative-fuel goods vehicles up to…",
-    "es": "Con el B de más de 2 años puedes conducir en España vehículos de mercancías de combustibles alternativos de hasta…"
+    "es": "Con el B de más de 2 años puedes conducir en España vehículos de mercancías de combustibles alternativos de hasta…",
+    "uk": "З B понад 2 роки в Іспанії можна керувати вантажними ТЗ на альтернативному паливі до…"
    },
    "o": [
     {
      "en": "4,250 kg MMA, without a trailer",
-     "es": "4.250 kg de MMA, sin remolque"
+     "es": "4.250 kg de MMA, sin remolque",
+     "uk": "4 250 кг MMA, без причепа"
     },
     {
      "en": "3,500 kg with a trailer",
-     "es": "3.500 kg con remolque"
+     "es": "3.500 kg con remolque",
+     "uk": "3 500 кг із причепом"
     },
     {
      "en": "7,500 kg",
-     "es": "7.500 kg"
+     "es": "7.500 kg",
+     "uk": "7 500 кг"
     }
    ],
    "why": {
     "en": "The extra mass must come only from the propulsion system.",
-    "es": "El exceso debe proceder solo del sistema de propulsión."
+    "es": "El exceso debe proceder solo del sistema de propulsión.",
+    "uk": "Додаткова маса має бути лише від системи приводу."
    }
   },
   {
@@ -588,25 +700,30 @@ window.DGT_DATA = {
    "tag": "permb",
    "q": {
     "en": "With B you may drive a non-agricultural special vehicle if it does not exceed…",
-    "es": "Con el B puedes conducir un vehículo especial no agrícola si no excede de…"
+    "es": "Con el B puedes conducir un vehículo especial no agrícola si no excede de…",
+    "uk": "З B можна керувати несільськогосподарським спеціальним ТЗ, якщо він не перевищує…"
    },
    "o": [
     {
      "en": "40 km/h and 3,500 kg",
-     "es": "40 km/h y 3.500 kg"
+     "es": "40 km/h y 3.500 kg",
+     "uk": "40 км/год і 3 500 кг"
     },
     {
      "en": "45 km/h and 4,250 kg",
-     "es": "45 km/h y 4.250 kg"
+     "es": "45 km/h y 4.250 kg",
+     "uk": "45 км/год і 4 250 кг"
     },
     {
      "en": "25 km/h",
-     "es": "25 km/h"
+     "es": "25 km/h",
+     "uk": "25 км/год"
     }
    ],
    "why": {
     "en": "At most 9 people including the driver.",
-    "es": "Como máximo 9 personas con el conductor."
+    "es": "Como máximo 9 personas con el conductor.",
+    "uk": "Щонайбільше 9 людей разом із водієм."
    }
   },
   {
@@ -614,25 +731,30 @@ window.DGT_DATA = {
    "tag": "permb",
    "q": {
     "en": "The B+E licence covers a B vehicle with a trailer of MMA up to…",
-    "es": "El B+E permite un vehículo del B con remolque de MMA hasta…"
+    "es": "El B+E permite un vehículo del B con remolque de MMA hasta…",
+    "uk": "Посвідчення B+E охоплює ТЗ категорії B із причепом з MMA до…"
    },
    "o": [
     {
      "en": "3,500 kg",
-     "es": "3.500 kg"
+     "es": "3.500 kg",
+     "uk": "3 500 кг"
     },
     {
      "en": "750 kg",
-     "es": "750 kg"
+     "es": "750 kg",
+     "uk": "750 кг"
     },
     {
      "en": "unlimited",
-     "es": "sin límite"
+     "es": "sin límite",
+     "uk": "без обмежень"
     }
    ],
    "why": {
     "en": "Minimum age 18.",
-    "es": "Edad mínima 18 años."
+    "es": "Edad mínima 18 años.",
+    "uk": "Мінімальний вік — 18 років."
    }
   },
   {
@@ -640,25 +762,30 @@ window.DGT_DATA = {
    "tag": "permb",
    "q": {
     "en": "The D1 or D licence is for automobiles with…",
-    "es": "El permiso D1 o D es para automóviles de…"
+    "es": "El permiso D1 o D es para automóviles de…",
+    "uk": "Посвідчення D1 чи D — для automóviles з…"
    },
    "o": [
     {
      "en": "more than nine seats, driver included",
-     "es": "más de nueve plazas, incluido el conductor"
+     "es": "más de nueve plazas, incluido el conductor",
+     "uk": "понад дев’ятьма місцями разом із водійським"
     },
     {
      "en": "more than 3,500 kg",
-     "es": "más de 3.500 kg"
+     "es": "más de 3.500 kg",
+     "uk": "понад 3 500 кг"
     },
     {
      "en": "trailers over 750 kg",
-     "es": "remolques de más de 750 kg"
+     "es": "remolques de más de 750 kg",
+     "uk": "причепами понад 750 кг"
     }
    ],
    "why": {
     "en": "C1/C: over 3,500 kg.",
-    "es": "C1/C: más de 3.500 kg."
+    "es": "C1/C: más de 3.500 kg.",
+    "uk": "C1/C: понад 3 500 кг."
    }
   },
   {
@@ -666,25 +793,30 @@ window.DGT_DATA = {
    "tag": "permb",
    "q": {
     "en": "Does a B licence let you drive mopeds?",
-    "es": "¿El permiso B permite conducir ciclomotores?"
+    "es": "¿El permiso B permite conducir ciclomotores?",
+    "uk": "Чи дозволяє посвідчення B керувати мопедами?"
    },
    "o": [
     {
      "en": "Yes",
-     "es": "Sí"
+     "es": "Sí",
+     "uk": "Так"
     },
     {
      "en": "No",
-     "es": "No"
+     "es": "No",
+     "uk": "Ні"
     },
     {
      "en": "Only three-wheeled ones",
-     "es": "Solo de tres ruedas"
+     "es": "Solo de tres ruedas",
+     "uk": "Лише триколісними"
     }
    ],
    "why": {
     "en": "And reduced-mobility vehicles.",
-    "es": "Y vehículos de movilidad reducida."
+    "es": "Y vehículos de movilidad reducida.",
+    "uk": "І ТЗ для осіб з обмеженою рухливістю."
    }
   },
   {
@@ -692,25 +824,30 @@ window.DGT_DATA = {
    "tag": "validity",
    "q": {
     "en": "Until what age is a B licence renewed every 10 years?",
-    "es": "¿Hasta qué edad se renueva el B cada 10 años?"
+    "es": "¿Hasta qué edad se renueva el B cada 10 años?",
+    "uk": "До якого віку посвідчення B оновлюють кожні 10 років?"
    },
    "o": [
     {
      "en": "65",
-     "es": "65 años"
+     "es": "65 años",
+     "uk": "65"
     },
     {
      "en": "60",
-     "es": "60 años"
+     "es": "60 años",
+     "uk": "60"
     },
     {
      "en": "70",
-     "es": "70 años"
+     "es": "70 años",
+     "uk": "70"
     }
    ],
    "why": {
     "en": "From 65, every 5 years.",
-    "es": "Desde los 65, cada 5 años."
+    "es": "Desde los 65, cada 5 años.",
+    "uk": "З 65 — кожні 5 років."
    }
   },
   {
@@ -718,25 +855,30 @@ window.DGT_DATA = {
    "tag": "validity",
    "q": {
     "en": "Your licence expired last week. May you drive?",
-    "es": "Tu permiso caducó la semana pasada. ¿Puedes conducir?"
+    "es": "Tu permiso caducó la semana pasada. ¿Puedes conducir?",
+    "uk": "Ваше посвідчення скінчилося минулого тижня. Чи можна керувати?"
    },
    "o": [
     {
      "en": "No; if you do, it is withdrawn on the spot",
-     "es": "No; si lo usas, se interviene inmediatamente"
+     "es": "No; si lo usas, se interviene inmediatamente",
+     "uk": "Ні; якщо керуєте, його вилучають на місці"
     },
     {
      "en": "Yes, for 3 months",
-     "es": "Sí, durante 3 meses"
+     "es": "Sí, durante 3 meses",
+     "uk": "Так, 3 місяці"
     },
     {
      "en": "Yes, in town",
-     "es": "Sí, en poblado"
+     "es": "Sí, en poblado",
+     "uk": "Так, у місті"
     }
    ],
    "why": {
     "en": "An expired licence does not authorise driving.",
-    "es": "Caducado no autoriza a conducir."
+    "es": "Caducado no autoriza a conducir.",
+    "uk": "Прострочене посвідчення не дає права керувати."
    }
   },
   {
@@ -744,25 +886,30 @@ window.DGT_DATA = {
    "tag": "validity",
    "q": {
     "en": "You change address. You must tell the Traffic Office about your licence within…",
-    "es": "Cambias de domicilio. Debes comunicarlo a la Jefatura para tu permiso en…"
+    "es": "Cambias de domicilio. Debes comunicarlo a la Jefatura para tu permiso en…",
+    "uk": "Ви змінили адресу. Повідомити Управління дорожнього руху щодо посвідчення треба протягом…"
    },
    "o": [
     {
      "en": "15 days",
-     "es": "15 días"
+     "es": "15 días",
+     "uk": "15 днів"
     },
     {
      "en": "30 days",
-     "es": "30 días"
+     "es": "30 días",
+     "uk": "30 днів"
     },
     {
      "en": "10 days",
-     "es": "10 días"
+     "es": "10 días",
+     "uk": "10 днів"
     }
    ],
    "why": {
     "en": "They issue a duplicate.",
-    "es": "Expiden un duplicado."
+    "es": "Expiden un duplicado.",
+    "uk": "Вони видають дублікат."
    }
   },
   {
@@ -770,25 +917,30 @@ window.DGT_DATA = {
    "tag": "validity",
    "q": {
     "en": "The novice plate V-13 must be placed…",
-    "es": "La señal V-13 de conductor novel se coloca…"
+    "es": "La señal V-13 de conductor novel se coloca…",
+    "uk": "Табличку початківця V-13 розміщують…"
    },
    "o": [
     {
      "en": "somewhere visible at the rear left",
-     "es": "en un lugar visible de la parte posterior izquierda"
+     "es": "en un lugar visible de la parte posterior izquierda",
+     "uk": "на видному місці ззаду ліворуч"
     },
     {
      "en": "at the rear right",
-     "es": "detrás a la derecha"
+     "es": "detrás a la derecha",
+     "uk": "ззаду праворуч"
     },
     {
      "en": "on the windscreen",
-     "es": "en el parabrisas"
+     "es": "en el parabrisas",
+     "uk": "на лобовому склі"
     }
    ],
    "why": {
     "en": "Motorcycles: visible at the rear.",
-    "es": "En motos, en un sitio visible detrás."
+    "es": "En motos, en un sitio visible detrás.",
+    "uk": "Мотоцикли: на видному місці ззаду."
    }
   },
   {
@@ -796,25 +948,30 @@ window.DGT_DATA = {
    "tag": "validity",
    "q": {
     "en": "For how long must a new driver display the “L”?",
-    "es": "¿Durante cuánto tiempo debe llevar la «L» un conductor novel?"
+    "es": "¿Durante cuánto tiempo debe llevar la «L» un conductor novel?",
+    "uk": "Скільки новий водій мусить показувати «L»?"
    },
    "o": [
     {
      "en": "The first year",
-     "es": "El primer año"
+     "es": "El primer año",
+     "uk": "Перший рік"
     },
     {
      "en": "Two years",
-     "es": "Dos años"
+     "es": "Dos años",
+     "uk": "Два роки"
     },
     {
      "en": "Six months",
-     "es": "Seis meses"
+     "es": "Seis meses",
+     "uk": "Шість місяців"
     }
    ],
    "why": {
     "en": "Extended by any suspension.",
-    "es": "Se amplía si se suspende el permiso."
+    "es": "Se amplía si se suspende el permiso.",
+    "uk": "Подовжується на будь-яке призупинення."
    }
   },
   {
@@ -822,25 +979,30 @@ window.DGT_DATA = {
    "tag": "validity",
    "q": {
     "en": "A novice’s licence is suspended for 2 months. The “L” period…",
-    "es": "A un novel le suspenden el permiso 2 meses. El periodo de la «L»…"
+    "es": "A un novel le suspenden el permiso 2 meses. El periodo de la «L»…",
+    "uk": "Посвідчення початківця призупинено на 2 місяці. Період «L»…"
    },
    "o": [
     {
      "en": "is extended by 2 months",
-     "es": "se amplía 2 meses"
+     "es": "se amplía 2 meses",
+     "uk": "подовжується на 2 місяці"
     },
     {
      "en": "stays the same",
-     "es": "no cambia"
+     "es": "no cambia",
+     "uk": "лишається тим самим"
     },
     {
      "en": "starts again",
-     "es": "vuelve a empezar"
+     "es": "vuelve a empezar",
+     "uk": "починається заново"
     }
    ],
    "why": {
     "en": "The same period is added.",
-    "es": "Se añade el mismo periodo."
+    "es": "Se añade el mismo periodo.",
+    "uk": "Додається той самий період."
    }
   },
   {
@@ -848,25 +1010,30 @@ window.DGT_DATA = {
    "tag": "validity",
    "q": {
     "en": "The V-13 is…",
-    "es": "La V-13 es…"
+    "es": "La V-13 es…",
+    "uk": "V-13 —"
    },
    "o": [
     {
      "en": "retroreflective, green with a white “L”",
-     "es": "reflectante, verde con la «L» blanca"
+     "es": "reflectante, verde con la «L» blanca",
+     "uk": "світловідбивна, зелена з білою «L»"
     },
     {
      "en": "white with a red “L”",
-     "es": "blanca con «L» roja"
+     "es": "blanca con «L» roja",
+     "uk": "біла з червоною «L»"
     },
     {
      "en": "blue with a white “L”",
-     "es": "azul con «L» blanca"
+     "es": "azul con «L» blanca",
+     "uk": "синя з білою «L»"
     }
    ],
    "why": {
     "en": "V-14 is the learner plate.",
-    "es": "La V-14 es la de aprendizaje."
+    "es": "La V-14 es la de aprendizaje.",
+    "uk": "V-14 — табличка учня."
    }
   },
   {
@@ -874,25 +1041,30 @@ window.DGT_DATA = {
    "tag": "validity",
    "q": {
     "en": "You lose your licence. You must…",
-    "es": "Pierdes tu permiso. Debes…"
+    "es": "Pierdes tu permiso. Debes…",
+    "uk": "Ви загубили посвідчення. Ви мусите…"
    },
    "o": [
     {
      "en": "notify the Traffic Office to get a duplicate",
-     "es": "notificarlo a la Jefatura para obtener un duplicado"
+     "es": "notificarlo a la Jefatura para obtener un duplicado",
+     "uk": "повідомити Управління дорожнього руху, щоб отримати дублікат"
     },
     {
      "en": "wait until it expires",
-     "es": "esperar a que caduque"
+     "es": "esperar a que caduque",
+     "uk": "чекати, доки воно скінчиться"
     },
     {
      "en": "take the tests again",
-     "es": "repetir las pruebas"
+     "es": "repetir las pruebas",
+     "uk": "знову складати іспити"
     }
    ],
    "why": {
     "en": "Return the original if it turns up.",
-    "es": "Devolver el original si aparece."
+    "es": "Devolver el original si aparece.",
+    "uk": "Поверніть оригінал, якщо він знайдеться."
    }
   },
   {
@@ -900,25 +1072,30 @@ window.DGT_DATA = {
    "tag": "validity",
    "q": {
     "en": "A licence loses its validity when the holder…",
-    "es": "Un permiso pierde su vigencia cuando el titular…"
+    "es": "Un permiso pierde su vigencia cuando el titular…",
+    "uk": "Посвідчення втрачає чинність, коли власник…"
    },
    "o": [
     {
      "en": "loses all the points or the requirements",
-     "es": "pierde todos los puntos o los requisitos"
+     "es": "pierde todos los puntos o los requisitos",
+     "uk": "втрачає всі бали чи вимоги"
     },
     {
      "en": "changes address",
-     "es": "cambia de domicilio"
+     "es": "cambia de domicilio",
+     "uk": "змінює адресу"
     },
     {
      "en": "turns 65",
-     "es": "cumple 65 años"
+     "es": "cumple 65 años",
+     "uk": "досягає 65 років"
     }
    ],
    "why": {
     "en": "The office notifies it within six months at most.",
-    "es": "La Jefatura lo notifica en un máximo de seis meses."
+    "es": "La Jefatura lo notifica en un máximo de seis meses.",
+    "uk": "Управління повідомляє про це щонайпізніше за шість місяців."
    }
   },
   {
@@ -926,25 +1103,30 @@ window.DGT_DATA = {
    "tag": "validity",
    "q": {
     "en": "Driving during a precautionary suspension counts as…",
-    "es": "Conducir durante una suspensión cautelar equivale a…"
+    "es": "Conducir durante una suspensión cautelar equivale a…",
+    "uk": "Керування під час запобіжного призупинення вважається…"
    },
    "o": [
     {
      "en": "driving with the licence suspended by sanction",
-     "es": "conducir con la autorización suspendida por sanción"
+     "es": "conducir con la autorización suspendida por sanción",
+     "uk": "керуванням із посвідченням, призупиненим як покарання"
     },
     {
      "en": "a minor offence",
-     "es": "una infracción leve"
+     "es": "una infracción leve",
+     "uk": "незначним порушенням"
     },
     {
      "en": "driving without the L plate",
-     "es": "conducir sin la «L»"
+     "es": "conducir sin la «L»",
+     "uk": "керуванням без таблички L"
     }
    ],
    "why": {
     "en": "The suspension comes with immediate withdrawal.",
-    "es": "Va con la intervención inmediata del permiso."
+    "es": "Va con la intervención inmediata del permiso.",
+    "uk": "Призупинення супроводжується негайним вилученням."
    }
   },
   {
@@ -952,25 +1134,30 @@ window.DGT_DATA = {
    "tag": "vehdocs",
    "q": {
     "en": "Which documents must be in the vehicle?",
-    "es": "¿Qué documentos deben llevarse en el vehículo?"
+    "es": "¿Qué documentos deben llevarse en el vehículo?",
+    "uk": "Які документи мають бути в ТЗ?"
    },
    "o": [
     {
      "en": "Registration certificate and ITV card (originals or certified copies)",
-     "es": "Permiso de circulación y tarjeta ITV (originales o fotocopias cotejadas)"
+     "es": "Permiso de circulación y tarjeta ITV (originales o fotocopias cotejadas)",
+     "uk": "Свідоцтво про реєстрацію й картка техогляду (оригінали чи засвідчені копії)"
     },
     {
      "en": "Only the insurance receipt",
-     "es": "Solo el recibo del seguro"
+     "es": "Solo el recibo del seguro",
+     "uk": "Лише квитанція страховки"
     },
     {
      "en": "The purchase invoice",
-     "es": "La factura de compra"
+     "es": "La factura de compra",
+     "uk": "Рахунок за купівлю"
     }
    ],
    "why": {
     "en": "Plus the last ITV report if it has passed one.",
-    "es": "Y el último informe ITV si ya la pasó."
+    "es": "Y el último informe ITV si ya la pasó.",
+    "uk": "Плюс останній висновок техогляду, якщо ТЗ його проходив."
    }
   },
   {
@@ -978,25 +1165,30 @@ window.DGT_DATA = {
    "tag": "vehdocs",
    "q": {
     "en": "A registration certificate is compulsory for…",
-    "es": "El permiso de circulación es obligatorio para…"
+    "es": "El permiso de circulación es obligatorio para…",
+    "uk": "Свідоцтво про реєстрацію обов’язкове для…"
    },
    "o": [
     {
      "en": "all motor vehicles and trailers over 750 kg",
-     "es": "todos los vehículos de motor y remolques de más de 750 kg"
+     "es": "todos los vehículos de motor y remolques de más de 750 kg",
+     "uk": "усіх механічних ТЗ і причепів понад 750 кг"
     },
     {
      "en": "all trailers",
-     "es": "todos los remolques"
+     "es": "todos los remolques",
+     "uk": "усіх причепів"
     },
     {
      "en": "only cars",
-     "es": "solo turismos"
+     "es": "solo turismos",
+     "uk": "лише легковиків"
     }
    ],
    "why": {
     "en": "Light trailers are not registered.",
-    "es": "Los ligeros no se matriculan."
+    "es": "Los ligeros no se matriculan.",
+    "uk": "Легкі причепи не реєструють."
    }
   },
   {
@@ -1004,25 +1196,30 @@ window.DGT_DATA = {
    "tag": "vehdocs",
    "q": {
     "en": "You sell your car. You (the seller) must notify the Traffic Office within…",
-    "es": "Vendes tu coche. Tú (vendedor) debes notificarlo a la Jefatura en…"
+    "es": "Vendes tu coche. Tú (vendedor) debes notificarlo a la Jefatura en…",
+    "uk": "Ви продаєте автомобіль. Ви (продавець) мусите повідомити Управління дорожнього руху протягом…"
    },
    "o": [
     {
      "en": "10 days",
-     "es": "10 días"
+     "es": "10 días",
+     "uk": "10 днів"
     },
     {
      "en": "30 days",
-     "es": "30 días"
+     "es": "30 días",
+     "uk": "30 днів"
     },
     {
      "en": "15 days",
-     "es": "15 días"
+     "es": "15 días",
+     "uk": "15 днів"
     }
    ],
    "why": {
     "en": "The buyer has 30 days to apply for the new certificate.",
-    "es": "El comprador tiene 30 días para la renovación."
+    "es": "El comprador tiene 30 días para la renovación.",
+    "uk": "Покупець має 30 днів, щоб подати заяву на нове свідоцтво."
    }
   },
   {
@@ -1030,25 +1227,30 @@ window.DGT_DATA = {
    "tag": "vehdocs",
    "q": {
     "en": "The buyer does not apply for the registration change within 30 days. Then…",
-    "es": "El comprador no solicita el cambio en 30 días. Entonces…"
+    "es": "El comprador no solicita el cambio en 30 días. Entonces…",
+    "uk": "Покупець не подає заяви на переоформлення протягом 30 днів. Тоді…"
    },
    "o": [
     {
      "en": "the vehicle may not be driven and is immobilised",
-     "es": "el vehículo no puede circular y se inmoviliza"
+     "es": "el vehículo no puede circular y se inmoviliza",
+     "uk": "ТЗ не можна керувати, і його знерухомлюють"
     },
     {
      "en": "nothing happens",
-     "es": "no pasa nada"
+     "es": "no pasa nada",
+     "uk": "нічого не стається"
     },
     {
      "en": "the seller keeps the car",
-     "es": "el vendedor recupera el coche"
+     "es": "el vendedor recupera el coche",
+     "uk": "автомобіль лишається продавцеві"
     }
    ],
    "why": {
     "en": "Within 30 days of buying.",
-    "es": "En 30 días desde la adquisición."
+    "es": "En 30 días desde la adquisición.",
+    "uk": "Протягом 30 днів після купівлі."
    }
   },
   {
@@ -1056,25 +1258,30 @@ window.DGT_DATA = {
    "tag": "vehdocs",
    "q": {
     "en": "How many plates does a motorcycle carry?",
-    "es": "¿Cuántas placas lleva una motocicleta?"
+    "es": "¿Cuántas placas lleva una motocicleta?",
+    "uk": "Скільки номерних знаків має мотоцикл?"
    },
    "o": [
     {
      "en": "One, at the rear",
-     "es": "Una, detrás"
+     "es": "Una, detrás",
+     "uk": "Один, ззаду"
     },
     {
      "en": "Two, front and rear",
-     "es": "Dos, delante y detrás"
+     "es": "Dos, delante y detrás",
+     "uk": "Два, спереду й ззаду"
     },
     {
      "en": "None",
-     "es": "Ninguna"
+     "es": "Ninguna",
+     "uk": "Жодного"
     }
    ],
    "why": {
     "en": "Same for mopeds and self-propelled special vehicles.",
-    "es": "Igual ciclomotores y especiales autopropulsados."
+    "es": "Igual ciclomotores y especiales autopropulsados.",
+    "uk": "Так само мопеди й самохідні спеціальні ТЗ."
    }
   },
   {
@@ -1082,25 +1289,30 @@ window.DGT_DATA = {
    "tag": "vehdocs",
    "q": {
     "en": "A trailer of 600 kg MMA carries…",
-    "es": "Un remolque de 600 kg de MMA lleva…"
+    "es": "Un remolque de 600 kg de MMA lleva…",
+    "uk": "Причіп з MMA 600 кг має…"
    },
    "o": [
     {
      "en": "one plate, the same as the towing vehicle’s, in the centre or on the left",
-     "es": "una placa igual que la del tractor, en el centro o a la izquierda"
+     "es": "una placa igual que la del tractor, en el centro o a la izquierda",
+     "uk": "один номерний знак, такий самий, як у тягача, посередині чи ліворуч"
     },
     {
      "en": "its own red plate",
-     "es": "su propia placa roja"
+     "es": "su propia placa roja",
+     "uk": "власний червоний номерний знак"
     },
     {
      "en": "no plate",
-     "es": "ninguna placa"
+     "es": "ninguna placa",
+     "uk": "жодного номерного знака"
     }
    ],
    "why": {
     "en": "Light trailers are not registered.",
-    "es": "Los ligeros no se matriculan."
+    "es": "Los ligeros no se matriculan.",
+    "uk": "Легкі причепи не реєструють."
    }
   },
   {
@@ -1108,25 +1320,30 @@ window.DGT_DATA = {
    "tag": "vehdocs",
    "q": {
     "en": "A trailer of 1,500 kg MMA carries…",
-    "es": "Un remolque de 1.500 kg de MMA lleva…"
+    "es": "Un remolque de 1.500 kg de MMA lleva…",
+    "uk": "Причіп з MMA 1 500 кг має…"
    },
    "o": [
     {
      "en": "the towing vehicle’s plate on the right and its own red plate",
-     "es": "la placa del tractor a la derecha y su propia placa roja"
+     "es": "la placa del tractor a la derecha y su propia placa roja",
+     "uk": "номерний знак тягача праворуч і власний червоний"
     },
     {
      "en": "only the towing vehicle’s plate",
-     "es": "solo la placa del tractor"
+     "es": "solo la placa del tractor",
+     "uk": "лише номерний знак тягача"
     },
     {
      "en": "only a red plate",
-     "es": "solo una placa roja"
+     "es": "solo una placa roja",
+     "uk": "лише червоний номерний знак"
     }
    ],
    "why": {
     "en": "Over 750 kg: two plates.",
-    "es": "Más de 750 kg: dos placas."
+    "es": "Más de 750 kg: dos placas.",
+    "uk": "Понад 750 кг: два номерні знаки."
    }
   },
   {
@@ -1134,25 +1351,30 @@ window.DGT_DATA = {
    "tag": "vehdocs",
    "q": {
     "en": "Who must make sure the plates can be read?",
-    "es": "¿Quién debe verificar que las placas se pueden leer?"
+    "es": "¿Quién debe verificar que las placas se pueden leer?",
+    "uk": "Хто мусить стежити, щоб номерні знаки можна було прочитати?"
    },
    "o": [
     {
      "en": "The driver",
-     "es": "El conductor"
+     "es": "El conductor",
+     "uk": "Водій"
     },
     {
      "en": "The owner only",
-     "es": "Solo el titular"
+     "es": "Solo el titular",
+     "uk": "Лише власник"
     },
     {
      "en": "The ITV station",
-     "es": "La estación ITV"
+     "es": "La estación ITV",
+     "uk": "Станція техогляду"
     }
    ],
    "why": {
     "en": "Nothing may hide or hinder them.",
-    "es": "Nada debe impedir o dificultar su lectura."
+    "es": "Nada debe impedir o dificultar su lectura.",
+    "uk": "Ніщо не може їх закривати чи заважати."
    }
   },
   {
@@ -1160,25 +1382,30 @@ window.DGT_DATA = {
    "tag": "vehdocs",
    "q": {
     "en": "The owner changes address without selling the car. They notify it within…",
-    "es": "El titular cambia de domicilio sin vender el coche. Lo comunica en…"
+    "es": "El titular cambia de domicilio sin vender el coche. Lo comunica en…",
+    "uk": "Власник змінює адресу, не продаючи автомобіль. Він повідомляє про це протягом…"
    },
    "o": [
     {
      "en": "15 days",
-     "es": "15 días"
+     "es": "15 días",
+     "uk": "15 днів"
     },
     {
      "en": "10 days",
-     "es": "10 días"
+     "es": "10 días",
+     "uk": "10 днів"
     },
     {
      "en": "3 months",
-     "es": "3 meses"
+     "es": "3 meses",
+     "uk": "3 місяців"
     }
    ],
    "why": {
     "en": "Name, surname or address.",
-    "es": "Nombre, apellidos o domicilio."
+    "es": "Nombre, apellidos o domicilio.",
+    "uk": "Ім’я, прізвище чи адреса."
    }
   },
   {
@@ -1186,25 +1413,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "How many days early can you pass the ITV without losing validity?",
-    "es": "¿Con cuántos días de antelación se puede pasar la ITV sin perder vigencia?"
+    "es": "¿Con cuántos días de antelación se puede pasar la ITV sin perder vigencia?",
+    "uk": "За скільки днів до строку можна пройти техогляд, не втрачаючи чинності?"
    },
    "o": [
     {
      "en": "Up to 30 calendar days",
-     "es": "Hasta 30 días naturales"
+     "es": "Hasta 30 días naturales",
+     "uk": "До 30 календарних днів"
     },
     {
      "en": "Up to 15 days",
-     "es": "Hasta 15 días"
+     "es": "Hasta 15 días",
+     "uk": "До 15 днів"
     },
     {
      "en": "Up to 3 months",
-     "es": "Hasta 3 meses"
+     "es": "Hasta 3 meses",
+     "uk": "До 3 місяців"
     }
    ],
    "why": {
     "en": "The new period starts when the old one ends.",
-    "es": "La nueva vigencia empieza al terminar la anterior."
+    "es": "La nueva vigencia empieza al terminar la anterior.",
+    "uk": "Новий період починається, коли закінчується старий."
    }
   },
   {
@@ -1212,25 +1444,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "A private car is first inspected when it is…",
-    "es": "Un turismo particular pasa su primera ITV a los…"
+    "es": "Un turismo particular pasa su primera ITV a los…",
+    "uk": "Приватний легковик уперше проходить техогляд, коли йому…"
    },
    "o": [
     {
      "en": "4 years old",
-     "es": "4 años"
+     "es": "4 años",
+     "uk": "4 роки"
     },
     {
      "en": "2 years old",
-     "es": "2 años"
+     "es": "2 años",
+     "uk": "2 роки"
     },
     {
      "en": "3 years old",
-     "es": "3 años"
+     "es": "3 años",
+     "uk": "3 роки"
     }
    ],
    "why": {
     "en": "Then every 2 years until 10, and yearly after.",
-    "es": "Después cada 2 años hasta los 10, y anual."
+    "es": "Después cada 2 años hasta los 10, y anual.",
+    "uk": "Потім кожні 2 роки до 10, а далі щороку."
    }
   },
   {
@@ -1238,25 +1475,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "A private car more than 10 years old passes the ITV…",
-    "es": "Un turismo de más de 10 años pasa la ITV…"
+    "es": "Un turismo de más de 10 años pasa la ITV…",
+    "uk": "Приватний легковик, старший 10 років, проходить техогляд…"
    },
    "o": [
     {
      "en": "every year",
-     "es": "cada año"
+     "es": "cada año",
+     "uk": "щороку"
     },
     {
      "en": "every 2 years",
-     "es": "cada 2 años"
+     "es": "cada 2 años",
+     "uk": "кожні 2 роки"
     },
     {
      "en": "every 6 months",
-     "es": "cada 6 meses"
+     "es": "cada 6 meses",
+     "uk": "кожні 6 місяців"
     }
    ],
    "why": {
     "en": "Every 6 months is for vans over 10 years.",
-    "es": "Cada 6 meses: furgonetas de más de 10 años."
+    "es": "Cada 6 meses: furgonetas de más de 10 años.",
+    "uk": "Кожні 6 місяців — фургони понад 10 років."
    }
   },
   {
@@ -1264,25 +1506,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "A two-wheel moped is exempt from ITV until it is…",
-    "es": "Un ciclomotor de dos ruedas está exento de ITV hasta los…"
+    "es": "Un ciclomotor de dos ruedas está exento de ITV hasta los…",
+    "uk": "Двоколісний мопед звільнений від техогляду, доки йому не виповниться…"
    },
    "o": [
     {
      "en": "3 years old",
-     "es": "3 años"
+     "es": "3 años",
+     "uk": "3 роки"
     },
     {
      "en": "4 years old",
-     "es": "4 años"
+     "es": "4 años",
+     "uk": "4 роки"
     },
     {
      "en": "5 years old",
-     "es": "5 años"
+     "es": "5 años",
+     "uk": "5 років"
     }
    ],
    "why": {
     "en": "Then every 2 years.",
-    "es": "Después cada 2 años."
+    "es": "Después cada 2 años.",
+    "uk": "Потім кожні 2 роки."
    }
   },
   {
@@ -1290,25 +1537,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "A van (goods ≤ 3.5 t) that is 11 years old passes the ITV…",
-    "es": "Una furgoneta (mercancías ≤ 3,5 t) de 11 años pasa la ITV…"
+    "es": "Una furgoneta (mercancías ≤ 3,5 t) de 11 años pasa la ITV…",
+    "uk": "Фургон (вантажний ≤ 3,5 т) віком 11 років проходить техогляд…"
    },
    "o": [
     {
      "en": "every 6 months",
-     "es": "cada 6 meses"
+     "es": "cada 6 meses",
+     "uk": "кожні 6 місяців"
     },
     {
      "en": "every year",
-     "es": "cada año"
+     "es": "cada año",
+     "uk": "щороку"
     },
     {
      "en": "every 2 years",
-     "es": "cada 2 años"
+     "es": "cada 2 años",
+     "uk": "кожні 2 роки"
     }
    ],
    "why": {
     "en": "Exempt 2, biennial to 6, annual to 10.",
-    "es": "Exenta 2, bienal hasta 6, anual hasta 10."
+    "es": "Exenta 2, bienal hasta 6, anual hasta 10.",
+    "uk": "Звільнений 2 роки, раз на два роки до 6, щороку до 10."
    }
   },
   {
@@ -1316,25 +1568,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "The V-19 sticker goes on a car…",
-    "es": "El distintivo V-19 se coloca en un turismo…"
+    "es": "El distintivo V-19 se coloca en un turismo…",
+    "uk": "Наліпку V-19 на легковику клеять…"
    },
    "o": [
     {
      "en": "in the top right corner of the windscreen, inside",
-     "es": "en el ángulo superior derecho del parabrisas, por dentro"
+     "es": "en el ángulo superior derecho del parabrisas, por dentro",
+     "uk": "у верхньому правому куті лобового скла, зсередини"
     },
     {
      "en": "on the rear window",
-     "es": "en la luna trasera"
+     "es": "en la luna trasera",
+     "uk": "на заднє скло"
     },
     {
      "en": "next to the rear plate",
-     "es": "junto a la placa trasera"
+     "es": "junto a la placa trasera",
+     "uk": "біля заднього номерного знака"
     }
    ],
    "why": {
     "en": "On trailers: somewhere visible.",
-    "es": "En remolques: en un lugar visible."
+    "es": "En remolques: en un lugar visible.",
+    "uk": "На причепах — на видному місці."
    }
   },
   {
@@ -1342,25 +1599,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "Result “unfavourable” at the ITV. You…",
-    "es": "Resultado «desfavorable» en la ITV. Tú…"
+    "es": "Resultado «desfavorable» en la ITV. Tú…",
+    "uk": "Результат техогляду «несприятливий». Ви…"
    },
    "o": [
     {
      "en": "may only drive to the workshop and back to the ITV",
-     "es": "solo puedes ir al taller y volver a la ITV"
+     "es": "solo puedes ir al taller y volver a la ITV",
+     "uk": "можете їхати лише до майстерні й назад на техогляд"
     },
     {
      "en": "may drive normally for 2 months",
-     "es": "puedes circular normalmente 2 meses"
+     "es": "puedes circular normalmente 2 meses",
+     "uk": "можете їздити як звичайно 2 місяці"
     },
     {
      "en": "must call a tow truck",
-     "es": "debes llamar a una grúa"
+     "es": "debes llamar a una grúa",
+     "uk": "мусите викликати евакуатор"
     }
    ],
    "why": {
     "en": "Negative: tow truck.",
-    "es": "Negativa: grúa."
+    "es": "Negativa: grúa.",
+    "uk": "Негативний — евакуатор."
    }
   },
   {
@@ -1368,25 +1630,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "Result “negative” at the ITV means…",
-    "es": "Resultado «negativo» en la ITV significa…"
+    "es": "Resultado «negativo» en la ITV significa…",
+    "uk": "Результат техогляду «негативний» означає…"
    },
    "o": [
     {
      "en": "dangerous defects: the vehicle leaves by other means (tow truck)",
-     "es": "defectos peligrosos: el vehículo sale por medios ajenos (grúa)"
+     "es": "defectos peligrosos: el vehículo sale por medios ajenos (grúa)",
+     "uk": "небезпечні дефекти: ТЗ вивозять іншими засобами (евакуатор)"
     },
     {
      "en": "you can go to the workshop",
-     "es": "puedes ir al taller"
+     "es": "puedes ir al taller",
+     "uk": "можна їхати до майстерні"
     },
     {
      "en": "you passed with remarks",
-     "es": "has pasado con observaciones"
+     "es": "has pasado con observaciones",
+     "uk": "ви пройшли із зауваженнями"
     }
    ],
    "why": {
     "en": "It may not be driven.",
-    "es": "No puede circular."
+    "es": "No puede circular.",
+    "uk": "Ним не можна керувати."
    }
   },
   {
@@ -1394,25 +1661,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "After an unfavourable or negative ITV, the owner has to repair the vehicle within…",
-    "es": "Tras una ITV desfavorable o negativa, el titular debe repararlo en…"
+    "es": "Tras una ITV desfavorable o negativa, el titular debe repararlo en…",
+    "uk": "Після несприятливого чи негативного техогляду власник мусить відремонтувати ТЗ протягом…"
    },
    "o": [
     {
      "en": "up to 2 months",
-     "es": "hasta 2 meses"
+     "es": "hasta 2 meses",
+     "uk": "до 2 місяців"
     },
     {
      "en": "6 months",
-     "es": "6 meses"
+     "es": "6 meses",
+     "uk": "6 місяців"
     },
     {
      "en": "1 year",
-     "es": "1 año"
+     "es": "1 año",
+     "uk": "1 року"
     }
    ],
    "why": {
     "en": "The ITV decree gives no more than two months (your course says less than two); otherwise the station proposes deregistering it.",
-    "es": "El decreto de ITV da un plazo no superior a dos meses (tu curso dice inferior); si no, el centro propone su baja."
+    "es": "El decreto de ITV da un plazo no superior a dos meses (tu curso dice inferior); si no, el centro propone su baja.",
+    "uk": "Декрет про техогляд дає не більше двох місяців (ваш курс каже — менше двох); інакше станція пропонує зняти ТЗ з реєстрації."
    }
   },
   {
@@ -1420,25 +1692,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "Stopped with the ITV out of date, the agent gives you a slip (volante) to pass it within…",
-    "es": "Te paran con la ITV caducada y el agente te da un volante para pasarla en…"
+    "es": "Te paran con la ITV caducada y el agente te da un volante para pasarla en…",
+    "uk": "Вас зупинили з простроченим техоглядом, і регулювальник дає тимчасовий документ (volante), щоб пройти його протягом…"
    },
    "o": [
     {
      "en": "10 days",
-     "es": "10 días"
+     "es": "10 días",
+     "uk": "10 днів"
     },
     {
      "en": "30 days",
-     "es": "30 días"
+     "es": "30 días",
+     "uk": "30 днів"
     },
     {
      "en": "2 months",
-     "es": "2 meses"
+     "es": "2 meses",
+     "uk": "2 місяців"
     }
    ],
    "why": {
     "en": "Otherwise the vehicle is sealed off.",
-    "es": "Si no, se acuerda el precinto."
+    "es": "Si no, se acuerda el precinto.",
+    "uk": "Інакше ТЗ опломбовують."
    }
   },
   {
@@ -1446,25 +1723,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "Do light trailers (≤ 750 kg) pass periodic ITV?",
-    "es": "¿Pasan ITV periódica los remolques ligeros (≤ 750 kg)?"
+    "es": "¿Pasan ITV periódica los remolques ligeros (≤ 750 kg)?",
+    "uk": "Чи проходять легкі причепи (≤ 750 кг) періодичний техогляд?"
    },
    "o": [
     {
      "en": "No, but they need an ITV card",
-     "es": "No, pero sí necesitan tarjeta ITV"
+     "es": "No, pero sí necesitan tarjeta ITV",
+     "uk": "Ні, але їм потрібна картка техогляду"
     },
     {
      "en": "Yes, every year",
-     "es": "Sí, cada año"
+     "es": "Sí, cada año",
+     "uk": "Так, щороку"
     },
     {
      "en": "Yes, every 2 years",
-     "es": "Sí, cada 2 años"
+     "es": "Sí, cada 2 años",
+     "uk": "Так, кожні 2 роки"
     }
    ],
    "why": {
     "en": "No periodic inspection.",
-    "es": "Sin inspecciones periódicas."
+    "es": "Sin inspecciones periódicas.",
+    "uk": "Періодичного огляду немає."
    }
   },
   {
@@ -1472,25 +1754,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "After a major modification (e.g. fitting a tow bar) the vehicle must…",
-    "es": "Tras una reforma de importancia (p. ej., un enganche) el vehículo debe…"
+    "es": "Tras una reforma de importancia (p. ej., un enganche) el vehículo debe…",
+    "uk": "Після суттєвої зміни (напр., встановлення фаркопа) ТЗ мусить…"
    },
    "o": [
     {
      "en": "pass an extraordinary inspection before being driven",
-     "es": "pasar una inspección extraordinaria antes de circular"
+     "es": "pasar una inspección extraordinaria antes de circular",
+     "uk": "пройти позачерговий огляд, перш ніж ним керувати"
     },
     {
      "en": "wait for the next periodic ITV",
-     "es": "esperar a la próxima ITV periódica"
+     "es": "esperar a la próxima ITV periódica",
+     "uk": "чекати наступного періодичного техогляду"
     },
     {
      "en": "only inform the insurer",
-     "es": "solo avisar a la aseguradora"
+     "es": "solo avisar a la aseguradora",
+     "uk": "лише повідомити страховика"
     }
    ],
    "why": {
     "en": "Modifications appear on the back of the card.",
-    "es": "Las reformas constan en el reverso."
+    "es": "Las reformas constan en el reverso.",
+    "uk": "Зміни вписують на звороті картки."
    }
   },
   {
@@ -1498,25 +1785,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "The NIVE on an e-ITV has…",
-    "es": "El NIVE de una e-ITV tiene…"
+    "es": "El NIVE de una e-ITV tiene…",
+    "uk": "NIVE в електронній картці техогляду (e-ITV) має…"
    },
    "o": [
     {
      "en": "32 characters",
-     "es": "32 dígitos"
+     "es": "32 dígitos",
+     "uk": "32 символи"
     },
     {
      "en": "17 characters",
-     "es": "17 dígitos"
+     "es": "17 dígitos",
+     "uk": "17 символів"
     },
     {
      "en": "10 characters",
-     "es": "10 dígitos"
+     "es": "10 dígitos",
+     "uk": "10 символів"
     }
    ],
    "why": {
     "en": "The car’s “ID card”.",
-    "es": "El «DNI del coche»."
+    "es": "El «DNI del coche».",
+    "uk": "«Паспорт» автомобіля."
    }
   },
   {
@@ -1524,25 +1816,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "May you choose which ITV station to use?",
-    "es": "¿Puedes elegir la estación ITV?"
+    "es": "¿Puedes elegir la estación ITV?",
+    "uk": "Чи можна обирати станцію техогляду?"
    },
    "o": [
     {
      "en": "Yes, for the first and later inspections",
-     "es": "Sí, para la primera y las siguientes"
+     "es": "Sí, para la primera y las siguientes",
+     "uk": "Так, для першого й наступних оглядів"
     },
     {
      "en": "No, the one assigned",
-     "es": "No, la asignada"
+     "es": "No, la asignada",
+     "uk": "Ні, лише призначену"
     },
     {
      "en": "Only for the first",
-     "es": "Solo para la primera"
+     "es": "Solo para la primera",
+     "uk": "Лише для першого"
     }
    ],
    "why": {
     "en": "Free choice.",
-    "es": "Libertad de elección."
+    "es": "Libertad de elección.",
+    "uk": "Вільний вибір."
    }
   },
   {
@@ -1550,25 +1847,30 @@ window.DGT_DATA = {
    "tag": "itv",
    "q": {
     "en": "A towed caravan of 1,200 kg is exempt from ITV until it is…",
-    "es": "Una caravana remolcada de 1.200 kg está exenta de ITV hasta los…"
+    "es": "Una caravana remolcada de 1.200 kg está exenta de ITV hasta los…",
+    "uk": "Житловий причіп 1 200 кг звільнений від техогляду, доки йому не виповниться…"
    },
    "o": [
     {
      "en": "6 years old",
-     "es": "6 años"
+     "es": "6 años",
+     "uk": "6 років"
     },
     {
      "en": "4 years old",
-     "es": "4 años"
+     "es": "4 años",
+     "uk": "4 роки"
     },
     {
      "en": "10 years old",
-     "es": "10 años"
+     "es": "10 años",
+     "uk": "10 років"
     }
    ],
    "why": {
     "en": "Then every 2 years.",
-    "es": "Después cada 2 años."
+    "es": "Después cada 2 años.",
+    "uk": "Потім кожні 2 роки."
    }
   },
   {
@@ -1576,25 +1878,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "Which of these must have compulsory insurance?",
-    "es": "¿Cuál de estos debe tener seguro obligatorio?"
+    "es": "¿Cuál de estos debe tener seguro obligatorio?",
+    "uk": "Що з цього мусить мати обов’язкове страхування?"
    },
    "o": [
     {
      "en": "A trailer of 1,000 kg MMA",
-     "es": "Un remolque de 1.000 kg de MMA"
+     "es": "Un remolque de 1.000 kg de MMA",
+     "uk": "Причіп з MMA 1 000 кг"
     },
     {
      "en": "A trailer of 600 kg MMA",
-     "es": "Un remolque de 600 kg de MMA"
+     "es": "Un remolque de 600 kg de MMA",
+     "uk": "Причіп з MMA 600 кг"
     },
     {
      "en": "A bicycle",
-     "es": "Una bicicleta"
+     "es": "Una bicicleta",
+     "uk": "Велосипед"
     }
    ],
    "why": {
     "en": "Trailers over 750 kg.",
-    "es": "Remolques de más de 750 kg."
+    "es": "Remolques de más de 750 kg.",
+    "uk": "Причепи понад 750 кг."
    }
   },
   {
@@ -1602,25 +1909,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "You cause an accident. The compulsory insurance does NOT pay for…",
-    "es": "Causas un accidente. El seguro obligatorio NO paga…"
+    "es": "Causas un accidente. El seguro obligatorio NO paga…",
+    "uk": "Ви спричинили ДТП. Обов’язкове страхування НЕ платить за…"
    },
    "o": [
     {
      "en": "your own injuries",
-     "es": "tus propias lesiones"
+     "es": "tus propias lesiones",
+     "uk": "ваші власні травми"
     },
     {
      "en": "the injuries of the other driver",
-     "es": "las lesiones del otro conductor"
+     "es": "las lesiones del otro conductor",
+     "uk": "травми іншого водія"
     },
     {
      "en": "the other car’s damage",
-     "es": "los daños del otro coche"
+     "es": "los daños del otro coche",
+     "uk": "пошкодження іншого автомобіля"
     }
    ],
    "why": {
     "en": "Nor your own vehicle.",
-    "es": "Ni tu propio vehículo."
+    "es": "Ni tu propio vehículo.",
+    "uk": "Як і за ваш власний ТЗ."
    }
   },
   {
@@ -1628,25 +1940,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "Your passenger (your brother) is injured in an accident you caused. The compulsory insurance…",
-    "es": "Tu pasajero (tu hermano) resulta herido en un accidente que causaste. El seguro obligatorio…"
+    "es": "Tu pasajero (tu hermano) resulta herido en un accidente que causaste. El seguro obligatorio…",
+    "uk": "Ваш пасажир (брат) травмований у ДТП, яку спричинили ви. Обов’язкове страхування…"
    },
    "o": [
     {
      "en": "covers his injuries",
-     "es": "cubre sus lesiones"
+     "es": "cubre sus lesiones",
+     "uk": "покриває його травми"
     },
     {
      "en": "covers nothing",
-     "es": "no cubre nada"
+     "es": "no cubre nada",
+     "uk": "нічого не покриває"
     },
     {
      "en": "covers only his phone",
-     "es": "solo cubre su móvil"
+     "es": "solo cubre su móvil",
+     "uk": "покриває лише його телефон"
     }
    ],
    "why": {
     "en": "Relatives’ injuries are covered; their property is not.",
-    "es": "Las lesiones de los parientes sí; sus bienes, no."
+    "es": "Las lesiones de los parientes sí; sus bienes, no.",
+    "uk": "Травми родичів покриваються; їхнє майно — ні."
    }
   },
   {
@@ -1654,25 +1971,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "Damage to the policyholder’s or the driver’s relatives’ property is…",
-    "es": "Los daños a los bienes del tomador o de los parientes del conductor…"
+    "es": "Los daños a los bienes del tomador o de los parientes del conductor…",
+    "uk": "Пошкодження майна родичів страхувальника чи водія…"
    },
    "o": [
     {
      "en": "not covered",
-     "es": "no están cubiertos"
+     "es": "no están cubiertos",
+     "uk": "не покривається"
     },
     {
      "en": "covered",
-     "es": "están cubiertos"
+     "es": "están cubiertos",
+     "uk": "покривається"
     },
     {
      "en": "covered up to 750 €",
-     "es": "están cubiertos hasta 750 €"
+     "es": "están cubiertos hasta 750 €",
+     "uk": "покривається до 750 €"
     }
    ],
    "why": {
     "en": "Up to the third degree.",
-    "es": "Hasta el tercer grado."
+    "es": "Hasta el tercer grado.",
+    "uk": "До третього ступеня спорідненості."
    }
   },
   {
@@ -1680,25 +2002,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "Are a vehicle’s defects or breakages force majeure that frees the insurer?",
-    "es": "¿Los defectos o roturas del vehículo son fuerza mayor que libera a la aseguradora?"
+    "es": "¿Los defectos o roturas del vehículo son fuerza mayor que libera a la aseguradora?",
+    "uk": "Чи є дефекти чи поломки ТЗ непереборною силою, що звільняє страховика?"
    },
    "o": [
     {
      "en": "No",
-     "es": "No"
+     "es": "No",
+     "uk": "Ні"
     },
     {
      "en": "Yes",
-     "es": "Sí"
+     "es": "Sí",
+     "uk": "Так"
     },
     {
      "en": "Only the brakes",
-     "es": "Solo los frenos"
+     "es": "Solo los frenos",
+     "uk": "Лише гальма"
     }
    ],
    "why": {
     "en": "They are not considered force majeure.",
-    "es": "No se consideran fuerza mayor."
+    "es": "No se consideran fuerza mayor.",
+    "uk": "Вони не вважаються непереборною силою."
    }
   },
   {
@@ -1706,25 +2033,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "How do agents usually check that a vehicle is insured?",
-    "es": "¿Cómo comprueban normalmente los agentes que un vehículo está asegurado?"
+    "es": "¿Cómo comprueban normalmente los agentes que un vehículo está asegurado?",
+    "uk": "Як регулювальники зазвичай перевіряють, що ТЗ застрахований?"
    },
    "o": [
     {
      "en": "By checking the FIVA database",
-     "es": "Consultando el Fichero Informativo de Vehículos Asegurados"
+     "es": "Consultando el Fichero Informativo de Vehículos Asegurados",
+     "uk": "Перевіряють базу даних FIVA"
     },
     {
      "en": "By asking the insurer by phone",
-     "es": "Llamando a la aseguradora"
+     "es": "Llamando a la aseguradora",
+     "uk": "Телефонують страховику"
     },
     {
      "en": "By looking at a windscreen sticker",
-     "es": "Mirando una pegatina"
+     "es": "Mirando una pegatina",
+     "uk": "Дивляться на наліпку на лобовому склі"
     }
    ],
    "why": {
     "en": "If not possible, the driver shows the receipt.",
-    "es": "Si no es posible, el conductor presenta el recibo."
+    "es": "Si no es posible, el conductor presenta el recibo.",
+    "uk": "Якщо неможливо — водій показує квитанцію."
    }
   },
   {
@@ -1732,25 +2064,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "Driving an uninsured vehicle leads to…",
-    "es": "Circular con un vehículo sin seguro conlleva…"
+    "es": "Circular con un vehículo sin seguro conlleva…",
+    "uk": "Керування незастрахованим ТЗ призводить до…"
    },
    "o": [
     {
      "en": "a ban on driving it, impounding or sealing, and a fine",
-     "es": "prohibición de circular, depósito o precinto y multa"
+     "es": "prohibición de circular, depósito o precinto y multa",
+     "uk": "заборони ним керувати, арешту чи опломбування та штрафу"
     },
     {
      "en": "only a warning",
-     "es": "solo un aviso"
+     "es": "solo un aviso",
+     "uk": "лише попередження"
     },
     {
      "en": "losing 12 points",
-     "es": "perder 12 puntos"
+     "es": "perder 12 puntos",
+     "uk": "втрати 12 балів"
     }
    ],
    "why": {
     "en": "Not a points offence.",
-    "es": "No es infracción de puntos."
+    "es": "No es infracción de puntos.",
+    "uk": "Це порушення без балів."
    }
   },
   {
@@ -1758,25 +2095,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "Where should you fill in the accident report form?",
-    "es": "¿Dónde se debe rellenar el parte amistoso?"
+    "es": "¿Dónde se debe rellenar el parte amistoso?",
+    "uk": "Де слід заповнювати протокол ДТП?"
    },
    "o": [
     {
      "en": "In a safe place off the road",
-     "es": "En un lugar seguro fuera de la vía"
+     "es": "En un lugar seguro fuera de la vía",
+     "uk": "У безпечному місці поза дорогою"
     },
     {
      "en": "On the carriageway, next to the cars",
-     "es": "En la calzada, junto a los coches"
+     "es": "En la calzada, junto a los coches",
+     "uk": "На проїзній частині, біля автомобілів"
     },
     {
      "en": "On the hard shoulder",
-     "es": "En el arcén"
+     "es": "En el arcén",
+     "uk": "На узбіччі"
     }
    ],
    "why": {
     "en": "It is forbidden on the road platform.",
-    "es": "Prohibido en la plataforma de circulación."
+    "es": "Prohibido en la plataforma de circulación.",
+    "uk": "На дорожньому полотні це заборонено."
    }
   },
   {
@@ -1784,25 +2126,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "The accident report form is sent to…",
-    "es": "La declaración amistosa de accidente se entrega a…"
+    "es": "La declaración amistosa de accidente se entrega a…",
+    "uk": "Протокол ДТП надсилають…"
    },
    "o": [
     {
      "en": "your own insurer",
-     "es": "tu propia aseguradora"
+     "es": "tu propia aseguradora",
+     "uk": "своєму страховику"
     },
     {
      "en": "the other driver’s insurer",
-     "es": "la aseguradora del otro conductor"
+     "es": "la aseguradora del otro conductor",
+     "uk": "страховику іншого водія"
     },
     {
      "en": "the Traffic Office",
-     "es": "la Jefatura de Tráfico"
+     "es": "la Jefatura de Tráfico",
+     "uk": "Управлінню дорожнього руху"
     }
    ],
    "why": {
     "en": "It speeds up payment for material damage.",
-    "es": "Agiliza las indemnizaciones de daños materiales."
+    "es": "Agiliza las indemnizaciones de daños materiales.",
+    "uk": "Це пришвидшує виплату за матеріальні збитки."
    }
   },
   {
@@ -1810,25 +2157,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "Since 2026, which vehicles also need compulsory insurance after being registered with the DGT?",
-    "es": "Desde 2026, ¿qué vehículos necesitan también seguro obligatorio tras inscribirse en la DGT?"
+    "es": "Desde 2026, ¿qué vehículos necesitan también seguro obligatorio tras inscribirse en la DGT?",
+    "uk": "Яким ТЗ з 2026 року також потрібне обов’язкове страхування після реєстрації в DGT?"
    },
    "o": [
     {
      "en": "Personal mobility vehicles (e-scooters)",
-     "es": "Los vehículos de movilidad personal (patinetes)"
+     "es": "Los vehículos de movilidad personal (patinetes)",
+     "uk": "Засобам персональної мобільності (електросамокатам)"
     },
     {
      "en": "Bicycles",
-     "es": "Las bicicletas"
+     "es": "Las bicicletas",
+     "uk": "Велосипедам"
     },
     {
      "en": "Light trailers",
-     "es": "Los remolques ligeros"
+     "es": "Los remolques ligeros",
+     "uk": "Легким причепам"
     }
    ],
    "why": {
     "en": "Ley 5/2025, in force since 2 January 2026.",
-    "es": "Ley 5/2025, vigente desde el 2 de enero de 2026."
+    "es": "Ley 5/2025, vigente desde el 2 de enero de 2026.",
+    "uk": "Ley 5/2025, чинний з 2 січня 2026 року."
    }
   },
   {
@@ -1836,25 +2188,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "A drunk driver causes an accident. The victims…",
-    "es": "Un conductor ebrio causa un accidente. Las víctimas…"
+    "es": "Un conductor ebrio causa un accidente. Las víctimas…",
+    "uk": "П’яний водій спричинив ДТП. Потерпілим…"
    },
    "o": [
     {
      "en": "are paid by the insurer, which can then claim it back from the driver",
-     "es": "cobran de la aseguradora, que después puede repetir contra el conductor"
+     "es": "cobran de la aseguradora, que después puede repetir contra el conductor",
+     "uk": "платить страховик, який потім може стягнути це з водія"
     },
     {
      "en": "get nothing",
-     "es": "no cobran nada"
+     "es": "no cobran nada",
+     "uk": "нічого не платять"
     },
     {
      "en": "must sue the Traffic Office",
-     "es": "deben reclamar a Tráfico"
+     "es": "deben reclamar a Tráfico",
+     "uk": "доводиться позиватися до Управління дорожнього руху"
     }
    ],
    "why": {
     "en": "The driver ends up paying.",
-    "es": "Al final paga el conductor."
+    "es": "Al final paga el conductor.",
+    "uk": "Зрештою платить водій."
    }
   },
   {
@@ -1862,25 +2219,30 @@ window.DGT_DATA = {
    "tag": "insurance",
    "q": {
     "en": "Who should take out the vehicle’s compulsory insurance?",
-    "es": "¿Quién debe concertar el seguro obligatorio?"
+    "es": "¿Quién debe concertar el seguro obligatorio?",
+    "uk": "Хто має укласти обов’язкове страхування ТЗ?"
    },
    "o": [
     {
      "en": "The owner",
-     "es": "El propietario"
+     "es": "El propietario",
+     "uk": "Власник"
     },
     {
      "en": "The usual driver",
-     "es": "El conductor habitual"
+     "es": "El conductor habitual",
+     "uk": "Постійний водій"
     },
     {
      "en": "The seller",
-     "es": "El vendedor"
+     "es": "El vendedor",
+     "uk": "Продавець"
     }
    ],
    "why": {
     "en": "If someone else signs it, they are the policyholder.",
-    "es": "Si lo contrata otro, es el tomador."
+    "es": "Si lo contrata otro, es el tomador.",
+    "uk": "Якщо підписує хтось інший, він — страхувальник."
    }
   },
   {
@@ -1888,25 +2250,30 @@ window.DGT_DATA = {
    "tag": "points",
    "q": {
     "en": "A driver with more than 2 years’ licence and no sanctions starts with…",
-    "es": "Un conductor con más de 2 años de permiso y sin sanciones parte de…"
+    "es": "Un conductor con más de 2 años de permiso y sin sanciones parte de…",
+    "uk": "Водій із посвідченням понад 2 роки й без санкцій починає з…"
    },
    "o": [
     {
      "en": "12 points",
-     "es": "12 puntos"
+     "es": "12 puntos",
+     "uk": "12 балів"
     },
     {
      "en": "8 points",
-     "es": "8 puntos"
+     "es": "8 puntos",
+     "uk": "8 балів"
     },
     {
      "en": "15 points",
-     "es": "15 puntos"
+     "es": "15 puntos",
+     "uk": "15 балів"
     }
    ],
    "why": {
     "en": "Bonus points come later.",
-    "es": "La bonificación llega después."
+    "es": "La bonificación llega después.",
+    "uk": "Бонусні бали — пізніше."
    }
   },
   {
@@ -1914,25 +2281,30 @@ window.DGT_DATA = {
    "tag": "points",
    "q": {
     "en": "A newly qualified driver has…",
-    "es": "Un conductor que acaba de obtener el permiso tiene…"
+    "es": "Un conductor que acaba de obtener el permiso tiene…",
+    "uk": "Новий водій має…"
    },
    "o": [
     {
      "en": "8 points",
-     "es": "8 puntos"
+     "es": "8 puntos",
+     "uk": "8 балів"
     },
     {
      "en": "12 points",
-     "es": "12 puntos"
+     "es": "12 puntos",
+     "uk": "12 балів"
     },
     {
      "en": "6 points",
-     "es": "6 puntos"
+     "es": "6 puntos",
+     "uk": "6 балів"
     }
    ],
    "why": {
     "en": "Unless they held another licence for more than 2 years.",
-    "es": "Salvo que tuviera otro permiso de más de 2 años."
+    "es": "Salvo que tuviera otro permiso de más de 2 años.",
+    "uk": "Якщо він не мав іншого посвідчення понад 2 роки."
    }
   },
   {
@@ -1940,25 +2312,30 @@ window.DGT_DATA = {
    "tag": "points",
    "q": {
     "en": "The maximum number of points is…",
-    "es": "El máximo de puntos es…"
+    "es": "El máximo de puntos es…",
+    "uk": "Максимальна кількість балів —"
    },
    "o": [
     {
      "en": "15",
-     "es": "15"
+     "es": "15",
+     "uk": "15"
     },
     {
      "en": "12",
-     "es": "12"
+     "es": "12",
+     "uk": "12"
     },
     {
      "en": "14",
-     "es": "14"
+     "es": "14",
+     "uk": "14"
     }
    ],
    "why": {
     "en": "+2 after 3 clean years, +1 after 3 more.",
-    "es": "+2 tras 3 años sin sanción, +1 tras otros 3."
+    "es": "+2 tras 3 años sin sanción, +1 tras otros 3.",
+    "uk": "+2 після 3 років без порушень, +1 ще через 3."
    }
   },
   {
@@ -1966,25 +2343,30 @@ window.DGT_DATA = {
    "tag": "points",
    "q": {
     "en": "With 12 points and no firm sanctions for 3 years, you get…",
-    "es": "Con 12 puntos y sin sanciones firmes durante 3 años, obtienes…"
+    "es": "Con 12 puntos y sin sanciones firmes durante 3 años, obtienes…",
+    "uk": "З 12 балами й без остаточних санкцій 3 роки ви отримуєте…"
    },
    "o": [
     {
      "en": "+2 points",
-     "es": "+2 puntos"
+     "es": "+2 puntos",
+     "uk": "+2 бали"
     },
     {
      "en": "+1 point",
-     "es": "+1 punto"
+     "es": "+1 punto",
+     "uk": "+1 бал"
     },
     {
      "en": "+3 points",
-     "es": "+3 puntos"
+     "es": "+3 puntos",
+     "uk": "+3 бали"
     }
    ],
    "why": {
     "en": "Then +1 for the next 3 years.",
-    "es": "Después, +1 por los 3 siguientes."
+    "es": "Después, +1 por los 3 siguientes.",
+    "uk": "Потім +1 за наступні 3 роки."
    }
   },
   {
@@ -1992,25 +2374,30 @@ window.DGT_DATA = {
    "tag": "points",
    "q": {
     "en": "You get your licence back after losing all your points. You start with…",
-    "es": "Recuperas el permiso tras perder todos los puntos. Empiezas con…"
+    "es": "Recuperas el permiso tras perder todos los puntos. Empiezas con…",
+    "uk": "Ви повертаєте посвідчення після втрати всіх балів. Ви починаєте з…"
    },
    "o": [
     {
      "en": "8 points",
-     "es": "8 puntos"
+     "es": "8 puntos",
+     "uk": "8 балів"
     },
     {
      "en": "12 points",
-     "es": "12 puntos"
+     "es": "12 puntos",
+     "uk": "12 балів"
     },
     {
      "en": "4 points",
-     "es": "4 puntos"
+     "es": "4 puntos",
+     "uk": "4 балів"
     }
    ],
    "why": {
     "en": "Same class and seniority.",
-    "es": "Misma clase y antigüedad."
+    "es": "Misma clase y antigüedad.",
+    "uk": "Та сама категорія й стаж."
    }
   },
   {
@@ -2018,25 +2405,30 @@ window.DGT_DATA = {
    "tag": "points",
    "q": {
     "en": "In one day you commit several serious offences worth 10 points. You lose…",
-    "es": "En un día cometes varias infracciones graves que suman 10 puntos. Pierdes…"
+    "es": "En un día cometes varias infracciones graves que suman 10 puntos. Pierdes…",
+    "uk": "За один день ви вчинили кілька серйозних порушень на 10 балів. Ви втрачаєте…"
    },
    "o": [
     {
      "en": "8 points",
-     "es": "8 puntos"
+     "es": "8 puntos",
+     "uk": "8 балів"
     },
     {
      "en": "10 points",
-     "es": "10 puntos"
+     "es": "10 puntos",
+     "uk": "10 балів"
     },
     {
      "en": "12 points",
-     "es": "12 puntos"
+     "es": "12 puntos",
+     "uk": "12 балів"
     }
    ],
    "why": {
     "en": "Unless one of them is very serious.",
-    "es": "Salvo que alguna sea muy grave."
+    "es": "Salvo que alguna sea muy grave.",
+    "uk": "Якщо жодне з них не дуже серйозне."
    }
   },
   {
@@ -2044,25 +2436,30 @@ window.DGT_DATA = {
    "tag": "points",
    "q": {
     "en": "You lost 4 points 2 years ago and have had no sanctions since. Now you have…",
-    "es": "Perdiste 4 puntos hace 2 años y no has tenido sanciones desde entonces. Ahora tienes…"
+    "es": "Perdiste 4 puntos hace 2 años y no has tenido sanciones desde entonces. Ahora tienes…",
+    "uk": "Ви втратили 4 бали 2 роки тому й відтоді не мали санкцій. Тепер у вас…"
    },
    "o": [
     {
      "en": "your full initial 12 points back",
-     "es": "de nuevo tus 12 puntos iniciales"
+     "es": "de nuevo tus 12 puntos iniciales",
+     "uk": "знову повні початкові 12 балів"
     },
     {
      "en": "8 points",
-     "es": "8 puntos"
+     "es": "8 puntos",
+     "uk": "8 балів"
     },
     {
      "en": "10 points",
-     "es": "10 puntos"
+     "es": "10 puntos",
+     "uk": "10 балів"
     }
    ],
    "why": {
     "en": "Automatic recovery after 2 years.",
-    "es": "Recuperación automática tras 2 años."
+    "es": "Recuperación automática tras 2 años.",
+    "uk": "Автоматичне відновлення через 2 роки."
    }
   },
   {
@@ -2070,25 +2467,30 @@ window.DGT_DATA = {
    "tag": "points",
    "q": {
     "en": "You hold a B and a C licence. Your points…",
-    "es": "Tienes permiso B y C. Tus puntos…"
+    "es": "Tienes permiso B y C. Tus puntos…",
+    "uk": "У вас посвідчення B і C. Ваші бали…"
    },
    "o": [
     {
      "en": "are one single credit for both",
-     "es": "son un único crédito para ambos"
+     "es": "son un único crédito para ambos",
+     "uk": "один спільний баланс для обох"
     },
     {
      "en": "are 12 per licence",
-     "es": "son 12 por permiso"
+     "es": "son 12 por permiso",
+     "uk": "по 12 на кожне посвідчення"
     },
     {
      "en": "count only for B",
-     "es": "cuentan solo para el B"
+     "es": "cuentan solo para el B",
+     "uk": "рахуються лише для B"
     }
    ],
    "why": {
     "en": "One credit for all licences.",
-    "es": "Crédito único para todas las autorizaciones."
+    "es": "Crédito único para todas las autorizaciones.",
+    "uk": "Один баланс для всіх посвідчень."
    }
   },
   {
@@ -2096,25 +2498,30 @@ window.DGT_DATA = {
    "tag": "points",
    "q": {
     "en": "Points are taken away when…",
-    "es": "Los puntos se pierden cuando…"
+    "es": "Los puntos se pierden cuando…",
+    "uk": "Бали знімають, коли…"
    },
    "o": [
     {
      "en": "an administrative sanction for a serious or very serious offence becomes final",
-     "es": "una sanción administrativa por infracción grave o muy grave es firme"
+     "es": "una sanción administrativa por infracción grave o muy grave es firme",
+     "uk": "адміністративна санкція за серйозне чи дуже серйозне порушення стає остаточною"
     },
     {
      "en": "the agent stops you",
-     "es": "el agente te para"
+     "es": "el agente te para",
+     "uk": "регулювальник вас зупиняє"
     },
     {
      "en": "you receive the notice",
-     "es": "recibes la notificación"
+     "es": "recibes la notificación",
+     "uk": "ви отримуєте повідомлення"
     }
    ],
    "why": {
     "en": "Minor offences don’t take points.",
-    "es": "Las leves no quitan puntos."
+    "es": "Las leves no quitan puntos.",
+    "uk": "Незначні порушення балів не знімають."
    }
   },
   {
@@ -2122,25 +2529,30 @@ window.DGT_DATA = {
    "tag": "infra",
    "q": {
     "en": "Driving while holding your mobile phone in your hand costs…",
-    "es": "Conducir sujetando el móvil con la mano supone perder…"
+    "es": "Conducir sujetando el móvil con la mano supone perder…",
+    "uk": "Керування з мобільним телефоном у руці коштує…"
    },
    "o": [
     {
      "en": "6 points",
-     "es": "6 puntos"
+     "es": "6 puntos",
+     "uk": "6 балів"
     },
     {
      "en": "3 points",
-     "es": "3 puntos"
+     "es": "3 puntos",
+     "uk": "3 бали"
     },
     {
      "en": "4 points",
-     "es": "4 puntos"
+     "es": "4 puntos",
+     "uk": "4 бали"
     }
    ],
    "why": {
     "en": "Headphones: 3 points.",
-    "es": "Auriculares: 3 puntos."
+    "es": "Auriculares: 3 puntos.",
+    "uk": "Навушники: 3 бали."
    }
   },
   {
@@ -2148,25 +2560,30 @@ window.DGT_DATA = {
    "tag": "infra",
    "q": {
     "en": "Driving with headphones connected to a music player costs…",
-    "es": "Conducir con auriculares conectados a un reproductor supone perder…"
+    "es": "Conducir con auriculares conectados a un reproductor supone perder…",
+    "uk": "Керування з навушниками, підключеними до програвача, коштує…"
    },
    "o": [
     {
      "en": "3 points",
-     "es": "3 puntos"
+     "es": "3 puntos",
+     "uk": "3 бали"
     },
     {
      "en": "6 points",
-     "es": "6 puntos"
+     "es": "6 puntos",
+     "uk": "6 балів"
     },
     {
      "en": "no points",
-     "es": "ningún punto"
+     "es": "ningún punto",
+     "uk": "без балів"
     }
    ],
    "why": {
     "en": "So does a radar detector.",
-    "es": "Igual que un detector de radar."
+    "es": "Igual que un detector de radar.",
+    "uk": "Так само радар-детектор."
    }
   },
   {
@@ -2174,25 +2591,30 @@ window.DGT_DATA = {
    "tag": "infra",
    "q": {
     "en": "Not using the seat belt costs…",
-    "es": "No usar el cinturón de seguridad supone perder…"
+    "es": "No usar el cinturón de seguridad supone perder…",
+    "uk": "Не пристебнутий ремінь безпеки коштує…"
    },
    "o": [
     {
      "en": "4 points",
-     "es": "4 puntos"
+     "es": "4 puntos",
+     "uk": "4 бали"
     },
     {
      "en": "3 points",
-     "es": "3 puntos"
+     "es": "3 puntos",
+     "uk": "3 бали"
     },
     {
      "en": "6 points",
-     "es": "6 puntos"
+     "es": "6 puntos",
+     "uk": "6 балів"
     }
    ],
    "why": {
     "en": "Same for helmets and child seats.",
-    "es": "Igual casco y SRI."
+    "es": "Igual casco y SRI.",
+    "uk": "Так само шоломи й дитячі крісла."
    }
   },
   {
@@ -2200,25 +2622,30 @@ window.DGT_DATA = {
    "tag": "infra",
    "q": {
     "en": "A general driver blows 0.40 mg/l. They lose…",
-    "es": "Un conductor general da 0,40 mg/l. Pierde…"
+    "es": "Un conductor general da 0,40 mg/l. Pierde…",
+    "uk": "Звичайний водій видихає 0,40 мг/л. Він втрачає…"
    },
    "o": [
     {
      "en": "4 points",
-     "es": "4 puntos"
+     "es": "4 puntos",
+     "uk": "4 бали"
     },
     {
      "en": "6 points",
-     "es": "6 puntos"
+     "es": "6 puntos",
+     "uk": "6 балів"
     },
     {
      "en": "no points",
-     "es": "ningún punto"
+     "es": "ningún punto",
+     "uk": "без балів"
     }
    ],
    "why": {
     "en": "Over 0.25 up to 0.50: 4 points.",
-    "es": "Más de 0,25 hasta 0,50: 4 puntos."
+    "es": "Más de 0,25 hasta 0,50: 4 puntos.",
+    "uk": "Понад 0,25 до 0,50: 4 бали."
    }
   },
   {
@@ -2226,25 +2653,30 @@ window.DGT_DATA = {
    "tag": "infra",
    "q": {
     "en": "A driver with a 1-year-old licence blows 0.35 mg/l. They lose…",
-    "es": "Un conductor con permiso de 1 año da 0,35 mg/l. Pierde…"
+    "es": "Un conductor con permiso de 1 año da 0,35 mg/l. Pierde…",
+    "uk": "Водій із посвідченням 1 рік видихає 0,35 мг/л. Він втрачає…"
    },
    "o": [
     {
      "en": "6 points",
-     "es": "6 puntos"
+     "es": "6 puntos",
+     "uk": "6 балів"
     },
     {
      "en": "4 points",
-     "es": "4 puntos"
+     "es": "4 puntos",
+     "uk": "4 бали"
     },
     {
      "en": "3 points",
-     "es": "3 puntos"
+     "es": "3 puntos",
+     "uk": "3 бали"
     }
    ],
    "why": {
     "en": "For new drivers, over 0.30 is double the limit.",
-    "es": "Para noveles, más de 0,30 es el doble."
+    "es": "Para noveles, más de 0,30 es el doble.",
+    "uk": "Для нових водіїв понад 0,30 — подвійна межа."
    }
   },
   {
@@ -2252,25 +2684,30 @@ window.DGT_DATA = {
    "tag": "infra",
    "q": {
     "en": "Refusing the alcohol test costs…",
-    "es": "Negarse a la prueba de alcohol supone perder…"
+    "es": "Negarse a la prueba de alcohol supone perder…",
+    "uk": "Відмова від тесту на алкоголь коштує…"
    },
    "o": [
     {
      "en": "6 points",
-     "es": "6 puntos"
+     "es": "6 puntos",
+     "uk": "6 балів"
     },
     {
      "en": "4 points",
-     "es": "4 puntos"
+     "es": "4 puntos",
+     "uk": "4 бали"
     },
     {
      "en": "3 points",
-     "es": "3 puntos"
+     "es": "3 puntos",
+     "uk": "3 бали"
     }
    ],
    "why": {
     "en": "It can also be a crime.",
-    "es": "También puede ser delito."
+    "es": "También puede ser delito.",
+    "uk": "Це також може бути злочином."
    }
   },
   {
@@ -2278,25 +2715,30 @@ window.DGT_DATA = {
    "tag": "infra",
    "q": {
     "en": "Running a red light costs…",
-    "es": "Saltarse un semáforo en rojo supone perder…"
+    "es": "Saltarse un semáforo en rojo supone perder…",
+    "uk": "Проїзд на червоний коштує…"
    },
    "o": [
     {
      "en": "4 points",
-     "es": "4 puntos"
+     "es": "4 puntos",
+     "uk": "4 бали"
     },
     {
      "en": "6 points",
-     "es": "6 puntos"
+     "es": "6 puntos",
+     "uk": "6 балів"
     },
     {
      "en": "2 points",
-     "es": "2 puntos"
+     "es": "2 puntos",
+     "uk": "2 бали"
     }
    ],
    "why": {
     "en": "Same for STOP and give way.",
-    "es": "Igual el stop y el ceda."
+    "es": "Igual el stop y el ceda.",
+    "uk": "Так само STOP і «Дати дорогу»."
    }
   },
   {
@@ -2304,25 +2746,30 @@ window.DGT_DATA = {
    "tag": "infra",
    "q": {
     "en": "Overtaking a cyclist without leaving 1.5 m costs…",
-    "es": "Adelantar a un ciclista sin dejar 1,5 m supone perder…"
+    "es": "Adelantar a un ciclista sin dejar 1,5 m supone perder…",
+    "uk": "Обгін велосипедиста без інтервалу 1,5 м коштує…"
    },
    "o": [
     {
      "en": "6 points",
-     "es": "6 puntos"
+     "es": "6 puntos",
+     "uk": "6 балів"
     },
     {
      "en": "4 points",
-     "es": "4 puntos"
+     "es": "4 puntos",
+     "uk": "4 бали"
     },
     {
      "en": "3 points",
-     "es": "3 puntos"
+     "es": "3 puntos",
+     "uk": "3 бали"
     }
    ],
    "why": {
     "en": "Since the 2021 reform.",
-    "es": "Desde la reforma de 2021."
+    "es": "Desde la reforma de 2021.",
+    "uk": "З реформи 2021 року."
    }
   },
   {
@@ -2330,25 +2777,30 @@ window.DGT_DATA = {
    "tag": "infra",
    "q": {
     "en": "Reversing on a motorway costs…",
-    "es": "Dar marcha atrás en autopista supone perder…"
+    "es": "Dar marcha atrás en autopista supone perder…",
+    "uk": "Рух заднім ходом на автомагістралі коштує…"
    },
    "o": [
     {
      "en": "4 points",
-     "es": "4 puntos"
+     "es": "4 puntos",
+     "uk": "4 бали"
     },
     {
      "en": "3 points",
-     "es": "3 puntos"
+     "es": "3 puntos",
+     "uk": "3 бали"
     },
     {
      "en": "6 points",
-     "es": "6 puntos"
+     "es": "6 puntos",
+     "uk": "6 балів"
     }
    ],
    "why": {
     "en": "Driving the wrong way: 6.",
-    "es": "Sentido contrario: 6."
+    "es": "Sentido contrario: 6.",
+    "uk": "Рух у зустрічному напрямку — 6."
    }
   },
   {
@@ -2356,25 +2808,30 @@ window.DGT_DATA = {
    "tag": "infra",
    "q": {
     "en": "On a 90 km/h road you are caught at 130 km/h. Fine and points?",
-    "es": "En una vía de 90 km/h te cazan a 130 km/h. ¿Multa y puntos?"
+    "es": "En una vía de 90 km/h te cazan a 130 km/h. ¿Multa y puntos?",
+    "uk": "На дорозі з обмеженням 90 км/год вас зафіксували на 130 км/год. Штраф і бали?"
    },
    "o": [
     {
      "en": "300 € and 2 points",
-     "es": "300 € y 2 puntos"
+     "es": "300 € y 2 puntos",
+     "uk": "300 € і 2 бали"
     },
     {
      "en": "100 € and no points",
-     "es": "100 € y sin puntos"
+     "es": "100 € y sin puntos",
+     "uk": "100 € і без балів"
     },
     {
      "en": "400 € and 4 points",
-     "es": "400 € y 4 puntos"
+     "es": "400 € y 4 puntos",
+     "uk": "400 € і 4 бали"
     }
    ],
    "why": {
     "en": "121–140 on a 90 road.",
-    "es": "121–140 en vía de 90."
+    "es": "121–140 en vía de 90.",
+    "uk": "121–140 на дорозі 90."
    }
   },
   {
@@ -2382,25 +2839,30 @@ window.DGT_DATA = {
    "tag": "infra",
    "q": {
     "en": "In a 50 km/h street you are caught at 65 km/h. You get…",
-    "es": "En una calle de 50 km/h te cazan a 65 km/h. Te ponen…"
+    "es": "En una calle de 50 km/h te cazan a 65 km/h. Te ponen…",
+    "uk": "На вулиці з обмеженням 50 км/год вас зафіксували на 65 км/год. Ви отримуєте…"
    },
    "o": [
     {
      "en": "100 € and no points",
-     "es": "100 € y sin puntos"
+     "es": "100 € y sin puntos",
+     "uk": "100 € і без балів"
     },
     {
      "en": "300 € and 2 points",
-     "es": "300 € y 2 puntos"
+     "es": "300 € y 2 puntos",
+     "uk": "300 € і 2 бали"
     },
     {
      "en": "only a warning",
-     "es": "solo un aviso"
+     "es": "solo un aviso",
+     "uk": "лише попередження"
     }
    ],
    "why": {
     "en": "51–70 on a 50 street.",
-    "es": "51–70 en vía de 50."
+    "es": "51–70 en vía de 50.",
+    "uk": "51–70 на вулиці 50."
    }
   },
   {
@@ -2408,25 +2870,30 @@ window.DGT_DATA = {
    "tag": "infra",
    "q": {
     "en": "On a 120 km/h motorway you are caught at 195 km/h. That is…",
-    "es": "En autopista de 120 km/h te cazan a 195 km/h. Es…"
+    "es": "En autopista de 120 km/h te cazan a 195 km/h. Es…",
+    "uk": "На автомагістралі з обмеженням 120 км/год вас зафіксували на 195 км/год. Це…"
    },
    "o": [
     {
      "en": "very serious: 600 € and 6 points",
-     "es": "muy grave: 600 € y 6 puntos"
+     "es": "muy grave: 600 € y 6 puntos",
+     "uk": "дуже серйозне: 600 € і 6 балів"
     },
     {
      "en": "400 € and 4 points",
-     "es": "400 € y 4 puntos"
+     "es": "400 € y 4 puntos",
+     "uk": "400 € і 4 бали"
     },
     {
      "en": "300 € and 2 points",
-     "es": "300 € y 2 puntos"
+     "es": "300 € y 2 puntos",
+     "uk": "300 € і 2 бали"
     }
    ],
    "why": {
     "en": "191 or more on a 120 road. It can also be a crime above 200.",
-    "es": "191 o más en vía de 120. Por encima de 200 puede ser delito."
+    "es": "191 o más en vía de 120. Por encima de 200 puede ser delito.",
+    "uk": "191 і більше на дорозі 120. Понад 200 може бути й злочином."
    }
   },
   {
@@ -2434,25 +2901,30 @@ window.DGT_DATA = {
    "tag": "infra",
    "q": {
     "en": "Throwing a lit cigarette out of the window costs…",
-    "es": "Tirar una colilla encendida por la ventanilla supone perder…"
+    "es": "Tirar una colilla encendida por la ventanilla supone perder…",
+    "uk": "Викинути з вікна запалену цигарку коштує…"
    },
    "o": [
     {
      "en": "6 points",
-     "es": "6 puntos"
+     "es": "6 puntos",
+     "uk": "6 балів"
     },
     {
      "en": "4 points",
-     "es": "4 puntos"
+     "es": "4 puntos",
+     "uk": "4 бали"
     },
     {
      "en": "no points",
-     "es": "ningún punto"
+     "es": "ningún punto",
+     "uk": "без балів"
     }
    ],
    "why": {
     "en": "Objects that can cause fires or accidents.",
-    "es": "Objetos que puedan provocar incendios o accidentes."
+    "es": "Objetos que puedan provocar incendios o accidentes.",
+    "uk": "Предмети, що можуть спричинити пожежу чи ДТП."
    }
   },
   {
@@ -2460,25 +2932,30 @@ window.DGT_DATA = {
    "tag": "infra",
    "q": {
     "en": "Not keeping the safety distance costs…",
-    "es": "No mantener la distancia de seguridad supone perder…"
+    "es": "No mantener la distancia de seguridad supone perder…",
+    "uk": "Недотримання безпечної дистанції коштує…"
    },
    "o": [
     {
      "en": "4 points",
-     "es": "4 puntos"
+     "es": "4 puntos",
+     "uk": "4 бали"
     },
     {
      "en": "3 points",
-     "es": "3 puntos"
+     "es": "3 puntos",
+     "uk": "3 бали"
     },
     {
      "en": "6 points",
-     "es": "6 puntos"
+     "es": "6 puntos",
+     "uk": "6 балів"
     }
    ],
    "why": {
     "en": "A serious offence.",
-    "es": "Infracción grave."
+    "es": "Infracción grave.",
+    "uk": "Серйозне порушення."
    }
   },
   {
@@ -2486,25 +2963,30 @@ window.DGT_DATA = {
    "tag": "courses",
    "q": {
     "en": "A partial points course lets you recover…",
-    "es": "Un curso de recuperación parcial permite recuperar…"
+    "es": "Un curso de recuperación parcial permite recuperar…",
+    "uk": "Курс часткового відновлення балів дає змогу повернути…"
    },
    "o": [
     {
      "en": "up to 4 points",
-     "es": "hasta 4 puntos"
+     "es": "hasta 4 puntos",
+     "uk": "до 4 балів"
     },
     {
      "en": "up to 6 points",
-     "es": "hasta 6 puntos"
+     "es": "hasta 6 puntos",
+     "uk": "до 6 балів"
     },
     {
      "en": "all 12 points",
-     "es": "los 12 puntos"
+     "es": "los 12 puntos",
+     "uk": "усі 12 балів"
     }
    ],
    "why": {
     "en": "Never more than you lost.",
-    "es": "Nunca más de los perdidos."
+    "es": "Nunca más de los perdidos.",
+    "uk": "Ніколи більше, ніж втрачено."
    }
   },
   {
@@ -2512,25 +2994,30 @@ window.DGT_DATA = {
    "tag": "courses",
    "q": {
     "en": "How often may a non-professional driver do a partial points course?",
-    "es": "¿Cada cuánto puede hacer un curso parcial un conductor no profesional?"
+    "es": "¿Cada cuánto puede hacer un curso parcial un conductor no profesional?",
+    "uk": "Як часто непрофесійний водій може проходити курс часткового відновлення?"
    },
    "o": [
     {
      "en": "Once every 2 years",
-     "es": "Una vez cada 2 años"
+     "es": "Una vez cada 2 años",
+     "uk": "Раз на 2 роки"
     },
     {
      "en": "Once a year",
-     "es": "Una vez al año"
+     "es": "Una vez al año",
+     "uk": "Раз на рік"
     },
     {
      "en": "Whenever they want",
-     "es": "Cuando quiera"
+     "es": "Cuando quiera",
+     "uk": "Коли захоче"
     }
    ],
    "why": {
     "en": "Professionals: once a year.",
-    "es": "Profesionales: una vez al año."
+    "es": "Profesionales: una vez al año.",
+    "uk": "Професійні — раз на рік."
    }
   },
   {
@@ -2538,25 +3025,30 @@ window.DGT_DATA = {
    "tag": "courses",
    "q": {
     "en": "How long is the partial recovery course?",
-    "es": "¿Cuánto dura el curso de recuperación parcial?"
+    "es": "¿Cuánto dura el curso de recuperación parcial?",
+    "uk": "Скільки триває курс часткового відновлення?"
    },
    "o": [
     {
      "en": "10 hours",
-     "es": "10 horas"
+     "es": "10 horas",
+     "uk": "10 годин"
     },
     {
      "en": "20 hours",
-     "es": "20 horas"
+     "es": "20 horas",
+     "uk": "20 годин"
     },
     {
      "en": "4 hours",
-     "es": "4 horas"
+     "es": "4 horas",
+     "uk": "4 години"
     }
    ],
    "why": {
     "en": "The licence course lasts 20 hours.",
-    "es": "El de recuperación del permiso, 20 horas."
+    "es": "El de recuperación del permiso, 20 horas.",
+    "uk": "Курс для повернення посвідчення триває 20 годин."
    }
   },
   {
@@ -2564,25 +3056,30 @@ window.DGT_DATA = {
    "tag": "courses",
    "q": {
     "en": "To get your licence back after losing all points you must…",
-    "es": "Para recuperar el permiso tras perder todos los puntos debes…"
+    "es": "Para recuperar el permiso tras perder todos los puntos debes…",
+    "uk": "Щоб повернути посвідчення після втрати всіх балів, треба…"
    },
    "o": [
     {
      "en": "pass a 20-hour course and a test at the Traffic Office",
-     "es": "superar un curso de 20 horas y un test en la Jefatura"
+     "es": "superar un curso de 20 horas y un test en la Jefatura",
+     "uk": "пройти 20-годинний курс і тест в Управлінні дорожнього руху"
     },
     {
      "en": "only wait 2 years",
-     "es": "solo esperar 2 años"
+     "es": "solo esperar 2 años",
+     "uk": "лише чекати 2 роки"
     },
     {
      "en": "take a driving test again",
-     "es": "repetir el examen práctico"
+     "es": "repetir el examen práctico",
+     "uk": "знову скласти іспит з водіння"
     }
    ],
    "why": {
     "en": "After the waiting period.",
-    "es": "Tras el plazo de espera."
+    "es": "Tras el plazo de espera.",
+    "uk": "Після періоду очікування."
    }
   },
   {
@@ -2590,25 +3087,30 @@ window.DGT_DATA = {
    "tag": "courses",
    "q": {
     "en": "A non-professional loses their licence for the first time. They must wait before the course…",
-    "es": "Un no profesional pierde el permiso por primera vez. Debe esperar antes del curso…"
+    "es": "Un no profesional pierde el permiso por primera vez. Debe esperar antes del curso…",
+    "uk": "Непрофесійний водій уперше втратив посвідчення. Перед курсом він мусить чекати…"
    },
    "o": [
     {
      "en": "6 months",
-     "es": "6 meses"
+     "es": "6 meses",
+     "uk": "6 місяців"
     },
     {
      "en": "3 months",
-     "es": "3 meses"
+     "es": "3 meses",
+     "uk": "3 місяці"
     },
     {
      "en": "1 year",
-     "es": "1 año"
+     "es": "1 año",
+     "uk": "1 рік"
     }
    ],
    "why": {
     "en": "Professionals 3 months; doubled if repeated within 3 years.",
-    "es": "Profesionales 3 meses; el doble si se repite en 3 años."
+    "es": "Profesionales 3 meses; el doble si se repite en 3 años.",
+    "uk": "Професійні — 3 місяці; удвічі довше, якщо повторно протягом 3 років."
    }
   },
   {
@@ -2616,25 +3118,30 @@ window.DGT_DATA = {
    "tag": "courses",
    "q": {
     "en": "A court bans someone from driving for 18 months. To drive again they need…",
-    "es": "Un juez priva a alguien del derecho a conducir 18 meses. Para volver a conducir necesita…"
+    "es": "Un juez priva a alguien del derecho a conducir 18 meses. Para volver a conducir necesita…",
+    "uk": "Суд позбавив людину права керувати на 18 місяців. Щоб знову керувати, їй потрібен…"
    },
    "o": [
     {
      "en": "only the course",
-     "es": "solo el curso"
+     "es": "solo el curso",
+     "uk": "лише курс"
     },
     {
      "en": "the course and the test",
-     "es": "el curso y el test"
+     "es": "el curso y el test",
+     "uk": "курс і тест"
     },
     {
      "en": "a new licence from scratch",
-     "es": "un permiso nuevo desde cero"
+     "es": "un permiso nuevo desde cero",
+     "uk": "нове посвідчення з нуля"
     }
    ],
    "why": {
     "en": "Course and test if the ban was over 2 years.",
-    "es": "Curso y test si la condena supera 2 años."
+    "es": "Curso y test si la condena supera 2 años.",
+    "uk": "Курс і тест — якщо позбавлення було понад 2 роки."
    }
   },
   {
@@ -2642,25 +3149,30 @@ window.DGT_DATA = {
    "tag": "courses",
    "q": {
     "en": "The licence obtained again after a recovery course has…",
-    "es": "El permiso recuperado tras el curso tiene…"
+    "es": "El permiso recuperado tras el curso tiene…",
+    "uk": "Посвідчення, отримане знову після курсу відновлення, має…"
    },
    "o": [
     {
      "en": "the same class and seniority, with 8 points",
-     "es": "la misma clase y antigüedad, con 8 puntos"
+     "es": "la misma clase y antigüedad, con 8 puntos",
+     "uk": "ту саму категорію й стаж, з 8 балами"
     },
     {
      "en": "a new seniority and 12 points",
-     "es": "nueva antigüedad y 12 puntos"
+     "es": "nueva antigüedad y 12 puntos",
+     "uk": "новий стаж і 12 балів"
     },
     {
      "en": "B only, 8 points",
-     "es": "solo el B, con 8 puntos"
+     "es": "solo el B, con 8 puntos",
+     "uk": "лише B, 8 балів"
     }
    ],
    "why": {
     "en": "Like a new driver’s balance.",
-    "es": "Como el saldo de un novel."
+    "es": "Como el saldo de un novel.",
+    "uk": "Як баланс нового водія."
    }
   },
   {
@@ -2668,25 +3180,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "A motorcycle passenger rides without a helmet. Who is liable?",
-    "es": "Un pasajero de moto va sin casco. ¿Quién es responsable?"
+    "es": "Un pasajero de moto va sin casco. ¿Quién es responsable?",
+    "uk": "Пасажир мотоцикла їде без шолома. Хто відповідає?"
    },
    "o": [
     {
      "en": "The driver",
-     "es": "El conductor"
+     "es": "El conductor",
+     "uk": "Водій"
     },
     {
      "en": "The passenger",
-     "es": "El pasajero"
+     "es": "El pasajero",
+     "uk": "Пасажир"
     },
     {
      "en": "The owner",
-     "es": "El titular"
+     "es": "El titular",
+     "uk": "Власник"
     }
    ],
    "why": {
     "en": "Also for carrying passengers below the minimum age.",
-    "es": "También por llevar pasajeros sin la edad mínima."
+    "es": "También por llevar pasajeros sin la edad mínima.",
+    "uk": "Так само за перевезення пасажирів, молодших мінімального віку."
    }
   },
   {
@@ -2694,25 +3211,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "A child travels without a child seat in a private car. Who is liable?",
-    "es": "Un niño viaja sin SRI en un turismo particular. ¿Quién es responsable?"
+    "es": "Un niño viaja sin SRI en un turismo particular. ¿Quién es responsable?",
+    "uk": "Дитина їде без дитячого крісла в приватному автомобілі. Хто відповідає?"
    },
    "o": [
     {
      "en": "The driver",
-     "es": "El conductor"
+     "es": "El conductor",
+     "uk": "Водій"
     },
     {
      "en": "The parents only",
-     "es": "Solo los padres"
+     "es": "Solo los padres",
+     "uk": "Лише батьки"
     },
     {
      "en": "Nobody",
-     "es": "Nadie"
+     "es": "Nadie",
+     "uk": "Ніхто"
     }
    ],
    "why": {
     "en": "Except professional drivers of public services.",
-    "es": "Salvo conductores profesionales de servicio público."
+    "es": "Salvo conductores profesionales de servicio público.",
+    "uk": "Крім професійних водіїв громадських перевезень."
    }
   },
   {
@@ -2720,25 +3242,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "A 17-year-old moped rider is fined. Who else answers for the fine?",
-    "es": "Multan a un motorista de 17 años. ¿Quién más responde de la multa?"
+    "es": "Multan a un motorista de 17 años. ¿Quién más responde de la multa?",
+    "uk": "17-річного водія мопеда оштрафували. Хто ще відповідає за штраф?"
    },
    "o": [
     {
      "en": "The parents or guardians, jointly",
-     "es": "Los padres o tutores, solidariamente"
+     "es": "Los padres o tutores, solidariamente",
+     "uk": "Батьки чи опікуни, солідарно"
     },
     {
      "en": "The moped shop",
-     "es": "La tienda"
+     "es": "La tienda",
+     "uk": "Мотосалон"
     },
     {
      "en": "Nobody",
-     "es": "Nadie"
+     "es": "Nadie",
+     "uk": "Ніхто"
     }
    ],
    "why": {
     "en": "Under 18.",
-    "es": "Menores de 18."
+    "es": "Menores de 18.",
+    "uk": "До 18 років."
    }
   },
   {
@@ -2746,25 +3273,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "Who answers for an overdue ITV?",
-    "es": "¿Quién responde de una ITV caducada?"
+    "es": "¿Quién responde de una ITV caducada?",
+    "uk": "Хто відповідає за прострочений техогляд?"
    },
    "o": [
     {
      "en": "The owner (titular)",
-     "es": "El titular"
+     "es": "El titular",
+     "uk": "Власник (titular)"
     },
     {
      "en": "The driver",
-     "es": "El conductor"
+     "es": "El conductor",
+     "uk": "Водій"
     },
     {
      "en": "The ITV station",
-     "es": "La estación ITV"
+     "es": "La estación ITV",
+     "uk": "Станція техогляду"
     }
    ],
    "why": {
     "en": "Also documents and condition affecting safety.",
-    "es": "También documentación y estado que afecte a la seguridad."
+    "es": "También documentación y estado que afecte a la seguridad.",
+    "uk": "А також за документи й стан, що впливає на безпеку."
    }
   },
   {
@@ -2772,25 +3304,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "A speed camera catches your car, which has a named habitual driver. Who is liable?",
-    "es": "Un radar capta tu coche, que tiene un conductor habitual designado. ¿Quién responde?"
+    "es": "Un radar capta tu coche, que tiene un conductor habitual designado. ¿Quién responde?",
+    "uk": "Камера зафіксувала ваш автомобіль, який має вказаного постійного водія. Хто відповідає?"
    },
    "o": [
     {
      "en": "The habitual driver, unless they prove otherwise",
-     "es": "El conductor habitual, salvo que acredite otra cosa"
+     "es": "El conductor habitual, salvo que acredite otra cosa",
+     "uk": "Постійний водій, якщо не доведе іншого"
     },
     {
      "en": "Always the owner",
-     "es": "Siempre el titular"
+     "es": "Siempre el titular",
+     "uk": "Завжди власник"
     },
     {
      "en": "Nobody",
-     "es": "Nadie"
+     "es": "Nadie",
+     "uk": "Ніхто"
     }
    ],
    "why": {
     "en": "Unless someone else drove or it was stolen.",
-    "es": "Salvo que condujera otro o hubiera sustracción."
+    "es": "Salvo que condujera otro o hubiera sustracción.",
+    "uk": "Якщо не керував хтось інший чи автомобіль не викрали."
    }
   },
   {
@@ -2798,25 +3335,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "The owner of a vehicle must…",
-    "es": "El titular de un vehículo tiene la obligación de…"
+    "es": "El titular de un vehículo tiene la obligación de…",
+    "uk": "Власник ТЗ мусить…"
    },
    "o": [
     {
      "en": "identify the driver at the time of an offence",
-     "es": "identificar al conductor en el momento de la infracción"
+     "es": "identificar al conductor en el momento de la infracción",
+     "uk": "встановити водія на момент порушення"
     },
     {
      "en": "pay every fine",
-     "es": "pagar todas las multas"
+     "es": "pagar todas las multas",
+     "uk": "платити кожен штраф"
     },
     {
      "en": "drive it personally",
-     "es": "conducirlo personalmente"
+     "es": "conducirlo personalmente",
+     "uk": "керувати ним особисто"
     }
    ],
    "why": {
     "en": "Failing to do so is itself an offence.",
-    "es": "No hacerlo es otra infracción."
+    "es": "No hacerlo es otra infracción.",
+    "uk": "Невиконання — саме по собі порушення."
    }
   },
   {
@@ -2824,25 +3366,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "Since 1 October 2026, when must the owner name a habitual driver?",
-    "es": "Desde el 1 de octubre de 2026, ¿cuándo debe el titular designar un conductor habitual?"
+    "es": "Desde el 1 de octubre de 2026, ¿cuándo debe el titular designar un conductor habitual?",
+    "uk": "З 1 жовтня 2026 року коли власник мусить вказувати постійного водія?"
    },
    "o": [
     {
      "en": "When a person without a driving licence registers the vehicle in their name",
-     "es": "Cuando una persona sin permiso de conducción matricula el vehículo a su nombre"
+     "es": "Cuando una persona sin permiso de conducción matricula el vehículo a su nombre",
+     "uk": "Коли особа без посвідчення водія реєструє ТЗ на себе"
     },
     {
      "en": "Always, for every vehicle",
-     "es": "Siempre, para todo vehículo"
+     "es": "Siempre, para todo vehículo",
+     "uk": "Завжди, для кожного ТЗ"
     },
     {
      "en": "Only for company vehicles",
-     "es": "Solo en los vehículos de empresa"
+     "es": "Solo en los vehículos de empresa",
+     "uk": "Лише для службових ТЗ"
     }
    ],
    "why": {
     "en": "RD 518/2026 made it compulsory when the owner is a person who cannot drive.",
-    "es": "El RD 518/2026 lo hizo obligatorio cuando el titular es una persona que no puede conducir."
+    "es": "El RD 518/2026 lo hizo obligatorio cuando el titular es una persona que no puede conducir.",
+    "uk": "RD 518/2026 зробив це обов’язковим, коли власник не може керувати."
    }
   },
   {
@@ -2850,25 +3397,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "Driving 70 km/h over the limit in town is…",
-    "es": "Circular 70 km/h por encima del límite en vía urbana es…"
+    "es": "Circular 70 km/h por encima del límite en vía urbana es…",
+    "uk": "Перевищення на 70 км/год у населеному пункті —"
    },
    "o": [
     {
      "en": "a crime",
-     "es": "un delito"
+     "es": "un delito",
+     "uk": "злочин"
     },
     {
      "en": "a serious offence only",
-     "es": "solo una infracción grave"
+     "es": "solo una infracción grave",
+     "uk": "лише серйозне порушення"
     },
     {
      "en": "a minor offence",
-     "es": "una infracción leve"
+     "es": "una infracción leve",
+     "uk": "незначне порушення"
     }
    ],
    "why": {
     "en": "More than 60 km/h over in town.",
-    "es": "Más de 60 km/h por encima en urbana."
+    "es": "Más de 60 km/h por encima en urbana.",
+    "uk": "Понад 60 км/год у населеному пункті."
    }
   },
   {
@@ -2876,25 +3428,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "Out of town, speeding becomes a crime when you exceed the limit by more than…",
-    "es": "En interurbana, la velocidad es delito si superas el límite en más de…"
+    "es": "En interurbana, la velocidad es delito si superas el límite en más de…",
+    "uk": "Поза населеним пунктом перевищення швидкості стає злочином, коли перевищено обмеження більш ніж на…"
    },
    "o": [
     {
      "en": "80 km/h",
-     "es": "80 km/h"
+     "es": "80 km/h",
+     "uk": "80 км/год"
     },
     {
      "en": "60 km/h",
-     "es": "60 km/h"
+     "es": "60 km/h",
+     "uk": "60 км/год"
     },
     {
      "en": "50 km/h",
-     "es": "50 km/h"
+     "es": "50 km/h",
+     "uk": "50 км/год"
     }
    ],
    "why": {
     "en": "60 km/h in town.",
-    "es": "60 km/h en urbana."
+    "es": "60 km/h en urbana.",
+    "uk": "У населеному пункті — 60 км/год."
    }
   },
   {
@@ -2902,25 +3459,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "Alcohol becomes a crime above…",
-    "es": "El alcohol es delito por encima de…"
+    "es": "El alcohol es delito por encima de…",
+    "uk": "Алкоголь стає злочином понад…"
    },
    "o": [
     {
      "en": "0.60 mg/l in air (1.2 g/l in blood)",
-     "es": "0,60 mg/l en aire (1,2 g/l en sangre)"
+     "es": "0,60 mg/l en aire (1,2 g/l en sangre)",
+     "uk": "0,60 мг/л у видихуваному повітрі (1,2 г/л у крові)"
     },
     {
      "en": "0.50 mg/l in air",
-     "es": "0,50 mg/l en aire"
+     "es": "0,50 mg/l en aire",
+     "uk": "0,50 мг/л у повітрі"
     },
     {
      "en": "0.25 mg/l in air",
-     "es": "0,25 mg/l en aire"
+     "es": "0,25 mg/l en aire",
+     "uk": "0,25 мг/л у повітрі"
     }
    ],
    "why": {
     "en": "Or when driving under the influence of drugs or alcohol.",
-    "es": "O conduciendo bajo su influencia."
+    "es": "O conduciendo bajo su influencia.",
+    "uk": "Або коли керують під впливом наркотиків чи алкоголю."
    }
   },
   {
@@ -2928,25 +3490,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "Driving after losing all your points is…",
-    "es": "Conducir tras perder todos los puntos es…"
+    "es": "Conducir tras perder todos los puntos es…",
+    "uk": "Керування після втрати всіх балів —"
    },
    "o": [
     {
      "en": "a crime",
-     "es": "un delito"
+     "es": "un delito",
+     "uk": "злочин"
     },
     {
      "en": "a serious offence",
-     "es": "una infracción grave"
+     "es": "una infracción grave",
+     "uk": "серйозне порушення"
     },
     {
      "en": "allowed in town",
-     "es": "permitido en poblado"
+     "es": "permitido en poblado",
+     "uk": "дозволене в місті"
     }
    ],
    "why": {
     "en": "Also when banned by a court or never licensed.",
-    "es": "También con privación judicial o sin haberlo obtenido nunca."
+    "es": "También con privación judicial o sin haberlo obtenido nunca.",
+    "uk": "Так само з позбавленням судом чи без посвідчення взагалі."
    }
   },
   {
@@ -2954,25 +3521,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "Penalties of more than 2 years’ licence ban mean…",
-    "es": "Una pena de privación de más de 2 años supone…"
+    "es": "Una pena de privación de más de 2 años supone…",
+    "uk": "Покарання понад 2 роки позбавлення права керувати означають…"
    },
    "o": [
     {
      "en": "the licence loses its validity",
-     "es": "la pérdida de vigencia del permiso"
+     "es": "la pérdida de vigencia del permiso",
+     "uk": "посвідчення втрачає чинність"
     },
     {
      "en": "4 points are lost",
-     "es": "perder 4 puntos"
+     "es": "perder 4 puntos",
+     "uk": "втрачається 4 бали"
     },
     {
      "en": "nothing extra",
-     "es": "nada más"
+     "es": "nada más",
+     "uk": "нічого додатково"
     }
    ],
    "why": {
     "en": "To drive again: course and test.",
-    "es": "Para volver: curso y test."
+    "es": "Para volver: curso y test.",
+    "uk": "Щоб знову керувати: курс і тест."
    }
   },
   {
@@ -2980,25 +3552,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "Refusing the alcohol and drug tests can be punished with prison of…",
-    "es": "Negarse a las pruebas de alcohol y drogas puede castigarse con prisión de…"
+    "es": "Negarse a las pruebas de alcohol y drogas puede castigarse con prisión de…",
+    "uk": "Відмову від тестів на алкоголь і наркотики можуть покарати позбавленням волі від…"
    },
    "o": [
     {
      "en": "6 months to 1 year",
-     "es": "6 meses a 1 año"
+     "es": "6 meses a 1 año",
+     "uk": "6 місяців до 1 року"
     },
     {
      "en": "3 to 6 months",
-     "es": "3 a 6 meses"
+     "es": "3 a 6 meses",
+     "uk": "3 до 6 місяців"
     },
     {
      "en": "2 to 5 years",
-     "es": "2 a 5 años"
+     "es": "2 a 5 años",
+     "uk": "2 до 5 років"
     }
    ],
    "why": {
     "en": "Plus a 1–4 year licence ban.",
-    "es": "Más privación de 1 a 4 años."
+    "es": "Más privación de 1 a 4 años.",
+    "uk": "Плюс позбавлення права керувати на 1–4 роки."
    }
   },
   {
@@ -3006,25 +3583,30 @@ window.DGT_DATA = {
    "tag": "liability",
    "q": {
     "en": "Leaving obstacles on the road or spilling slippery substances can be…",
-    "es": "Dejar obstáculos en la vía o derramar sustancias deslizantes puede ser…"
+    "es": "Dejar obstáculos en la vía o derramar sustancias deslizantes puede ser…",
+    "uk": "Лишити перешкоди на дорозі чи розлити слизькі речовини може бути…"
    },
    "o": [
     {
      "en": "a crime of creating serious risk",
-     "es": "un delito de grave riesgo para la circulación"
+     "es": "un delito de grave riesgo para la circulación",
+     "uk": "злочином створення серйозного ризику"
     },
     {
      "en": "only a minor offence",
-     "es": "solo una infracción leve"
+     "es": "solo una infracción leve",
+     "uk": "лише незначним порушенням"
     },
     {
      "en": "allowed with hazard lights",
-     "es": "permitido con la luz de emergencia"
+     "es": "permitido con la luz de emergencia",
+     "uk": "дозволеним з аварійною сигналізацією"
     }
    ],
    "why": {
     "en": "So is altering signs.",
-    "es": "También alterar la señalización."
+    "es": "También alterar la señalización.",
+    "uk": "Як і пошкодження знаків."
    }
   }
  ],
@@ -3033,297 +3615,363 @@ window.DGT_DATA = {
    "sec": 1,
    "en": "Carrying and getting a licence",
    "es": "Llevar y obtener el permiso",
+   "uk": "Що возити й як отримати посвідчення",
    "recap": [
     [
      "Carry a valid licence and the vehicle’s papers; show them as original, certified copy or in miDGT.",
-     "Llevar permiso y documentación del vehículo válidos; mostrarlos en original, fotocopia compulsada o miDGT."
+     "Llevar permiso y documentación del vehículo válidos; mostrarlos en original, fotocopia compulsada o miDGT.",
+     "Возіть чинне посвідчення й документи ТЗ; показуйте оригінал, засвідчену копію чи miDGT."
     ],
     [
      "miDGT is as valid as paper, but only in Spain.",
-     "miDGT vale lo mismo que el papel, pero solo en España."
+     "miDGT vale lo mismo que el papel, pero solo en España.",
+     "miDGT важить як папір, але лише в Іспанії."
     ],
     [
      "Only one EU licence per person. You need fitness and to pass the tests at the Traffic Office.",
-     "Solo un permiso de la UE por persona. Hacen falta aptitudes y aprobar las pruebas en la Jefatura."
+     "Solo un permiso de la UE por persona. Hacen falta aptitudes y aprobar las pruebas en la Jefatura.",
+     "Лише одне посвідчення ЄС на людину. Потрібні придатність і складені іспити в Управлінні дорожнього руху."
     ],
     [
      "Hidden devices in a test: very serious, fine and 6 months without tests. Lost fitness: no driving until recovered.",
-     "Dispositivos en el examen: muy grave, multa y 6 meses sin examinarse. Sin aptitudes: no conducir hasta recuperarlas."
+     "Dispositivos en el examen: muy grave, multa y 6 meses sin examinarse. Sin aptitudes: no conducir hasta recuperarlas.",
+     "Приховані пристрої на іспиті: дуже серйозно, штраф і 6 місяців без іспитів. Втратили придатність: не керуєте, доки не одужаєте."
     ]
    ],
    "trap": [
     "Using miDGT as proof abroad.",
-    "Usar miDGT como documento en el extranjero."
+    "Usar miDGT como documento en el extranjero.",
+    "Користуватися miDGT як доказом за кордоном."
    ]
   },
   "classes": {
    "sec": 1,
    "en": "Licence classes and ages",
    "es": "Clases y edades",
+   "uk": "Категорії посвідчень і вік",
    "recap": [
     [
      "LCM 14 (reduced mobility); LVA 16 (farm vehicles ≤ 45 km/h or ordinary limits).",
-     "LCM 14 (movilidad reducida); LVA 16 (agrícolas ≤ 45 km/h o límites ordinarios)."
+     "LCM 14 (movilidad reducida); LVA 16 (agrícolas ≤ 45 km/h o límites ordinarios).",
+     "LCM — 14 (обмежена рухливість); LVA — 16 (сільськогосподарські ТЗ ≤ 45 км/год чи у звичайних межах)."
     ],
     [
      "AM 15: mopeds and light quadricycles. A1 16: ≤ 125 cc, ≤ 11 kW, 0.1 kW/kg; trikes ≤ 15 kW.",
-     "AM 15: ciclomotores y cuadriciclos ligeros. A1 16: ≤ 125 c.c., ≤ 11 kW, 0,1 kW/kg; triciclos ≤ 15 kW."
+     "AM 15: ciclomotores y cuadriciclos ligeros. A1 16: ≤ 125 c.c., ≤ 11 kW, 0,1 kW/kg; triciclos ≤ 15 kW.",
+     "AM — 15: мопеди й легкі квадрицикли. A1 — 16: ≤ 125 см³, ≤ 11 кВт, 0,1 кВт/кг; трицикли ≤ 15 кВт."
     ],
     [
      "A2 18: ≤ 35 kW, 0.2 kW/kg, not derived from more than double the power.",
-     "A2 18: ≤ 35 kW, 0,2 kW/kg, no derivadas de más del doble de potencia."
+     "A2 18: ≤ 35 kW, 0,2 kW/kg, no derivadas de más del doble de potencia.",
+     "A2 — 18: ≤ 35 кВт, 0,2 кВт/кг, не отриманий з моделі понад удвічі потужнішої."
     ],
     [
      "A 20, after 2 years with A2 and training; trikes over 15 kW need 21.",
-     "A 20, tras 2 años de A2 y formación; triciclos de más de 15 kW, 21."
+     "A 20, tras 2 años de A2 y formación; triciclos de más de 15 kW, 21.",
+     "A — 20, після 2 років з A2 і навчання; трициклам понад 15 кВт потрібно 21."
     ]
    ],
    "trap": [
     "Thinking A can be taken straight at 18.",
-    "Pensar que el A se puede obtener directamente a los 18."
+    "Pensar que el A se puede obtener directamente a los 18.",
+    "Думати, що A можна отримати одразу у 18."
    ]
   },
   "permb": {
    "sec": 1,
    "en": "The B licence and others",
    "es": "El permiso B y otros",
+   "uk": "Посвідчення B та інші",
    "recap": [
     [
      "B at 18: MMA ≤ 3,500 kg, at most 8 passengers plus the driver.",
-     "B a los 18: MMA ≤ 3.500 kg y como máximo 8 pasajeros más el conductor."
+     "B a los 18: MMA ≤ 3.500 kg y como máximo 8 pasajeros más el conductor.",
+     "B з 18: MMA ≤ 3 500 кг, щонайбільше 8 пасажирів плюс водій."
     ],
     [
      "Light trailer ≤ 750 kg; heavier trailer if the combination ≤ 4,250 kg — over 3,500 kg needs B96.",
-     "Remolque ligero ≤ 750 kg; no ligero si el conjunto ≤ 4.250 kg — más de 3.500 kg exige B96."
+     "Remolque ligero ≤ 750 kg; no ligero si el conjunto ≤ 4.250 kg — más de 3.500 kg exige B96.",
+     "Легкий причіп ≤ 750 кг; важчий — якщо состав ≤ 4 250 кг, а понад 3 500 кг потрібен B96."
     ],
     [
      "B + 2 years: alternative-fuel goods vans up to 4,250 kg in Spain. B + 3 years: A1 motorcycles in Spain.",
-     "B + 2 años: mercancías de combustibles alternativos hasta 4.250 kg en España. B + 3 años: motos A1 en España."
+     "B + 2 años: mercancías de combustibles alternativos hasta 4.250 kg en España. B + 3 años: motos A1 en España.",
+     "B + 2 роки: вантажні фургони на альтернативному паливі до 4 250 кг в Іспанії. B + 3 роки: мотоцикли A1 в Іспанії."
     ],
     [
      "B+E: trailer ≤ 3,500 kg. C: over 3,500 kg. D: more than 9 seats.",
-     "B+E: remolque ≤ 3.500 kg. C: más de 3.500 kg. D: más de 9 plazas."
+     "B+E: remolque ≤ 3.500 kg. C: más de 3.500 kg. D: más de 9 plazas.",
+     "B+E: причіп ≤ 3 500 кг. C: понад 3 500 кг. D: понад 9 місць."
     ]
    ],
    "trap": [
     "Thinking B lets you ride any motorcycle.",
-    "Pensar que el B permite conducir cualquier moto."
+    "Pensar que el B permite conducir cualquier moto.",
+    "Думати, що B дозволяє будь-який мотоцикл."
    ]
   },
   "validity": {
    "sec": 1,
    "en": "Validity, changes and new drivers",
    "es": "Vigencia, cambios y noveles",
+   "uk": "Строк дії, зміни й нові водії",
    "recap": [
     [
      "AM, A1, A2, A, B, B+E: every 10 years until 65, then every 5; shorter if an illness may worsen.",
-     "AM, A1, A2, A, B, B+E: cada 10 años hasta los 65, después cada 5; menos si hay enfermedad que pueda agravarse."
+     "AM, A1, A2, A, B, B+E: cada 10 años hasta los 65, después cada 5; menos si hay enfermedad que pueda agravarse.",
+     "AM, A1, A2, A, B, B+E: кожні 10 років до 65, далі кожні 5; коротше, якщо хвороба може погіршитися."
     ],
     [
      "An expired licence does not let you drive and is withdrawn. Data changes: 15 days for a duplicate.",
-     "El permiso caducado no autoriza a conducir y se interviene. Cambio de datos: 15 días para el duplicado."
+     "El permiso caducado no autoriza a conducir y se interviene. Cambio de datos: 15 días para el duplicado.",
+     "Прострочене посвідчення не дає права керувати й вилучається. Зміна даних: 15 днів на дублікат."
     ],
     [
      "V-13 “L” for the first year, rear left; extended by any suspension.",
-     "V-13 «L» el primer año, detrás a la izquierda; se amplía con la suspensión."
+     "V-13 «L» el primer año, detrás a la izquierda; se amplía con la suspensión.",
+     "V-13 «L» перший рік, ззаду ліворуч; подовжується на будь-яке призупинення."
     ],
     [
      "Loss of validity if all points or requirements are lost; precautionary suspension for serious danger.",
-     "Pérdida de vigencia si se pierden los puntos o los requisitos; suspensión cautelar por grave peligro."
+     "Pérdida de vigencia si se pierden los puntos o los requisitos; suspensión cautelar por grave peligro.",
+     "Втрата чинності, якщо втрачено всі бали чи вимоги; запобіжне призупинення за серйозної небезпеки."
     ]
    ],
    "trap": [
     "Putting the L plate on the right.",
-    "Poner la «L» a la derecha."
+    "Poner la «L» a la derecha.",
+    "Клеїти табличку L праворуч."
    ]
   },
   "vehdocs": {
    "sec": 2,
    "en": "Registration certificate and plates",
    "es": "Permiso de circulación y placas",
+   "uk": "Свідоцтво про реєстрацію й номерні знаки",
    "recap": [
     [
      "Carry the registration certificate and ITV card (originals or certified copies), plus the last ITV report.",
-     "Llevar permiso de circulación y tarjeta ITV (originales o fotocopias cotejadas) y el último informe ITV."
+     "Llevar permiso de circulación y tarjeta ITV (originales o fotocopias cotejadas) y el último informe ITV.",
+     "Возіть свідоцтво про реєстрацію й картку техогляду (оригінали чи засвідчені копії), плюс останній висновок техогляду."
     ],
     [
      "Registration certificate: all motor vehicles and trailers over 750 kg; light trailers are not registered.",
-     "Permiso de circulación: todos los de motor y remolques de más de 750 kg; los ligeros no se matriculan."
+     "Permiso de circulación: todos los de motor y remolques de más de 750 kg; los ligeros no se matriculan.",
+     "Свідоцтво про реєстрацію: усі механічні ТЗ і причепи понад 750 кг; легкі причепи не реєструють."
     ],
     [
      "Owner’s details: 15 days. Sale: seller 10 days, buyer 30 days.",
-     "Datos del titular: 15 días. Venta: vendedor 10 días, comprador 30 días."
+     "Datos del titular: 15 días. Venta: vendedor 10 días, comprador 30 días.",
+     "Дані власника: 15 днів. Продаж: продавець — 10 днів, покупець — 30 днів."
     ],
     [
      "Cars: front and rear plates. Two-wheelers: rear only. Trailer > 750 kg: towing vehicle’s plate on the right + red plate.",
-     "Automóviles: delante y detrás. Dos ruedas: solo detrás. Remolque > 750 kg: placa del tractor a la derecha + placa roja."
+     "Automóviles: delante y detrás. Dos ruedas: solo detrás. Remolque > 750 kg: placa del tractor a la derecha + placa roja.",
+     "Легковики: номерні знаки спереду й ззаду. Двоколісні: лише ззаду. Причіп > 750 кг: номер тягача праворуч + червоний номер."
     ]
    ],
    "trap": [
     "Thinking the buyer notifies the sale in 10 days.",
-    "Pensar que el comprador notifica la venta en 10 días."
+    "Pensar que el comprador notifica la venta en 10 días.",
+    "Думати, що покупець повідомляє про продаж за 10 днів."
    ]
   },
   "itv": {
    "sec": 2,
    "en": "ITV",
    "es": "ITV",
+   "uk": "Техогляд (ITV)",
    "recap": [
     [
      "ITV card: technical fitness; pass up to 30 calendar days early without losing time. e-ITV and NIVE (32 characters).",
-     "Tarjeta ITV: aptitud técnica; se puede adelantar 30 días naturales sin perder tiempo. e-ITV y NIVE (32 dígitos)."
+     "Tarjeta ITV: aptitud técnica; se puede adelantar 30 días naturales sin perder tiempo. e-ITV y NIVE (32 dígitos).",
+     "Картка техогляду: технічна придатність; можна пройти до 30 календарних днів раніше без втрати часу. e-ITV і NIVE (32 символи)."
     ],
     [
      "Cars: exempt 4 years, every 2 to 10, then yearly. Mopeds: 3 years exempt. Motorcycles: 4.",
-     "Turismos: exentos 4 años, cada 2 hasta 10, luego anual. Ciclomotores: 3 años exentos. Motos: 4."
+     "Turismos: exentos 4 años, cada 2 hasta 10, luego anual. Ciclomotores: 3 años exentos. Motos: 4.",
+     "Легковики: звільнені 4 роки, кожні 2 до 10, далі щороку. Мопеди: 3 роки звільнені. Мотоцикли: 4."
     ],
     [
      "Vans ≤ 3.5 t: 2 exempt, biennial to 6, annual to 10, then every 6 months.",
-     "Furgonetas ≤ 3,5 t: 2 exentos, bienal hasta 6, anual hasta 10, después semestral."
+     "Furgonetas ≤ 3,5 t: 2 exentos, bienal hasta 6, anual hasta 10, después semestral.",
+     "Фургони ≤ 3,5 т: 2 звільнені, раз на два роки до 6, щороку до 10, далі кожні 6 місяців."
     ],
     [
      "Unfavourable: to the workshop and back. Negative: tow truck. V-19 top right of the windscreen. Overdue: 10-day slip.",
-     "Desfavorable: al taller y vuelta. Negativa: grúa. V-19 arriba a la derecha. Caducada: volante de 10 días."
+     "Desfavorable: al taller y vuelta. Negativa: grúa. V-19 arriba a la derecha. Caducada: volante de 10 días.",
+     "Несприятливий: до майстерні й назад. Негативний: евакуатор. V-19 угорі праворуч на лобовому склі. Прострочений: тимчасовий документ на 10 днів."
     ]
    ],
    "trap": [
     "Thinking you cannot drive at all after an unfavourable ITV.",
-    "Pensar que tras una ITV desfavorable no se puede circular en absoluto."
+    "Pensar que tras una ITV desfavorable no se puede circular en absoluto.",
+    "Думати, що після несприятливого техогляду керувати взагалі не можна."
    ]
   },
   "insurance": {
    "sec": 2,
    "en": "Compulsory insurance",
    "es": "Seguro obligatorio",
+   "uk": "Обов’язкове страхування",
    "recap": [
     [
      "Covers the driver’s civil liability for injuries and damage to others.",
-     "Cubre la responsabilidad civil del conductor por daños a personas y bienes de otros."
+     "Cubre la responsabilidad civil del conductor por daños a personas y bienes de otros.",
+     "Покриває цивільну відповідальність водія за травми й шкоду іншим."
     ],
     [
      "Required: motor vehicles, mopeds, trailers over 750 kg; since 2026 also e-scooters (VMP), after registering them.",
-     "Obligatorio: vehículos de motor, ciclomotores, remolques de más de 750 kg; desde 2026 también VMP, previa inscripción."
+     "Obligatorio: vehículos de motor, ciclomotores, remolques de más de 750 kg; desde 2026 también VMP, previa inscripción.",
+     "Обов’язкове: механічні ТЗ, мопеди, причепи понад 750 кг; з 2026 року й електросамокати (VMP) після реєстрації."
     ],
     [
      "Not covered: the guilty driver’s injuries, the insured vehicle and its load, property of the policyholder and close family.",
-     "No cubre: lesiones del conductor culpable, vehículo asegurado y carga, bienes del tomador y familiares."
+     "No cubre: lesiones del conductor culpable, vehículo asegurado y carga, bienes del tomador y familiares.",
+     "Не покривається: травми винного водія, застрахований ТЗ і його вантаж, майно страхувальника й близьких родичів."
     ],
     [
      "Agents check the FIVA. Uninsured: banned, impounded, fined. Accident form: off the road, report to your insurer in 7 days.",
-     "Los agentes consultan el FIVA. Sin seguro: prohibición, depósito o precinto y multa. Parte: fuera de la vía, comunicar en 7 días."
+     "Los agentes consultan el FIVA. Sin seguro: prohibición, depósito o precinto y multa. Parte: fuera de la vía, comunicar en 7 días.",
+     "Регулювальники перевіряють FIVA. Без страховки: заборона, арешт ТЗ, штраф. Протокол ДТП: поза дорогою, повідомте свого страховика за 7 днів."
     ]
    ],
    "trap": [
     "Thinking the insurance pays the guilty driver’s own injuries.",
-    "Pensar que el seguro paga las lesiones del propio conductor culpable."
+    "Pensar que el seguro paga las lesiones del propio conductor culpable.",
+    "Думати, що страховка оплачує власні травми винного водія."
    ]
   },
   "points": {
    "sec": 3,
    "en": "Points balance",
    "es": "Crédito de puntos",
+   "uk": "Баланс балів",
    "recap": [
     [
      "12 points; 8 for licences under 2 years and for licences regained.",
-     "12 puntos; 8 los permisos de menos de 2 años y los recuperados."
+     "12 puntos; 8 los permisos de menos de 2 años y los recuperados.",
+     "12 балів; 8 — для посвідчень до 2 років і повернутих посвідчень."
     ],
     [
      "Bonus without firm sanctions: +2 after 3 years, +1 after 3 more, maximum 15.",
-     "Bonificación sin sanciones firmes: +2 a los 3 años, +1 a los 3 siguientes, máximo 15."
+     "Bonificación sin sanciones firmes: +2 a los 3 años, +1 a los 3 siguientes, máximo 15.",
+     "Бонус без остаточних санкцій: +2 через 3 роки, +1 ще через 3, максимум 15."
     ],
     [
      "One single credit for all licences. Max 8 points lost per day unless a very serious offence.",
-     "Un único crédito para todas las autorizaciones. Máximo 8 puntos al día salvo infracción muy grave."
+     "Un único crédito para todas las autorizaciones. Máximo 8 puntos al día salvo infracción muy grave.",
+     "Один спільний баланс для всіх посвідчень. Не більше 8 балів за день, якщо немає дуже серйозного порушення."
     ],
     [
      "2 years without firm sanctions: back to the full initial 12.",
-     "2 años sin sanciones firmes: se recupera el crédito inicial de 12."
+     "2 años sin sanciones firmes: se recupera el crédito inicial de 12.",
+     "2 роки без остаточних санкцій: повернення до повних початкових 12."
     ]
    ],
    "trap": [
     "Thinking you can lose more than 8 points in a day for several serious offences.",
-    "Pensar que se pueden perder más de 8 puntos en un día por varias graves."
+    "Pensar que se pueden perder más de 8 puntos en un día por varias graves.",
+    "Думати, що за кілька серйозних порушень можна втратити понад 8 балів за день."
    ]
   },
   "infra": {
    "sec": 3,
    "en": "Offences and points",
    "es": "Infracciones y puntos",
+   "uk": "Порушення й бали",
    "recap": [
     [
      "3 points: illegal U-turn, headphones or phone held by the helmet, radar detector.",
-     "3 puntos: cambio de sentido indebido, auriculares o móvil sujeto en el casco, detector de radar."
+     "3 puntos: cambio de sentido indebido, auriculares o móvil sujeto en el casco, detector de radar.",
+     "3 бали: незаконний розворот, навушники чи телефон під шоломом, радар-детектор."
     ],
     [
      "4 points: STOP/red light/priority, dangerous overtaking, reversing on motorways, distance, seat belt/helmet/child seat, alcohol 0.25–0.50.",
-     "4 puntos: stop/rojo/prioridad, adelantamiento peligroso, marcha atrás en autopista, distancia, cinturón/casco/SRI, alcohol 0,25–0,50."
+     "4 puntos: stop/rojo/prioridad, adelantamiento peligroso, marcha atrás en autopista, distancia, cinturón/casco/SRI, alcohol 0,25–0,50.",
+     "4 бали: STOP/червоний/перевага, небезпечний обгін, задній хід на автомагістралях, дистанція, ремінь/шолом/дитяче крісло, алкоголь 0,25–0,50."
     ],
     [
      "6 points: alcohol over 0.50, drugs, refusing tests, reckless, wrong way, jammers, phone in hand, throwing objects, cyclists without 1.5 m.",
-     "6 puntos: alcohol de más de 0,50, drogas, negarse, temeraria, sentido contrario, inhibidores, móvil en la mano, arrojar objetos, ciclistas sin 1,5 m."
+     "6 puntos: alcohol de más de 0,50, drogas, negarse, temeraria, sentido contrario, inhibidores, móvil en la mano, arrojar objetos, ciclistas sin 1,5 m.",
+     "6 балів: алкоголь понад 0,50, наркотики, відмова від тестів, безрозсудне керування, зустрічний напрямок, глушники, телефон у руці, викидання предметів, велосипедисти без 1,5 м."
     ],
     [
      "Speeding: 100 € no points, then 2, 4, 6 and 6 points (very serious).",
-     "Velocidad: 100 € sin puntos; luego 2, 4, 6 y 6 puntos (muy grave)."
+     "Velocidad: 100 € sin puntos; luego 2, 4, 6 y 6 puntos (muy grave).",
+     "Перевищення швидкості: 100 € без балів, далі 2, 4, 6 і 6 балів (дуже серйозне)."
     ]
    ],
    "trap": [
     "Mixing up headphones (3 points) and a phone held in the hand (6).",
-    "Confundir auriculares (3 puntos) con móvil en la mano (6)."
+    "Confundir auriculares (3 puntos) con móvil en la mano (6).",
+    "Плутати навушники (3 бали) з телефоном у руці (6)."
    ]
   },
   "courses": {
    "sec": 3,
    "en": "Re-education courses",
    "es": "Cursos de reeducación",
+   "uk": "Курси перевиховання",
    "recap": [
     [
      "Partial course: 10 hours, up to 4 points (never more than lost).",
-     "Curso parcial: 10 horas, hasta 4 puntos (nunca más de los perdidos)."
+     "Curso parcial: 10 horas, hasta 4 puntos (nunca más de los perdidos).",
+     "Частковий курс: 10 годин, до 4 балів (ніколи більше, ніж втрачено)."
     ],
     [
      "Once every 2 years; professionals once a year.",
-     "Una vez cada 2 años; profesionales una al año."
+     "Una vez cada 2 años; profesionales una al año.",
+     "Раз на 2 роки; професійні — раз на рік."
     ],
     [
      "Licence course: 20 hours plus a test at the Traffic Office; also after a court ban over 2 years.",
-     "Curso de recuperación del permiso: 20 horas y test en la Jefatura; también tras condena de más de 2 años."
+     "Curso de recuperación del permiso: 20 horas y test en la Jefatura; también tras condena de más de 2 años.",
+     "Курс для повернення посвідчення: 20 годин плюс тест в Управлінні дорожнього руху; також після позбавлення судом понад 2 роки."
     ],
     [
      "Wait 6 months (3 professionals), doubled if lost again within 3 years. Back with 8 points, same seniority.",
-     "Esperar 6 meses (3 profesionales), el doble si se pierde de nuevo en 3 años. Vuelve con 8 puntos y misma antigüedad."
+     "Esperar 6 meses (3 profesionales), el doble si se pierde de nuevo en 3 años. Vuelve con 8 puntos y misma antigüedad.",
+     "Чекати 6 місяців (професійні — 3), удвічі довше, якщо знову втратили протягом 3 років. Повернення з 8 балами, той самий стаж."
     ]
    ],
    "trap": [
     "Thinking the partial course restores 6 points.",
-    "Pensar que el curso parcial devuelve 6 puntos."
+    "Pensar que el curso parcial devuelve 6 puntos.",
+    "Думати, що частковий курс повертає 6 балів."
    ]
   },
   "liability": {
    "sec": 4,
    "en": "Liability and road crimes",
    "es": "Responsabilidad y delitos",
+   "uk": "Відповідальність і злочини на дорозі",
    "recap": [
     [
      "The author answers, but the driver answers for passengers’ helmets and age, and for child restraints (except professional public service).",
-     "Responde el autor, pero el conductor responde del casco y la edad del pasajero, y de la SRI (salvo profesionales de servicio público)."
+     "Responde el autor, pero el conductor responde del casco y la edad del pasajero, y de la SRI (salvo profesionales de servicio público).",
+     "Відповідає порушник, але водій відповідає за шоломи й вік пасажирів і за дитячі крісла (крім професійних громадських перевезень)."
     ],
     [
      "Under-18s: parents or guardians jointly liable for the fine. Documents, ITV and vehicle condition: the owner.",
-     "Menores de 18: padres o tutores responsables solidarios de la multa. Documentación, ITV y estado del vehículo: el titular."
+     "Menores de 18: padres o tutores responsables solidarios de la multa. Documentación, ITV y estado del vehículo: el titular.",
+     "До 18 років: батьки чи опікуни солідарно відповідають за штраф. Документи, техогляд і стан ТЗ: власник."
     ],
     [
      "The owner must identify the driver; a named habitual driver answers when the vehicle was not stopped.",
-     "El titular debe identificar al conductor; si hay conductor habitual, responde él cuando no se detuvo el vehículo."
+     "El titular debe identificar al conductor; si hay conductor habitual, responde él cuando no se detuvo el vehículo.",
+     "Власник мусить встановити водія; вказаний постійний водій відповідає, коли ТЗ не зупиняли."
     ],
     [
      "Crimes: +60 km/h urban / +80 interurban, over 0.60 mg/l or drugs, refusing tests, reckless driving, driving without a licence, serious risk.",
-     "Delitos: +60 km/h urbana / +80 interurbana, más de 0,60 mg/l o drogas, negarse a las pruebas, temeraria, sin carné, grave riesgo."
+     "Delitos: +60 km/h urbana / +80 interurbana, más de 0,60 mg/l o drogas, negarse a las pruebas, temeraria, sin carné, grave riesgo.",
+     "Злочини: +60 км/год у місті / +80 поза ним, понад 0,60 мг/л чи наркотики, відмова від тестів, безрозсудне керування, керування без посвідчення, серйозний ризик."
     ]
    ],
    "trap": [
     "Thinking the owner always pays, whoever drove.",
-    "Pensar que el titular siempre responde, condujera quien condujera."
+    "Pensar que el titular siempre responde, condujera quien condujera.",
+    "Думати, що завжди платить власник, хоч би хто керував."
    ]
   }
  }

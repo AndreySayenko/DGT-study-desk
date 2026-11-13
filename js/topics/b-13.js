@@ -4,11 +4,13 @@ window.DGT_DATA = {
  "category": "b",
  "langs": [
   "en",
-  "es"
+  "es",
+  "uk"
  ],
  "title": {
   "en": "Topic 13 · Vehicle maintenance and accessories",
-  "es": "Tema 13 · Mantenimiento del vehículo y accesorios"
+  "es": "Tema 13 · Mantenimiento del vehículo y accesorios",
+  "uk": "Тема 13 · Технічне обслуговування автомобіля та приладдя"
  },
  "bank": [
   {
@@ -16,25 +18,30 @@ window.DGT_DATA = {
    "tag": "engine",
    "q": {
     "en": "Correct maintenance of the vehicle…",
-    "es": "Un correcto mantenimiento del vehículo…"
+    "es": "Un correcto mantenimiento del vehículo…",
+    "uk": "Правильне обслуговування автомобіля…"
    },
    "o": [
     {
      "en": "makes it last longer, prevents failures, saves fuel and pollutes less",
-     "es": "alarga su vida, previene averías, ahorra combustible y contamina menos"
+     "es": "alarga su vida, previene averías, ahorra combustible y contamina menos",
+     "uk": "подовжує його життя, запобігає несправностям, заощаджує пальне й менше забруднює"
     },
     {
      "en": "only matters for the ITV",
-     "es": "solo importa para la ITV"
+     "es": "solo importa para la ITV",
+     "uk": "важливе лише для техогляду"
     },
     {
      "en": "increases fuel use",
-     "es": "aumenta el consumo"
+     "es": "aumenta el consumo",
+     "uk": "збільшує витрату пального"
     }
    ],
    "why": {
     "en": "Above all the maintenance the manufacturer sets.",
-    "es": "Sobre todo el establecido por el fabricante."
+    "es": "Sobre todo el establecido por el fabricante.",
+    "uk": "Передусім те обслуговування, яке встановлює виробник."
    }
   },
   {
@@ -42,25 +49,30 @@ window.DGT_DATA = {
    "tag": "engine",
    "q": {
     "en": "On a cold morning, white smoke comes out of the exhaust when you start. It is…",
-    "es": "Una mañana fría sale humo blanco del escape al arrancar. Es…"
+    "es": "Una mañana fría sale humo blanco del escape al arrancar. Es…",
+    "uk": "Холодного ранку, коли ви заводите двигун, із вихлопу йде білий дим. Це…"
    },
    "o": [
     {
      "en": "water vapour — not a fault",
-     "es": "vapor de agua, no es avería"
+     "es": "vapor de agua, no es avería",
+     "uk": "водяна пара — не несправність"
     },
     {
      "en": "burning oil",
-     "es": "aceite quemado"
+     "es": "aceite quemado",
+     "uk": "горить олива"
     },
     {
      "en": "too much fuel",
-     "es": "exceso de carburante"
+     "es": "exceso de carburante",
+     "uk": "забагато пального"
     }
    ],
    "why": {
     "en": "If it goes on with the engine warm, have it checked.",
-    "es": "Si sigue con el motor caliente, hay que revisarlo."
+    "es": "Si sigue con el motor caliente, hay que revisarlo.",
+    "uk": "Якщо він не зникає на прогрітому двигуні, перевірте автомобіль."
    }
   },
   {
@@ -68,25 +80,30 @@ window.DGT_DATA = {
    "tag": "engine",
    "q": {
     "en": "Bluish-white smoke from the exhaust means…",
-    "es": "El humo blanco azulado por el escape indica…"
+    "es": "El humo blanco azulado por el escape indica…",
+    "uk": "Синювато-білий дим із вихлопу означає, що…"
    },
    "o": [
     {
      "en": "the engine is burning too much oil",
-     "es": "que el motor consume demasiado aceite"
+     "es": "que el motor consume demasiado aceite",
+     "uk": "двигун спалює забагато оливи"
     },
     {
      "en": "water vapour",
-     "es": "vapor de agua"
+     "es": "vapor de agua",
+     "uk": "це водяна пара"
     },
     {
      "en": "a dirty air filter only",
-     "es": "solo un filtro de aire sucio"
+     "es": "solo un filtro de aire sucio",
+     "uk": "лише брудний повітряний фільтр"
     }
    ],
    "why": {
     "en": "Excess oil can also damage the catalyst.",
-    "es": "El exceso de aceite también puede dañar el catalizador."
+    "es": "El exceso de aceite también puede dañar el catalizador.",
+    "uk": "Зайва олива може ще й пошкодити каталізатор."
    }
   },
   {
@@ -94,25 +111,30 @@ window.DGT_DATA = {
    "tag": "engine",
    "q": {
     "en": "Black smoke from the exhaust means…",
-    "es": "El humo negro por el escape indica…"
+    "es": "El humo negro por el escape indica…",
+    "uk": "Чорний дим із вихлопу означає…"
    },
    "o": [
     {
      "en": "too much fuel or too little air",
-     "es": "exceso de carburante o falta de aire"
+     "es": "exceso de carburante o falta de aire",
+     "uk": "забагато пального чи замало повітря"
     },
     {
      "en": "burning oil",
-     "es": "consumo de aceite"
+     "es": "consumo de aceite",
+     "uk": "горить олива"
     },
     {
      "en": "a cold engine",
-     "es": "motor frío"
+     "es": "motor frío",
+     "uk": "двигун холодний"
     }
    ],
    "why": {
     "en": "Unbalanced combustion: more fuel use and pollution.",
-    "es": "Combustión desequilibrada: más consumo y contaminación."
+    "es": "Combustión desequilibrada: más consumo y contaminación.",
+    "uk": "Незбалансоване згоряння: більша витрата й забруднення."
    }
   },
   {
@@ -120,25 +142,30 @@ window.DGT_DATA = {
    "tag": "engine",
    "q": {
     "en": "Many breakdowns are due to…",
-    "es": "Gran parte de las averías se deben a…"
+    "es": "Gran parte de las averías se deben a…",
+    "uk": "Багато несправностей стаються через…"
    },
    "o": [
     {
      "en": "no, poor or wrong maintenance by the driver",
-     "es": "un mantenimiento nulo, deficiente o equivocado del conductor"
+     "es": "un mantenimiento nulo, deficiente o equivocado del conductor",
+     "uk": "відсутнє, погане чи неправильне обслуговування з боку водія"
     },
     {
      "en": "bad luck",
-     "es": "la mala suerte"
+     "es": "la mala suerte",
+     "uk": "невезіння"
     },
     {
      "en": "the weather",
-     "es": "el clima"
+     "es": "el clima",
+     "uk": "погоду"
     }
    ],
    "why": {
     "en": "And they can be avoided.",
-    "es": "Y se pueden evitar."
+    "es": "Y se pueden evitar.",
+    "uk": "І їх можна уникнути."
    }
   },
   {
@@ -146,25 +173,30 @@ window.DGT_DATA = {
    "tag": "engine",
    "q": {
     "en": "Most vehicles today use…",
-    "es": "La mayoría de los vehículos actuales usan…"
+    "es": "La mayoría de los vehículos actuales usan…",
+    "uk": "Більшість сучасних ТЗ мають…"
    },
    "o": [
     {
      "en": "heat engines burning petrol or diesel",
-     "es": "motores térmicos de gasolina o gasóleo"
+     "es": "motores térmicos de gasolina o gasóleo",
+     "uk": "теплові двигуни, що спалюють бензин чи дизельне пальне"
     },
     {
      "en": "only electric motors",
-     "es": "solo motores eléctricos"
+     "es": "solo motores eléctricos",
+     "uk": "лише електродвигуни"
     },
     {
      "en": "hydrogen only",
-     "es": "solo hidrógeno"
+     "es": "solo hidrógeno",
+     "uk": "лише водневі двигуни"
     }
    ],
    "why": {
     "en": "Electric, hybrid and hydrogen are growing.",
-    "es": "Crecen los eléctricos, híbridos y de hidrógeno."
+    "es": "Crecen los eléctricos, híbridos y de hidrógeno.",
+    "uk": "Електричних, гібридних і водневих стає дедалі більше."
    }
   },
   {
@@ -172,25 +204,30 @@ window.DGT_DATA = {
    "tag": "engine",
    "q": {
     "en": "In what share of accidents is the vehicle the cause?",
-    "es": "¿En qué porcentaje de accidentes el vehículo es la causa?"
+    "es": "¿En qué porcentaje de accidentes el vehículo es la causa?",
+    "uk": "У якій частці ДТП причиною є транспортний засіб?"
    },
    "o": [
     {
      "en": "4–13 %",
-     "es": "4–13 %"
+     "es": "4–13 %",
+     "uk": "4–13 %"
     },
     {
      "en": "70–90 %",
-     "es": "70–90 %"
+     "es": "70–90 %",
+     "uk": "70–90 %"
     },
     {
      "en": "50 %",
-     "es": "50 %"
+     "es": "50 %",
+     "uk": "50 %"
     }
    ],
    "why": {
     "en": "The driver: 70–90 %.",
-    "es": "El conductor: 70–90 %."
+    "es": "El conductor: 70–90 %.",
+    "uk": "Водій: 70–90 %."
    }
   },
   {
@@ -198,25 +235,30 @@ window.DGT_DATA = {
    "tag": "fuel",
    "q": {
     "en": "The fuel-supply system…",
-    "es": "El sistema de alimentación…"
+    "es": "El sistema de alimentación…",
+    "uk": "Система живлення…"
    },
    "o": [
     {
      "en": "delivers air and fuel to the cylinders",
-     "es": "hace llegar aire y combustible a los cilindros"
+     "es": "hace llegar aire y combustible a los cilindros",
+     "uk": "подає повітря й пальне в циліндри"
     },
     {
      "en": "cools the engine",
-     "es": "refrigera el motor"
+     "es": "refrigera el motor",
+     "uk": "охолоджує двигун"
     },
     {
      "en": "charges the battery",
-     "es": "carga la batería"
+     "es": "carga la batería",
+     "uk": "заряджає акумулятор"
     }
    ],
    "why": {
     "en": "Air circuit and fuel circuit.",
-    "es": "Circuito de aire y de carburante."
+    "es": "Circuito de aire y de carburante.",
+    "uk": "Повітряний контур і паливний контур."
    }
   },
   {
@@ -224,25 +266,30 @@ window.DGT_DATA = {
    "tag": "fuel",
    "q": {
     "en": "A clogged air filter causes…",
-    "es": "Un filtro de aire obstruido provoca…"
+    "es": "Un filtro de aire obstruido provoca…",
+    "uk": "Забитий повітряний фільтр спричиняє…"
    },
    "o": [
     {
      "en": "more fuel use and more pollution",
-     "es": "más consumo y más contaminación"
+     "es": "más consumo y más contaminación",
+     "uk": "більшу витрату пального й більше забруднення"
     },
     {
      "en": "less fuel use",
-     "es": "menos consumo"
+     "es": "menos consumo",
+     "uk": "меншу витрату пального"
     },
     {
      "en": "nothing",
-     "es": "nada"
+     "es": "nada",
+     "uk": "нічого"
     }
    ],
    "why": {
     "en": "Replace it as the maker says.",
-    "es": "Sustituirlo según el fabricante."
+    "es": "Sustituirlo según el fabricante.",
+    "uk": "Міняйте його, як каже виробник."
    }
   },
   {
@@ -250,25 +297,30 @@ window.DGT_DATA = {
    "tag": "fuel",
    "q": {
     "en": "The air filter usually gets dirtier in…",
-    "es": "El filtro de aire suele ensuciarse más en…"
+    "es": "El filtro de aire suele ensuciarse más en…",
+    "uk": "Повітряний фільтр зазвичай брудниться швидше…"
    },
    "o": [
     {
      "en": "summer",
-     "es": "verano"
+     "es": "verano",
+     "uk": "влітку"
     },
     {
      "en": "winter",
-     "es": "invierno"
+     "es": "invierno",
+     "uk": "взимку"
     },
     {
      "en": "rainy weather",
-     "es": "tiempo lluvioso"
+     "es": "tiempo lluvioso",
+     "uk": "в дощову погоду"
     }
    ],
    "why": {
     "en": "More dust.",
-    "es": "Más polvo."
+    "es": "Más polvo.",
+    "uk": "Більше пилу."
    }
   },
   {
@@ -276,25 +328,30 @@ window.DGT_DATA = {
    "tag": "fuel",
    "q": {
     "en": "The ‘idle’ (ralentí) is…",
-    "es": "El ralentí es…"
+    "es": "El ralentí es…",
+    "uk": "Холостий хід (ralentí) — це…"
    },
    "o": [
     {
      "en": "the engine running with the car stopped, in neutral or with the clutch pressed",
-     "es": "el motor en marcha con el coche parado, en punto muerto o con el embrague pisado"
+     "es": "el motor en marcha con el coche parado, en punto muerto o con el embrague pisado",
+     "uk": "робота двигуна, коли автомобіль стоїть на нейтралі чи з вичавленим зчепленням"
     },
     {
      "en": "the top speed",
-     "es": "la velocidad máxima"
+     "es": "la velocidad máxima",
+     "uk": "найбільша швидкість"
     },
     {
      "en": "the engine switched off",
-     "es": "el motor apagado"
+     "es": "el motor apagado",
+     "uk": "вимкнений двигун"
     }
    ],
    "why": {
     "en": "Check it if fuel use rises.",
-    "es": "Revisarlo si sube el consumo."
+    "es": "Revisarlo si sube el consumo.",
+    "uk": "Перевірте його, якщо зросла витрата пального."
    }
   },
   {
@@ -302,25 +359,30 @@ window.DGT_DATA = {
    "tag": "fuel",
    "q": {
     "en": "If the idle speed is too low…",
-    "es": "Si el ralentí está demasiado bajo…"
+    "es": "Si el ralentí está demasiado bajo…",
+    "uk": "Якщо оберти холостого ходу занизькі…"
    },
    "o": [
     {
      "en": "the engine can stall",
-     "es": "el motor se puede calar"
+     "es": "el motor se puede calar",
+     "uk": "двигун може заглухнути"
     },
     {
      "en": "fuel use rises a lot",
-     "es": "el consumo sube mucho"
+     "es": "el consumo sube mucho",
+     "uk": "витрата пального сильно зростає"
     },
     {
      "en": "the battery overcharges",
-     "es": "la batería se sobrecarga"
+     "es": "la batería se sobrecarga",
+     "uk": "акумулятор перезаряджається"
     }
    ],
    "why": {
     "en": "Too high: more fuel.",
-    "es": "Demasiado alto: más consumo."
+    "es": "Demasiado alto: más consumo.",
+    "uk": "Зависокі: більша витрата пального."
    }
   },
   {
@@ -328,25 +390,30 @@ window.DGT_DATA = {
    "tag": "fuel",
    "q": {
     "en": "Fuel use has gone up. One thing to check is…",
-    "es": "Ha aumentado el consumo. Algo que conviene revisar es…"
+    "es": "Ha aumentado el consumo. Algo que conviene revisar es…",
+    "uk": "Зросла витрата пального. Що варто перевірити?"
    },
    "o": [
     {
      "en": "the idle speed, which may be too high",
-     "es": "el ralentí, que puede estar demasiado alto"
+     "es": "el ralentí, que puede estar demasiado alto",
+     "uk": "Оберти холостого ходу: вони можуть бути зависокими"
     },
     {
      "en": "the horn",
-     "es": "la bocina"
+     "es": "la bocina",
+     "uk": "Звуковий сигнал"
     },
     {
      "en": "the seat belts",
-     "es": "los cinturones"
+     "es": "los cinturones",
+     "uk": "Паски безпеки"
     }
    ],
    "why": {
     "en": "And the air filter.",
-    "es": "Y el filtro de aire."
+    "es": "Y el filtro de aire.",
+    "uk": "І повітряний фільтр."
    }
   },
   {
@@ -354,25 +421,30 @@ window.DGT_DATA = {
    "tag": "fuel",
    "q": {
     "en": "When should the fuel filter be replaced?",
-    "es": "¿Cuándo se sustituye el filtro de combustible?"
+    "es": "¿Cuándo se sustituye el filtro de combustible?",
+    "uk": "Коли міняти паливний фільтр?"
    },
    "o": [
     {
      "en": "When the manufacturer says",
-     "es": "Cuando lo indique el fabricante"
+     "es": "Cuando lo indique el fabricante",
+     "uk": "Коли каже виробник"
     },
     {
      "en": "Never",
-     "es": "Nunca"
+     "es": "Nunca",
+     "uk": "Ніколи"
     },
     {
      "en": "Every month",
-     "es": "Cada mes"
+     "es": "Cada mes",
+     "uk": "Щомісяця"
     }
    ],
    "why": {
     "en": "Follow the maintenance plan.",
-    "es": "Según el plan de mantenimiento."
+    "es": "Según el plan de mantenimiento.",
+    "uk": "Дотримуйтеся плану обслуговування."
    }
   },
   {
@@ -380,25 +452,30 @@ window.DGT_DATA = {
    "tag": "exhaust",
    "q": {
     "en": "The exhaust system…",
-    "es": "El sistema de escape…"
+    "es": "El sistema de escape…",
+    "uk": "Вихлопна система…"
    },
    "o": [
     {
      "en": "takes the combustion gases to the rear of the vehicle",
-     "es": "lleva los gases de la combustión a la parte trasera"
+     "es": "lleva los gases de la combustión a la parte trasera",
+     "uk": "відводить відпрацьовані гази в задню частину ТЗ"
     },
     {
      "en": "brings fresh air into the engine",
-     "es": "introduce aire en el motor"
+     "es": "introduce aire en el motor",
+     "uk": "подає свіже повітря в двигун"
     },
     {
      "en": "cools the brakes",
-     "es": "refrigera los frenos"
+     "es": "refrigera los frenos",
+     "uk": "охолоджує гальма"
     }
    ],
    "why": {
     "en": "And reduces their harm.",
-    "es": "Y reduce sus daños."
+    "es": "Y reduce sus daños.",
+    "uk": "І зменшує їхню шкоду."
    }
   },
   {
@@ -406,25 +483,30 @@ window.DGT_DATA = {
    "tag": "exhaust",
    "q": {
     "en": "The silencer…",
-    "es": "El silenciador…"
+    "es": "El silenciador…",
+    "uk": "Глушник…"
    },
    "o": [
     {
      "en": "lowers the noise and keeps gases from coming out too hot",
-     "es": "disminuye el ruido y evita que los gases salgan muy calientes"
+     "es": "disminuye el ruido y evita que los gases salgan muy calientes",
+     "uk": "зменшує шум і не дає газам виходити надто гарячими"
     },
     {
      "en": "cuts toxic gases",
-     "es": "reduce los gases tóxicos"
+     "es": "reduce los gases tóxicos",
+     "uk": "знешкоджує токсичні гази"
     },
     {
      "en": "filters the fuel",
-     "es": "filtra el combustible"
+     "es": "filtra el combustible",
+     "uk": "фільтрує пальне"
     }
    ],
    "why": {
     "en": "The catalyst cuts toxic gases.",
-    "es": "El catalizador reduce los gases tóxicos."
+    "es": "El catalizador reduce los gases tóxicos.",
+    "uk": "Токсичні гази знешкоджує каталізатор."
    }
   },
   {
@@ -432,25 +514,30 @@ window.DGT_DATA = {
    "tag": "exhaust",
    "q": {
     "en": "The catalytic converter…",
-    "es": "El catalizador…"
+    "es": "El catalizador…",
+    "uk": "Каталізатор…"
    },
    "o": [
     {
      "en": "cuts the toxic gases almost completely",
-     "es": "reduce los gases tóxicos casi por completo"
+     "es": "reduce los gases tóxicos casi por completo",
+     "uk": "майже повністю знешкоджує токсичні гази"
     },
     {
      "en": "lowers the noise",
-     "es": "disminuye el ruido"
+     "es": "disminuye el ruido",
+     "uk": "зменшує шум"
     },
     {
      "en": "cools the engine",
-     "es": "refrigera el motor"
+     "es": "refrigera el motor",
+     "uk": "охолоджує двигун"
     }
    ],
    "why": {
     "en": "Replace it about every 150,000 km.",
-    "es": "Sustituirlo cada 150.000 km aprox."
+    "es": "Sustituirlo cada 150.000 km aprox.",
+    "uk": "Міняйте його приблизно кожні 150 000 км."
    }
   },
   {
@@ -458,25 +545,30 @@ window.DGT_DATA = {
    "tag": "exhaust",
    "q": {
     "en": "According to your course, the catalyst should be replaced about every…",
-    "es": "Según tu curso, el catalizador se sustituye aproximadamente cada…"
+    "es": "Según tu curso, el catalizador se sustituye aproximadamente cada…",
+    "uk": "За вашим курсом, каталізатор треба міняти приблизно кожні…"
    },
    "o": [
     {
      "en": "150,000 km",
-     "es": "150.000 km"
+     "es": "150.000 km",
+     "uk": "150 000 км"
     },
     {
      "en": "15,000 km",
-     "es": "15.000 km"
+     "es": "15.000 km",
+     "uk": "15 000 км"
     },
     {
      "en": "500,000 km",
-     "es": "500.000 km"
+     "es": "500.000 km",
+     "uk": "500 000 км"
     }
    ],
    "why": {
     "en": "Avoid knocks underneath.",
-    "es": "Evitar golpes en los bajos."
+    "es": "Evitar golpes en los bajos.",
+    "uk": "Уникайте ударів знизу."
    }
   },
   {
@@ -484,25 +576,30 @@ window.DGT_DATA = {
    "tag": "exhaust",
    "q": {
     "en": "What can damage the catalyst?",
-    "es": "¿Qué puede dañar el catalizador?"
+    "es": "¿Qué puede dañar el catalizador?",
+    "uk": "Що може пошкодити каталізатор?"
    },
    "o": [
     {
      "en": "Burning too much oil, or regularly running the tank almost empty",
-     "es": "Un consumo excesivo de aceite o apurar regularmente el depósito"
+     "es": "Un consumo excesivo de aceite o apurar regularmente el depósito",
+     "uk": "Спалювання забагато оливи чи регулярна їзда з майже порожнім баком"
     },
     {
      "en": "Washing the car",
-     "es": "Lavar el coche"
+     "es": "Lavar el coche",
+     "uk": "Миття автомобіля"
     },
     {
      "en": "Using the air conditioning",
-     "es": "Usar el aire acondicionado"
+     "es": "Usar el aire acondicionado",
+     "uk": "Користування кондиціонером"
     }
    ],
    "why": {
     "en": "Also knocks underneath.",
-    "es": "También los golpes en los bajos."
+    "es": "También los golpes en los bajos.",
+    "uk": "А також удари знизу."
    }
   },
   {
@@ -510,25 +607,30 @@ window.DGT_DATA = {
    "tag": "exhaust",
    "q": {
     "en": "Driving with no silencer, or a faulty one, is…",
-    "es": "Circular sin silenciador o con uno defectuoso…"
+    "es": "Circular sin silenciador o con uno defectuoso…",
+    "uk": "Їздити без глушника чи з несправним глушником…"
    },
    "o": [
     {
      "en": "prohibited in town and out of town",
-     "es": "está prohibido en poblado y fuera"
+     "es": "está prohibido en poblado y fuera",
+     "uk": "заборонено і в населеному пункті, і поза ним"
     },
     {
      "en": "allowed out of town",
-     "es": "se permite fuera de poblado"
+     "es": "se permite fuera de poblado",
+     "uk": "дозволено за містом"
     },
     {
      "en": "allowed at night",
-     "es": "se permite de noche"
+     "es": "se permite de noche",
+     "uk": "дозволено вночі"
     }
    ],
    "why": {
     "en": "Except electric vehicles.",
-    "es": "Salvo vehículos eléctricos."
+    "es": "Salvo vehículos eléctricos.",
+    "uk": "Крім електромобілів."
    }
   },
   {
@@ -536,25 +638,30 @@ window.DGT_DATA = {
    "tag": "exhaust",
    "q": {
     "en": "Which vehicles do not need a silencer?",
-    "es": "¿Qué vehículos no necesitan silenciador?"
+    "es": "¿Qué vehículos no necesitan silenciador?",
+    "uk": "Яким ТЗ не потрібен глушник?"
    },
    "o": [
     {
      "en": "Electric vehicles",
-     "es": "Los eléctricos"
+     "es": "Los eléctricos",
+     "uk": "Електромобілям"
     },
     {
      "en": "Mopeds",
-     "es": "Los ciclomotores"
+     "es": "Los ciclomotores",
+     "uk": "Мопедам"
     },
     {
      "en": "Diesel cars",
-     "es": "Los turismos diésel"
+     "es": "Los turismos diésel",
+     "uk": "Дизельним легковикам"
     }
    ],
    "why": {
     "en": "They have no combustion explosions.",
-    "es": "No tienen explosiones de combustión."
+    "es": "No tienen explosiones de combustión.",
+    "uk": "У них немає вибухів згоряння."
    }
   },
   {
@@ -562,25 +669,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "The lubrication system…",
-    "es": "El sistema de lubricación…"
+    "es": "El sistema de lubricación…",
+    "uk": "Система змащення…"
    },
    "o": [
     {
      "en": "puts a film of oil between metal parts to reduce friction and wear",
-     "es": "interpone una película de aceite entre las piezas para reducir rozamiento y desgaste"
+     "es": "interpone una película de aceite entre las piezas para reducir rozamiento y desgaste",
+     "uk": "створює плівку оливи між металевими деталями, зменшуючи тертя й знос"
     },
     {
      "en": "cools the coolant",
-     "es": "enfría el refrigerante"
+     "es": "enfría el refrigerante",
+     "uk": "охолоджує охолоджувальну рідину"
     },
     {
      "en": "feeds the spark plugs",
-     "es": "alimenta las bujías"
+     "es": "alimenta las bujías",
+     "uk": "живить свічки"
     }
    ],
    "why": {
     "en": "Avoids early wear.",
-    "es": "Evita un desgaste prematuro."
+    "es": "Evita un desgaste prematuro.",
+    "uk": "Запобігає передчасному зносу."
    }
   },
   {
@@ -588,25 +700,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "The red oil-pressure light comes on while driving. You should…",
-    "es": "Se enciende el testigo rojo de presión de aceite. Hay que…"
+    "es": "Se enciende el testigo rojo de presión de aceite. Hay que…",
+    "uk": "Під час руху загорілася червона лампа тиску оливи. Що робити?"
    },
    "o": [
     {
      "en": "stop the engine quickly",
-     "es": "detener el motor rápidamente"
+     "es": "detener el motor rápidamente",
+     "uk": "Швидко зупинити двигун"
     },
     {
      "en": "carry on to the next service",
-     "es": "seguir hasta la próxima revisión"
+     "es": "seguir hasta la próxima revisión",
+     "uk": "Їхати до наступного ТО"
     },
     {
      "en": "speed up",
-     "es": "acelerar"
+     "es": "acelerar",
+     "uk": "Прискоритися"
     }
    ],
    "why": {
     "en": "The pressure is below the minimum.",
-    "es": "La presión está por debajo del mínimo."
+    "es": "La presión está por debajo del mínimo.",
+    "uk": "Тиск нижчий за мінімальний."
    }
   },
   {
@@ -614,25 +731,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "To check the oil level, the engine should be…",
-    "es": "Para comprobar el nivel de aceite, el motor debe estar…"
+    "es": "Para comprobar el nivel de aceite, el motor debe estar…",
+    "uk": "Щоб перевірити рівень оливи, двигун має бути…"
    },
    "o": [
     {
      "en": "stopped and cold, with the car level",
-     "es": "parado y frío, con el coche en llano"
+     "es": "parado y frío, con el coche en llano",
+     "uk": "зупинений і холодний, автомобіль рівно"
     },
     {
      "en": "running and hot",
-     "es": "en marcha y caliente"
+     "es": "en marcha y caliente",
+     "uk": "працюючий і гарячий"
     },
     {
      "en": "running at idle",
-     "es": "al ralentí"
+     "es": "al ralentí",
+     "uk": "на холостому ходу"
     }
    ],
    "why": {
     "en": "Use the dipstick.",
-    "es": "Con la varilla indicadora."
+    "es": "Con la varilla indicadora.",
+    "uk": "Користуйтеся щупом."
    }
   },
   {
@@ -640,25 +762,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "On the dipstick, the oil should be…",
-    "es": "En la varilla, el aceite debe estar…"
+    "es": "En la varilla, el aceite debe estar…",
+    "uk": "На щупі олива має бути…"
    },
    "o": [
     {
      "en": "between the MIN and MAX marks",
-     "es": "entre las marcas de mínimo y máximo"
+     "es": "entre las marcas de mínimo y máximo",
+     "uk": "між позначками MIN і MAX"
     },
     {
      "en": "above MAX",
-     "es": "por encima del máximo"
+     "es": "por encima del máximo",
+     "uk": "вище MAX"
     },
     {
      "en": "below MIN",
-     "es": "por debajo del mínimo"
+     "es": "por debajo del mínimo",
+     "uk": "нижче MIN"
     }
    ],
    "why": {
     "en": "Pull out, wipe, put back, pull out again and read.",
-    "es": "Sacar, limpiar, volver a meter, sacar y leer."
+    "es": "Sacar, limpiar, volver a meter, sacar y leer.",
+    "uk": "Витягніть, витріть, вставте, знову витягніть і подивіться."
    }
   },
   {
@@ -666,25 +793,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "The oil is best changed with the engine…",
-    "es": "El cambio de aceite se hace mejor con el motor…"
+    "es": "El cambio de aceite se hace mejor con el motor…",
+    "uk": "Оливу краще міняти, коли двигун…"
    },
    "o": [
     {
      "en": "warm, because the oil flows better",
-     "es": "caliente, porque el aceite es más fluido"
+     "es": "caliente, porque el aceite es más fluido",
+     "uk": "теплий, бо олива краще витікає"
     },
     {
      "en": "cold",
-     "es": "frío"
+     "es": "frío",
+     "uk": "холодний"
     },
     {
      "en": "running",
-     "es": "en marcha"
+     "es": "en marcha",
+     "uk": "працює"
     }
    ],
    "why": {
     "en": "With the car level.",
-    "es": "Con el coche en llano."
+    "es": "Con el coche en llano.",
+    "uk": "Автомобіль рівно."
    }
   },
   {
@@ -692,25 +824,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "Used engine oil is drained through…",
-    "es": "El aceite usado se vacía por…"
+    "es": "El aceite usado se vacía por…",
+    "uk": "Відпрацьовану моторну оливу зливають через…"
    },
    "o": [
     {
      "en": "the drain plug at the bottom of the sump",
-     "es": "el tapón de vaciado de la parte inferior del cárter"
+     "es": "el tapón de vaciado de la parte inferior del cárter",
+     "uk": "зливну пробку внизу картера"
     },
     {
      "en": "the dipstick tube",
-     "es": "el tubo de la varilla"
+     "es": "el tubo de la varilla",
+     "uk": "трубку щупа"
     },
     {
      "en": "the radiator",
-     "es": "el radiador"
+     "es": "el radiador",
+     "uk": "радіатор"
     }
    ],
    "why": {
     "en": "Refill through the cap on top.",
-    "es": "Se rellena por el tapón superior."
+    "es": "Se rellena por el tapón superior.",
+    "uk": "Нову заливають через кришку зверху."
    }
   },
   {
@@ -718,25 +855,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "In an oil marked SAE 10W-60, the ‘W’ means…",
-    "es": "En un aceite SAE 10W-60, la «W» significa…"
+    "es": "En un aceite SAE 10W-60, la «W» significa…",
+    "uk": "В оливі з маркуванням SAE 10W-60 літера «W» означає…"
    },
    "o": [
     {
      "en": "winter: the first number is for the cold",
-     "es": "winter (invierno): el primer número es para frío"
+     "es": "winter (invierno): el primer número es para frío",
+     "uk": "зиму (winter): перше число — для холоду"
     },
     {
      "en": "weight",
-     "es": "peso"
+     "es": "peso",
+     "uk": "вагу (weight)"
     },
     {
      "en": "water",
-     "es": "agua"
+     "es": "agua",
+     "uk": "воду (water)"
     }
    ],
    "why": {
     "en": "The second number is for hot temperatures.",
-    "es": "El segundo número, para temperaturas altas."
+    "es": "El segundo número, para temperaturas altas.",
+    "uk": "Друге число — для високих температур."
    }
   },
   {
@@ -744,25 +886,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "A multigrade oil…",
-    "es": "Un aceite multigrado…"
+    "es": "Un aceite multigrado…",
+    "uk": "Всесезонна олива…"
    },
    "o": [
     {
      "en": "has two viscosity grades, one for cold and one for hot",
-     "es": "tiene dos grados de viscosidad, para frío y para caliente"
+     "es": "tiene dos grados de viscosidad, para frío y para caliente",
+     "uk": "має два класи в’язкості: один для холоду, другий для спеки"
     },
     {
      "en": "only works in winter",
-     "es": "solo sirve en invierno"
+     "es": "solo sirve en invierno",
+     "uk": "працює лише взимку"
     },
     {
      "en": "never needs changing",
-     "es": "no hay que cambiarlo nunca"
+     "es": "no hay que cambiarlo nunca",
+     "uk": "ніколи не потребує заміни"
     }
    ],
    "why": {
     "en": "Low number = fluid, high = viscous.",
-    "es": "Número bajo = fluido; alto = viscoso."
+    "es": "Número bajo = fluido; alto = viscoso.",
+    "uk": "Мале число — рідка, велике — в’язка."
    }
   },
   {
@@ -770,25 +917,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "May you change your car’s oil in the street?",
-    "es": "¿Puedes cambiar el aceite de tu coche en la calle?"
+    "es": "¿Puedes cambiar el aceite de tu coche en la calle?",
+    "uk": "Чи можна міняти оливу автомобіля на вулиці?"
    },
    "o": [
     {
      "en": "No: it is very polluting; take the oil to a recovery container",
-     "es": "No: es muy contaminante; se entrega en un contenedor de recuperación"
+     "es": "No: es muy contaminante; se entrega en un contenedor de recuperación",
+     "uk": "Ні: це дуже забруднює; віднесіть оливу в контейнер для збору"
     },
     {
      "en": "Yes, if you are careful",
-     "es": "Sí, con cuidado"
+     "es": "Sí, con cuidado",
+     "uk": "Так, якщо обережно"
     },
     {
      "en": "Yes, at night",
-     "es": "Sí, de noche"
+     "es": "Sí, de noche",
+     "uk": "Так, уночі"
     }
    ],
    "why": {
     "en": "Never on the public road.",
-    "es": "Nunca en la vía pública."
+    "es": "Nunca en la vía pública.",
+    "uk": "Ніколи на дорозі загального користування."
    }
   },
   {
@@ -796,25 +948,30 @@ window.DGT_DATA = {
    "tag": "lube",
    "q": {
     "en": "The oil filter should be replaced…",
-    "es": "El filtro de aceite se sustituye…"
+    "es": "El filtro de aceite se sustituye…",
+    "uk": "Оливний фільтр треба міняти…"
    },
    "o": [
     {
      "en": "as the manufacturer says",
-     "es": "según indique el fabricante"
+     "es": "según indique el fabricante",
+     "uk": "як каже виробник"
     },
     {
      "en": "never",
-     "es": "nunca"
+     "es": "nunca",
+     "uk": "ніколи"
     },
     {
      "en": "only at the ITV",
-     "es": "solo en la ITV"
+     "es": "solo en la ITV",
+     "uk": "лише на техогляді"
     }
    ],
    "why": {
     "en": "Usually with the oil change.",
-    "es": "Normalmente con el cambio de aceite."
+    "es": "Normalmente con el cambio de aceite.",
+    "uk": "Зазвичай разом із заміною оливи."
    }
   },
   {
@@ -822,25 +979,30 @@ window.DGT_DATA = {
    "tag": "cooling",
    "q": {
     "en": "The cooling system…",
-    "es": "El sistema de refrigeración…"
+    "es": "El sistema de refrigeración…",
+    "uk": "Система охолодження…"
    },
    "o": [
     {
      "en": "gets rid of part of the heat the engine produces",
-     "es": "expulsa parte del calor que produce el motor"
+     "es": "expulsa parte del calor que produce el motor",
+     "uk": "відводить частину тепла, що виробляє двигун"
     },
     {
      "en": "lubricates the engine",
-     "es": "lubrica el motor"
+     "es": "lubrica el motor",
+     "uk": "змащує двигун"
     },
     {
      "en": "supplies fuel",
-     "es": "aporta combustible"
+     "es": "aporta combustible",
+     "uk": "подає пальне"
     }
    ],
    "why": {
     "en": "With a coolant flowing through the engine and radiator.",
-    "es": "Con un refrigerante que circula por el motor y el radiador."
+    "es": "Con un refrigerante que circula por el motor y el radiador.",
+    "uk": "Охолоджувальна рідина циркулює через двигун і радіатор."
    }
   },
   {
@@ -848,25 +1010,30 @@ window.DGT_DATA = {
    "tag": "cooling",
    "q": {
     "en": "The coolant level is checked…",
-    "es": "El nivel del refrigerante se comprueba…"
+    "es": "El nivel del refrigerante se comprueba…",
+    "uk": "Рівень охолоджувальної рідини перевіряють…"
    },
    "o": [
     {
      "en": "with the engine cold, on the expansion tank, between MIN and MAX",
-     "es": "con el motor frío, en el vaso de expansión, entre MIN y MAX"
+     "es": "con el motor frío, en el vaso de expansión, entre MIN y MAX",
+     "uk": "на холодному двигуні, на розширювальному бачку, між MIN і MAX"
     },
     {
      "en": "with the engine hot, opening the radiator",
-     "es": "con el motor caliente, abriendo el radiador"
+     "es": "con el motor caliente, abriendo el radiador",
+     "uk": "на гарячому двигуні, відкривши радіатор"
     },
     {
      "en": "on the dipstick",
-     "es": "en la varilla del aceite"
+     "es": "en la varilla del aceite",
+     "uk": "щупом"
     }
    ],
    "why": {
     "en": "Never open the tank hot.",
-    "es": "Nunca abrir el vaso en caliente."
+    "es": "Nunca abrir el vaso en caliente.",
+    "uk": "Ніколи не відкривайте бачок на гарячому двигуні."
    }
   },
   {
@@ -874,25 +1041,30 @@ window.DGT_DATA = {
    "tag": "cooling",
    "q": {
     "en": "Can you open the expansion tank with the engine hot?",
-    "es": "¿Se puede abrir el vaso de expansión con el motor caliente?"
+    "es": "¿Se puede abrir el vaso de expansión con el motor caliente?",
+    "uk": "Чи можна відкривати розширювальний бачок на гарячому двигуні?"
    },
    "o": [
     {
      "en": "Never",
-     "es": "Nunca"
+     "es": "Nunca",
+     "uk": "Ніколи"
     },
     {
      "en": "Yes, slowly",
-     "es": "Sí, despacio"
+     "es": "Sí, despacio",
+     "uk": "Так, повільно"
     },
     {
      "en": "Yes, if the level is low",
-     "es": "Sí, si el nivel está bajo"
+     "es": "Sí, si el nivel está bajo",
+     "uk": "Так, якщо рівень низький"
     }
    ],
    "why": {
     "en": "The hot coolant is under pressure.",
-    "es": "El refrigerante caliente está a presión."
+    "es": "El refrigerante caliente está a presión.",
+    "uk": "Гаряча рідина перебуває під тиском."
    }
   },
   {
@@ -900,25 +1072,30 @@ window.DGT_DATA = {
    "tag": "cooling",
    "q": {
     "en": "Engine coolant is made of…",
-    "es": "El líquido refrigerante está formado por…"
+    "es": "El líquido refrigerante está formado por…",
+    "uk": "Охолоджувальна рідина двигуна складається з…"
    },
    "o": [
     {
      "en": "distilled water mixed with antifreeze additives",
-     "es": "agua destilada mezclada con aditivos anticongelantes"
+     "es": "agua destilada mezclada con aditivos anticongelantes",
+     "uk": "дистильованої води з добавками антифризу"
     },
     {
      "en": "engine oil",
-     "es": "aceite de motor"
+     "es": "aceite de motor",
+     "uk": "моторної оливи"
     },
     {
      "en": "brake fluid",
-     "es": "líquido de frenos"
+     "es": "líquido de frenos",
+     "uk": "гальмівної рідини"
     }
    ],
    "why": {
     "en": "Add antifreeze for very low temperatures.",
-    "es": "Añadir anticongelante para temperaturas muy bajas."
+    "es": "Añadir anticongelante para temperaturas muy bajas.",
+    "uk": "Для дуже низьких температур додайте антифриз."
    }
   },
   {
@@ -926,25 +1103,30 @@ window.DGT_DATA = {
    "tag": "cooling",
    "q": {
     "en": "According to your course, the coolant should be changed about every…",
-    "es": "Según tu curso, el refrigerante se cambia aproximadamente cada…"
+    "es": "Según tu curso, el refrigerante se cambia aproximadamente cada…",
+    "uk": "За вашим курсом, охолоджувальну рідину треба міняти приблизно кожні…"
    },
    "o": [
     {
      "en": "2 years",
-     "es": "2 años"
+     "es": "2 años",
+     "uk": "2 роки"
     },
     {
      "en": "month",
-     "es": "mes"
+     "es": "mes",
+     "uk": "місяць"
     },
     {
      "en": "10 years",
-     "es": "10 años"
+     "es": "10 años",
+     "uk": "10 років"
     }
    ],
    "why": {
     "en": "As the manufacturer says.",
-    "es": "Según el fabricante."
+    "es": "Según el fabricante.",
+    "uk": "Як каже виробник."
    }
   },
   {
@@ -952,25 +1134,30 @@ window.DGT_DATA = {
    "tag": "cooling",
    "q": {
     "en": "According to your course, if the coolant level is low you top it up with…",
-    "es": "Según tu curso, si el nivel de refrigerante está bajo se rellena con…"
+    "es": "Según tu curso, si el nivel de refrigerante está bajo se rellena con…",
+    "uk": "За вашим курсом, якщо рівень охолоджувальної рідини низький, доливають…"
    },
    "o": [
     {
      "en": "distilled water",
-     "es": "agua destilada"
+     "es": "agua destilada",
+     "uk": "дистильовану воду"
     },
     {
      "en": "engine oil",
-     "es": "aceite de motor"
+     "es": "aceite de motor",
+     "uk": "моторну оливу"
     },
     {
      "en": "sea water",
-     "es": "agua de mar"
+     "es": "agua de mar",
+     "uk": "морську воду"
     }
    ],
    "why": {
     "en": "Many makers ask for the same coolant mixture.",
-    "es": "Muchos fabricantes piden la misma mezcla de refrigerante."
+    "es": "Muchos fabricantes piden la misma mezcla de refrigerante.",
+    "uk": "Багато виробників вимагають ту саму охолоджувальну суміш."
    }
   },
   {
@@ -978,25 +1165,30 @@ window.DGT_DATA = {
    "tag": "cooling",
    "q": {
     "en": "Before very cold weather it is advisable to…",
-    "es": "Antes de un periodo de mucho frío conviene…"
+    "es": "Antes de un periodo de mucho frío conviene…",
+    "uk": "Перед сильними морозами варто…"
    },
    "o": [
     {
      "en": "add antifreeze",
-     "es": "añadir anticongelante"
+     "es": "añadir anticongelante",
+     "uk": "додати антифриз"
     },
     {
      "en": "empty the radiator",
-     "es": "vaciar el radiador"
+     "es": "vaciar el radiador",
+     "uk": "злити воду з радіатора"
     },
     {
      "en": "remove the thermostat",
-     "es": "quitar el termostato"
+     "es": "quitar el termostato",
+     "uk": "зняти термостат"
     }
    ],
    "why": {
     "en": "And check for leaks.",
-    "es": "Y revisar posibles fugas."
+    "es": "Y revisar posibles fugas.",
+    "uk": "І перевірити, чи немає витоків."
    }
   },
   {
@@ -1004,25 +1196,30 @@ window.DGT_DATA = {
    "tag": "battery",
    "q": {
     "en": "The battery supplies electricity…",
-    "es": "La batería proporciona energía eléctrica…"
+    "es": "La batería proporciona energía eléctrica…",
+    "uk": "Акумулятор дає електрику…"
    },
    "o": [
     {
      "en": "while the engine is stopped",
-     "es": "mientras el motor está parado"
+     "es": "mientras el motor está parado",
+     "uk": "коли двигун не працює"
     },
     {
      "en": "only while driving",
-     "es": "solo en marcha"
+     "es": "solo en marcha",
+     "uk": "лише під час руху"
     },
     {
      "en": "only to the radio",
-     "es": "solo a la radio"
+     "es": "solo a la radio",
+     "uk": "лише радіо"
     }
    ],
    "why": {
     "en": "With the engine running, the alternator does it.",
-    "es": "Con el motor en marcha, lo hace el alternador."
+    "es": "Con el motor en marcha, lo hace el alternador.",
+    "uk": "Коли двигун працює, це робить генератор."
    }
   },
   {
@@ -1030,25 +1227,30 @@ window.DGT_DATA = {
    "tag": "battery",
    "q": {
     "en": "To top up a battery’s electrolyte you add…",
-    "es": "Para reponer el electrolito de la batería se añade…"
+    "es": "Para reponer el electrolito de la batería se añade…",
+    "uk": "Щоб долити електроліт в акумулятор, додають…"
    },
    "o": [
     {
      "en": "distilled water only",
-     "es": "exclusivamente agua destilada"
+     "es": "exclusivamente agua destilada",
+     "uk": "лише дистильовану воду"
     },
     {
      "en": "sulphuric acid",
-     "es": "ácido sulfúrico"
+     "es": "ácido sulfúrico",
+     "uk": "сірчану кислоту"
     },
     {
      "en": "tap water",
-     "es": "agua del grifo"
+     "es": "agua del grifo",
+     "uk": "воду з-під крана"
     }
    ],
    "why": {
     "en": "The liquid must cover the plates.",
-    "es": "El líquido debe cubrir las placas."
+    "es": "El líquido debe cubrir las placas.",
+    "uk": "Рідина має покривати пластини."
    }
   },
   {
@@ -1056,25 +1258,30 @@ window.DGT_DATA = {
    "tag": "battery",
    "q": {
     "en": "The battery’s electrolyte is…",
-    "es": "El electrolito de la batería es…"
+    "es": "El electrolito de la batería es…",
+    "uk": "Електроліт акумулятора — це…"
    },
    "o": [
     {
      "en": "distilled water mixed with sulphuric acid",
-     "es": "agua destilada con ácido sulfúrico"
+     "es": "agua destilada con ácido sulfúrico",
+     "uk": "дистильована вода, змішана із сірчаною кислотою"
     },
     {
      "en": "engine oil",
-     "es": "aceite de motor"
+     "es": "aceite de motor",
+     "uk": "моторна олива"
     },
     {
      "en": "antifreeze",
-     "es": "anticongelante"
+     "es": "anticongelante",
+     "uk": "антифриз"
     }
    ],
    "why": {
     "en": "In cells with lead plates.",
-    "es": "En vasos con placas de plomo."
+    "es": "En vasos con placas de plomo.",
+    "uk": "У банках зі свинцевими пластинами."
    }
   },
   {
@@ -1082,25 +1289,30 @@ window.DGT_DATA = {
    "tag": "battery",
    "q": {
     "en": "The battery terminals should be…",
-    "es": "Los bornes de la batería deben estar…"
+    "es": "Los bornes de la batería deben estar…",
+    "uk": "Клеми акумулятора мають бути…"
    },
    "o": [
     {
      "en": "tight, clean and greased",
-     "es": "apretados, limpios y engrasados"
+     "es": "apretados, limpios y engrasados",
+     "uk": "затягнуті, чисті й змащені"
     },
     {
      "en": "loose",
-     "es": "flojos"
+     "es": "flojos",
+     "uk": "незатягнуті"
     },
     {
      "en": "painted",
-     "es": "pintados"
+     "es": "pintados",
+     "uk": "пофарбовані"
     }
    ],
    "why": {
     "en": "Petroleum jelly or soft grease against sulphation.",
-    "es": "Vaselina o grasa blanda contra la sulfatación."
+    "es": "Vaselina o grasa blanda contra la sulfatación.",
+    "uk": "Вазелін чи м’яке мастило — проти сульфатації."
    }
   },
   {
@@ -1108,25 +1320,30 @@ window.DGT_DATA = {
    "tag": "battery",
    "q": {
     "en": "A low-maintenance battery’s liquid level should be checked about every…",
-    "es": "En una batería de bajo mantenimiento, el nivel se revisa aproximadamente cada…"
+    "es": "En una batería de bajo mantenimiento, el nivel se revisa aproximadamente cada…",
+    "uk": "Рівень рідини в малообслуговуваному акумуляторі перевіряють приблизно кожні…"
    },
    "o": [
     {
      "en": "6 months",
-     "es": "6 meses"
+     "es": "6 meses",
+     "uk": "6 місяців"
     },
     {
      "en": "week",
-     "es": "semana"
+     "es": "semana",
+     "uk": "тиждень"
     },
     {
      "en": "5 years",
-     "es": "5 años"
+     "es": "5 años",
+     "uk": "5 років"
     }
    ],
    "why": {
     "en": "Maintenance-free batteries don’t need it.",
-    "es": "Las sin mantenimiento no lo necesitan."
+    "es": "Las sin mantenimiento no lo necesitan.",
+    "uk": "Необслуговуваним акумуляторам це не потрібно."
    }
   },
   {
@@ -1134,25 +1351,30 @@ window.DGT_DATA = {
    "tag": "battery",
    "q": {
     "en": "Inside the battery, the electrolyte must always…",
-    "es": "Dentro de la batería, el electrolito debe siempre…"
+    "es": "Dentro de la batería, el electrolito debe siempre…",
+    "uk": "Усередині акумулятора електроліт завжди має…"
    },
    "o": [
     {
      "en": "cover the plates",
-     "es": "cubrir las placas"
+     "es": "cubrir las placas",
+     "uk": "покривати пластини"
     },
     {
      "en": "be below the plates",
-     "es": "estar por debajo de las placas"
+     "es": "estar por debajo de las placas",
+     "uk": "бути нижче пластин"
     },
     {
      "en": "be empty",
-     "es": "estar vacío"
+     "es": "estar vacío",
+     "uk": "бути відсутнім"
     }
    ],
    "why": {
     "en": "Check the level.",
-    "es": "Comprobar el nivel."
+    "es": "Comprobar el nivel.",
+    "uk": "Перевіряйте рівень."
    }
   },
   {
@@ -1160,25 +1382,30 @@ window.DGT_DATA = {
    "tag": "electric",
    "q": {
     "en": "The alternator…",
-    "es": "El alternador…"
+    "es": "El alternador…",
+    "uk": "Генератор…"
    },
    "o": [
     {
      "en": "turns the engine’s movement into electricity and recharges the battery",
-     "es": "transforma el movimiento del motor en electricidad y recarga la batería"
+     "es": "transforma el movimiento del motor en electricidad y recarga la batería",
+     "uk": "перетворює рух двигуна на електрику й заряджає акумулятор"
     },
     {
      "en": "starts the engine",
-     "es": "arranca el motor"
+     "es": "arranca el motor",
+     "uk": "заводить двигун"
     },
     {
      "en": "makes the spark",
-     "es": "produce la chispa"
+     "es": "produce la chispa",
+     "uk": "дає іскру"
     }
    ],
    "why": {
     "en": "Driven by a belt.",
-    "es": "Movido por una correa."
+    "es": "Movido por una correa.",
+    "uk": "Він має привід від паса."
    }
   },
   {
@@ -1186,25 +1413,30 @@ window.DGT_DATA = {
    "tag": "electric",
    "q": {
     "en": "The battery-charge warning light comes on. The likely cause is…",
-    "es": "Se enciende el testigo de carga de la batería. La causa probable es…"
+    "es": "Se enciende el testigo de carga de la batería. La causa probable es…",
+    "uk": "Загорілася лампа заряджання акумулятора. Ймовірна причина —"
    },
    "o": [
     {
      "en": "a broken belt or worn brushes in the alternator",
-     "es": "correa rota o escobillas desgastadas del alternador"
+     "es": "correa rota o escobillas desgastadas del alternador",
+     "uk": "обірваний пас чи зношені щітки генератора"
     },
     {
      "en": "low oil",
-     "es": "poco aceite"
+     "es": "poco aceite",
+     "uk": "мало оливи"
     },
     {
      "en": "a blown headlight bulb",
-     "es": "una lámpara fundida"
+     "es": "una lámpara fundida",
+     "uk": "перегоріла лампа фари"
     }
    ],
    "why": {
     "en": "The alternator isn’t charging enough.",
-    "es": "El alternador no carga lo suficiente."
+    "es": "El alternador no carga lo suficiente.",
+    "uk": "Генератор заряджає недостатньо."
    }
   },
   {
@@ -1212,25 +1444,30 @@ window.DGT_DATA = {
    "tag": "electric",
    "q": {
     "en": "When you turn the key the engine doesn’t turn, or very slowly, and the lights go out. The cause is…",
-    "es": "Al accionar el arranque el motor no gira, o muy despacio, y las luces se apagan. La causa es…"
+    "es": "Al accionar el arranque el motor no gira, o muy despacio, y las luces se apagan. La causa es…",
+    "uk": "Ви повертаєте ключ, а двигун не обертається чи обертається дуже повільно, і світло гасне. Причина —"
    },
    "o": [
     {
      "en": "a flat or nearly flat battery",
-     "es": "la batería descargada o con muy poca carga"
+     "es": "la batería descargada o con muy poca carga",
+     "uk": "розряджений чи майже розряджений акумулятор"
     },
     {
      "en": "too much oil",
-     "es": "exceso de aceite"
+     "es": "exceso de aceite",
+     "uk": "забагато оливи"
     },
     {
      "en": "a dirty air filter",
-     "es": "el filtro de aire sucio"
+     "es": "el filtro de aire sucio",
+     "uk": "брудний повітряний фільтр"
     }
    ],
    "why": {
     "en": "Check the terminals, recharge or replace it.",
-    "es": "Comprobar los bornes, recargarla o sustituirla."
+    "es": "Comprobar los bornes, recargarla o sustituirla.",
+    "uk": "Перевірте клеми, зарядіть чи замініть акумулятор."
    }
   },
   {
@@ -1238,25 +1475,30 @@ window.DGT_DATA = {
    "tag": "electric",
    "q": {
     "en": "When starting, you should not…",
-    "es": "Al arrancar no se debe…"
+    "es": "Al arrancar no se debe…",
+    "uk": "Заводячи двигун, не слід…"
    },
    "o": [
     {
      "en": "keep the starter running too long",
-     "es": "insistir demasiado con el arranque"
+     "es": "insistir demasiado con el arranque",
+     "uk": "надто довго крутити стартер"
     },
     {
      "en": "press the clutch",
-     "es": "pisar el embrague"
+     "es": "pisar el embrague",
+     "uk": "вичавлювати зчеплення"
     },
     {
      "en": "check the lights",
-     "es": "mirar los testigos"
+     "es": "mirar los testigos",
+     "uk": "перевіряти світло"
     }
    ],
    "why": {
     "en": "It can flatten the battery.",
-    "es": "Podría descargar la batería."
+    "es": "Podría descargar la batería.",
+    "uk": "Це може розрядити акумулятор."
    }
   },
   {
@@ -1264,25 +1506,30 @@ window.DGT_DATA = {
    "tag": "electric",
    "q": {
     "en": "The starter motor is fed by…",
-    "es": "El motor de arranque recibe la corriente de…"
+    "es": "El motor de arranque recibe la corriente de…",
+    "uk": "Стартер живиться…"
    },
    "o": [
     {
      "en": "the battery, directly",
-     "es": "la batería, directamente"
+     "es": "la batería, directamente",
+     "uk": "безпосередньо від акумулятора"
     },
     {
      "en": "the alternator",
-     "es": "el alternador"
+     "es": "el alternador",
+     "uk": "від генератора"
     },
     {
      "en": "the spark plugs",
-     "es": "las bujías"
+     "es": "las bujías",
+     "uk": "від свічок"
     }
    ],
    "why": {
     "en": "Worked by the key or start button.",
-    "es": "Se acciona con la llave o el pulsador."
+    "es": "Se acciona con la llave o el pulsador.",
+    "uk": "Вмикається ключем чи кнопкою пуску."
    }
   },
   {
@@ -1290,25 +1537,30 @@ window.DGT_DATA = {
    "tag": "electric",
    "q": {
     "en": "Spark plugs are found in…",
-    "es": "Las bujías se encuentran en…"
+    "es": "Las bujías se encuentran en…",
+    "uk": "Свічки запалювання є в…"
    },
    "o": [
     {
      "en": "petrol engines",
-     "es": "los motores de gasolina"
+     "es": "los motores de gasolina",
+     "uk": "бензинових двигунах"
     },
     {
      "en": "diesel engines",
-     "es": "los motores diésel"
+     "es": "los motores diésel",
+     "uk": "дизельних двигунах"
     },
     {
      "en": "electric motors",
-     "es": "los motores eléctricos"
+     "es": "los motores eléctricos",
+     "uk": "електродвигунах"
     }
    ],
    "why": {
     "en": "They ignite the air–fuel mixture.",
-    "es": "Inflaman la mezcla de aire y carburante."
+    "es": "Inflaman la mezcla de aire y carburante.",
+    "uk": "Вони запалюють суміш повітря й пального."
    }
   },
   {
@@ -1316,25 +1568,30 @@ window.DGT_DATA = {
    "tag": "electric",
    "q": {
     "en": "A spark plug in bad condition…",
-    "es": "Una bujía en mal estado…"
+    "es": "Una bujía en mal estado…",
+    "uk": "Свічка в поганому стані…"
    },
    "o": [
     {
      "en": "raises fuel use and makes the exhaust dirtier",
-     "es": "aumenta el consumo y los gases contaminantes"
+     "es": "aumenta el consumo y los gases contaminantes",
+     "uk": "збільшує витрату пального й робить вихлоп бруднішим"
     },
     {
      "en": "saves fuel",
-     "es": "ahorra combustible"
+     "es": "ahorra combustible",
+     "uk": "заощаджує пальне"
     },
     {
      "en": "has no effect",
-     "es": "no tiene efecto"
+     "es": "no tiene efecto",
+     "uk": "ні на що не впливає"
     }
    ],
    "why": {
     "en": "Part of the mixture doesn’t burn.",
-    "es": "No se quema toda la mezcla."
+    "es": "No se quema toda la mezcla.",
+    "uk": "Частина суміші не згоряє."
    }
   },
   {
@@ -1342,25 +1599,30 @@ window.DGT_DATA = {
    "tag": "electric",
    "q": {
     "en": "A pair of lamps or a whole set of lights doesn’t come on. The cause may be…",
-    "es": "No enciende un par de lámparas o un juego completo. Puede deberse a…"
+    "es": "No enciende un par de lámparas o un juego completo. Puede deberse a…",
+    "uk": "Не вмикається пара ламп чи цілий комплект світла. Причиною можуть бути…"
    },
    "o": [
     {
      "en": "blown bulbs, a blown fuse or a faulty switch",
-     "es": "lámparas fundidas, un fusible dañado o un interruptor defectuoso"
+     "es": "lámparas fundidas, un fusible dañado o un interruptor defectuoso",
+     "uk": "перегорілі лампи, перегорілий запобіжник чи несправний вимикач"
     },
     {
      "en": "low oil",
-     "es": "poco aceite"
+     "es": "poco aceite",
+     "uk": "мало оливи"
     },
     {
      "en": "the alternator belt only",
-     "es": "solo la correa del alternador"
+     "es": "solo la correa del alternador",
+     "uk": "лише пас генератора"
     }
    ],
    "why": {
     "en": "Check the fuses.",
-    "es": "Revisar los fusibles."
+    "es": "Revisar los fusibles.",
+    "uk": "Перевірте запобіжники."
    }
   },
   {
@@ -1368,25 +1630,30 @@ window.DGT_DATA = {
    "tag": "electric",
    "q": {
     "en": "Xenon and bi-xenon lamps should be handled…",
-    "es": "Las lámparas de xenón y bixenón deben manipularlas…"
+    "es": "Las lámparas de xenón y bixenón deben manipularlas…",
+    "uk": "З ксеноновими й біксеноновими лампами мають працювати…"
    },
    "o": [
     {
      "en": "only by specialists: they work at very high voltage",
-     "es": "solo personal especializado: funcionan con tensión muy alta"
+     "es": "solo personal especializado: funcionan con tensión muy alta",
+     "uk": "лише фахівці: вони працюють під дуже високою напругою"
     },
     {
      "en": "by anyone",
-     "es": "cualquiera"
+     "es": "cualquiera",
+     "uk": "будь-хто"
     },
     {
      "en": "only with the engine running",
-     "es": "solo con el motor en marcha"
+     "es": "solo con el motor en marcha",
+     "uk": "лише на працюючому двигуні"
     }
    ],
    "why": {
     "en": "Danger of electric shock.",
-    "es": "Peligro de descarga."
+    "es": "Peligro de descarga.",
+    "uk": "Небезпека ураження струмом."
    }
   },
   {
@@ -1394,25 +1661,30 @@ window.DGT_DATA = {
    "tag": "electric",
    "q": {
     "en": "Using the lights, radio or air conditioning a lot with the engine off can…",
-    "es": "Abusar de luces, radio o aire acondicionado con el motor apagado puede…"
+    "es": "Abusar de luces, radio o aire acondicionado con el motor apagado puede…",
+    "uk": "Довге користування світлом, радіо чи кондиціонером на вимкненому двигуні може…"
    },
    "o": [
     {
      "en": "flatten the battery",
-     "es": "descargar la batería"
+     "es": "descargar la batería",
+     "uk": "розрядити акумулятор"
     },
     {
      "en": "damage the catalyst",
-     "es": "dañar el catalizador"
+     "es": "dañar el catalizador",
+     "uk": "пошкодити каталізатор"
     },
     {
      "en": "overheat the engine",
-     "es": "calentar el motor"
+     "es": "calentar el motor",
+     "uk": "перегріти двигун"
     }
    ],
    "why": {
     "en": "The alternator only charges with the engine running.",
-    "es": "El alternador solo carga con el motor en marcha."
+    "es": "El alternador solo carga con el motor en marcha.",
+    "uk": "Генератор заряджає лише на працюючому двигуні."
    }
   },
   {
@@ -1420,25 +1692,30 @@ window.DGT_DATA = {
    "tag": "electric",
    "q": {
     "en": "Charging is irregular. According to your course, it may be because…",
-    "es": "La carga es irregular. Según tu curso, puede deberse a que…"
+    "es": "La carga es irregular. Según tu curso, puede deberse a que…",
+    "uk": "Заряджання нерівномірне. За вашим курсом, причина може бути в тому, що…"
    },
    "o": [
     {
      "en": "the electrolyte level is very low",
-     "es": "el nivel del electrolito es muy bajo"
+     "es": "el nivel del electrolito es muy bajo",
+     "uk": "рівень електроліту дуже низький"
     },
     {
      "en": "the tyres are under-inflated",
-     "es": "los neumáticos tienen poca presión"
+     "es": "los neumáticos tienen poca presión",
+     "uk": "шини недокачані"
     },
     {
      "en": "the air filter is new",
-     "es": "el filtro de aire es nuevo"
+     "es": "el filtro de aire es nuevo",
+     "uk": "повітряний фільтр новий"
     }
    ],
    "why": {
     "en": "Check the battery.",
-    "es": "Revisar la batería."
+    "es": "Revisar la batería.",
+    "uk": "Перевірте акумулятор."
    }
   },
   {
@@ -1446,25 +1723,30 @@ window.DGT_DATA = {
    "tag": "electric",
    "q": {
     "en": "After loading the car heavily, the headlight beam may…",
-    "es": "Tras cargar mucho el coche, el haz de luz puede…"
+    "es": "Tras cargar mucho el coche, el haz de luz puede…",
+    "uk": "Після важкого завантаження автомобіля промінь фар може…"
    },
    "o": [
     {
      "en": "point too high and dazzle others",
-     "es": "quedar demasiado alto y deslumbrar"
+     "es": "quedar demasiado alto y deslumbrar",
+     "uk": "бути спрямований зависоко й засліплювати інших"
     },
     {
      "en": "switch off",
-     "es": "apagarse"
+     "es": "apagarse",
+     "uk": "вимкнутися"
     },
     {
      "en": "change colour",
-     "es": "cambiar de color"
+     "es": "cambiar de color",
+     "uk": "змінити колір"
     }
    ],
    "why": {
     "en": "Check the aim after loading or unloading.",
-    "es": "Comprobar el reglaje tras cargar o descargar."
+    "es": "Comprobar el reglaje tras cargar o descargar.",
+    "uk": "Перевіряйте регулювання після завантаження чи розвантаження."
    }
   },
   {
@@ -1472,25 +1754,30 @@ window.DGT_DATA = {
    "tag": "trans",
    "q": {
     "en": "The transmission…",
-    "es": "El sistema de transmisión…"
+    "es": "El sistema de transmisión…",
+    "uk": "Трансмісія…"
    },
    "o": [
     {
      "en": "takes the engine’s force to the driving wheels",
-     "es": "transmite la fuerza del motor a las ruedas motrices"
+     "es": "transmite la fuerza del motor a las ruedas motrices",
+     "uk": "передає силу двигуна на ведучі колеса"
     },
     {
      "en": "cools the engine",
-     "es": "refrigera el motor"
+     "es": "refrigera el motor",
+     "uk": "охолоджує двигун"
     },
     {
      "en": "brakes the car",
-     "es": "frena el coche"
+     "es": "frena el coche",
+     "uk": "гальмує автомобіль"
     }
    ],
    "why": {
     "en": "Front, rear or all wheels.",
-    "es": "Delanteras, traseras o todas."
+    "es": "Delanteras, traseras o todas.",
+    "uk": "Передні, задні чи всі колеса."
    }
   },
   {
@@ -1498,25 +1785,30 @@ window.DGT_DATA = {
    "tag": "trans",
    "q": {
     "en": "A vehicle whose driving wheels are the rear ones is called a…",
-    "es": "Un vehículo cuyas ruedas motrices son las traseras se llama de…"
+    "es": "Un vehículo cuyas ruedas motrices son las traseras se llama de…",
+    "uk": "Автомобіль, у якого ведучі колеса задні, називають…"
    },
    "o": [
     {
      "en": "propulsion vehicle (rear-wheel drive)",
-     "es": "propulsión"
+     "es": "propulsión",
+     "uk": "задньопривідним (propulsión)"
     },
     {
      "en": "traction vehicle",
-     "es": "tracción"
+     "es": "tracción",
+     "uk": "передньопривідним (tracción)"
     },
     {
      "en": "integral traction vehicle",
-     "es": "tracción integral"
+     "es": "tracción integral",
+     "uk": "повнопривідним (tracción integral)"
     }
    ],
    "why": {
     "en": "Front wheels: traction; all wheels: 4×4.",
-    "es": "Delanteras: tracción; todas: 4×4."
+    "es": "Delanteras: tracción; todas: 4×4.",
+    "uk": "Передні колеса: tracción; усі колеса: 4×4."
    }
   },
   {
@@ -1524,25 +1816,30 @@ window.DGT_DATA = {
    "tag": "trans",
    "q": {
     "en": "A vehicle with the front wheels as driving wheels is a…",
-    "es": "Un vehículo con las ruedas delanteras motrices es de…"
+    "es": "Un vehículo con las ruedas delanteras motrices es de…",
+    "uk": "Автомобіль із ведучими передніми колесами — це…"
    },
    "o": [
     {
      "en": "traction vehicle",
-     "es": "tracción"
+     "es": "tracción",
+     "uk": "передньопривідний (tracción)"
     },
     {
      "en": "propulsion vehicle",
-     "es": "propulsión"
+     "es": "propulsión",
+     "uk": "задньопривідний (propulsión)"
     },
     {
      "en": "4×4",
-     "es": "4×4"
+     "es": "4×4",
+     "uk": "4×4"
     }
    ],
    "why": {
     "en": "The front wheels pull.",
-    "es": "Las ruedas delanteras tiran."
+    "es": "Las ruedas delanteras tiran.",
+    "uk": "Передні колеса тягнуть."
    }
   },
   {
@@ -1550,25 +1847,30 @@ window.DGT_DATA = {
    "tag": "trans",
    "q": {
     "en": "The clutch is located…",
-    "es": "El embrague está situado…"
+    "es": "El embrague está situado…",
+    "uk": "Зчеплення розташоване…"
    },
    "o": [
     {
      "en": "between the engine and the gearbox",
-     "es": "entre el motor y la caja de cambios"
+     "es": "entre el motor y la caja de cambios",
+     "uk": "між двигуном і коробкою передач"
     },
     {
      "en": "between the wheels",
-     "es": "entre las ruedas"
+     "es": "entre las ruedas",
+     "uk": "між колесами"
     },
     {
      "en": "in the exhaust",
-     "es": "en el escape"
+     "es": "en el escape",
+     "uk": "у вихлопній системі"
     }
    ],
    "why": {
     "en": "It connects and disconnects the engine’s turn.",
-    "es": "Acopla y desacopla el giro del motor."
+    "es": "Acopla y desacopla el giro del motor.",
+    "uk": "Воно з’єднує й роз’єднує передачу обертання двигуна."
    }
   },
   {
@@ -1576,25 +1878,30 @@ window.DGT_DATA = {
    "tag": "trans",
    "q": {
     "en": "The car’s speed doesn’t increase when the revs go up. The cause is…",
-    "es": "La velocidad no aumenta al subir las revoluciones. La causa es…"
+    "es": "La velocidad no aumenta al subir las revoluciones. La causa es…",
+    "uk": "Оберти зростають, а швидкість автомобіля — ні. Причина —"
    },
    "o": [
     {
      "en": "a slipping clutch with worn linings",
-     "es": "que patina el embrague, con los forros desgastados"
+     "es": "que patina el embrague, con los forros desgastados",
+     "uk": "зчеплення буксує через зношені накладки"
     },
     {
      "en": "a flat battery",
-     "es": "la batería descargada"
+     "es": "la batería descargada",
+     "uk": "розряджений акумулятор"
     },
     {
      "en": "a dirty air filter",
-     "es": "el filtro de aire sucio"
+     "es": "el filtro de aire sucio",
+     "uk": "брудний повітряний фільтр"
     }
    ],
    "why": {
     "en": "Take it to a workshop.",
-    "es": "Hay que repararlo en un taller."
+    "es": "Hay que repararlo en un taller.",
+    "uk": "Їдьте в майстерню."
    }
   },
   {
@@ -1602,25 +1909,30 @@ window.DGT_DATA = {
    "tag": "trans",
    "q": {
     "en": "Riding the clutch or resting your foot on the pedal…",
-    "es": "Ir a medio embrague o con el pie apoyado en el pedal…"
+    "es": "Ir a medio embrague o con el pie apoyado en el pedal…",
+    "uk": "Тримати ногу на педалі зчеплення чи спирати її на педаль…"
    },
    "o": [
     {
      "en": "can damage the clutch or shorten its life",
-     "es": "puede averiar el embrague o reducir su vida útil"
+     "es": "puede averiar el embrague o reducir su vida útil",
+     "uk": "може пошкодити зчеплення чи скоротити його життя"
     },
     {
      "en": "is recommended",
-     "es": "es recomendable"
+     "es": "es recomendable",
+     "uk": "рекомендовано"
     },
     {
      "en": "saves fuel",
-     "es": "ahorra combustible"
+     "es": "ahorra combustible",
+     "uk": "заощаджує пальне"
     }
    ],
    "why": {
     "en": "Take your foot off when not using it.",
-    "es": "Retirar el pie cuando no se use."
+    "es": "Retirar el pie cuando no se use.",
+    "uk": "Прибирайте ногу, коли не користуєтеся зчепленням."
    }
   },
   {
@@ -1628,25 +1940,30 @@ window.DGT_DATA = {
    "tag": "trans",
    "q": {
     "en": "Gears go in or out with great difficulty. The likely cause is…",
-    "es": "Las marchas entran o salen con mucha dificultad. La causa probable es…"
+    "es": "Las marchas entran o salen con mucha dificultad. La causa probable es…",
+    "uk": "Передачі вмикаються чи вимикаються дуже важко. Ймовірна причина —"
    },
    "o": [
     {
      "en": "an internal gearbox fault, possibly the wrong oil level",
-     "es": "una avería interna de la caja de cambios, quizá nivel de aceite incorrecto"
+     "es": "una avería interna de la caja de cambios, quizá nivel de aceite incorrecto",
+     "uk": "внутрішня несправність коробки передач, можливо неправильний рівень оливи"
     },
     {
      "en": "low tyre pressure",
-     "es": "poca presión en los neumáticos"
+     "es": "poca presión en los neumáticos",
+     "uk": "низький тиск у шинах"
     },
     {
      "en": "a blown fuse",
-     "es": "un fusible fundido"
+     "es": "un fusible fundido",
+     "uk": "перегорілий запобіжник"
     }
    ],
    "why": {
     "en": "Workshop.",
-    "es": "Taller."
+    "es": "Taller.",
+    "uk": "Майстерня."
    }
   },
   {
@@ -1654,25 +1971,30 @@ window.DGT_DATA = {
    "tag": "trans",
    "q": {
     "en": "Which part lets the driving wheels turn at different speeds in a bend?",
-    "es": "¿Qué elemento permite que las ruedas motrices giren a distinta velocidad en una curva?"
+    "es": "¿Qué elemento permite que las ruedas motrices giren a distinta velocidad en una curva?",
+    "uk": "Яка деталь дає ведучим колесам обертатися з різною швидкістю в повороті?"
    },
    "o": [
     {
      "en": "The differential",
-     "es": "El diferencial"
+     "es": "El diferencial",
+     "uk": "Диференціал"
     },
     {
      "en": "The clutch",
-     "es": "El embrague"
+     "es": "El embrague",
+     "uk": "Зчеплення"
     },
     {
      "en": "The alternator",
-     "es": "El alternador"
+     "es": "El alternador",
+     "uk": "Генератор"
     }
    ],
    "why": {
     "en": "Part of the transmission.",
-    "es": "Forma parte de la transmisión."
+    "es": "Forma parte de la transmisión.",
+    "uk": "Він — частина трансмісії."
    }
   },
   {
@@ -1680,25 +2002,30 @@ window.DGT_DATA = {
    "tag": "trans",
    "q": {
     "en": "To change gear you should press the clutch…",
-    "es": "Para cambiar de marcha hay que pisar el embrague…"
+    "es": "Para cambiar de marcha hay que pisar el embrague…",
+    "uk": "Щоб перемкнути передачу, зчеплення вичавлюють…"
    },
    "o": [
     {
      "en": "all the way down",
-     "es": "hasta el fondo"
+     "es": "hasta el fondo",
+     "uk": "до кінця"
     },
     {
      "en": "halfway",
-     "es": "hasta la mitad"
+     "es": "hasta la mitad",
+     "uk": "наполовину"
     },
     {
      "en": "slightly",
-     "es": "ligeramente"
+     "es": "ligeramente",
+     "uk": "трохи"
     }
    ],
    "why": {
     "en": "Without the engine revving high.",
-    "es": "Sin el motor revolucionado."
+    "es": "Sin el motor revolucionado.",
+    "uk": "І без високих обертів двигуна."
    }
   },
   {
@@ -1706,25 +2033,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "Which of these must a car carry?",
-    "es": "¿Qué debe llevar un turismo?"
+    "es": "¿Qué debe llevar un turismo?",
+    "uk": "Що з цього мусить возити легковий автомобіль?"
    },
    "o": [
     {
      "en": "A V-16 light, a high-visibility vest and a spare wheel (or temporary wheel or alternative system)",
-     "es": "Un dispositivo V-16, un chaleco de alta visibilidad y una rueda de repuesto (o temporal o sistema alternativo)"
+     "es": "Un dispositivo V-16, un chaleco de alta visibilidad y una rueda de repuesto (o temporal o sistema alternativo)",
+     "uk": "Аварійний маяк V-16, жилет високої видимості й запасне колесо (чи докатку, чи альтернативну систему)"
     },
     {
      "en": "A fire extinguisher",
-     "es": "Un extintor"
+     "es": "Un extintor",
+     "uk": "Вогнегасник"
     },
     {
      "en": "A first-aid kit",
-     "es": "Un botiquín"
+     "es": "Un botiquín",
+     "uk": "Аптечку"
     }
    ],
    "why": {
     "en": "Extinguisher: buses and heavy vehicles.",
-    "es": "Extintor: autobuses y pesados."
+    "es": "Extintor: autobuses y pesados.",
+    "uk": "Вогнегасник — для автобусів і важких ТЗ."
    }
   },
   {
@@ -1732,25 +2064,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "Instead of a spare wheel, a car may carry…",
-    "es": "En lugar de rueda de repuesto, un turismo puede llevar…"
+    "es": "En lugar de rueda de repuesto, un turismo puede llevar…",
+    "uk": "Замість запасного колеса легковик може возити…"
    },
    "o": [
     {
      "en": "a temporary-use wheel or an alternative system such as a repair kit",
-     "es": "una rueda de uso temporal o un sistema alternativo, como un kit reparapinchazos"
+     "es": "una rueda de uso temporal o un sistema alternativo, como un kit reparapinchazos",
+     "uk": "колесо тимчасового використання (докатку) чи альтернативну систему, наприклад ремкомплект"
     },
     {
      "en": "nothing",
-     "es": "nada"
+     "es": "nada",
+     "uk": "нічого"
     },
     {
      "en": "a second V-16",
-     "es": "una segunda V-16"
+     "es": "una segunda V-16",
+     "uk": "другий V-16"
     }
    ],
    "why": {
     "en": "Respecting its limits.",
-    "es": "Respetando sus limitaciones."
+    "es": "Respetando sus limitaciones.",
+    "uk": "Дотримуючись їхніх обмежень."
    }
   },
   {
@@ -1758,25 +2095,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "A lorry of more than 3,500 kg must carry…",
-    "es": "Un camión de más de 3.500 kg debe llevar…"
+    "es": "Un camión de más de 3.500 kg debe llevar…",
+    "uk": "Вантажівка понад 3 500 кг мусить возити…"
    },
    "o": [
     {
      "en": "a V-16 light, a vest and an approved fire extinguisher",
-     "es": "un dispositivo V-16, un chaleco y un extintor homologado"
+     "es": "un dispositivo V-16, un chaleco y un extintor homologado",
+     "uk": "маяк V-16, жилет і затверджений вогнегасник"
     },
     {
      "en": "only a vest",
-     "es": "solo un chaleco"
+     "es": "solo un chaleco",
+     "uk": "лише жилет"
     },
     {
      "en": "a spare wheel and a jack",
-     "es": "una rueda de repuesto y un gato"
+     "es": "una rueda de repuesto y un gato",
+     "uk": "запасне колесо й домкрат"
     }
    ],
    "why": {
     "en": "Like buses and non-special combinations.",
-    "es": "Como los autobuses y los conjuntos no especiales."
+    "es": "Como los autobuses y los conjuntos no especiales.",
+    "uk": "Як автобуси й неспеціальні состави."
    }
   },
   {
@@ -1784,25 +2126,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "Since 1 October 2026, a motorcycle must carry…",
-    "es": "Desde el 1 de octubre de 2026, una motocicleta debe llevar…"
+    "es": "Desde el 1 de octubre de 2026, una motocicleta debe llevar…",
+    "uk": "З 1 жовтня 2026 року мотоцикл мусить возити…"
    },
    "o": [
     {
      "en": "a high-visibility vest",
-     "es": "un chaleco de alta visibilidad"
+     "es": "un chaleco de alta visibilidad",
+     "uk": "жилет високої видимості"
     },
     {
      "en": "a V-16 light",
-     "es": "un dispositivo V-16"
+     "es": "un dispositivo V-16",
+     "uk": "маяк V-16"
     },
     {
      "en": "a fire extinguisher",
-     "es": "un extintor"
+     "es": "un extintor",
+     "uk": "вогнегасник"
     }
    ],
    "why": {
     "en": "The V-16 is recommended, not compulsory, on a motorcycle.",
-    "es": "La V-16 es recomendable, no obligatoria, en la moto."
+    "es": "La V-16 es recomendable, no obligatoria, en la moto.",
+    "uk": "Для мотоцикла V-16 рекомендований, а не обов’язковий."
    }
   },
   {
@@ -1810,25 +2157,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "When must you wear the reflective vest?",
-    "es": "¿Cuándo hay que usar el chaleco reflectante?"
+    "es": "¿Cuándo hay que usar el chaleco reflectante?",
+    "uk": "Коли треба вдягати світловідбивний жилет?"
    },
    "o": [
     {
      "en": "When you get out and stand on the carriageway or shoulder of an interurban road",
-     "es": "Al salir y ocupar la calzada o el arcén de una vía interurbana"
+     "es": "Al salir y ocupar la calzada o el arcén de una vía interurbana",
+     "uk": "Коли виходите й стоїте на проїзній частині чи узбіччі заміської дороги"
     },
     {
      "en": "Always while driving",
-     "es": "Siempre al conducir"
+     "es": "Siempre al conducir",
+     "uk": "Завжди під час руху"
     },
     {
      "en": "Only in town",
-     "es": "Solo en ciudad"
+     "es": "Solo en ciudad",
+     "uk": "Лише в місті"
     }
    ],
    "why": {
     "en": "Put it on before getting out.",
-    "es": "Ponérselo antes de salir."
+    "es": "Ponérselo antes de salir.",
+    "uk": "Вдягніть його ще до того, як вийдете."
    }
   },
   {
@@ -1836,25 +2188,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "Where should the vest be kept?",
-    "es": "¿Dónde se debe guardar el chaleco?"
+    "es": "¿Dónde se debe guardar el chaleco?",
+    "uk": "Де зберігати жилет?"
    },
    "o": [
     {
      "en": "Out of the light, but within reach so you can put it on before getting out",
-     "es": "Sin exponerlo a la luz, pero accesible para salir con él puesto"
+     "es": "Sin exponerlo a la luz, pero accesible para salir con él puesto",
+     "uk": "Подалі від світла, але під рукою, щоб вдягти його до того, як вийдете"
     },
     {
      "en": "In the boot, under the luggage",
-     "es": "En el maletero, bajo el equipaje"
+     "es": "En el maletero, bajo el equipaje",
+     "uk": "У багажнику, під речами"
     },
     {
      "en": "On the dashboard in the sun",
-     "es": "En el salpicadero, al sol"
+     "es": "En el salpicadero, al sol",
+     "uk": "На панелі приладів, на сонці"
     }
    ],
    "why": {
     "en": "Light spoils its reflective properties.",
-    "es": "La luz le hace perder las propiedades reflectantes."
+    "es": "La luz le hace perder las propiedades reflectantes.",
+    "uk": "Світло псує його світловідбивні властивості."
    }
   },
   {
@@ -1862,25 +2219,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "The high-visibility vest may be…",
-    "es": "El chaleco de alta visibilidad puede ser…"
+    "es": "El chaleco de alta visibilidad puede ser…",
+    "uk": "Жилет високої видимості може бути…"
    },
    "o": [
     {
      "en": "yellow, orange-red or red",
-     "es": "amarillo, rojo anaranjado o rojo"
+     "es": "amarillo, rojo anaranjado o rojo",
+     "uk": "жовтим, оранжево-червоним чи червоним"
     },
     {
      "en": "any colour",
-     "es": "de cualquier color"
+     "es": "de cualquier color",
+     "uk": "будь-якого кольору"
     },
     {
      "en": "white or black",
-     "es": "blanco o negro"
+     "es": "blanco o negro",
+     "uk": "білим чи чорним"
     }
    ],
    "why": {
     "en": "It must be certified.",
-    "es": "Debe estar certificado."
+    "es": "Debe estar certificado.",
+    "uk": "Він має бути сертифікованим."
    }
   },
   {
@@ -1888,25 +2250,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "An escort (pilot) vehicle must carry vests for…",
-    "es": "Un vehículo piloto de protección y acompañamiento debe llevar chalecos para…"
+    "es": "Un vehículo piloto de protección y acompañamiento debe llevar chalecos para…",
+    "uk": "Супровідний ТЗ (vehículo piloto) мусить возити жилети для…"
    },
    "o": [
     {
      "en": "the driver and each assistant",
-     "es": "el conductor y cada miembro del personal auxiliar"
+     "es": "el conductor y cada miembro del personal auxiliar",
+     "uk": "водія й кожного помічника"
     },
     {
      "en": "the driver only",
-     "es": "solo el conductor"
+     "es": "solo el conductor",
+     "uk": "лише водія"
     },
     {
      "en": "nobody",
-     "es": "nadie"
+     "es": "nadie",
+     "uk": "нікого"
     }
    ],
    "why": {
     "en": "One each.",
-    "es": "Uno para cada uno."
+    "es": "Uno para cada uno.",
+    "uk": "По одному на кожного."
    }
   },
   {
@@ -1914,25 +2281,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "A delivery rider on a moped must wear a high-visibility vest…",
-    "es": "Un repartidor en ciclomotor debe llevar chaleco de alta visibilidad…"
+    "es": "Un repartidor en ciclomotor debe llevar chaleco de alta visibilidad…",
+    "uk": "Кур’єр на мопеді мусить носити жилет високої видимості…"
    },
    "o": [
     {
      "en": "on all roads, at all times",
-     "es": "en todo tipo de vías"
+     "es": "en todo tipo de vías",
+     "uk": "на всіх дорогах і завжди"
     },
     {
      "en": "only out of town",
-     "es": "solo fuera de poblado"
+     "es": "solo fuera de poblado",
+     "uk": "лише за містом"
     },
     {
      "en": "only at night",
-     "es": "solo de noche"
+     "es": "solo de noche",
+     "uk": "лише вночі"
     }
    ],
    "why": {
     "en": "Also on bicycles, VMP, motorcycles, quads…",
-    "es": "También en bicicletas, VMP, motos, quads…"
+    "es": "También en bicicletas, VMP, motos, quads…",
+    "uk": "Також на велосипедах, VMP, мотоциклах, квадроциклах…"
    }
   },
   {
@@ -1940,25 +2312,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "A temporary-use spare wheel is usually limited to…",
-    "es": "Una rueda de uso temporal suele estar limitada a…"
+    "es": "Una rueda de uso temporal suele estar limitada a…",
+    "uk": "Колесо тимчасового використання зазвичай обмежене…"
    },
    "o": [
     {
      "en": "about 80 km/h and 50–200 km, as the maker states",
-     "es": "unos 80 km/h y 50–200 km, según el fabricante"
+     "es": "unos 80 km/h y 50–200 km, según el fabricante",
+     "uk": "приблизно 80 км/год і 50–200 км, як вказує виробник"
     },
     {
      "en": "120 km/h, no distance limit",
-     "es": "120 km/h, sin límite de distancia"
+     "es": "120 km/h, sin límite de distancia",
+     "uk": "120 км/год, без обмеження відстані"
     },
     {
      "en": "no limits",
-     "es": "ningún límite"
+     "es": "ningún límite",
+     "uk": "нічим"
     }
    ],
    "why": {
     "en": "The limits are marked on it.",
-    "es": "Las limitaciones vienen indicadas."
+    "es": "Las limitaciones vienen indicadas.",
+    "uk": "Обмеження позначені на ньому."
    }
   },
   {
@@ -1966,25 +2343,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "Must a van of 3,000 kg MMA carry a fire extinguisher?",
-    "es": "¿Una furgoneta de 3.000 kg de MMA debe llevar extintor?"
+    "es": "¿Una furgoneta de 3.000 kg de MMA debe llevar extintor?",
+    "uk": "Чи мусить фургон з MMA 3 000 кг возити вогнегасник?"
    },
    "o": [
     {
      "en": "No: it carries the car equipment (V-16, vest and spare wheel or alternative)",
-     "es": "No: lleva la dotación de turismo (V-16, chaleco y rueda o alternativa)"
+     "es": "No: lleva la dotación de turismo (V-16, chaleco y rueda o alternativa)",
+     "uk": "Ні: він возить спорядження легковика (V-16, жилет і запасне колесо чи альтернативу)"
     },
     {
      "en": "Yes, always",
-     "es": "Sí, siempre"
+     "es": "Sí, siempre",
+     "uk": "Так, завжди"
     },
     {
      "en": "Only on motorways",
-     "es": "Solo en autopistas"
+     "es": "Solo en autopistas",
+     "uk": "Лише на автомагістралях"
     }
    ],
    "why": {
     "en": "Extinguisher above 3,500 kg.",
-    "es": "Extintor a partir de más de 3.500 kg."
+    "es": "Extintor a partir de más de 3.500 kg.",
+    "uk": "Вогнегасник — понад 3 500 кг."
    }
   },
   {
@@ -1992,25 +2374,30 @@ window.DGT_DATA = {
    "tag": "equip",
    "q": {
     "en": "Since 1 January 2026, the V-16 warning light must be…",
-    "es": "Desde el 1 de enero de 2026, la señal V-16 debe ser…"
+    "es": "Desde el 1 de enero de 2026, la señal V-16 debe ser…",
+    "uk": "З 1 січня 2026 року аварійний маяк V-16 має бути…"
    },
    "o": [
     {
      "en": "an approved, connected model",
-     "es": "un modelo homologado y conectado"
+     "es": "un modelo homologado y conectado",
+     "uk": "затвердженою підключеною моделлю"
     },
     {
      "en": "any yellow light",
-     "es": "cualquier luz amarilla"
+     "es": "cualquier luz amarilla",
+     "uk": "будь-яким жовтим вогнем"
     },
     {
      "en": "replaced by two triangles",
-     "es": "sustituida por dos triángulos"
+     "es": "sustituida por dos triángulos",
+     "uk": "замінений двома трикутниками"
     }
    ],
    "why": {
     "en": "Topic 5.",
-    "es": "Tema 5."
+    "es": "Tema 5.",
+    "uk": "Тема 5."
    }
   }
  ],
@@ -2019,243 +2406,297 @@ window.DGT_DATA = {
    "sec": 1,
    "en": "Maintenance and the engine",
    "es": "Mantenimiento y motor",
+   "uk": "Обслуговування й двигун",
    "recap": [
     [
      "Good maintenance makes the car last, prevents failures, saves fuel and cuts pollution.",
-     "Un buen mantenimiento alarga la vida útil, previene averías, ahorra combustible y reduce la contaminación."
+     "Un buen mantenimiento alarga la vida útil, previene averías, ahorra combustible y reduce la contaminación.",
+     "Добре обслуговування подовжує життя автомобіля, запобігає несправностям, заощаджує пальне й зменшує забруднення."
     ],
     [
      "Many breakdowns come from no, poor or wrong maintenance. Vehicle factor: 4–13 % of accidents.",
-     "Muchas averías vienen de un mantenimiento nulo, deficiente o equivocado. Factor vehículo: 4–13 % de los accidentes."
+     "Muchas averías vienen de un mantenimiento nulo, deficiente o equivocado. Factor vehículo: 4–13 % de los accidentes.",
+     "Багато несправностей — через відсутнє, погане чи неправильне обслуговування. Фактор ТЗ: 4–13 % ДТП."
     ],
     [
      "White smoke on a cold start: water vapour, no fault. Bluish: burning oil.",
-     "Humo blanco al arrancar en frío: vapor de agua, no es avería. Azulado: consume aceite."
+     "Humo blanco al arrancar en frío: vapor de agua, no es avería. Azulado: consume aceite.",
+     "Білий дим під час холодного пуску: водяна пара, не несправність. Синюватий: горить олива."
     ],
     [
      "Black smoke: too much fuel or too little air — more consumption and pollution.",
-     "Humo negro: exceso de carburante o falta de aire; más consumo y contaminación."
+     "Humo negro: exceso de carburante o falta de aire; más consumo y contaminación.",
+     "Чорний дим: забагато пального чи замало повітря — більша витрата й забруднення."
     ]
    ],
    "trap": [
     "Thinking white smoke on a cold morning means a breakdown.",
-    "Pensar que el humo blanco una mañana fría indica avería."
+    "Pensar que el humo blanco una mañana fría indica avería.",
+    "Думати, що білий дим холодного ранку означає поломку."
    ]
   },
   "fuel": {
    "sec": 2,
    "en": "Fuel and air supply",
    "es": "Alimentación",
+   "uk": "Живлення пальним і повітрям",
    "recap": [
     [
      "Delivers air and fuel to the cylinders.",
-     "Hace llegar aire y combustible a los cilindros."
+     "Hace llegar aire y combustible a los cilindros.",
+     "Подає повітря й пальне в циліндри."
     ],
     [
      "A clogged air filter raises fuel use and pollution; it gets dirtier in summer.",
-     "Un filtro de aire obstruido aumenta consumo y contaminación; se ensucia más en verano."
+     "Un filtro de aire obstruido aumenta consumo y contaminación; se ensucia más en verano.",
+     "Забитий повітряний фільтр збільшує витрату пального й забруднення; влітку він брудниться швидше."
     ],
     [
      "Replace air and fuel filters as the maker says.",
-     "Sustituir los filtros de aire y combustible según el fabricante."
+     "Sustituir los filtros de aire y combustible según el fabricante.",
+     "Міняйте повітряний і паливний фільтри, як каже виробник."
     ],
     [
      "Idle too high: more fuel; too low: the engine stalls.",
-     "Ralentí demasiado alto: más consumo; demasiado bajo: el motor se cala."
+     "Ralentí demasiado alto: más consumo; demasiado bajo: el motor se cala.",
+     "Холостий хід зависокий: більша витрата; занизький: двигун глухне."
     ]
    ],
    "trap": [
     "Thinking a low idle saves fuel without any problem.",
-    "Pensar que un ralentí bajo ahorra sin ningún problema."
+    "Pensar que un ralentí bajo ahorra sin ningún problema.",
+    "Думати, що низький холостий хід заощаджує пальне без жодних проблем."
    ]
   },
   "exhaust": {
    "sec": 2,
    "en": "Exhaust",
    "es": "Escape",
+   "uk": "Вихлопна система",
    "recap": [
     [
      "Takes the combustion gases to the rear of the car.",
-     "Lleva los gases de la combustión a la parte trasera."
+     "Lleva los gases de la combustión a la parte trasera.",
+     "Відводить відпрацьовані гази в задню частину автомобіля."
     ],
     [
      "Silencer: less noise and cooler gases. Catalyst: cuts toxic gases almost completely.",
-     "Silenciador: menos ruido y gases menos calientes. Catalizador: reduce casi por completo los gases tóxicos."
+     "Silenciador: menos ruido y gases menos calientes. Catalizador: reduce casi por completo los gases tóxicos.",
+     "Глушник: менше шуму й холодніші гази. Каталізатор: майже повністю знешкоджує токсичні гази."
     ],
     [
      "Catalyst about every 150,000 km; damaged by burning oil, running the tank empty, knocks underneath.",
-     "Catalizador cada 150.000 km aprox.; lo dañan el consumo de aceite, apurar el depósito y los golpes en los bajos."
+     "Catalizador cada 150.000 km aprox.; lo dañan el consumo de aceite, apurar el depósito y los golpes en los bajos.",
+     "Каталізатор — приблизно кожні 150 000 км; його псують спалювання оливи, їзда з майже порожнім баком, удари знизу."
     ],
     [
      "No silencer or a faulty one: driving prohibited, in and out of town (except electric vehicles).",
-     "Sin silenciador o defectuoso: prohibido circular, en poblado y fuera (salvo eléctricos)."
+     "Sin silenciador o defectuoso: prohibido circular, en poblado y fuera (salvo eléctricos).",
+     "Без глушника чи з несправним: їздити заборонено і в населеному пункті, і поза ним (крім електромобілів)."
     ]
    ],
    "trap": [
     "Thinking driving without a silencer is allowed out of town.",
-    "Pensar que sin silenciador se puede circular fuera de poblado."
+    "Pensar que sin silenciador se puede circular fuera de poblado.",
+    "Думати, що без глушника можна їздити за містом."
    ]
   },
   "lube": {
    "sec": 2,
    "en": "Lubrication and oil",
    "es": "Lubricación y aceite",
+   "uk": "Змащення й олива",
    "recap": [
     [
      "An oil film reduces friction and wear between metal parts.",
-     "Una película de aceite reduce el rozamiento y el desgaste entre piezas metálicas."
+     "Una película de aceite reduce el rozamiento y el desgaste entre piezas metálicas.",
+     "Плівка оливи зменшує тертя й знос між металевими деталями."
     ],
     [
      "Red oil-pressure light: pressure below minimum — stop the engine quickly.",
-     "Testigo rojo de presión de aceite: por debajo del mínimo; parar el motor rápidamente."
+     "Testigo rojo de presión de aceite: por debajo del mínimo; parar el motor rápidamente.",
+     "Червона лампа тиску оливи: тиск нижчий за мінімальний — швидко зупиніть двигун."
     ],
     [
      "Check the level cold and level, between MIN and MAX; change it warm, through the sump plug.",
-     "Comprobar el nivel en frío y en llano, entre MIN y MAX; cambiarlo en caliente, por el tapón del cárter."
+     "Comprobar el nivel en frío y en llano, entre MIN y MAX; cambiarlo en caliente, por el tapón del cárter.",
+     "Рівень перевіряйте на холодному двигуні й рівній поверхні, між MIN і MAX; міняйте на теплому, через пробку картера."
     ],
     [
      "SAE 10W-60: 10W winter (cold), 60 hot. Never change oil on the street.",
-     "SAE 10W-60: 10W invierno (frío), 60 caliente. Nunca cambiar el aceite en la vía pública."
+     "SAE 10W-60: 10W invierno (frío), 60 caliente. Nunca cambiar el aceite en la vía pública.",
+     "SAE 10W-60: 10W — зима (холод), 60 — спека. Ніколи не міняйте оливу на вулиці."
     ]
    ],
    "trap": [
     "Checking the oil with the engine hot.",
-    "Comprobar el aceite con el motor caliente."
+    "Comprobar el aceite con el motor caliente.",
+    "Перевіряти оливу на гарячому двигуні."
    ]
   },
   "cooling": {
    "sec": 2,
    "en": "Cooling",
    "es": "Refrigeración",
+   "uk": "Охолодження",
    "recap": [
     [
      "Coolant (distilled water with antifreeze) carries the engine’s heat to the radiator.",
-     "El refrigerante (agua destilada con anticongelante) lleva el calor del motor al radiador."
+     "El refrigerante (agua destilada con anticongelante) lleva el calor del motor al radiador.",
+     "Охолоджувальна рідина (дистильована вода з антифризом) відводить тепло двигуна до радіатора."
     ],
     [
      "Check cold, between MIN and MAX on the expansion tank; course: top up with distilled water.",
-     "Comprobar en frío, entre MIN y MAX del vaso de expansión; curso: rellenar con agua destilada."
+     "Comprobar en frío, entre MIN y MAX del vaso de expansión; curso: rellenar con agua destilada.",
+     "Перевіряйте на холодному двигуні, між MIN і MAX на розширювальному бачку; за курсом доливайте дистильовану воду."
     ],
     [
      "Change about every 2 years; watch for leaks; antifreeze for very low temperatures.",
-     "Cambiar cada 2 años aprox.; vigilar fugas; anticongelante para temperaturas muy bajas."
+     "Cambiar cada 2 años aprox.; vigilar fugas; anticongelante para temperaturas muy bajas.",
+     "Міняйте приблизно кожні 2 роки; стежте за витоками; антифриз — для дуже низьких температур."
     ],
     [
      "Never open the expansion tank with the engine hot.",
-     "Nunca abrir el vaso de expansión con el motor caliente."
+     "Nunca abrir el vaso de expansión con el motor caliente.",
+     "Ніколи не відкривайте розширювальний бачок на гарячому двигуні."
     ]
    ],
    "trap": [
     "Opening the expansion tank to check it right after a drive.",
-    "Abrir el vaso de expansión justo después de un viaje."
+    "Abrir el vaso de expansión justo después de un viaje.",
+    "Відкрити розширювальний бачок, щоб перевірити рівень, одразу після поїздки."
    ]
   },
   "battery": {
    "sec": 3,
    "en": "The battery",
    "es": "La batería",
+   "uk": "Акумулятор",
    "recap": [
     [
      "Gives electricity with the engine stopped.",
-     "Proporciona energía con el motor parado."
+     "Proporciona energía con el motor parado.",
+     "Дає електрику, коли двигун не працює."
     ],
     [
      "Cells with lead plates in distilled water and sulphuric acid (electrolyte); terminals outside.",
-     "Vasos con placas de plomo en agua destilada y ácido sulfúrico (electrolito); bornes fuera."
+     "Vasos con placas de plomo en agua destilada y ácido sulfúrico (electrolito); bornes fuera.",
+     "Банки зі свинцевими пластинами в дистильованій воді із сірчаною кислотою (електроліт); клеми зовні."
     ],
     [
      "The electrolyte must cover the plates; top up with distilled water only.",
-     "El electrolito debe cubrir las placas; añadir solo agua destilada."
+     "El electrolito debe cubrir las placas; añadir solo agua destilada.",
+     "Електроліт має покривати пластини; доливайте лише дистильовану воду."
     ],
     [
      "Terminals tight, clean and greased; low-maintenance: check every 6 months; maintenance-free: no need.",
-     "Bornes apretados, limpios y engrasados; bajo mantenimiento: cada 6 meses; sin mantenimiento: no hace falta."
+     "Bornes apretados, limpios y engrasados; bajo mantenimiento: cada 6 meses; sin mantenimiento: no hace falta.",
+     "Клеми затягнуті, чисті й змащені; малообслуговуваний — перевіряти кожні 6 місяців; необслуговуваний — не потрібно."
     ]
    ],
    "trap": [
     "Topping up a battery with acid or tap water.",
-    "Rellenar la batería con ácido o agua del grifo."
+    "Rellenar la batería con ácido o agua del grifo.",
+    "Доливати в акумулятор кислоту чи воду з-під крана."
    ]
   },
   "electric": {
    "sec": 3,
    "en": "Charging, starting, ignition and lights",
    "es": "Carga, arranque, encendido y luces",
+   "uk": "Заряджання, пуск, запалювання й світло",
    "recap": [
     [
      "The alternator, driven by a belt, recharges the battery with the engine running.",
-     "El alternador, movido por una correa, recarga la batería con el motor en marcha."
+     "El alternador, movido por una correa, recarga la batería con el motor en marcha.",
+     "Генератор із приводом від паса заряджає акумулятор, коли двигун працює."
     ],
     [
      "Charge light on: broken belt or worn brushes. Irregular charging: low electrolyte.",
-     "Testigo de carga encendido: correa rota o escobillas gastadas. Carga irregular: electrolito bajo."
+     "Testigo de carga encendido: correa rota o escobillas gastadas. Carga irregular: electrolito bajo.",
+     "Горить лампа заряджання: обірваний пас чи зношені щітки. Нерівномірне заряджання: низький рівень електроліту."
     ],
     [
      "Starter: don’t keep trying. Doesn’t turn and lights go out: flat battery; turns slowly: low battery or bad connections.",
-     "Arranque: no insistir. No gira y se apagan las luces: batería descargada; gira despacio: batería baja o malas conexiones."
+     "Arranque: no insistir. No gira y se apagan las luces: batería descargada; gira despacio: batería baja o malas conexiones.",
+     "Стартер: не крутіть його довго. Не обертається, а світло гасне: розряджений акумулятор; обертається повільно: слабкий акумулятор чи погані контакти."
     ],
     [
      "Spark plugs (petrol): a bad one wastes fuel and pollutes. Pair of lamps out: bulbs, fuse or switch. Xenon: specialists.",
-     "Bujías (gasolina): una en mal estado gasta y contamina. Un par de lámparas apagadas: lámparas, fusible o interruptor. Xenón: especialistas."
+     "Bujías (gasolina): una en mal estado gasta y contamina. Un par de lámparas apagadas: lámparas, fusible o interruptor. Xenón: especialistas.",
+     "Свічки (бензин): погана свічка марнує пальне й забруднює. Не світить пара ламп: лампи, запобіжник чи вимикач. Ксенон: лише фахівці."
     ]
    ],
    "trap": [
     "Thinking diesel engines have spark plugs.",
-    "Pensar que los motores diésel llevan bujías."
+    "Pensar que los motores diésel llevan bujías.",
+    "Думати, що в дизельних двигунах є свічки запалювання."
    ]
   },
   "trans": {
    "sec": 4,
    "en": "Transmission",
    "es": "Transmisión",
+   "uk": "Трансмісія",
    "recap": [
     [
      "Takes the engine’s force to the driving wheels: front (traction), rear (propulsion), all (4×4).",
-     "Lleva la fuerza del motor a las ruedas motrices: delanteras (tracción), traseras (propulsión), todas (4×4)."
+     "Lleva la fuerza del motor a las ruedas motrices: delanteras (tracción), traseras (propulsión), todas (4×4).",
+     "Передає силу двигуна на ведучі колеса: передні (tracción), задні (propulsión), усі (4×4)."
     ],
     [
      "Clutch between engine and gearbox; gearbox; differential lets the wheels turn at different speeds.",
-     "Embrague entre motor y caja de cambios; caja de cambios; el diferencial permite que las ruedas giren a distinta velocidad."
+     "Embrague entre motor y caja de cambios; caja de cambios; el diferencial permite que las ruedas giren a distinta velocidad.",
+     "Зчеплення між двигуном і коробкою передач; коробка передач; диференціал дає колесам обертатися з різною швидкістю."
     ],
     [
      "Riding the clutch damages it. Speed not rising with revs: slipping clutch (worn linings).",
-     "Ir a medio embrague lo daña. La velocidad no sube con las revoluciones: patina el embrague (forros gastados)."
+     "Ir a medio embrague lo daña. La velocidad no sube con las revoluciones: patina el embrague (forros gastados).",
+     "Тримати ногу на зчепленні шкідливо для нього. Швидкість не росте з обертами: зчеплення буксує (зношені накладки)."
     ],
     [
      "Gears hard to engage: gearbox fault, maybe wrong oil level. Press the clutch fully to change gear.",
-     "Marchas que entran con dificultad: avería de la caja, quizá nivel de aceite. Pisar el embrague a fondo para cambiar."
+     "Marchas que entran con dificultad: avería de la caja, quizá nivel de aceite. Pisar el embrague a fondo para cambiar.",
+     "Передачі важко вмикаються: несправна коробка, можливо неправильний рівень оливи. Для перемикання вичавлюйте зчеплення повністю."
     ]
    ],
    "trap": [
     "Calling a rear-wheel-drive car a ‘traction’ vehicle.",
-    "Llamar «de tracción» a un vehículo con las ruedas traseras motrices."
+    "Llamar «de tracción» a un vehículo con las ruedas traseras motrices.",
+    "Називати задньопривідний автомобіль «tracción»."
    ]
   },
   "equip": {
    "sec": 5,
    "en": "Compulsory equipment",
    "es": "Dotación obligatoria",
+   "uk": "Обов’язкове спорядження",
    "recap": [
     [
      "Cars and goods/mixed up to 3,500 kg: V-16, certified vest, spare or temporary wheel + tools, or an alternative system.",
-     "Turismos y mixtos/mercancías hasta 3.500 kg: V-16, chaleco certificado, rueda de repuesto o temporal + herramientas, o sistema alternativo."
+     "Turismos y mixtos/mercancías hasta 3.500 kg: V-16, chaleco certificado, rueda de repuesto o temporal + herramientas, o sistema alternativo.",
+     "Легковики й вантажні/змішані до 3 500 кг: V-16, сертифікований жилет, запасне колесо чи докатка + інструмент, або альтернативна система."
     ],
     [
      "Buses, heavy over 3,500 kg and combinations: V-16, vest and an approved extinguisher.",
-     "Autobuses, pesados de más de 3.500 kg y conjuntos: V-16, chaleco y extintor homologado."
+     "Autobuses, pesados de más de 3.500 kg y conjuntos: V-16, chaleco y extintor homologado.",
+     "Автобуси, важкі понад 3 500 кг і состави: V-16, жилет і затверджений вогнегасник."
     ],
     [
      "Motorcycles: a vest (since 1 October 2026). Professional riders wear it on all roads.",
-     "Motocicletas: chaleco (desde el 1 de octubre de 2026). Los profesionales lo llevan en todas las vías."
+     "Motocicletas: chaleco (desde el 1 de octubre de 2026). Los profesionales lo llevan en todas las vías.",
+     "Мотоцикли: жилет (з 1 жовтня 2026 року). Професійні водії носять його на всіх дорогах."
     ],
     [
      "Vest: yellow, orange-red or red; worn on interurban carriageway or shoulder; kept out of the light but within reach.",
-     "Chaleco: amarillo, rojo anaranjado o rojo; en calzada o arcén de interurbanas; guardado sin luz pero accesible."
+     "Chaleco: amarillo, rojo anaranjado o rojo; en calzada o arcén de interurbanas; guardado sin luz pero accesible.",
+     "Жилет: жовтий, оранжево-червоний чи червоний; вдягати на проїзній частині чи узбіччі заміської дороги; зберігати подалі від світла, але під рукою."
     ]
    ],
    "trap": [
     "Thinking lorries must carry a spare wheel by law.",
-    "Pensar que los camiones deben llevar por ley rueda de repuesto."
+    "Pensar que los camiones deben llevar por ley rueda de repuesto.",
+    "Думати, що закон вимагає від вантажівок возити запасне колесо."
    ]
   }
  }

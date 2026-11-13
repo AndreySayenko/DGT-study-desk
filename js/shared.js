@@ -24,7 +24,7 @@
     uk: { light: 'Світла', dark: 'Темна', saveCloud: 'Прогрес збережено у вашому обліковому записі', saveFile: 'Прогрес збережено в папці проєкту', saveLocal: 'Прогрес збережено лише в цьому браузері' }
   };
   // Shown, in the language the reader chose, on a page that is not translated into it.
-  var NOT_HERE = { uk: 'Цю сторінку ще не перекладено українською, тому вона англійською. Українською є тільки категорія A1 / A2.' };
+  var NOT_HERE = { uk: 'Цю сторінку ще не перекладено українською, тому вона англійською.' };
 
   // ------------------------------------------------------------------ shapes
   function num(x) { return typeof x === 'number' && isFinite(x); }

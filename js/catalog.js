@@ -6,11 +6,13 @@ window.DGT_CATALOG = {
    "tag": "B",
    "name": {
     "en": "Category B",
-    "es": "Permiso B"
+    "es": "Permiso B",
+    "uk": "Категорія B"
    },
    "sub": {
     "en": "Cars",
-    "es": "Turismos"
+    "es": "Turismos",
+    "uk": "Легкові автомобілі"
    },
    "topics": [
     {
@@ -18,13 +20,15 @@ window.DGT_CATALOG = {
      "n": 1,
      "title": {
       "en": "Definitions and general concepts",
-      "es": "Definiciones y conceptos generales"
+      "es": "Definiciones y conceptos generales",
+      "uk": "Визначення та загальні поняття"
      },
      "page": "topics/b-01.html",
      "questions": 58,
      "langs": [
       "en",
-      "es"
+      "es",
+      "uk"
      ]
     },
     {
@@ -32,13 +36,15 @@ window.DGT_CATALOG = {
      "n": 2,
      "title": {
       "en": "Use of the road",
-      "es": "Uso de las vías"
+      "es": "Uso de las vías",
+      "uk": "Користування дорогами"
      },
      "page": "topics/b-02.html",
      "questions": 92,
      "langs": [
       "en",
-      "es"
+      "es",
+      "uk"
      ]
     },
     {
@@ -46,13 +52,15 @@ window.DGT_CATALOG = {
      "n": 3,
      "title": {
       "en": "Speed",
-      "es": "La velocidad"
+      "es": "La velocidad",
+      "uk": "Швидкість"
      },
      "page": "topics/b-03.html",
      "questions": 88,
      "langs": [
       "en",
-      "es"
+      "es",
+      "uk"
      ]
     },
     {
@@ -60,13 +68,15 @@ window.DGT_CATALOG = {
      "n": 4,
      "title": {
       "en": "Priority",
-      "es": "La prioridad"
+      "es": "La prioridad",
+      "uk": "Перевага в русі"
      },
      "page": "topics/b-04.html",
      "questions": 91,
      "langs": [
       "en",
-      "es"
+      "es",
+      "uk"
      ]
     },
     {
@@ -74,13 +84,15 @@ window.DGT_CATALOG = {
      "n": 5,
      "title": {
       "en": "Manoeuvres",
-      "es": "Las maniobras"
+      "es": "Las maniobras",
+      "uk": "Маневри"
      },
      "page": "topics/b-05.html",
      "questions": 137,
      "langs": [
       "en",
-      "es"
+      "es",
+      "uk"
      ]
     },
     {
@@ -88,13 +100,15 @@ window.DGT_CATALOG = {
      "n": 6,
      "title": {
       "en": "Carrying people and goods",
-      "es": "Transporte de personas y mercancías"
+      "es": "Transporte de personas y mercancías",
+      "uk": "Перевезення людей і вантажів"
      },
      "page": "topics/b-06.html",
      "questions": 95,
      "langs": [
       "en",
-      "es"
+      "es",
+      "uk"
      ]
     },
     {
@@ -102,13 +116,15 @@ window.DGT_CATALOG = {
      "n": 7,
      "title": {
       "en": "Lights",
-      "es": "Las luces"
+      "es": "Las luces",
+      "uk": "Світлові прилади"
      },
      "page": "topics/b-07.html",
      "questions": 77,
      "langs": [
       "en",
-      "es"
+      "es",
+      "uk"
      ]
     },
     {
@@ -116,13 +132,15 @@ window.DGT_CATALOG = {
      "n": 8,
      "title": {
       "en": "Signs and signals",
-      "es": "Las señales"
+      "es": "Las señales",
+      "uk": "Знаки та сигнали"
      },
      "page": "topics/b-08.html",
      "questions": 196,
      "langs": [
       "en",
-      "es"
+      "es",
+      "uk"
      ]
     },
     {
@@ -130,13 +148,15 @@ window.DGT_CATALOG = {
      "n": 9,
      "title": {
       "en": "Documentation",
-      "es": "Documentación"
+      "es": "Documentación",
+      "uk": "Документи"
      },
      "page": "topics/b-09.html",
      "questions": 116,
      "langs": [
       "en",
-      "es"
+      "es",
+      "uk"
      ]
     },
     {
@@ -144,13 +164,15 @@ window.DGT_CATALOG = {
      "n": 10,
      "title": {
       "en": "Accidents and their factors",
-      "es": "Los accidentes y sus factores"
+      "es": "Los accidentes y sus factores",
+      "uk": "ДТП та їхні чинники"
      },
      "page": "topics/b-10.html",
      "questions": 259,
      "langs": [
       "en",
-      "es"
+      "es",
+      "uk"
      ]
     },
     {
@@ -158,13 +180,15 @@ window.DGT_CATALOG = {
      "n": 11,
      "title": {
       "en": "First aid",
-      "es": "Primeros auxilios"
+      "es": "Primeros auxilios",
+      "uk": "Перша допомога"
      },
      "page": "topics/b-11.html",
      "questions": 107,
      "langs": [
       "en",
-      "es"
+      "es",
+      "uk"
      ]
     },
     {
@@ -172,13 +196,15 @@ window.DGT_CATALOG = {
      "n": 12,
      "title": {
       "en": "Driving techniques",
-      "es": "Técnicas de conducción"
+      "es": "Técnicas de conducción",
+      "uk": "Техніка водіння"
      },
      "page": "topics/b-12.html",
      "questions": 99,
      "langs": [
       "en",
-      "es"
+      "es",
+      "uk"
      ]
     },
     {
@@ -186,13 +212,15 @@ window.DGT_CATALOG = {
      "n": 13,
      "title": {
       "en": "Vehicle maintenance and accessories",
-      "es": "Mantenimiento del vehículo y accesorios"
+      "es": "Mantenimiento del vehículo y accesorios",
+      "uk": "Технічне обслуговування автомобіля та приладдя"
      },
      "page": "topics/b-13.html",
      "questions": 77,
      "langs": [
       "en",
-      "es"
+      "es",
+      "uk"
      ]
     }
    ]

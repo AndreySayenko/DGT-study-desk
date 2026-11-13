@@ -4,11 +4,13 @@ window.DGT_DATA = {
  "category": "b",
  "langs": [
   "en",
-  "es"
+  "es",
+  "uk"
  ],
  "title": {
   "en": "Topic 11 · First aid",
-  "es": "Tema 11 · Primeros auxilios"
+  "es": "Tema 11 · Primeros auxilios",
+  "uk": "Тема 11 · Перша допомога"
  },
  "bank": [
   {
@@ -16,25 +18,30 @@ window.DGT_DATA = {
    "tag": "duty",
    "q": {
     "en": "Who must help at a road accident?",
-    "es": "¿Quién está obligado a ayudar en un accidente de tráfico?"
+    "es": "¿Quién está obligado a ayudar en un accidente de tráfico?",
+    "uk": "Хто мусить допомагати на місці ДТП?"
    },
    "o": [
     {
      "en": "Those involved and anyone who knows about it",
-     "es": "Los implicados y quien tenga conocimiento de él"
+     "es": "Los implicados y quien tenga conocimiento de él",
+     "uk": "Учасники й будь-хто, хто про неї знає"
     },
     {
      "en": "Only the drivers involved",
-     "es": "Solo los conductores implicados"
+     "es": "Solo los conductores implicados",
+     "uk": "Лише причетні водії"
     },
     {
      "en": "Only the police",
-     "es": "Solo la policía"
+     "es": "Solo la policía",
+     "uk": "Лише поліція"
     }
    ],
    "why": {
     "en": "Even users who are not involved.",
-    "es": "Incluso los usuarios no implicados."
+    "es": "Incluso los usuarios no implicados.",
+    "uk": "Навіть учасники руху, не причетні до ДТП."
    }
   },
   {
@@ -42,25 +49,30 @@ window.DGT_DATA = {
    "tag": "duty",
    "q": {
     "en": "Not helping the victims of an accident when you could is…",
-    "es": "No auxiliar a las víctimas de un accidente pudiendo hacerlo es…"
+    "es": "No auxiliar a las víctimas de un accidente pudiendo hacerlo es…",
+    "uk": "Не допомогти потерпілим у ДТП, коли могли, —"
    },
    "o": [
     {
      "en": "a crime of failure to help",
-     "es": "un delito de omisión del deber de socorro"
+     "es": "un delito de omisión del deber de socorro",
+     "uk": "злочин ненадання допомоги"
     },
     {
      "en": "a minor offence",
-     "es": "una infracción leve"
+     "es": "una infracción leve",
+     "uk": "незначне порушення"
     },
     {
      "en": "allowed if you are in a hurry",
-     "es": "permitido si tienes prisa"
+     "es": "permitido si tienes prisa",
+     "uk": "дозволено, якщо поспішаєте"
     }
    ],
    "why": {
     "en": "Código Penal, art. 195.",
-    "es": "Código Penal, art. 195."
+    "es": "Código Penal, art. 195.",
+    "uk": "Кримінальний кодекс, ст. 195."
    }
   },
   {
@@ -68,25 +80,30 @@ window.DGT_DATA = {
    "tag": "duty",
    "q": {
     "en": "A user not involved in an accident may drive on when…",
-    "es": "Un usuario no implicado puede continuar la marcha cuando…"
+    "es": "Un usuario no implicado puede continuar la marcha cuando…",
+    "uk": "Учасник руху, не причетний до ДТП, може їхати далі, коли…"
    },
    "o": [
     {
      "en": "the agents are already there",
-     "es": "ya se han personado los agentes"
+     "es": "ya se han personado los agentes",
+     "uk": "регулювальники вже на місці"
     },
     {
      "en": "they have an appointment",
-     "es": "tiene una cita"
+     "es": "tiene una cita",
+     "uk": "у нього зустріч"
     },
     {
      "en": "it is raining",
-     "es": "está lloviendo"
+     "es": "está lloviendo",
+     "uk": "іде дощ"
     }
    ],
    "why": {
     "en": "Or when their help is clearly not needed.",
-    "es": "O cuando claramente no sea necesaria su colaboración."
+    "es": "O cuando claramente no sea necesaria su colaboración.",
+    "uk": "Або коли його допомога явно не потрібна."
    }
   },
   {
@@ -94,25 +111,30 @@ window.DGT_DATA = {
    "tag": "duty",
    "q": {
     "en": "If there are deaths or serious injuries you must…",
-    "es": "Si hay muertos o heridos graves hay que…"
+    "es": "Si hay muertos o heridos graves hay que…",
+    "uk": "Якщо є загиблі чи тяжко травмовані, ви мусите…"
    },
    "o": [
     {
      "en": "avoid changing the scene and the evidence, call the agents and stay",
-     "es": "evitar alterar el lugar y las pruebas, avisar a los agentes y quedarse"
+     "es": "evitar alterar el lugar y las pruebas, avisar a los agentes y quedarse",
+     "uk": "не змінювати місце й докази, викликати регулювальників і лишатися"
     },
     {
      "en": "move the vehicles to clean the road",
-     "es": "mover los vehículos para limpiar la vía"
+     "es": "mover los vehículos para limpiar la vía",
+     "uk": "перемістити ТЗ, щоб звільнити дорогу"
     },
     {
      "en": "leave once you have called",
-     "es": "irse tras llamar"
+     "es": "irse tras llamar",
+     "uk": "поїхати, щойно зателефонували"
     }
    ],
    "why": {
     "en": "Unless leaving things as they are endangers someone.",
-    "es": "Salvo que no hacerlo perjudique la seguridad."
+    "es": "Salvo que no hacerlo perjudique la seguridad.",
+    "uk": "Якщо лишити все як є не створює небезпеки для когось."
    }
   },
   {
@@ -120,25 +142,30 @@ window.DGT_DATA = {
    "tag": "duty",
    "q": {
     "en": "If the agents ask, a person involved in an accident must…",
-    "es": "Si lo piden los agentes, un implicado en un accidente debe…"
+    "es": "Si lo piden los agentes, un implicado en un accidente debe…",
+    "uk": "Якщо просять регулювальники, причетний до ДТП мусить…"
    },
    "o": [
     {
      "en": "show their documents, explain what happened and take the alcohol and drug tests",
-     "es": "mostrar su documentación, explicar lo ocurrido y someterse a las pruebas de alcohol y drogas"
+     "es": "mostrar su documentación, explicar lo ocurrido y someterse a las pruebas de alcohol y drogas",
+     "uk": "показати документи, пояснити, що сталося, і пройти тести на алкоголь і наркотики"
     },
     {
      "en": "only give their name",
-     "es": "dar solo su nombre"
+     "es": "dar solo su nombre",
+     "uk": "назвати лише ім’я"
     },
     {
      "en": "nothing",
-     "es": "nada"
+     "es": "nada",
+     "uk": "нічого"
     }
    ],
    "why": {
     "en": "Working with the authorities.",
-    "es": "Colaborar con la Autoridad."
+    "es": "Colaborar con la Autoridad.",
+    "uk": "Співпраця з владою."
    }
   },
   {
@@ -146,25 +173,30 @@ window.DGT_DATA = {
    "tag": "duty",
    "q": {
     "en": "A driver who causes an accident with seriously injured people and deliberately leaves without any risk to stay commits…",
-    "es": "El conductor que causa un accidente con heridos graves y se marcha voluntariamente sin riesgo para quedarse comete…"
+    "es": "El conductor que causa un accidente con heridos graves y se marcha voluntariamente sin riesgo para quedarse comete…",
+    "uk": "Водій, що спричинив ДТП з тяжко травмованими й навмисно поїхав без жодного ризику, якщо лишиться, вчиняє…"
    },
    "o": [
     {
      "en": "the crime of leaving the scene of an accident",
-     "es": "el delito de abandono del lugar del accidente"
+     "es": "el delito de abandono del lugar del accidente",
+     "uk": "злочин залишення місця ДТП"
     },
     {
      "en": "no offence if they call later",
-     "es": "ninguna infracción si llama después"
+     "es": "ninguna infracción si llama después",
+     "uk": "жодного порушення, якщо потім зателефонує"
     },
     {
      "en": "only an administrative offence",
-     "es": "solo una infracción administrativa"
+     "es": "solo una infracción administrativa",
+     "uk": "лише адміністративне порушення"
     }
    ],
    "why": {
     "en": "Art. 382 bis: prison and a driving ban.",
-    "es": "Art. 382 bis: prisión y privación del permiso."
+    "es": "Art. 382 bis: prisión y privación del permiso.",
+    "uk": "Ст. 382 bis: позбавлення волі й права керувати."
    }
   },
   {
@@ -172,25 +204,30 @@ window.DGT_DATA = {
    "tag": "duty",
    "q": {
     "en": "Someone involved in an accident asks for your details. You must give…",
-    "es": "Un implicado en un accidente te pide tus datos. Debes facilitar…"
+    "es": "Un implicado en un accidente te pide tus datos. Debes facilitar…",
+    "uk": "Причетний до ДТП просить ваші дані. Ви мусите дати…"
    },
    "o": [
     {
      "en": "your identity and your vehicle’s details",
-     "es": "tu identidad y los datos del vehículo"
+     "es": "tu identidad y los datos del vehículo",
+     "uk": "свої особисті дані й дані свого ТЗ"
     },
     {
      "en": "only your phone number",
-     "es": "solo tu teléfono"
+     "es": "solo tu teléfono",
+     "uk": "лише номер телефону"
     },
     {
      "en": "nothing",
-     "es": "nada"
+     "es": "nada",
+     "uk": "нічого"
     }
    ],
    "why": {
     "en": "Name, ID, plate…",
-    "es": "Nombre, DNI, matrícula…"
+    "es": "Nombre, DNI, matrícula…",
+    "uk": "Ім’я, документ, номерний знак…"
    }
   },
   {
@@ -198,25 +235,30 @@ window.DGT_DATA = {
    "tag": "duty",
    "q": {
     "en": "With only minor damage, the sensible thing is to…",
-    "es": "Si solo hay pequeños daños materiales, lo acertado es…"
+    "es": "Si solo hay pequeños daños materiales, lo acertado es…",
+    "uk": "Якщо лише незначні пошкодження, розумно…"
    },
    "o": [
     {
      "en": "agree and fill in the accident report form off the road",
-     "es": "llegar a un acuerdo y rellenar el parte amistoso fuera de la vía"
+     "es": "llegar a un acuerdo y rellenar el parte amistoso fuera de la vía",
+     "uk": "домовитися й заповнити протокол ДТП поза дорогою"
     },
     {
      "en": "block the road until the police arrive",
-     "es": "bloquear la vía hasta que llegue la policía"
+     "es": "bloquear la vía hasta que llegue la policía",
+     "uk": "блокувати дорогу до приїзду поліції"
     },
     {
      "en": "argue on the carriageway",
-     "es": "discutir en la calzada"
+     "es": "discutir en la calzada",
+     "uk": "сперечатися на проїзній частині"
     }
    ],
    "why": {
     "en": "Tell the insurers as soon as possible.",
-    "es": "Comunicarlo a las aseguradoras cuanto antes."
+    "es": "Comunicarlo a las aseguradoras cuanto antes.",
+    "uk": "Повідомте страховиків якнайшвидше."
    }
   },
   {
@@ -224,25 +266,30 @@ window.DGT_DATA = {
    "tag": "duty",
    "q": {
     "en": "Where should you fill in the accident report form?",
-    "es": "¿Dónde se debe rellenar el parte amistoso?"
+    "es": "¿Dónde se debe rellenar el parte amistoso?",
+    "uk": "Де слід заповнювати протокол ДТП?"
    },
    "o": [
     {
      "en": "Somewhere safe, off the road",
-     "es": "En un lugar seguro, fuera de la vía"
+     "es": "En un lugar seguro, fuera de la vía",
+     "uk": "У безпечному місці, поза дорогою"
     },
     {
      "en": "On the carriageway, next to the cars",
-     "es": "En la calzada, junto a los coches"
+     "es": "En la calzada, junto a los coches",
+     "uk": "На проїзній частині, біля автомобілів"
     },
     {
      "en": "On the hard shoulder of a motorway",
-     "es": "En el arcén de la autopista"
+     "es": "En el arcén de la autopista",
+     "uk": "На узбіччі автомагістралі"
     }
    ],
    "why": {
     "en": "Don’t create new risks.",
-    "es": "Para no crear nuevos riesgos."
+    "es": "Para no crear nuevos riesgos.",
+    "uk": "Не створюйте нових ризиків."
    }
   },
   {
@@ -250,25 +297,30 @@ window.DGT_DATA = {
    "tag": "duty",
    "q": {
     "en": "If you can’t help yourself, to avoid failing in your duty you must…",
-    "es": "Si no puedes socorrer tú mismo, para no incumplir tu deber debes…"
+    "es": "Si no puedes socorrer tú mismo, para no incumplir tu deber debes…",
+    "uk": "Якщо не можете допомогти самі, щоб не порушити обов’язку, ви мусите…"
    },
    "o": [
     {
      "en": "urgently call for help",
-     "es": "pedir auxilio con urgencia"
+     "es": "pedir auxilio con urgencia",
+     "uk": "терміново викликати допомогу"
     },
     {
      "en": "leave",
-     "es": "marcharte"
+     "es": "marcharte",
+     "uk": "поїхати"
     },
     {
      "en": "wait for someone else to call",
-     "es": "esperar a que llame otro"
+     "es": "esperar a que llame otro",
+     "uk": "чекати, доки зателефонує хтось інший"
     }
    ],
    "why": {
     "en": "Failing to call is punished the same way.",
-    "es": "No pedirlo se castiga igual."
+    "es": "No pedirlo se castiga igual.",
+    "uk": "Не викликати допомогу карається так само."
    }
   },
   {
@@ -276,25 +328,30 @@ window.DGT_DATA = {
    "tag": "protect",
    "q": {
     "en": "What is the right order at an accident?",
-    "es": "¿Cuál es el orden correcto ante un accidente?"
+    "es": "¿Cuál es el orden correcto ante un accidente?",
+    "uk": "Який правильний порядок дій на місці ДТП?"
    },
    "o": [
     {
      "en": "Protect, alert, help",
-     "es": "Proteger, avisar, socorrer"
+     "es": "Proteger, avisar, socorrer",
+     "uk": "Захистити, повідомити, допомогти"
     },
     {
      "en": "Help, alert, protect",
-     "es": "Socorrer, avisar, proteger"
+     "es": "Socorrer, avisar, proteger",
+     "uk": "Допомогти, повідомити, захистити"
     },
     {
      "en": "Alert, help, protect",
-     "es": "Avisar, socorrer, proteger"
+     "es": "Avisar, socorrer, proteger",
+     "uk": "Повідомити, допомогти, захистити"
     }
    ],
    "why": {
     "en": "The PAS rule.",
-    "es": "La regla PAS."
+    "es": "La regla PAS.",
+    "uk": "Правило PAS."
    }
   },
   {
@@ -302,25 +359,30 @@ window.DGT_DATA = {
    "tag": "protect",
    "q": {
     "en": "The first thing to protect is…",
-    "es": "Lo primero que hay que proteger es…"
+    "es": "Lo primero que hay que proteger es…",
+    "uk": "Насамперед треба захистити…"
    },
    "o": [
     {
      "en": "yourself",
-     "es": "a uno mismo"
+     "es": "a uno mismo",
+     "uk": "себе"
     },
     {
      "en": "the vehicles",
-     "es": "los vehículos"
+     "es": "los vehículos",
+     "uk": "ТЗ"
     },
     {
      "en": "the evidence",
-     "es": "las pruebas"
+     "es": "las pruebas",
+     "uk": "докази"
     }
    ],
    "why": {
     "en": "Then the scene, then the victims.",
-    "es": "Después el lugar y después las víctimas."
+    "es": "Después el lugar y después las víctimas.",
+    "uk": "Потім місце ДТП, потім потерпілих."
    }
   },
   {
@@ -328,25 +390,30 @@ window.DGT_DATA = {
    "tag": "protect",
    "q": {
     "en": "When do you put the reflective vest on?",
-    "es": "¿Cuándo hay que ponerse el chaleco reflectante?"
+    "es": "¿Cuándo hay que ponerse el chaleco reflectante?",
+    "uk": "Коли вдягати світловідбивний жилет?"
    },
    "o": [
     {
      "en": "Before getting out of the vehicle",
-     "es": "Antes de salir del vehículo"
+     "es": "Antes de salir del vehículo",
+     "uk": "До того, як вийти з ТЗ"
     },
     {
      "en": "Once you reach the injured",
-     "es": "Al llegar junto a los heridos"
+     "es": "Al llegar junto a los heridos",
+     "uk": "Коли дійдете до потерпілих"
     },
     {
      "en": "Only at night",
-     "es": "Solo de noche"
+     "es": "Solo de noche",
+     "uk": "Лише вночі"
     }
    ],
    "why": {
     "en": "Even on roads where it isn’t compulsory.",
-    "es": "Aunque no sea obligatorio en esa vía."
+    "es": "Aunque no sea obligatorio en esa vía.",
+    "uk": "Навіть на дорогах, де він не обов’язковий."
    }
   },
   {
@@ -354,25 +421,30 @@ window.DGT_DATA = {
    "tag": "protect",
    "q": {
     "en": "How do you place the V-16 warning light?",
-    "es": "¿Cómo se coloca la señal V-16?"
+    "es": "¿Cómo se coloca la señal V-16?",
+    "uk": "Як встановлюють аварійний маяк V-16?"
    },
    "o": [
     {
      "en": "On the roof, from inside, with the window down, before getting out",
-     "es": "En el techo, desde dentro, bajando la ventanilla, antes de salir"
+     "es": "En el techo, desde dentro, bajando la ventanilla, antes de salir",
+     "uk": "На дах, зсередини, опустивши вікно, до того, як вийти"
     },
     {
      "en": "50 m behind the car, walking",
-     "es": "A 50 m detrás del coche, andando"
+     "es": "A 50 m detrás del coche, andando",
+     "uk": "За 50 м позаду автомобіля, пішки"
     },
     {
      "en": "Inside the boot",
-     "es": "En el maletero"
+     "es": "En el maletero",
+     "uk": "У багажнику"
     }
    ],
    "why": {
     "en": "Plus the hazard lights.",
-    "es": "Además de las luces de emergencia."
+    "es": "Además de las luces de emergencia.",
+    "uk": "Плюс аварійна сигналізація."
    }
   },
   {
@@ -380,25 +452,30 @@ window.DGT_DATA = {
    "tag": "protect",
    "q": {
     "en": "To put out a vehicle fire you should use…",
-    "es": "Para apagar el fuego de un vehículo hay que usar…"
+    "es": "Para apagar el fuego de un vehículo hay que usar…",
+    "uk": "Щоб загасити пожежу ТЗ, слід використовувати…"
    },
    "o": [
     {
      "en": "an extinguisher at the base of the flames, or sand or blankets — never water",
-     "es": "el extintor en la base de las llamas, o arena o mantas, nunca agua"
+     "es": "el extintor en la base de las llamas, o arena o mantas, nunca agua",
+     "uk": "вогнегасник під основу полум’я або пісок чи ковдри — ніколи воду"
     },
     {
      "en": "plenty of water",
-     "es": "mucha agua"
+     "es": "mucha agua",
+     "uk": "багато води"
     },
     {
      "en": "the extinguisher at the top of the flames",
-     "es": "el extintor en lo alto de las llamas"
+     "es": "el extintor en lo alto de las llamas",
+     "uk": "вогнегасник на верх полум’я"
     }
    ],
    "why": {
     "en": "Get the injured out first.",
-    "es": "Primero, sacar a los heridos."
+    "es": "Primero, sacar a los heridos.",
+    "uk": "Спершу виведіть потерпілих."
    }
   },
   {
@@ -406,25 +483,30 @@ window.DGT_DATA = {
    "tag": "protect",
    "q": {
     "en": "Crashed vehicles that block the road should be…",
-    "es": "Los vehículos accidentados que obstaculizan la vía se deben…"
+    "es": "Los vehículos accidentados que obstaculizan la vía se deben…",
+    "uk": "Пошкоджені ТЗ, що блокують дорогу, слід…"
    },
    "o": [
     {
      "en": "moved off the carriageway, with the handbrake on and engine off",
-     "es": "colocar fuera de la calzada, con freno de mano y motor parado"
+     "es": "colocar fuera de la calzada, con freno de mano y motor parado",
+     "uk": "прибрати з проїзної частини, ввімкнувши ручне гальмо й заглушивши двигун"
     },
     {
      "en": "left exactly where they are, always",
-     "es": "dejar siempre donde están"
+     "es": "dejar siempre donde están",
+     "uk": "завжди лишати точно там, де вони є"
     },
     {
      "en": "left with the engine running",
-     "es": "dejar con el motor en marcha"
+     "es": "dejar con el motor en marcha",
+     "uk": "лишити з працюючим двигуном"
     }
    ],
    "why": {
     "en": "On the shoulder or central reservation — but with deaths or serious injuries, don’t alter evidence unless there is a danger.",
-    "es": "En el arcén o la mediana; con muertos o heridos graves, no alterar pruebas salvo peligro."
+    "es": "En el arcén o la mediana; con muertos o heridos graves, no alterar pruebas salvo peligro.",
+    "uk": "На узбіччя чи розділювальну смугу — але якщо є загиблі чи тяжко травмовані, не змінюйте доказів, якщо немає небезпеки."
    }
   },
   {
@@ -432,25 +514,30 @@ window.DGT_DATA = {
    "tag": "protect",
    "q": {
     "en": "At an accident scene, smoking is…",
-    "es": "En el lugar de un accidente, fumar…"
+    "es": "En el lugar de un accidente, fumar…",
+    "uk": "На місці ДТП курити…"
    },
    "o": [
     {
      "en": "to be avoided: it is a fire risk",
-     "es": "debe evitarse: hay riesgo de incendio"
+     "es": "debe evitarse: hay riesgo de incendio",
+     "uk": "не слід: це ризик пожежі"
     },
     {
      "en": "fine outside the car",
-     "es": "está bien fuera del coche"
+     "es": "está bien fuera del coche",
+     "uk": "можна поза автомобілем"
     },
     {
      "en": "recommended to calm down",
-     "es": "se recomienda para calmarse"
+     "es": "se recomienda para calmarse",
+     "uk": "рекомендовано, щоб заспокоїтися"
     }
    ],
    "why": {
     "en": "Fuel may have spilled.",
-    "es": "Puede haber combustible derramado."
+    "es": "Puede haber combustible derramado.",
+    "uk": "Могло розлитися пальне."
    }
   },
   {
@@ -458,25 +545,30 @@ window.DGT_DATA = {
    "tag": "protect",
    "q": {
     "en": "May you move an injured person?",
-    "es": "¿Se puede mover a un herido?"
+    "es": "¿Se puede mover a un herido?",
+    "uk": "Чи можна переміщувати потерпілого?"
    },
    "o": [
     {
      "en": "Only if essential because of a danger, keeping the head–neck–trunk still",
-     "es": "Solo si es imprescindible por un peligro, inmovilizando el eje cabeza-cuello-tronco"
+     "es": "Solo si es imprescindible por un peligro, inmovilizando el eje cabeza-cuello-tronco",
+     "uk": "Лише якщо це конче потрібно через небезпеку, тримаючи голову–шию–тулуб нерухомо"
     },
     {
      "en": "Yes, to make them comfortable",
-     "es": "Sí, para ponerlo cómodo"
+     "es": "Sí, para ponerlo cómodo",
+     "uk": "Так, щоб йому було зручно"
     },
     {
      "en": "Yes, always to the shoulder",
-     "es": "Sí, siempre al arcén"
+     "es": "Sí, siempre al arcén",
+     "uk": "Так, завжди на узбіччя"
     }
    ],
    "why": {
     "en": "A spinal injury can be made worse.",
-    "es": "Se puede agravar una lesión de columna."
+    "es": "Se puede agravar una lesión de columna.",
+    "uk": "Травму хребта можна погіршити."
    }
   },
   {
@@ -484,25 +576,30 @@ window.DGT_DATA = {
    "tag": "protect",
    "q": {
     "en": "Should you remove an injured motorcyclist’s helmet?",
-    "es": "¿Hay que quitar el casco a un motorista herido?"
+    "es": "¿Hay que quitar el casco a un motorista herido?",
+    "uk": "Чи слід знімати шолом із травмованого мотоцикліста?"
    },
    "o": [
     {
      "en": "No, unless essential and you know how — at least two people",
-     "es": "No, salvo que sea imprescindible y se sepa hacerlo, mínimo dos personas"
+     "es": "No, salvo que sea imprescindible y se sepa hacerlo, mínimo dos personas",
+     "uk": "Ні, якщо це не конче потрібно й ви не вмієте — щонайменше двоє людей"
     },
     {
      "en": "Yes, always, so they can breathe",
-     "es": "Sí, siempre, para que respire"
+     "es": "Sí, siempre, para que respire",
+     "uk": "Так, завжди, щоб він міг дихати"
     },
     {
      "en": "Yes, one person is enough",
-     "es": "Sí, basta una persona"
+     "es": "Sí, basta una persona",
+     "uk": "Так, досить однієї людини"
     }
    ],
    "why": {
     "en": "Moving the neck can cause serious injury.",
-    "es": "Mover el cuello puede causar lesiones graves."
+    "es": "Mover el cuello puede causar lesiones graves.",
+    "uk": "Рух шиї може спричинити тяжку травму."
    }
   },
   {
@@ -510,25 +607,30 @@ window.DGT_DATA = {
    "tag": "protect",
    "q": {
     "en": "After stopping at an accident, you should…",
-    "es": "Tras detenerte en un accidente, debes…"
+    "es": "Tras detenerte en un accidente, debes…",
+    "uk": "Зупинившись на місці ДТП, слід…"
    },
    "o": [
     {
      "en": "avoid walking on the carriageway",
-     "es": "evitar circular por la calzada"
+     "es": "evitar circular por la calzada",
+     "uk": "уникати ходіння проїзною частиною"
     },
     {
      "en": "stand in the middle of the road to stop traffic",
-     "es": "ponerte en medio de la calzada para parar el tráfico"
+     "es": "ponerte en medio de la calzada para parar el tráfico",
+     "uk": "стати посеред дороги, щоб зупинити рух"
     },
     {
      "en": "cross between moving cars",
-     "es": "cruzar entre los coches"
+     "es": "cruzar entre los coches",
+     "uk": "переходити між автомобілями, що рухаються"
     }
    ],
    "why": {
     "en": "Walk and wait off the road.",
-    "es": "Caminar y esperar fuera de la calzada."
+    "es": "Caminar y esperar fuera de la calzada.",
+    "uk": "Ходіть і чекайте поза дорогою."
    }
   },
   {
@@ -536,25 +638,30 @@ window.DGT_DATA = {
    "tag": "alert",
    "q": {
     "en": "The emergency number is…",
-    "es": "El teléfono de emergencias es…"
+    "es": "El teléfono de emergencias es…",
+    "uk": "Номер екстрених служб —"
    },
    "o": [
     {
      "en": "112",
-     "es": "el 112"
+     "es": "el 112",
+     "uk": "112"
     },
     {
      "en": "091",
-     "es": "el 091"
+     "es": "el 091",
+     "uk": "091"
     },
     {
      "en": "061 only",
-     "es": "solo el 061"
+     "es": "solo el 061",
+     "uk": "лише 061"
     }
    ],
    "why": {
     "en": "The same in the whole European Union.",
-    "es": "Común en toda la Unión Europea."
+    "es": "Común en toda la Unión Europea.",
+    "uk": "Однаковий у всьому Європейському Союзі."
    }
   },
   {
@@ -562,25 +669,30 @@ window.DGT_DATA = {
    "tag": "alert",
    "q": {
     "en": "Calling 112…",
-    "es": "Llamar al 112…"
+    "es": "Llamar al 112…",
+    "uk": "Дзвінок на 112…"
    },
    "o": [
     {
      "en": "is free and works even without credit",
-     "es": "es gratuito y funciona incluso sin saldo"
+     "es": "es gratuito y funciona incluso sin saldo",
+     "uk": "безкоштовний і працює навіть без коштів на рахунку"
     },
     {
      "en": "costs money",
-     "es": "cuesta dinero"
+     "es": "cuesta dinero",
+     "uk": "платний"
     },
     {
      "en": "only works in Spain",
-     "es": "solo funciona en España"
+     "es": "solo funciona en España",
+     "uk": "працює лише в Іспанії"
     }
    ],
    "why": {
     "en": "And they answer in the caller’s language.",
-    "es": "Y atienden en el idioma de quien llama."
+    "es": "Y atienden en el idioma de quien llama.",
+    "uk": "І відповідають мовою того, хто телефонує."
    }
   },
   {
@@ -588,25 +700,30 @@ window.DGT_DATA = {
    "tag": "alert",
    "q": {
     "en": "Which information is NOT needed when you call 112?",
-    "es": "¿Qué información NO es necesaria al llamar al 112?"
+    "es": "¿Qué información NO es necesaria al llamar al 112?",
+    "uk": "Яка інформація НЕ потрібна, коли телефонуєте на 112?"
    },
    "o": [
     {
      "en": "Your insurance policy number",
-     "es": "El número de tu póliza de seguro"
+     "es": "El número de tu póliza de seguro",
+     "uk": "Номер вашого страхового поліса"
     },
     {
      "en": "The exact place",
-     "es": "El lugar exacto"
+     "es": "El lugar exacto",
+     "uk": "Точне місце"
     },
     {
      "en": "The number and state of the injured",
-     "es": "El número y estado de los heridos"
+     "es": "El número y estado de los heridos",
+     "uk": "Кількість і стан потерпілих"
     }
    ],
    "why": {
     "en": "Also what happened and your identity and phone.",
-    "es": "También qué ha ocurrido y tu identidad y teléfono."
+    "es": "También qué ha ocurrido y tu identidad y teléfono.",
+    "uk": "А також що сталося, ваші дані й телефон."
    }
   },
   {
@@ -614,25 +731,30 @@ window.DGT_DATA = {
    "tag": "alert",
    "q": {
     "en": "When calling 112 you should mention, if there is any…",
-    "es": "Al llamar al 112 hay que mencionar, si lo hay…"
+    "es": "Al llamar al 112 hay que mencionar, si lo hay…",
+    "uk": "Телефонуючи на 112, слід згадати, якщо є…"
    },
    "o": [
     {
      "en": "a fire risk or dangerous goods",
-     "es": "riesgo de incendio o mercancías peligrosas"
+     "es": "riesgo de incendio o mercancías peligrosas",
+     "uk": "ризик пожежі чи небезпечні вантажі"
     },
     {
      "en": "the colour of the cars",
-     "es": "el color de los coches"
+     "es": "el color de los coches",
+     "uk": "колір автомобілів"
     },
     {
      "en": "the weather forecast",
-     "es": "la previsión del tiempo"
+     "es": "la previsión del tiempo",
+     "uk": "прогноз погоди"
     }
    ],
    "why": {
     "en": "The characteristics of the accident.",
-    "es": "Las características del accidente."
+    "es": "Las características del accidente.",
+    "uk": "Особливості ДТП."
    }
   },
   {
@@ -640,25 +762,30 @@ window.DGT_DATA = {
    "tag": "alert",
    "q": {
     "en": "You need not alert or stay at an accident only if…",
-    "es": "No es necesario avisar ni permanecer en un accidente solo si…"
+    "es": "No es necesario avisar ni permanecer en un accidente solo si…",
+    "uk": "Можна не повідомляти й не лишатися на місці ДТП, лише якщо…"
    },
    "o": [
     {
      "en": "injuries are clearly minor, safety is restored and nobody involved asks you to",
-     "es": "las heridas son leves, la seguridad está restablecida y ningún implicado lo solicita"
+     "es": "las heridas son leves, la seguridad está restablecida y ningún implicado lo solicita",
+     "uk": "травми явно незначні, безпеку відновлено й ніхто з причетних не просить вас лишитися"
     },
     {
      "en": "you are late",
-     "es": "llegas tarde"
+     "es": "llegas tarde",
+     "uk": "ви запізнюєтеся"
     },
     {
      "en": "it is night",
-     "es": "es de noche"
+     "es": "es de noche",
+     "uk": "зараз ніч"
     }
    ],
    "why": {
     "en": "All three conditions.",
-    "es": "Las tres condiciones."
+    "es": "Las tres condiciones.",
+    "uk": "Усі три умови."
    }
   },
   {
@@ -666,25 +793,30 @@ window.DGT_DATA = {
    "tag": "alert",
    "q": {
     "en": "There is a slightly injured person, the road is clear, but they ask you to stay. You must…",
-    "es": "Hay un herido leve, la vía está despejada, pero te pide que te quedes. Debes…"
+    "es": "Hay un herido leve, la vía está despejada, pero te pide que te quedes. Debes…",
+    "uk": "Є легко травмований, дорога вільна, але він просить вас лишитися. Ви мусите…"
    },
    "o": [
     {
      "en": "stay",
-     "es": "quedarte"
+     "es": "quedarte",
+     "uk": "лишитися"
     },
     {
      "en": "leave, since injuries are minor",
-     "es": "irte, porque es leve"
+     "es": "irte, porque es leve",
+     "uk": "поїхати, бо травми незначні"
     },
     {
      "en": "only leave your number",
-     "es": "solo dejar tu teléfono"
+     "es": "solo dejar tu teléfono",
+     "uk": "лише лишити свій номер"
     }
    ],
    "why": {
     "en": "One of the three conditions fails.",
-    "es": "No se cumple una de las tres condiciones."
+    "es": "No se cumple una de las tres condiciones.",
+    "uk": "Одна з трьох умов не виконана."
    }
   },
   {
@@ -692,25 +824,30 @@ window.DGT_DATA = {
    "tag": "alert",
    "q": {
     "en": "When you call 112 you must give…",
-    "es": "Al llamar al 112 debes dar…"
+    "es": "Al llamar al 112 debes dar…",
+    "uk": "Телефонуючи на 112, ви мусите назвати…"
    },
    "o": [
     {
      "en": "your name, surname, ID and a contact phone",
-     "es": "tu nombre, apellidos, DNI y un teléfono de contacto"
+     "es": "tu nombre, apellidos, DNI y un teléfono de contacto",
+     "uk": "ім’я, прізвище, номер документа й контактний телефон"
     },
     {
      "en": "nothing about yourself",
-     "es": "nada sobre ti"
+     "es": "nada sobre ti",
+     "uk": "нічого про себе"
     },
     {
      "en": "only your number plate",
-     "es": "solo tu matrícula"
+     "es": "solo tu matrícula",
+     "uk": "лише номерний знак"
     }
    ],
    "why": {
     "en": "So they can call you back.",
-    "es": "Para poder volver a llamarte."
+    "es": "Para poder volver a llamarte.",
+    "uk": "Щоб вам могли передзвонити."
    }
   },
   {
@@ -718,25 +855,30 @@ window.DGT_DATA = {
    "tag": "help",
    "q": {
     "en": "If you don’t know how to help an injured person, you should…",
-    "es": "Si no sabes cómo socorrer a un herido, debes…"
+    "es": "Si no sabes cómo socorrer a un herido, debes…",
+    "uk": "Якщо не знаєте, як допомогти потерпілому, слід…"
    },
    "o": [
     {
      "en": "wait for the medical team",
-     "es": "esperar a la ayuda sanitaria"
+     "es": "esperar a la ayuda sanitaria",
+     "uk": "чекати медиків"
     },
     {
      "en": "try anyway",
-     "es": "intentarlo de todas formas"
+     "es": "intentarlo de todas formas",
+     "uk": "однаково спробувати"
     },
     {
      "en": "take them to hospital in your car",
-     "es": "llevarlo al hospital en tu coche"
+     "es": "llevarlo al hospital en tu coche",
+     "uk": "відвезти його в лікарню своїм автомобілем"
     }
    ],
    "why": {
     "en": "Wrong help can make things worse.",
-    "es": "Una ayuda inadecuada puede empeorar el resultado."
+    "es": "Una ayuda inadecuada puede empeorar el resultado.",
+    "uk": "Неправильна допомога може зашкодити."
    }
   },
   {
@@ -744,25 +886,30 @@ window.DGT_DATA = {
    "tag": "help",
    "q": {
     "en": "Who should you help first?",
-    "es": "¿A quién hay que atender primero?"
+    "es": "¿A quién hay que atender primero?",
+    "uk": "Кому допомагати першим?"
    },
    "o": [
     {
      "en": "The most serious: the unconscious and those with breathing problems",
-     "es": "A los más graves: inconscientes y con dificultad respiratoria"
+     "es": "A los más graves: inconscientes y con dificultad respiratoria",
+     "uk": "Найтяжчим: тим, хто без тями, і тим, хто має проблеми з диханням"
     },
     {
      "en": "Whoever shouts the most",
-     "es": "Al que más grita"
+     "es": "Al que más grita",
+     "uk": "Тому, хто найголосніше кричить"
     },
     {
      "en": "The nearest",
-     "es": "Al más cercano"
+     "es": "Al más cercano",
+     "uk": "Найближчому"
     }
    ],
    "why": {
     "en": "Order by seriousness.",
-    "es": "Orden según la gravedad."
+    "es": "Orden según la gravedad.",
+    "uk": "Порядок — за тяжкістю."
    }
   },
   {
@@ -770,25 +917,30 @@ window.DGT_DATA = {
    "tag": "help",
    "q": {
     "en": "An injured person asks for water. You should…",
-    "es": "Un herido te pide agua. Debes…"
+    "es": "Un herido te pide agua. Debes…",
+    "uk": "Потерпілий просить води. Вам слід…"
    },
    "o": [
     {
      "en": "not give it: no food, drink or medicines",
-     "es": "no dársela: ni bebida, ni alimento, ni medicamentos"
+     "es": "no dársela: ni bebida, ni alimento, ni medicamentos",
+     "uk": "не давати: жодної їжі, питва чи ліків"
     },
     {
      "en": "give a little",
-     "es": "darle un poco"
+     "es": "darle un poco",
+     "uk": "дати трохи"
     },
     {
      "en": "give water with sugar",
-     "es": "darle agua con azúcar"
+     "es": "darle agua con azúcar",
+     "uk": "дати води з цукром"
     }
    ],
    "why": {
     "en": "They may need surgery.",
-    "es": "Puede necesitar una operación."
+    "es": "Puede necesitar una operación.",
+    "uk": "Йому може знадобитися операція."
    }
   },
   {
@@ -796,25 +948,30 @@ window.DGT_DATA = {
    "tag": "help",
    "q": {
     "en": "Injured people should be covered…",
-    "es": "A los heridos hay que taparlos…"
+    "es": "A los heridos hay que taparlos…",
+    "uk": "Потерпілих слід укривати…"
    },
    "o": [
     {
      "en": "so they don’t lose body heat, even in summer",
-     "es": "para que no pierdan temperatura, incluso en verano"
+     "es": "para que no pierdan temperatura, incluso en verano",
+     "uk": "щоб вони не втрачали тепла, навіть улітку"
     },
     {
      "en": "only in winter",
-     "es": "solo en invierno"
+     "es": "solo en invierno",
+     "uk": "лише взимку"
     },
     {
      "en": "never",
-     "es": "nunca"
+     "es": "nunca",
+     "uk": "ніколи"
     }
    ],
    "why": {
     "en": "Without making them sweat.",
-    "es": "Sin hacerles sudar."
+    "es": "Sin hacerles sudar.",
+    "uk": "Не доводячи до поту."
    }
   },
   {
@@ -822,25 +979,30 @@ window.DGT_DATA = {
    "tag": "help",
    "q": {
     "en": "With an injured person’s clothing, you should…",
-    "es": "Con la ropa del herido, hay que…"
+    "es": "Con la ropa del herido, hay que…",
+    "uk": "З одягом потерпілого слід…"
    },
    "o": [
     {
      "en": "loosen what presses on the neck and airway",
-     "es": "aflojar la que oprima el cuello y las vías respiratorias"
+     "es": "aflojar la que oprima el cuello y las vías respiratorias",
+     "uk": "послабити те, що тисне на шию й дихальні шляхи"
     },
     {
      "en": "take it all off",
-     "es": "quitársela entera"
+     "es": "quitársela entera",
+     "uk": "зняти все"
     },
     {
      "en": "not touch it",
-     "es": "no tocarla"
+     "es": "no tocarla",
+     "uk": "не чіпати"
     }
    ],
    "why": {
     "en": "To help them breathe.",
-    "es": "Para facilitar la respiración."
+    "es": "Para facilitar la respiración.",
+    "uk": "Щоб полегшити дихання."
    }
   },
   {
@@ -848,25 +1010,30 @@ window.DGT_DATA = {
    "tag": "help",
    "q": {
     "en": "On wounds and burns you should…",
-    "es": "Sobre heridas y quemaduras hay que…"
+    "es": "Sobre heridas y quemaduras hay que…",
+    "uk": "З ранами й опіками слід…"
    },
    "o": [
     {
      "en": "not touch them or put creams on them",
-     "es": "no tocarlas ni aplicar pomadas"
+     "es": "no tocarlas ni aplicar pomadas",
+     "uk": "не торкатися їх і не мазати кремами"
     },
     {
      "en": "apply ointment",
-     "es": "aplicar pomada"
+     "es": "aplicar pomada",
+     "uk": "намастити маззю"
     },
     {
      "en": "clean them with alcohol",
-     "es": "limpiarlas con alcohol"
+     "es": "limpiarlas con alcohol",
+     "uk": "промити спиртом"
     }
    ],
    "why": {
     "en": "Risk of infection and worse injury.",
-    "es": "Riesgo de infección y de empeorar."
+    "es": "Riesgo de infección y de empeorar.",
+    "uk": "Ризик інфекції й погіршення травми."
    }
   },
   {
@@ -874,25 +1041,30 @@ window.DGT_DATA = {
    "tag": "help",
    "q": {
     "en": "The ‘golden hour’ is…",
-    "es": "La «hora de oro» es…"
+    "es": "La «hora de oro» es…",
+    "uk": "«Золота година» — це…"
    },
    "o": [
     {
      "en": "the hour right after an accident, when most deaths happen",
-     "es": "la hora inmediatamente posterior al accidente, cuando hay más fallecidos"
+     "es": "la hora inmediatamente posterior al accidente, cuando hay más fallecidos",
+     "uk": "година відразу після ДТП, коли стається більшість смертей"
     },
     {
      "en": "the hour before the accident",
-     "es": "la hora anterior al accidente"
+     "es": "la hora anterior al accidente",
+     "uk": "година перед ДТП"
     },
     {
      "en": "rush hour",
-     "es": "la hora punta"
+     "es": "la hora punta",
+     "uk": "година пік"
     }
    ],
    "why": {
     "en": "What is done then is crucial.",
-    "es": "Lo que se hace entonces es fundamental."
+    "es": "Lo que se hace entonces es fundamental.",
+    "uk": "Те, що зроблено тоді, вирішальне."
    }
   },
   {
@@ -900,25 +1072,30 @@ window.DGT_DATA = {
    "tag": "help",
    "q": {
     "en": "Why should you stay with the victims?",
-    "es": "¿Por qué hay que acompañar a las víctimas?"
+    "es": "¿Por qué hay que acompañar a las víctimas?",
+    "uk": "Навіщо лишатися з потерпілими?"
    },
    "o": [
     {
      "en": "To calm them and watch their state",
-     "es": "Para transmitir tranquilidad y vigilar su estado"
+     "es": "Para transmitir tranquilidad y vigilar su estado",
+     "uk": "Щоб заспокоїти їх і стежити за їхнім станом"
     },
     {
      "en": "To question them",
-     "es": "Para interrogarlas"
+     "es": "Para interrogarlas",
+     "uk": "Щоб їх розпитати"
     },
     {
      "en": "It is not needed",
-     "es": "No hace falta"
+     "es": "No hace falta",
+     "uk": "Це не потрібно"
     }
    ],
    "why": {
     "en": "Keep calm yourself too.",
-    "es": "Y mantener uno mismo la calma."
+    "es": "Y mantener uno mismo la calma.",
+    "uk": "Зберігайте спокій і самі."
    }
   },
   {
@@ -926,25 +1103,30 @@ window.DGT_DATA = {
    "tag": "help",
    "q": {
     "en": "An injured person trapped in a car with no danger around should be treated…",
-    "es": "A un herido atrapado en su coche sin peligro alrededor hay que atenderlo…"
+    "es": "A un herido atrapado en su coche sin peligro alrededor hay que atenderlo…",
+    "uk": "Потерпілого, заблокованого в автомобілі, коли довкола немає небезпеки, слід…"
    },
    "o": [
     {
      "en": "inside the vehicle, without moving them",
-     "es": "dentro del vehículo, sin moverlo"
+     "es": "dentro del vehículo, sin moverlo",
+     "uk": "допомагати всередині ТЗ, не переміщуючи"
     },
     {
      "en": "after pulling them out quickly",
-     "es": "tras sacarlo rápidamente"
+     "es": "tras sacarlo rápidamente",
+     "uk": "швидко витягти"
     },
     {
      "en": "only once on the shoulder",
-     "es": "solo una vez en el arcén"
+     "es": "solo una vez en el arcén",
+     "uk": "допомагати лише на узбіччі"
     }
    ],
    "why": {
     "en": "Move only if there is a danger.",
-    "es": "Mover solo si hay peligro."
+    "es": "Mover solo si hay peligro.",
+    "uk": "Переміщуйте лише за наявності небезпеки."
    }
   },
   {
@@ -952,25 +1134,30 @@ window.DGT_DATA = {
    "tag": "assess",
    "q": {
     "en": "The initial assessment checks…",
-    "es": "La valoración inicial comprueba…"
+    "es": "La valoración inicial comprueba…",
+    "uk": "Первинна оцінка перевіряє…"
    },
    "o": [
     {
      "en": "consciousness, breathing and circulation",
-     "es": "la consciencia, la respiración y la circulación"
+     "es": "la consciencia, la respiración y la circulación",
+     "uk": "свідомість, дихання й кровообіг"
     },
     {
      "en": "only wounds",
-     "es": "solo las heridas"
+     "es": "solo las heridas",
+     "uk": "лише рани"
     },
     {
      "en": "only fractures",
-     "es": "solo las fracturas"
+     "es": "solo las fracturas",
+     "uk": "лише переломи"
     }
    ],
    "why": {
     "en": "The vital signs.",
-    "es": "Los signos vitales."
+    "es": "Los signos vitales.",
+    "uk": "Життєві показники."
    }
   },
   {
@@ -978,25 +1165,30 @@ window.DGT_DATA = {
    "tag": "assess",
    "q": {
     "en": "With several injured people, before helping any you should…",
-    "es": "Con varios heridos, antes de socorrer a ninguno hay que…"
+    "es": "Con varios heridos, antes de socorrer a ninguno hay que…",
+    "uk": "Якщо потерпілих кілька, перш ніж допомагати комусь, слід…"
    },
    "o": [
     {
      "en": "assess them all, 10–15 seconds each",
-     "es": "valorarlos a todos, 10–15 segundos cada uno"
+     "es": "valorarlos a todos, 10–15 segundos cada uno",
+     "uk": "оцінити всіх, по 10–15 секунд на кожного"
     },
     {
      "en": "help the first one you reach",
-     "es": "atender al primero que encuentres"
+     "es": "atender al primero que encuentres",
+     "uk": "допомагати першому, до кого дійдете"
     },
     {
      "en": "wait for the ambulance",
-     "es": "esperar a la ambulancia"
+     "es": "esperar a la ambulancia",
+     "uk": "чекати швидкої"
     }
    ],
    "why": {
     "en": "Then help the most serious first.",
-    "es": "Después, atender primero al más grave."
+    "es": "Después, atender primero al más grave.",
+    "uk": "Потім спершу допомагайте найтяжчим."
    }
   },
   {
@@ -1004,25 +1196,30 @@ window.DGT_DATA = {
    "tag": "assess",
    "q": {
     "en": "An injured person is conscious when they…",
-    "es": "Un herido está consciente cuando…"
+    "es": "Un herido está consciente cuando…",
+    "uk": "Потерпілий притомний, коли він…"
    },
    "o": [
     {
      "en": "answer simple questions or react to a pinch",
-     "es": "contesta a preguntas sencillas o reacciona a un pellizco"
+     "es": "contesta a preguntas sencillas o reacciona a un pellizco",
+     "uk": "відповідає на прості питання чи реагує на щипок"
     },
     {
      "en": "have their eyes open",
-     "es": "tiene los ojos abiertos"
+     "es": "tiene los ojos abiertos",
+     "uk": "має розплющені очі"
     },
     {
      "en": "breathe",
-     "es": "respira"
+     "es": "respira",
+     "uk": "дихає"
     }
    ],
    "why": {
     "en": "Ask loudly; pinch the back of the hand.",
-    "es": "Preguntar en voz alta; pellizco en el dorso de la mano."
+    "es": "Preguntar en voz alta; pellizco en el dorso de la mano.",
+    "uk": "Питайте голосно; ущипніть тильний бік долоні."
    }
   },
   {
@@ -1030,25 +1227,30 @@ window.DGT_DATA = {
    "tag": "assess",
    "q": {
     "en": "If an injured person doesn’t respond to any stimulus you apply…",
-    "es": "Si un herido no responde a ningún estímulo se aplica…"
+    "es": "Si un herido no responde a ningún estímulo se aplica…",
+    "uk": "Якщо потерпілий не реагує на жоден подразник, ви застосовуєте…"
    },
    "o": [
     {
      "en": "the ABC rule",
-     "es": "la regla ABC"
+     "es": "la regla ABC",
+     "uk": "правило ABC"
     },
     {
      "en": "the PAS rule",
-     "es": "la regla PAS"
+     "es": "la regla PAS",
+     "uk": "правило PAS"
     },
     {
      "en": "the anti-shock position",
-     "es": "la posición antishock"
+     "es": "la posición antishock",
+     "uk": "протишокове положення"
     }
    ],
    "why": {
     "en": "Airway, breathing, circulation.",
-    "es": "Vía aérea, boca, circulación."
+    "es": "Vía aérea, boca, circulación.",
+    "uk": "Дихальні шляхи, дихання, кровообіг."
    }
   },
   {
@@ -1056,25 +1258,30 @@ window.DGT_DATA = {
    "tag": "assess",
    "q": {
     "en": "The head-tilt, chin-lift is used to…",
-    "es": "La maniobra frente-mentón sirve para…"
+    "es": "La maniobra frente-mentón sirve para…",
+    "uk": "Закидання голови з підняттям підборіддя потрібне, щоб…"
    },
    "o": [
     {
      "en": "open the airway",
-     "es": "abrir las vías respiratorias"
+     "es": "abrir las vías respiratorias",
+     "uk": "відкрити дихальні шляхи"
     },
     {
      "en": "stop bleeding",
-     "es": "detener una hemorragia"
+     "es": "detener una hemorragia",
+     "uk": "зупинити кровотечу"
     },
     {
      "en": "check the pulse",
-     "es": "tomar el pulso"
+     "es": "tomar el pulso",
+     "uk": "перевірити пульс"
     }
    ],
    "why": {
     "en": "One hand on the forehead, the other lifts the chin.",
-    "es": "Una mano en la frente y la otra eleva el mentón."
+    "es": "Una mano en la frente y la otra eleva el mentón.",
+    "uk": "Одна рука на лобі, друга піднімає підборіддя."
    }
   },
   {
@@ -1082,25 +1289,30 @@ window.DGT_DATA = {
    "tag": "assess",
    "q": {
     "en": "In an unconscious person, a common cause of a blocked airway is…",
-    "es": "En un inconsciente, una causa habitual de obstrucción es…"
+    "es": "En un inconsciente, una causa habitual de obstrucción es…",
+    "uk": "Часта причина непрохідності дихальних шляхів у непритомного —"
    },
    "o": [
     {
      "en": "the tongue falling back",
-     "es": "la caída de la lengua"
+     "es": "la caída de la lengua",
+     "uk": "западання язика"
     },
     {
      "en": "the seat belt",
-     "es": "el cinturón"
+     "es": "el cinturón",
+     "uk": "ремінь безпеки"
     },
     {
      "en": "the cold",
-     "es": "el frío"
+     "es": "el frío",
+     "uk": "холод"
     }
    ],
    "why": {
     "en": "Also sweets, gum or other objects.",
-    "es": "También caramelos, chicles u otros objetos."
+    "es": "También caramelos, chicles u otros objetos.",
+    "uk": "А також цукерки, жувальна гумка чи інші предмети."
    }
   },
   {
@@ -1108,25 +1320,30 @@ window.DGT_DATA = {
    "tag": "assess",
    "q": {
     "en": "To remove an object from the mouth you use…",
-    "es": "Para sacar un objeto de la boca se usa…"
+    "es": "Para sacar un objeto de la boca se usa…",
+    "uk": "Щоб вийняти предмет із рота, використовують…"
    },
    "o": [
     {
      "en": "the index finger, bent like a hook",
-     "es": "el dedo índice doblado en forma de gancho"
+     "es": "el dedo índice doblado en forma de gancho",
+     "uk": "вказівний палець, зігнутий гачком"
     },
     {
      "en": "tweezers",
-     "es": "unas pinzas"
+     "es": "unas pinzas",
+     "uk": "пінцет"
     },
     {
      "en": "a sip of water",
-     "es": "un sorbo de agua"
+     "es": "un sorbo de agua",
+     "uk": "ковток води"
     }
    ],
    "why": {
     "en": "After opening the airway.",
-    "es": "Tras abrir la vía aérea."
+    "es": "Tras abrir la vía aérea.",
+    "uk": "Відкривши дихальні шляхи."
    }
   },
   {
@@ -1134,25 +1351,30 @@ window.DGT_DATA = {
    "tag": "assess",
    "q": {
     "en": "To check breathing you…",
-    "es": "Para comprobar la respiración hay que…"
+    "es": "Para comprobar la respiración hay que…",
+    "uk": "Щоб перевірити дихання, ви…"
    },
    "o": [
     {
      "en": "see the chest move, feel the air, hear it",
-     "es": "ver el pecho moverse, sentir el aire y oírlo"
+     "es": "ver el pecho moverse, sentir el aire y oírlo",
+     "uk": "бачите, як рухається грудна клітка, відчуваєте повітря, чуєте його"
     },
     {
      "en": "look at the eyes",
-     "es": "mirar los ojos"
+     "es": "mirar los ojos",
+     "uk": "дивитеся в очі"
     },
     {
      "en": "ask them to cough",
-     "es": "pedirle que tosa"
+     "es": "pedirle que tosa",
+     "uk": "просите кашлянути"
     }
    ],
    "why": {
     "en": "See, feel and hear.",
-    "es": "Ver, sentir y oír."
+    "es": "Ver, sentir y oír.",
+    "uk": "Бачити, відчувати й чути."
    }
   },
   {
@@ -1160,25 +1382,30 @@ window.DGT_DATA = {
    "tag": "assess",
    "q": {
     "en": "Noisy, snoring breathing suggests…",
-    "es": "Una respiración ruidosa o con ronquidos indica…"
+    "es": "Una respiración ruidosa o con ronquidos indica…",
+    "uk": "Шумне хропляче дихання свідчить про…"
    },
    "o": [
     {
      "en": "a partly blocked airway",
-     "es": "vías aéreas parcialmente obstruidas"
+     "es": "vías aéreas parcialmente obstruidas",
+     "uk": "частково перекриті дихальні шляхи"
     },
     {
      "en": "a broken leg",
-     "es": "una pierna rota"
+     "es": "una pierna rota",
+     "uk": "перелом ноги"
     },
     {
      "en": "that all is well",
-     "es": "que todo va bien"
+     "es": "que todo va bien",
+     "uk": "що все гаразд"
     }
    ],
    "why": {
     "en": "Irregular breathing: possible brain damage.",
-    "es": "Irregular: posible daño cerebral."
+    "es": "Irregular: posible daño cerebral.",
+    "uk": "Нерегулярне дихання — можливе ушкодження мозку."
    }
   },
   {
@@ -1186,25 +1413,30 @@ window.DGT_DATA = {
    "tag": "assess",
    "q": {
     "en": "Irregular, gasping or shallow breathing may mean…",
-    "es": "Una respiración irregular, entrecortada o superficial puede indicar…"
+    "es": "Una respiración irregular, entrecortada o superficial puede indicar…",
+    "uk": "Нерегулярне, судомне чи поверхневе дихання може означати…"
    },
    "o": [
     {
      "en": "serious brain damage",
-     "es": "un daño cerebral grave"
+     "es": "un daño cerebral grave",
+     "uk": "тяжке ушкодження мозку"
     },
     {
      "en": "a stomach injury",
-     "es": "una lesión de estómago"
+     "es": "una lesión de estómago",
+     "uk": "травму шлунка"
     },
     {
      "en": "normal sleep",
-     "es": "sueño normal"
+     "es": "sueño normal",
+     "uk": "звичайний сон"
     }
    ],
    "why": {
     "en": "Watch them closely.",
-    "es": "Vigilarle de cerca."
+    "es": "Vigilarle de cerca.",
+    "uk": "Уважно стежте за ним."
    }
   },
   {
@@ -1212,25 +1444,30 @@ window.DGT_DATA = {
    "tag": "assess",
    "q": {
     "en": "A person who isn’t breathing and/or has no pulse is in…",
-    "es": "Una persona que no respira y/o no tiene pulso está en…"
+    "es": "Una persona que no respira y/o no tiene pulso está en…",
+    "uk": "Людина, що не дихає та/або не має пульсу, перебуває в стані…"
    },
    "o": [
     {
      "en": "cardio-respiratory arrest",
-     "es": "parada cardio-respiratoria"
+     "es": "parada cardio-respiratoria",
+     "uk": "зупинки серця й дихання"
     },
     {
      "en": "shock",
-     "es": "estado de shock"
+     "es": "estado de shock",
+     "uk": "шоку"
     },
     {
      "en": "a fainting fit",
-     "es": "un desmayo"
+     "es": "un desmayo",
+     "uk": "непритомності"
     }
    ],
    "why": {
     "en": "Start CPR urgently.",
-    "es": "Hay que hacer la RCP urgentemente."
+    "es": "Hay que hacer la RCP urgentemente.",
+    "uk": "Терміново починайте СЛР."
    }
   },
   {
@@ -1238,25 +1475,30 @@ window.DGT_DATA = {
    "tag": "recovery",
    "q": {
     "en": "With a conscious injured person who breathes, you…",
-    "es": "Con un herido consciente que respira…"
+    "es": "Con un herido consciente que respira…",
+    "uk": "З притомним потерпілим, що дихає, ви…"
    },
    "o": [
     {
      "en": "check for serious injuries and go on to others, still watching them",
-     "es": "compruebas que no tiene lesiones graves y pasas a otros, sin dejar de vigilarlo"
+     "es": "compruebas que no tiene lesiones graves y pasas a otros, sin dejar de vigilarlo",
+     "uk": "перевіряєте, чи немає тяжких травм, і переходите до інших, і далі стежачи за ним"
     },
     {
      "en": "put them in the recovery position",
-     "es": "lo pones en PLS"
+     "es": "lo pones en PLS",
+     "uk": "кладете його в стабільне бокове положення"
     },
     {
      "en": "start CPR",
-     "es": "empiezas la RCP"
+     "es": "empiezas la RCP",
+     "uk": "починаєте СЛР"
     }
    ],
    "why": {
     "en": "They might get worse.",
-    "es": "Puede empeorar."
+    "es": "Puede empeorar.",
+    "uk": "Його стан може погіршитися."
    }
   },
   {
@@ -1264,25 +1506,30 @@ window.DGT_DATA = {
    "tag": "recovery",
    "q": {
     "en": "An unconscious person who breathes is put in the recovery position if…",
-    "es": "A un inconsciente que respira se le pone en PLS si…"
+    "es": "A un inconsciente que respira se le pone en PLS si…",
+    "uk": "Непритомного, що дихає, кладуть у стабільне бокове положення, якщо…"
    },
    "o": [
     {
      "en": "you must leave them alone or they vomit or bleed from mouth or nose",
-     "es": "hay que dejarle solo o vomita o sangra por boca o nariz"
+     "es": "hay que dejarle solo o vomita o sangra por boca o nariz",
+     "uk": "доводиться лишити його самого чи в нього блювота або кровотеча з рота чи носа"
     },
     {
      "en": "they are cold",
-     "es": "tiene frío"
+     "es": "tiene frío",
+     "uk": "йому холодно"
     },
     {
      "en": "they wake up",
-     "es": "despierta"
+     "es": "despierta",
+     "uk": "він прокидається"
     }
    ],
    "why": {
     "en": "So they don’t choke.",
-    "es": "Para que no se asfixie."
+    "es": "Para que no se asfixie.",
+    "uk": "Щоб він не захлинувся."
    }
   },
   {
@@ -1290,25 +1537,30 @@ window.DGT_DATA = {
    "tag": "recovery",
    "q": {
     "en": "An unconscious person bleeds from an ear. Lay them…",
-    "es": "Un inconsciente sangra por un oído. Se le coloca…"
+    "es": "Un inconsciente sangra por un oído. Se le coloca…",
+    "uk": "У непритомного кровотеча з вуха. Покладіть його…"
    },
    "o": [
     {
      "en": "on the side of the bleeding ear",
-     "es": "sobre el lado del oído que sangra"
+     "es": "sobre el lado del oído que sangra",
+     "uk": "на бік того вуха, з якого кровотеча"
     },
     {
      "en": "on the other side",
-     "es": "sobre el otro lado"
+     "es": "sobre el otro lado",
+     "uk": "на інший бік"
     },
     {
      "en": "face up",
-     "es": "boca arriba"
+     "es": "boca arriba",
+     "uk": "на спину"
     }
    ],
    "why": {
     "en": "Cover the ear without plugging it.",
-    "es": "Cubrir el oído sin taponar."
+    "es": "Cubrir el oído sin taponar.",
+    "uk": "Прикрийте вухо, не затикаючи."
    }
   },
   {
@@ -1316,25 +1568,30 @@ window.DGT_DATA = {
    "tag": "recovery",
    "q": {
     "en": "In the recovery position, check the breathing every…",
-    "es": "En la PLS, la respiración se comprueba cada…"
+    "es": "En la PLS, la respiración se comprueba cada…",
+    "uk": "У стабільному боковому положенні перевіряйте дихання кожні…"
    },
    "o": [
     {
      "en": "2–3 minutes",
-     "es": "2–3 minutos"
+     "es": "2–3 minutos",
+     "uk": "2–3 хвилини"
     },
     {
      "en": "15 minutes",
-     "es": "15 minutos"
+     "es": "15 minutos",
+     "uk": "15 хвилин"
     },
     {
      "en": "half an hour",
-     "es": "media hora"
+     "es": "media hora",
+     "uk": "пів години"
     }
    ],
    "why": {
     "en": "They could go into cardiac arrest.",
-    "es": "Podría entrar en parada cardíaca."
+    "es": "Podría entrar en parada cardíaca.",
+    "uk": "Може статися зупинка серця."
    }
   },
   {
@@ -1342,25 +1599,30 @@ window.DGT_DATA = {
    "tag": "recovery",
    "q": {
     "en": "The first step of the recovery position is…",
-    "es": "El primer paso de la PLS es…"
+    "es": "El primer paso de la PLS es…",
+    "uk": "Перший крок стабільного бокового положення —"
    },
    "o": [
     {
      "en": "raising the arm nearest to you",
-     "es": "subir el brazo del herido más cercano"
+     "es": "subir el brazo del herido más cercano",
+     "uk": "підняти ближчу до вас руку"
     },
     {
      "en": "rolling the person",
-     "es": "voltear al herido"
+     "es": "voltear al herido",
+     "uk": "перевернути людину"
     },
     {
      "en": "bending both legs",
-     "es": "doblar las dos piernas"
+     "es": "doblar las dos piernas",
+     "uk": "зігнути обидві ноги"
     }
    ],
    "why": {
     "en": "The head will rest on that arm.",
-    "es": "Sobre ese brazo apoyará la cabeza."
+    "es": "Sobre ese brazo apoyará la cabeza.",
+    "uk": "На цю руку ляже голова."
    }
   },
   {
@@ -1368,25 +1630,30 @@ window.DGT_DATA = {
    "tag": "recovery",
    "q": {
     "en": "In the second step you bend…",
-    "es": "En el segundo paso se doblan…"
+    "es": "En el segundo paso se doblan…",
+    "uk": "На другому кроці згинають…"
    },
    "o": [
     {
      "en": "the far arm and the leg on the same side",
-     "es": "el brazo más alejado y la pierna del mismo lado"
+     "es": "el brazo más alejado y la pierna del mismo lado",
+     "uk": "дальню руку й ногу з того самого боку"
     },
     {
      "en": "both arms",
-     "es": "los dos brazos"
+     "es": "los dos brazos",
+     "uk": "обидві руки"
     },
     {
      "en": "the neck",
-     "es": "el cuello"
+     "es": "el cuello",
+     "uk": "шию"
     }
    ],
    "why": {
     "en": "Then roll the person towards you.",
-    "es": "Después se le gira hacia ti."
+    "es": "Después se le gira hacia ti.",
+    "uk": "Потім перевертають людину до себе."
    }
   },
   {
@@ -1394,25 +1661,30 @@ window.DGT_DATA = {
    "tag": "recovery",
    "q": {
     "en": "When rolling into the recovery position, a helper should make sure that…",
-    "es": "Al girar al herido a la PLS, el ayudante debe asegurar que…"
+    "es": "Al girar al herido a la PLS, el ayudante debe asegurar que…",
+    "uk": "Під час повороту в стабільне бокове положення помічник має стежити, щоб…"
    },
    "o": [
     {
      "en": "the head and neck turn together with the trunk",
-     "es": "la cabeza-cuello gire a la vez que el tronco"
+     "es": "la cabeza-cuello gire a la vez que el tronco",
+     "uk": "голова й шия поверталися разом із тулубом"
     },
     {
      "en": "the head turns first",
-     "es": "la cabeza gire primero"
+     "es": "la cabeza gire primero",
+     "uk": "голова поверталася першою"
     },
     {
      "en": "the legs stay still",
-     "es": "las piernas no se muevan"
+     "es": "las piernas no se muevan",
+     "uk": "ноги лишалися нерухомими"
     }
    ],
    "why": {
     "en": "Best done by two people.",
-    "es": "Mejor entre dos personas."
+    "es": "Mejor entre dos personas.",
+    "uk": "Найкраще — удвох."
    }
   },
   {
@@ -1420,25 +1692,30 @@ window.DGT_DATA = {
    "tag": "recovery",
    "q": {
     "en": "In the final recovery position, the head rests…",
-    "es": "En la PLS final, la cabeza queda apoyada…"
+    "es": "En la PLS final, la cabeza queda apoyada…",
+    "uk": "У кінцевому стабільному боковому положенні голова лежить…"
    },
    "o": [
     {
      "en": "on the arm moved in the first step",
-     "es": "sobre el brazo que se movió en el primer paso"
+     "es": "sobre el brazo que se movió en el primer paso",
+     "uk": "на руці, переміщеній на першому кроці"
     },
     {
      "en": "on the ground, face down",
-     "es": "en el suelo, boca abajo"
+     "es": "en el suelo, boca abajo",
+     "uk": "на землі обличчям донизу"
     },
     {
      "en": "on a high cushion",
-     "es": "sobre un cojín alto"
+     "es": "sobre un cojín alto",
+     "uk": "на високій подушці"
     }
    ],
    "why": {
     "en": "With the top leg bent.",
-    "es": "Con la pierna flexionada."
+    "es": "Con la pierna flexionada.",
+    "uk": "Верхня нога зігнута."
    }
   },
   {
@@ -1446,25 +1723,30 @@ window.DGT_DATA = {
    "tag": "cpr",
    "q": {
     "en": "An unconscious person who does not breathe needs…",
-    "es": "Un herido inconsciente que no respira necesita…"
+    "es": "Un herido inconsciente que no respira necesita…",
+    "uk": "Непритомному, що не дихає, потрібна…"
    },
    "o": [
     {
      "en": "CPR immediately",
-     "es": "RCP inmediatamente"
+     "es": "RCP inmediatamente",
+     "uk": "негайна СЛР"
     },
     {
      "en": "the recovery position",
-     "es": "la posición lateral de seguridad"
+     "es": "la posición lateral de seguridad",
+     "uk": "стабільне бокове положення"
     },
     {
      "en": "to be given water",
-     "es": "que le den agua"
+     "es": "que le den agua",
+     "uk": "вода"
     }
    ],
    "why": {
     "en": "Compressions and breaths.",
-    "es": "Compresiones y ventilaciones."
+    "es": "Compresiones y ventilaciones.",
+    "uk": "Натискання й вдихи."
    }
   },
   {
@@ -1472,25 +1754,30 @@ window.DGT_DATA = {
    "tag": "cpr",
    "q": {
     "en": "For CPR the person must be…",
-    "es": "Para la RCP el herido debe estar…"
+    "es": "Para la RCP el herido debe estar…",
+    "uk": "Для СЛР людина має лежати…"
    },
    "o": [
     {
      "en": "face up on a flat, hard surface",
-     "es": "boca arriba sobre una superficie plana y dura"
+     "es": "boca arriba sobre una superficie plana y dura",
+     "uk": "на спині на рівній твердій поверхні"
     },
     {
      "en": "on a soft mattress",
-     "es": "sobre un colchón blando"
+     "es": "sobre un colchón blando",
+     "uk": "на м’якому матраці"
     },
     {
      "en": "on their side",
-     "es": "de lado"
+     "es": "de lado",
+     "uk": "на боці"
     }
    ],
    "why": {
     "en": "Kneel next to their chest.",
-    "es": "El auxiliador, arrodillado junto al pecho."
+    "es": "El auxiliador, arrodillado junto al pecho.",
+    "uk": "Станьте на коліна біля грудей."
    }
   },
   {
@@ -1498,25 +1785,30 @@ window.DGT_DATA = {
    "tag": "cpr",
    "q": {
     "en": "Where do you place your hands for chest compressions?",
-    "es": "¿Dónde se colocan las manos para las compresiones?"
+    "es": "¿Dónde se colocan las manos para las compresiones?",
+    "uk": "Куди класти руки для натискань на грудну клітку?"
    },
    "o": [
     {
      "en": "Heel of the hand in the centre of the chest, the other on top",
-     "es": "Talón de la mano en el centro del pecho y la otra encima"
+     "es": "Talón de la mano en el centro del pecho y la otra encima",
+     "uk": "Основу долоні — на центр грудей, другу — зверху"
     },
     {
      "en": "On the belly",
-     "es": "Sobre el abdomen"
+     "es": "Sobre el abdomen",
+     "uk": "На живіт"
     },
     {
      "en": "On the left side of the chest",
-     "es": "En el lado izquierdo del pecho"
+     "es": "En el lado izquierdo del pecho",
+     "uk": "На лівий бік грудей"
     }
    ],
    "why": {
     "en": "Fingers interlaced.",
-    "es": "Entrelazando los dedos."
+    "es": "Entrelazando los dedos.",
+    "uk": "Пальці переплетені."
    }
   },
   {
@@ -1524,25 +1816,30 @@ window.DGT_DATA = {
    "tag": "cpr",
    "q": {
     "en": "During compressions your arms should be…",
-    "es": "Durante las compresiones los brazos deben estar…"
+    "es": "Durante las compresiones los brazos deben estar…",
+    "uk": "Під час натискань руки мають бути…"
    },
    "o": [
     {
      "en": "straight, using your body weight",
-     "es": "rectos, dejando caer el peso del cuerpo"
+     "es": "rectos, dejando caer el peso del cuerpo",
+     "uk": "прямими, використовуючи вагу тіла"
     },
     {
      "en": "bent",
-     "es": "doblados"
+     "es": "doblados",
+     "uk": "зігнутими"
     },
     {
      "en": "relaxed",
-     "es": "relajados"
+     "es": "relajados",
+     "uk": "розслабленими"
     }
    ],
    "why": {
     "en": "Without losing contact between compressions.",
-    "es": "Sin perder el contacto entre compresiones."
+    "es": "Sin perder el contacto entre compresiones.",
+    "uk": "Не втрачаючи контакту між натисканнями."
    }
   },
   {
@@ -1550,25 +1847,30 @@ window.DGT_DATA = {
    "tag": "cpr",
    "q": {
     "en": "According to your course, how far should the chest go down?",
-    "es": "Según tu curso, ¿cuánto hay que hundir el pecho?"
+    "es": "Según tu curso, ¿cuánto hay que hundir el pecho?",
+    "uk": "За вашим курсом, наскільки має опускатися грудна клітка?"
    },
    "o": [
     {
      "en": "About 4–5 cm",
-     "es": "Unos 4–5 cm"
+     "es": "Unos 4–5 cm",
+     "uk": "Приблизно на 4–5 см"
     },
     {
      "en": "1 cm",
-     "es": "1 cm"
+     "es": "1 cm",
+     "uk": "На 1 см"
     },
     {
      "en": "10 cm",
-     "es": "10 cm"
+     "es": "10 cm",
+     "uk": "На 10 см"
     }
    ],
    "why": {
     "en": "Current European guidelines: 5–6 cm.",
-    "es": "Las guías europeas actuales: 5–6 cm."
+    "es": "Las guías europeas actuales: 5–6 cm.",
+    "uk": "Чинні європейські настанови: 5–6 см."
    }
   },
   {
@@ -1576,25 +1878,30 @@ window.DGT_DATA = {
    "tag": "cpr",
    "q": {
     "en": "For an adult, CPR is done in cycles of…",
-    "es": "En un adulto, la RCP se hace en ciclos de…"
+    "es": "En un adulto, la RCP se hace en ciclos de…",
+    "uk": "Для дорослого СЛР роблять циклами по…"
    },
    "o": [
     {
      "en": "30 compressions and 2 breaths",
-     "es": "30 compresiones y 2 ventilaciones"
+     "es": "30 compresiones y 2 ventilaciones",
+     "uk": "30 натискань і 2 вдихи"
     },
     {
      "en": "15 compressions and 1 breath",
-     "es": "15 compresiones y 1 ventilación"
+     "es": "15 compresiones y 1 ventilación",
+     "uk": "15 натискань і 1 вдих"
     },
     {
      "en": "5 compressions and 5 breaths",
-     "es": "5 compresiones y 5 ventilaciones"
+     "es": "5 compresiones y 5 ventilaciones",
+     "uk": "5 натискань і 5 вдихів"
     }
    ],
    "why": {
     "en": "At about 100 compressions a minute.",
-    "es": "A unas 100 compresiones por minuto."
+    "es": "A unas 100 compresiones por minuto.",
+    "uk": "Приблизно 100 натискань за хвилину."
    }
   },
   {
@@ -1602,25 +1909,30 @@ window.DGT_DATA = {
    "tag": "cpr",
    "q": {
     "en": "With two rescuers doing CPR, they should swap every…",
-    "es": "Con dos auxiliadores haciendo RCP, deben turnarse cada…"
+    "es": "Con dos auxiliadores haciendo RCP, deben turnarse cada…",
+    "uk": "Якщо СЛР роблять двоє, вони мають мінятися кожні…"
    },
    "o": [
     {
      "en": "1–2 minutes",
-     "es": "1 o 2 minutos"
+     "es": "1 o 2 minutos",
+     "uk": "1–2 хвилини"
     },
     {
      "en": "10 minutes",
-     "es": "10 minutos"
+     "es": "10 minutos",
+     "uk": "10 хвилин"
     },
     {
      "en": "30 seconds",
-     "es": "30 segundos"
+     "es": "30 segundos",
+     "uk": "30 секунд"
     }
    ],
    "why": {
     "en": "So the compressions stay effective.",
-    "es": "Para que las compresiones sigan siendo eficaces."
+    "es": "Para que las compresiones sigan siendo eficaces.",
+    "uk": "Щоб натискання лишалися ефективними."
    }
   },
   {
@@ -1628,25 +1940,30 @@ window.DGT_DATA = {
    "tag": "cpr",
    "q": {
     "en": "Each rescue breath should last about…",
-    "es": "Cada insuflación debe durar aproximadamente…"
+    "es": "Cada insuflación debe durar aproximadamente…",
+    "uk": "Кожен рятувальний вдих має тривати приблизно…"
    },
    "o": [
     {
      "en": "1 second",
-     "es": "1 segundo"
+     "es": "1 segundo",
+     "uk": "1 секунду"
     },
     {
      "en": "5 seconds",
-     "es": "5 segundos"
+     "es": "5 segundos",
+     "uk": "5 секунд"
     },
     {
      "en": "10 seconds",
-     "es": "10 segundos"
+     "es": "10 segundos",
+     "uk": "10 секунд"
     }
    ],
    "why": {
     "en": "Watch the chest rise.",
-    "es": "Observar cómo se eleva el pecho."
+    "es": "Observar cómo se eleva el pecho.",
+    "uk": "Стежте, щоб піднімалася грудна клітка."
    }
   },
   {
@@ -1654,25 +1971,30 @@ window.DGT_DATA = {
    "tag": "cpr",
    "q": {
     "en": "During a mouth-to-mouth breath you must…",
-    "es": "Durante el boca a boca hay que…"
+    "es": "Durante el boca a boca hay que…",
+    "uk": "Під час вдиху рот до рота ви мусите…"
    },
    "o": [
     {
      "en": "keep the airway open and pinch the nose",
-     "es": "mantener abierta la vía aérea y pinzar la nariz"
+     "es": "mantener abierta la vía aérea y pinzar la nariz",
+     "uk": "тримати дихальні шляхи відкритими й затиснути ніс"
     },
     {
      "en": "press on the chest",
-     "es": "presionar el pecho"
+     "es": "presionar el pecho",
+     "uk": "тиснути на грудну клітку"
     },
     {
      "en": "turn the head to the side",
-     "es": "girar la cabeza de lado"
+     "es": "girar la cabeza de lado",
+     "uk": "повернути голову вбік"
     }
    ],
    "why": {
     "en": "With the hand on the forehead.",
-    "es": "Con la mano que está en la frente."
+    "es": "Con la mano que está en la frente.",
+    "uk": "Рукою на лобі."
    }
   },
   {
@@ -1680,25 +2002,30 @@ window.DGT_DATA = {
    "tag": "cpr",
    "q": {
     "en": "The chest doesn’t rise with your breath. You should check…",
-    "es": "El pecho no se eleva al insuflar. Hay que comprobar…"
+    "es": "El pecho no se eleva al insuflar. Hay que comprobar…",
+    "uk": "Грудна клітка не піднімається від вашого вдиху. Перевірте…"
    },
    "o": [
     {
      "en": "your technique and that the airway isn’t blocked",
-     "es": "la técnica y que la vía aérea no esté obstruida"
+     "es": "la técnica y que la vía aérea no esté obstruida",
+     "uk": "свою техніку й чи не перекриті дихальні шляхи"
     },
     {
      "en": "the pulse in the wrist",
-     "es": "el pulso en la muñeca"
+     "es": "el pulso en la muñeca",
+     "uk": "пульс на зап’ясті"
     },
     {
      "en": "nothing, keep going faster",
-     "es": "nada, seguir más deprisa"
+     "es": "nada, seguir más deprisa",
+     "uk": "нічого, продовжуйте швидше"
     }
    ],
    "why": {
     "en": "Then repeat.",
-    "es": "Y repetir."
+    "es": "Y repetir.",
+    "uk": "Потім повторіть."
    }
   },
   {
@@ -1706,25 +2033,30 @@ window.DGT_DATA = {
    "tag": "cpr",
    "q": {
     "en": "CPR on a child starts with…",
-    "es": "La RCP en un niño empieza con…"
+    "es": "La RCP en un niño empieza con…",
+    "uk": "СЛР дитині починають із…"
    },
    "o": [
     {
      "en": "5 breaths, then 30 : 2",
-     "es": "5 ventilaciones y luego 30 : 2"
+     "es": "5 ventilaciones y luego 30 : 2",
+     "uk": "5 вдихів, потім 30 : 2"
     },
     {
      "en": "30 compressions",
-     "es": "30 compresiones"
+     "es": "30 compresiones",
+     "uk": "30 натискань"
     },
     {
      "en": "only compressions",
-     "es": "solo compresiones"
+     "es": "solo compresiones",
+     "uk": "лише натискань"
     }
    ],
    "why": {
     "en": "Mouth to mouth-and-nose.",
-    "es": "Boca a boca-nariz."
+    "es": "Boca a boca-nariz.",
+    "uk": "Рот до рота й носа."
    }
   },
   {
@@ -1732,25 +2064,30 @@ window.DGT_DATA = {
    "tag": "cpr",
    "q": {
     "en": "On a baby, chest compressions are done with…",
-    "es": "En un bebé, las compresiones se hacen con…"
+    "es": "En un bebé, las compresiones se hacen con…",
+    "uk": "Немовляті натискання на грудну клітку роблять…"
    },
    "o": [
     {
      "en": "two fingers",
-     "es": "dos dedos"
+     "es": "dos dedos",
+     "uk": "двома пальцями"
     },
     {
      "en": "both hands",
-     "es": "las dos manos"
+     "es": "las dos manos",
+     "uk": "обома руками"
     },
     {
      "en": "the fist",
-     "es": "el puño"
+     "es": "el puño",
+     "uk": "кулаком"
     }
    ],
    "why": {
     "en": "To avoid too much force.",
-    "es": "Para no ejercer demasiada fuerza."
+    "es": "Para no ejercer demasiada fuerza.",
+    "uk": "Щоб уникнути надмірної сили."
    }
   },
   {
@@ -1758,25 +2095,30 @@ window.DGT_DATA = {
    "tag": "cpr",
    "q": {
     "en": "How long do you continue CPR?",
-    "es": "¿Hasta cuándo se continúa la RCP?"
+    "es": "¿Hasta cuándo se continúa la RCP?",
+    "uk": "Скільки продовжувати СЛР?"
    },
    "o": [
     {
      "en": "Until help arrives or the person reacts",
-     "es": "Hasta que llegue la ayuda sanitaria o el herido reaccione"
+     "es": "Hasta que llegue la ayuda sanitaria o el herido reaccione",
+     "uk": "Доки не прибуде допомога чи людина не відреагує"
     },
     {
      "en": "For 2 minutes",
-     "es": "Durante 2 minutos"
+     "es": "Durante 2 minutos",
+     "uk": "2 хвилини"
     },
     {
      "en": "Until you count to 100",
-     "es": "Hasta contar 100"
+     "es": "Hasta contar 100",
+     "uk": "Доки не дорахуєте до 100"
     }
    ],
    "why": {
     "en": "Swapping rescuers if possible.",
-    "es": "Turnándose si es posible."
+    "es": "Turnándose si es posible.",
+    "uk": "За можливості міняючись."
    }
   },
   {
@@ -1784,25 +2126,30 @@ window.DGT_DATA = {
    "tag": "cpr",
    "q": {
     "en": "Current European guidelines say that someone not trained in rescue breaths should…",
-    "es": "Las guías europeas actuales dicen que quien no tiene formación en ventilaciones debe…"
+    "es": "Las guías europeas actuales dicen que quien no tiene formación en ventilaciones debe…",
+    "uk": "Чинні європейські настанови кажуть, що людина, не навчена рятувальних вдихів, має…"
    },
    "o": [
     {
      "en": "give chest compressions only",
-     "es": "hacer solo compresiones"
+     "es": "hacer solo compresiones",
+     "uk": "робити лише натискання на грудну клітку"
     },
     {
      "en": "do nothing",
-     "es": "no hacer nada"
+     "es": "no hacer nada",
+     "uk": "нічого не робити"
     },
     {
      "en": "only give breaths",
-     "es": "hacer solo ventilaciones"
+     "es": "hacer solo ventilaciones",
+     "uk": "робити лише вдихи"
     }
    ],
    "why": {
     "en": "The 112 operator will guide you.",
-    "es": "El operador del 112 te guiará."
+    "es": "El operador del 112 te guiará.",
+    "uk": "Оператор 112 підкаже."
    }
   },
   {
@@ -1810,25 +2157,30 @@ window.DGT_DATA = {
    "tag": "bleed",
    "q": {
     "en": "The first thing to do with external bleeding is…",
-    "es": "Lo primero ante una hemorragia externa es…"
+    "es": "Lo primero ante una hemorragia externa es…",
+    "uk": "Перше, що роблять за зовнішньої кровотечі, —"
    },
    "o": [
     {
      "en": "press directly on the wound with gauze or clean cloth",
-     "es": "presionar directamente sobre la herida con una gasa o tela limpia"
+     "es": "presionar directamente sobre la herida con una gasa o tela limpia",
+     "uk": "притискають рану марлею чи чистою тканиною"
     },
     {
      "en": "apply a tourniquet",
-     "es": "hacer un torniquete"
+     "es": "hacer un torniquete",
+     "uk": "накладають джгут"
     },
     {
      "en": "wash the wound",
-     "es": "lavar la herida"
+     "es": "lavar la herida",
+     "uk": "промивають рану"
     }
    ],
    "why": {
     "en": "Firm, direct pressure.",
-    "es": "Presión directa y firme."
+    "es": "Presión directa y firme.",
+    "uk": "Сильний прямий тиск."
    }
   },
   {
@@ -1836,25 +2188,30 @@ window.DGT_DATA = {
    "tag": "bleed",
    "q": {
     "en": "The gauze is soaked with blood. You should…",
-    "es": "La gasa se empapa de sangre. Hay que…"
+    "es": "La gasa se empapa de sangre. Hay que…",
+    "uk": "Марля просякла кров’ю. Вам слід…"
    },
    "o": [
     {
      "en": "put another one on top without removing the first",
-     "es": "poner otra encima sin retirar la anterior"
+     "es": "poner otra encima sin retirar la anterior",
+     "uk": "покласти ще одну зверху, не знімаючи першої"
     },
     {
      "en": "remove it and put a clean one",
-     "es": "retirarla y poner una limpia"
+     "es": "retirarla y poner una limpia",
+     "uk": "зняти її й покласти чисту"
     },
     {
      "en": "stop pressing",
-     "es": "dejar de presionar"
+     "es": "dejar de presionar",
+     "uk": "перестати тиснути"
     }
    ],
    "why": {
     "en": "Removing it reopens the wound.",
-    "es": "Retirarla reabre la herida."
+    "es": "Retirarla reabre la herida.",
+    "uk": "Якщо зняти, рана знову відкриється."
    }
   },
   {
@@ -1862,25 +2219,30 @@ window.DGT_DATA = {
    "tag": "bleed",
    "q": {
     "en": "According to your course, to control bleeding from an arm after pressing on the wound you…",
-    "es": "Según tu curso, para contener una hemorragia en el brazo tras presionar la herida se…"
+    "es": "Según tu curso, para contener una hemorragia en el brazo tras presionar la herida se…",
+    "uk": "За вашим курсом, щоб зупинити кровотечу з руки, притиснувши рану, ви…"
    },
    "o": [
     {
      "en": "raise the arm and press in the armpit",
-     "es": "eleva el brazo y se presiona en el hueco de la axila"
+     "es": "eleva el brazo y se presiona en el hueco de la axila",
+     "uk": "піднімаєте руку й притискаєте пахву"
     },
     {
      "en": "lower the arm and press the wrist",
-     "es": "baja el brazo y se presiona la muñeca"
+     "es": "baja el brazo y se presiona la muñeca",
+     "uk": "опускаєте руку й притискаєте зап’ястя"
     },
     {
      "en": "press the neck",
-     "es": "presiona el cuello"
+     "es": "presiona el cuello",
+     "uk": "притискаєте шию"
     }
    ],
    "why": {
     "en": "Where the main artery runs.",
-    "es": "Donde está la arteria."
+    "es": "Donde está la arteria.",
+    "uk": "Там проходить головна артерія."
    }
   },
   {
@@ -1888,25 +2250,30 @@ window.DGT_DATA = {
    "tag": "bleed",
    "q": {
     "en": "According to your course, for bleeding in a leg you press…",
-    "es": "Según tu curso, en una hemorragia de la pierna se presiona…"
+    "es": "Según tu curso, en una hemorragia de la pierna se presiona…",
+    "uk": "За вашим курсом, за кровотечі з ноги притискають…"
    },
    "o": [
     {
      "en": "in the fold of the groin, with the leg raised",
-     "es": "en el pliegue de la ingle, con la pierna elevada"
+     "es": "en el pliegue de la ingle, con la pierna elevada",
+     "uk": "пахову складку, піднявши ногу"
     },
     {
      "en": "on the knee",
-     "es": "en la rodilla"
+     "es": "en la rodilla",
+     "uk": "коліно"
     },
     {
      "en": "on the ankle",
-     "es": "en el tobillo"
+     "es": "en el tobillo",
+     "uk": "щиколотку"
     }
    ],
    "why": {
     "en": "Where the artery runs.",
-    "es": "Donde está la arteria."
+    "es": "Donde está la arteria.",
+    "uk": "Там проходить артерія."
    }
   },
   {
@@ -1914,25 +2281,30 @@ window.DGT_DATA = {
    "tag": "bleed",
    "q": {
     "en": "A tourniquet is…",
-    "es": "El torniquete es…"
+    "es": "El torniquete es…",
+    "uk": "Джгут —"
    },
    "o": [
     {
      "en": "a last resort, placed above the wound",
-     "es": "un último recurso, colocado por encima de la herida"
+     "es": "un último recurso, colocado por encima de la herida",
+     "uk": "крайній захід, накладають вище рани"
     },
     {
      "en": "the first thing to do",
-     "es": "lo primero que hay que hacer"
+     "es": "lo primero que hay que hacer",
+     "uk": "перше, що треба зробити"
     },
     {
      "en": "placed below the wound",
-     "es": "colocado por debajo de la herida"
+     "es": "colocado por debajo de la herida",
+     "uk": "накладають нижче рани"
     }
    ],
    "why": {
     "en": "Your course: very dangerous, avoid it if possible.",
-    "es": "Tu curso: muy peligroso, evitar si es posible."
+    "es": "Tu curso: muy peligroso, evitar si es posible.",
+    "uk": "Ваш курс: дуже небезпечно, уникайте, якщо можна."
    }
   },
   {
@@ -1940,25 +2312,30 @@ window.DGT_DATA = {
    "tag": "bleed",
    "q": {
     "en": "After applying a tourniquet you must…",
-    "es": "Tras hacer un torniquete hay que…"
+    "es": "Tras hacer un torniquete hay que…",
+    "uk": "Наклавши джгут, ви мусите…"
    },
    "o": [
     {
      "en": "leave it on and visible, and note the time",
-     "es": "mantenerlo, visible, y anotar la hora"
+     "es": "mantenerlo, visible, y anotar la hora",
+     "uk": "лишити його на видноті й записати час"
     },
     {
      "en": "loosen it every 5 minutes",
-     "es": "aflojarlo cada 5 minutos"
+     "es": "aflojarlo cada 5 minutos",
+     "uk": "послаблювати кожні 5 хвилин"
     },
     {
      "en": "cover it with a blanket",
-     "es": "taparlo con una manta"
+     "es": "taparlo con una manta",
+     "uk": "накрити ковдрою"
     }
    ],
    "why": {
     "en": "For the medical team.",
-    "es": "Para los sanitarios."
+    "es": "Para los sanitarios.",
+    "uk": "Для медиків."
    }
   },
   {
@@ -1966,25 +2343,30 @@ window.DGT_DATA = {
    "tag": "bleed",
    "q": {
     "en": "A tourniquet is needed in case of…",
-    "es": "El torniquete es necesario en caso de…"
+    "es": "El torniquete es necesario en caso de…",
+    "uk": "Джгут потрібен у разі…"
    },
    "o": [
     {
      "en": "amputation or very serious bleeding",
-     "es": "amputación o hemorragias muy graves"
+     "es": "amputación o hemorragias muy graves",
+     "uk": "ампутації чи дуже сильної кровотечі"
     },
     {
      "en": "a small cut",
-     "es": "un corte pequeño"
+     "es": "un corte pequeño",
+     "uk": "невеликого порізу"
     },
     {
      "en": "a nosebleed",
-     "es": "una hemorragia nasal"
+     "es": "una hemorragia nasal",
+     "uk": "кровотечі з носа"
     }
    ],
    "why": {
     "en": "Only then.",
-    "es": "Solo entonces."
+    "es": "Solo entonces.",
+    "uk": "Лише тоді."
    }
   },
   {
@@ -1992,25 +2374,30 @@ window.DGT_DATA = {
    "tag": "bleed",
    "q": {
     "en": "Blood coming out of the ear may mean…",
-    "es": "La salida de sangre por el oído puede indicar…"
+    "es": "La salida de sangre por el oído puede indicar…",
+    "uk": "Кров із вуха може означати…"
    },
    "o": [
     {
      "en": "a fracture of the base of the skull",
-     "es": "una fractura de la base del cráneo"
+     "es": "una fractura de la base del cráneo",
+     "uk": "перелом основи черепа"
     },
     {
      "en": "a cold",
-     "es": "un resfriado"
+     "es": "un resfriado",
+     "uk": "застуду"
     },
     {
      "en": "nothing serious",
-     "es": "nada grave"
+     "es": "nada grave",
+     "uk": "нічого серйозного"
     }
    ],
    "why": {
     "en": "Cover without plugging; lie on that ear.",
-    "es": "Cubrir sin taponar; tumbar sobre ese oído."
+    "es": "Cubrir sin taponar; tumbar sobre ese oído.",
+    "uk": "Прикрийте, не затикаючи; покладіть на це вухо."
    }
   },
   {
@@ -2018,25 +2405,30 @@ window.DGT_DATA = {
    "tag": "bleed",
    "q": {
     "en": "Internal bleeding that shows through an opening must…",
-    "es": "Las hemorragias internas exteriorizadas…"
+    "es": "Las hemorragias internas exteriorizadas…",
+    "uk": "Внутрішню кровотечу, що виходить через природний отвір…"
    },
    "o": [
     {
      "en": "not be stopped or plugged",
-     "es": "no deben cortarse ni taponarse"
+     "es": "no deben cortarse ni taponarse",
+     "uk": "не можна зупиняти чи затикати"
     },
     {
      "en": "be plugged firmly",
-     "es": "deben taponarse con fuerza"
+     "es": "deben taponarse con fuerza",
+     "uk": "треба щільно затиснути"
     },
     {
      "en": "be treated with a tourniquet",
-     "es": "se tratan con torniquete"
+     "es": "se tratan con torniquete",
+     "uk": "треба лікувати джгутом"
     }
    ],
    "why": {
     "en": "They are extremely serious.",
-    "es": "Son de extrema gravedad."
+    "es": "Son de extrema gravedad.",
+    "uk": "Вони надзвичайно тяжкі."
    }
   },
   {
@@ -2044,25 +2436,30 @@ window.DGT_DATA = {
    "tag": "bleed",
    "q": {
     "en": "A conscious person bleeds from the nose after a crash. Keep their head…",
-    "es": "Un herido consciente sangra por la nariz tras un golpe. Su cabeza debe estar…"
+    "es": "Un herido consciente sangra por la nariz tras un golpe. Su cabeza debe estar…",
+    "uk": "У притомного після зіткнення кровотеча з носа. Тримайте його голову…"
    },
    "o": [
     {
      "en": "straight or tilted forward",
-     "es": "recta o hacia delante"
+     "es": "recta o hacia delante",
+     "uk": "прямо чи нахиленою вперед"
     },
     {
      "en": "tilted back",
-     "es": "hacia atrás"
+     "es": "hacia atrás",
+     "uk": "закинутою назад"
     },
     {
      "en": "lower than the body",
-     "es": "más baja que el cuerpo"
+     "es": "más baja que el cuerpo",
+     "uk": "нижче за тіло"
     }
    ],
    "why": {
     "en": "Unconscious: recovery position.",
-    "es": "Inconsciente: posición lateral de seguridad."
+    "es": "Inconsciente: posición lateral de seguridad.",
+    "uk": "Непритомний: стабільне бокове положення."
    }
   },
   {
@@ -2070,25 +2467,30 @@ window.DGT_DATA = {
    "tag": "bleed",
    "q": {
     "en": "A conscious person coughs up blood (lung injury). Place them…",
-    "es": "Un herido consciente sangra por la boca al toser (pulmón). Se le coloca…"
+    "es": "Un herido consciente sangra por la boca al toser (pulmón). Se le coloca…",
+    "uk": "Притомний відкашлює кров (травма легенів). Покладіть його…"
    },
    "o": [
     {
      "en": "half-sitting",
-     "es": "semisentado"
+     "es": "semisentado",
+     "uk": "напівсидячи"
     },
     {
      "en": "face down",
-     "es": "boca abajo"
+     "es": "boca abajo",
+     "uk": "обличчям донизу"
     },
     {
      "en": "with the legs raised",
-     "es": "con las piernas elevadas"
+     "es": "con las piernas elevadas",
+     "uk": "з піднятими ногами"
     }
    ],
    "why": {
     "en": "Unconscious: recovery position.",
-    "es": "Si está inconsciente, PLS."
+    "es": "Si está inconsciente, PLS.",
+    "uk": "Непритомний: стабільне бокове положення."
    }
   },
   {
@@ -2096,25 +2498,30 @@ window.DGT_DATA = {
    "tag": "bleed",
    "q": {
     "en": "Someone vomits blood (possible stomach injury). Place them…",
-    "es": "Alguien vomita sangre (posible lesión de estómago). Se le coloca…"
+    "es": "Alguien vomita sangre (posible lesión de estómago). Se le coloca…",
+    "uk": "Людина блює кров’ю (можлива травма шлунка). Покладіть її…"
    },
    "o": [
     {
      "en": "in the recovery position",
-     "es": "en posición lateral de seguridad"
+     "es": "en posición lateral de seguridad",
+     "uk": "у стабільне бокове положення"
     },
     {
      "en": "half-sitting with the head back",
-     "es": "semisentado con la cabeza atrás"
+     "es": "semisentado con la cabeza atrás",
+     "uk": "напівсидячи з закинутою головою"
     },
     {
      "en": "face up",
-     "es": "boca arriba"
+     "es": "boca arriba",
+     "uk": "на спину"
     }
    ],
    "why": {
     "en": "So they don’t choke.",
-    "es": "Para que no se asfixie."
+    "es": "Para que no se asfixie.",
+    "uk": "Щоб вона не захлинулася."
    }
   },
   {
@@ -2122,25 +2529,30 @@ window.DGT_DATA = {
    "tag": "shock",
    "q": {
     "en": "Shock can be caused by…",
-    "es": "El estado de shock puede deberse a…"
+    "es": "El estado de shock puede deberse a…",
+    "uk": "Шок може спричинити…"
    },
    "o": [
     {
      "en": "a major loss of blood",
-     "es": "una pérdida importante de sangre"
+     "es": "una pérdida importante de sangre",
+     "uk": "велика втрата крові"
     },
     {
      "en": "eating too much",
-     "es": "comer demasiado"
+     "es": "comer demasiado",
+     "uk": "переїдання"
     },
     {
      "en": "the cold only",
-     "es": "solo el frío"
+     "es": "solo el frío",
+     "uk": "лише холод"
     }
    ],
    "why": {
     "en": "Watch for its signs.",
-    "es": "Hay que vigilar sus síntomas."
+    "es": "Hay que vigilar sus síntomas.",
+    "uk": "Стежте за його ознаками."
    }
   },
   {
@@ -2148,25 +2560,30 @@ window.DGT_DATA = {
    "tag": "shock",
    "q": {
     "en": "Which is a sign of shock?",
-    "es": "¿Cuál es un síntoma de shock?"
+    "es": "¿Cuál es un síntoma de shock?",
+    "uk": "Що з цього — ознака шоку?"
    },
    "o": [
     {
      "en": "Cold sweat and pale skin",
-     "es": "Sudor frío y piel pálida"
+     "es": "Sudor frío y piel pálida",
+     "uk": "Холодний піт і бліда шкіра"
     },
     {
      "en": "Red, hot skin",
-     "es": "Piel roja y caliente"
+     "es": "Piel roja y caliente",
+     "uk": "Червона гаряча шкіра"
     },
     {
      "en": "Slow, deep breathing",
-     "es": "Respiración lenta y profunda"
+     "es": "Respiración lenta y profunda",
+     "uk": "Повільне глибоке дихання"
     }
    ],
    "why": {
     "en": "Also a fast, weak pulse and fast, shallow breathing.",
-    "es": "También pulso rápido y débil y respiración rápida y superficial."
+    "es": "También pulso rápido y débil y respiración rápida y superficial.",
+    "uk": "А також частий слабкий пульс і часте поверхневе дихання."
    }
   },
   {
@@ -2174,25 +2591,30 @@ window.DGT_DATA = {
    "tag": "shock",
    "q": {
     "en": "In shock the pulse is usually…",
-    "es": "En el shock, el pulso suele ser…"
+    "es": "En el shock, el pulso suele ser…",
+    "uk": "За шоку пульс зазвичай…"
    },
    "o": [
     {
      "en": "fast and weak",
-     "es": "rápido y débil"
+     "es": "rápido y débil",
+     "uk": "частий і слабкий"
     },
     {
      "en": "slow and strong",
-     "es": "lento y fuerte"
+     "es": "lento y fuerte",
+     "uk": "повільний і сильний"
     },
     {
      "en": "normal",
-     "es": "normal"
+     "es": "normal",
+     "uk": "нормальний"
     }
    ],
    "why": {
     "en": "And the breathing fast and shallow.",
-    "es": "Y la respiración rápida y superficial."
+    "es": "Y la respiración rápida y superficial.",
+    "uk": "А дихання часте й поверхневе."
    }
   },
   {
@@ -2200,25 +2622,30 @@ window.DGT_DATA = {
    "tag": "shock",
    "q": {
     "en": "The anti-shock position is…",
-    "es": "La posición antishock consiste en…"
+    "es": "La posición antishock consiste en…",
+    "uk": "Протишокове положення —"
    },
    "o": [
     {
      "en": "lying down with the head lower than the body",
-     "es": "tumbado con la cabeza más baja que el resto del cuerpo"
+     "es": "tumbado con la cabeza más baja que el resto del cuerpo",
+     "uk": "лежачи, голова нижче за тіло"
     },
     {
      "en": "sitting up",
-     "es": "sentado"
+     "es": "sentado",
+     "uk": "сидячи"
     },
     {
      "en": "lying on the side",
-     "es": "de lado"
+     "es": "de lado",
+     "uk": "лежачи на боці"
     }
    ],
    "why": {
     "en": "Legs raised.",
-    "es": "Piernas elevadas."
+    "es": "Piernas elevadas.",
+    "uk": "Ноги підняті."
    }
   },
   {
@@ -2226,25 +2653,30 @@ window.DGT_DATA = {
    "tag": "shock",
    "q": {
     "en": "A person in shock should be covered…",
-    "es": "A una persona en shock hay que taparla…"
+    "es": "A una persona en shock hay que taparla…",
+    "uk": "Людину в шоці слід укрити…"
    },
    "o": [
     {
      "en": "lightly, without making them sweat",
-     "es": "ligeramente, sin hacerle sudar"
+     "es": "ligeramente, sin hacerle sudar",
+     "uk": "легко, не доводячи до поту"
     },
     {
      "en": "with several blankets",
-     "es": "con varias mantas"
+     "es": "con varias mantas",
+     "uk": "кількома ковдрами"
     },
     {
      "en": "not at all",
-     "es": "nada"
+     "es": "nada",
+     "uk": "не вкривати взагалі"
     }
    ],
    "why": {
     "en": "And no drinks.",
-    "es": "Y no darle bebidas."
+    "es": "Y no darle bebidas.",
+    "uk": "І жодного питва."
    }
   },
   {
@@ -2252,25 +2684,30 @@ window.DGT_DATA = {
    "tag": "shock",
    "q": {
     "en": "May you give a person in shock something to drink?",
-    "es": "¿Se puede dar de beber a una persona en shock?"
+    "es": "¿Se puede dar de beber a una persona en shock?",
+    "uk": "Чи можна дати людині в шоці попити?"
    },
    "o": [
     {
      "en": "No",
-     "es": "No"
+     "es": "No",
+     "uk": "Ні"
     },
     {
      "en": "Yes, water",
-     "es": "Sí, agua"
+     "es": "Sí, agua",
+     "uk": "Так, води"
     },
     {
      "en": "Yes, something hot",
-     "es": "Sí, algo caliente"
+     "es": "Sí, algo caliente",
+     "uk": "Так, щось гаряче"
     }
    ],
    "why": {
     "en": "Never give food or drink to the injured.",
-    "es": "Nunca dar bebida ni comida a los heridos."
+    "es": "Nunca dar bebida ni comida a los heridos.",
+    "uk": "Ніколи не давайте потерпілим їжі чи питва."
    }
   },
   {
@@ -2278,25 +2715,30 @@ window.DGT_DATA = {
    "tag": "injury",
    "q": {
     "en": "A limb is visibly deformed after a crash. You should…",
-    "es": "Una extremidad está deformada tras un accidente. Debes…"
+    "es": "Una extremidad está deformada tras un accidente. Debes…",
+    "uk": "Після зіткнення кінцівка помітно деформована. Вам слід…"
    },
    "o": [
     {
      "en": "not try to set the bone, and immobilise it",
-     "es": "no intentar recolocar el hueso, e inmovilizarla"
+     "es": "no intentar recolocar el hueso, e inmovilizarla",
+     "uk": "не намагатися вправити кістку й зафіксувати її"
     },
     {
      "en": "pull it straight",
-     "es": "estirarla"
+     "es": "estirarla",
+     "uk": "витягти її прямо"
     },
     {
      "en": "massage it",
-     "es": "darle un masaje"
+     "es": "darle un masaje",
+     "uk": "помасажувати"
     }
    ],
    "why": {
     "en": "Hold both ends.",
-    "es": "Sujetando los dos extremos."
+    "es": "Sujetando los dos extremos.",
+    "uk": "Тримайте обидва кінці."
    }
   },
   {
@@ -2304,25 +2746,30 @@ window.DGT_DATA = {
    "tag": "injury",
    "q": {
     "en": "To immobilise a fracture you hold…",
-    "es": "Para inmovilizar una fractura se sujetan…"
+    "es": "Para inmovilizar una fractura se sujetan…",
+    "uk": "Щоб зафіксувати перелом, тримають…"
    },
    "o": [
     {
      "en": "both ends",
-     "es": "los dos extremos"
+     "es": "los dos extremos",
+     "uk": "обидва кінці"
     },
     {
      "en": "only the end nearest the body",
-     "es": "solo el extremo más cercano al cuerpo"
+     "es": "solo el extremo más cercano al cuerpo",
+     "uk": "лише кінець, ближчий до тіла"
     },
     {
      "en": "nothing",
-     "es": "nada"
+     "es": "nada",
+     "uk": "нічого"
     }
    ],
    "why": {
     "en": "Open fractures: cover and stop the bleeding.",
-    "es": "Abiertas: tapar y contener la hemorragia."
+    "es": "Abiertas: tapar y contener la hemorragia.",
+    "uk": "Відкриті переломи: прикрийте й зупиніть кровотечу."
    }
   },
   {
@@ -2330,25 +2777,30 @@ window.DGT_DATA = {
    "tag": "injury",
    "q": {
     "en": "Wounds should be covered with…",
-    "es": "Las heridas se cubren con…"
+    "es": "Las heridas se cubren con…",
+    "uk": "Рани слід накривати…"
    },
    "o": [
     {
      "en": "sterile dressings",
-     "es": "apósitos estériles"
+     "es": "apósitos estériles",
+     "uk": "стерильними пов’язками"
     },
     {
      "en": "cotton wool",
-     "es": "algodón"
+     "es": "algodón",
+     "uk": "ватою"
     },
     {
      "en": "the person’s clothes",
-     "es": "la ropa del herido"
+     "es": "la ropa del herido",
+     "uk": "одягом потерпілого"
     }
    ],
    "why": {
     "en": "Don’t handle or explore them.",
-    "es": "Sin manipular ni explorar."
+    "es": "Sin manipular ni explorar.",
+    "uk": "Не чіпайте й не досліджуйте їх."
    }
   },
   {
@@ -2356,25 +2808,30 @@ window.DGT_DATA = {
    "tag": "injury",
    "q": {
     "en": "There is an object stuck in a wound. You should…",
-    "es": "Hay un objeto clavado en una herida. Debes…"
+    "es": "Hay un objeto clavado en una herida. Debes…",
+    "uk": "У рані застряг предмет. Вам слід…"
    },
    "o": [
     {
      "en": "leave it, dress around it and immobilise it all together",
-     "es": "dejarlo, fijarlo con un vendaje e inmovilizar en bloque"
+     "es": "dejarlo, fijarlo con un vendaje e inmovilizar en bloque",
+     "uk": "лишити його, накласти пов’язку довкола й зафіксувати все разом"
     },
     {
      "en": "pull it out carefully",
-     "es": "sacarlo con cuidado"
+     "es": "sacarlo con cuidado",
+     "uk": "обережно витягти"
     },
     {
      "en": "push it in further",
-     "es": "introducirlo más"
+     "es": "introducirlo más",
+     "uk": "заштовхнути глибше"
     }
    ],
    "why": {
     "en": "Removing it can worsen the injury and bleeding.",
-    "es": "Retirarlo puede aumentar la lesión y la hemorragia."
+    "es": "Retirarlo puede aumentar la lesión y la hemorragia.",
+    "uk": "Якщо витягти, травма й кровотеча можуть погіршитися."
    }
   },
   {
@@ -2382,25 +2839,30 @@ window.DGT_DATA = {
    "tag": "injury",
    "q": {
     "en": "If internal organs come out of a wound, you should…",
-    "es": "Si hay salida de vísceras, hay que…"
+    "es": "Si hay salida de vísceras, hay que…",
+    "uk": "Якщо внутрішні органи вийшли з рани, вам слід…"
    },
    "o": [
     {
      "en": "lay the person down and cover the organs with damp cloths, without touching them",
-     "es": "tumbar al herido y cubrir los órganos con paños húmedos, sin tocarlos"
+     "es": "tumbar al herido y cubrir los órganos con paños húmedos, sin tocarlos",
+     "uk": "покласти людину й накрити органи вологою тканиною, не торкаючись їх"
     },
     {
      "en": "push them back in",
-     "es": "introducirlas de nuevo"
+     "es": "introducirlas de nuevo",
+     "uk": "вправити їх назад"
     },
     {
      "en": "cover them with dry cotton wool",
-     "es": "cubrirlas con algodón seco"
+     "es": "cubrirlas con algodón seco",
+     "uk": "накрити сухою ватою"
     }
    ],
    "why": {
     "en": "Don’t move the person otherwise.",
-    "es": "Sin mover más al herido."
+    "es": "Sin mover más al herido.",
+    "uk": "Інакше людину не переміщуйте."
    }
   },
   {
@@ -2408,25 +2870,30 @@ window.DGT_DATA = {
    "tag": "injury",
    "q": {
     "en": "On a burn you should apply…",
-    "es": "Sobre una quemadura hay que aplicar…"
+    "es": "Sobre una quemadura hay que aplicar…",
+    "uk": "На опік слід…"
    },
    "o": [
     {
      "en": "cold water and damp sterile dressings",
-     "es": "agua fría y apósitos estériles húmedos"
+     "es": "agua fría y apósitos estériles húmedos",
+     "uk": "холодну воду й вологі стерильні пов’язки"
     },
     {
      "en": "cream or ointment",
-     "es": "pomada"
+     "es": "pomada",
+     "uk": "крем чи мазь"
     },
     {
      "en": "oil",
-     "es": "aceite"
+     "es": "aceite",
+     "uk": "олію"
     }
    ],
    "why": {
     "en": "No creams.",
-    "es": "Sin pomadas."
+    "es": "Sin pomadas.",
+    "uk": "Жодних кремів."
    }
   },
   {
@@ -2434,25 +2901,30 @@ window.DGT_DATA = {
    "tag": "injury",
    "q": {
     "en": "Clothing stuck to a burn should…",
-    "es": "La ropa pegada a una quemadura…"
+    "es": "La ropa pegada a una quemadura…",
+    "uk": "Одяг, що прилип до опіку…"
    },
    "o": [
     {
      "en": "not be removed",
-     "es": "no se debe quitar"
+     "es": "no se debe quitar",
+     "uk": "не треба знімати"
     },
     {
      "en": "be pulled off quickly",
-     "es": "se arranca rápidamente"
+     "es": "se arranca rápidamente",
+     "uk": "треба швидко зірвати"
     },
     {
      "en": "be cut and pulled off",
-     "es": "se corta y se arranca"
+     "es": "se corta y se arranca",
+     "uk": "треба розрізати й зняти"
     }
    ],
    "why": {
     "en": "And don’t burst blisters.",
-    "es": "Y no pinchar las ampollas."
+    "es": "Y no pinchar las ampollas.",
+    "uk": "І не проколюйте пухирі."
    }
   },
   {
@@ -2460,25 +2932,30 @@ window.DGT_DATA = {
    "tag": "injury",
    "q": {
     "en": "Blisters from a burn should…",
-    "es": "Las ampollas de una quemadura…"
+    "es": "Las ampollas de una quemadura…",
+    "uk": "Пухирі від опіку слід…"
    },
    "o": [
     {
      "en": "be left alone — not burst or cut",
-     "es": "no se manipulan: ni pinchar ni cortar"
+     "es": "no se manipulan: ni pinchar ni cortar",
+     "uk": "не чіпати — не проколювати й не зрізати"
     },
     {
      "en": "be burst",
-     "es": "se pinchan"
+     "es": "se pinchan",
+     "uk": "проколоти"
     },
     {
      "en": "be cut off",
-     "es": "se cortan"
+     "es": "se cortan",
+     "uk": "зрізати"
     }
    ],
    "why": {
     "en": "Risk of infection.",
-    "es": "Riesgo de infección."
+    "es": "Riesgo de infección.",
+    "uk": "Ризик інфекції."
    }
   },
   {
@@ -2486,25 +2963,30 @@ window.DGT_DATA = {
    "tag": "injury",
    "q": {
     "en": "Burns on different parts of the body should be bandaged…",
-    "es": "Las quemaduras en distintas zonas se vendan…"
+    "es": "Las quemaduras en distintas zonas se vendan…",
+    "uk": "Опіки на різних частинах тіла бинтують…"
    },
    "o": [
     {
      "en": "separately",
-     "es": "por separado"
+     "es": "por separado",
+     "uk": "окремо"
     },
     {
      "en": "together",
-     "es": "juntas"
+     "es": "juntas",
+     "uk": "разом"
     },
     {
      "en": "never",
-     "es": "nunca"
+     "es": "nunca",
+     "uk": "ніколи"
     }
    ],
    "why": {
     "en": "Raise the burnt area.",
-    "es": "Y elevar la zona quemada."
+    "es": "Y elevar la zona quemada.",
+    "uk": "Підніміть обпечену ділянку."
    }
   },
   {
@@ -2512,25 +2994,30 @@ window.DGT_DATA = {
    "tag": "injury",
    "q": {
     "en": "Someone has burns on the face. Watch especially for…",
-    "es": "Alguien tiene quemaduras en la cara. Hay que vigilar especialmente…"
+    "es": "Alguien tiene quemaduras en la cara. Hay que vigilar especialmente…",
+    "uk": "У людини опіки обличчя. Стежте особливо за…"
    },
    "o": [
     {
      "en": "breathing problems",
-     "es": "problemas respiratorios"
+     "es": "problemas respiratorios",
+     "uk": "проблемами з диханням"
     },
     {
      "en": "a broken leg",
-     "es": "una pierna rota"
+     "es": "una pierna rota",
+     "uk": "переломом ноги"
     },
     {
      "en": "hearing",
-     "es": "la audición"
+     "es": "la audición",
+     "uk": "слухом"
     }
    ],
    "why": {
     "en": "And possible shock.",
-    "es": "Y un posible shock."
+    "es": "Y un posible shock.",
+    "uk": "І можливим шоком."
    }
   },
   {
@@ -2538,25 +3025,30 @@ window.DGT_DATA = {
    "tag": "injury",
    "q": {
     "en": "A person’s clothes catch fire. You should…",
-    "es": "La ropa de una persona se incendia. Hay que…"
+    "es": "La ropa de una persona se incendia. Hay que…",
+    "uk": "На людині загорівся одяг. Вам слід…"
    },
    "o": [
     {
      "en": "cover them with a blanket or roll them on the ground",
-     "es": "cubrirla con una manta o hacerla rodar por el suelo"
+     "es": "cubrirla con una manta o hacerla rodar por el suelo",
+     "uk": "накрити її ковдрою чи покотити по землі"
     },
     {
      "en": "make them run",
-     "es": "hacerla correr"
+     "es": "hacerla correr",
+     "uk": "змусити її бігти"
     },
     {
      "en": "aim the extinguisher at the face",
-     "es": "apuntar el extintor a la cara"
+     "es": "apuntar el extintor a la cara",
+     "uk": "спрямувати вогнегасник в обличчя"
     }
    ],
    "why": {
     "en": "Never aim an extinguisher at the face.",
-    "es": "Nunca apuntar el extintor a la cara."
+    "es": "Nunca apuntar el extintor a la cara.",
+    "uk": "Ніколи не спрямовуйте вогнегасник в обличчя."
    }
   },
   {
@@ -2564,25 +3056,30 @@ window.DGT_DATA = {
    "tag": "injury",
    "q": {
     "en": "Raising a burnt limb…",
-    "es": "Elevar una extremidad quemada…"
+    "es": "Elevar una extremidad quemada…",
+    "uk": "Підняти обпечену кінцівку…"
    },
    "o": [
     {
      "en": "reduces pain and swelling",
-     "es": "disminuye el dolor y la hinchazón"
+     "es": "disminuye el dolor y la hinchazón",
+     "uk": "зменшує біль і набряк"
     },
     {
      "en": "makes the burn worse",
-     "es": "empeora la quemadura"
+     "es": "empeora la quemadura",
+     "uk": "погіршує опік"
     },
     {
      "en": "is forbidden",
-     "es": "está prohibido"
+     "es": "está prohibido",
+     "uk": "заборонено"
     }
    ],
    "why": {
     "en": "Keep watching for shock.",
-    "es": "Vigilar un posible shock."
+    "es": "Vigilar un posible shock.",
+    "uk": "І далі стежте за ознаками шоку."
    }
   },
   {
@@ -2590,25 +3087,30 @@ window.DGT_DATA = {
    "tag": "transport",
    "q": {
     "en": "To take the injured to hospital you should…",
-    "es": "Para trasladar a los heridos hay que…"
+    "es": "Para trasladar a los heridos hay que…",
+    "uk": "Щоб доправити потерпілих у лікарню, слід…"
    },
    "o": [
     {
      "en": "wait for the ambulance",
-     "es": "esperar a la ambulancia"
+     "es": "esperar a la ambulancia",
+     "uk": "чекати швидкої"
     },
     {
      "en": "use the first car available",
-     "es": "usar el primer coche disponible"
+     "es": "usar el primer coche disponible",
+     "uk": "скористатися першим доступним автомобілем"
     },
     {
      "en": "call a taxi",
-     "es": "llamar a un taxi"
+     "es": "llamar a un taxi",
+     "uk": "викликати таксі"
     }
    ],
    "why": {
     "en": "A private car only exceptionally.",
-    "es": "Un coche particular solo excepcionalmente."
+    "es": "Un coche particular solo excepcionalmente.",
+    "uk": "Приватний автомобіль — лише у виняткових випадках."
    }
   },
   {
@@ -2616,25 +3118,30 @@ window.DGT_DATA = {
    "tag": "transport",
    "q": {
     "en": "You may use a private car to move an injured person when…",
-    "es": "Se puede usar un coche particular para trasladar a un herido cuando…"
+    "es": "Se puede usar un coche particular para trasladar a un herido cuando…",
+    "uk": "Приватним автомобілем можна перевезти потерпілого, коли…"
    },
    "o": [
     {
      "en": "help can’t be requested at all, or it is very late and they get worse",
-     "es": "no se puede pedir ayuda, o se retrasa mucho y el herido empeora"
+     "es": "no se puede pedir ayuda, o se retrasa mucho y el herido empeora",
+     "uk": "допомогу взагалі не можна викликати чи вона дуже запізнюється, а йому гіршає"
     },
     {
      "en": "they are slightly hurt",
-     "es": "está levemente herido"
+     "es": "está levemente herido",
+     "uk": "він легко травмований"
     },
     {
      "en": "it is faster",
-     "es": "es más rápido"
+     "es": "es más rápido",
+     "uk": "так швидше"
     }
    ],
    "why": {
     "en": "And they can travel immobilised in a suitable position.",
-    "es": "Y puede ir inmovilizado en una posición adecuada."
+    "es": "Y puede ir inmovilizado en una posición adecuada.",
+    "uk": "І його можна перевезти зафіксованим у відповідному положенні."
    }
   },
   {
@@ -2642,25 +3149,30 @@ window.DGT_DATA = {
    "tag": "transport",
    "q": {
     "en": "‘Help is late’ means, according to your course, more than…",
-    "es": "«La ayuda se retrasa» significa, según tu curso, más de…"
+    "es": "«La ayuda se retrasa» significa, según tu curso, más de…",
+    "uk": "«Допомога запізнюється», за вашим курсом, — це понад…"
    },
    "o": [
     {
      "en": "30 minutes since it was called",
-     "es": "30 minutos desde que se solicitó"
+     "es": "30 minutos desde que se solicitó",
+     "uk": "30 хвилин відтоді, як її викликали"
     },
     {
      "en": "5 minutes",
-     "es": "5 minutos"
+     "es": "5 minutos",
+     "uk": "5 хвилин"
     },
     {
      "en": "2 hours",
-     "es": "2 horas"
+     "es": "2 horas",
+     "uk": "2 години"
     }
    ],
    "why": {
     "en": "With uncontrolled bleeding, worsening shock or a tourniquet.",
-    "es": "Con hemorragia que no se contiene, shock en aumento o torniquete."
+    "es": "Con hemorragia que no se contiene, shock en aumento o torniquete.",
+    "uk": "З неконтрольованою кровотечею, наростанням шоку чи джгутом."
    }
   },
   {
@@ -2668,25 +3180,30 @@ window.DGT_DATA = {
    "tag": "transport",
    "q": {
     "en": "When carrying an injured person in a private car you must keep…",
-    "es": "Al trasladar a un herido en coche particular hay que mantener…"
+    "es": "Al trasladar a un herido en coche particular hay que mantener…",
+    "uk": "Перевозячи потерпілого приватним автомобілем, треба тримати…"
    },
    "o": [
     {
      "en": "the head–neck–trunk aligned",
-     "es": "alineado el eje cabeza-cuello-tronco"
+     "es": "alineado el eje cabeza-cuello-tronco",
+     "uk": "голову–шию–тулуб на одній лінії"
     },
     {
      "en": "the windows closed",
-     "es": "las ventanillas cerradas"
+     "es": "las ventanillas cerradas",
+     "uk": "вікна зачиненими"
     },
     {
      "en": "the radio on",
-     "es": "la radio encendida"
+     "es": "la radio encendida",
+     "uk": "радіо ввімкненим"
     }
    ],
    "why": {
     "en": "And go with them to watch their state.",
-    "es": "Y acompañarlo para vigilar su estado."
+    "es": "Y acompañarlo para vigilar su estado.",
+    "uk": "І їхати з ним, щоб стежити за його станом."
    }
   },
   {
@@ -2694,25 +3211,30 @@ window.DGT_DATA = {
    "tag": "transport",
    "q": {
     "en": "A private car on an urgent run warns other drivers…",
-    "es": "Un coche particular en servicio de urgencia advierte a los demás…"
+    "es": "Un coche particular en servicio de urgencia advierte a los demás…",
+    "uk": "Приватний автомобіль у терміновій поїздці попереджає інших водіїв…"
    },
    "o": [
     {
      "en": "with the horn and hazard lights, or by waving a handkerchief",
-     "es": "con el claxon y las luces de emergencia, o agitando un pañuelo"
+     "es": "con el claxon y las luces de emergencia, o agitando un pañuelo",
+     "uk": "звуковим сигналом і аварійною сигналізацією або махаючи хусткою"
     },
     {
      "en": "by ignoring traffic lights",
-     "es": "saltándose los semáforos"
+     "es": "saltándose los semáforos",
+     "uk": "ігноруючи світлофори"
     },
     {
      "en": "by driving on the shoulder",
-     "es": "circulando por el arcén"
+     "es": "circulando por el arcén",
+     "uk": "їдучи узбіччям"
     }
    ],
    "why": {
     "en": "And it must follow the traffic rules.",
-    "es": "Y debe respetar las normas de circulación."
+    "es": "Y debe respetar las normas de circulación.",
+    "uk": "І мусить виконувати правила руху."
    }
   },
   {
@@ -2720,25 +3242,30 @@ window.DGT_DATA = {
    "tag": "transport",
    "q": {
     "en": "A private car taking an injured person to hospital…",
-    "es": "Un coche particular que lleva a un herido al hospital…"
+    "es": "Un coche particular que lleva a un herido al hospital…",
+    "uk": "Приватний автомобіль, що везе потерпілого в лікарню…"
    },
    "o": [
     {
      "en": "must still respect the traffic rules",
-     "es": "debe respetar las normas de circulación"
+     "es": "debe respetar las normas de circulación",
+     "uk": "однаково мусить виконувати правила руху"
     },
     {
      "en": "may exceed the speed limits",
-     "es": "puede superar los límites de velocidad"
+     "es": "puede superar los límites de velocidad",
+     "uk": "може перевищувати обмеження швидкості"
     },
     {
      "en": "is a priority vehicle",
-     "es": "es un vehículo prioritario"
+     "es": "es un vehículo prioritario",
+     "uk": "є ТЗ з перевагою"
     }
    ],
    "why": {
     "en": "It is not a priority vehicle.",
-    "es": "No es un vehículo prioritario."
+    "es": "No es un vehículo prioritario.",
+    "uk": "Це не ТЗ з перевагою."
    }
   },
   {
@@ -2746,25 +3273,30 @@ window.DGT_DATA = {
    "tag": "transport",
    "q": {
     "en": "A first-aid kit in a car is…",
-    "es": "El botiquín en un turismo es…"
+    "es": "El botiquín en un turismo es…",
+    "uk": "Аптечка в автомобілі…"
    },
    "o": [
     {
      "en": "not compulsory, but recommended",
-     "es": "no obligatorio, pero sí recomendable"
+     "es": "no obligatorio, pero sí recomendable",
+     "uk": "не обов’язкова, але рекомендована"
     },
     {
      "en": "compulsory",
-     "es": "obligatorio"
+     "es": "obligatorio",
+     "uk": "обов’язкова"
     },
     {
      "en": "forbidden",
-     "es": "prohibido"
+     "es": "prohibido",
+     "uk": "заборонена"
     }
    ],
    "why": {
     "en": "Keep it usable.",
-    "es": "Que esté en condiciones de uso."
+    "es": "Que esté en condiciones de uso.",
+    "uk": "Тримайте її придатною."
    }
   },
   {
@@ -2772,25 +3304,30 @@ window.DGT_DATA = {
    "tag": "transport",
    "q": {
     "en": "Which item is useful in a car first-aid kit?",
-    "es": "¿Qué elemento es útil en un botiquín del coche?"
+    "es": "¿Qué elemento es útil en un botiquín del coche?",
+    "uk": "Що з цього корисне в автомобільній аптечці?"
    },
    "o": [
     {
      "en": "Sterile dressings and gloves",
-     "es": "Apósitos estériles y guantes"
+     "es": "Apósitos estériles y guantes",
+     "uk": "Стерильні пов’язки й рукавички"
     },
     {
      "en": "Sleeping pills",
-     "es": "Somníferos"
+     "es": "Somníferos",
+     "uk": "Снодійне"
     },
     {
      "en": "Ointment for burns",
-     "es": "Pomada para quemaduras"
+     "es": "Pomada para quemaduras",
+     "uk": "Мазь від опіків"
     }
    ],
    "why": {
     "en": "Also bandages, gauze, tape, scissors, disinfectant…",
-    "es": "También vendas, gasas, esparadrapo, tijeras, desinfectante…"
+    "es": "También vendas, gasas, esparadrapo, tijeras, desinfectante…",
+    "uk": "А також бинти, марля, пластир, ножиці, антисептик…"
    }
   }
  ],
@@ -2799,297 +3336,363 @@ window.DGT_DATA = {
    "sec": 1,
    "en": "The duty to help",
    "es": "Deber de ayudar",
+   "uk": "Обов’язок допомогти",
    "recap": [
     [
      "Involved users and anyone who knows about an accident must help or call for help, avoid danger and work with the agents.",
-     "Los implicados y quien tenga conocimiento deben auxiliar o pedir auxilio, evitar peligros y colaborar con los agentes."
+     "Los implicados y quien tenga conocimiento deben auxiliar o pedir auxilio, evitar peligros y colaborar con los agentes.",
+     "Причетні й усі, хто знає про ДТП, мусять допомогти чи викликати допомогу, уникати небезпеки й співпрацювати з регулювальниками."
     ],
     [
      "Not helping is the crime of failure to help (art. 195); a driver who causes a serious accident and leaves commits art. 382 bis.",
-     "No auxiliar es omisión del deber de socorro (art. 195); el conductor que causa un accidente grave y se va comete el art. 382 bis."
+     "No auxiliar es omisión del deber de socorro (art. 195); el conductor que causa un accidente grave y se va comete el art. 382 bis.",
+     "Не допомогти — злочин ненадання допомоги (ст. 195); водій, що спричинив тяжку ДТП і поїхав, вчиняє злочин за ст. 382 bis."
     ],
     [
      "Non-involved users may drive on if agents are already there or their help is clearly not needed.",
-     "Los no implicados pueden seguir si ya están los agentes o su ayuda claramente no hace falta."
+     "Los no implicados pueden seguir si ya están los agentes o su ayuda claramente no hace falta.",
+     "Непричетні можуть їхати далі, якщо регулювальники вже на місці чи їхня допомога явно не потрібна."
     ],
     [
      "Deaths or serious injuries: don’t change the scene or evidence (unless it endangers someone), call the agents and stay. Give your details if asked.",
-     "Muertos o heridos graves: no alterar el lugar ni las pruebas (salvo peligro), avisar a los agentes y quedarse. Dar los datos si los piden."
+     "Muertos o heridos graves: no alterar el lugar ni las pruebas (salvo peligro), avisar a los agentes y quedarse. Dar los datos si los piden.",
+     "Загиблі чи тяжко травмовані: не змінюйте місця й доказів (якщо це не створює небезпеки), викличте регулювальників і лишайтеся. Дайте свої дані на вимогу."
     ]
    ],
    "trap": [
     "Thinking only the drivers involved must help.",
-    "Pensar que solo deben ayudar los conductores implicados."
+    "Pensar que solo deben ayudar los conductores implicados.",
+    "Думати, що допомагати мусять лише причетні водії."
    ]
   },
   "protect": {
    "sec": 2,
    "en": "PAS: protect",
    "es": "PAS: proteger",
+   "uk": "PAS: захистити",
    "recap": [
     [
      "PAS: Protect, Alert, Help — in that order.",
-     "PAS: Proteger, Avisar, Socorrer, en ese orden."
+     "PAS: Proteger, Avisar, Socorrer, en ese orden.",
+     "PAS: Захистити, Повідомити, Допомогти — у такому порядку."
     ],
     [
      "Protect yourself: stop safely, V-16 on the roof from inside, hazard lights, vest on before getting out, stay off the carriageway.",
-     "Autoprotegerse: parar en lugar seguro, V-16 en el techo desde dentro, luces de emergencia, chaleco antes de bajar, no andar por la calzada."
+     "Autoprotegerse: parar en lugar seguro, V-16 en el techo desde dentro, luces de emergencia, chaleco antes de bajar, no andar por la calzada.",
+     "Захистіть себе: безпечна зупинка, V-16 на дах зсередини, аварійна сигналізація, жилет — до того, як вийти, тримайтеся поза проїзною частиною."
     ],
     [
      "Protect the scene: vehicles off the carriageway, handbrake, engine off, no smoking; fire: extinguisher at the base, never water.",
-     "Proteger el lugar: vehículos fuera de la calzada, freno de mano, motor parado, no fumar; fuego: extintor en la base, nunca agua."
+     "Proteger el lugar: vehículos fuera de la calzada, freno de mano, motor parado, no fumar; fuego: extintor en la base, nunca agua.",
+     "Захистіть місце ДТП: ТЗ з проїзної частини, ручне гальмо, двигун заглушено, не курити; пожежа — вогнегасник під основу, ніколи не вода."
     ],
     [
      "Protect the victims: don’t move them or remove a helmet unless essential (two people, head–neck–trunk still).",
-     "Proteger a las víctimas: no moverlas ni quitar el casco salvo que sea imprescindible (dos personas, eje cabeza-cuello-tronco inmóvil)."
+     "Proteger a las víctimas: no moverlas ni quitar el casco salvo que sea imprescindible (dos personas, eje cabeza-cuello-tronco inmóvil).",
+     "Захистіть потерпілих: не переміщуйте їх і не знімайте шолома без крайньої потреби (двоє людей, голова–шия–тулуб нерухомо)."
     ]
    ],
    "trap": [
     "Getting out first and putting the vest on afterwards.",
-    "Bajar primero y ponerse el chaleco después."
+    "Bajar primero y ponerse el chaleco después.",
+    "Спершу вийти, а жилет вдягнути потім."
    ]
   },
   "alert": {
    "sec": 2,
    "en": "PAS: alert",
    "es": "PAS: avisar",
+   "uk": "PAS: повідомити",
    "recap": [
     [
      "Call 112: free, no credit needed, the same in the whole EU, answered in your language.",
-     "Llamar al 112: gratuito, sin saldo, común en toda la UE, atienden en tu idioma."
+     "Llamar al 112: gratuito, sin saldo, común en toda la UE, atienden en tu idioma.",
+     "Телефонуйте 112: безкоштовно, без коштів на рахунку, однаково в усьому ЄС, відповідають вашою мовою."
     ],
     [
      "Say the exact place, number and state of the injured, what happened (vehicles, fire, dangerous goods) and who you are.",
-     "Decir el lugar exacto, número y estado de los heridos, qué ha pasado (vehículos, incendio, mercancías peligrosas) y quién eres."
+     "Decir el lugar exacto, número y estado de los heridos, qué ha pasado (vehículos, incendio, mercancías peligrosas) y quién eres.",
+     "Назвіть точне місце, кількість і стан потерпілих, що сталося (ТЗ, пожежа, небезпечні вантажі) і хто ви."
     ],
     [
      "No need to alert or stay only if injuries are clearly minor, safety is restored and nobody asks.",
-     "No hace falta avisar ni quedarse solo si las heridas son leves, la seguridad está restablecida y nadie lo pide."
+     "No hace falta avisar ni quedarse solo si las heridas son leves, la seguridad está restablecida y nadie lo pide.",
+     "Можна не повідомляти й не лишатися, лише якщо травми явно незначні, безпеку відновлено й ніхто не просить."
     ],
     [
      "All three conditions must be met.",
-     "Deben cumplirse las tres condiciones."
+     "Deben cumplirse las tres condiciones.",
+     "Мають виконуватися всі три умови."
     ]
    ],
    "trap": [
     "Thinking you can leave as soon as nobody seems badly hurt.",
-    "Pensar que te puedes ir en cuanto nadie parece grave."
+    "Pensar que te puedes ir en cuanto nadie parece grave.",
+    "Думати, що можна їхати, щойно здається, що ніхто тяжко не постраждав."
    ]
   },
   "help": {
    "sec": 2,
    "en": "PAS: help",
    "es": "PAS: socorrer",
+   "uk": "PAS: допомогти",
    "recap": [
     [
      "Only help if you know how; otherwise wait for the medical team.",
-     "Solo socorrer si se sabe; si no, esperar a los sanitarios."
+     "Solo socorrer si se sabe; si no, esperar a los sanitarios.",
+     "Допомагайте, лише якщо вмієте; інакше чекайте медиків."
     ],
     [
      "Keep calm; worst cases first (unconscious, breathing problems); treat them inside the vehicle if needed.",
-     "Calma; primero los más graves (inconscientes, dificultad respiratoria); atenderlos en el vehículo si hace falta."
+     "Calma; primero los más graves (inconscientes, dificultad respiratoria); atenderlos en el vehículo si hace falta.",
+     "Зберігайте спокій; спершу найтяжчі (непритомні, з проблемами дихання); за потреби допомагайте всередині ТЗ."
     ],
     [
      "Loosen clothing, cover them even in summer, nothing to eat, drink or medicines, don’t touch wounds or burns.",
-     "Aflojar la ropa, taparlos incluso en verano, ni comida ni bebida ni medicamentos, no tocar heridas ni quemaduras."
+     "Aflojar la ropa, taparlos incluso en verano, ni comida ni bebida ni medicamentos, no tocar heridas ni quemaduras.",
+     "Послабте одяг, укрийте навіть улітку, жодної їжі, питва чи ліків, не чіпайте ран і опіків."
     ],
     [
      "The golden hour: the first hour after the accident, when most deaths happen.",
-     "La hora de oro: la primera hora tras el accidente, cuando se produce la mayoría de los fallecidos."
+     "La hora de oro: la primera hora tras el accidente, cuando se produce la mayoría de los fallecidos.",
+     "Золота година: перша година після ДТП, коли стається більшість смертей."
     ]
    ],
    "trap": [
     "Giving an injured person water.",
-    "Dar agua a un herido."
+    "Dar agua a un herido.",
+    "Давати потерпілому воду."
    ]
   },
   "assess": {
    "sec": 3,
    "en": "Initial assessment and ABC",
    "es": "Valoración inicial y ABC",
+   "uk": "Первинна оцінка й ABC",
    "recap": [
     [
      "Check consciousness, breathing and circulation; with several injured, assess all first, 10–15 s each.",
-     "Comprobar consciencia, respiración y circulación; con varios heridos, valorar a todos primero, 10–15 s cada uno."
+     "Comprobar consciencia, respiración y circulación; con varios heridos, valorar a todos primero, 10–15 s cada uno.",
+     "Перевірте свідомість, дихання й кровообіг; якщо потерпілих кілька, спершу оцініть усіх, по 10–15 с."
     ],
     [
      "Conscious: answers simple questions or reacts to a pinch. Unconscious: no response → ABC.",
-     "Consciente: contesta o reacciona a un pellizco. Inconsciente: no responde → ABC."
+     "Consciente: contesta o reacciona a un pellizco. Inconsciente: no responde → ABC.",
+     "Притомний: відповідає на прості питання чи реагує на щипок. Непритомний: не реагує → ABC."
     ],
     [
      "A: head-tilt, chin-lift; hooked finger to remove an object. B: see, feel, hear.",
-     "A: maniobra frente-mentón; dedo en gancho para sacar objetos. B: ver, sentir, oír."
+     "A: maniobra frente-mentón; dedo en gancho para sacar objetos. B: ver, sentir, oír.",
+     "A: закидання голови й підняття підборіддя; гачкуватим пальцем вийняти предмет. B: бачити, відчувати, чути."
     ],
     [
      "Snoring breathing: airway partly blocked; irregular: possible brain damage. No breathing/pulse: CPR.",
-     "Respiración con ronquidos: vía aérea obstruida en parte; irregular: posible daño cerebral. Sin respiración o pulso: RCP."
+     "Respiración con ronquidos: vía aérea obstruida en parte; irregular: posible daño cerebral. Sin respiración o pulso: RCP.",
+     "Хропляче дихання: дихальні шляхи частково перекриті; нерегулярне — можливе ушкодження мозку. Немає дихання/пульсу: СЛР."
     ]
    ],
    "trap": [
     "Helping the first injured person you see before checking the others.",
-    "Atender al primer herido sin valorar antes a los demás."
+    "Atender al primer herido sin valorar antes a los demás.",
+    "Допомагати першому потерпілому, якого побачили, не перевіривши інших."
    ]
   },
   "recovery": {
    "sec": 4,
    "en": "Breathing casualties and the recovery position",
    "es": "Heridos que respiran y PLS",
+   "uk": "Потерпілі, що дихають, і стабільне бокове положення",
    "recap": [
     [
      "Conscious and breathing: check for serious injuries, go on to others, keep watching.",
-     "Consciente que respira: comprobar lesiones graves, pasar a otros, sin dejar de vigilarlo."
+     "Consciente que respira: comprobar lesiones graves, pasar a otros, sin dejar de vigilarlo.",
+     "Притомний і дихає: перевірте, чи немає тяжких травм, переходьте до інших, і далі стежте."
     ],
     [
      "Unconscious and breathing: recovery position if you must leave them or they vomit or bleed from mouth or nose.",
-     "Inconsciente que respira: PLS si hay que dejarlo solo o vomita o sangra por boca o nariz."
+     "Inconsciente que respira: PLS si hay que dejarlo solo o vomita o sangra por boca o nariz.",
+     "Непритомний і дихає: стабільне бокове положення, якщо доводиться лишити його чи в нього блювота або кровотеча з рота чи носа."
     ],
     [
      "Bleeding ear: lie on that ear. Check breathing every 2–3 minutes.",
-     "Sangra por un oído: sobre ese lado. Comprobar la respiración cada 2–3 minutos."
+     "Sangra por un oído: sobre ese lado. Comprobar la respiración cada 2–3 minutos.",
+     "Кровотеча з вуха: покладіть на це вухо. Перевіряйте дихання кожні 2–3 хвилини."
     ],
     [
      "PLS: raise the near arm, bend the far arm and leg, roll in one go — best with two people.",
-     "PLS: subir el brazo cercano, doblar el brazo y la pierna alejados, girar a la vez; mejor entre dos."
+     "PLS: subir el brazo cercano, doblar el brazo y la pierna alejados, girar a la vez; mejor entre dos.",
+     "СБП: підніміть ближчу руку, зігніть дальню руку й ногу, переверніть за один рух — найкраще вдвох."
     ]
    ],
    "trap": [
     "Laying someone with a bleeding ear on the other side.",
-    "Colocar sobre el otro lado a quien sangra por un oído."
+    "Colocar sobre el otro lado a quien sangra por un oído.",
+    "Класти людину з кровотечею з вуха на інший бік."
    ]
   },
   "cpr": {
    "sec": 4,
    "en": "CPR",
    "es": "RCP",
+   "uk": "СЛР",
    "recap": [
     [
      "Unconscious and not breathing: start CPR at once, face up on a hard flat surface.",
-     "Inconsciente que no respira: RCP inmediata, boca arriba sobre superficie plana y dura."
+     "Inconsciente que no respira: RCP inmediata, boca arriba sobre superficie plana y dura.",
+     "Непритомний і не дихає: одразу СЛР, на спині на твердій рівній поверхні."
     ],
     [
      "Heel of the hand on the centre of the chest, arms straight, 4–5 cm (course), 30 compressions; swap every 1–2 min.",
-     "Talón de la mano en el centro del pecho, brazos rectos, 4–5 cm (curso), 30 compresiones; turnarse cada 1–2 min."
+     "Talón de la mano en el centro del pecho, brazos rectos, 4–5 cm (curso), 30 compresiones; turnarse cada 1–2 min.",
+     "Основа долоні на центр грудей, руки прямі, 4–5 см (курс), 30 натискань; мінятися кожні 1–2 хв."
     ],
     [
      "Breaths: head-tilt, pinch the nose, blow for 1 second, watch the chest rise; two breaths; 30 : 2 at about 100 a minute.",
-     "Ventilaciones: frente-mentón, pinzar la nariz, soplar 1 segundo, ver subir el pecho; dos insuflaciones; 30 : 2 a unas 100 por minuto."
+     "Ventilaciones: frente-mentón, pinzar la nariz, soplar 1 segundo, ver subir el pecho; dos insuflaciones; 30 : 2 a unas 100 por minuto.",
+     "Вдихи: закинути голову, затиснути ніс, дути 1 секунду, стежити, щоб піднімалася грудна клітка; два вдихи; 30 : 2 з частотою близько 100 за хвилину."
     ],
     [
      "Children: 5 breaths first, then 30 : 2, one hand or two fingers.",
-     "Niños: 5 ventilaciones iniciales y luego 30 : 2, con una mano o dos dedos."
+     "Niños: 5 ventilaciones iniciales y luego 30 : 2, con una mano o dos dedos.",
+     "Діти: спершу 5 вдихів, потім 30 : 2, однією рукою чи двома пальцями."
     ]
    ],
    "trap": [
     "Bending the arms during compressions.",
-    "Doblar los brazos al comprimir."
+    "Doblar los brazos al comprimir.",
+    "Згинати руки під час натискань."
    ]
   },
   "bleed": {
    "sec": 4,
    "en": "Bleeding",
    "es": "Hemorragias",
+   "uk": "Кровотеча",
    "recap": [
     [
      "External: press on the wound with gauze or clean cloth; if soaked, add more on top.",
-     "Externa: presionar con gasa o tela limpia; si se empapa, poner otra encima."
+     "Externa: presionar con gasa o tela limpia; si se empapa, poner otra encima.",
+     "Зовнішня: притисніть рану марлею чи чистою тканиною; якщо просякла — додайте зверху ще."
     ],
     [
      "Course: then raise the limb and press the armpit (arm) or groin (leg).",
-     "Curso: después elevar el miembro y presionar la axila (brazo) o la ingle (pierna)."
+     "Curso: después elevar el miembro y presionar la axila (brazo) o la ingle (pierna).",
+     "Курс: потім підніміть кінцівку й притисніть пахву (рука) чи пах (нога)."
     ],
     [
      "Tourniquet: last resort above the wound; keep it on, visible, note the time.",
-     "Torniquete: último recurso por encima de la herida; mantenerlo, visible, anotar la hora."
+     "Torniquete: último recurso por encima de la herida; mantenerlo, visible, anotar la hora.",
+     "Джгут: крайній захід вище рани; лишіть на місці, на видноті, запишіть час."
     ],
     [
      "Blood from ear, nose or mouth: don’t plug it. Ear → PLS on that ear; lung → half-sitting if conscious.",
-     "Sangre por oído, nariz o boca: no taponar. Oído → PLS sobre ese oído; pulmón → semisentado si está consciente."
+     "Sangre por oído, nariz o boca: no taponar. Oído → PLS sobre ese oído; pulmón → semisentado si está consciente.",
+     "Кров із вуха, носа чи рота: не затикайте. Вухо → СБП на це вухо; легені → напівсидячи, якщо притомний."
     ]
    ],
    "trap": [
     "Removing a soaked gauze to put a clean one.",
-    "Quitar la gasa empapada para poner una limpia."
+    "Quitar la gasa empapada para poner una limpia.",
+    "Знімати просяклу марлю, щоб покласти чисту."
    ]
   },
   "shock": {
    "sec": 4,
    "en": "Shock",
    "es": "Shock",
+   "uk": "Шок",
    "recap": [
     [
      "Shock can follow a major loss of blood.",
-     "El shock puede deberse a una pérdida importante de sangre."
+     "El shock puede deberse a una pérdida importante de sangre.",
+     "Шок може настати після великої втрати крові."
     ],
     [
      "Signs: cold sweat, pale skin, confusion, restlessness, fast shallow breathing, fast weak pulse.",
-     "Síntomas: sudor frío, palidez, confusión, inquietud, respiración rápida y superficial, pulso rápido y débil."
+     "Síntomas: sudor frío, palidez, confusión, inquietud, respiración rápida y superficial, pulso rápido y débil.",
+     "Ознаки: холодний піт, бліда шкіра, сплутаність, неспокій, часте поверхневе дихання, частий слабкий пульс."
     ],
     [
      "Anti-shock position: head lower than the body (legs raised).",
-     "Posición antishock: la cabeza más baja que el cuerpo (piernas elevadas)."
+     "Posición antishock: la cabeza más baja que el cuerpo (piernas elevadas).",
+     "Протишокове положення: голова нижче за тіло (ноги підняті)."
     ],
     [
      "Loosen clothing, cover lightly without making them sweat, no drinks.",
-     "Aflojar la ropa, tapar ligeramente sin hacer sudar, no dar bebidas."
+     "Aflojar la ropa, tapar ligeramente sin hacer sudar, no dar bebidas.",
+     "Послабте одяг, легко укрийте, не доводячи до поту, без питва."
     ]
    ],
    "trap": [
     "Giving a person in shock something to drink.",
-    "Dar de beber a una persona en shock."
+    "Dar de beber a una persona en shock.",
+    "Давати людині в шоці попити."
    ]
   },
   "injury": {
    "sec": 5,
    "en": "Fractures, wounds, burns, fire",
    "es": "Fracturas, heridas, quemaduras, fuego",
+   "uk": "Переломи, рани, опіки, пожежа",
    "recap": [
     [
      "Fractures: don’t set them; immobilise both ends; open ones: cover and stop the bleeding.",
-     "Fracturas: no reducirlas; inmovilizar los dos extremos; abiertas: tapar y contener la hemorragia."
+     "Fracturas: no reducirlas; inmovilizar los dos extremos; abiertas: tapar y contener la hemorragia.",
+     "Переломи: не вправляйте; фіксуйте обидва кінці; відкриті — прикрийте й зупиніть кровотечу."
     ],
     [
      "Wounds: sterile dressings, don’t explore, don’t pull out embedded objects; organs out: damp cloths.",
-     "Heridas: apósitos estériles, no explorar, no retirar objetos clavados; vísceras: paños húmedos."
+     "Heridas: apósitos estériles, no explorar, no retirar objetos clavados; vísceras: paños húmedos.",
+     "Рани: стерильні пов’язки, не досліджуйте, не витягайте предметів, що застрягли; органи назовні — волога тканина."
     ],
     [
      "Burns: don’t touch, don’t remove stuck clothing, don’t burst blisters; cold water, damp sterile dressings, separately; raise the part.",
-     "Quemaduras: no tocar, no quitar la ropa pegada, no pinchar ampollas; agua fría, apósitos húmedos, por separado; elevar."
+     "Quemaduras: no tocar, no quitar la ropa pegada, no pinchar ampollas; agua fría, apósitos húmedos, por separado; elevar.",
+     "Опіки: не чіпайте, не знімайте прилиплого одягу, не проколюйте пухирів; холодна вода, вологі стерильні пов’язки, окремо; підніміть ділянку."
     ],
     [
      "Vehicle fire: injured out first, extinguisher at the base, sand or blankets, never water. Person on fire: blanket or roll.",
-     "Fuego en el vehículo: primero sacar a los heridos, extintor en la base, arena o mantas, nunca agua. Persona en llamas: manta o rodar."
+     "Fuego en el vehículo: primero sacar a los heridos, extintor en la base, arena o mantas, nunca agua. Persona en llamas: manta o rodar.",
+     "Пожежа ТЗ: спершу виведіть потерпілих, вогнегасник під основу, пісок чи ковдри, ніколи не вода. Людина горить: ковдра чи покотити по землі."
     ]
    ],
    "trap": [
     "Pulling out an object stuck in a wound.",
-    "Sacar un objeto clavado en una herida."
+    "Sacar un objeto clavado en una herida.",
+    "Витягати предмет, що застряг у рані."
    ]
   },
   "transport": {
    "sec": 6,
    "en": "Moving the injured and first-aid kit",
    "es": "Traslado y botiquín",
+   "uk": "Перевезення потерпілих і аптечка",
    "recap": [
     [
      "Wait for the ambulance. A private car only exceptionally.",
-     "Esperar a la ambulancia. Coche particular solo excepcionalmente."
+     "Esperar a la ambulancia. Coche particular solo excepcionalmente.",
+     "Чекайте швидкої. Приватний автомобіль — лише у виняткових випадках."
     ],
     [
      "Exceptions: no way to call for help, or worsening with help over 30 min late (uncontrolled bleeding, shock, tourniquet).",
-     "Excepciones: no se puede pedir ayuda, o empeora y la ayuda tarda más de 30 min (hemorragia, shock, torniquete)."
+     "Excepciones: no se puede pedir ayuda, o empeora y la ayuda tarda más de 30 min (hemorragia, shock, torniquete).",
+     "Винятки: допомогу неможливо викликати або стан погіршується, а допомога запізнюється понад 30 хв (неконтрольована кровотеча, шок, джгут)."
     ],
     [
      "Keep the head–neck–trunk aligned, suitable position, go with them; horn and hazard lights or a handkerchief; follow the rules.",
-     "Eje cabeza-cuello-tronco alineado, posición adecuada, acompañarlo; claxon y luces de emergencia o pañuelo; respetar las normas."
+     "Eje cabeza-cuello-tronco alineado, posición adecuada, acompañarlo; claxon y luces de emergencia o pañuelo; respetar las normas.",
+     "Тримайте голову–шию–тулуб на одній лінії, у відповідному положенні, їдьте з ним; звуковий сигнал і аварійна сигналізація чи хустка; виконуйте правила."
     ],
     [
      "A first-aid kit is not compulsory, but recommended.",
-     "El botiquín no es obligatorio, pero sí recomendable."
+     "El botiquín no es obligatorio, pero sí recomendable.",
+     "Аптечка не обов’язкова, але рекомендована."
     ]
    ],
    "trap": [
     "Thinking a first-aid kit is compulsory in a car.",
-    "Pensar que el botiquín es obligatorio en un turismo."
+    "Pensar que el botiquín es obligatorio en un turismo.",
+    "Думати, що аптечка в автомобілі обов’язкова."
    ]
   }
  }
