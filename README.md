@@ -19,7 +19,7 @@ Open `dgt-study-desk.code-workspace` in VS Code (File > Open Workspace from File
 1. **Terminal** (recommended): `npm start`, then open http://localhost:5173. Needs Node.js, no packages.
 2. **Run and Debug (F5):** "Open in Chrome" starts the same server and opens the main screen with the debugger attached.
 
-Both save your progress to a file in the project folder (see below). **Live Server** and opening `index.html` directly from disk also work, but then progress is kept in that browser only.
+Progress is saved in the browser either way (see below), so **Live Server**, any static web host and opening `index.html` straight from disk all work the same.
 
 ## Pages
 
@@ -32,8 +32,7 @@ Both save your progress to a file in the project folder (see below). **Live Serv
 |---|---|---|
 | `index.html` | Main screen: categories and topics | Yes |
 | `topics/b-01.html` … `b-13.html`, `a-01.html` … `a-13.html` | One page per written topic, in all of its languages | No, generated |
-| `server.js` | Local server: serves the pages and saves progress (`npm start`) | Yes |
-| `progress/` | Your saved progress, `progress.json`. Not in git | No |
+| `server.js` | Local server: serves the pages (`npm start`) | Yes |
 | `css/styles.css` | All styles and the light/dark colour tokens | Yes |
 | `js/shared.js` | Used by every page: saving progress, export/import, language and theme | Yes |
 | `js/home.js` | The main screen | Yes |
@@ -67,25 +66,21 @@ All 26 topics, in both categories, are also in Ukrainian: study text, figures, q
 
 ## Where progress is stored
 
-Progress is kept per topic. With `npm start` (or F5), every answer is saved to `progress/progress.json` in the project folder, which holds all topics plus your language and theme. Stop the server, come back weeks later, run `npm start` again and your progress is still there, in any browser. The indicator at the top of each page shows a green dot and "Progress saved in the project folder".
+Progress is saved in the browser's `localStorage` after every answer: one key per topic (such as `dgt-progress-b-01`) and `dgt-prefs` for language and theme. Close the tab, come back weeks later, and it is still there. The indicator at the top of each page shows a green dot and "Progress saved in this browser". If the browser blocks storage (some private windows, or site data turned off), the dot turns orange and the indicator says so: the page still works, but its progress is gone once you close it.
 
-The browser also keeps a copy in `localStorage` (one key per topic, such as `dgt-progress-b-01`, and `dgt-prefs` for language and theme). When a page loads, each topic keeps whichever copy changed last. With Live Server or `file://` only the browser copy exists. It belongs to that one browser and that one address, because `localhost:5173`, `127.0.0.1:5173` and `file://` each have their own storage.
+That storage belongs to one browser and one address: `localhost:5173`, `127.0.0.1:5173`, `file://` and a web host each have their own, and clearing the browser's site data deletes it. Export now and then to keep a backup. Tabs of the same address share it, so an answer or an import in one tab shows up in the others straight away.
 
-Progress saved before topics existed is converted automatically. That covers the old `dgt-topic1-v1` browser key and the old one-topic `progress.json`. Both become Topic 1 of category B.
+Progress saved before topics existed (the browser key `dgt-topic1-v1`) becomes Topic 1 of category B automatically. Earlier versions also saved progress to `progress/progress.json` when run with `npm start`. That file is no longer read or written. It has the same format as an export, so if it holds progress you want, load it with **Import progress**, then delete the `progress/` folder.
 
-`progress/` is git-ignored, so your progress never ends up in a commit.
-
-### Moving progress to another computer
+### Moving progress to another device
 
 At the bottom of the main screen, under **Back up or move your progress**:
 
-1. On this computer, click **Export progress**. A file named like `dgt-progress-2026-11-11.json` is downloaded. It holds every topic.
-2. Copy the file to the other computer (USB stick, cloud drive, email to yourself).
-3. There, run the project, open the main screen, click **Import progress** and pick the file.
+1. Click **Export progress**. A file named like `dgt-progress-2026-11-13.json` is downloaded. It holds every topic.
+2. Copy the file to the other device or browser (USB stick, cloud drive, email to yourself).
+3. There, open the main screen, click **Import progress** and pick the file.
 
-Importing merges the file with whatever is already there, topic by topic. Files exported before topics existed still import, into Topic 1 of category B. Nothing is thrown away. For each question the most recently answered record is kept, and the test histories are combined. You can move back and forth between computers this way. Language and theme stay as each computer has them.
-
-`progress/progress.json` has the same format as an exported file, so you can import that file with the button too. Copying it straight into another project's `progress/` folder only works on a computer that has never run the project. Otherwise that browser's own newer copy wins, so use **Import**, which merges.
+The imported progress is saved to that browser's `localStorage` at once, and the main screen shows it without reloading; topic pages open in other tabs update too. Importing merges the file with whatever is already there, topic by topic. Files exported before topics existed still import, into Topic 1 of category B. Nothing is thrown away. For each question the most recently answered record is kept, and the test histories are combined. You can move back and forth between devices this way. Language and theme stay as each device has them.
 
 ### Inside a Claude artifact
 

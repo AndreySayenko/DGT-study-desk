@@ -2,5 +2,5 @@ node_modules/
 __pycache__/
 *.pyc
 .DS_Store
-# your study progress (see README)
+# where earlier versions saved study progress (see README)
 progress/

@@ -1,16 +1,13 @@
 // Shared by the main screen (home.js) and the topic pages (app.js): preferences, saving progress,
 // export/import, and the header controls (language, theme, save indicator). Exposed as window.DGT.
 //
-// Where progress lives:
-//   - always in this browser's localStorage: one key per topic ("dgt-progress-b-01") and one for preferences
-//   - plus one remote copy, when available:
-//       file  - progress/progress.json, when the pages are served by `npm start` (server.js)
-//       cloud - the Claude account, when the page runs as a Claude artifact
-// When a page opens, each topic keeps whichever copy (browser or remote) changed last.
+// Where progress lives: this browser's localStorage, one key per topic ("dgt-progress-b-01") and one for
+// preferences ("dgt-prefs"). Export writes every topic to a JSON file; Import merges such a file into
+// localStorage and every open page redraws from it, so progress moves between devices without a server.
+// Only when the page runs as a Claude artifact is there also a remote copy, in the Claude account; then each
+// topic keeps whichever copy changed last.
 (function () {
   'use strict';
-  var ROOT = new URL('../', document.currentScript.src).href;   // project root, from js/shared.js
-  var API = ROOT + 'api/progress';
   var K_PREFS = 'dgt-prefs', K_LAST = 'dgt-last-topic', K_TOPIC = 'dgt-progress-';
   var K_V1 = 'dgt-topic1-v1', V1_TOPIC = 'b-01';                  // before topics existed, Topic 1 was the only one
   var TOPIC_ID = /^[a-z]-\d{2}$/;
@@ -19,9 +16,9 @@
   var NAMES = { en: 'English', es: 'Español', uk: 'Українська' };
 
   var TXT = {
-    en: { light: 'Light', dark: 'Dark', saveCloud: 'Progress saved to your account', saveFile: 'Progress saved in the project folder', saveLocal: 'Progress saved in this browser only' },
-    es: { light: 'Claro', dark: 'Oscuro', saveCloud: 'Progreso guardado en tu cuenta', saveFile: 'Progreso guardado en la carpeta del proyecto', saveLocal: 'Progreso guardado solo en este navegador' },
-    uk: { light: 'Світла', dark: 'Темна', saveCloud: 'Прогрес збережено у вашому обліковому записі', saveFile: 'Прогрес збережено в папці проєкту', saveLocal: 'Прогрес збережено лише в цьому браузері' }
+    en: { light: 'Light', dark: 'Dark', saveCloud: 'Progress saved to your account', saveLocal: 'Progress saved in this browser', saveOff: 'Progress is not saved: this browser blocks storage' },
+    es: { light: 'Claro', dark: 'Oscuro', saveCloud: 'Progreso guardado en tu cuenta', saveLocal: 'Progreso guardado en este navegador', saveOff: 'El progreso no se guarda: este navegador bloquea el almacenamiento' },
+    uk: { light: 'Світла', dark: 'Темна', saveCloud: 'Прогрес збережено у вашому обліковому записі', saveLocal: 'Прогрес збережено в цьому браузері', saveOff: 'Прогрес не зберігається: цей браузер блокує сховище' }
   };
   // Shown, in the language the reader chose, on a page that is not translated into it.
   var NOT_HERE = { uk: 'Цю сторінку ще не перекладено українською, тому вона англійською.' };
@@ -68,9 +65,12 @@
   }
 
   // ------------------------------------------------------------------ browser storage
-  var mem = {};   // in-memory copy, so saving still works when localStorage is blocked
+  var mem = {};   // in-memory copy, so the open page keeps working when localStorage is blocked or full
   function lsGet(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } }
-  function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* storage may be unavailable */ } }
+  function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); return true; } catch (e) { return false; } }
+  // False when this browser refuses to store anything (some private windows, blocked site data) or a write failed.
+  var canStore = lsSet('dgt-probe', 1);
+  try { localStorage.removeItem('dgt-probe'); } catch (e) { /* unavailable */ }
   function localIds() {
     var ids = {};
     try { for (var i = 0; i < localStorage.length; i++) { var k = localStorage.key(i); if (k && k.indexOf(K_TOPIC) === 0) ids[k.slice(K_TOPIC.length)] = 1; } } catch (e) { /* unavailable */ }
@@ -78,7 +78,10 @@
     return Object.keys(ids).filter(function (id) { return TOPIC_ID.test(id); });
   }
   function loadTopic(id) { return mem[id] ? clone(mem[id]) : saneTopic(lsGet(K_TOPIC + id)); }
-  function storeTopic(id, st) { mem[id] = clone(st); lsSet(K_TOPIC + id, st); }
+  function storeTopic(id, st) {
+    mem[id] = clone(st);
+    if (!lsSet(K_TOPIC + id, st) && canStore) { canStore = false; paintSync(); }
+  }
 
   // One-time move of the old single-topic key. The old key is left in place as a fallback copy.
   (function migrate() {
@@ -95,9 +98,8 @@
   function on(fn) { listeners.push(fn); }
   function emit(ev) { listeners.forEach(function (fn) { try { fn(ev); } catch (e) { console.error(e); } }); }
 
-  // ------------------------------------------------------------------ remote copy
-  // A remote has kind, sync(ids) -> Promise, put(key, data) -> Promise. key is a topic id or '@prefs'.
-  // put() rejects with {fatal: true} when retrying cannot help.
+  // ------------------------------------------------------------------ remote copy (Claude artifact only)
+  // A remote has kind and put(topicId, state) -> Promise, which rejects with {fatal: true} when retrying cannot help.
   var remote = null, mode = 'local', probing = true;
   var pending = {}, writing = false, timer = null, retryMs = 5000;
 
@@ -105,7 +107,6 @@
     if (m === mode) return;
     mode = m; paintSync(); emit({ type: 'mode' });
   }
-  function payload(key) { return key === '@prefs' ? P : loadTopic(key); }
   function queue(key) {
     if (!remote) return;
     pending[key] = true;
@@ -118,14 +119,14 @@
     pending = {}; writing = true;
     var r = remote, failed = [], fatal = false;
     Promise.all(keys.map(function (k) {
-      var data = payload(k);
+      var data = loadTopic(k);
       if (!data) return null;
       return r.put(k, clone(data)).catch(function (e) { failed.push(k); if (e && e.fatal) fatal = true; });
     })).then(function () {
       writing = false;
       if (fatal) { remote = null; setMode('local'); return; }
       if (failed.length) {
-        // Temporary problem (server stopped, network down): try again later, backing off up to a minute.
+        // Temporary problem (network down): try again later, backing off up to a minute.
         failed.forEach(function (k) { pending[k] = true; });
         setMode('local');
         timer = setTimeout(flush, retryMs); retryMs = Math.min(retryMs * 2, 60000);
@@ -136,11 +137,9 @@
     });
   }
   // Bring browser and remote in line: per topic the newer copy wins; newer local copies are pushed.
-  function reconcile(r, remoteTopics, remotePrefs, ids) {
-    var changed = [], prefsChanged = false;
-    if (remotePrefs && remotePrefs.updated > P.updated) { P = remotePrefs; lsSet(K_PREFS, P); prefsChanged = true; }
+  function reconcile(r, remoteTopics, ids) {
+    var changed = [];
     remote = r;
-    if (r.kind === 'file' && P.updated > (remotePrefs ? remotePrefs.updated : 0)) queue('@prefs');
     ids.forEach(function (id) {
       var loc = loadTopic(id), rem = remoteTopics[id];
       if (rem && (!loc || rem.updated > loc.updated)) { storeTopic(id, rem); changed.push(id); }
@@ -148,34 +147,12 @@
     });
     flush();
     setMode(r.kind);
-    if (prefsChanged) applyPrefs();
-    if (changed.length || prefsChanged) emit({ type: 'remote', topics: changed, prefs: prefsChanged });
+    if (changed.length) emit({ type: 'remote', topics: changed, prefs: false });
   }
   function withTimeout(p) {
     return Promise.race([p, new Promise(function (_, rej) { setTimeout(function () { rej(new Error('timeout')); }, 10000); })]);
   }
 
-  function fileRemote() {
-    function put(key, data, keepalive) {
-      var url = API + (key === '@prefs' ? '/prefs' : '/topics/' + key);
-      var body = key === '@prefs' ? { prefs: data } : { state: data };
-      return fetch(url, { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body), keepalive: !!keepalive })
-        .then(function (res) { if (!res.ok) throw { fatal: res.status < 500 }; }, function () { throw { fatal: false }; });
-    }
-    return { kind: 'file', put: put };
-  }
-  function connectFile() {
-    // Only server.js answers this. Live Server answers 404 and file:// has no server: both stay on browser storage.
-    return withTimeout(fetch(API, { cache: 'no-store' }).then(function (res) {
-      if (!res.ok) throw new Error('no progress API');
-      return res.json();
-    })).then(function (doc) {
-      var topics = topicsOf(doc);
-      if (!topics) throw new Error('not a progress document');
-      var ids = localIds(); Object.keys(topics).forEach(function (id) { if (ids.indexOf(id) < 0) ids.push(id); });
-      reconcile(fileRemote(), topics, doc.prefs ? sanePrefs(doc.prefs) : null, ids);
-    });
-  }
   function connectCloud(ids) {
     return Promise.all([window.claude.use('db'), window.claude.use('user')]).then(function (r) {
       var db = r[0], user = r[1];
@@ -191,25 +168,18 @@
           reconcile({
             kind: 'cloud',
             put: function (key, data) {
-              if (key === '@prefs') return Promise.resolve();   // preferences stay per device in the artifact
               return ref(key).set({ state: data }).catch(function (e) {
                 throw { fatal: !(e && (e.code === 'unavailable' || e.code === 'resource_exhausted')) };
               });
             }
-          }, topics, null, ids);
+          }, topics, ids);
         });
       });
     });
   }
 
-  // Closing the tab inside the 700 ms save delay would lose the last change from the file, so send it now.
-  window.addEventListener('pagehide', function () {
-    if (!remote || remote.kind !== 'file') return;
-    var keys = Object.keys(pending); if (!keys.length) return;
-    clearTimeout(timer); timer = null; pending = {};
-    keys.forEach(function (k) { var d = payload(k); if (d) remote.put(k, clone(d), true).catch(function () {}); });
-  });
-  // Another tab of this site changed something: pick it up so this tab never saves an older copy over it.
+  // Another tab of this site changed something (an answer, or an import on the main screen): pick it up, so
+  // this page shows it at once and never saves an older copy over it.
   window.addEventListener('storage', function (e) {
     if (!e.key) return;
     if (e.key.indexOf(K_TOPIC) === 0) {
@@ -250,7 +220,7 @@
     return { app: 'dgt-study-desk', kind: 'progress', v: 2, saved: new Date().toISOString(), prefs: P, topics: topics };
   }
   // Per question, keep whichever record was answered most recently, so moving back and forth between
-  // computers never loses anything. Tests in the history are combined. The unfinished test, study task and
+  // devices never loses anything. Tests in the history are combined. The unfinished test, study task and
   // Claude's questions come from whichever side changed last.
   function merge(base, inc) {
     var out = clone(base);
@@ -266,8 +236,9 @@
     if (inc.updated > base.updated) { out.cur = inc.cur; out.task = inc.task; out.ai = inc.ai; }
     return out;
   }
-  // Merges a parsed export (or an old one-topic export) into this browser. Language and theme stay as they are.
-  // Returns {topics, questions, tests, date} or null when the document is not progress.
+  // Merges a parsed export (or an old one-topic export, or an old progress/progress.json) into localStorage and
+  // tells every page: this one through the 'import' event, other open tabs through the storage event.
+  // Language and theme stay as they are. Returns {topics, questions, tests, date} or null when it is not progress.
   function importDoc(doc) {
     var inc = topicsOf(doc);
     if (!inc || !Object.keys(inc).length) return null;
@@ -301,13 +272,13 @@
   }
   function setPrefs(patch) {
     Object.keys(patch).forEach(function (k) { P[k] = patch[k]; });
-    P.updated = Date.now(); lsSet(K_PREFS, P); queue('@prefs');
+    P.updated = Date.now(); lsSet(K_PREFS, P);
     applyPrefs();
   }
   function paintSync() {
     var el = document.getElementById('sync'); if (!el) return;
-    el.className = 'sync' + (mode === 'local' ? '' : ' on');
-    el.lastChild.textContent = t({ cloud: 'saveCloud', file: 'saveFile' }[mode] || 'saveLocal');
+    el.className = 'sync' + (mode !== 'local' || canStore ? ' on' : '');
+    el.lastChild.textContent = t(mode === 'cloud' ? 'saveCloud' : canStore ? 'saveLocal' : 'saveOff');
   }
   function paintNote(lg) {
     var w = wanted(), msg = w !== lg ? NOT_HERE[w] : null, el = document.getElementById('langnote');
@@ -354,13 +325,10 @@
   });
 
   // ------------------------------------------------------------------ start
-  // ids: the topics this page needs from a Claude account (the project file always brings all of them).
+  // ids: the topics this page needs from a Claude account.
   function start(ids) {
     applyPrefs();
-    var p;
-    if (window.claude && typeof window.claude.use === 'function') p = connectCloud(ids || []);
-    else if (/^https?:$/.test(location.protocol)) p = connectFile();
-    else p = Promise.resolve();
+    var p = window.claude && typeof window.claude.use === 'function' ? connectCloud(ids || []) : Promise.resolve();
     return p.catch(function () { /* stay on browser storage */ }).then(function () {
       probing = false; emit({ type: 'ready' });
     });
@@ -369,7 +337,7 @@
   var api = {
     start: start, on: on,
     lang: lang, locale: locale, theme: theme, setPrefs: setPrefs,
-    mode: function () { return mode; }, probing: function () { return probing; },
+    mode: function () { return mode; }, probing: function () { return probing; }, canStore: function () { return canStore; },
     loadTopic: loadTopic, saveTopic: saveTopic, freshTopic: freshTopic, topicSummary: topicSummary, flush: flush,
     exportDoc: exportDoc, importDoc: importDoc,
     last: function () { try { return localStorage.getItem(K_LAST); } catch (e) { return null; } },

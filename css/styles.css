@@ -65,6 +65,8 @@ a.btn.primary { color: var(--accent-ink); }
 .sync.on i { background: var(--good); }
 .langnote { margin: 0; padding: 7px 16px; background: var(--warn-tint); border-bottom: 1px solid var(--line); font-size: 14.5px; text-align: center; }
 .langnote[hidden] { display: none; }
+/* the hidden file input behind Import progress (kept in the page for Safari) */
+.picker { position: fixed; left: 0; top: 0; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
 .xmsg { font-size: 14.5px; padding: 6px 10px; border-radius: 0 6px 6px 0; border-left: 3px solid var(--good); background: var(--good-tint); }
 .xmsg.no { border-left-color: var(--bad); background: var(--bad-tint); }
 

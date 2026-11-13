@@ -11,7 +11,7 @@
   var TXT = {
     en: {
       tests: 'Tests',
-      xferHome: 'To back up your progress or move it to another computer, use Export and Import on the <a href="../index.html">main screen</a>.',
+      xferHome: 'To back up your progress or move it to another device, use Export and Import on the <a href="../index.html">main screen</a>.',
       answered: 'answers given', accuracy: 'accuracy', open: 'open mistakes', seen: 'questions seen',
       exam: 'Exam simulation (30 questions)', all: 'All questions by section', resume: 'Resume unfinished test', mistakes: 'Practise my mistakes',
       examNote: 'The exam simulation follows the DGT format: 30 questions, pass with 3 mistakes or fewer.',
@@ -34,7 +34,7 @@
     },
     es: {
       tests: 'Tests',
-      xferHome: 'Para hacer una copia de seguridad o llevar tu progreso a otro ordenador, usa Exportar e Importar en la <a href="../index.html">pantalla principal</a>.',
+      xferHome: 'Para hacer una copia de seguridad o llevar tu progreso a otro dispositivo, usa Exportar e Importar en la <a href="../index.html">pantalla principal</a>.',
       answered: 'respuestas dadas', accuracy: 'aciertos', open: 'errores pendientes', seen: 'preguntas vistas',
       exam: 'Simulacro de examen (30 preguntas)', all: 'Todas las preguntas por apartado', resume: 'Continuar el test sin terminar', mistakes: 'Practicar mis errores',
       examNote: 'El simulacro sigue el formato de la DGT: 30 preguntas y se aprueba con 3 fallos o menos.',
@@ -57,7 +57,7 @@
     },
     uk: {
       tests: 'Тести',
-      xferHome: 'Щоб зробити резервну копію прогресу або перенести його на інший комп’ютер, скористайтеся кнопками «Експортувати» та «Імпортувати» на <a href="../index.html">головному екрані</a>.',
+      xferHome: 'Щоб зробити резервну копію прогресу або перенести його на інший пристрій, скористайтеся кнопками «Експортувати» та «Імпортувати» на <a href="../index.html">головному екрані</a>.',
       answered: 'відповідей дано', accuracy: 'правильних', open: 'невиправлених помилок', seen: 'питань переглянуто',
       exam: 'Пробний іспит (30 питань)', all: 'Усі питання за розділами', resume: 'Продовжити незавершений тест', mistakes: 'Повторити мої помилки',
       examNote: 'Пробний іспит повторює формат DGT: 30 питань, іспит складено, якщо помилок не більше трьох.',
@@ -95,7 +95,7 @@
   var sampleFn = null;
 
   function save() { DGT.saveTopic(TOPIC, S); }
-  // A newer copy of this topic arrived: from the project file, the Claude account, or another tab.
+  // A newer copy of this topic arrived: an import or an answer in another tab, or the Claude account.
   function reload() {
     var st = DGT.loadTopic(TOPIC);
     if (!st || st.updated <= S.updated) return;

@@ -1,5 +1,5 @@
 // Main screen: choose a licence category, then one of its topics. Shows progress per topic and holds
-// Export / Import for the progress of all topics. Categories and topics come from js/catalog.js.
+// Export / Import for the progress of all topics (a JSON file, to back it up or move it to another device). Categories and topics come from js/catalog.js.
 //   index.html      categories
 //   index.html#b    topics of category B (#a for A1 / A2)
 (function () {
@@ -15,8 +15,8 @@
       topic: 'Topic', soon: 'Coming soon', notStarted: 'Not started', inProgress: 'In progress', unfinished: 'Unfinished test',
       qs: '{q} questions', seen: '{s} of {q} seen', acc: '{p} % correct', openErr: '{o} open mistakes',
       xfer: 'Back up or move your progress', export: 'Export progress', import: 'Import progress',
-      xferNote: 'Export saves the progress of every topic to one file. On another computer, open this main screen and import that file. It is merged with any progress already there, keeping the most recent result for each question.',
-      xferLocal: 'Right now progress is kept in this browser only. Start the project with npm start to also keep it in the project folder.',
+      xferNote: 'Export saves the progress of every topic to one file. On another device or browser, open this main screen and import that file. It is merged with any progress already there, keeping the most recent result for each question.',
+      xferLocal: 'Progress is kept in this browser only: clearing its site data, or switching to another browser, starts you from zero. Export now and then to keep a backup.',
       exported: 'Progress exported to {f}. Look in your Downloads folder.',
       imported: 'Imported progress from {d} (topics: {k}, questions: {n}, finished tests: {m}) and merged it with the progress here.',
       importBad: 'That file is not a DGT Study Desk progress file, so nothing was changed.'
@@ -29,8 +29,8 @@
       topic: 'Tema', soon: 'Próximamente', notStarted: 'Sin empezar', inProgress: 'En curso', unfinished: 'Test sin terminar',
       qs: '{q} preguntas', seen: '{s} de {q} vistas', acc: '{p} % de aciertos', openErr: '{o} errores pendientes',
       xfer: 'Copia de seguridad y traslado del progreso', export: 'Exportar progreso', import: 'Importar progreso',
-      xferNote: 'Exportar guarda el progreso de todos los temas en un archivo. En otro ordenador, abre esta pantalla principal e importa ese archivo. Se combina con el progreso que ya haya allí y se conserva el resultado más reciente de cada pregunta.',
-      xferLocal: 'Ahora el progreso se guarda solo en este navegador. Abre el proyecto con npm start para guardarlo también en la carpeta del proyecto.',
+      xferNote: 'Exportar guarda el progreso de todos los temas en un archivo. En otro dispositivo o navegador, abre esta pantalla principal e importa ese archivo. Se combina con el progreso que ya haya allí y se conserva el resultado más reciente de cada pregunta.',
+      xferLocal: 'El progreso se guarda solo en este navegador: si borras sus datos de sitios o cambias de navegador, empiezas de cero. Exporta de vez en cuando para tener una copia.',
       exported: 'Progreso exportado a {f}. Búscalo en tu carpeta de Descargas.',
       imported: 'Progreso del {d} importado (temas: {k}, preguntas: {n}, tests terminados: {m}) y combinado con el progreso de aquí.',
       importBad: 'Ese archivo no es un archivo de progreso de DGT Study Desk, así que no se ha cambiado nada.'
@@ -43,8 +43,8 @@
       topic: 'Тема', soon: 'Незабаром', notStarted: 'Не розпочато', inProgress: 'Триває', unfinished: 'Незавершений тест',
       qs: 'Питань: {q}', seen: 'переглянуто {s} з {q}', acc: 'правильних {p} %', openErr: 'невиправлених помилок: {o}',
       xfer: 'Резервна копія та перенесення прогресу', export: 'Експортувати прогрес', import: 'Імпортувати прогрес',
-      xferNote: 'Експорт зберігає прогрес усіх тем в один файл. На іншому комп’ютері відкрийте цей головний екран та імпортуйте файл. Його буде об’єднано з наявним там прогресом: для кожного питання залишиться найсвіжіший результат.',
-      xferLocal: 'Зараз прогрес зберігається лише в цьому браузері. Запустіть проєкт командою npm start, щоб він зберігався ще й у папці проєкту.',
+      xferNote: 'Експорт зберігає прогрес усіх тем в один файл. На іншому пристрої чи в іншому браузері відкрийте цей головний екран та імпортуйте файл. Його буде об’єднано з наявним там прогресом: для кожного питання залишиться найсвіжіший результат.',
+      xferLocal: 'Прогрес зберігається лише в цьому браузері: якщо очистити дані сайту чи перейти в інший браузер, усе почнеться з нуля. Час від часу робіть експорт, щоб мати резервну копію.',
       exported: 'Прогрес експортовано у файл {f}. Шукайте його в папці «Завантаження».',
       imported: 'Імпортовано прогрес від {d} (тем: {k}, питань: {n}, завершених тестів: {m}) і об’єднано з тутешнім.',
       importBad: 'Цей файл не є файлом прогресу DGT Study Desk, тому нічого не змінено.',
@@ -150,25 +150,36 @@
     setTimeout(function () { URL.revokeObjectURL(url); }, 2000);
     xferMsg = { k: 'exported', p: { f: name }, ok: true }; render();
   }
+  // Reads the chosen file and merges it into localStorage (DGT.importDoc). The screen is drawn again from the
+  // merged progress straight away; topic pages open in other tabs update themselves through the storage event.
+  function importText(text) {
+    var doc = null;
+    try { doc = JSON.parse(String(text)); } catch (e) { /* not JSON */ }
+    var sum = DGT.importDoc(doc);
+    if (!sum) { xferMsg = { k: 'importBad', ok: false }; return render(); }
+    var d = sum.date ? new Date(sum.date).toLocaleDateString(DGT.locale(), { day: 'numeric', month: 'short', year: 'numeric' }) : '–';
+    xferMsg = { k: 'imported', p: { d: d, k: sum.topics, n: sum.questions, m: sum.tests }, ok: true };
+    render();
+  }
+  // One hidden file input that stays in the page: Safari (and iOS) may never report the chosen file to an
+  // input that is not in the document. Clearing it after each pick lets the same file be chosen again.
+  var picker = null;
   function importFile() {
-    var inp = document.createElement('input');
-    inp.type = 'file'; inp.accept = '.json,application/json';
-    inp.addEventListener('change', function () {
-      var f = inp.files && inp.files[0]; if (!f) return;
-      var rd = new FileReader();
-      rd.onload = function () {
-        var doc = null;
-        try { doc = JSON.parse(String(rd.result)); } catch (e) { /* not JSON */ }
-        var sum = DGT.importDoc(doc);
-        if (!sum) { xferMsg = { k: 'importBad', ok: false }; return render(); }
-        var d = sum.date ? new Date(sum.date).toLocaleDateString(DGT.locale(), { day: 'numeric', month: 'short', year: 'numeric' }) : '–';
-        xferMsg = { k: 'imported', p: { d: d, k: sum.topics, n: sum.questions, m: sum.tests }, ok: true };
-        render();
-      };
-      rd.onerror = function () { xferMsg = { k: 'importBad', ok: false }; render(); };
-      rd.readAsText(f);
-    });
-    inp.click();
+    if (!picker) {
+      picker = document.createElement('input');
+      picker.type = 'file'; picker.accept = '.json,application/json';
+      picker.className = 'picker'; picker.tabIndex = -1; picker.setAttribute('aria-hidden', 'true');
+      picker.addEventListener('change', function () {
+        var f = picker.files && picker.files[0]; if (!f) return;
+        var rd = new FileReader();
+        rd.onload = function () { importText(rd.result); };
+        rd.onerror = function () { xferMsg = { k: 'importBad', ok: false }; render(); };
+        rd.readAsText(f);
+        picker.value = '';
+      });
+      document.body.appendChild(picker);
+    }
+    picker.click();
   }
 
   // ------------------------------------------------------------------ events + boot
