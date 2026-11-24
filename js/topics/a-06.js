@@ -1201,9 +1201,9 @@ window.DGT_DATA = {
    },
    "o": [
     {
-     "en": "at the rear left, visible",
-     "es": "en la parte posterior izquierda, visible",
-     "uk": "ззаду ліворуч, на видноті"
+     "en": "somewhere visible at the rear",
+     "es": "en un sitio visible de la parte posterior",
+     "uk": "будь-де на видноті ззаду"
     },
     {
      "en": "at the front",
@@ -1217,9 +1217,9 @@ window.DGT_DATA = {
     }
    ],
    "why": {
-    "en": "Licence held under a year; 13 × 10 cm on motorcycles.",
-    "es": "Permiso de menos de un año; 13 × 10 cm en motos.",
-    "uk": "Посвідчення менше року; 13 × 10 см на мотоциклах."
+    "en": "On a car it goes at the rear left; on a motorcycle it is enough to place it somewhere visible at the rear, in a smaller size (10 × 13 cm).",
+    "es": "En un turismo va detrás a la izquierda; en moto basta colocarla en un sitio visible de la parte posterior, en tamaño reducido (10 × 13 cm).",
+    "uk": "На автомобілі — ззаду ліворуч; на мотоциклі досить розмістити його будь-де на видноті ззаду, у зменшеному розмірі (10 × 13 см)."
    }
   },
   {
@@ -2052,9 +2052,9 @@ window.DGT_DATA = {
      "V-1 синій: транспорт із пріоритетом на терміновому виклику. V-2 жовтий: перешкода чи робоча машина ≤ 40 км/год."
     ],
     [
-     "V-6 over 12 m. V-13 novice (< 1 year), rear left. V-19 ITV. V-20 rear overhang.",
-     "V-6 más de 12 m. V-13 novel (< 1 año), detrás a la izquierda. V-19 ITV. V-20 carga que sobresale.",
-     "V-6 понад 12 м. V-13 початківець (< 1 року), ззаду ліворуч. V-19 техогляд. V-20 виступ ззаду."
+     "V-6 over 12 m. V-13 novice (< 1 year): on a motorcycle, anywhere visible at the rear. V-19 ITV. V-20 rear overhang.",
+     "V-6 más de 12 m. V-13 novel (< 1 año): en moto, en un sitio visible de la parte posterior. V-19 ITV. V-20 carga que sobresale.",
+     "V-6 понад 12 м. V-13 початківець (< 1 року): на мотоциклі — будь-де на видноті ззаду. V-19 техогляд. V-20 виступ ззаду."
     ],
     [
      "V-16: vehicle or load on the carriageway; triangles invalid since 2026; not compulsory on motorcycles.",

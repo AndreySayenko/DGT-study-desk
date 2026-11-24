@@ -308,10 +308,10 @@ Q("pt1", "points", "How many points does a rider with an A2 of three years have,
   "After two years the balance is 12; the bonuses come after three more clean years.", "Tras dos años el saldo es de 12; las bonificaciones llegan tras tres años más sin sanción.")
 Q("pt2", "points", "You get your first licence, an A1, at 16. How many points do you start with?", "Obtienes tu primer permiso, el A1, a los 16 años. ¿Con cuántos puntos empiezas?",
   [("8", "8"), ("12", "12"), ("6", "6")],
-  "A licence of two years or less starts with 8, unless you already held another for more than two years.", "Un permiso de dos años o menos empieza con 8, salvo que ya fueras titular de otro con más de dos años.")
+  "A licence up to three years old starts with 8, unless you already held another licence for three years.", "Un permiso con antigüedad de hasta tres años empieza con 8, salvo que ya fueras titular de otro con tres años de antigüedad.")
 Q("pt3", "points", "You have had the B for five years and now get the A2. How many points do you have?", "Tienes el B desde hace cinco años y ahora sacas el A2. ¿Cuántos puntos tienes?",
   [("Your balance stays the same: the credit is one for all your licences", "Tu saldo no cambia: el crédito es único para todos tus permisos"), ("8, because the A2 is new", "8, porque el A2 es nuevo"), ("12 for the A2 and 12 for the B", "12 para el A2 y 12 para el B")],
-  "There is one single points credit for all of a driver’s licences, and the 8-point rule does not apply after more than two years with another licence.", "El crédito de puntos es único para todas las autorizaciones, y la regla de los 8 puntos no se aplica con otro permiso de más de dos años.")
+  "There is one single points credit for all of a driver’s licences, and the 8-point rule does not apply once you have held another licence for three years.", "El crédito de puntos es único para todas las autorizaciones, y la regla de los 8 puntos no se aplica si ya tenías otro permiso con tres años de antigüedad.")
 Q("pt4", "points", "What is the highest points balance you can reach?", "¿Cuál es el saldo máximo de puntos que se puede alcanzar?",
   [("15", "15"), ("12", "12"), ("20", "20")],
   "With all your points and no firm sanctions: +2 after 3 years and +1 after 3 more, up to 15.", "Con todos los puntos y sin sanciones firmes: +2 a los 3 años y +1 a los 3 siguientes, hasta 15.")

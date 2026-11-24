@@ -19,8 +19,8 @@ def blocks():
          "or to <b>warn</b> (indicators, hazard, brake, reversing). The exam asks which light, its <b>colour</b>, <b>how many</b>, and <b>when</b> it is used.",
          "Cada luz tiene una <b>función</b>: <b>indicar la presencia</b> (posición, estacionamiento, catadióptricos, gálibo), <b>alumbrar la vía</b> (cruce, carretera, antiniebla) "
          "o <b>avisar</b> (intermitentes, emergencia, freno, marcha atrás). El examen pregunta qué luz, su <b>color</b>, <b>cuántas</b> y <b>cuándo</b> se usa."),
-        ("Key numbers: <b>10 m / 50 m</b> (insufficient lighting), <b>40 km/h</b> (main beam), <b>6 m and 2 m</b> (parking light), <b>2.10 m</b> (clearance lights), <b>6.50 m</b> (front fog on narrow roads), <b>150 m</b> (cyclist’s reflective garment).",
-         "Números clave: <b>10 m / 50 m</b> (iluminación insuficiente), <b>40 km/h</b> (luz larga), <b>6 m y 2 m</b> (luz de estacionamiento), <b>2,10 m</b> (gálibo), <b>6,50 m</b> (antiniebla en vías estrechas), <b>150 m</b> (prenda reflectante del ciclista)."),
+        ("Key numbers: <b>10 m / 50 m</b> (insufficient lighting), <b>40 km/h</b> (main beam), <b>6 m and 2 m</b> (parking light), <b>2.10 m</b> (clearance lights), <b>6.50 m</b> (front fog on narrow roads), <b>150 m</b> (cyclist’s luminous or reflective element).",
+         "Números clave: <b>10 m / 50 m</b> (iluminación insuficiente), <b>40 km/h</b> (luz larga), <b>6 m y 2 m</b> (luz de estacionamiento), <b>2,10 m</b> (gálibo), <b>6,50 m</b> (antiniebla en vías estrechas), <b>150 m</b> (elemento luminoso o reflectante del ciclista)."),
         ("The sections follow the order of your course’s Topic 7. Spanish exam terms are in <i>italics</i> in the English text, and a glossary closes the topic.",
          "Los apartados siguen el orden del Tema 7 de tu curso. Al final hay un glosario español–inglés."),
     ]))
@@ -198,9 +198,9 @@ def blocks():
     B.append(H3("3.4 Lanes where lights are always on", "3.4 Situaciones especiales"))
     B.append(P(
         "At least the <b>dipped beam</b>, <b>by day and by night</b>, on a <b>reversible lane</b>, on roads with a <b>temporary additional lane</b>, and on a <b>contraflow lane</b> and the <b>normal-direction lane next to it</b>. "
-        "Whenever lights are compulsory, <b>cyclists on interurban roads</b> also wear a <b>reflective garment</b> visible from <b>150 m</b>.",
+        "Between sunset and sunrise, or when visibility is poor, <b>cyclists on interurban roads</b> also use at least one <b>luminous or reflective element</b> visible from <b>150 m</b>.",
         "Al menos la <b>luz de cruce</b>, <b>de día y de noche</b>, por un <b>carril reversible</b>, por vías con <b>carril adicional circunstancial</b>, y por un <b>carril habilitado en sentido contrario</b> y el <b>carril del sentido normal contiguo</b>. "
-        "Siempre que sea obligatorio el alumbrado, los <b>ciclistas en vías interurbanas</b> llevan además una <b>prenda reflectante</b> visible a <b>150 m</b>."))
+        "Entre el ocaso y la salida del sol, o con poca visibilidad, los <b>ciclistas en vías interurbanas</b> usan además al menos un <b>elemento luminoso o reflectante</b> visible a <b>150 m</b>."))
     B.append(H3("3.5 Dazzle", "3.5 Deslumbramientos"))
     B.append(P("When the eyes get more light than they can take, a <b>temporary blindness</b> follows: dazzle (<i>deslumbramiento</i>).",
                "Cuando los ojos reciben más luz de la que pueden soportar se produce una <b>ceguera temporal</b>: el deslumbramiento."))
@@ -315,7 +315,7 @@ def blocks():
             [T("Main beams on cars", "Luces de carretera en automóviles"), T("an even number", "un número par")],
             [T("Narrow road for front fog lights", "Vía estrecha para la antiniebla delantera"), T("carriageway ≤ 6.50 m + “dangerous bends” sign", "calzada ≤ 6,50 m + señal «curvas peligrosas»")],
             [T("Rear fog lights", "Antiniebla trasera"), T("1 or 2, red", "1 o 2, rojas")],
-            [T("Cyclist’s reflective garment (interurban, lights compulsory)", "Prenda reflectante del ciclista (interurbana, alumbrado obligatorio)"), T("visible from 150 m", "visible a 150 m")],
+            [T("Cyclist’s luminous or reflective element (interurban, lights compulsory)", "Elemento luminoso o reflectante del ciclista (interurbana, alumbrado obligatorio)"), T("visible from 150 m", "visible a 150 m")],
         ],
         widths=["50%", "50%"],
         cls="small",
@@ -371,6 +371,6 @@ GLOSSARY = [
     ("luz de marcha atrás", "reversing light"),
     ("alumbrado interior del habitáculo", "interior light"),
     ("luz de la placa de matrícula", "number-plate light"),
-    ("prenda reflectante", "reflective garment"),
+    ("elemento luminoso o reflectante", "luminous or reflective element"),
     ("carril reversible · adicional circunstancial", "reversible lane · temporary additional lane"),
 ]

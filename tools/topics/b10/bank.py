@@ -140,7 +140,7 @@ TAGS = {
         recap=[("Not wearing a helmet is the main cause of death in motorcycle accidents; compulsory for rider and passenger.", "No usar casco es la principal causa de muerte en accidentes de moto; obligatorio para conductor y pasajero."),
                ("Full-face recommended; modular lifts; jet leaves the chin open. Approved to UNECE R22.", "Integral recomendable; modular se levanta; jet no cubre la barbilla. Homologado UNECE R22."),
                ("Light, bright colours; anti-fog visor; replace after an accident or a hard knock.", "Colores claros y brillantes; pantalla antivaho; sustituir tras un accidente o golpe fuerte."),
-               ("Gloves compulsory out of town; closed shoes everywhere; vest recommended, carried on the bike.", "Guantes obligatorios en interurbanas; calzado cerrado en todas; chaleco recomendable y en la dotación de la moto.")],
+               ("Gloves compulsory out of town; closed shoes everywhere; the bike must carry a vest, worn when you get off on an interurban road.", "Guantes obligatorios en interurbanas; calzado cerrado en todas; la moto debe llevar chaleco, que te pones al bajarte en una vía interurbana.")],
         trap=("Keeping a helmet that has had a hard knock because it ‘looks fine’.", "Seguir usando un casco que ha sufrido un golpe porque «parece bien».")),
     "adas": dict(sec=4, en="Driver-assistance systems", es="Sistemas ADAS",
         recap=[("ADAS help with cameras and sensors, warn or act; most can be switched off; the driver keeps an active role.", "Los ADAS ayudan con cámaras y sensores, avisan o actúan; la mayoría se pueden desconectar; el conductor mantiene un papel activo."),

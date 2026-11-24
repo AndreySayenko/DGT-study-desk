@@ -57,7 +57,7 @@ TAGS = {
         recap=[("Motorcycle: two wheels, no sidecar, > 50 cm³ and/or > 45 km/h.", "Motocicleta: dos ruedas, sin sidecar, > 50 cm³ y/o > 45 km/h."),
                ("With sidecar: three wheels asymmetric about the long axis — still a motorcycle.", "Con sidecar: tres ruedas asimétricas respecto al eje — sigue siendo motocicleta."),
                ("Three-wheeled vehicle: three symmetric wheels, > 50 cm³ and/or > 45 km/h.", "Vehículo de tres ruedas: tres ruedas simétricas, > 50 cm³ y/o > 45 km/h."),
-               ("Motor quadricycle: 15 kW; course 400 kg (550 goods); EU L7e 450 kg (600 goods).", "Cuatriciclo de motor: 15 kW; curso 400 kg (550 mercancías); UE L7e 450 kg (600 mercancías).")],
+               ("Motor quadricycle: 15 kW; course 400 kg empty (550 goods); EU L7e 450 kg in running order (600 goods).", "Cuatriciclo de motor: 15 kW; curso 400 kg en vacío (550 mercancías); UE L7e 450 kg en orden de marcha (600 mercancías).")],
         trap=("Calling a motorcycle with sidecar a ‘three-wheeled vehicle’.", "Llamar «vehículo de tres ruedas» a una moto con sidecar.")),
     "masses": dict(sec=3, en="Masses", es="Masas",
         recap=[("Tare: vehicle with fixed equipment, fluids, tools and accessories — no people, no load.", "Tara: vehículo con equipo fijo, líquidos, herramientas y accesorios, sin personas ni carga."),
@@ -232,7 +232,7 @@ Q("mo4", "motos", "A motor quadricycle has a maximum net power of…", "Un cuatr
   "A light quadricycle: 45 km/h.", "El ligero: 45 km/h.")
 Q("mo5", "motos", "According to your course, the empty mass of a motor quadricycle for passengers is no more than…", "Según tu curso, la masa en vacío de un cuatriciclo de motor de pasajeros no supera…",
   [("400 kg", "400 kg"), ("750 kg", "750 kg"), ("1,000 kg", "1.000 kg")],
-  "550 kg for goods. Today’s EU category L7e: 450 kg (600 kg goods).", "550 kg mercancías. Hoy la categoría UE L7e: 450 kg (600 kg mercancías).")
+  "550 kg for goods. Today’s EU category L7e counts the mass in running order: 450 kg (600 kg goods).", "550 kg mercancías. Hoy la categoría UE L7e cuenta la masa en orden de marcha: 450 kg (600 kg mercancías).")
 Q("mo6", "motos", "A 125 cm³ scooter is a…", "Un scooter de 125 cm³ es una…",
   [("motorcycle", "motocicleta"), ("moped", "ciclomotor"), ("VMP", "VMP")],
   "Over 50 cm³.", "Más de 50 cm³.")

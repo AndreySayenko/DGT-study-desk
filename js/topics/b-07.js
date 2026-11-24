@@ -1505,20 +1505,20 @@ window.DGT_DATA = {
    "id": "sp3",
    "tag": "special",
    "q": {
-    "en": "A cyclist on an interurban road at night must also wear…",
-    "es": "Un ciclista por una interurbana de noche debe llevar además…",
-    "uk": "Велосипедист на заміській дорозі вночі мусить ще й мати…"
+    "en": "A cyclist on an interurban road at night must also use…",
+    "es": "Un ciclista por una interurbana de noche debe usar además…",
+    "uk": "Велосипедист на заміській дорозі вночі мусить ще й використовувати…"
    },
    "o": [
     {
-     "en": "a reflective garment visible from 150 m",
-     "es": "una prenda reflectante visible a 150 m",
-     "uk": "світловідбивний одяг, видимий зі 150 м"
+     "en": "at least one luminous or reflective element visible from 150 m",
+     "es": "al menos un elemento luminoso o reflectante visible a 150 m",
+     "uk": "щонайменше один світний або світловідбивний елемент, видимий зі 150 м"
     },
     {
-     "en": "a helmet light",
-     "es": "una luz en el casco",
-     "uk": "ліхтар на шоломі"
+     "en": "a reflective element visible from 50 m",
+     "es": "un elemento reflectante visible a 50 m",
+     "uk": "світловідбивний елемент, видимий з 50 м"
     },
     {
      "en": "a V-16",
@@ -1527,9 +1527,9 @@ window.DGT_DATA = {
     }
    ],
    "why": {
-    "en": "Whenever lights are compulsory.",
-    "es": "Siempre que el alumbrado sea obligatorio.",
-    "uk": "Щоразу, коли світло обов’язкове."
+    "en": "Whenever lights are compulsory (art. 118.2 since October 2026): a light or a reflective item, as long as it is visible from 150 m.",
+    "es": "Siempre que el alumbrado sea obligatorio (art. 118.2 desde octubre de 2026): una luz o un elemento reflectante, siempre que sea visible a 150 m.",
+    "uk": "Щоразу, коли світло обов’язкове (ст. 118.2 з жовтня 2026 року): ліхтар або світловідбивний елемент, аби його було видно зі 150 м."
    }
   },
   {
@@ -2688,9 +2688,9 @@ window.DGT_DATA = {
      "І на смузі зустрічного руху та звичайній смузі поруч із нею."
     ],
     [
-     "Cyclists on interurban roads when lights are compulsory: reflective garment visible at 150 m.",
-     "Ciclistas en interurbanas con alumbrado obligatorio: prenda reflectante visible a 150 m.",
-     "Велосипедисти на заміських дорогах, коли світло обов’язкове: світловідбивний одяг, видимий зі 150 м."
+     "Cyclists on interurban roads when lights are compulsory: a luminous or reflective element visible at 150 m.",
+     "Ciclistas en interurbanas con alumbrado obligatorio: un elemento luminoso o reflectante visible a 150 m.",
+     "Велосипедисти на заміських дорогах, коли світло обов’язкове: світний або світловідбивний елемент, видимий зі 150 м."
     ]
    ],
    "trap": [

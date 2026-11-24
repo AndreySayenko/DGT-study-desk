@@ -402,7 +402,8 @@ def quiz():
 
 SOURCES = [
     ("Reglamento General de Circulación (RD 1428/2003), speed chapter (arts. 45–55) — consolidated text", "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514"),
-    ("Real Decreto 1514/2018: generic limits out of town, end of the extra 20 km/h for overtaking", "https://www.boe.es/eli/es/rd/2018/12/28/1514"),
+    ("Real Decreto 1514/2018: generic limits out of town (90 km/h on conventional roads)", "https://www.boe.es/eli/es/rd/2018/12/28/1514"),
+    ("Ley 18/2021: end of the extra 20 km/h for overtaking (from 21 March 2022)", "https://www.boe.es/eli/es/l/2021/12/20/18"),
     ("Real Decreto 970/2020: urban limits of 20, 30 and 50 km/h", "https://www.boe.es/eli/es/rd/2020/11/10/970"),
     ("Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial (RDL 6/2015)", "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722"),
     ("DGT press release, 30-09-2026: the Reglamento reform (RD 518/2026) comes into force, including overtaking cyclists",

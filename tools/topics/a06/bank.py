@@ -49,7 +49,7 @@ TAGS = {
         trap=("Using the MMA instead of the unladen mass for the 50 %.", "Usar la MMA en vez de la masa en vacío para el 50 %.")),
     "plates": dict(sec=3, en="Signs on vehicles", es="Señales en los vehículos",
         recap=[("V-1 blue: priority vehicle on urgent service. V-2 amber: obstacle or work vehicle ≤ 40 km/h.", "V-1 azul: prioritario en servicio urgente. V-2 amarillo auto: obstáculo o de trabajo a ≤ 40 km/h."),
-               ("V-6 over 12 m. V-13 novice (< 1 year), rear left. V-19 ITV. V-20 rear overhang.", "V-6 más de 12 m. V-13 novel (< 1 año), detrás a la izquierda. V-19 ITV. V-20 carga que sobresale."),
+               ("V-6 over 12 m. V-13 novice (< 1 year): on a motorcycle, anywhere visible at the rear. V-19 ITV. V-20 rear overhang.", "V-6 más de 12 m. V-13 novel (< 1 año): en moto, en un sitio visible de la parte posterior. V-19 ITV. V-20 carga que sobresale."),
                ("V-16: vehicle or load on the carriageway; triangles invalid since 2026; not compulsory on motorcycles.", "V-16: vehículo o carga en la calzada; triángulos sin validez desde 2026; no obligatoria en moto."),
                ("V-25 environmental label (voluntary on motorcycles); V-26 shared use; VEH 21/05 blind spots, voluntary.", "V-25 ambiental (voluntario en moto); V-26 uso compartido; VEH 21/05 ángulos muertos, voluntaria.")],
         trap=("Confusing the V-1 (blue) with the V-2 (amber).", "Confundir la V-1 (azul) con la V-2 (amarillo auto).")),
@@ -181,8 +181,8 @@ Q("vp3", "plates", "The V-6 sign is carried by vehicles or combinations longer t
   [("12 m", "12 m"), ("10 m", "10 m"), ("18.75 m", "18,75 m")],
   "Long vehicle.", "Vehículo largo.")
 Q("vp4", "plates", "On a motorcycle, the V-13 (novice) sign goes…", "En una moto, la señal V-13 (novel) va…",
-  [("at the rear left, visible", "en la parte posterior izquierda, visible"), ("at the front", "en la parte delantera"), ("on the helmet", "en el casco")],
-  "Licence held under a year; 13 × 10 cm on motorcycles.", "Permiso de menos de un año; 13 × 10 cm en motos.")
+  [("somewhere visible at the rear", "en un sitio visible de la parte posterior"), ("at the front", "en la parte delantera"), ("on the helmet", "en el casco")],
+  "On a car it goes at the rear left; on a motorcycle it is enough to place it somewhere visible at the rear, in a smaller size (10 × 13 cm).", "En un turismo va detrás a la izquierda; en moto basta colocarla en un sitio visible de la parte posterior, en tamaño reducido (10 × 13 cm).")
 Q("vp5", "plates", "The V-13 means the driver’s licence is…", "La señal V-13 indica que el permiso del conductor tiene…",
   [("less than one year old", "menos de un año de antigüedad"), ("less than two years old", "menos de dos años"), ("a learner’s permit", "un permiso de aprendizaje")],
   "Novice driver.", "Conductor novel.")

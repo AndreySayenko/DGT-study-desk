@@ -431,11 +431,13 @@ def blocks():
         E(
             "Heavy quadricycle (<i>cuatriciclo pesado</i>)",
             "Cuatriciclo pesado",
-            "A four-wheeled vehicle that is beyond the light-quadricycle limits but still small: <b>empty mass up to 450 kg</b> (passenger version) or <b>600 kg</b> (goods version), "
-            "batteries excluded, and <b>maximum power 15 kW</b>.",
-            "Vehículo de cuatro ruedas que supera los límites del ligero pero sigue siendo pequeño: <b>masa en vacío de hasta 450 kg</b> (transporte de personas) o <b>600 kg</b> (mercancías), "
-            "sin contar las baterías, y <b>potencia máxima de 15 kW</b>.",
+            "A four-wheeled vehicle that is beyond the light-quadricycle limits but still small: <b>mass in running order up to 450 kg</b> (passenger version) or <b>600 kg</b> (goods version), "
+            "batteries excluded, and <b>maximum power 15 kW</b> (EU category L7e).",
+            "Vehículo de cuatro ruedas que supera los límites del ligero pero sigue siendo pequeño: <b>masa en orden de marcha de hasta 450 kg</b> (transporte de personas) o <b>600 kg</b> (mercancías), "
+            "sin contar las baterías, y <b>potencia máxima de 15 kW</b> (categoría europea L7e).",
             pills_=[T("450 kg / 600 kg", "450 kg / 600 kg"), T("≤ 15 kW", "≤ 15 kW")],
+            tip=("Older manuals give an empty mass of 400 kg (550 kg for goods). The Reglamento now refers to EU category L7e, which uses mass in running order.",
+                 "Los manuales antiguos dan una masa en vacío de 400 kg (550 kg para mercancías). El Reglamento remite hoy a la categoría europea L7e, que usa la masa en orden de marcha."),
         )
     )
     B.append(H3("Cars, buses and trucks", "Turismos, autobuses y camiones"))
@@ -461,18 +463,24 @@ def blocks():
         E(
             "Truck (<i>camión</i>)",
             "Camión",
-            "A vehicle with four or more wheels, built to carry goods, whose <b>cab is not integrated</b> in the rest of the bodywork and whose <b>maximum authorised mass is over 3,500 kg</b>.",
-            "Vehículo de cuatro o más ruedas, concebido y construido para transportar mercancías, cuya <b>cabina no está integrada</b> en el resto de la carrocería y con una <b>masa máxima autorizada superior a 3.500 kg</b>.",
-            pills_=[T("MMA > 3,500 kg", "MMA > 3.500 kg"), T("separate cab", "cabina independiente")],
+            "A motor vehicle with four or more wheels, built to carry goods, whose <b>cab is not integrated</b> in the rest of the bodywork, with at most nine seats including the driver. "
+            "The definition sets <b>no mass</b>: there are trucks of any MMA (the register classifies them up to 3,500 kg, from 3,500 to 12,000 kg and over 12,000 kg).",
+            "Automóvil de cuatro o más ruedas, concebido y construido para el transporte de mercancías, cuya <b>cabina no está integrada</b> en el resto de la carrocería y con un máximo de nueve plazas, incluido el conductor. "
+            "La definición <b>no fija ninguna masa</b>: hay camiones de cualquier MMA (el registro los clasifica hasta 3.500 kg, de 3.500 a 12.000 kg y de más de 12.000 kg).",
+            pills_=[T("separate cab", "cabina independiente"), T("any MMA", "cualquier MMA")],
         )
     )
     B.append(
         E(
             "Van (<i>furgoneta</i>)",
             "Furgoneta",
-            "A goods vehicle whose <b>cab is integrated</b> in the bodywork and whose maximum authorised mass does not exceed <b>3,500 kg</b>.",
-            "Vehículo para mercancías con la <b>cabina integrada</b> en la carrocería y masa máxima autorizada no superior a <b>3.500 kg</b>.",
-            pills_=[T("MMA ≤ 3,500 kg", "MMA ≤ 3.500 kg"), T("integrated cab", "cabina integrada")],
+            "A motor vehicle with four or more wheels, built to carry goods, whose <b>cab is integrated</b> in the rest of the bodywork, with at most nine seats including the driver. "
+            "Like the truck, it can have <b>any MMA</b>: the cab, not the mass, tells a van from a truck.",
+            "Automóvil de cuatro o más ruedas, concebido y construido para el transporte de mercancías, cuya <b>cabina está integrada</b> en el resto de la carrocería y con un máximo de nueve plazas, incluido el conductor. "
+            "Como el camión, puede tener <b>cualquier MMA</b>: lo que distingue la furgoneta del camión es la cabina, no la masa.",
+            pills_=[T("integrated cab", "cabina integrada"), T("any MMA", "cualquier MMA")],
+            tip=("3,500 kg is the line for the B licence and for category N1, not the line between a van and a truck.",
+                 "3.500 kg es la frontera del permiso B y de la categoría N1, no la que separa la furgoneta del camión."),
         )
     )
     B.append(
@@ -579,8 +587,8 @@ def blocks():
                     "La «masa en orden de marcha» ya incluye un <b>conductor de 75 kg</b>. Los pasajeros y el equipaje no están en ella.",
                 ),
                 (
-                    "Light trailer = <b>MMA</b> up to 750 kg (not tara). Pick-up and the car/truck frontier = <b>MMA</b> 3,500 kg.",
-                    "Remolque ligero = <b>MMA</b> de hasta 750 kg (no tara). Frontera pick-up y turismo/camión = <b>MMA</b> de 3.500 kg.",
+                    "Light trailer = <b>MMA</b> up to 750 kg (not tara). Pick-up, the B licence and category N1 = <b>MMA</b> up to 3,500 kg.",
+                    "Remolque ligero = <b>MMA</b> de hasta 750 kg (no tara). Pick-up, permiso B y categoría N1 = <b>MMA</b> de hasta 3.500 kg.",
                 ),
             ],
         )
@@ -726,9 +734,9 @@ def blocks():
             [
                 [T("<i>Turismo</i>", "Turismo"), T("≤ 9 incl. driver", "≤ 9 con conductor"), T("—", "—"), T("For people", "Para personas")],
                 [T("<i>Autobús</i>", "Autobús"), T("&gt; 9 incl. driver", "&gt; 9 con conductor"), T("—", "—"), T("For people", "Para personas")],
-                [T("<i>Furgoneta</i>", "Furgoneta"), T("—", "—"), T("≤ 3,500 kg", "≤ 3.500 kg"), T("Integrated cab; goods", "Cabina integrada; mercancías")],
+                [T("<i>Furgoneta</i>", "Furgoneta"), T("—", "—"), T("any", "cualquiera"), T("Integrated cab; goods", "Cabina integrada; mercancías")],
                 [T("<i>Pick-up</i>", "Pick-up"), T("—", "—"), T("≤ 3,500 kg", "≤ 3.500 kg"), T("Separate cargo area; height ≤ 2 m; treated as a car", "Zona de carga separada; altura ≤ 2 m; se trata como turismo")],
-                [T("<i>Camión</i>", "Camión"), T("—", "—"), T("&gt; 3,500 kg", "&gt; 3.500 kg"), T("Cab not integrated; goods", "Cabina no integrada; mercancías")],
+                [T("<i>Camión</i>", "Camión"), T("—", "—"), T("any", "cualquiera"), T("Cab not integrated; goods", "Cabina no integrada; mercancías")],
                 [T("<i>Mixto adaptable</i>", "Mixto adaptable"), T("seats can be added", "se pueden añadir asientos"), T("—", "—"), T("People and goods, load swappable for seats", "Personas y mercancías; la carga se puede sustituir por asientos")],
             ],
             widths=["20%", "22%", "18%", "40%"],
@@ -782,7 +790,7 @@ def blocks():
                 [T("Vehicle for reduced mobility", "Vehículo para movilidad reducida"), T("tara ≤ 350 kg; ≤ 45 km/h", "tara ≤ 350 kg; ≤ 45 km/h")],
                 [T("Motorcycle", "Motocicleta"), T("&gt; 50 cm³ and/or &gt; 45 km/h", "&gt; 50 cm³ y/o &gt; 45 km/h")],
                 [T("Car / bus", "Turismo / autobús"), T("≤ 9 seats / &gt; 9 seats (driver included)", "≤ 9 plazas / &gt; 9 plazas (con conductor)")],
-                [T("Truck / van / pick-up", "Camión / furgoneta / pick-up"), T("&gt; 3,500 kg / ≤ 3,500 kg / ≤ 3,500 kg and ≤ 2 m high", "&gt; 3.500 kg / ≤ 3.500 kg / ≤ 3.500 kg y ≤ 2 m de altura")],
+                [T("Truck / van / pick-up", "Camión / furgoneta / pick-up"), T("cab not integrated / cab integrated (both any MMA) / ≤ 3,500 kg and ≤ 2 m high", "cabina no integrada / cabina integrada (ambos con cualquier MMA) / ≤ 3.500 kg y ≤ 2 m de altura")],
                 [T("Light trailer", "Remolque ligero"), T("MMA ≤ 750 kg", "MMA ≤ 750 kg")],
                 [T("Mass in running order", "Masa en orden de marcha"), T("tara + 75 kg (+ 75 kg crew on buses)", "tara + 75 kg (+ 75 kg acompañante en autobuses)")],
                 [T("Categories M2 / M3", "Categorías M2 / M3"), T("&gt; 8 seats besides driver; ≤ 5 t / &gt; 5 t", "&gt; 8 plazas además del conductor; ≤ 5 t / &gt; 5 t")],

@@ -147,9 +147,9 @@ def blocks():
             [T("<b>Three-wheeled vehicle</b>", "<b>Vehículo de tres ruedas</b>"), T("<b>Three symmetrical wheels</b>; engine over 50 cm³ (combustion) and/or over 45 km/h.", "Automóvil de <b>3 ruedas simétricas</b>; motor de más de 50 cm³ (combustión) y/o más de 45 km/h.")],
             [T("<b>Motor quadricycle</b> (<i>cuatriciclo de motor</i>)", "<b>Cuatriciclo de motor</b>"),
              T("Four wheels and a maximum net power of <b>15 kW</b>. Your course gives an empty mass of up to <b>400 kg</b> (<b>550 kg</b> for goods), batteries excluded, and says quadricycles are treated as <b>three-wheeled vehicles</b>. "
-               "Today the regulation uses EU category <b>L7e</b>: up to <b>450 kg</b> (<b>600 kg</b> for goods).",
+               "Today the regulation uses EU category <b>L7e</b>: a mass in running order of up to <b>450 kg</b> (<b>600 kg</b> for goods).",
                "Cuatro ruedas y potencia máxima neta de <b>15 kW</b>. Tu curso da una masa en vacío de hasta <b>400 kg</b> (<b>550 kg</b> si es para mercancías), sin las baterías, y dice que tienen la consideración de <b>vehículos de tres ruedas</b>. "
-               "Hoy el reglamento remite a la categoría europea <b>L7e</b>: hasta <b>450 kg</b> (<b>600 kg</b> mercancías).")],
+               "Hoy el reglamento remite a la categoría europea <b>L7e</b>: masa en orden de marcha de hasta <b>450 kg</b> (<b>600 kg</b> mercancías).")],
         ],
         widths=["28%", "72%"],
     ))

@@ -236,8 +236,8 @@ def blocks():
     B.append(H3("3.1 How many points do I have?", "3.1 ¿Cuántos puntos tengo?"))
     B += _under(b9, "3.1 How many")
     B.append(BOX("trap", f"{TWO[0]}: one balance for all your licences", f"{TWO[1]}: un solo saldo para todos tus permisos", [
-        ("The <b>8 points</b> of a new licence do <b>not</b> apply if you already held <b>another licence for more than two years</b>. A rider who has had the AM or the B for three years and gets an A2 starts with <b>12</b>.",
-         "Los <b>8 puntos</b> del permiso nuevo <b>no</b> se aplican si ya eras titular de <b>otro permiso con más de dos años</b>. Quien tiene el AM o el B desde hace tres años y saca el A2 empieza con <b>12</b>."),
+        ("The <b>8 points</b> of a new licence (one up to <b>three years</b> old) do <b>not</b> apply if you already held <b>another licence for three years</b>. A rider who has had the AM or the B for three years and gets an A2 starts with <b>12</b>.",
+         "Los <b>8 puntos</b> del permiso nuevo (con antigüedad de hasta <b>tres años</b>) <b>no</b> se aplican si ya eras titular de <b>otro permiso con tres años de antigüedad</b>. Quien tiene el AM o el B desde hace tres años y saca el A2 empieza con <b>12</b>."),
         ("Points lost riding a motorcycle come off the <b>same balance</b> that lets you drive a car, and the other way round.",
          "Los puntos que pierdes en moto salen del <b>mismo saldo</b> que te permite conducir un turismo, y al revés."),
     ]))

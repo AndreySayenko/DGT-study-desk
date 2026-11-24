@@ -1837,9 +1837,9 @@ window.DGT_DATA = {
     }
    ],
    "why": {
-    "en": "A licence of two years or less starts with 8, unless you already held another for more than two years.",
-    "es": "Un permiso de dos años o menos empieza con 8, salvo que ya fueras titular de otro con más de dos años.",
-    "uk": "Посвідчення віком до двох років починається з 8, якщо ви вже не мали іншого понад два роки."
+    "en": "A licence up to three years old starts with 8, unless you already held another licence for three years.",
+    "es": "Un permiso con antigüedad de hasta tres años empieza con 8, salvo que ya fueras titular de otro con tres años de antigüedad.",
+    "uk": "Посвідчення віком до трьох років починається з 8, якщо ви вже не мали іншого посвідчення три роки."
    }
   },
   {
@@ -1868,9 +1868,9 @@ window.DGT_DATA = {
     }
    ],
    "why": {
-    "en": "There is one single points credit for all of a driver’s licences, and the 8-point rule does not apply after more than two years with another licence.",
-    "es": "El crédito de puntos es único para todas las autorizaciones, y la regla de los 8 puntos no se aplica con otro permiso de más de dos años.",
-    "uk": "Для всіх посвідчень водія один баланс балів, і правило 8 балів не діє після понад двох років з іншим посвідченням."
+    "en": "There is one single points credit for all of a driver’s licences, and the 8-point rule does not apply once you have held another licence for three years.",
+    "es": "El crédito de puntos es único para todas las autorizaciones, y la regla de los 8 puntos no se aplica si ya tenías otro permiso con tres años de antigüedad.",
+    "uk": "Для всіх посвідчень водія один баланс балів, і правило 8 балів не діє, якщо ви вже мали інше посвідчення три роки."
    }
   },
   {

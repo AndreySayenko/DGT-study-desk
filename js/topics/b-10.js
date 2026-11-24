@@ -8726,9 +8726,9 @@ window.DGT_DATA = {
      "Світлі, яскраві кольори; візор проти запотівання; замінюйте після ДТП чи сильного удару."
     ],
     [
-     "Gloves compulsory out of town; closed shoes everywhere; vest recommended, carried on the bike.",
-     "Guantes obligatorios en interurbanas; calzado cerrado en todas; chaleco recomendable y en la dotación de la moto.",
-     "Рукавички обов’язкові поза містом; закрите взуття скрізь; жилет рекомендований, возиться на мотоциклі."
+     "Gloves compulsory out of town; closed shoes everywhere; the bike must carry a vest, worn when you get off on an interurban road.",
+     "Guantes obligatorios en interurbanas; calzado cerrado en todas; la moto debe llevar chaleco, que te pones al bajarte en una vía interurbana.",
+     "Рукавички обов’язкові поза містом; закрите взуття скрізь; мотоцикл мусить возити жилет, який вдягають, зійшовши на заміській дорозі."
     ]
    ],
    "trap": [

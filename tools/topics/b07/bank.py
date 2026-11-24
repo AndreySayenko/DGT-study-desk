@@ -72,7 +72,7 @@ TAGS = {
         recap=[("At least dipped beam, day and night, on a reversible lane.", "Al menos luz de cruce, de día y de noche, en carril reversible."),
                ("Also on roads with a temporary additional lane.", "También en vías con carril adicional circunstancial."),
                ("And on a contraflow lane and the normal lane next to it.", "Y en el carril en sentido contrario y en el normal contiguo."),
-               ("Cyclists on interurban roads when lights are compulsory: reflective garment visible at 150 m.", "Ciclistas en interurbanas con alumbrado obligatorio: prenda reflectante visible a 150 m.")],
+               ("Cyclists on interurban roads when lights are compulsory: a luminous or reflective element visible at 150 m.", "Ciclistas en interurbanas con alumbrado obligatorio: un elemento luminoso o reflectante visible a 150 m.")],
         trap=("Thinking these lights are only needed at night.", "Pensar que estas luces solo hacen falta de noche.")),
     "dazzle": dict(sec=3, en="Not dazzling others", es="Evitar deslumbrar",
         recap=[("Dip as soon as you could dazzle anyone: oncoming drivers (even if they don’t) and drivers ahead via mirrors.", "Poner la de cruce en cuanto se pueda deslumbrar: a los de frente (aunque ellos no lo hagan) y a los de delante por los espejos."),
@@ -271,9 +271,10 @@ Q("sp1", "special", "Driving on a reversible lane at midday, you must have on at
 Q("sp2", "special", "Driving in the normal lane next to a contraflow lane by day, you…", "Por el carril normal contiguo a uno en sentido contrario, de día, tú…",
   [("must have at least the dipped beam on", "debes llevar al menos la luz de cruce"), ("need no lights", "no necesitas luces"), ("must use the main beam", "debes usar la de carretera")],
   "Same on the contraflow lane itself and on temporary additional lanes.", "Igual en el propio carril en sentido contrario y en el adicional circunstancial.")
-Q("sp3", "special", "A cyclist on an interurban road at night must also wear…", "Un ciclista por una interurbana de noche debe llevar además…",
-  [("a reflective garment visible from 150 m", "una prenda reflectante visible a 150 m"), ("a helmet light", "una luz en el casco"), ("a V-16", "una V-16")],
-  "Whenever lights are compulsory.", "Siempre que el alumbrado sea obligatorio.")
+Q("sp3", "special", "A cyclist on an interurban road at night must also use…", "Un ciclista por una interurbana de noche debe usar además…",
+  [("at least one luminous or reflective element visible from 150 m", "al menos un elemento luminoso o reflectante visible a 150 m"), ("a reflective element visible from 50 m", "un elemento reflectante visible a 50 m"), ("a V-16", "una V-16")],
+  "Whenever lights are compulsory (art. 118.2 since October 2026): a light or a reflective item, as long as it is visible from 150 m.",
+  "Siempre que el alumbrado sea obligatorio (art. 118.2 desde octubre de 2026): una luz o un elemento reflectante, siempre que sea visible a 150 m.")
 Q("sp4", "special", "On a road with a temporary additional lane, lights are needed…", "En una vía con carril adicional circunstancial, el alumbrado es necesario…",
   [("day and night: at least dipped beam", "de día y de noche: al menos la de cruce"), ("only at night", "solo de noche"), ("never", "nunca")],
   "Because traffic flows unusually close.", "Porque el tráfico circula de forma excepcional.")

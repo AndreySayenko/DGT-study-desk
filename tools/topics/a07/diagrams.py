@@ -15,6 +15,11 @@ RED_L = "#dc2626"
 WARM = "#fef9c3"
 
 
+def fog_matrix_moto(lang):
+    """Topic B7's fog-light matrix, with the rear fog light shown as optional equipment, as it is on a motorcycle."""
+    return fog_matrix(lang, moto=True)
+
+
 def _callout(x1, y1, x2, y2, label, anchor):
     tx = x2 - 6 if anchor == "end" else x2 + 6
     return (line(x1, y1, x2, y2, SLATE, 1.3) + f'<circle cx="{x1}" cy="{y1}" r="2.4" fill="{SLATE}"/>'

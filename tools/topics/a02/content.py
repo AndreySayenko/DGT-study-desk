@@ -220,9 +220,9 @@ def blocks():
                  "Solo en tramos señalizados, solo con el tráfico detenido por congestión, a 30 km/h como máximo y en columna de a uno. Zigzaguear entre los carriles detenidos sigue prohibido."))
     B.append(E(
         "Motorcycles on the shoulder in a jam (since 1 October 2026)", "Uso extraordinario del arcén por motocicletas (desde el 1 de octubre de 2026)",
-        "The <b>right-hand shoulder</b> may be opened to motorcycles on <b>stretches agreed</b> between the road’s owner and the traffic authority (the DGT, or the regional or local authority), and <b>signed</b> with fixed signs and road markings. "
+        "The <b>right-hand shoulder</b> may be opened to motorcycles on <b>stretches agreed</b> between the road’s owner and the traffic authority (the DGT or, where it has the powers, the regional authority), and <b>signed</b> with fixed signs and road markings. "
         "It applies <b>only when traffic in the lanes is stopped by congestion</b>; <b>30 km/h at most</b>; <b>single file</b>, with extreme care. Riders must not endanger the drivers who are obliged to use the shoulder, and must <b>leave it</b> if needed.",
-        "Se puede habilitar el <b>arcén derecho</b> para motocicletas en <b>tramos acordados</b> entre el titular de la vía y la Jefatura Central de Tráfico (o la autoridad autonómica o local), <b>señalizados</b> con señales fijas y marcas viales. "
+        "Se puede habilitar el <b>arcén derecho</b> para motocicletas en <b>tramos acordados</b> entre el titular de la vía y la Jefatura Central de Tráfico (o, en su caso, la autoridad autonómica), <b>señalizados</b> con señales fijas y marcas viales. "
         "Solo cuando la circulación de los carriles esté <b>detenida por congestión</b>; a <b>30 km/h como máximo</b>; en <b>columna de a uno</b>, extremando la precaución. No se debe poner en riesgo a los obligados a circular por el arcén, <b>abandonándolo</b> si fuera preciso.",
         pills_=[T("signed stretches only", "solo tramos señalizados"), T("traffic stopped", "tráfico detenido"), T("≤ 30 km/h", "≤ 30 km/h"), T("single file", "columna de a uno")]))
     B.append(BOX("trap", "Rules for vehicles that must use the shoulder", "Normas de utilización del arcén", [

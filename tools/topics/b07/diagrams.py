@@ -84,7 +84,8 @@ def fog_symbol(cx, cy, color, rear=False):
     return lamp + beams + wave
 
 
-def fog_matrix(lang):
+def fog_matrix(lang, moto=False):
+    """moto=True: the motorcycle version (Topic A7), where a rear fog light is optional equipment."""
     cols = L(lang, [("fog", ["Fog"], "thick"), ("rain", ["Rain"], "very heavy"), ("snow", ["Snow"], "heavy"), ("dust", ["Dust or", "smoke"], "dense"),
                     ("road", ["Narrow road", "with bends sign"], "")],
              [("fog", ["Niebla"], "espesa"), ("rain", ["Lluvia"], "muy intensa"), ("snow", ["Nevada"], "fuerte"), ("dust", ["Polvo", "o humo"], "densas"),
@@ -96,7 +97,9 @@ def fog_matrix(lang):
         p.append(_icon(kind, cx, 36))
         p.append(lines(cx, 72, name, 11, 700, INK, "middle", 13))
     rows = [(L(lang, "Front fog lights", "Antiniebla delantera"), L(lang, "optional to fit; you MAY use them", "opcional; se PUEDE usar"), "#16a34a"),
-            (L(lang, "Rear fog light", "Antiniebla trasera"), L(lang, "compulsory to fit; you MUST use it", "obligatoria; se DEBE usar"), "#f59e0b")]
+            (L(lang, "Rear fog light", "Antiniebla trasera"),
+             L(lang, "optional; if fitted, MUST be used", "opcional; si la lleva, se DEBE usar") if moto
+             else L(lang, "compulsory to fit; you MUST use it", "obligatoria; se DEBE usar"), "#f59e0b")]
     for r, (name, sub, col) in enumerate(rows):
         y = 100 + r * 64
         p.append(rect(10, y, 700, 56, "#f8fafc" if r == 0 else "#fff7ed", 6))

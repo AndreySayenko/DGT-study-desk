@@ -947,9 +947,9 @@ window.DGT_DATA = {
    "id": "t3",
    "tag": "motos",
    "q": {
-    "en": "The empty mass limit of a heavy quadricycle for carrying people is…",
-    "es": "El límite de masa en vacío de un cuatriciclo pesado para personas es…",
-    "uk": "Межа маси без навантаження для пасажирського важкого квадрицикла —"
+    "en": "The limit on the mass in running order of a heavy quadricycle for carrying people is…",
+    "es": "El límite de masa en orden de marcha de un cuatriciclo pesado para personas es…",
+    "uk": "Межа маси в спорядженому стані для пасажирського важкого квадрицикла —"
    },
    "o": [
     {
@@ -969,9 +969,9 @@ window.DGT_DATA = {
     }
    ],
    "why": {
-    "en": "450 kg for people, 600 kg for goods, batteries excluded.",
-    "es": "450 kg para personas y 600 kg para mercancías, sin contar baterías.",
-    "uk": "450 кг для людей, 600 кг для вантажів, без акумуляторів."
+    "en": "450 kg for people, 600 kg for goods, batteries excluded (EU category L7e). Older manuals give 400 kg of empty mass.",
+    "es": "450 kg para personas y 600 kg para mercancías, sin contar baterías (categoría europea L7e). Los manuales antiguos dan 400 kg de masa en vacío.",
+    "uk": "450 кг для людей, 600 кг для вантажів, без акумуляторів (категорія ЄС L7e). Старі посібники дають 400 кг маси без навантаження."
    }
   },
   {
@@ -1170,14 +1170,14 @@ window.DGT_DATA = {
    },
    "o": [
     {
-     "en": "the cab integrated in the bodywork and MMA up to 3,500 kg",
-     "es": "la cabina integrada en la carrocería y MMA de hasta 3.500 kg",
-     "uk": "кабіну, інтегровану в кузов, і MMA до 3 500 кг"
+     "en": "the cab integrated in the rest of the bodywork",
+     "es": "la cabina integrada en el resto de la carrocería",
+     "uk": "кабіну, інтегровану в решту кузова"
     },
     {
-     "en": "the cab separate from the bodywork and MMA over 3,500 kg",
-     "es": "la cabina separada de la carrocería y MMA superior a 3.500 kg",
-     "uk": "кабіну, відокремлену від кузова, і MMA понад 3 500 кг"
+     "en": "the cab separate from the rest of the bodywork",
+     "es": "la cabina separada del resto de la carrocería",
+     "uk": "кабіну, відокремлену від решти кузова"
     },
     {
      "en": "more than nine seats",
@@ -1186,40 +1186,40 @@ window.DGT_DATA = {
     }
    ],
    "why": {
-    "en": "Integrated cab and not over 3,500 kg. Separate cab and over 3,500 kg is a camión.",
-    "es": "Cabina integrada y no más de 3.500 kg. Cabina no integrada y más de 3.500 kg es un camión.",
-    "uk": "Інтегрована кабіна й не більше 3 500 кг. Окрема кабіна й понад 3 500 кг — це camión."
+    "en": "Integrated cab = furgoneta; cab not integrated = camión. Neither definition sets a mass.",
+    "es": "Cabina integrada = furgoneta; cabina no integrada = camión. Ninguna de las dos definiciones fija una masa.",
+    "uk": "Інтегрована кабіна — furgoneta; неінтегрована — camión. Жодне з двох визначень не встановлює маси."
    }
   },
   {
    "id": "g3",
    "tag": "goods",
    "q": {
-    "en": "A <i>camión</i> (truck) has a maximum authorised mass…",
-    "es": "Un camión tiene una masa máxima autorizada…",
-    "uk": "<i>Camión</i> (вантажівка) має максимальну дозволену масу…"
+    "en": "What sets a <i>camión</i> (truck) apart from a <i>furgoneta</i> (van)?",
+    "es": "¿Qué distingue un camión de una furgoneta?",
+    "uk": "Що відрізняє <i>camión</i> (вантажівку) від <i>furgoneta</i> (фургона)?"
    },
    "o": [
     {
-     "en": "above 3,500 kg",
-     "es": "superior a 3.500 kg",
-     "uk": "понад 3 500 кг"
+     "en": "Its cab is not integrated in the rest of the bodywork",
+     "es": "Su cabina no está integrada en el resto de la carrocería",
+     "uk": "Його кабіна не інтегрована в решту кузова"
     },
     {
-     "en": "of up to 3,500 kg",
-     "es": "de hasta 3.500 kg",
-     "uk": "до 3 500 кг"
+     "en": "Its MMA is over 3,500 kg",
+     "es": "Su MMA es superior a 3.500 kg",
+     "uk": "Його MMA понад 3 500 кг"
     },
     {
-     "en": "above 12,000 kg only",
-     "es": "solo superior a 12.000 kg",
-     "uk": "лише понад 12 000 кг"
+     "en": "It may carry more than nine people",
+     "es": "Puede llevar más de nueve personas",
+     "uk": "Він може везти понад дев’ять людей"
     }
    ],
    "why": {
-    "en": "Camión: goods vehicle, cab not integrated, MMA over 3,500 kg.",
-    "es": "Camión: vehículo de mercancías, cabina no integrada, MMA superior a 3.500 kg.",
-    "uk": "Camión: вантажний ТЗ, кабіна не інтегрована, MMA понад 3 500 кг."
+    "en": "Both carry goods, with at most nine seats and any MMA; only the cab differs. 3,500 kg is the line for the B licence and category N1.",
+    "es": "Los dos llevan mercancías, con un máximo de nueve plazas y cualquier MMA; solo cambia la cabina. 3.500 kg es la frontera del permiso B y de la categoría N1.",
+    "uk": "Обидва перевозять вантажі, мають щонайбільше дев’ять місць і будь-яку MMA; різниться лише кабіна. 3 500 кг — це межа для посвідчення B і категорії N1."
    }
   },
   {
@@ -2013,9 +2013,9 @@ window.DGT_DATA = {
      "Триколісний ТЗ — три симетричні колеса, понад 50 см³ та/або понад 45 км/год."
     ],
     [
-     "Heavy quadricycle = empty mass up to 450 kg (people) or 600 kg (goods), up to 15 kW.",
-     "Cuatriciclo pesado = masa en vacío de hasta 450 kg (personas) o 600 kg (mercancías), hasta 15 kW.",
-     "Важкий квадрицикл — маса без навантаження до 450 кг (пасажирський) чи 600 кг (вантажний), до 15 кВт."
+     "Heavy quadricycle (L7e) = mass in running order up to 450 kg (people) or 600 kg (goods), up to 15 kW.",
+     "Cuatriciclo pesado (L7e) = masa en orden de marcha de hasta 450 kg (personas) o 600 kg (mercancías), hasta 15 kW.",
+     "Важкий квадрицикл (L7e) — маса в спорядженому стані до 450 кг (пасажирський) чи 600 кг (вантажний), до 15 кВт."
     ]
    ],
    "trap": [
@@ -2059,14 +2059,14 @@ window.DGT_DATA = {
    "uk": "Вантажівки, фургони, пікапи та спеціальні ТЗ",
    "recap": [
     [
-     "Camión = goods, cab not integrated, MMA over 3,500 kg.",
-     "Camión = mercancías, cabina no integrada, MMA superior a 3.500 kg.",
-     "Camión — вантажний, кабіна не інтегрована, MMA понад 3 500 кг."
+     "Camión = goods, cab not integrated, at most 9 seats with the driver; any MMA.",
+     "Camión = mercancías, cabina no integrada, máximo 9 plazas con el conductor; cualquier MMA.",
+     "Camión — вантажний, кабіна не інтегрована, щонайбільше 9 місць разом із водійським; будь-яка MMA."
     ],
     [
-     "Furgoneta = goods, cab integrated, MMA up to 3,500 kg.",
-     "Furgoneta = mercancías, cabina integrada, MMA de hasta 3.500 kg.",
-     "Furgoneta — вантажний, кабіна інтегрована в кузов, MMA до 3 500 кг."
+     "Furgoneta = goods, cab integrated, at most 9 seats with the driver; any MMA. The cab, not the mass, tells them apart.",
+     "Furgoneta = mercancías, cabina integrada, máximo 9 plazas con el conductor; cualquier MMA. Los distingue la cabina, no la masa.",
+     "Furgoneta — вантажний, кабіна інтегрована в кузов, щонайбільше 9 місць разом із водійським; будь-яка MMA. Їх розрізняє кабіна, а не маса."
     ],
     [
      "Pick-up = up to 3,500 kg, seats and cargo not in one compartment, height up to 2 m. Follows car rules.",
@@ -2080,9 +2080,9 @@ window.DGT_DATA = {
     ]
    ],
    "trap": [
-    "Forgetting one of the three pick-up conditions, or which side of 3,500 kg each vehicle sits on.",
-    "Olvidar una de las tres condiciones del pick-up o a qué lado de los 3.500 kg queda cada vehículo.",
-    "Забути одну з трьох умов для пікапа або те, з якого боку від 3 500 кг стоїть кожен ТЗ."
+    "Forgetting one of the three pick-up conditions, or telling a truck from a van by its mass instead of its cab.",
+    "Olvidar una de las tres condiciones del pick-up o distinguir el camión de la furgoneta por la masa en vez de por la cabina.",
+    "Забути одну з трьох умов для пікапа або розрізняти вантажівку й фургон за масою, а не за кабіною."
    ]
   },
   "masses": {

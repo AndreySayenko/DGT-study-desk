@@ -1589,9 +1589,9 @@ window.DGT_DATA = {
     }
    ],
    "why": {
-    "en": "550 kg for goods. Today’s EU category L7e: 450 kg (600 kg goods).",
-    "es": "550 kg mercancías. Hoy la categoría UE L7e: 450 kg (600 kg mercancías).",
-    "uk": "Для вантажного 550 кг. Нинішня категорія ЄС L7e: 450 кг (600 кг для вантажного)."
+    "en": "550 kg for goods. Today’s EU category L7e counts the mass in running order: 450 kg (600 kg goods).",
+    "es": "550 kg mercancías. Hoy la categoría UE L7e cuenta la masa en orden de marcha: 450 kg (600 kg mercancías).",
+    "uk": "Для вантажного 550 кг. Нинішня категорія ЄС L7e рахує масу в спорядженому стані: 450 кг (600 кг для вантажного)."
    }
   },
   {
@@ -2095,9 +2095,9 @@ window.DGT_DATA = {
      "Триколісний ТЗ: три симетричні колеса, > 50 см³ та/або > 45 км/год."
     ],
     [
-     "Motor quadricycle: 15 kW; course 400 kg (550 goods); EU L7e 450 kg (600 goods).",
-     "Cuatriciclo de motor: 15 kW; curso 400 kg (550 mercancías); UE L7e 450 kg (600 mercancías).",
-     "Квадрицикл з двигуном: 15 кВт; за курсом 400 кг (550 вантажний); у ЄС L7e 450 кг (600 вантажний)."
+     "Motor quadricycle: 15 kW; course 400 kg empty (550 goods); EU L7e 450 kg in running order (600 goods).",
+     "Cuatriciclo de motor: 15 kW; curso 400 kg en vacío (550 mercancías); UE L7e 450 kg en orden de marcha (600 mercancías).",
+     "Квадрицикл з двигуном: 15 кВт; за курсом 400 кг порожнього (550 вантажний); у ЄС L7e 450 кг у спорядженому стані (600 вантажний)."
     ]
    ],
    "trap": [

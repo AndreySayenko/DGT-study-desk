@@ -343,8 +343,8 @@ def blocks():
     B.append(BOX("key", "If your motorcycle breaks down out of town", "Si tu moto se avería fuera de poblado", [
         ("If you can still ride, <b>carry on</b>; if you need help, leave the lanes and head for the <b>first exit along the right shoulder</b>, or stop on the right shoulder or where you obstruct least.",
          "Si puede seguir, <b>continúa</b>; si necesitas auxilio, abandona los carriles y dirígete a la <b>primera salida por el arcén derecho</b>, o detente en el arcén derecho o donde menos estorbes."),
-        ("Get yourself <b>off the road platform</b> to a safe place, on the side away from the traffic. Since 1 October 2026 every motorcycle must carry a <b>high-visibility vest</b>: wear it if you get off onto the carriageway or shoulder.",
-         "Sal de la <b>plataforma</b> a un lugar seguro, por el lado contrario al tráfico. Desde el 1 de octubre de 2026 toda motocicleta debe llevar un <b>chaleco de alta visibilidad</b>: póntelo si bajas a la calzada o al arcén."),
+        ("Get yourself <b>off the road platform</b> to a safe place, on the side away from the traffic. Since 1 October 2026 every motorcycle must carry a <b>high-visibility vest</b>: wear it if you get off onto the carriageway or shoulder of an interurban road.",
+         "Sal de la <b>plataforma</b> a un lugar seguro, por el lado contrario al tráfico. Desde el 1 de octubre de 2026 toda motocicleta debe llevar un <b>chaleco de alta visibilidad</b>: póntelo si bajas a la calzada o al arcén de una vía interurbana."),
         ("The connected <b>V-16</b> warning light is compulsory for cars, vans, buses and lorries; for motorcycles it is <b>recommended, not compulsory</b>.",
          "La señal <b>V-16</b> conectada es obligatoria en turismos, furgonetas, autobuses y camiones; en motocicletas es <b>recomendable, no obligatoria</b>."),
     ]))

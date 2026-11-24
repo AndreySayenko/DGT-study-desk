@@ -8,7 +8,7 @@ as they stand in November 2026.
 """
 
 from blocks import T, H2, H3, P, E, FIG, TABLE, BOX  # noqa: F401
-from .diagrams import moto_lights, beam_tilt, fog_matrix, overtake_dazzle, curve_dazzle, dazzled_view
+from .diagrams import moto_lights, beam_tilt, fog_matrix_moto, overtake_dazzle, curve_dazzle, dazzled_view
 
 
 def blocks():
@@ -140,7 +140,7 @@ def blocks():
         widths=["20%", "40%", "40%"],
         cls="small",
     ))
-    B.append(FIG(fog_matrix, "Front fog lights may be used in bad weather and on narrow winding roads; the rear one only when conditions are especially bad.",
+    B.append(FIG(fog_matrix_moto, "Front fog lights may be used in bad weather and on narrow winding roads; the rear one only when conditions are especially bad.",
                  "La antiniebla delantera puede usarse con mal tiempo y en vías estrechas con curvas; la trasera, solo con condiciones especialmente adversas."))
     B.append(TABLE(
         [T("When you may use…", "Cuándo se puede usar…"), T("Conditions", "Condiciones")],

@@ -403,6 +403,9 @@ def blocks():
             [T("<b>Waiting time</b>", "<b>Plazo de espera</b>"),
              T("After losing the licence for the <b>first time</b>, wait <b>6 months</b> (3 for professionals) before doing the course. <b>Doubled</b> if all points are lost again within the next 3 years.",
                "Tras perderlo por <b>primera vez</b>, hay que esperar <b>6 meses</b> (3 los profesionales) para hacer el curso. Se <b>duplica</b> si se vuelven a perder todos los puntos en los tres años siguientes.")],
+            [T("<b>Safe and efficient driving</b> (<i>conducción segura y eficiente</i>, CCSE)", "<b>Conducción segura y eficiente</b> (CCSE)"),
+             T("Voluntary course, with separate programmes for cars and for motorcycles. Passing it gives <b>2 extra points</b>, up to the maximum of <b>15</b>; at most one course of each type every 2 years.",
+               "Curso voluntario, con programas distintos para turismos y para motocicletas. Superarlo bonifica con <b>2 puntos</b>, hasta el máximo de <b>15</b>; como máximo un curso de cada tipo cada 2 años.")],
         ],
         widths=["26%", "74%"],
     ))

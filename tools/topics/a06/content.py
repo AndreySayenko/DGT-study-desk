@@ -127,8 +127,8 @@ def blocks():
                                                                                         "Luz o luces <b>amarillo auto</b>: vehículo que presta un servicio, actividad u operación de trabajo, <b>parado, estacionado</b> o a <b>≤ 40 km/h</b>; también transporte especial y sus vehículos piloto, "
                                                                                         "acompañamiento de pruebas deportivas, marchas ciclistas y otros eventos, y columnas militares. Pueden llevar distintivos de franjas rojas y blancas en su contorno.")],
             [T("<b>V-6</b> Long vehicle", "<b>V-6</b> Vehículo largo"), T("Vehicle or combination longer than <b>12 m</b>.", "Vehículo o conjunto de longitud superior a <b>12 m</b>.")],
-            [T("<b>V-13</b> Novice driver", "<b>V-13</b> Conductor novel"), T("Licence held for <b>less than a year</b>. At the <b>rear left</b>, visible (13 × 10 cm on motorcycles).",
-                                                                            "Permiso con <b>menos de un año</b> de antigüedad. En la <b>parte posterior izquierda</b>, visible (13 × 10 cm en motocicletas).")],
+            [T("<b>V-13</b> Novice driver", "<b>V-13</b> Conductor novel"), T("Licence held for <b>less than a year</b>. At the <b>rear left</b>, visible; on a motorcycle it is enough to place it <b>anywhere visible at the rear</b>, in a smaller size (10 × 13 cm).",
+                                                                            "Permiso con <b>menos de un año</b> de antigüedad. En la <b>parte posterior izquierda</b>, visible; en motocicleta basta colocarla en un <b>sitio visible de la parte posterior</b>, en tamaño reducido (10 × 13 cm).")],
             [T("<b>V-16</b> Warning device", "<b>V-16</b> Dispositivo de preseñalización de peligro"), T("The vehicle is <b>immobilised on the carriageway</b>, or its load has fallen onto it. Since <b>1 January 2026</b> only the connected V-16 is valid; the <b>triangles</b> no longer count. "
                                                                                                       "Compulsory for cars, vans, buses and lorries; <b>recommended, not compulsory</b>, for motorcycles.",
                                                                                                       "El vehículo ha quedado <b>inmovilizado en la calzada</b> o su carga está sobre ella. Desde el <b>1 de enero de 2026</b> solo vale la V-16 conectada; los <b>triángulos</b> ya no sirven. "
@@ -162,7 +162,7 @@ def blocks():
         ("10 % / 15 % rear overhang is for wider vehicles not built only for goods.", "El 10 % / 15 % por detrás es para vehículos más anchos no destinados solo a mercancías."),
         ("Trailer: ≤ 50 % of the <b>unladen</b> mass, by day, <b>−10 %</b> (not −10 km/h), nobody in it.", "Remolque: ≤ 50 % de la masa <b>en vacío</b>, de día, <b>−10 %</b> (no −10 km/h) y sin personas."),
         ("V-1 blue = priority; V-2 amber = obstacle or slow work vehicle (≤ 40 km/h).", "V-1 azul = prioritario; V-2 amarillo auto = obstáculo o vehículo de trabajo lento (≤ 40 km/h)."),
-        ("V-13 at the <b>rear left</b>; licence held under a year.", "V-13 en la <b>parte posterior izquierda</b>; permiso de menos de un año."),
+        ("V-13: licence held under a year; at the rear left, but on a motorcycle <b>anywhere visible at the rear</b> is enough.", "V-13: permiso de menos de un año; detrás a la izquierda, pero en moto basta un <b>sitio visible de la parte posterior</b>."),
         ("Triangles no longer count since 1 January 2026; the V-16 is not compulsory on motorcycles.", "Los triángulos ya no valen desde el 1 de enero de 2026; la V-16 no es obligatoria en moto."),
     ]))
 
@@ -180,7 +180,7 @@ def blocks():
             [T("Trailer", "Remolque"), T("≤ 50 % unladen mass · −10 % speed", "≤ 50 % de la masa en vacío · −10 % de velocidad")],
             [T("V-2 slow work vehicle", "V-2 vehículo de trabajo lento"), T("≤ 40 km/h", "≤ 40 km/h")],
             [T("V-6 long vehicle", "V-6 vehículo largo"), T("&gt; 12 m", "&gt; 12 m")],
-            [T("V-13 novice", "V-13 novel"), T("licence &lt; 1 year · 13 × 10 cm on motorcycles", "permiso &lt; 1 año · 13 × 10 cm en motos")],
+            [T("V-13 novice", "V-13 novel"), T("licence &lt; 1 year · 10 × 13 cm on motorcycles", "permiso &lt; 1 año · 10 × 13 cm en motos")],
         ],
         widths=["50%", "50%"],
         cls="small",

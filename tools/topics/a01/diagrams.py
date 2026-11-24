@@ -82,9 +82,9 @@ def wheel_layouts(lang):
                      + _wheel_v(cx - 38, 112) + _wheel_v(cx + 38, 112) + _wheel_v(cx - 38, 190) + _wheel_v(cx + 38, 190))
         p.append(_chip(cx, 252, chip, col, 6.6, 11.5))
     p.append(lines(360, 314, L(lang, ["The dashed line is the vehicle’s long axis. All four are automóviles: engine over 50 cm³ (combustion) and/or",
-                                        "a design speed over 45 km/h. The heavy quadricycle is defined by EU category L7e: up to 450 kg (600 kg for goods), 15 kW."],
+                                        "a design speed over 45 km/h. Heavy quadricycle (EU L7e): up to 450 kg in running order (600 kg goods), 15 kW."],
                                        ["La línea discontinua es el eje longitudinal. Los cuatro son automóviles: más de 50 cm³ (combustión) y/o más de",
-                                        "45 km/h por construcción. El cuatriciclo pesado se define por la categoría UE L7e: hasta 450 kg (600 kg mercancías), 15 kW."]), 10.5, 600, SLATE, "middle", 15))
+                                        "45 km/h por construcción. Cuatriciclo pesado (UE L7e): hasta 450 kg en orden de marcha (600 kg mercancías), 15 kW."]), 10.5, 600, SLATE, "middle", 15))
     return svg(720, 340, "".join(p), L(lang, "Two, three or four wheels", "Dos, tres o cuatro ruedas"))
 
 
